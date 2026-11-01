@@ -1,0 +1,3002 @@
+{
+  "fetched_utc": "2026-11-01T07:59:31.794876+00:00",
+  "files": [
+    {
+      "url": "https://horizonffxi.wiki/w/load.php?lang=en&modules=ext.FFXIMap&only=scripts&raw=1&skin=timeless",
+      "path": "annotations/imports/horizon/ffximap.js",
+      "sha256": "0f8d0ec7e08544a09915225f8bd62d42d6fbf622c6ff78ddbbbec60a67f3db86",
+      "bytes": 1322201
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/8/5.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/8-5.jpeg",
+      "sha256": "ad6d22615e1de14496ce42010f79b2f8d24c33b6848ce1f75b7b6fbf1afa7168",
+      "bytes": 4241
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/9/5.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/9-5.jpeg",
+      "sha256": "0fe90c8b8dd3059e461c16e2d7fa8a0f641edbed84d85186d99966fdd33c2828",
+      "bytes": 6369
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/10/5.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/10-5.jpeg",
+      "sha256": "a5ccd437f6ff10c28aa7ff201f0590939ea818d4181724e3dba81f22daf687b1",
+      "bytes": 6970
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/11/5.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/11-5.jpeg",
+      "sha256": "03773bc8cb43af241d99b2763302f9d730771aa934ac38aaa942d50009c7fe97",
+      "bytes": 8055
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/12/5.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/12-5.jpeg",
+      "sha256": "800e3c707be8ccf619d8acdcbae04a2c61541867f6e35819400755e85778888d",
+      "bytes": 6698
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/13/5.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/13-5.jpeg",
+      "sha256": "2ff62fd0f72ba3c6df402282c6d091bf00c9e4fad7ceab5ab3feba99c957fcaf",
+      "bytes": 6361
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/14/5.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/14-5.jpeg",
+      "sha256": "1ecb91754dc2f0eb3446e93b23a39bcc268ba9563211fb3e13d4778d138c469e",
+      "bytes": 6900
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/15/5.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/15-5.jpeg",
+      "sha256": "c945ea254d694a2de1f1bd7704707c10b003de821e2d57c1edcf4f2d40d6b321",
+      "bytes": 7189
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/16/5.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/16-5.jpeg",
+      "sha256": "f974d2927ce2122db8d0226df7167421bad92eba6a17e2b4e1bbf9bb399c7d6f",
+      "bytes": 9805
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/17/5.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/17-5.jpeg",
+      "sha256": "02dee1120a5a384e6f54ef0dd1425f62047f81b818f684307c3c22dade3591f7",
+      "bytes": 11201
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/18/5.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/18-5.jpeg",
+      "sha256": "587bb07e99ddcd0b83ae5eff00acce62a8a817ea53bac847c792e55f6a3d7597",
+      "bytes": 10195
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/8/6.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/8-6.jpeg",
+      "sha256": "1313839257996b9b124c1fabca4f36d19ef123bfc2e34675d52b94e549976cac",
+      "bytes": 4553
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/9/6.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/9-6.jpeg",
+      "sha256": "caf660ce8ba34a296cf6bb97ebd8b94c98d5bbc91634ecc3c82d8576c91f3ddc",
+      "bytes": 5572
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/10/6.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/10-6.jpeg",
+      "sha256": "dee8b657a3819fac549ad550af4b86a843345017ea13160b4bb1257e5a0073df",
+      "bytes": 6850
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/11/6.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/11-6.jpeg",
+      "sha256": "966525c1de3fea39daf43977310717610c9a32a3a121718a8c0818596afec1ff",
+      "bytes": 11728
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/12/6.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/12-6.jpeg",
+      "sha256": "e035e6cdbb0d04b8b2f93aae6a902ca0df4342e1d69e9cd096fbe6550808287a",
+      "bytes": 9276
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/13/6.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/13-6.jpeg",
+      "sha256": "dd91de47208f4b57cba17927c9550a0b7af867e4f95c7c37171c909e9108f191",
+      "bytes": 3782
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/14/6.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/14-6.jpeg",
+      "sha256": "0a64efb7823f956d698ed248855d670e49b013ac768ed257690cd14fc2b8e5bb",
+      "bytes": 3786
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/15/6.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/15-6.jpeg",
+      "sha256": "464019c713bd2bb1289d8dce284a5a321e1c0d52a2ccf3aee49da8c6f199eb64",
+      "bytes": 6269
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/16/6.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/16-6.jpeg",
+      "sha256": "48b55c4f043967a9fc5396b9097b822c44db987efcf64c2c789222ec7b2d70f2",
+      "bytes": 13514
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/17/6.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/17-6.jpeg",
+      "sha256": "9831b1c2f8b44f840047943c8db57329e6661e75291f88696d24d9f3e4235fa7",
+      "bytes": 11040
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/18/6.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/18-6.jpeg",
+      "sha256": "35a100121f179b1db183dd66143ff3709a404038e16019c0943a987ca1c99460",
+      "bytes": 9274
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/20/6.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/20-6.jpeg",
+      "sha256": "d1aa1e969e4a12065aac7e4c1d72acefa4486c3559875e099d627d348f10de5e",
+      "bytes": 6054
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/21/6.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/21-6.jpeg",
+      "sha256": "2630f661115dd398bd0537c92f7b7b70fe566208398e7786f82c2db30703de57",
+      "bytes": 9821
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/22/6.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/22-6.jpeg",
+      "sha256": "88dba2ef941abe5deb0554429fd0fef21c9d0ea19165aceab788ff4bf542247f",
+      "bytes": 9420
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/23/6.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/23-6.jpeg",
+      "sha256": "d35e088f801755bc245a9bd4c570debef426c6b07e139dc65b1671bba0f73170",
+      "bytes": 4221
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/8/7.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/8-7.jpeg",
+      "sha256": "51e8fb08a2ec94345d17faa21a06cef5c1eb934ce15735d00ffeb6669aad685b",
+      "bytes": 7759
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/9/7.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/9-7.jpeg",
+      "sha256": "7f90fbaa3f760c3796fe74a59ba49ad77e410e7234571d4f4bb2f736d656605f",
+      "bytes": 5566
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/10/7.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/10-7.jpeg",
+      "sha256": "c8f3a2fa359225ac72587422cbad75c5ca65e797a67f46fc5c798ccbf38c1a34",
+      "bytes": 3664
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/11/7.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/11-7.jpeg",
+      "sha256": "44867ca0f59eb0a1333ed341f2352b4f779cad4757ca2e7271a3651ec643966f",
+      "bytes": 9006
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/12/7.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/12-7.jpeg",
+      "sha256": "752aedec2196c3ee3cf9e81c08fee1ef2b98c7dbc4d904be49d7bb6de7ce6b77",
+      "bytes": 8915
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/13/7.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/13-7.jpeg",
+      "sha256": "bd2ea2360fd1efa9b8ed0e54e859b64d43b9b7707f59d9b8a77c187f860766c3",
+      "bytes": 7392
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/14/7.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/14-7.jpeg",
+      "sha256": "6d50c38ec5e69cabb34c37de4d20b0d62636ada867375dae7d58ccadc194d0f5",
+      "bytes": 5575
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/15/7.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/15-7.jpeg",
+      "sha256": "c968dba2f570ae3ed62233687c38e33945c7b269fd19aa0a070ccb7f74be686c",
+      "bytes": 4351
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/16/7.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/16-7.jpeg",
+      "sha256": "59537044f77708fb5e55e7bb0b00dd0a3a919c06fb4f733b07f68b37d5574a07",
+      "bytes": 12557
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/17/7.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/17-7.jpeg",
+      "sha256": "9942f3a52a73b2858f6713439dda71329d5b1f4ed3deed572bb94316ba0af0e0",
+      "bytes": 12568
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/18/7.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/18-7.jpeg",
+      "sha256": "7e8e34640dacf155f53849d46c888ca140dfb08c485ed1d7da1a35b0a61cae7c",
+      "bytes": 3933
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/20/7.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/20-7.jpeg",
+      "sha256": "1a99f9602dc227794978979674fe968e6933d105bf809afcf791d8b2b7e93c58",
+      "bytes": 4985
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/21/7.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/21-7.jpeg",
+      "sha256": "6473db2378cb6d587175b18334c9509a37cf3356bf8a06ab2ee8364a7f960615",
+      "bytes": 16107
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/22/7.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/22-7.jpeg",
+      "sha256": "bd8a312f0c83ed38494e577dfac6d2a94892f4a845d1083b3cddf4b7bc6a9399",
+      "bytes": 14175
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/23/7.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/23-7.jpeg",
+      "sha256": "28287ebed381e2ced6a8b5b95a21f2483e0917a1dd3bccc3b51122451d4988f5",
+      "bytes": 4805
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/8/8.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/8-8.jpeg",
+      "sha256": "32c540f8795e29c232fb44dce97135f033ba42c8fd1edefcf32ecdee56f9b43d",
+      "bytes": 4296
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/9/8.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/9-8.jpeg",
+      "sha256": "6a580aa527f95e778ef4cacf0f203521f42735e74b47f1f333aec018962fd24a",
+      "bytes": 9323
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/10/8.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/10-8.jpeg",
+      "sha256": "5e5f812dac317eab75e584eafe46f438d83db49c6d162950076308674ae639bc",
+      "bytes": 11972
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/11/8.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/11-8.jpeg",
+      "sha256": "9dfcfea5c9dae4895f85d33a9df6fcbf4c65aadcc410130befcfb2fc45d2fbd7",
+      "bytes": 11702
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/12/8.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/12-8.jpeg",
+      "sha256": "7f336d83caae7cb947fbb2f1eefc9504a12606ac2619448da199fa47ee125af0",
+      "bytes": 9279
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/13/8.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/13-8.jpeg",
+      "sha256": "9888dd33ecfd07cdb3bc8476ccbf92f3fc9013ace96849b1d160fa677d8d9300",
+      "bytes": 13394
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/14/8.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/14-8.jpeg",
+      "sha256": "2d25b66f191d5f58a2ef3c41824c33ae20f49b40a6d0b8e736a178a24dd41619",
+      "bytes": 8030
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/15/8.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/15-8.jpeg",
+      "sha256": "61d29af030f0b1516267ba2bed4b33292b66e9710691aad851f953fc7a46cb5b",
+      "bytes": 14524
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/16/8.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/16-8.jpeg",
+      "sha256": "82040b7d3bae5c7602421c1d5cdf7d1cfe667ec269397dde6453b5ea3731483b",
+      "bytes": 14301
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/17/8.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/17-8.jpeg",
+      "sha256": "07d90b1d4e01fa13ea48bc76040534d24008b2ee171aa84faf48b81714b95445",
+      "bytes": 6110
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/18/8.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/18-8.jpeg",
+      "sha256": "59bf63c40d02381de534df3626480c073d68ef3f5563186e55beaf1f8ecd836d",
+      "bytes": 3987
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/19/8.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/19-8.jpeg",
+      "sha256": "56959cce108707b4f63566a5c17916548d4a5f4c040db3a6bca7435ea98bb5a2",
+      "bytes": 6353
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/20/8.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/20-8.jpeg",
+      "sha256": "73ac6057a75a9ceea25e33c11885c95e88e62c2bd1156ba7052dfeb31944b0e3",
+      "bytes": 4175
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/21/8.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/21-8.jpeg",
+      "sha256": "7d50cfe87e018e782b4ddb9d80f03a429eddf02ecedadd84f6c14f0b3568b441",
+      "bytes": 11087
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/22/8.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/22-8.jpeg",
+      "sha256": "64f53295f06a7535fd90a793221f094a7ad97b7b264d024ad469ae6acd0110db",
+      "bytes": 7791
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/23/8.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/23-8.jpeg",
+      "sha256": "83d6e6acb12b47d70bd6d9ccb179c752c87c4517f7a875eb9ce0e21dcb19bf29",
+      "bytes": 5845
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/8/9.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/8-9.jpeg",
+      "sha256": "361854a1e097fb27be0dca16a2529ca00c2d1980be58b2639dc7ea6cd8f92fa5",
+      "bytes": 5426
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/9/9.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/9-9.jpeg",
+      "sha256": "426e11885082eef4360c6739f5b145f4ab4d2806f1c0ce05a0a4c59230663144",
+      "bytes": 12866
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/10/9.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/10-9.jpeg",
+      "sha256": "3ec49f88b687b3214306396d69e75b919b8874027c016f39505b2aac83dac352",
+      "bytes": 10638
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/11/9.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/11-9.jpeg",
+      "sha256": "086e1c83467299f52956b6d191b3c42f904f57256c164f7edcd9474b737f2bcd",
+      "bytes": 10555
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/12/9.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/12-9.jpeg",
+      "sha256": "0b6a86aed294d89954a52ed623a1f084545d17ddbd8b7e0963476d424c054ce3",
+      "bytes": 8540
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/13/9.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/13-9.jpeg",
+      "sha256": "a778fb049370c88ac5000803b8618d01f1fcf89abbbb72966f8995e242dc5116",
+      "bytes": 6556
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/14/9.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/14-9.jpeg",
+      "sha256": "0a755d5084f27e3d56cab730166f0a6dd10f86bd6ec13534c98bcdb0f817f59f",
+      "bytes": 7487
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/15/9.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/15-9.jpeg",
+      "sha256": "c2a7a08318435059ec2cdfa2e9bce56b99125664b98e6364440d2ccde6252013",
+      "bytes": 12587
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/16/9.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/16-9.jpeg",
+      "sha256": "7a2c280980ef186eb935f3d95e2f642729ea2e73bf6ff9a02a51339369fa8cda",
+      "bytes": 13232
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/17/9.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/17-9.jpeg",
+      "sha256": "420f217ffe28189836cd9554a624d35ac3899ec4ae23b8ef6187596b9d3a7b71",
+      "bytes": 4040
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/18/9.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/18-9.jpeg",
+      "sha256": "92cf3eb35655d2453616ef266179d72bb283545691d5bec52e9733a040ed9d88",
+      "bytes": 5518
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/19/9.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/19-9.jpeg",
+      "sha256": "34b0afb9be449566ad1c975dc6b98a00351ae1ab837ea1f80bf7553553e56e57",
+      "bytes": 4930
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/20/9.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/20-9.jpeg",
+      "sha256": "142da9b55b8a3f7f4d8ddff066af0d5c43d7498f1947187e2647d0fe108b4026",
+      "bytes": 4117
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/21/9.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/21-9.jpeg",
+      "sha256": "d2c6c89c17f4393f67ee9139359f7decd1974dedf1e01158e49a977270500b1f",
+      "bytes": 4115
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/22/9.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/22-9.jpeg",
+      "sha256": "d85bd3252fb1e7c627e7d71ace11cee41eed6e9138aae5f071107c28f1ebe595",
+      "bytes": 4066
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/23/9.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/23-9.jpeg",
+      "sha256": "42e8a0031481fb79a5eac9eb4c13bafe213f713ce7441a25462818dbe5e7af48",
+      "bytes": 4016
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/8/10.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/8-10.jpeg",
+      "sha256": "f7b25f5bf9faef55a84fb7d1880dee92c1a3241382dbd69c2f4bc8de1df8dc54",
+      "bytes": 6236
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/9/10.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/9-10.jpeg",
+      "sha256": "57de9f14324899ec2944f7524474d5f4153ee42bc9789b1a634f81d1158e107f",
+      "bytes": 16149
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/10/10.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/10-10.jpeg",
+      "sha256": "134a44ec7b39bfb35283618719cab4ac59377d7ce7fe3bd8205ca7581bca5004",
+      "bytes": 6930
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/11/10.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/11-10.jpeg",
+      "sha256": "d18c4ceed743c9b8b798bf9a447dae6c33606527ea109f10d9e6a3d12863ce5d",
+      "bytes": 10642
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/12/10.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/12-10.jpeg",
+      "sha256": "c0202791fcbeb6dede0961901bb5303fef10db0c8d4fb60f91333c02392f4e0c",
+      "bytes": 12620
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/13/10.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/13-10.jpeg",
+      "sha256": "6f1c2ef9d49d22297cc0699541c3cdd4b7ca190ce7af7b98059ff8219267ba40",
+      "bytes": 8624
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/14/10.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/14-10.jpeg",
+      "sha256": "8273c28d848dc2151f7865d111633afef44c735c3b94ca67eff1a0ae827b6144",
+      "bytes": 11618
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/15/10.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/15-10.jpeg",
+      "sha256": "e7692206115674bf5151bb1772980a1c6b7986a73deae8244bc3a96cf38ce397",
+      "bytes": 13904
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/16/10.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/16-10.jpeg",
+      "sha256": "dd3f2eb6847fb2b915d91a0feacb6265fbe957bbdc5cfeea652925f8ca4493c8",
+      "bytes": 10934
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/17/10.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/17-10.jpeg",
+      "sha256": "6442476c144df8ec78e2eba54cd90dc240794b4fa77e7c74a57573ca26bf8452",
+      "bytes": 6356
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/18/10.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/18-10.jpeg",
+      "sha256": "ba6363a94611920fea51c7929e12e8cc34dc43be7929e3982e7fc9c6b9fc4256",
+      "bytes": 5506
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/19/10.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/19-10.jpeg",
+      "sha256": "eedb3bd5eb1cfe0dc76c273c5e7310a8325dfea733d038fdd296d0be86738a99",
+      "bytes": 9020
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/20/10.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/20-10.jpeg",
+      "sha256": "3c85713c27141cb90d30a55882be4748784c04d99874b65d38f6c1272d2d08c4",
+      "bytes": 10720
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/21/10.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/21-10.jpeg",
+      "sha256": "3ab55f5c809bd660106599265193e61f89fa0b62d75a1bf845c08e3ac44a285d",
+      "bytes": 10570
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/22/10.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/22-10.jpeg",
+      "sha256": "2edb5b40770fb2b20828df133a406afdbc11c5eb18ae94cf20f57b91f2de38da",
+      "bytes": 6421
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/8/11.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/8-11.jpeg",
+      "sha256": "a34e8e3c822a1b1cacec2378867600132a977f370b75a4b91c55ce501f3ac1e7",
+      "bytes": 11577
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/9/11.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/9-11.jpeg",
+      "sha256": "2f6870a3ee81c0e1c430389038dd1be3b67857fce6b19cf4496d76fbcba4dcb2",
+      "bytes": 11457
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/10/11.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/10-11.jpeg",
+      "sha256": "d1507771419dffa5e287fb65eecc85f35d0e428673af9d0b58b25337b42448f2",
+      "bytes": 12740
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/11/11.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/11-11.jpeg",
+      "sha256": "95957ab0b0da164bdd7526ecf03f88472b6fe52b6dab0e95e14989add1ab23be",
+      "bytes": 9144
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/12/11.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/12-11.jpeg",
+      "sha256": "d24ccab9d297ce10c2613cb4380ab8635745d232dfe92bfabe691826356faea6",
+      "bytes": 9510
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/13/11.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/13-11.jpeg",
+      "sha256": "030964793481a6dbdc0386680601a9593dafe0507604348a43cdd3b23ed049b1",
+      "bytes": 10456
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/14/11.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/14-11.jpeg",
+      "sha256": "fca3c5450f552fdc2094a8b604aaf2e74e74142272c395eefc9f3fcd89da06af",
+      "bytes": 7698
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/15/11.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/15-11.jpeg",
+      "sha256": "0634daf0a422bb926009a796b86d14b670138981a5112005c7c913cb7f6f040c",
+      "bytes": 6208
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/16/11.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/16-11.jpeg",
+      "sha256": "0f9dbb0e6e5fff68b83010ea42183bb42f00b3443e3b867a08d1b04586313566",
+      "bytes": 9782
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/17/11.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/17-11.jpeg",
+      "sha256": "6493108d488b653891cfcd6b7d7ce52c80c1af661a3b09ee3fe6c6bac5e0f8a8",
+      "bytes": 13780
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/18/11.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/18-11.jpeg",
+      "sha256": "0c9a3db9e93de66f008079fcc7e59daa46fee104d757ec599d711fa87d91d5ee",
+      "bytes": 5287
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/19/11.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/19-11.jpeg",
+      "sha256": "7e5690ca82a039d2fce33fc26fb77dfb67a11ea7c54f6e2f9795f9fb069315d3",
+      "bytes": 9480
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/20/11.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/20-11.jpeg",
+      "sha256": "305c64de2539051bbfbf78659894badf07af83867b1a95a43f72bd14419e479c",
+      "bytes": 10516
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/21/11.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/21-11.jpeg",
+      "sha256": "8d95437af6b634fb4cb356ecbc112c98dc01e33a774f73dac0616ee4ddf602d0",
+      "bytes": 5373
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/22/11.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/22-11.jpeg",
+      "sha256": "60546c313b91571303bcf93ad4fe89ed622441b524583c60cf55abe760132465",
+      "bytes": 4267
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/24/11.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/24-11.jpeg",
+      "sha256": "0f7cbd3e3cd14e0dcb8dc8389f5268a1b737b67092da73bab5d90294478fab5e",
+      "bytes": 8686
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/25/11.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/25-11.jpeg",
+      "sha256": "af89eb28618deb92962169bea3c992dde967ed5228157add5e8d09874d0476e1",
+      "bytes": 11619
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/26/11.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/26-11.jpeg",
+      "sha256": "dd102b396ba06d360fcbe2427c58a099f6d69c06ddae59d8b96bfaa53a68ac2c",
+      "bytes": 6474
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/27/11.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/27-11.jpeg",
+      "sha256": "d016190bbf2f8ee9ceeeaca36996d314b6aa87c1a29bd19e397be98bade149c3",
+      "bytes": 5089
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/28/11.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/28-11.jpeg",
+      "sha256": "b95c144861883180ddeb9c7ad6baa3a9daac41199a2f5db22e0a75a11ed22372",
+      "bytes": 5623
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/0/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/0-12.jpeg",
+      "sha256": "d5cd053bb90423bde03ec44cf0334eb9b1781b2f10e57b43b27ebde25df594f1",
+      "bytes": 4306
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/1/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/1-12.jpeg",
+      "sha256": "b48befd1d8f7ce07909c3d968f657013f9a1c1c68fe39377e7298642a2aa3b1d",
+      "bytes": 5017
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/2/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/2-12.jpeg",
+      "sha256": "fde18fcbba5a3194a505cc8a5de4e9120f06437341c455b01b17a1c46c161d3b",
+      "bytes": 6248
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/3/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/3-12.jpeg",
+      "sha256": "101dd0a728abe3d32740ced70c3ede9917142b910284f2a697ee56666d9e1ac7",
+      "bytes": 6453
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/4/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/4-12.jpeg",
+      "sha256": "5c90a1906c5411c49e00afcbb78c3d112d9dd1fe6e4097edb156d200c5b87497",
+      "bytes": 6248
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/5/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/5-12.jpeg",
+      "sha256": "39b012889c1cefbd33f7cbb4cbe8e991091e3e36649291a13ae93d6b880cb2aa",
+      "bytes": 6383
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/6/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/6-12.jpeg",
+      "sha256": "9df6ef8701c0241e5927dcc27c44b1ee76f15f09c5126d89e1e83e20b546d14c",
+      "bytes": 5625
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/8/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/8-12.jpeg",
+      "sha256": "e34f0cbf4cc034f5f3af5094b0a5bf85e63a6183ec79008f444a9bacef02796e",
+      "bytes": 4323
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/9/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/9-12.jpeg",
+      "sha256": "5a7600bddb4f6a3e5fec3fb3fa5c47b8d3ed9e3c219ad38943c8992d3530c199",
+      "bytes": 5262
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/10/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/10-12.jpeg",
+      "sha256": "794085cbe951aaeda51f280d01076aa201f308a29dc57c7bfa161e23409e9c91",
+      "bytes": 6214
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/11/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/11-12.jpeg",
+      "sha256": "ac2d2e5631ff28dacf8f1bc1053953c066ea308a5feb5976fc47ec3fc8105aa2",
+      "bytes": 8221
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/12/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/12-12.jpeg",
+      "sha256": "b9b294c8958e911d370dd1ea15e5c7d182ec0f46e37be3c490c7f0f7f21b1c06",
+      "bytes": 10646
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/13/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/13-12.jpeg",
+      "sha256": "0ee3a2ab729bc868c91aa5fe0a8b3352c8f74a6dfccc6467aac64ed8e923218f",
+      "bytes": 10978
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/14/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/14-12.jpeg",
+      "sha256": "1f44a2706d8f62efd562019cd71a4fe4586b3f293061271acdf73047e862d55b",
+      "bytes": 9531
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/15/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/15-12.jpeg",
+      "sha256": "47e756382f15d9e37ae04ee9dfbf3b3aca199bdc641359c74b17ed79eb654a12",
+      "bytes": 10977
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/16/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/16-12.jpeg",
+      "sha256": "f52b6703a8701070291f8d36170c2b4b2510e65a7690fd7c862e22922edd036b",
+      "bytes": 8580
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/17/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/17-12.jpeg",
+      "sha256": "4c57220679479f1cc21d3f76d05c415fd9e5e4f65562576164bc2a64675a2482",
+      "bytes": 8799
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/18/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/18-12.jpeg",
+      "sha256": "0300e74a85582de607a0cefb7970ae36c84cb7947b33ba07a616da825bf32b46",
+      "bytes": 9141
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/19/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/19-12.jpeg",
+      "sha256": "77b762d08f36dfb1351c29b3c354e71aed7618ec1be4dddbe140ed4a84553f53",
+      "bytes": 6827
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/20/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/20-12.jpeg",
+      "sha256": "1af2eefd3b38e71d5ac16232f5a5b364ca6975c511a6563932a633de3e3a8984",
+      "bytes": 6527
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/21/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/21-12.jpeg",
+      "sha256": "d0af6aadb4959836c4adfae9cbfb4baa654dfb7fdff15b04201edbd1ca73fda5",
+      "bytes": 4404
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/22/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/22-12.jpeg",
+      "sha256": "4cbae4da15f1835c94702c97aca5f87f67a38af020b68150a8ee48b2b37d168f",
+      "bytes": 6329
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/23/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/23-12.jpeg",
+      "sha256": "1db686c7a9bc69b6d424d17360f51a6c03304651bf0e665ac63bd15200e9c715",
+      "bytes": 4593
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/24/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/24-12.jpeg",
+      "sha256": "40dcec7f7df07884fdf4bdf27935fa0dc8f24aac4ae97ccad7e738f8c923646c",
+      "bytes": 7706
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/25/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/25-12.jpeg",
+      "sha256": "75eee3a8fa5f4f7883ec77904dad1d591ff5158f052d221c786b22c372bac077",
+      "bytes": 10708
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/26/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/26-12.jpeg",
+      "sha256": "b402829f7d7ddf1efd0cd01f6cc800dcf62aa9b43c1c98d72714cb090751469d",
+      "bytes": 8450
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/27/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/27-12.jpeg",
+      "sha256": "259fb6a7d7d71141846aed6403f0dae099977f4363fb20d68f4ce3dee147744f",
+      "bytes": 10387
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/28/12.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/28-12.jpeg",
+      "sha256": "c9471824d77440b723e3850515c8da68529a4922923b853917be861d7bbc1e6f",
+      "bytes": 5295
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/0/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/0-13.jpeg",
+      "sha256": "acb49a52dc73f24ba84b47c95709e78a1414a62e8a344fa4a5f882be59769c0c",
+      "bytes": 4722
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/1/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/1-13.jpeg",
+      "sha256": "620878643ec5e11ba55104ff0625b0177dd73d72bbe7ef131d45fab225e3d934",
+      "bytes": 7902
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/2/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/2-13.jpeg",
+      "sha256": "c8ca8040861d433d7cf7517d04bc4c4ecf9a3fb3fc4b94598d3a63153c7b01e1",
+      "bytes": 16949
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/3/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/3-13.jpeg",
+      "sha256": "d4c0ba1bbf04e896993a123da0921a00c44f12af3f2c5081c9bd6f7dce63b918",
+      "bytes": 11378
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/4/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/4-13.jpeg",
+      "sha256": "54fd461d79f64eb30e59b0467dbb625a27dd121789cad0c5242edc7cb2cb5f16",
+      "bytes": 9403
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/5/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/5-13.jpeg",
+      "sha256": "dbe778c6d0b79208b4a7211bd10fbea9f2ee11493a108afe846c71c2cb9276b9",
+      "bytes": 9597
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/6/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/6-13.jpeg",
+      "sha256": "a46d1fb3fa77b47c1993e1d08de748ffd8a219f6199ea5555316e688de09e1fc",
+      "bytes": 9688
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/8/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/8-13.jpeg",
+      "sha256": "82fa804e486cd15966cf37cfbd2c4583a1ca7cfc8b1de0aa9c46b5580d74f20e",
+      "bytes": 6196
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/9/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/9-13.jpeg",
+      "sha256": "d56b73186a9520562413961d3ff4f6f1ec8ee64846b308eb5dffedf0c1ef6f64",
+      "bytes": 5285
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/10/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/10-13.jpeg",
+      "sha256": "ff34e17a1a58b20151ba6871aa16a833a8540e9069e68cfb51560ee2d74e9d61",
+      "bytes": 9089
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/11/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/11-13.jpeg",
+      "sha256": "6ab45a3ede157d7b3338c276c3263c56566289878aba28002b08d693f971b7c8",
+      "bytes": 10972
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/12/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/12-13.jpeg",
+      "sha256": "c44e0bc409845182e4aa7b0bf3643d104447ed867ca8a3009b997b0445407e56",
+      "bytes": 12681
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/13/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/13-13.jpeg",
+      "sha256": "c18b712075af035eeac471aba393b45234a893da7fe1148d31bc9929c55d3827",
+      "bytes": 4892
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/14/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/14-13.jpeg",
+      "sha256": "b0c0846cfcd278f398b27b2951c7b39126b719e7e7c1c1ed9b0c3133b180c6f4",
+      "bytes": 11780
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/15/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/15-13.jpeg",
+      "sha256": "4979bc2843416cf589b389223cd3797d19c54fd88fad5f3aab5e84d56be7f4d4",
+      "bytes": 15209
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/16/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/16-13.jpeg",
+      "sha256": "1cd3bbf15d3aa0e19b400e8a98cf5bc3fd14e23c1e29c4f2a5d7192828a21e5c",
+      "bytes": 7656
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/17/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/17-13.jpeg",
+      "sha256": "d3a11a04cc7396d582b4b93fd704eff5bb2df8fdc39d26a0f1809ab15d56a5f7",
+      "bytes": 5549
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/18/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/18-13.jpeg",
+      "sha256": "7c84cdcf1574dc99e32786f95e4f5e0a72b393c7afa417675419c14d7e1aba18",
+      "bytes": 7328
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/19/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/19-13.jpeg",
+      "sha256": "62283c3a7c9eb5cfed357d92e6c3137d3847479df2cc172306a8b783ebb44c9b",
+      "bytes": 9093
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/20/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/20-13.jpeg",
+      "sha256": "63804ee03b186c2d43be8dd5985b2b6fb2f18d14b3a246d74e2e4d16286da990",
+      "bytes": 14217
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/21/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/21-13.jpeg",
+      "sha256": "b0cc56ffd9a0325d966de0b5121fdca7e05ecf9e467ac4d8aafc8e19097da6e3",
+      "bytes": 13624
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/22/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/22-13.jpeg",
+      "sha256": "779603485443f9839a5b43a269f5c448bfd968f1a60bca8490c9cbaf0973ad41",
+      "bytes": 8998
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/23/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/23-13.jpeg",
+      "sha256": "f3078768281f7041bdfe1d8c8f746a4b5950b1938930c6f414e33206b80486b7",
+      "bytes": 10852
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/24/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/24-13.jpeg",
+      "sha256": "2f848ed12ecccea0ee653f9d75822125b249c44ddf2cd1655e17fb843a7f1831",
+      "bytes": 7663
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/25/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/25-13.jpeg",
+      "sha256": "dbe995f2f61016513bab5ae49a377738e1e06609b0f0176ddb65ddc19e5e345a",
+      "bytes": 12231
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/26/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/26-13.jpeg",
+      "sha256": "5f413cec0c7517c75b096855998433a272eff1f44b5adc0a3b45c36e05f3bdd9",
+      "bytes": 15588
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/27/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/27-13.jpeg",
+      "sha256": "67c22681a7ebcd1e4caa363cc6dfe2f0962d89f82592ca5a1e4214522ff4981a",
+      "bytes": 5523
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/28/13.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/28-13.jpeg",
+      "sha256": "13e0873a81d56ddaf56ab6622e2d860b59c3e42f3a954959712134f2bbaa9275",
+      "bytes": 6078
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/0/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/0-14.jpeg",
+      "sha256": "165164f63d4ff74cd4415c4afce139b8ca82f78742c660b996bd83f00566847c",
+      "bytes": 6538
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/1/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/1-14.jpeg",
+      "sha256": "63fb598a8859cddf7ad1b1d78669dcbdaee8199351af9ec0763d34b475412398",
+      "bytes": 11038
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/2/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/2-14.jpeg",
+      "sha256": "563b1604d0757d20915da640bef50a672d5c05a424cff1daade3fdbe6ecb910c",
+      "bytes": 8893
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/3/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/3-14.jpeg",
+      "sha256": "9fc8eee40bff002b6ec3a71419089386a8c1f93a871daf253d691e3478c75611",
+      "bytes": 11942
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/4/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/4-14.jpeg",
+      "sha256": "c2508f57c39910b710a6d5717cd2ffa1c22bd9fba5ae92bc2ec2d6823c89802f",
+      "bytes": 11729
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/5/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/5-14.jpeg",
+      "sha256": "08d772395b3d32bd1cbb14d3aa53c8bff285fbc4b1c25d0557447b6f686eecd5",
+      "bytes": 12055
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/6/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/6-14.jpeg",
+      "sha256": "a7271ec22f248bfebf228681edf15208912f6d7a4df54ba173e2200e508c9cc1",
+      "bytes": 4827
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/8/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/8-14.jpeg",
+      "sha256": "57b3bc7342d47c4fffad6e15ae8f3a108e0b9ec89ffb2ce24fd58e0648169b42",
+      "bytes": 4659
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/9/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/9-14.jpeg",
+      "sha256": "2597ef50f55b9b46f82fbbc5cd045f91fb3ed09d1dee62fb0f23706ed966464d",
+      "bytes": 5028
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/10/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/10-14.jpeg",
+      "sha256": "7acb39b7e135a6c647a5cc0bada61ad4f5c0f6e3cb8641881be3ba28c15a23f2",
+      "bytes": 7418
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/11/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/11-14.jpeg",
+      "sha256": "5322903bcadbc93caf2a3fd1c6759e9844b46eff31e9b2b04d2ccd9069349af2",
+      "bytes": 10124
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/12/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/12-14.jpeg",
+      "sha256": "b8be86874afb97b20e336c8bbdc2954be73fe8224723558875e23139d67b328b",
+      "bytes": 9627
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/13/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/13-14.jpeg",
+      "sha256": "aa1835d1fa0515e8cc6dc6d1657f155548caa1f738d3d4245b16ee2b20036e14",
+      "bytes": 7901
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/14/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/14-14.jpeg",
+      "sha256": "c28e6f3355db13e065f5225c7b3dd64b01b336d84d515bfa8f5241d97bc86fa9",
+      "bytes": 11548
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/15/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/15-14.jpeg",
+      "sha256": "5b4e24b19a673a50c22f643f29264260d12a4aadc112451a128e443a25ba0092",
+      "bytes": 15427
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/16/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/16-14.jpeg",
+      "sha256": "e11547923e8e5cf92721ab84a7f82ded8debb03cdd495a4ed1dee3978de3455c",
+      "bytes": 11038
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/17/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/17-14.jpeg",
+      "sha256": "76f628b7957ce3ed58bc8d0ace0477ef01ede344f43477841552abecef35dd94",
+      "bytes": 12928
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/18/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/18-14.jpeg",
+      "sha256": "933c99c81a303abb7eefed8613d97a735284dfb209dbc6bec9bbfb891c7b3e5f",
+      "bytes": 13640
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/19/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/19-14.jpeg",
+      "sha256": "a16e160c00c59cb5428477c70a9b3b5c789ad2a845159cb1c87186dc28082f84",
+      "bytes": 5553
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/20/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/20-14.jpeg",
+      "sha256": "865a36e3acb23ba721e0dd592bbc53d2c58ee20a2556eeabc0c1cb65ca6123e6",
+      "bytes": 9790
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/21/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/21-14.jpeg",
+      "sha256": "a4a068de68c9ef0a9218ddfb5ebfe25699711c5cb31ca6ea061251b754409212",
+      "bytes": 11303
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/22/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/22-14.jpeg",
+      "sha256": "df630441d1f8b43e12e97669c5801baa360a7096b53a4511c0caa7176fdedb76",
+      "bytes": 9131
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/23/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/23-14.jpeg",
+      "sha256": "7469b511949d897dc0e051450e686faf9b2683c80545da82885e8c81f158c51f",
+      "bytes": 8501
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/24/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/24-14.jpeg",
+      "sha256": "2f6e3a45831359d10fb60eeb7d0736fdd1857da9bcf93bd17fb9c378be11c8f0",
+      "bytes": 6939
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/25/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/25-14.jpeg",
+      "sha256": "fb56d24695aa3bf352b6f02d47e80307cbe935e990e3fa5d70d33e692329ace1",
+      "bytes": 9175
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/26/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/26-14.jpeg",
+      "sha256": "bccea7f57a83fda3e360ca5bc4fae04fe23d6047faff402bf3b6c40938327e63",
+      "bytes": 11860
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/27/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/27-14.jpeg",
+      "sha256": "5ff86d7a30206792fa54705ea7daa25c774f1389b39c40327612798dab79cc8c",
+      "bytes": 6329
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/28/14.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/28-14.jpeg",
+      "sha256": "377bebbf34569b92de836b0f73444137c0e3633b2551606d9a0269289e381fac",
+      "bytes": 3944
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/0/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/0-15.jpeg",
+      "sha256": "9632d20b0f5d660f23c2a782562243df39cbe7e9c9d5bef2cddd618bfce5bd94",
+      "bytes": 4178
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/1/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/1-15.jpeg",
+      "sha256": "fd859048edfe559dd737106f8fc4bcbe4af0ce4e4680ca5d6c4c93e11b2f10f4",
+      "bytes": 4592
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/2/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/2-15.jpeg",
+      "sha256": "b32eece64409b805adec8e12d2d0725f0a51f6ba92bd4ba8d014468d75fecfc3",
+      "bytes": 6541
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/3/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/3-15.jpeg",
+      "sha256": "aefd6f42cdbdf422a999ba6e24246ac9f2f6d73b06c5c08450a1100b96b3088d",
+      "bytes": 12582
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/4/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/4-15.jpeg",
+      "sha256": "db66681d516ee409f71ff3e56139c5914cfc7cbb29ba4825715b13d2273c47d6",
+      "bytes": 6350
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/5/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/5-15.jpeg",
+      "sha256": "739b18046de86539c73b871926aede06288941f51cf599a114615cc7f63bffe4",
+      "bytes": 7303
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/6/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/6-15.jpeg",
+      "sha256": "43bd9f2abbac9c01dc763ada1a1de5b201ebccc39d08b90929c0e2a32e02ac7a",
+      "bytes": 4714
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/7/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/7-15.jpeg",
+      "sha256": "00c3a8affe08db8d9c2dd014598573956439f5dbac7fe417bc5d188b4c9726a1",
+      "bytes": 4275
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/8/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/8-15.jpeg",
+      "sha256": "3b7601a09bfdf7b3d82f6b7b825cd8eaa8c9b6c6d80fde9cdd40f6750f571c00",
+      "bytes": 4540
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/9/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/9-15.jpeg",
+      "sha256": "2e8b08931523b09d2296e212cfce5b171a25a668a21b911a7fb8a67cc1f91e4e",
+      "bytes": 5005
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/10/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/10-15.jpeg",
+      "sha256": "187ba74c867f61b7fb8278df178c51704864464ae6c17d4c759a982127d1bd38",
+      "bytes": 4602
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/11/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/11-15.jpeg",
+      "sha256": "da39cf5cd8385989aeb0429a30f4e16d16bbe71f9cf35752c35cd7845cff82f2",
+      "bytes": 8235
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/12/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/12-15.jpeg",
+      "sha256": "34bdb51b03cb27cfcca8464d0f6ea4d9b8948653d0255f396fdcd00d6f0234df",
+      "bytes": 8776
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/13/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/13-15.jpeg",
+      "sha256": "76608d70bc8f1cc3def08c5cddbc10e2b14fe786dc9488a30029dc3ff7c91ad3",
+      "bytes": 11177
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/14/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/14-15.jpeg",
+      "sha256": "adb352045f336d35530302d309c222c57fee11a568d50118c26a88765e9f17e7",
+      "bytes": 12824
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/15/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/15-15.jpeg",
+      "sha256": "63453ce1e330b91f84b2f86114fb9f52953d100ec87403e2d1dd9be8c00f2698",
+      "bytes": 6230
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/16/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/16-15.jpeg",
+      "sha256": "03bb44fb4daff0ca0beb22b35a46a69b8af80bdd66c390b4d0d62c86810cf912",
+      "bytes": 8332
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/17/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/17-15.jpeg",
+      "sha256": "0c08b3bebb68de9a00f581f3dc7ea9c84b06cb3e457f0c2e86141c2fb9c71ee1",
+      "bytes": 11780
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/18/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/18-15.jpeg",
+      "sha256": "c0b8df16b1f8d506082079e853cdbd80c91ebc38b8f90fbee08f4bdaa8e74a20",
+      "bytes": 9798
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/19/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/19-15.jpeg",
+      "sha256": "18bb6a2828292b7e4faa9e4806f3abf526359262e036c489aab1399b714591ca",
+      "bytes": 4875
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/20/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/20-15.jpeg",
+      "sha256": "379c39b5bd67074cd589a6c2eec0d5465c5b5ffff4716fa47a59338c5fc6366a",
+      "bytes": 3950
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/21/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/21-15.jpeg",
+      "sha256": "d4040867b87cefd7db7a0fdfcc2ea322ea1818cd1b0ed62941c47684c20220f7",
+      "bytes": 5288
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/22/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/22-15.jpeg",
+      "sha256": "7dce6dfcf90184d0ea3890b0ba59d3dcaa11b5bffad9201d132af5faba9f97d0",
+      "bytes": 11229
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/23/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/23-15.jpeg",
+      "sha256": "b62c4f22d2d3ba90feea12236251f41973838562ac71bce8d56421b91f8b2d96",
+      "bytes": 11828
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/24/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/24-15.jpeg",
+      "sha256": "7fe41d4d8bbfbb2ad14ff0d18d652c2468e619989459e8f518c1e4e81fd83980",
+      "bytes": 10080
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/25/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/25-15.jpeg",
+      "sha256": "5c72fac0b6e05eae2202c4f29184c55af0db8b081294f1c7b0ccbd8d161474c7",
+      "bytes": 6581
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/26/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/26-15.jpeg",
+      "sha256": "e9b74ef33b2795c1853b2042f82e02261c029d10137daad8a2fc99aac9a7c512",
+      "bytes": 9512
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/27/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/27-15.jpeg",
+      "sha256": "87973f15440902165bbb4bc6d151460d4a38975f2a28d9a73d8b945e7f3a0140",
+      "bytes": 7971
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/28/15.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/28-15.jpeg",
+      "sha256": "b8899836afb8ed315685a72f3244601f211278b4f0959a781e7152f6f37fd320",
+      "bytes": 5209
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/0/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/0-16.jpeg",
+      "sha256": "6fb813638b9e5b71f703856d9258833e3adbe377a90e075a9665b41f11a51ee2",
+      "bytes": 4162
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/1/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/1-16.jpeg",
+      "sha256": "e643247bde0a91bc66c5f6829c96327f89aaf7bc33c70b1782c9ab456142161e",
+      "bytes": 4285
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/2/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/2-16.jpeg",
+      "sha256": "b61aa88b308962cf8e93852ed415767810e4006edd42970d9cff8fd66aebafd9",
+      "bytes": 4266
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/3/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/3-16.jpeg",
+      "sha256": "458781c2387aacb4ba8cfe398b3559af91fb98c8c992e3f1f9ce580ec1390ad3",
+      "bytes": 4329
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/4/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/4-16.jpeg",
+      "sha256": "2a5567b35659e42521b4c9cca048c88eb4ad481dc9eb637d3a1fc2ca33781258",
+      "bytes": 4343
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/5/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/5-16.jpeg",
+      "sha256": "cac91aaa10d74eb15035fe8c8e3c89ec0995056b087d39f28c5eaccb6f06a5ee",
+      "bytes": 5743
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/6/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/6-16.jpeg",
+      "sha256": "65935c541e5cf96d7e3653b5334ab249e496a723fe19a81e4b29e6c1a95beb1c",
+      "bytes": 9969
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/7/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/7-16.jpeg",
+      "sha256": "564bb2b61d7fc5a50c6558cf5c226c893e2cb8d9632548822c9f2c32dfd1626a",
+      "bytes": 11229
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/8/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/8-16.jpeg",
+      "sha256": "1cf96c0aa5cf420365f347097bacb05a249ec39378fe038f95f5c51fd6a7204c",
+      "bytes": 7575
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/9/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/9-16.jpeg",
+      "sha256": "cc5717e81a269cbfd0f5a102e9a78bf9da39c36a24a11d5ad8aa33f45c99e955",
+      "bytes": 10687
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/10/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/10-16.jpeg",
+      "sha256": "debdc05e6a2ae712ed466c04d9e7590557945d56f4e1f999aa0147fc21190e0c",
+      "bytes": 9968
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/11/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/11-16.jpeg",
+      "sha256": "5cbfa64bace9d73e8c936a02a92b8215723f25699280ddf1fb89cf426d96858c",
+      "bytes": 7252
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/12/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/12-16.jpeg",
+      "sha256": "c382085c5f06b6be68635f64295534f8181f4f9da6e0d209d4a194e1bd54d686",
+      "bytes": 4292
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/13/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/13-16.jpeg",
+      "sha256": "8dab823538962267235ae99b544fb9ff44a36379624b60bc3e388e90fd02e641",
+      "bytes": 9474
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/14/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/14-16.jpeg",
+      "sha256": "23ec865b86ea05ced65c34dcb3ae2b20cbe34f4d87c068180028291a29c15a56",
+      "bytes": 11163
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/15/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/15-16.jpeg",
+      "sha256": "f41225db863cbc29541ff3eea9f6722460453e4a4b2f57f0a4342d238d7ddffc",
+      "bytes": 6020
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/16/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/16-16.jpeg",
+      "sha256": "4e42f0bd2887a1a2c9eb055795475340e19eb5aca5836d83990eafce94d9e9c2",
+      "bytes": 10586
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/17/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/17-16.jpeg",
+      "sha256": "df6a8f5c49fba50f4e49f9b4d7f2f5828abe1d19ab2a017e2567d54f2e711225",
+      "bytes": 7758
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/18/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/18-16.jpeg",
+      "sha256": "1ec6f9e2622ae0f8acb832efbf264dc677368d1379b15b25fd3df4944d7ee5d0",
+      "bytes": 7623
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/19/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/19-16.jpeg",
+      "sha256": "09bb08b702caca5aaf4b023b7ead1af02b234fda6a8bec1cfbf489072feba60b",
+      "bytes": 3970
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/20/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/20-16.jpeg",
+      "sha256": "27b864c50333662408de6ae677f4fc1c4f18eb69a8a032e3a7a0dbcfef5cb935",
+      "bytes": 4035
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/21/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/21-16.jpeg",
+      "sha256": "b3e5bf3630f1685c0925d32316d7f44ebb55826e62af0d66b57bc7468ba3aadd",
+      "bytes": 6475
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/22/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/22-16.jpeg",
+      "sha256": "3c4322bf179d1a2a4934924646f6c2829488f08a4cae4afcb5613d3bb94a8c9a",
+      "bytes": 10115
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/23/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/23-16.jpeg",
+      "sha256": "7bf04712153cf5cd2f96af656746e1d3f26f250ef68d2043252eb784b3648427",
+      "bytes": 11897
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/24/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/24-16.jpeg",
+      "sha256": "2aa8bc1f509605252df9a8feff3de081c481436c69b9869de265a68c4535bb91",
+      "bytes": 6842
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/25/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/25-16.jpeg",
+      "sha256": "48907974d37c79bce27e020f4850f56c4eb9cb9dc4d92f732a84dcdf41ae41e8",
+      "bytes": 4849
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/26/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/26-16.jpeg",
+      "sha256": "bacfb13782f87fffe01c0d7b9f0727060513b199d360aaba0a4d4a24bafdb1bd",
+      "bytes": 9795
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/27/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/27-16.jpeg",
+      "sha256": "10d9458572da53801fe000ec8e50ec772bba890a5cdfe457f7e028b9c4443cc7",
+      "bytes": 12486
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/28/16.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/28-16.jpeg",
+      "sha256": "20417c2bda04dc6637a82479adfde42d64cd89a8164ee99b18693a7b46cceae9",
+      "bytes": 7585
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/5/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/5-17.jpeg",
+      "sha256": "6738b4d107fadcaf786039d72630b8e9296bcd6c4bb815d021ebcd37964db15a",
+      "bytes": 5970
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/6/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/6-17.jpeg",
+      "sha256": "eb381121c562df374237fb6c68db3e108fc0580c1ef62a429e5aedbbf9708012",
+      "bytes": 11327
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/7/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/7-17.jpeg",
+      "sha256": "825c7b51d4ae61cf06a8f21a4e1bd12568d4288358a7acae5051a975a21ca0fb",
+      "bytes": 11712
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/8/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/8-17.jpeg",
+      "sha256": "82717e6be7a68e856039c1a31603f7c0895f7300c72e11968d16e1075b5926b2",
+      "bytes": 11605
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/9/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/9-17.jpeg",
+      "sha256": "4f79d5753a3ae7190a09ef8dbcf40edb51404b4d0225fd0bcf6e57abcafadea2",
+      "bytes": 7298
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/10/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/10-17.jpeg",
+      "sha256": "916fb1a89986ac3eb789998394e5a95c25f46613dd6eac62ae4e2feb3dbfd6e7",
+      "bytes": 7805
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/11/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/11-17.jpeg",
+      "sha256": "b50315d85dbf2fd9afa9f4e07fc6c0e3493e6728fa20b1b3811fa5faa65372d5",
+      "bytes": 10587
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/12/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/12-17.jpeg",
+      "sha256": "5bac8c9beb746a63eafee346da94e3a6baceebea9c61fba8487e0f7d4be89144",
+      "bytes": 10342
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/13/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/13-17.jpeg",
+      "sha256": "368afe35d4482322f62bab2c4e3f6aca4f09d770f1c1fcfc12fd574afb687baa",
+      "bytes": 13765
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/14/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/14-17.jpeg",
+      "sha256": "86e8321d043680e8465f4aa436076873e152944c36f952f1304f783f782a9fdd",
+      "bytes": 11537
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/15/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/15-17.jpeg",
+      "sha256": "1e98b97e3ec51781f9eaea96bc5c6f2204e6b62b76786a3f8e9f85e802627995",
+      "bytes": 10925
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/16/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/16-17.jpeg",
+      "sha256": "b79e56ae8f51b962b3da9b68d316db0d9d9f6814c08ea01b0a30335f8e233494",
+      "bytes": 5469
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/17/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/17-17.jpeg",
+      "sha256": "bf942777bf81f0fce00f1e415b2291aa9653ebe7249741b44e7d49817e1153d6",
+      "bytes": 4896
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/18/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/18-17.jpeg",
+      "sha256": "e9e017591a8a70d22163ed6c8a140c3bcb955f7b9b5ad3a235d60b26cf3ad81f",
+      "bytes": 4368
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/19/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/19-17.jpeg",
+      "sha256": "7fb08612551d395d433db7f1b030369e637b36fa499512a9c1b9500da3d80ef4",
+      "bytes": 4032
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/21/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/21-17.jpeg",
+      "sha256": "84949b39f7ffd51de62fd4140b79e6dd42f2ee6fce20c1606bf8d5f62295a932",
+      "bytes": 6535
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/22/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/22-17.jpeg",
+      "sha256": "19cff1adfb49d25a27c4f92cb91c6bdc5bdee01345ddd6578e2d0ddb13a53a5f",
+      "bytes": 10047
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/23/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/23-17.jpeg",
+      "sha256": "5884fdd05c0dac3f083114de0b6e6b18d4b84d903f4264c64c1d1bb8bfebaf41",
+      "bytes": 6988
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/24/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/24-17.jpeg",
+      "sha256": "f93c69f0bd10256f820aa40735d5e3c7bea1f1e0eb76cb2a1240831fb0844e3b",
+      "bytes": 7465
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/25/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/25-17.jpeg",
+      "sha256": "9318458c162dac45310124c69c39cf7d15ec4c3307a4aec986e6c8053a10271a",
+      "bytes": 15385
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/26/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/26-17.jpeg",
+      "sha256": "76bf1b0b9f378d2faf64ecd995cda80285509c99d76530128d67cf81d64b0ea4",
+      "bytes": 8976
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/27/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/27-17.jpeg",
+      "sha256": "9f1f149461e8e36d6e04610bcf0dc5e1749c1f2be8355eafb6476d8d42d9df33",
+      "bytes": 6331
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/28/17.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/28-17.jpeg",
+      "sha256": "e8109bf0dc9e262a85f946a3cd2c433d95a74b179866a021ae5fcf928870e498",
+      "bytes": 6518
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/5/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/5-18.jpeg",
+      "sha256": "72c7c6d493a7d901daa19265d41097e55ac61911549ba51f708ef0ea2068e883",
+      "bytes": 4638
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/6/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/6-18.jpeg",
+      "sha256": "654cbc77ebc3236c3aa649381140ad32238838d70e7a74ac9b1edf9da35da214",
+      "bytes": 8546
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/7/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/7-18.jpeg",
+      "sha256": "4ed8174237b342da963fe781354c48e5f5fe9190a5fb7eb005daf0fd986d98e7",
+      "bytes": 7388
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/8/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/8-18.jpeg",
+      "sha256": "d9c92108aeecec9f85307ffc193e89b710f33097da5aee91d7de74ab2e3a72b9",
+      "bytes": 4429
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/9/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/9-18.jpeg",
+      "sha256": "78bf88f6b7adb5690a5e066fd1474ee1127972bd263e20b37fc93c477a0e5f47",
+      "bytes": 4217
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/10/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/10-18.jpeg",
+      "sha256": "87b0a8d27e53f73bfcad4f00ff9af8cba542b7bcba5dd713ce1a8d7f44bf7d7f",
+      "bytes": 5587
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/11/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/11-18.jpeg",
+      "sha256": "be37c9f31c7f46c4cfb45896e3aa9b97f9169e22fd447d030d0a0d1ca90ddefa",
+      "bytes": 6950
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/12/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/12-18.jpeg",
+      "sha256": "80a616be95e851ca64f1480b1c5e31d6a3d8fb3aad095ca782b64e70f4c4ba26",
+      "bytes": 6873
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/13/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/13-18.jpeg",
+      "sha256": "b4618887e45e40d5d3ab5841681ef891d0fd4627e39fec5cebfc92c3c1bd74f9",
+      "bytes": 7556
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/14/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/14-18.jpeg",
+      "sha256": "011896eba4d48aae7d0f465d9eb073a6c8c75dae05c41d2ad7fd59758d1a8a98",
+      "bytes": 7180
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/15/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/15-18.jpeg",
+      "sha256": "b6a36e027b714e12a572d40a85be21da2546ff19694cf809984a96d5eaf9b6c5",
+      "bytes": 7921
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/16/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/16-18.jpeg",
+      "sha256": "f86e5632eb64f8814e78b6f4b6c82d124c7798c4e68d242edf623345dd4f5e5b",
+      "bytes": 17428
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/17/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/17-18.jpeg",
+      "sha256": "d9abc0c1e4c5a9311b397375be887e1ff78c0a71aba4fe8fd9aab6152942dac4",
+      "bytes": 4189
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/18/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/18-18.jpeg",
+      "sha256": "fc44e45073e4bdbfe787bbc06fd1cabab544ace08c23fe75407cb76a1153318b",
+      "bytes": 4106
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/19/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/19-18.jpeg",
+      "sha256": "2d60c79587f835a0a3b3f90c6925ade36d48035ea63b24f20e43c8b75974f18b",
+      "bytes": 4010
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/21/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/21-18.jpeg",
+      "sha256": "7c512efe2df6c071af12cde9b0937b243f4ca00d1d828752abc9f7dcaf6b5683",
+      "bytes": 4389
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/22/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/22-18.jpeg",
+      "sha256": "abb56f4f05ffdd66d7ae988a15f922f1b2b9a77aa824f2632576f8cc0b9c385a",
+      "bytes": 7144
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/23/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/23-18.jpeg",
+      "sha256": "2a4439dfaebf8fb5a565ca2f183c8d48fcc04e3b5f7fdc12e85b3816221ffb7d",
+      "bytes": 7118
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/24/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/24-18.jpeg",
+      "sha256": "29d1eb67241c96ccc3259afc9656d71a65844b703cd2dd85a4e6001a9b832b9c",
+      "bytes": 10097
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/25/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/25-18.jpeg",
+      "sha256": "bb5f4703d0aac5f0e95a9eed61f19cbc6ac8532d37c95abcbb837df13c708bbe",
+      "bytes": 10323
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/26/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/26-18.jpeg",
+      "sha256": "22f983a4da90c0ce9f090b9a49245499426258e27e089a5e6e381d2763e55cf7",
+      "bytes": 13493
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/27/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/27-18.jpeg",
+      "sha256": "3d69882d8b8dd6db54a065ca23b4f730ceda16400be0e19b0a2175c885aed1d8",
+      "bytes": 11400
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/28/18.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/28-18.jpeg",
+      "sha256": "1dc3274e318935a65ad2154aa3b80f70ec3b88f283c8e4a7bfa9c53c7d59782d",
+      "bytes": 8594
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/2/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/2-19.jpeg",
+      "sha256": "5b1a5bafd10d062f59788cb96bcba435d8dedf415f62164af7d85e3abfa64956",
+      "bytes": 5465
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/3/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/3-19.jpeg",
+      "sha256": "062df06d0dfd9b0367bdc44d901d316ca5cd1644492ef80aae5d555bd7bb7d5d",
+      "bytes": 4490
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/4/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/4-19.jpeg",
+      "sha256": "bae1cd5aeaaa7d02311046c9811578b4192b6db68bd4a0ca03eda8a22852c38d",
+      "bytes": 5325
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/5/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/5-19.jpeg",
+      "sha256": "6a5083c7bea948d537f25a228b040bef61ad80b6aacb14133b877d593082ad11",
+      "bytes": 5388
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/6/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/6-19.jpeg",
+      "sha256": "7e393a2877db4894dd8ae3715eba69a1d8c4f742ad07e4794dc5e3ba808e0fa0",
+      "bytes": 12718
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/7/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/7-19.jpeg",
+      "sha256": "2a6ef027f9ac70ed64e4b6106b567aa58be544155fa181037af3e7608a7ba1c2",
+      "bytes": 6722
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/8/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/8-19.jpeg",
+      "sha256": "034bad394aed0a50cfbe32f5952a2c42a18358b6e144c3207a5534ba2f04cb90",
+      "bytes": 4080
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/9/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/9-19.jpeg",
+      "sha256": "26818dcc392f826edf421439b49c445cc11a43f7e87ca69b7d73c558d2c10cb8",
+      "bytes": 4504
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/10/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/10-19.jpeg",
+      "sha256": "4a1e46245a3976c260ea61b5ce2f5f8f80d8f11d426398e9df213b3c717f474f",
+      "bytes": 5799
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/11/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/11-19.jpeg",
+      "sha256": "327e6aae9d47d6ae4367cd8ffe83f6a2dec69a1b7b13fd3853a6d0faba6220f9",
+      "bytes": 11205
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/12/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/12-19.jpeg",
+      "sha256": "0e1481be60d38d041711346c91fe78068d091ff715fbad332bcb30d57082b500",
+      "bytes": 10297
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/13/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/13-19.jpeg",
+      "sha256": "9e3922e6a4ac3a1f985d5aaf79eb2752d379c4dedee2cc2d3a2b194b5d23b21d",
+      "bytes": 9190
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/14/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/14-19.jpeg",
+      "sha256": "46fe003147d7ca2cb08eb56531f625820fe52947c1d0505a12a8553b7f32f7df",
+      "bytes": 9829
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/15/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/15-19.jpeg",
+      "sha256": "a7d7ae3bead8606e443a3e667fc25d2e3c213ae0638dde2db155722250a75bcf",
+      "bytes": 9538
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/16/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/16-19.jpeg",
+      "sha256": "5513c00537ee6a8fb02a121aa9acf34445df395ca8668ca7f5cec46696468219",
+      "bytes": 5203
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/17/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/17-19.jpeg",
+      "sha256": "c0a0f8be210dac0803ff5bfb813db58374ebabb2848c3fa1b46bf41781908418",
+      "bytes": 3915
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/18/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/18-19.jpeg",
+      "sha256": "e6248ebb181553582f6c8c62b2317120d9deb62b3e587921cb2b2aa5d6ccab77",
+      "bytes": 5599
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/19/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/19-19.jpeg",
+      "sha256": "1d7b22a484978a0ea5c0aecdb471a3033d3a36cf9fef33992e2429cb5d09db3f",
+      "bytes": 5485
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/20/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/20-19.jpeg",
+      "sha256": "bb93ffccec5a0c792d070ec122ec137ff923e3896f555b80544a5ec35e171434",
+      "bytes": 13479
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/21/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/21-19.jpeg",
+      "sha256": "4b36f80dc014ef561798968c1f485dda23e3c45b3d55214ee34c4a2e8e386ead",
+      "bytes": 14298
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/22/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/22-19.jpeg",
+      "sha256": "f8746ec9fec7f5f97b50d2995aee1d2b360fa0043972e7b1dc03f958f3fc91a5",
+      "bytes": 11257
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/23/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/23-19.jpeg",
+      "sha256": "7593d1e4539f870f409194d75f8f104d9b92f2f25f139c3823aae5f9c1f51e03",
+      "bytes": 6843
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/24/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/24-19.jpeg",
+      "sha256": "1e48486e369b1710e93230d0daf8e1b98688ae394172d71e8025c0038d2275d4",
+      "bytes": 6535
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/25/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/25-19.jpeg",
+      "sha256": "e9ad23599c8e51eea9e90e909f08a2062247332e899039fe5f86e575a1190e3c",
+      "bytes": 11911
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/26/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/26-19.jpeg",
+      "sha256": "6f5f37f11d3eb045f8d4e9a8bf0aaaa2506ff54ce4bc012ca94723016f25ac7c",
+      "bytes": 10599
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/27/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/27-19.jpeg",
+      "sha256": "02e49a451eb15edae8655ba9181298f2e2c5c11ebca7691bd8901dc55805b15b",
+      "bytes": 12329
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/28/19.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/28-19.jpeg",
+      "sha256": "4aff219678d087e99009fe2df99465e05078a8edeec4c45a3b0b308837ba596c",
+      "bytes": 4351
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/2/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/2-20.jpeg",
+      "sha256": "7e42b04c89b5f5ad2b74a03e214be1c83b0ecbdf4b7e86e92ab1b03d08792459",
+      "bytes": 5031
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/3/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/3-20.jpeg",
+      "sha256": "ca39f5a684043baed148e8eedd593de05bdd221bae5799e90cc04f9a29f33422",
+      "bytes": 9681
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/4/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/4-20.jpeg",
+      "sha256": "81ee77eb262a4875cf70bf2c3cfd72d364796a9485c035858292d2e99d4b6b28",
+      "bytes": 10832
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/5/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/5-20.jpeg",
+      "sha256": "3c81d5e3cd2e28b516d30733274489ddfe1afb5fbb1559c82c234956aad19be5",
+      "bytes": 8124
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/6/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/6-20.jpeg",
+      "sha256": "38078a8656945ab37134d36761198f14476a1569d2f0d7cbd0a3b66f915b168a",
+      "bytes": 9882
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/7/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/7-20.jpeg",
+      "sha256": "d5dfab50aedd5cf83604e86bfaf471ae8591c1c7793ad527cff2bf289bd899b7",
+      "bytes": 6664
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/8/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/8-20.jpeg",
+      "sha256": "9fd04b56ef53f8400b80aa0f81a72d5e68b6d2ecbe50f637e93bcbd66084bebc",
+      "bytes": 4091
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/9/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/9-20.jpeg",
+      "sha256": "1f5451e46c242e81efa6ef1a4439d6e4b2de6abe871374d9068a4e25801dbfcc",
+      "bytes": 7167
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/10/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/10-20.jpeg",
+      "sha256": "18250e06f47f625df0eeb1da011d249c18128e7564080faa9633b54069c49543",
+      "bytes": 9452
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/11/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/11-20.jpeg",
+      "sha256": "a5c6b28467d75ec80b3239df38de6f48813c9f875e3bbaf97b65d8c019c5f82b",
+      "bytes": 9067
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/12/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/12-20.jpeg",
+      "sha256": "ceecd1a7ae3a12bedc5ac6967a4dbce2c57267740395d96075f2c17cf99336c8",
+      "bytes": 10262
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/13/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/13-20.jpeg",
+      "sha256": "37ed67c68b9f069848e70cebce9f80924aa44b27a4d55f41f43c19afe4262496",
+      "bytes": 6349
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/14/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/14-20.jpeg",
+      "sha256": "e6f4a8304e1b1861562115c049ad2e6e2d6139ce2ab51edebf966472a21d172b",
+      "bytes": 6036
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/15/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/15-20.jpeg",
+      "sha256": "9f6b26f3a6323f4a2414a4e4793499d55962415534393e9e664450765cbf2c47",
+      "bytes": 9720
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/16/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/16-20.jpeg",
+      "sha256": "e2d07ac47e2157e9339f338dd7b28ba93f5d0f6945a245dbabf8ce1b189cf8e8",
+      "bytes": 13446
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/17/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/17-20.jpeg",
+      "sha256": "252e0555093ca1a40e26a80316dcdfd03af604027af0b01c4fd73c15c9582500",
+      "bytes": 7092
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/19/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/19-20.jpeg",
+      "sha256": "efd58363b9f384e3e3ff683104e82df10214af9e5201df4cf0fbb68c1ae0a71c",
+      "bytes": 6280
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/20/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/20-20.jpeg",
+      "sha256": "d28742f72051198a7bb38b5258b295760ec327e20714a185e9feddf2fd4c439d",
+      "bytes": 12647
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/21/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/21-20.jpeg",
+      "sha256": "15c7d5fdce52ad1614aaea1151a52477091edc4cee9ca854027cef94358b7241",
+      "bytes": 10654
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/22/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/22-20.jpeg",
+      "sha256": "caa9d53fe5ea52165f377262e97ea9f3b30db270563a70e3e06eb7b21d33098c",
+      "bytes": 10781
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/23/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/23-20.jpeg",
+      "sha256": "66d67f27f7524d55f70e2da1a3f12a3e549b8484342690ae3dc75fd6ef1117c8",
+      "bytes": 13717
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/24/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/24-20.jpeg",
+      "sha256": "25ef3ebd0dfa997a49f2d3b59fd401db588c136909629d130019ce8a7c3901f1",
+      "bytes": 10262
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/25/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/25-20.jpeg",
+      "sha256": "63726407b94f4f878c957c8fcdbbd106743492e1682d4aa8eb0806bb3923e73b",
+      "bytes": 7622
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/26/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/26-20.jpeg",
+      "sha256": "3cc614ca16d75f1ceb64ed76891cf59ff89b48126112f8e40980f02a4ba212e2",
+      "bytes": 9916
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/27/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/27-20.jpeg",
+      "sha256": "c25322f8b0dd5ab7c2f74c3bd781565e5c52d762b1b8247482989fafd766aa06",
+      "bytes": 6999
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/28/20.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/28-20.jpeg",
+      "sha256": "9cf51d8bcd092d46ecf45324e93dcd5609b5a06e1688140caec31ec50423379d",
+      "bytes": 5391
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/2/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/2-21.jpeg",
+      "sha256": "03c8f3b926aec13246061ba5f0944edf0e79efa3a00de7a3d08167a2340320e5",
+      "bytes": 4111
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/3/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/3-21.jpeg",
+      "sha256": "0b7fa9ba6dbcf1e2b8c73965804bde6fbd0ce1dab2ddc7062f5d49a82b8baed3",
+      "bytes": 6299
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/4/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/4-21.jpeg",
+      "sha256": "41d4c88cc23cf41764c85cafd03ac7441a3115a81a0f1404ced070fe82d3fe91",
+      "bytes": 6147
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/5/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/5-21.jpeg",
+      "sha256": "ea8f5c93af837a486c54d831737680b968b83cec6a63a27259b3c0c1c9bf62c0",
+      "bytes": 9030
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/6/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/6-21.jpeg",
+      "sha256": "6c4f9c37b8942fa13be611c0b122597ab4c036df1f3e228044fd20730549170b",
+      "bytes": 9774
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/7/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/7-21.jpeg",
+      "sha256": "983dfca84ca570348b90cd0aeafc252c09304b769d722a6a39bad3ce563ce200",
+      "bytes": 5770
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/8/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/8-21.jpeg",
+      "sha256": "c38794a47391fcfe3118d942b469605ab140ea011459edc47457008986d08f78",
+      "bytes": 4742
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/9/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/9-21.jpeg",
+      "sha256": "0806f8b48d720901d59b265f7af7b92913738ce266a17911394b77318c50b38c",
+      "bytes": 8261
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/10/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/10-21.jpeg",
+      "sha256": "b5d0782dd7d88b391c2ac32bbb1d2ece1e5e9db03e8bed633960a8f87e72371e",
+      "bytes": 8238
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/11/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/11-21.jpeg",
+      "sha256": "a0fa1fe74fa953f1849b6c0565705f3481d45b6ff5fd6cde224d61e62e59484c",
+      "bytes": 14854
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/12/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/12-21.jpeg",
+      "sha256": "0c9db2c6bd62414f8b87619e872b079e83418f046a6e353f1a7eeb2348c68079",
+      "bytes": 8029
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/13/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/13-21.jpeg",
+      "sha256": "68135308858698845dcfc3dbbf19095028cc158a9060cad5a5355095cefa665a",
+      "bytes": 13203
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/14/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/14-21.jpeg",
+      "sha256": "ab004bfd91746cca6296537e08be4385e42c673cf3564a31eb1b54f31190de18",
+      "bytes": 16024
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/15/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/15-21.jpeg",
+      "sha256": "7088c9305a45d99e3e0b3ea22007dc56dc592682727cf30a7cab0ab37ab163da",
+      "bytes": 8787
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/16/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/16-21.jpeg",
+      "sha256": "a1ed10bb1e46b6f129c80c25ffcf7007f86e173f43cfa14b3ad242a23e808168",
+      "bytes": 4314
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/17/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/17-21.jpeg",
+      "sha256": "893bf07ced9cac5941401bd842b2f53f0fd3ad8cd7719ad564db4c80ca96b546",
+      "bytes": 3837
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/19/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/19-21.jpeg",
+      "sha256": "e559a7d6fdf468413bc47e991139d0a2dadb764df662fb29d49a1fc48e1fb0ed",
+      "bytes": 6615
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/20/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/20-21.jpeg",
+      "sha256": "5cf0bf34e6ad1c0f0349f51e7dec94be8a23e5ac0107efef0af2f99206f724a1",
+      "bytes": 10654
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/21/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/21-21.jpeg",
+      "sha256": "ea1aa00c4e85f9552b6fd2b8a189feba0d475aec6e9bb0f62bbbbfee2e8cb071",
+      "bytes": 14233
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/22/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/22-21.jpeg",
+      "sha256": "9db7723e3f6f08e932f1d16d71fb8359f60579bcdb0da75c77d043e6fdf72a1d",
+      "bytes": 15422
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/23/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/23-21.jpeg",
+      "sha256": "e4bfb49185f57764e98b7c95f21fb277082137e7b552407f7b1b258c8e42fb55",
+      "bytes": 9221
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/24/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/24-21.jpeg",
+      "sha256": "1944d14413340eb10c6742bd35f440c621765b8896f8d5c9e76d66a620928352",
+      "bytes": 3970
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/25/21.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/25-21.jpeg",
+      "sha256": "24490954e37e223b7855ad942c29089775d1d2eec34f101c38987781ccfacf22",
+      "bytes": 6748
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/2/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/2-22.jpeg",
+      "sha256": "e328324a310a11fb10dae6feab466989e1952ac6d60277817726fa7f873f2b16",
+      "bytes": 4159
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/3/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/3-22.jpeg",
+      "sha256": "8c1bdfc029b30c606c1244955a364a0e28226d536325099056723652231f10c6",
+      "bytes": 6276
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/4/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/4-22.jpeg",
+      "sha256": "2ba300153eccd402fe432bd304759298a8f54bd6d04101157e22ef1ac8514874",
+      "bytes": 12869
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/5/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/5-22.jpeg",
+      "sha256": "4eb4603c8cd06d4c3fcd61fa1582ce637253767a25f0bb7736792556de3d8a89",
+      "bytes": 12053
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/6/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/6-22.jpeg",
+      "sha256": "00daba14dc29c12ec0043628200a2187bd795b543cbcceef05992f67ca7010b1",
+      "bytes": 10125
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/7/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/7-22.jpeg",
+      "sha256": "df4e06f9d683aadf09d2ebf6173a3e67eddec19b5d2dd102fe99e8aa6bb04e04",
+      "bytes": 7920
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/8/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/8-22.jpeg",
+      "sha256": "d81b2bc43778ae25af4c8d63c099c2eca6bdf3d91664c970bf97411e880e27a9",
+      "bytes": 10151
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/9/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/9-22.jpeg",
+      "sha256": "3e0ddc50fc306dad3f7e22f9aaaa08b44c5f26df99bf8149760f99477eaffcdf",
+      "bytes": 9385
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/10/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/10-22.jpeg",
+      "sha256": "9707a0a2564ce3be886d5bbb4fb8795e9f8b988f84dbb6848b6b6fe00ad70b27",
+      "bytes": 5601
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/11/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/11-22.jpeg",
+      "sha256": "6a7563a0d308f31bf3df4959826eadb6b03caf60bc207873a992faa527e166d6",
+      "bytes": 15637
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/12/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/12-22.jpeg",
+      "sha256": "a976aff2c7b9a8398745e20baba1511ccd12b3b6bf035664914d406b6fa66eef",
+      "bytes": 5323
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/13/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/13-22.jpeg",
+      "sha256": "9463b3f5ec18768cd8461131fe94b8bdac5a88cad2b64ac70c3e6a42906a37e4",
+      "bytes": 7461
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/14/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/14-22.jpeg",
+      "sha256": "d3ff99be3f00ed2a999e64dc86bd746de323389e0beb26ab08539d757e55d3bf",
+      "bytes": 13050
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/15/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/15-22.jpeg",
+      "sha256": "930f8b6744b817320f00a0a39875d250b383cf83db2cd5d3513ce39080f9b080",
+      "bytes": 6748
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/16/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/16-22.jpeg",
+      "sha256": "168926e2bcb19149f3729cd96df3b1c8ddc7038e1fc092d2bc854fc6ef4f9637",
+      "bytes": 3968
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/17/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/17-22.jpeg",
+      "sha256": "458fd0b666ea8f97408ce93629c2969a05895ed55393072de716f703f61886f3",
+      "bytes": 3901
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/19/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/19-22.jpeg",
+      "sha256": "52c59f58cf949b79879994f0d0f86da2a729303c224628018de44e2bc7cd8a21",
+      "bytes": 3937
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/20/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/20-22.jpeg",
+      "sha256": "296a9dd84a09b61d7af02b76b7ce4b621e77e05d9cea4114b789c69ba3e7b9e8",
+      "bytes": 5692
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/21/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/21-22.jpeg",
+      "sha256": "8fa9a23ac25710cd1091f372a6fc21fe01cacd5275d5905f71e76588f6c3e83f",
+      "bytes": 6310
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/22/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/22-22.jpeg",
+      "sha256": "ddbb5c4c294cca8f4ce5e8938ed7e52d7962b26e6b307c6b51f20b65b73a2410",
+      "bytes": 6700
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/23/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/23-22.jpeg",
+      "sha256": "4cfbfd848f1a48c32617dbb0b94adaf7ba2684b19f0eca576586e30ebb7f9ff0",
+      "bytes": 5819
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/24/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/24-22.jpeg",
+      "sha256": "12968403398e6f01766c1fe59a571e1d5ff2d33a58f6ac6eeb455f05a48567c8",
+      "bytes": 5470
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/25/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/25-22.jpeg",
+      "sha256": "74143d7a4674435c04bb4bf26469a354fa2a9c4253b8522f5d7c3946ed9310fb",
+      "bytes": 4975
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/26/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/26-22.jpeg",
+      "sha256": "268e2b0bcc89fb4acf4a5513692286f0a64572b2c76f3e3bbca8f9d27ab6d665",
+      "bytes": 5941
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/27/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/27-22.jpeg",
+      "sha256": "c2f47bb4ecc74a152cb75c54c466b5a60ce7ca08ef9541b05c14a9650d4e46c9",
+      "bytes": 9661
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/28/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/28-22.jpeg",
+      "sha256": "51043a412ad3ca50a1f26390922b03a22bfbcd1af733e106f9bfbf84985ba906",
+      "bytes": 9043
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/29/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/29-22.jpeg",
+      "sha256": "77b80b3a7b3d2a2dd3b32fa2d19c43822e220db62712a6b4765f23a49725d815",
+      "bytes": 11060
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/30/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/30-22.jpeg",
+      "sha256": "ca8167d53e1bdde1bf23ea49eaa741201a76232d935ec90f41beb19df9f8a072",
+      "bytes": 10920
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/31/22.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/31-22.jpeg",
+      "sha256": "189b6b45e55d512bf4b7c75b48fdde278f1ba4ea6c37fae0750d3814b3cd99a2",
+      "bytes": 7264
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/2/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/2-23.jpeg",
+      "sha256": "01e80ee9b4166d7c00ff3ef2545ab5b535618839da2100d84df6ce876ef99030",
+      "bytes": 4153
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/3/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/3-23.jpeg",
+      "sha256": "7651241f75dc694562c2e51e758305623e3acb5fa659c1c1692ba644692dfa5f",
+      "bytes": 4758
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/4/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/4-23.jpeg",
+      "sha256": "00040137f92681e177d08a26515007d8fa53dab8aa4b3e952ccf20ebe905b9c3",
+      "bytes": 7649
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/5/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/5-23.jpeg",
+      "sha256": "16fde718d8f704b05550755c8d338f1e63c1a9d51490a2568b49544d38e5be5a",
+      "bytes": 5944
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/6/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/6-23.jpeg",
+      "sha256": "4797045f5b1bd98123fe6a24dae07fb4aaefea23e155c5fb7ab39aa73c74d94b",
+      "bytes": 8458
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/7/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/7-23.jpeg",
+      "sha256": "75380135dbdfe20edc15c55aaa3a04635df4d6de12c4e305c89c2e652dddd44c",
+      "bytes": 8391
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/8/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/8-23.jpeg",
+      "sha256": "7e669c14c5f8e729439c28a68497f7e7eafa71a7cd989358519f03b6e47e9afc",
+      "bytes": 5955
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/9/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/9-23.jpeg",
+      "sha256": "90b7e7707c5b7aa8cc1029c1b753a5e9ae67aa0f797c7e7ccd25775366e6bb48",
+      "bytes": 4207
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/10/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/10-23.jpeg",
+      "sha256": "54befb026cf33658305b5568c6fe6315ebbd16ebef314d877ca03c3e7c5e5702",
+      "bytes": 6566
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/11/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/11-23.jpeg",
+      "sha256": "6589fa2e209e583b2d54a31ec4bebb0c675fdbfd078af2d532d24fa05efe0749",
+      "bytes": 11106
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/12/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/12-23.jpeg",
+      "sha256": "74bfabf19ba8485311f62982f8ac4d3cd6465f87faf650dd738d5bc5b8237552",
+      "bytes": 8687
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/13/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/13-23.jpeg",
+      "sha256": "3a3ada46464e65b2a13d5d5465f02cd4271317d87dd4727d84136f0aa6d30c3c",
+      "bytes": 8124
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/14/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/14-23.jpeg",
+      "sha256": "a472e733b780bbde5ee6b3c49a220c26dbcde5a49301148f4e20129a6bdf6fe3",
+      "bytes": 9894
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/15/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/15-23.jpeg",
+      "sha256": "391cb542d7af17d5e74ee035fd5b0a076ec3545f71deee89c3b27f84d83f0250",
+      "bytes": 5052
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/16/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/16-23.jpeg",
+      "sha256": "b87680d70042db373dd4a3e30e18a42660c6c08bd358145ce7946415605ae8a6",
+      "bytes": 3948
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/17/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/17-23.jpeg",
+      "sha256": "2ca2c2cb387142ca25fc8dcabb2150bf2b7342f2af17d3a1140429d481e03c7e",
+      "bytes": 5087
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/24/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/24-23.jpeg",
+      "sha256": "675bcc94a6f41d667e7c66f94f125fdfa714db65d13ca1c2c56f914304f1178f",
+      "bytes": 4025
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/25/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/25-23.jpeg",
+      "sha256": "3c6184ccdd7cbe3f1d13bfee24d82cb931d81178859015b9ef76db5e4c5c403a",
+      "bytes": 5555
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/26/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/26-23.jpeg",
+      "sha256": "6afe1087e75336ec8035fd4cca59b31277e388c026e49d5b630952d1617c69e0",
+      "bytes": 7774
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/27/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/27-23.jpeg",
+      "sha256": "2e8dd9bcf023573afa64f02123ae24f0b5a931b48cc4f4a8ea0e83c091a1a46f",
+      "bytes": 10962
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/28/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/28-23.jpeg",
+      "sha256": "8e76af3a44a6b3601bd28fb16bb4017e7e484c4861027685a205c6bf974f70ab",
+      "bytes": 10133
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/29/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/29-23.jpeg",
+      "sha256": "98629f1db17ce93baa91ca3da95034748808363a8d6e3cdab4a7a18679556667",
+      "bytes": 6828
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/30/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/30-23.jpeg",
+      "sha256": "79bab8a66b1ce8a03b00cbdeb9b31284574d702e24688ff293e70c5c1a20a1df",
+      "bytes": 5945
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/31/23.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/31-23.jpeg",
+      "sha256": "ff85505305497ebd26e44b27774ee004606a181276b0ee4b9272c201f282880c",
+      "bytes": 6675
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/2/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/2-24.jpeg",
+      "sha256": "3c43de33d5d51d126b0cfbee341c2e8fbcfd9fe7f23d2684e0441128efd372eb",
+      "bytes": 4235
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/3/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/3-24.jpeg",
+      "sha256": "7487234213fb569c6482ceaa452983b9d872d67ac37df0b7adef71f136d0c057",
+      "bytes": 4438
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/4/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/4-24.jpeg",
+      "sha256": "f7eb8fd2792cca16c133bff1c850a0051444c22735dbbf53b914b6d52dd25f7c",
+      "bytes": 4551
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/5/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/5-24.jpeg",
+      "sha256": "8e64e4cc658e476e71473efb936af039914daf7a8a21f51823e0ec0b7c5065af",
+      "bytes": 6000
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/6/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/6-24.jpeg",
+      "sha256": "a72984b1fd4ba9f56dab0998b0430edcc02a4f908ce2c6a730d223d0c1cc8ad2",
+      "bytes": 8426
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/7/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/7-24.jpeg",
+      "sha256": "0d2bda01a6b43c1c610a6e5f3c5a54f6605b1e49346896da64f82dc7e0217255",
+      "bytes": 7572
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/8/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/8-24.jpeg",
+      "sha256": "86046172308f85d9f91ae4d6d6678e4c619df9b4094e879c8aa26cd555185528",
+      "bytes": 6061
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/9/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/9-24.jpeg",
+      "sha256": "3d89b862a68ebba480378d101aef78c01179ec0352d01792376b148e06ee615b",
+      "bytes": 4095
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/10/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/10-24.jpeg",
+      "sha256": "bcbaaebd53fb3d449054d1dbf85e03a9e95389eb4033cef47043e9fb1a45bd60",
+      "bytes": 4017
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/11/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/11-24.jpeg",
+      "sha256": "d963aa2d80c46514d147703993a461dbf6ff747ba3ba4772509907941ea8e4ca",
+      "bytes": 5582
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/12/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/12-24.jpeg",
+      "sha256": "39e31a94262c0d74825e8a3d65c301905af1e63875780c438fc655b2bc1eaedd",
+      "bytes": 8630
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/13/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/13-24.jpeg",
+      "sha256": "23be9b12d9a6bb4b5b2b848e019fa91b7af92af05e7837c2fc5f8e4726059c6a",
+      "bytes": 10732
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/14/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/14-24.jpeg",
+      "sha256": "859ad6eb75c8eabcac4694e63123bcfbcee0a5d2219adf31387b304c10757524",
+      "bytes": 11282
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/15/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/15-24.jpeg",
+      "sha256": "85b908b2c6056c2cf059423ff7e95b363e1014bd41121c0eda42e53c9ca8acf4",
+      "bytes": 4200
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/16/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/16-24.jpeg",
+      "sha256": "130c6671af05b888a32e61a2043cba0afb686f29b4cf2873dafd84c005c864b6",
+      "bytes": 3925
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/17/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/17-24.jpeg",
+      "sha256": "e8f0e5733b2db238b20551a90cbe674b548d11ab9301acba4bcbc116a9e1f762",
+      "bytes": 4718
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/24/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/24-24.jpeg",
+      "sha256": "f8e169b2db9ee77507fa23795ea8e13842ff0ecd9f669d5d71426528c0033c7b",
+      "bytes": 6120
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/25/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/25-24.jpeg",
+      "sha256": "fc3f0d6f0555095379c482ed20d0980b879bec05cb5e745cde4c77d32c20f3f2",
+      "bytes": 8590
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/26/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/26-24.jpeg",
+      "sha256": "8699dfe3db46ffc89bb07d1751fa5084de9449afd7d7629cbe086e1ef99b3375",
+      "bytes": 13514
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/27/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/27-24.jpeg",
+      "sha256": "6a4750b420bd5794acae70ccfaae0210da551c4696b5603e97d1f82ce4745919",
+      "bytes": 14528
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/28/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/28-24.jpeg",
+      "sha256": "800f269f8ba34d0ebea94200192ddb000b271aad906c3426d38d1e8505c577c1",
+      "bytes": 13026
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/29/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/29-24.jpeg",
+      "sha256": "1707b776539798517e3d329d216f860786b5547f6787f268595b63b8b5af1867",
+      "bytes": 13058
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/30/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/30-24.jpeg",
+      "sha256": "0e09601ef951219ec32a835b4dd058ffef072dd4274c02994589e35f4a743f2d",
+      "bytes": 9167
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/31/24.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/31-24.jpeg",
+      "sha256": "022703a6553c24058e2738c403e5c0111efa1513cb5c9bb1f4f920797312a94a",
+      "bytes": 4204
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/2/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/2-25.jpeg",
+      "sha256": "71bd994c2b7a9a7ca5c3df776bb89642ee13891c7610cb55bf44b86b114472f2",
+      "bytes": 4035
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/3/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/3-25.jpeg",
+      "sha256": "8bf789093708275be49e2b5462a1e7168cf87981d9dba1bbd0cb762bd64d4888",
+      "bytes": 4677
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/4/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/4-25.jpeg",
+      "sha256": "9650d39e71af3bf954591542badcb1520731f9669ccb35119a5bbfaf1f81dd1f",
+      "bytes": 4359
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/5/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/5-25.jpeg",
+      "sha256": "eeb7bb9be4a45a04b8a9343c8b27af2846997947a190288518d54e0f6cee0bdd",
+      "bytes": 4406
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/6/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/6-25.jpeg",
+      "sha256": "9a9cf901381f9d85e3f5b208eafff42ad359c265793f9a9074d2b1e8089b3bc8",
+      "bytes": 6459
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/7/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/7-25.jpeg",
+      "sha256": "1e348eda4375721b1e8d56423d3829f963015072681cea6c8f08ed17dfb0119d",
+      "bytes": 5568
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/8/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/8-25.jpeg",
+      "sha256": "b36641a50f4db364325a4c75323720d25653b32e73757da90853d9d9d45eea55",
+      "bytes": 4835
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/9/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/9-25.jpeg",
+      "sha256": "aa110ea38c4e90dbbc34ef37acd1a408590256e75d50ad8d1cd100cdba53b7bc",
+      "bytes": 4025
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/10/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/10-25.jpeg",
+      "sha256": "c49135c6d7f0c752fecca08bb282468b4f395254207130ba02d9e317d9ec6f3a",
+      "bytes": 4033
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/11/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/11-25.jpeg",
+      "sha256": "22709324b6ebda415f851f954b43a3c354779c535d631f579f3db14f031c5d5f",
+      "bytes": 3970
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/12/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/12-25.jpeg",
+      "sha256": "82ecbb90215f68bbda43d21bce20730102b2f859142cc984be5d866cbe2dbe75",
+      "bytes": 4038
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/13/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/13-25.jpeg",
+      "sha256": "43033f6a42fd02ad900f21023d2ee6c95cc1968668445998c1442ae30a374de3",
+      "bytes": 5208
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/14/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/14-25.jpeg",
+      "sha256": "ac82cff67f54d2d3f4e0fa7af2a7c7761f5bc233539d44adf1eef4c268b7ad08",
+      "bytes": 4294
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/15/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/15-25.jpeg",
+      "sha256": "daad010e05522ad5f8fa474a9c5510477af42dd3aef393da2fbd82c00bd83ca2",
+      "bytes": 3887
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/16/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/16-25.jpeg",
+      "sha256": "4e3a9ed3370b0ee8bbcae5310c8c34fa9323c692d99f3d6994fbeb796f10c131",
+      "bytes": 4804
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/17/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/17-25.jpeg",
+      "sha256": "4a23bad4bbbb97769c22c26fbf11f0b10b950135a988e8fb8daed8705e6d11d2",
+      "bytes": 4540
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/24/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/24-25.jpeg",
+      "sha256": "4212c31b31c81bd714f37e367ce1743a9246f4480b0790c7b0e0eefc7dfdf862",
+      "bytes": 5458
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/25/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/25-25.jpeg",
+      "sha256": "d8f24f25a589fc696bd071ed0b1571f329cde3b66ce90560d4808a13512af1d2",
+      "bytes": 11391
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/26/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/26-25.jpeg",
+      "sha256": "b1c17cf4c123ef537924e3925f935194a1ff4384954f773a62531f96cbd183c0",
+      "bytes": 14495
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/27/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/27-25.jpeg",
+      "sha256": "62ed5747604669194a319d8de0d49f232fc88d66d79954877210cc8eb26e78cc",
+      "bytes": 14126
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/28/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/28-25.jpeg",
+      "sha256": "ee83eb45fa1475f60526ab46219106d623484d3a63343c624879921589142b3d",
+      "bytes": 12775
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/29/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/29-25.jpeg",
+      "sha256": "e8ce2ffac063f26454fbec7be5f5ec2080fdded1c8b5b43c840ffd044e0aa134",
+      "bytes": 14588
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/30/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/30-25.jpeg",
+      "sha256": "af5c4ea2a45c7658bc3466a87294d5d4b949faf54c75ebafa11bc4a188715721",
+      "bytes": 5536
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/31/25.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/31-25.jpeg",
+      "sha256": "ed1b5dbc4f73d27a289ab792d4676f34cabaa85030cc730947e13f8533ca207f",
+      "bytes": 4197
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/24/26.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/24-26.jpeg",
+      "sha256": "107370f09b00a25975e4a28e5d6fc5aae2e63063a0dddc57fa18fdc256ab1169",
+      "bytes": 6394
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/25/26.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/25-26.jpeg",
+      "sha256": "7b396b1e365bde4a8cfc97fbafe9903466bac29ee7b1b4dd667fad9b9baff0f0",
+      "bytes": 5459
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/26/26.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/26-26.jpeg",
+      "sha256": "f489924d0f09c40fe260553d20343b8a96e06337296b62d08c7176f119b6b171",
+      "bytes": 5124
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/27/26.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/27-26.jpeg",
+      "sha256": "b265f226a095d39f0df9f8d46e95d7f7bcd640aed3482caf0f1ab76ec5331fc6",
+      "bytes": 6360
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/28/26.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/28-26.jpeg",
+      "sha256": "8244541fcd5ffddbbd9dcb5a302c82a62f0923fce2f286303438e0ac293feb7f",
+      "bytes": 7859
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/29/26.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/29-26.jpeg",
+      "sha256": "c55dad61b49643e71f645ee98b3f35d66fda09e47040935821c89e9a89ce2556",
+      "bytes": 5829
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/30/26.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/30-26.jpeg",
+      "sha256": "b658ef0a4ce8fd42eee0840f304085b85fa98120ad2afd1722a9ee2ac1bfb3f3",
+      "bytes": 4386
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/tiles/5/31/26.jpeg",
+      "path": "annotations/imports/horizon/tiles/5/31-26.jpeg",
+      "sha256": "0e23e48889311fc78722c3b7d7ccc0ba8f13c5e7d1bf4693cca2ebfd03f0d0aa",
+      "bytes": 4249
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/west_ronfaure/zone.yaml",
+      "path": "annotations/imports/horizon/server/west_ronfaure.yaml",
+      "sha256": "728dbe3d2e29ee461aee5c3ddc59c14e598944a7b2b98ee4fb07c7b486c37d78",
+      "bytes": 1412
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/east_ronfaure/zone.yaml",
+      "path": "annotations/imports/horizon/server/east_ronfaure.yaml",
+      "sha256": "b955c307e04487148d1531c2717b27fa51dca3d4245ad1f3615702e742a69005",
+      "bytes": 1488
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/ghelsba_outpost/zone.yaml",
+      "path": "annotations/imports/horizon/server/ghelsba_outpost.yaml",
+      "sha256": "107a837ad73ca633e51d2e5296c67b065903c99527b4a139364e3a2958f36baf",
+      "bytes": 633
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/fort_ghelsba/zone.yaml",
+      "path": "annotations/imports/horizon/server/fort_ghelsba.yaml",
+      "sha256": "b6f83d2cb9926abaa1b7cf2279f097510594c560040751318a4b88f55bb15d46",
+      "bytes": 774
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/yughott_grotto/zone.yaml",
+      "path": "annotations/imports/horizon/server/yughott_grotto.yaml",
+      "sha256": "23302bc474e985cca611f775c7202935a3b2504b866098935a3e0554cc6bd1f6",
+      "bytes": 1069
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/king_ranperres_tomb/zone.yaml",
+      "path": "annotations/imports/horizon/server/king_ranperres_tomb.yaml",
+      "sha256": "2c2b70f32b0c4ee6c1f2edb58ce3d7823516c81c2bb03766d47da91c01be32f1",
+      "bytes": 650
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/southern_san_doria/zone.yaml",
+      "path": "annotations/imports/horizon/server/southern_san_doria.yaml",
+      "sha256": "5fda75e3789ef0f55367949bc0542753d2c38e0888bbfc36efd92a369399e5b8",
+      "bytes": 842
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/northern_san_doria/zone.yaml",
+      "path": "annotations/imports/horizon/server/northern_san_doria.yaml",
+      "sha256": "81f71935980f392405ec714a2d1c572225d67c0d90c3073c9598d86f6d5b12e0",
+      "bytes": 1128
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/port_san_doria/zone.yaml",
+      "path": "annotations/imports/horizon/server/port_san_doria.yaml",
+      "sha256": "93b52b05a2e6dc198f21e0e65fab30dc2455c9f7312669908f95d3bf2a34e8a0",
+      "bytes": 1269
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/chateau_doraguille/zone.yaml",
+      "path": "annotations/imports/horizon/server/chateau_doraguille.yaml",
+      "sha256": "898536597619042d88d86e3a6a165f93483b48fd1bfd955a528512075eaca4b5",
+      "bytes": 366
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/bostaunieux_oubliette/zone.yaml",
+      "path": "annotations/imports/horizon/server/bostaunieux_oubliette.yaml",
+      "sha256": "88f5fe681d602710c40b249f8f23a3401c9f5611f3a49c70e22d9ef1aee13e2a",
+      "bytes": 487
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/la_theine_plateau/zone.yaml",
+      "path": "annotations/imports/horizon/server/la_theine_plateau.yaml",
+      "sha256": "d89753b7979e5098a34709927d5249da4f2841ca98577db2d93f81f09add2016",
+      "bytes": 1062
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/ranguemont_pass/zone.yaml",
+      "path": "annotations/imports/horizon/server/ranguemont_pass.yaml",
+      "sha256": "2ac6823dc91ee37a257604d14e8137c80f027aeb12ac69d690eb53db951de19e",
+      "bytes": 503
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/jugner_forest/zone.yaml",
+      "path": "annotations/imports/horizon/server/jugner_forest.yaml",
+      "sha256": "6cf6aa7ec44994068097bcd53e0ddc49619f81308628e04aaac1a0bc7eb08666",
+      "bytes": 1082
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/carpenters_landing/zone.yaml",
+      "path": "annotations/imports/horizon/server/carpenters_landing.yaml",
+      "sha256": "976a0262f1b73b075cfc8dda9164a4bd042ef916bea7135f80359bd61a543238",
+      "bytes": 5727
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/batallia_downs/zone.yaml",
+      "path": "annotations/imports/horizon/server/batallia_downs.yaml",
+      "sha256": "dc11ab35a184ecda72716f690947f47aa6cc5c1bf293140c0b5f3e624b8d4559",
+      "bytes": 2427
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/davoi/zone.yaml",
+      "path": "annotations/imports/horizon/server/davoi.yaml",
+      "sha256": "efb156e18e0cafb8e1489338cdbf135fb8f5aca57da504fa3e66abea40733ed9",
+      "bytes": 1088
+    }
+  ],
+  "wiki_module_sha256": "0f8d0ec7e08544a09915225f8bd62d42d6fbf622c6ff78ddbbbec60a67f3db86",
+  "server_commit": "1450874235d41341a2ced74c1dbbe9e4477611d2",
+  "zoom_level": 5
+}

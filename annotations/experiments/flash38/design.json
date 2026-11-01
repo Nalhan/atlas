@@ -1,0 +1,44 @@
+{
+  "model": "gemini-3.8-flash-medium",
+  "effort": "medium",
+  "jobs": [
+    "zulkheim",
+    "north_east"
+  ],
+  "pilot_maps": [
+    "latheine",
+    "valkurm",
+    "konschtat",
+    "selbina",
+    "ordelle1",
+    "ordelle2",
+    "ordelle3",
+    "ordelle4",
+    "jugner",
+    "batallia",
+    "davoi",
+    "monastic",
+    "eldieme1",
+    "eldieme2",
+    "eldieme3",
+    "eldieme4",
+    "landing1",
+    "landing2",
+    "ranguemont",
+    "beaucedine",
+    "feiyin1",
+    "feiyin2",
+    "feiyin3"
+  ],
+  "source_manifest_sha256": "aeec276f8e91293c6c636be52712854c687f0b8ee6db2f1893af0b111b3bfc43",
+  "reference_review_sha256": "c5d1b30941bb4a19b9f3b9d171186caca6ad1bca8f72d7db0a80642a6af45a0a",
+  "notes": [
+    "Known-answer replication, not new tags or a live traversal test.",
+    "Uses corrected native-floor metadata and original images; earlier Luna prompts/inputs differed.",
+    "No direct model-only head-to-head or cost advantage is established by this trial."
+  ],
+  "runtime_data_baseline": {
+    "catalog.lua": "ca49f7c43c2482bc5ea0260920bae0416f03df638c0a83295de5ffbe71d8c103",
+    "regions.lua": "1d9a7d5d636d6aa65c1baf4e0ac60417fae81dfcf53ca242f2d8984179a2fd52"
+  }
+}

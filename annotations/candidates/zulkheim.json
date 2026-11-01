@@ -1,0 +1,695 @@
+{
+  "schema_version": 1,
+  "job_id": "zulkheim",
+  "worker": "Codex",
+  "inventory": [
+    {
+      "map": "latheine",
+      "exits": [
+        {
+          "label": "West Ronfaure",
+          "exit": [
+            165,
+            74
+          ],
+          "destination_hint": "west"
+        },
+        {
+          "label": "Ordelle's Caves (Map 1)",
+          "exit": [
+            244,
+            222
+          ],
+          "destination_hint": "ordelle1"
+        },
+        {
+          "label": "Ordelle's Caves (Map 2)",
+          "exit": [
+            204,
+            222
+          ],
+          "destination_hint": "ordelle3"
+        },
+        {
+          "label": "Ordelle's Caves (Map 3)",
+          "exit": [
+            270,
+            316
+          ],
+          "destination_hint": "ordelle2"
+        },
+        {
+          "label": "Jugner Forest",
+          "exit": [
+            409,
+            251
+          ],
+          "destination_hint": "jugner"
+        },
+        {
+          "label": "Valkurm Dunes",
+          "exit": [
+            291,
+            414
+          ],
+          "destination_hint": "valkurm"
+        }
+      ]
+    },
+    {
+      "map": "valkurm",
+      "exits": [
+        {
+          "label": "La Theine Plateau",
+          "exit": [
+            370,
+            143
+          ],
+          "destination_hint": "latheine"
+        },
+        {
+          "label": "Selbina",
+          "exit": [
+            240,
+            294
+          ],
+          "destination_hint": "selbina"
+        },
+        {
+          "label": "Konschtat Highlands",
+          "exit": [
+            401,
+            376
+          ],
+          "destination_hint": "konschtat"
+        },
+        {
+          "label": "Gustav Tunnel",
+          "exit": [
+            57,
+            225
+          ],
+          "destination_hint": "outside-pilot"
+        },
+        {
+          "label": "Lufaise Meadows",
+          "exit": [
+            303,
+            298
+          ],
+          "destination_hint": "outside-pilot"
+        },
+        {
+          "label": "Secret Sands route",
+          "exit": [
+            89,
+            219
+          ],
+          "destination_hint": null
+        }
+      ]
+    },
+    {
+      "map": "konschtat",
+      "exits": [
+        {
+          "label": "Valkurm Dunes",
+          "exit": [
+            223,
+            87
+          ],
+          "destination_hint": "valkurm"
+        },
+        {
+          "label": "Pashhow Marshlands",
+          "exit": [
+            362,
+            86
+          ],
+          "destination_hint": "outside-pilot"
+        },
+        {
+          "label": "Gusgen Mines",
+          "exit": [
+            407,
+            209
+          ],
+          "destination_hint": "outside-pilot"
+        },
+        {
+          "label": "North Gustaberg",
+          "exit": [
+            280,
+            406
+          ],
+          "destination_hint": "outside-pilot"
+        }
+      ]
+    },
+    {
+      "map": "selbina",
+      "exits": [
+        {
+          "label": "Valkurm Dunes",
+          "exit": [
+            271,
+            165
+          ],
+          "destination_hint": "valkurm"
+        },
+        {
+          "label": "Sea Travel Agency (ferry route)",
+          "exit": [
+            305,
+            315
+          ],
+          "destination_hint": "outside-pilot"
+        }
+      ]
+    },
+    {
+      "map": "ordelle1",
+      "exits": [
+        {
+          "exit": [
+            276,
+            73
+          ],
+          "label": "La Theine Plateau 1",
+          "destination_hint": "latheine"
+        }
+      ]
+    },
+    {
+      "map": "ordelle2",
+      "exits": [
+        {
+          "exit": [
+            217,
+            321
+          ],
+          "label": "La Theine Plateau 3",
+          "destination_hint": "latheine"
+        }
+      ]
+    },
+    {
+      "map": "ordelle3",
+      "exits": [
+        {
+          "exit": [
+            151,
+            377
+          ],
+          "label": "Strange Apparatus access branch",
+          "destination_hint": null
+        }
+      ]
+    },
+    {
+      "map": "ordelle4",
+      "exits": [
+        {
+          "exit": [
+            345,
+            95
+          ],
+          "label": "La Theine Plateau",
+          "destination_hint": "latheine"
+        }
+      ]
+    }
+  ],
+  "passages": [
+    {
+      "id": "latheine-valkurm",
+      "a": {
+        "map": "latheine",
+        "exit": [
+          291,
+          414
+        ],
+        "arrival": [
+          291,
+          404
+        ],
+        "badge": {
+          "at": [
+            291,
+            414
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "valkurm",
+        "exit": [
+          370,
+          143
+        ],
+        "arrival": [
+          370,
+          153
+        ],
+        "badge": {
+          "at": [
+            370,
+            143
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/latheine.png",
+          "detail": "South boundary arrow labels Valkurm Dunes."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/valkurm.png",
+          "detail": "North boundary arrow labels La Theine Plateau."
+        },
+        {
+          "kind": "horizon_wiki",
+          "source": "https://horizonffxi.wiki/La_Theine_Plateau",
+          "detail": "Lists Valkurm Dunes at I-13."
+        },
+        {
+          "kind": "horizon_wiki",
+          "source": "https://horizonffxi.wiki/Valkurm_Dunes",
+          "detail": "Lists La Theine Plateau at L-5."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "latheine-ordelle1",
+      "a": {
+        "map": "latheine",
+        "exit": [
+          244,
+          222
+        ],
+        "arrival": [
+          244,
+          230
+        ],
+        "badge": {
+          "at": [
+            244,
+            214
+          ],
+          "code": "1",
+          "printed": true
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "ordelle1",
+        "exit": [
+          276,
+          73
+        ],
+        "arrival": [
+          276,
+          81
+        ],
+        "badge": {
+          "at": [
+            250,
+            62
+          ],
+          "printed": true,
+          "code": "1"
+        },
+        "component": "main"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "source": "packets/latheine.png",
+          "detail": "Route is labeled Cave Map 1.",
+          "kind": "artwork"
+        },
+        {
+          "source": "packets/ordelle1-original.png",
+          "detail": "Native floor 1 tunnel ends at the La Theine arrow/throat near the northeast edge.",
+          "kind": "artwork"
+        },
+        {
+          "source": "https://horizonffxi.wiki/La_Theine_Plateau",
+          "detail": "Lists the cave connection at F-7.",
+          "kind": "horizon_wiki"
+        },
+        {
+          "source": "https://www.bg-wiki.com/ffxi/Ordelle%27s_Caves",
+          "detail": "Lists a La Theine Plateau connection at F-7.",
+          "kind": "horizon_wiki"
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "latheine-ordelle4",
+      "a": {
+        "map": "latheine",
+        "exit": [
+          204,
+          222
+        ],
+        "arrival": [
+          204,
+          230
+        ],
+        "badge": {
+          "at": [
+            204,
+            222
+          ],
+          "printed": true,
+          "code": "2"
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "ordelle4",
+        "exit": [
+          345,
+          95
+        ],
+        "arrival": [
+          345,
+          104
+        ],
+        "badge": {
+          "at": [
+            345,
+            95
+          ],
+          "printed": false,
+          "code": null
+        },
+        "component": "main"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "source": "packets/latheine.png",
+          "detail": "Cave route is labeled Cave Map 2.",
+          "kind": "artwork"
+        },
+        {
+          "source": "packets/ordelle4-original.png",
+          "detail": "Native floor 15 has the La Theine arrow at the northeast tunnel; throat near [345,95].",
+          "kind": "artwork"
+        },
+        {
+          "source": "https://horizonffxi.wiki/La_Theine_Plateau",
+          "detail": "Lists the cave connection at H-7.",
+          "kind": "horizon_wiki"
+        },
+        {
+          "source": "https://www.bg-wiki.com/ffxi/Ordelle%27s_Caves",
+          "detail": "Lists a La Theine Plateau connection at H-7.",
+          "kind": "horizon_wiki"
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "latheine-ordelle2",
+      "a": {
+        "map": "latheine",
+        "exit": [
+          270,
+          316
+        ],
+        "arrival": [
+          270,
+          308
+        ],
+        "badge": {
+          "at": [
+            270,
+            316
+          ],
+          "code": "3",
+          "printed": true
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "ordelle2",
+        "exit": [
+          217,
+          321
+        ],
+        "arrival": [
+          217,
+          313
+        ],
+        "badge": {
+          "at": [
+            202,
+            329
+          ],
+          "printed": true,
+          "code": "3"
+        },
+        "component": "main"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "source": "packets/latheine.png",
+          "detail": "Southern cave route is labeled Cave Map 3.",
+          "kind": "artwork"
+        },
+        {
+          "source": "packets/ordelle2-original.png",
+          "detail": "Native floor 2 tunnel exits to La Theine through the south opening; throat near [217,321].",
+          "kind": "artwork"
+        },
+        {
+          "source": "https://horizonffxi.wiki/La_Theine_Plateau",
+          "detail": "Lists a cave connection at H-10.",
+          "kind": "horizon_wiki"
+        },
+        {
+          "source": "https://www.bg-wiki.com/ffxi/Ordelle%27s_Caves",
+          "detail": "Lists a La Theine Plateau connection at H-10.",
+          "kind": "horizon_wiki"
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "valkurm-selbina",
+      "a": {
+        "map": "valkurm",
+        "exit": [
+          240,
+          294
+        ],
+        "arrival": [
+          240,
+          286
+        ],
+        "badge": {
+          "at": [
+            240,
+            294
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "selbina",
+        "exit": [
+          271,
+          165
+        ],
+        "arrival": [
+          271,
+          173
+        ],
+        "badge": {
+          "at": [
+            271,
+            165
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/valkurm.png",
+          "detail": "Selbina labeled beside harbor route."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/selbina.png",
+          "detail": "Valkurm Dunes exit labeled at north edge."
+        },
+        {
+          "kind": "horizon_wiki",
+          "source": "https://horizonffxi.wiki/Valkurm_Dunes",
+          "detail": "Lists Selbina at G-9."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "valkurm-konschtat",
+      "a": {
+        "map": "valkurm",
+        "exit": [
+          401,
+          376
+        ],
+        "arrival": [
+          401,
+          368
+        ],
+        "badge": {
+          "at": [
+            401,
+            376
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "konschtat",
+        "exit": [
+          223,
+          87
+        ],
+        "arrival": [
+          223,
+          95
+        ],
+        "badge": {
+          "at": [
+            223,
+            87
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/valkurm.png",
+          "detail": "Southeast boundary labeled Konschtat Highlands."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/konschtat.png",
+          "detail": "North boundary labeled Valkurm Dunes."
+        },
+        {
+          "kind": "horizon_wiki",
+          "source": "https://horizonffxi.wiki/Valkurm_Dunes",
+          "detail": "Lists Konschtat at M-11."
+        },
+        {
+          "kind": "horizon_wiki",
+          "source": "https://horizonffxi.wiki/Konschtat_Highlands",
+          "detail": "Lists Valkurm at G-2."
+        }
+      ],
+      "uncertainties": []
+    }
+  ],
+  "unresolved": [
+    {
+      "map": "latheine",
+      "label": "Jugner Forest",
+      "reason": "Already represented by legacy seed passage latheine-jugner; avoid duplication."
+    },
+    {
+      "map": "valkurm",
+      "label": "Gustav Tunnel",
+      "reason": "Visible boundary destination is outside pilot."
+    },
+    {
+      "map": "valkurm",
+      "label": "Lufaise Meadows",
+      "reason": "Visible boundary destination is outside pilot."
+    },
+    {
+      "map": "valkurm",
+      "label": "Secret Sands route",
+      "reason": "Dashed coast route appears in artwork, but destination and zone boundary are not established."
+    },
+    {
+      "map": "konschtat",
+      "label": "Pashhow Marshlands",
+      "reason": "Visible boundary destination is outside pilot."
+    },
+    {
+      "map": "konschtat",
+      "label": "Gusgen Mines",
+      "reason": "Visible boundary destination is outside pilot."
+    },
+    {
+      "map": "konschtat",
+      "label": "North Gustaberg",
+      "reason": "Visible boundary destination is outside pilot."
+    },
+    {
+      "map": "selbina",
+      "label": "Sea Travel Agency / ferry",
+      "reason": "Travel service is visible; this is a ferry route rather than map edge, and destination lies outside pilot."
+    },
+    {
+      "reason": "Existing seed passage covers this connection; deferred to avoid duplication.",
+      "map": "latheine",
+      "label": "West Ronfaure"
+    },
+    {
+      "reason": "Native floor 14 shows only the small southwest branch; no La Theine boundary or paired floor route is supported.",
+      "map": "ordelle3",
+      "label": "Strange Apparatus branch"
+    },
+    {
+      "reason": "Native artwork shows connected tunnels but does not establish all corresponding floor endpoints.",
+      "map": "ordelle1",
+      "label": "Internal cave branches and drops"
+    },
+    {
+      "reason": "Native artwork shows connected tunnels but does not establish all corresponding floor endpoints.",
+      "map": "ordelle2",
+      "label": "Internal cave branches and drops"
+    },
+    {
+      "reason": "Native artwork shows connected tunnels but does not establish all corresponding floor endpoints.",
+      "map": "ordelle4",
+      "label": "Internal cave branches and drops"
+    }
+  ]
+}

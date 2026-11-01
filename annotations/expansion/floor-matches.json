@@ -1,0 +1,7860 @@
+{
+  "matches": [
+    {
+      "wiki_map": "251",
+      "zone": 11,
+      "score": 0.8741,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.8741
+        }
+      ]
+    },
+    {
+      "wiki_map": "292",
+      "zone": 12,
+      "score": 0.8805,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.8805
+        }
+      ]
+    },
+    {
+      "wiki_map": "143",
+      "zone": 106,
+      "score": 0.7111,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7111
+        }
+      ]
+    },
+    {
+      "wiki_map": "162",
+      "zone": 107,
+      "score": 0.7118,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7118
+        }
+      ]
+    },
+    {
+      "wiki_map": "144",
+      "zone": 143,
+      "score": 0.545,
+      "floor_margin": 0.3601,
+      "image_margin": 0.3466,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.545
+        },
+        {
+          "floor": 2,
+          "score": 0.1608
+        },
+        {
+          "floor": 3,
+          "score": 0.1849
+        }
+      ]
+    },
+    {
+      "wiki_map": "145",
+      "zone": 143,
+      "score": 0.6493,
+      "floor_margin": 0.4751,
+      "image_margin": 0.4629,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1341
+        },
+        {
+          "floor": 2,
+          "score": 0.6493
+        },
+        {
+          "floor": 3,
+          "score": 0.1743
+        }
+      ]
+    },
+    {
+      "wiki_map": "146",
+      "zone": 143,
+      "score": 0.5811,
+      "floor_margin": 0.3826,
+      "image_margin": 0.3962,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1985
+        },
+        {
+          "floor": 2,
+          "score": 0.1864
+        },
+        {
+          "floor": 3,
+          "score": 0.5811
+        }
+      ]
+    },
+    {
+      "wiki_map": "212",
+      "zone": 172,
+      "score": 0.6665,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.6665
+        }
+      ]
+    },
+    {
+      "wiki_map": "130",
+      "zone": 173,
+      "score": 0.4347,
+      "floor_margin": 0.2346,
+      "image_margin": 0.2233,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.4347
+        },
+        {
+          "floor": 2,
+          "score": 0.1968
+        },
+        {
+          "floor": 3,
+          "score": 0.2001
+        },
+        {
+          "floor": 4,
+          "score": 0.1565
+        },
+        {
+          "floor": 5,
+          "score": 0.1557
+        }
+      ]
+    },
+    {
+      "wiki_map": "131",
+      "zone": 173,
+      "score": 0.4372,
+      "floor_margin": 0.2259,
+      "image_margin": 0.2404,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2114
+        },
+        {
+          "floor": 2,
+          "score": 0.4372
+        },
+        {
+          "floor": 3,
+          "score": 0.1978
+        },
+        {
+          "floor": 4,
+          "score": 0.1468
+        },
+        {
+          "floor": 5,
+          "score": 0.18
+        }
+      ]
+    },
+    {
+      "wiki_map": "132",
+      "zone": 173,
+      "score": 0.4837,
+      "floor_margin": 0.2496,
+      "image_margin": 0.2392,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1857
+        },
+        {
+          "floor": 2,
+          "score": 0.1672
+        },
+        {
+          "floor": 3,
+          "score": 0.4837
+        },
+        {
+          "floor": 4,
+          "score": 0.2341
+        },
+        {
+          "floor": 5,
+          "score": 0.1734
+        }
+      ]
+    },
+    {
+      "wiki_map": "133",
+      "zone": 173,
+      "score": 0.4486,
+      "floor_margin": 0.2041,
+      "image_margin": 0.2145,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1378
+        },
+        {
+          "floor": 2,
+          "score": 0.1203
+        },
+        {
+          "floor": 3,
+          "score": 0.2445
+        },
+        {
+          "floor": 4,
+          "score": 0.4486
+        },
+        {
+          "floor": 5,
+          "score": 0.1488
+        }
+      ]
+    },
+    {
+      "wiki_map": "134",
+      "zone": 173,
+      "score": 0.5243,
+      "floor_margin": 0.322,
+      "image_margin": 0.3444,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1482
+        },
+        {
+          "floor": 2,
+          "score": 0.1502
+        },
+        {
+          "floor": 3,
+          "score": 0.2023
+        },
+        {
+          "floor": 4,
+          "score": 0.1609
+        },
+        {
+          "floor": 5,
+          "score": 0.5243
+        }
+      ]
+    },
+    {
+      "wiki_map": "106",
+      "zone": 191,
+      "score": 0.5137,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 14,
+          "score": 0.5137
+        }
+      ]
+    },
+    {
+      "wiki_map": "119",
+      "zone": 196,
+      "score": 0.4781,
+      "floor_margin": 0.1881,
+      "image_margin": 0.1895,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.4781
+        },
+        {
+          "floor": 14,
+          "score": 0.0768
+        },
+        {
+          "floor": 16,
+          "score": 0.29
+        },
+        {
+          "floor": 15,
+          "score": 0.2374
+        },
+        {
+          "floor": 17,
+          "score": 0.1267
+        }
+      ]
+    },
+    {
+      "wiki_map": "120",
+      "zone": 196,
+      "score": 0.5227,
+      "floor_margin": 0.246,
+      "image_margin": 0.2854,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2767
+        },
+        {
+          "floor": 14,
+          "score": 0.1583
+        },
+        {
+          "floor": 16,
+          "score": 0.2497
+        },
+        {
+          "floor": 15,
+          "score": 0.5227
+        },
+        {
+          "floor": 17,
+          "score": 0.1163
+        }
+      ]
+    },
+    {
+      "wiki_map": "121",
+      "zone": 196,
+      "score": 0.5792,
+      "floor_margin": 0.2906,
+      "image_margin": 0.2892,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2886
+        },
+        {
+          "floor": 14,
+          "score": 0.0659
+        },
+        {
+          "floor": 16,
+          "score": 0.5792
+        },
+        {
+          "floor": 15,
+          "score": 0.1964
+        },
+        {
+          "floor": 17,
+          "score": 0.1217
+        }
+      ]
+    },
+    {
+      "wiki_map": "122",
+      "zone": 196,
+      "score": 0.2671,
+      "floor_margin": 0.122,
+      "image_margin": 0.1404,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1451
+        },
+        {
+          "floor": 14,
+          "score": 0.0591
+        },
+        {
+          "floor": 16,
+          "score": 0.1297
+        },
+        {
+          "floor": 15,
+          "score": 0.0941
+        },
+        {
+          "floor": 17,
+          "score": 0.2671
+        }
+      ]
+    },
+    {
+      "wiki_map": "2",
+      "zone": 234,
+      "score": 0.7383,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7383
+        }
+      ]
+    },
+    {
+      "wiki_map": "1",
+      "zone": 235,
+      "score": 0.8,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.8
+        }
+      ]
+    },
+    {
+      "wiki_map": "23",
+      "zone": 236,
+      "score": 0.7325,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7325
+        }
+      ]
+    },
+    {
+      "wiki_map": "13",
+      "zone": 237,
+      "score": 0.7046,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7046
+        }
+      ]
+    },
+    {
+      "wiki_map": "147",
+      "zone": 109,
+      "score": 0.7257,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7257
+        }
+      ]
+    },
+    {
+      "wiki_map": "48",
+      "zone": 110,
+      "score": 0.7662,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7662
+        }
+      ]
+    },
+    {
+      "wiki_map": "79",
+      "zone": 147,
+      "score": 0.5566,
+      "floor_margin": 0.3117,
+      "image_margin": 0.5409,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.5566
+        },
+        {
+          "floor": 15,
+          "score": 0.0114
+        },
+        {
+          "floor": 16,
+          "score": 0.2449
+        }
+      ]
+    },
+    {
+      "wiki_map": "80",
+      "zone": 147,
+      "score": 0.2486,
+      "floor_margin": 0.1516,
+      "image_margin": 0.2373,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.0157
+        },
+        {
+          "floor": 15,
+          "score": 0.2486
+        },
+        {
+          "floor": 16,
+          "score": 0.0971
+        }
+      ]
+    },
+    {
+      "wiki_map": "152",
+      "zone": 148,
+      "score": 0.5924,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.5924
+        }
+      ]
+    },
+    {
+      "wiki_map": "103",
+      "zone": 197,
+      "score": 0.5741,
+      "floor_margin": 0.4297,
+      "image_margin": 0.4142,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 14,
+          "score": 0.1423
+        },
+        {
+          "floor": 17,
+          "score": 0.1046
+        },
+        {
+          "floor": 16,
+          "score": 0.1444
+        },
+        {
+          "floor": 15,
+          "score": 0.5741
+        }
+      ]
+    },
+    {
+      "wiki_map": "104",
+      "zone": 197,
+      "score": 0.6388,
+      "floor_margin": 0.4789,
+      "image_margin": 0.4944,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 14,
+          "score": 0.083
+        },
+        {
+          "floor": 17,
+          "score": 0.1321
+        },
+        {
+          "floor": 16,
+          "score": 0.6388
+        },
+        {
+          "floor": 15,
+          "score": 0.1599
+        }
+      ]
+    },
+    {
+      "wiki_map": "105",
+      "zone": 197,
+      "score": 0.5035,
+      "floor_margin": 0.3223,
+      "image_margin": 0.3714,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 14,
+          "score": 0.1812
+        },
+        {
+          "floor": 17,
+          "score": 0.5035
+        },
+        {
+          "floor": 16,
+          "score": 0.1239
+        },
+        {
+          "floor": 15,
+          "score": 0.1344
+        }
+      ]
+    },
+    {
+      "wiki_map": "49",
+      "zone": 243,
+      "score": 0.724,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.724
+        }
+      ]
+    },
+    {
+      "wiki_map": "62",
+      "zone": 244,
+      "score": 0.7221,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7221
+        }
+      ]
+    },
+    {
+      "wiki_map": "12",
+      "zone": 245,
+      "score": 0.7139,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7139
+        }
+      ]
+    },
+    {
+      "wiki_map": "24",
+      "zone": 246,
+      "score": 0.7458,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7458
+        }
+      ]
+    },
+    {
+      "wiki_map": "202",
+      "zone": 5,
+      "score": 0.7453,
+      "floor_margin": 1,
+      "image_margin": 0.0723,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7453
+        }
+      ]
+    },
+    {
+      "wiki_map": "203",
+      "zone": 5,
+      "score": 0.673,
+      "floor_margin": 1,
+      "image_margin": 0.0723,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.673
+        }
+      ]
+    },
+    {
+      "wiki_map": "27",
+      "zone": 9,
+      "score": 0.3626,
+      "floor_margin": 0.0999,
+      "image_margin": 0.1118,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.3626
+        },
+        {
+          "floor": 2,
+          "score": 0.2579
+        },
+        {
+          "floor": 3,
+          "score": 0.2178
+        },
+        {
+          "floor": 4,
+          "score": 0.2626
+        },
+        {
+          "floor": 5,
+          "score": 0.2602
+        },
+        {
+          "floor": 6,
+          "score": 0.237
+        },
+        {
+          "floor": 7,
+          "score": 0.2314
+        },
+        {
+          "floor": 8,
+          "score": 0.2548
+        },
+        {
+          "floor": 9,
+          "score": 0.2548
+        },
+        {
+          "floor": 10,
+          "score": 0.2548
+        },
+        {
+          "floor": 11,
+          "score": 0.2548
+        },
+        {
+          "floor": 12,
+          "score": 0.24
+        },
+        {
+          "floor": 13,
+          "score": 0.2343
+        },
+        {
+          "floor": 14,
+          "score": 0.1543
+        },
+        {
+          "floor": 15,
+          "score": 0.1531
+        },
+        {
+          "floor": 16,
+          "score": 0.2548
+        }
+      ]
+    },
+    {
+      "wiki_map": "28",
+      "zone": 9,
+      "score": 0.2364,
+      "floor_margin": 0.0396,
+      "image_margin": 0.0791,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1887
+        },
+        {
+          "floor": 2,
+          "score": 0.2364
+        },
+        {
+          "floor": 3,
+          "score": 0.1426
+        },
+        {
+          "floor": 4,
+          "score": 0.1621
+        },
+        {
+          "floor": 5,
+          "score": 0.1724
+        },
+        {
+          "floor": 6,
+          "score": 0.168
+        },
+        {
+          "floor": 7,
+          "score": 0.1674
+        },
+        {
+          "floor": 8,
+          "score": 0.1968
+        },
+        {
+          "floor": 9,
+          "score": 0.1968
+        },
+        {
+          "floor": 10,
+          "score": 0.1968
+        },
+        {
+          "floor": 11,
+          "score": 0.1968
+        },
+        {
+          "floor": 12,
+          "score": 0.1644
+        },
+        {
+          "floor": 13,
+          "score": 0.1416
+        },
+        {
+          "floor": 14,
+          "score": 0.1395
+        },
+        {
+          "floor": 15,
+          "score": 0.1112
+        },
+        {
+          "floor": 16,
+          "score": 0.1968
+        }
+      ]
+    },
+    {
+      "wiki_map": "29",
+      "zone": 9,
+      "score": 0.3822,
+      "floor_margin": 0.0676,
+      "image_margin": 0.0791,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2413
+        },
+        {
+          "floor": 2,
+          "score": 0.3822
+        },
+        {
+          "floor": 3,
+          "score": 0.2003
+        },
+        {
+          "floor": 4,
+          "score": 0.2342
+        },
+        {
+          "floor": 5,
+          "score": 0.2717
+        },
+        {
+          "floor": 6,
+          "score": 0.293
+        },
+        {
+          "floor": 7,
+          "score": 0.2334
+        },
+        {
+          "floor": 8,
+          "score": 0.3146
+        },
+        {
+          "floor": 9,
+          "score": 0.3146
+        },
+        {
+          "floor": 10,
+          "score": 0.3146
+        },
+        {
+          "floor": 11,
+          "score": 0.3146
+        },
+        {
+          "floor": 12,
+          "score": 0.2219
+        },
+        {
+          "floor": 13,
+          "score": 0.2275
+        },
+        {
+          "floor": 14,
+          "score": 0.2192
+        },
+        {
+          "floor": 15,
+          "score": 0.171
+        },
+        {
+          "floor": 16,
+          "score": 0.3146
+        }
+      ]
+    },
+    {
+      "wiki_map": "30",
+      "zone": 9,
+      "score": 0.1917,
+      "floor_margin": 0.0041,
+      "image_margin": 0.0791,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1659
+        },
+        {
+          "floor": 2,
+          "score": 0.1917
+        },
+        {
+          "floor": 3,
+          "score": 0.1418
+        },
+        {
+          "floor": 4,
+          "score": 0.1611
+        },
+        {
+          "floor": 5,
+          "score": 0.1667
+        },
+        {
+          "floor": 6,
+          "score": 0.1683
+        },
+        {
+          "floor": 7,
+          "score": 0.1743
+        },
+        {
+          "floor": 8,
+          "score": 0.1876
+        },
+        {
+          "floor": 9,
+          "score": 0.1876
+        },
+        {
+          "floor": 10,
+          "score": 0.1876
+        },
+        {
+          "floor": 11,
+          "score": 0.1876
+        },
+        {
+          "floor": 12,
+          "score": 0.156
+        },
+        {
+          "floor": 13,
+          "score": 0.145
+        },
+        {
+          "floor": 14,
+          "score": 0.1134
+        },
+        {
+          "floor": 15,
+          "score": 0.0938
+        },
+        {
+          "floor": 16,
+          "score": 0.1876
+        }
+      ]
+    },
+    {
+      "wiki_map": "31",
+      "zone": 9,
+      "score": 0.3072,
+      "floor_margin": 0.044,
+      "image_margin": 0.0782,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2412
+        },
+        {
+          "floor": 2,
+          "score": 0.2363
+        },
+        {
+          "floor": 3,
+          "score": 0.3072
+        },
+        {
+          "floor": 4,
+          "score": 0.2632
+        },
+        {
+          "floor": 5,
+          "score": 0.2587
+        },
+        {
+          "floor": 6,
+          "score": 0.2412
+        },
+        {
+          "floor": 7,
+          "score": 0.2191
+        },
+        {
+          "floor": 8,
+          "score": 0.2346
+        },
+        {
+          "floor": 9,
+          "score": 0.2346
+        },
+        {
+          "floor": 10,
+          "score": 0.2346
+        },
+        {
+          "floor": 11,
+          "score": 0.2346
+        },
+        {
+          "floor": 12,
+          "score": 0.2277
+        },
+        {
+          "floor": 13,
+          "score": 0.1991
+        },
+        {
+          "floor": 14,
+          "score": 0.1287
+        },
+        {
+          "floor": 15,
+          "score": 0.1288
+        },
+        {
+          "floor": 16,
+          "score": 0.2346
+        }
+      ]
+    },
+    {
+      "wiki_map": "32",
+      "zone": 9,
+      "score": 0.2687,
+      "floor_margin": 0.0218,
+      "image_margin": 0.0055,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2416
+        },
+        {
+          "floor": 2,
+          "score": 0.2445
+        },
+        {
+          "floor": 3,
+          "score": 0.2178
+        },
+        {
+          "floor": 4,
+          "score": 0.2687
+        },
+        {
+          "floor": 5,
+          "score": 0.2469
+        },
+        {
+          "floor": 6,
+          "score": 0.2313
+        },
+        {
+          "floor": 7,
+          "score": 0.2295
+        },
+        {
+          "floor": 8,
+          "score": 0.2223
+        },
+        {
+          "floor": 9,
+          "score": 0.2223
+        },
+        {
+          "floor": 10,
+          "score": 0.2223
+        },
+        {
+          "floor": 11,
+          "score": 0.2223
+        },
+        {
+          "floor": 12,
+          "score": 0.227
+        },
+        {
+          "floor": 13,
+          "score": 0.2007
+        },
+        {
+          "floor": 14,
+          "score": 0.1305
+        },
+        {
+          "floor": 15,
+          "score": 0.1251
+        },
+        {
+          "floor": 16,
+          "score": 0.2223
+        }
+      ]
+    },
+    {
+      "wiki_map": "33",
+      "zone": 9,
+      "score": 0.2182,
+      "floor_margin": 0.0052,
+      "image_margin": 0.0791,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1796
+        },
+        {
+          "floor": 2,
+          "score": 0.2182
+        },
+        {
+          "floor": 3,
+          "score": 0.1461
+        },
+        {
+          "floor": 4,
+          "score": 0.1629
+        },
+        {
+          "floor": 5,
+          "score": 0.1853
+        },
+        {
+          "floor": 6,
+          "score": 0.2127
+        },
+        {
+          "floor": 7,
+          "score": 0.1982
+        },
+        {
+          "floor": 8,
+          "score": 0.2129
+        },
+        {
+          "floor": 9,
+          "score": 0.2129
+        },
+        {
+          "floor": 10,
+          "score": 0.2129
+        },
+        {
+          "floor": 11,
+          "score": 0.2129
+        },
+        {
+          "floor": 12,
+          "score": 0.1793
+        },
+        {
+          "floor": 13,
+          "score": 0.1459
+        },
+        {
+          "floor": 14,
+          "score": 0.1768
+        },
+        {
+          "floor": 15,
+          "score": 0.1191
+        },
+        {
+          "floor": 16,
+          "score": 0.2129
+        }
+      ]
+    },
+    {
+      "wiki_map": "34",
+      "zone": 9,
+      "score": 0.304,
+      "floor_margin": 0.059,
+      "image_margin": 0.0294,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1824
+        },
+        {
+          "floor": 2,
+          "score": 0.2444
+        },
+        {
+          "floor": 3,
+          "score": 0.1661
+        },
+        {
+          "floor": 4,
+          "score": 0.2098
+        },
+        {
+          "floor": 5,
+          "score": 0.304
+        },
+        {
+          "floor": 6,
+          "score": 0.2449
+        },
+        {
+          "floor": 7,
+          "score": 0.2095
+        },
+        {
+          "floor": 8,
+          "score": 0.2365
+        },
+        {
+          "floor": 9,
+          "score": 0.2365
+        },
+        {
+          "floor": 10,
+          "score": 0.2365
+        },
+        {
+          "floor": 11,
+          "score": 0.2365
+        },
+        {
+          "floor": 12,
+          "score": 0.1884
+        },
+        {
+          "floor": 13,
+          "score": 0.1677
+        },
+        {
+          "floor": 14,
+          "score": 0.1619
+        },
+        {
+          "floor": 15,
+          "score": 0.1184
+        },
+        {
+          "floor": 16,
+          "score": 0.2365
+        }
+      ]
+    },
+    {
+      "wiki_map": "35",
+      "zone": 9,
+      "score": 0.3614,
+      "floor_margin": 0.0582,
+      "image_margin": 0.0646,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2389
+        },
+        {
+          "floor": 2,
+          "score": 0.3031
+        },
+        {
+          "floor": 3,
+          "score": 0.1989
+        },
+        {
+          "floor": 4,
+          "score": 0.2255
+        },
+        {
+          "floor": 5,
+          "score": 0.2715
+        },
+        {
+          "floor": 6,
+          "score": 0.3614
+        },
+        {
+          "floor": 7,
+          "score": 0.2626
+        },
+        {
+          "floor": 8,
+          "score": 0.2977
+        },
+        {
+          "floor": 9,
+          "score": 0.2977
+        },
+        {
+          "floor": 10,
+          "score": 0.2977
+        },
+        {
+          "floor": 11,
+          "score": 0.2977
+        },
+        {
+          "floor": 12,
+          "score": 0.2269
+        },
+        {
+          "floor": 13,
+          "score": 0.218
+        },
+        {
+          "floor": 14,
+          "score": 0.2019
+        },
+        {
+          "floor": 15,
+          "score": 0.1331
+        },
+        {
+          "floor": 16,
+          "score": 0.2977
+        }
+      ]
+    },
+    {
+      "wiki_map": "36",
+      "zone": 9,
+      "score": 0.3153,
+      "floor_margin": 0.051,
+      "image_margin": 0.0527,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2135
+        },
+        {
+          "floor": 2,
+          "score": 0.2642
+        },
+        {
+          "floor": 3,
+          "score": 0.1935
+        },
+        {
+          "floor": 4,
+          "score": 0.2335
+        },
+        {
+          "floor": 5,
+          "score": 0.2465
+        },
+        {
+          "floor": 6,
+          "score": 0.2567
+        },
+        {
+          "floor": 7,
+          "score": 0.3153
+        },
+        {
+          "floor": 8,
+          "score": 0.2643
+        },
+        {
+          "floor": 9,
+          "score": 0.2643
+        },
+        {
+          "floor": 10,
+          "score": 0.2643
+        },
+        {
+          "floor": 11,
+          "score": 0.2643
+        },
+        {
+          "floor": 12,
+          "score": 0.2206
+        },
+        {
+          "floor": 13,
+          "score": 0.1935
+        },
+        {
+          "floor": 14,
+          "score": 0.1429
+        },
+        {
+          "floor": 15,
+          "score": 0.1086
+        },
+        {
+          "floor": 16,
+          "score": 0.2643
+        }
+      ]
+    },
+    {
+      "wiki_map": "37",
+      "zone": 9,
+      "score": 0.2296,
+      "floor_margin": 0.0263,
+      "image_margin": 0.0791,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2033
+        },
+        {
+          "floor": 2,
+          "score": 0.2296
+        },
+        {
+          "floor": 3,
+          "score": 0.1497
+        },
+        {
+          "floor": 4,
+          "score": 0.1662
+        },
+        {
+          "floor": 5,
+          "score": 0.1774
+        },
+        {
+          "floor": 6,
+          "score": 0.1655
+        },
+        {
+          "floor": 7,
+          "score": 0.1731
+        },
+        {
+          "floor": 8,
+          "score": 0.1984
+        },
+        {
+          "floor": 9,
+          "score": 0.1984
+        },
+        {
+          "floor": 10,
+          "score": 0.1984
+        },
+        {
+          "floor": 11,
+          "score": 0.1984
+        },
+        {
+          "floor": 12,
+          "score": 0.1661
+        },
+        {
+          "floor": 13,
+          "score": 0.1388
+        },
+        {
+          "floor": 14,
+          "score": 0.1321
+        },
+        {
+          "floor": 15,
+          "score": 0.1188
+        },
+        {
+          "floor": 16,
+          "score": 0.1984
+        }
+      ]
+    },
+    {
+      "wiki_map": "38",
+      "zone": 9,
+      "score": 0.3769,
+      "floor_margin": 0.1194,
+      "image_margin": 0.1369,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2055
+        },
+        {
+          "floor": 2,
+          "score": 0.2236
+        },
+        {
+          "floor": 3,
+          "score": 0.1786
+        },
+        {
+          "floor": 4,
+          "score": 0.2059
+        },
+        {
+          "floor": 5,
+          "score": 0.2299
+        },
+        {
+          "floor": 6,
+          "score": 0.22
+        },
+        {
+          "floor": 7,
+          "score": 0.21
+        },
+        {
+          "floor": 8,
+          "score": 0.2576
+        },
+        {
+          "floor": 9,
+          "score": 0.2576
+        },
+        {
+          "floor": 10,
+          "score": 0.2576
+        },
+        {
+          "floor": 11,
+          "score": 0.2576
+        },
+        {
+          "floor": 12,
+          "score": 0.3769
+        },
+        {
+          "floor": 13,
+          "score": 0.2166
+        },
+        {
+          "floor": 14,
+          "score": 0.1364
+        },
+        {
+          "floor": 15,
+          "score": 0.1385
+        },
+        {
+          "floor": 16,
+          "score": 0.2576
+        }
+      ]
+    },
+    {
+      "wiki_map": "39",
+      "zone": 9,
+      "score": 0.2705,
+      "floor_margin": 0.043,
+      "image_margin": 0.0363,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1993
+        },
+        {
+          "floor": 2,
+          "score": 0.2276
+        },
+        {
+          "floor": 3,
+          "score": 0.1458
+        },
+        {
+          "floor": 4,
+          "score": 0.1637
+        },
+        {
+          "floor": 5,
+          "score": 0.1847
+        },
+        {
+          "floor": 6,
+          "score": 0.1998
+        },
+        {
+          "floor": 7,
+          "score": 0.1747
+        },
+        {
+          "floor": 8,
+          "score": 0.2173
+        },
+        {
+          "floor": 9,
+          "score": 0.2173
+        },
+        {
+          "floor": 10,
+          "score": 0.2173
+        },
+        {
+          "floor": 11,
+          "score": 0.2173
+        },
+        {
+          "floor": 12,
+          "score": 0.1936
+        },
+        {
+          "floor": 13,
+          "score": 0.2705
+        },
+        {
+          "floor": 14,
+          "score": 0.1606
+        },
+        {
+          "floor": 15,
+          "score": 0.1147
+        },
+        {
+          "floor": 16,
+          "score": 0.2173
+        }
+      ]
+    },
+    {
+      "wiki_map": "40",
+      "zone": 9,
+      "score": 0.4003,
+      "floor_margin": 0.1519,
+      "image_margin": 0.1713,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.156
+        },
+        {
+          "floor": 2,
+          "score": 0.2243
+        },
+        {
+          "floor": 3,
+          "score": 0.127
+        },
+        {
+          "floor": 4,
+          "score": 0.1289
+        },
+        {
+          "floor": 5,
+          "score": 0.1879
+        },
+        {
+          "floor": 6,
+          "score": 0.2002
+        },
+        {
+          "floor": 7,
+          "score": 0.1554
+        },
+        {
+          "floor": 8,
+          "score": 0.2002
+        },
+        {
+          "floor": 9,
+          "score": 0.2002
+        },
+        {
+          "floor": 10,
+          "score": 0.2002
+        },
+        {
+          "floor": 11,
+          "score": 0.2002
+        },
+        {
+          "floor": 12,
+          "score": 0.1505
+        },
+        {
+          "floor": 13,
+          "score": 0.1897
+        },
+        {
+          "floor": 14,
+          "score": 0.4003
+        },
+        {
+          "floor": 15,
+          "score": 0.2485
+        },
+        {
+          "floor": 16,
+          "score": 0.2002
+        }
+      ]
+    },
+    {
+      "wiki_map": "41",
+      "zone": 9,
+      "score": 0.3411,
+      "floor_margin": 0.1078,
+      "image_margin": 0.0926,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1954
+        },
+        {
+          "floor": 2,
+          "score": 0.2333
+        },
+        {
+          "floor": 3,
+          "score": 0.1776
+        },
+        {
+          "floor": 4,
+          "score": 0.1832
+        },
+        {
+          "floor": 5,
+          "score": 0.1887
+        },
+        {
+          "floor": 6,
+          "score": 0.1977
+        },
+        {
+          "floor": 7,
+          "score": 0.182
+        },
+        {
+          "floor": 8,
+          "score": 0.2151
+        },
+        {
+          "floor": 9,
+          "score": 0.2151
+        },
+        {
+          "floor": 10,
+          "score": 0.2151
+        },
+        {
+          "floor": 11,
+          "score": 0.2151
+        },
+        {
+          "floor": 12,
+          "score": 0.1732
+        },
+        {
+          "floor": 13,
+          "score": 0.1839
+        },
+        {
+          "floor": 14,
+          "score": 0.229
+        },
+        {
+          "floor": 15,
+          "score": 0.3411
+        },
+        {
+          "floor": 16,
+          "score": 0.2151
+        }
+      ]
+    },
+    {
+      "wiki_map": "42",
+      "zone": 9,
+      "score": 0.4364,
+      "floor_margin": 0.0,
+      "image_margin": 0.1218,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2508
+        },
+        {
+          "floor": 2,
+          "score": 0.2988
+        },
+        {
+          "floor": 3,
+          "score": 0.229
+        },
+        {
+          "floor": 4,
+          "score": 0.242
+        },
+        {
+          "floor": 5,
+          "score": 0.2746
+        },
+        {
+          "floor": 6,
+          "score": 0.2967
+        },
+        {
+          "floor": 7,
+          "score": 0.2545
+        },
+        {
+          "floor": 8,
+          "score": 0.4364
+        },
+        {
+          "floor": 9,
+          "score": 0.4364
+        },
+        {
+          "floor": 10,
+          "score": 0.4364
+        },
+        {
+          "floor": 11,
+          "score": 0.4364
+        },
+        {
+          "floor": 12,
+          "score": 0.2395
+        },
+        {
+          "floor": 13,
+          "score": 0.2232
+        },
+        {
+          "floor": 14,
+          "score": 0.1822
+        },
+        {
+          "floor": 15,
+          "score": 0.1335
+        },
+        {
+          "floor": 16,
+          "score": 0.4364
+        }
+      ]
+    },
+    {
+      "wiki_map": "43",
+      "zone": 9,
+      "score": 0.1684,
+      "floor_margin": 0.0,
+      "image_margin": 0.1218,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1546
+        },
+        {
+          "floor": 2,
+          "score": 0.1533
+        },
+        {
+          "floor": 3,
+          "score": 0.1149
+        },
+        {
+          "floor": 4,
+          "score": 0.1333
+        },
+        {
+          "floor": 5,
+          "score": 0.1269
+        },
+        {
+          "floor": 6,
+          "score": 0.1369
+        },
+        {
+          "floor": 7,
+          "score": 0.1343
+        },
+        {
+          "floor": 8,
+          "score": 0.1684
+        },
+        {
+          "floor": 9,
+          "score": 0.1684
+        },
+        {
+          "floor": 10,
+          "score": 0.1684
+        },
+        {
+          "floor": 11,
+          "score": 0.1684
+        },
+        {
+          "floor": 12,
+          "score": 0.152
+        },
+        {
+          "floor": 13,
+          "score": 0.1647
+        },
+        {
+          "floor": 14,
+          "score": 0.0694
+        },
+        {
+          "floor": 15,
+          "score": 0.0678
+        },
+        {
+          "floor": 16,
+          "score": 0.1684
+        }
+      ]
+    },
+    {
+      "wiki_map": "44",
+      "zone": 9,
+      "score": 0.1684,
+      "floor_margin": 0.0,
+      "image_margin": 0.1218,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1546
+        },
+        {
+          "floor": 2,
+          "score": 0.1533
+        },
+        {
+          "floor": 3,
+          "score": 0.1149
+        },
+        {
+          "floor": 4,
+          "score": 0.1333
+        },
+        {
+          "floor": 5,
+          "score": 0.1269
+        },
+        {
+          "floor": 6,
+          "score": 0.1369
+        },
+        {
+          "floor": 7,
+          "score": 0.1343
+        },
+        {
+          "floor": 8,
+          "score": 0.1684
+        },
+        {
+          "floor": 9,
+          "score": 0.1684
+        },
+        {
+          "floor": 10,
+          "score": 0.1684
+        },
+        {
+          "floor": 11,
+          "score": 0.1684
+        },
+        {
+          "floor": 12,
+          "score": 0.152
+        },
+        {
+          "floor": 13,
+          "score": 0.1647
+        },
+        {
+          "floor": 14,
+          "score": 0.0694
+        },
+        {
+          "floor": 15,
+          "score": 0.0678
+        },
+        {
+          "floor": 16,
+          "score": 0.1684
+        }
+      ]
+    },
+    {
+      "wiki_map": "45",
+      "zone": 9,
+      "score": 0.1956,
+      "floor_margin": 0.0,
+      "image_margin": 0.1218,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1744
+        },
+        {
+          "floor": 2,
+          "score": 0.1758
+        },
+        {
+          "floor": 3,
+          "score": 0.141
+        },
+        {
+          "floor": 4,
+          "score": 0.1637
+        },
+        {
+          "floor": 5,
+          "score": 0.1655
+        },
+        {
+          "floor": 6,
+          "score": 0.1758
+        },
+        {
+          "floor": 7,
+          "score": 0.1613
+        },
+        {
+          "floor": 8,
+          "score": 0.1956
+        },
+        {
+          "floor": 9,
+          "score": 0.1956
+        },
+        {
+          "floor": 10,
+          "score": 0.1956
+        },
+        {
+          "floor": 11,
+          "score": 0.1956
+        },
+        {
+          "floor": 12,
+          "score": 0.1626
+        },
+        {
+          "floor": 13,
+          "score": 0.1537
+        },
+        {
+          "floor": 14,
+          "score": 0.0898
+        },
+        {
+          "floor": 15,
+          "score": 0.0767
+        },
+        {
+          "floor": 16,
+          "score": 0.1956
+        }
+      ]
+    },
+    {
+      "wiki_map": "46",
+      "zone": 9,
+      "score": 0.1978,
+      "floor_margin": 0.0072,
+      "image_margin": 0.0791,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1821
+        },
+        {
+          "floor": 2,
+          "score": 0.1978
+        },
+        {
+          "floor": 3,
+          "score": 0.1502
+        },
+        {
+          "floor": 4,
+          "score": 0.1758
+        },
+        {
+          "floor": 5,
+          "score": 0.1906
+        },
+        {
+          "floor": 6,
+          "score": 0.1803
+        },
+        {
+          "floor": 7,
+          "score": 0.1739
+        },
+        {
+          "floor": 8,
+          "score": 0.1848
+        },
+        {
+          "floor": 9,
+          "score": 0.1848
+        },
+        {
+          "floor": 10,
+          "score": 0.1848
+        },
+        {
+          "floor": 11,
+          "score": 0.1848
+        },
+        {
+          "floor": 12,
+          "score": 0.1847
+        },
+        {
+          "floor": 13,
+          "score": 0.1702
+        },
+        {
+          "floor": 14,
+          "score": 0.1146
+        },
+        {
+          "floor": 15,
+          "score": 0.0936
+        },
+        {
+          "floor": 16,
+          "score": 0.1848
+        }
+      ]
+    },
+    {
+      "wiki_map": "207",
+      "zone": 112,
+      "score": 0.6812,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.6812
+        }
+      ]
+    },
+    {
+      "wiki_map": "95",
+      "zone": 161,
+      "score": 0.4487,
+      "floor_margin": 0.2141,
+      "image_margin": 0.2705,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.4487
+        },
+        {
+          "floor": 2,
+          "score": 0.2346
+        },
+        {
+          "floor": 16,
+          "score": 0.0695
+        },
+        {
+          "floor": 15,
+          "score": 0.171
+        }
+      ]
+    },
+    {
+      "wiki_map": "96",
+      "zone": 161,
+      "score": 0.5882,
+      "floor_margin": 0.1921,
+      "image_margin": 0.144,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1782
+        },
+        {
+          "floor": 2,
+          "score": 0.5882
+        },
+        {
+          "floor": 16,
+          "score": 0.1013
+        },
+        {
+          "floor": 15,
+          "score": 0.3961
+        }
+      ]
+    },
+    {
+      "wiki_map": "97",
+      "zone": 161,
+      "score": 0.6049,
+      "floor_margin": 0.1607,
+      "image_margin": 0.2088,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1315
+        },
+        {
+          "floor": 2,
+          "score": 0.4442
+        },
+        {
+          "floor": 16,
+          "score": 0.1371
+        },
+        {
+          "floor": 15,
+          "score": 0.6049
+        }
+      ]
+    },
+    {
+      "wiki_map": "98",
+      "zone": 161,
+      "score": 0.2548,
+      "floor_margin": 0.1354,
+      "image_margin": 0.1177,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.087
+        },
+        {
+          "floor": 2,
+          "score": 0.1072
+        },
+        {
+          "floor": 16,
+          "score": 0.2548
+        },
+        {
+          "floor": 15,
+          "score": 0.1195
+        }
+      ]
+    },
+    {
+      "wiki_map": "99",
+      "zone": 162,
+      "score": 0.5177,
+      "floor_margin": 0.2275,
+      "image_margin": 0.1537,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.5177
+        },
+        {
+          "floor": 2,
+          "score": 0.2902
+        },
+        {
+          "floor": 3,
+          "score": 0.1862
+        },
+        {
+          "floor": 4,
+          "score": 0.1895
+        }
+      ]
+    },
+    {
+      "wiki_map": "100",
+      "zone": 162,
+      "score": 0.4925,
+      "floor_margin": 0.1285,
+      "image_margin": 0.2023,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.364
+        },
+        {
+          "floor": 2,
+          "score": 0.4925
+        },
+        {
+          "floor": 3,
+          "score": 0.1648
+        },
+        {
+          "floor": 4,
+          "score": 0.1891
+        }
+      ]
+    },
+    {
+      "wiki_map": "101",
+      "zone": 162,
+      "score": 0.4537,
+      "floor_margin": 0.2542,
+      "image_margin": 0.2675,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1995
+        },
+        {
+          "floor": 2,
+          "score": 0.1773
+        },
+        {
+          "floor": 3,
+          "score": 0.4537
+        },
+        {
+          "floor": 4,
+          "score": 0.1922
+        }
+      ]
+    },
+    {
+      "wiki_map": "102",
+      "zone": 162,
+      "score": 0.3649,
+      "floor_margin": 0.1337,
+      "image_margin": 0.1727,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2185
+        },
+        {
+          "floor": 2,
+          "score": 0.2312
+        },
+        {
+          "floor": 3,
+          "score": 0.1762
+        },
+        {
+          "floor": 4,
+          "score": 0.3649
+        }
+      ]
+    },
+    {
+      "wiki_map": "252",
+      "zone": 113,
+      "score": 0.8351,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.8351
+        }
+      ]
+    },
+    {
+      "wiki_map": "293",
+      "zone": 128,
+      "score": 0.8533,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.8533
+        }
+      ]
+    },
+    {
+      "wiki_map": "135",
+      "zone": 174,
+      "score": 0.3209,
+      "floor_margin": 0.1132,
+      "image_margin": 0.1689,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.3209
+        },
+        {
+          "floor": 2,
+          "score": 0.1393
+        },
+        {
+          "floor": 15,
+          "score": 0.2077
+        },
+        {
+          "floor": 16,
+          "score": 0.1401
+        }
+      ]
+    },
+    {
+      "wiki_map": "136",
+      "zone": 174,
+      "score": 0.5748,
+      "floor_margin": 0.4249,
+      "image_margin": 0.4355,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1421
+        },
+        {
+          "floor": 2,
+          "score": 0.5748
+        },
+        {
+          "floor": 15,
+          "score": 0.1438
+        },
+        {
+          "floor": 16,
+          "score": 0.1499
+        }
+      ]
+    },
+    {
+      "wiki_map": "137",
+      "zone": 174,
+      "score": 0.432,
+      "floor_margin": 0.254,
+      "image_margin": 0.2243,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.152
+        },
+        {
+          "floor": 2,
+          "score": 0.1063
+        },
+        {
+          "floor": 15,
+          "score": 0.432
+        },
+        {
+          "floor": 16,
+          "score": 0.178
+        }
+      ]
+    },
+    {
+      "wiki_map": "138",
+      "zone": 174,
+      "score": 0.4276,
+      "floor_margin": 0.2435,
+      "image_margin": 0.2495,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.0965
+        },
+        {
+          "floor": 2,
+          "score": 0.12
+        },
+        {
+          "floor": 15,
+          "score": 0.1841
+        },
+        {
+          "floor": 16,
+          "score": 0.4276
+        }
+      ]
+    },
+    {
+      "wiki_map": "123",
+      "zone": 212,
+      "score": 0.4508,
+      "floor_margin": 0.4371,
+      "image_margin": 0.4345,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 2,
+          "score": 0.0137
+        },
+        {
+          "floor": 1,
+          "score": 0.4508
+        }
+      ]
+    },
+    {
+      "wiki_map": "124",
+      "zone": 212,
+      "score": 0.5399,
+      "floor_margin": 0.5236,
+      "image_margin": 0.5262,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 2,
+          "score": 0.5399
+        },
+        {
+          "floor": 1,
+          "score": 0.0162
+        }
+      ]
+    },
+    {
+      "wiki_map": "47",
+      "zone": 126,
+      "score": 0.7082,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7082
+        }
+      ]
+    },
+    {
+      "wiki_map": "81",
+      "zone": 127,
+      "score": 0.6735,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.6735
+        }
+      ]
+    },
+    {
+      "wiki_map": "15",
+      "zone": 157,
+      "score": 0.4953,
+      "floor_margin": 0.1421,
+      "image_margin": 0.0597,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 4,
+          "score": 0.4953
+        },
+        {
+          "floor": 5,
+          "score": 0.3531
+        },
+        {
+          "floor": 6,
+          "score": 0.3081
+        },
+        {
+          "floor": 7,
+          "score": 0.1905
+        },
+        {
+          "floor": 8,
+          "score": 0.2653
+        },
+        {
+          "floor": 9,
+          "score": 0.3302
+        }
+      ]
+    },
+    {
+      "wiki_map": "16",
+      "zone": 157,
+      "score": 0.5661,
+      "floor_margin": 0.1305,
+      "image_margin": 0.213,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 4,
+          "score": 0.4356
+        },
+        {
+          "floor": 5,
+          "score": 0.5661
+        },
+        {
+          "floor": 6,
+          "score": 0.306
+        },
+        {
+          "floor": 7,
+          "score": 0.2541
+        },
+        {
+          "floor": 8,
+          "score": 0.2644
+        },
+        {
+          "floor": 9,
+          "score": 0.3353
+        }
+      ]
+    },
+    {
+      "wiki_map": "17",
+      "zone": 157,
+      "score": 0.5543,
+      "floor_margin": 0.0619,
+      "image_margin": 0.1019,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 4,
+          "score": 0.3994
+        },
+        {
+          "floor": 5,
+          "score": 0.3245
+        },
+        {
+          "floor": 6,
+          "score": 0.5543
+        },
+        {
+          "floor": 7,
+          "score": 0.214
+        },
+        {
+          "floor": 8,
+          "score": 0.3324
+        },
+        {
+          "floor": 9,
+          "score": 0.4925
+        }
+      ]
+    },
+    {
+      "wiki_map": "18",
+      "zone": 157,
+      "score": 0.5036,
+      "floor_margin": 0.237,
+      "image_margin": 0.2494,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 4,
+          "score": 0.2313
+        },
+        {
+          "floor": 5,
+          "score": 0.2666
+        },
+        {
+          "floor": 6,
+          "score": 0.2396
+        },
+        {
+          "floor": 7,
+          "score": 0.5036
+        },
+        {
+          "floor": 8,
+          "score": 0.2084
+        },
+        {
+          "floor": 9,
+          "score": 0.2433
+        }
+      ]
+    },
+    {
+      "wiki_map": "19",
+      "zone": 157,
+      "score": 0.5287,
+      "floor_margin": 0.173,
+      "image_margin": 0.1963,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 4,
+          "score": 0.3466
+        },
+        {
+          "floor": 5,
+          "score": 0.2813
+        },
+        {
+          "floor": 6,
+          "score": 0.34
+        },
+        {
+          "floor": 7,
+          "score": 0.2091
+        },
+        {
+          "floor": 8,
+          "score": 0.5287
+        },
+        {
+          "floor": 9,
+          "score": 0.3557
+        }
+      ]
+    },
+    {
+      "wiki_map": "20",
+      "zone": 157,
+      "score": 0.5438,
+      "floor_margin": 0.0914,
+      "image_margin": 0.0513,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 4,
+          "score": 0.4108
+        },
+        {
+          "floor": 5,
+          "score": 0.3312
+        },
+        {
+          "floor": 6,
+          "score": 0.4524
+        },
+        {
+          "floor": 7,
+          "score": 0.2213
+        },
+        {
+          "floor": 8,
+          "score": 0.3243
+        },
+        {
+          "floor": 9,
+          "score": 0.5438
+        }
+      ]
+    },
+    {
+      "wiki_map": "56",
+      "zone": 158,
+      "score": 0.4509,
+      "floor_margin": 0.1817,
+      "image_margin": 0.1932,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.4509
+        },
+        {
+          "floor": 2,
+          "score": 0.2691
+        },
+        {
+          "floor": 3,
+          "score": 0.2606
+        },
+        {
+          "floor": 4,
+          "score": 0.0742
+        },
+        {
+          "floor": 5,
+          "score": 0.069
+        },
+        {
+          "floor": 6,
+          "score": 0.0897
+        }
+      ]
+    },
+    {
+      "wiki_map": "57",
+      "zone": 158,
+      "score": 0.4474,
+      "floor_margin": 0.1052,
+      "image_margin": 0.069,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2576
+        },
+        {
+          "floor": 2,
+          "score": 0.4474
+        },
+        {
+          "floor": 3,
+          "score": 0.3421
+        },
+        {
+          "floor": 4,
+          "score": 0.0447
+        },
+        {
+          "floor": 5,
+          "score": 0.0475
+        },
+        {
+          "floor": 6,
+          "score": 0.0647
+        }
+      ]
+    },
+    {
+      "wiki_map": "58",
+      "zone": 158,
+      "score": 0.4391,
+      "floor_margin": 0.0608,
+      "image_margin": 0.097,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.246
+        },
+        {
+          "floor": 2,
+          "score": 0.3783
+        },
+        {
+          "floor": 3,
+          "score": 0.4391
+        },
+        {
+          "floor": 4,
+          "score": 0.0463
+        },
+        {
+          "floor": 5,
+          "score": 0.0499
+        },
+        {
+          "floor": 6,
+          "score": 0.0678
+        }
+      ]
+    },
+    {
+      "wiki_map": "59",
+      "zone": 158,
+      "score": 0.2932,
+      "floor_margin": 0.0908,
+      "image_margin": 0.0724,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.0737
+        },
+        {
+          "floor": 2,
+          "score": 0.0477
+        },
+        {
+          "floor": 3,
+          "score": 0.0384
+        },
+        {
+          "floor": 4,
+          "score": 0.2024
+        },
+        {
+          "floor": 5,
+          "score": 0.1959
+        },
+        {
+          "floor": 6,
+          "score": 0.2932
+        }
+      ]
+    },
+    {
+      "wiki_map": "60",
+      "zone": 158,
+      "score": 0.2208,
+      "floor_margin": 0.0049,
+      "image_margin": 0.0724,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.0493
+        },
+        {
+          "floor": 2,
+          "score": 0.043
+        },
+        {
+          "floor": 3,
+          "score": 0.0293
+        },
+        {
+          "floor": 4,
+          "score": 0.2159
+        },
+        {
+          "floor": 5,
+          "score": 0.2083
+        },
+        {
+          "floor": 6,
+          "score": 0.2208
+        }
+      ]
+    },
+    {
+      "wiki_map": "61",
+      "zone": 158,
+      "score": 0.2204,
+      "floor_margin": 0.0056,
+      "image_margin": 0.0724,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.0501
+        },
+        {
+          "floor": 2,
+          "score": 0.0425
+        },
+        {
+          "floor": 3,
+          "score": 0.0289
+        },
+        {
+          "floor": 4,
+          "score": 0.2148
+        },
+        {
+          "floor": 5,
+          "score": 0.2076
+        },
+        {
+          "floor": 6,
+          "score": 0.2204
+        }
+      ]
+    },
+    {
+      "wiki_map": "8",
+      "zone": 184,
+      "score": 0.6274,
+      "floor_margin": 0.2096,
+      "image_margin": 0.204,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.6274
+        },
+        {
+          "floor": 2,
+          "score": 0.4178
+        },
+        {
+          "floor": 3,
+          "score": 0.1467
+        },
+        {
+          "floor": 15,
+          "score": 0.1377
+        }
+      ]
+    },
+    {
+      "wiki_map": "9",
+      "zone": 184,
+      "score": 0.603,
+      "floor_margin": 0.1797,
+      "image_margin": 0.1852,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.4233
+        },
+        {
+          "floor": 2,
+          "score": 0.603
+        },
+        {
+          "floor": 3,
+          "score": 0.2585
+        },
+        {
+          "floor": 15,
+          "score": 0.1588
+        }
+      ]
+    },
+    {
+      "wiki_map": "10",
+      "zone": 184,
+      "score": 0.4591,
+      "floor_margin": 0.2084,
+      "image_margin": 0.2005,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1417
+        },
+        {
+          "floor": 2,
+          "score": 0.2507
+        },
+        {
+          "floor": 3,
+          "score": 0.4591
+        },
+        {
+          "floor": 15,
+          "score": 0.103
+        }
+      ]
+    },
+    {
+      "wiki_map": "11",
+      "zone": 184,
+      "score": 0.5045,
+      "floor_margin": 0.351,
+      "image_margin": 0.3457,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1506
+        },
+        {
+          "floor": 2,
+          "score": 0.1535
+        },
+        {
+          "floor": 3,
+          "score": 0.0979
+        },
+        {
+          "floor": 15,
+          "score": 0.5045
+        }
+      ]
+    },
+    {
+      "wiki_map": "140",
+      "zone": 119,
+      "score": 0.7676,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7676
+        }
+      ]
+    },
+    {
+      "wiki_map": "50",
+      "zone": 120,
+      "score": 0.7149,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7149
+        }
+      ]
+    },
+    {
+      "wiki_map": "88",
+      "zone": 151,
+      "score": 0.5486,
+      "floor_margin": 0.2127,
+      "image_margin": 0.2404,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.5486
+        },
+        {
+          "floor": 2,
+          "score": 0.3359
+        },
+        {
+          "floor": 3,
+          "score": 0.1745
+        },
+        {
+          "floor": 4,
+          "score": 0.2049
+        },
+        {
+          "floor": 5,
+          "score": 0.1998
+        },
+        {
+          "floor": 6,
+          "score": 0.1929
+        },
+        {
+          "floor": 15,
+          "score": 0.3011
+        }
+      ]
+    },
+    {
+      "wiki_map": "89",
+      "zone": 151,
+      "score": 0.526,
+      "floor_margin": 0.1835,
+      "image_margin": 0.19,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.3082
+        },
+        {
+          "floor": 2,
+          "score": 0.526
+        },
+        {
+          "floor": 3,
+          "score": 0.1978
+        },
+        {
+          "floor": 4,
+          "score": 0.2218
+        },
+        {
+          "floor": 5,
+          "score": 0.2409
+        },
+        {
+          "floor": 6,
+          "score": 0.2385
+        },
+        {
+          "floor": 15,
+          "score": 0.3424
+        }
+      ]
+    },
+    {
+      "wiki_map": "90",
+      "zone": 151,
+      "score": 0.4006,
+      "floor_margin": 0.2005,
+      "image_margin": 0.2028,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1432
+        },
+        {
+          "floor": 2,
+          "score": 0.1875
+        },
+        {
+          "floor": 3,
+          "score": 0.4006
+        },
+        {
+          "floor": 4,
+          "score": 0.1623
+        },
+        {
+          "floor": 5,
+          "score": 0.1186
+        },
+        {
+          "floor": 6,
+          "score": 0.1025
+        },
+        {
+          "floor": 15,
+          "score": 0.2001
+        }
+      ]
+    },
+    {
+      "wiki_map": "91",
+      "zone": 151,
+      "score": 0.2312,
+      "floor_margin": 0.0393,
+      "image_margin": 0.0606,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1421
+        },
+        {
+          "floor": 2,
+          "score": 0.1919
+        },
+        {
+          "floor": 3,
+          "score": 0.1044
+        },
+        {
+          "floor": 4,
+          "score": 0.2312
+        },
+        {
+          "floor": 5,
+          "score": 0.1668
+        },
+        {
+          "floor": 6,
+          "score": 0.1689
+        },
+        {
+          "floor": 15,
+          "score": 0.1899
+        }
+      ]
+    },
+    {
+      "wiki_map": "92",
+      "zone": 151,
+      "score": 0.3964,
+      "floor_margin": 0.042,
+      "image_margin": 0.1008,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2205
+        },
+        {
+          "floor": 2,
+          "score": 0.2407
+        },
+        {
+          "floor": 3,
+          "score": 0.1222
+        },
+        {
+          "floor": 4,
+          "score": 0.2917
+        },
+        {
+          "floor": 5,
+          "score": 0.3964
+        },
+        {
+          "floor": 6,
+          "score": 0.3544
+        },
+        {
+          "floor": 15,
+          "score": 0.2112
+        }
+      ]
+    },
+    {
+      "wiki_map": "93",
+      "zone": 151,
+      "score": 0.322,
+      "floor_margin": 0.0264,
+      "image_margin": 0.0324,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1668
+        },
+        {
+          "floor": 2,
+          "score": 0.2247
+        },
+        {
+          "floor": 3,
+          "score": 0.0667
+        },
+        {
+          "floor": 4,
+          "score": 0.2213
+        },
+        {
+          "floor": 5,
+          "score": 0.2956
+        },
+        {
+          "floor": 6,
+          "score": 0.322
+        },
+        {
+          "floor": 15,
+          "score": 0.159
+        }
+      ]
+    },
+    {
+      "wiki_map": "94",
+      "zone": 151,
+      "score": 0.5066,
+      "floor_margin": 0.2201,
+      "image_margin": 0.1642,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2355
+        },
+        {
+          "floor": 2,
+          "score": 0.2865
+        },
+        {
+          "floor": 3,
+          "score": 0.1801
+        },
+        {
+          "floor": 4,
+          "score": 0.1913
+        },
+        {
+          "floor": 5,
+          "score": 0.1745
+        },
+        {
+          "floor": 6,
+          "score": 0.1835
+        },
+        {
+          "floor": 15,
+          "score": 0.5066
+        }
+      ]
+    },
+    {
+      "wiki_map": "69",
+      "zone": 152,
+      "score": 0.5955,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.5955
+        }
+      ]
+    },
+    {
+      "wiki_map": "111",
+      "zone": 200,
+      "score": 0.4264,
+      "floor_margin": 0.1488,
+      "image_margin": 0.1935,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.4264
+        },
+        {
+          "floor": 2,
+          "score": 0.2776
+        },
+        {
+          "floor": 3,
+          "score": 0.1504
+        },
+        {
+          "floor": 14,
+          "score": 0.1434
+        },
+        {
+          "floor": 16,
+          "score": 0.1874
+        }
+      ]
+    },
+    {
+      "wiki_map": "112",
+      "zone": 200,
+      "score": 0.4478,
+      "floor_margin": 0.2149,
+      "image_margin": 0.1702,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2329
+        },
+        {
+          "floor": 2,
+          "score": 0.4478
+        },
+        {
+          "floor": 3,
+          "score": 0.165
+        },
+        {
+          "floor": 14,
+          "score": 0.0542
+        },
+        {
+          "floor": 16,
+          "score": 0.1965
+        }
+      ]
+    },
+    {
+      "wiki_map": "113",
+      "zone": 200,
+      "score": 0.3619,
+      "floor_margin": 0.1822,
+      "image_margin": 0.1567,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1027
+        },
+        {
+          "floor": 2,
+          "score": 0.1623
+        },
+        {
+          "floor": 3,
+          "score": 0.3619
+        },
+        {
+          "floor": 14,
+          "score": 0.1797
+        },
+        {
+          "floor": 16,
+          "score": 0.1569
+        }
+      ]
+    },
+    {
+      "wiki_map": "114",
+      "zone": 200,
+      "score": 0.4154,
+      "floor_margin": 0.1648,
+      "image_margin": 0.2189,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.169
+        },
+        {
+          "floor": 2,
+          "score": 0.2505
+        },
+        {
+          "floor": 3,
+          "score": 0.2052
+        },
+        {
+          "floor": 14,
+          "score": 0.0654
+        },
+        {
+          "floor": 16,
+          "score": 0.4154
+        }
+      ]
+    },
+    {
+      "wiki_map": "82",
+      "zone": 4,
+      "score": 0.4976,
+      "floor_margin": 0.4771,
+      "image_margin": 0.4811,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.4976
+        },
+        {
+          "floor": 2,
+          "score": 0.0205
+        }
+      ]
+    },
+    {
+      "wiki_map": "83",
+      "zone": 4,
+      "score": 0.4778,
+      "floor_margin": 0.4614,
+      "image_margin": 0.4573,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.0164
+        },
+        {
+          "floor": 2,
+          "score": 0.4778
+        }
+      ]
+    },
+    {
+      "wiki_map": "78",
+      "zone": 7,
+      "score": 0.7147,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7147
+        }
+      ]
+    },
+    {
+      "wiki_map": "52",
+      "zone": 117,
+      "score": 0.7208,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7208
+        }
+      ]
+    },
+    {
+      "wiki_map": "87",
+      "zone": 118,
+      "score": 0.7284,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7284
+        }
+      ]
+    },
+    {
+      "wiki_map": "238",
+      "zone": 198,
+      "score": 0.6263,
+      "floor_margin": 0.5818,
+      "image_margin": 0.5866,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 14,
+          "score": 0.0445
+        },
+        {
+          "floor": 16,
+          "score": 0.0254
+        },
+        {
+          "floor": 15,
+          "score": 0.6263
+        }
+      ]
+    },
+    {
+      "wiki_map": "239",
+      "zone": 198,
+      "score": 0.4974,
+      "floor_margin": 0.3607,
+      "image_margin": 0.472,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 14,
+          "score": 0.1367
+        },
+        {
+          "floor": 16,
+          "score": 0.4974
+        },
+        {
+          "floor": 15,
+          "score": 0.0397
+        }
+      ]
+    },
+    {
+      "wiki_map": "243",
+      "zone": 213,
+      "score": 0.8401,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.8401
+        }
+      ]
+    },
+    {
+      "wiki_map": "14",
+      "zone": 249,
+      "score": 0.6939,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.6939
+        }
+      ]
+    },
+    {
+      "wiki_map": "205",
+      "zone": 115,
+      "score": 0.7126,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7126
+        }
+      ]
+    },
+    {
+      "wiki_map": "109",
+      "zone": 116,
+      "score": 0.7403,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7403
+        }
+      ]
+    },
+    {
+      "wiki_map": "117",
+      "zone": 145,
+      "score": 0.6382,
+      "floor_margin": 0.6184,
+      "image_margin": 0.6335,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 15,
+          "score": 0.0198
+        },
+        {
+          "floor": 1,
+          "score": 0.6382
+        }
+      ]
+    },
+    {
+      "wiki_map": "118",
+      "zone": 145,
+      "score": 0.3562,
+      "floor_margin": 0.3515,
+      "image_margin": 0.3364,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 15,
+          "score": 0.3562
+        },
+        {
+          "floor": 1,
+          "score": 0.0047
+        }
+      ]
+    },
+    {
+      "wiki_map": "253",
+      "zone": 169,
+      "score": 0.4794,
+      "floor_margin": 0.4628,
+      "image_margin": 0.4636,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.4794
+        },
+        {
+          "floor": 2,
+          "score": 0.0166
+        }
+      ]
+    },
+    {
+      "wiki_map": "254",
+      "zone": 169,
+      "score": 0.4659,
+      "floor_margin": 0.45,
+      "image_margin": 0.4492,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.0158
+        },
+        {
+          "floor": 2,
+          "score": 0.4659
+        }
+      ]
+    },
+    {
+      "wiki_map": "125",
+      "zone": 192,
+      "score": 0.4755,
+      "floor_margin": 0.2741,
+      "image_margin": 0.2744,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.4755
+        },
+        {
+          "floor": 2,
+          "score": 0.2014
+        },
+        {
+          "floor": 3,
+          "score": 0.178
+        },
+        {
+          "floor": 4,
+          "score": 0.1849
+        }
+      ]
+    },
+    {
+      "wiki_map": "126",
+      "zone": 192,
+      "score": 0.5371,
+      "floor_margin": 0.3338,
+      "image_margin": 0.3057,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1249
+        },
+        {
+          "floor": 2,
+          "score": 0.5371
+        },
+        {
+          "floor": 3,
+          "score": 0.2033
+        },
+        {
+          "floor": 4,
+          "score": 0.0537
+        }
+      ]
+    },
+    {
+      "wiki_map": "127",
+      "zone": 192,
+      "score": 0.3628,
+      "floor_margin": 0.1314,
+      "image_margin": 0.1595,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2011
+        },
+        {
+          "floor": 2,
+          "score": 0.2313
+        },
+        {
+          "floor": 3,
+          "score": 0.3628
+        },
+        {
+          "floor": 4,
+          "score": 0.1028
+        }
+      ]
+    },
+    {
+      "wiki_map": "128",
+      "zone": 192,
+      "score": 0.3021,
+      "floor_margin": 0.1614,
+      "image_margin": 0.1173,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1408
+        },
+        {
+          "floor": 2,
+          "score": 0.0466
+        },
+        {
+          "floor": 3,
+          "score": 0.06
+        },
+        {
+          "floor": 4,
+          "score": 0.3021
+        }
+      ]
+    },
+    {
+      "wiki_map": "246",
+      "zone": 194,
+      "score": 0.537,
+      "floor_margin": 0.368,
+      "image_margin": 0.3796,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.537
+        },
+        {
+          "floor": 2,
+          "score": 0.169
+        },
+        {
+          "floor": 3,
+          "score": 0.0937
+        },
+        {
+          "floor": 4,
+          "score": 0.0831
+        },
+        {
+          "floor": 5,
+          "score": 0.1196
+        },
+        {
+          "floor": 14,
+          "score": 0.1149
+        }
+      ]
+    },
+    {
+      "wiki_map": "247",
+      "zone": 194,
+      "score": 0.613,
+      "floor_margin": 0.4162,
+      "image_margin": 0.3206,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1413
+        },
+        {
+          "floor": 2,
+          "score": 0.613
+        },
+        {
+          "floor": 3,
+          "score": 0.1967
+        },
+        {
+          "floor": 4,
+          "score": 0.1692
+        },
+        {
+          "floor": 5,
+          "score": 0.1751
+        },
+        {
+          "floor": 14,
+          "score": 0.0743
+        }
+      ]
+    },
+    {
+      "wiki_map": "248",
+      "zone": 194,
+      "score": 0.4824,
+      "floor_margin": 0.1901,
+      "image_margin": 0.2017,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1574
+        },
+        {
+          "floor": 2,
+          "score": 0.2923
+        },
+        {
+          "floor": 3,
+          "score": 0.4824
+        },
+        {
+          "floor": 4,
+          "score": 0.2415
+        },
+        {
+          "floor": 5,
+          "score": 0.2104
+        },
+        {
+          "floor": 14,
+          "score": 0.1054
+        }
+      ]
+    },
+    {
+      "wiki_map": "249",
+      "zone": 194,
+      "score": 0.5069,
+      "floor_margin": 0.2262,
+      "image_margin": 0.2571,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.0907
+        },
+        {
+          "floor": 2,
+          "score": 0.1909
+        },
+        {
+          "floor": 3,
+          "score": 0.2807
+        },
+        {
+          "floor": 4,
+          "score": 0.5069
+        },
+        {
+          "floor": 5,
+          "score": 0.2104
+        },
+        {
+          "floor": 14,
+          "score": 0.1624
+        }
+      ]
+    },
+    {
+      "wiki_map": "250",
+      "zone": 194,
+      "score": 0.5291,
+      "floor_margin": 0.2793,
+      "image_margin": 0.3187,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.121
+        },
+        {
+          "floor": 2,
+          "score": 0.1758
+        },
+        {
+          "floor": 3,
+          "score": 0.161
+        },
+        {
+          "floor": 4,
+          "score": 0.2497
+        },
+        {
+          "floor": 5,
+          "score": 0.5291
+        },
+        {
+          "floor": 14,
+          "score": 0.2184
+        }
+      ]
+    },
+    {
+      "wiki_map": "65",
+      "zone": 238,
+      "score": 0.5408,
+      "floor_margin": 0.5189,
+      "image_margin": 0.5272,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 2,
+          "score": 0.0219
+        },
+        {
+          "floor": 1,
+          "score": 0.5408
+        }
+      ]
+    },
+    {
+      "wiki_map": "66",
+      "zone": 238,
+      "score": 0.4735,
+      "floor_margin": 0.4598,
+      "image_margin": 0.4516,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 2,
+          "score": 0.4735
+        },
+        {
+          "floor": 1,
+          "score": 0.0136
+        }
+      ]
+    },
+    {
+      "wiki_map": "64",
+      "zone": 239,
+      "score": 0.7943,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7943
+        }
+      ]
+    },
+    {
+      "wiki_map": "26",
+      "zone": 240,
+      "score": 0.7678,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7678
+        }
+      ]
+    },
+    {
+      "wiki_map": "67",
+      "zone": 241,
+      "score": 0.7544,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7544
+        }
+      ]
+    },
+    {
+      "wiki_map": "201",
+      "zone": 121,
+      "score": 0.7049,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7049
+        }
+      ]
+    },
+    {
+      "wiki_map": "282",
+      "zone": 122,
+      "score": 0.9426,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.9426
+        }
+      ]
+    },
+    {
+      "wiki_map": "194",
+      "zone": 153,
+      "score": 0.4378,
+      "floor_margin": 0.2529,
+      "image_margin": 0.2787,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.4378
+        },
+        {
+          "floor": 2,
+          "score": 0.1085
+        },
+        {
+          "floor": 3,
+          "score": 0.1849
+        },
+        {
+          "floor": 4,
+          "score": 0.1841
+        }
+      ]
+    },
+    {
+      "wiki_map": "195",
+      "zone": 153,
+      "score": 0.2294,
+      "floor_margin": 0.0657,
+      "image_margin": 0.1209,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1591
+        },
+        {
+          "floor": 2,
+          "score": 0.2294
+        },
+        {
+          "floor": 3,
+          "score": 0.1637
+        },
+        {
+          "floor": 4,
+          "score": 0.1311
+        }
+      ]
+    },
+    {
+      "wiki_map": "196",
+      "zone": 153,
+      "score": 0.3681,
+      "floor_margin": 0.1803,
+      "image_margin": 0.1831,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1541
+        },
+        {
+          "floor": 2,
+          "score": 0.0923
+        },
+        {
+          "floor": 3,
+          "score": 0.3681
+        },
+        {
+          "floor": 4,
+          "score": 0.1878
+        }
+      ]
+    },
+    {
+      "wiki_map": "197",
+      "zone": 153,
+      "score": 0.351,
+      "floor_margin": 0.1811,
+      "image_margin": 0.1632,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1482
+        },
+        {
+          "floor": 2,
+          "score": 0.0968
+        },
+        {
+          "floor": 3,
+          "score": 0.1699
+        },
+        {
+          "floor": 4,
+          "score": 0.351
+        }
+      ]
+    },
+    {
+      "wiki_map": "281",
+      "zone": 154,
+      "score": 0.8361,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.8361
+        }
+      ]
+    },
+    {
+      "wiki_map": "255",
+      "zone": 251,
+      "score": 0.7713,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.7713
+        }
+      ]
+    },
+    {
+      "wiki_map": "155",
+      "zone": 130,
+      "score": 0.7103,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7103
+        }
+      ]
+    },
+    {
+      "wiki_map": "256",
+      "zone": 177,
+      "score": 0.7982,
+      "floor_margin": 0.6846,
+      "image_margin": 0.7291,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.7982
+        },
+        {
+          "floor": 2,
+          "score": 0.1069
+        },
+        {
+          "floor": 3,
+          "score": 0.1042
+        },
+        {
+          "floor": 4,
+          "score": 0.1028
+        },
+        {
+          "floor": 5,
+          "score": 0.1136
+        },
+        {
+          "floor": 6,
+          "score": 0.1028
+        },
+        {
+          "floor": 7,
+          "score": 0.0925
+        },
+        {
+          "floor": 8,
+          "score": 0.1008
+        },
+        {
+          "floor": 9,
+          "score": 0.1
+        }
+      ]
+    },
+    {
+      "wiki_map": "257",
+      "zone": 177,
+      "score": 0.51,
+      "floor_margin": 0.1886,
+      "image_margin": 0.1804,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.0517
+        },
+        {
+          "floor": 2,
+          "score": 0.51
+        },
+        {
+          "floor": 3,
+          "score": 0.242
+        },
+        {
+          "floor": 4,
+          "score": 0.2488
+        },
+        {
+          "floor": 5,
+          "score": 0.2799
+        },
+        {
+          "floor": 6,
+          "score": 0.2829
+        },
+        {
+          "floor": 7,
+          "score": 0.3214
+        },
+        {
+          "floor": 8,
+          "score": 0.2738
+        },
+        {
+          "floor": 9,
+          "score": 0.2685
+        }
+      ]
+    },
+    {
+      "wiki_map": "258",
+      "zone": 177,
+      "score": 0.5536,
+      "floor_margin": 0.2226,
+      "image_margin": 0.2227,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.069
+        },
+        {
+          "floor": 2,
+          "score": 0.2541
+        },
+        {
+          "floor": 3,
+          "score": 0.5536
+        },
+        {
+          "floor": 4,
+          "score": 0.3309
+        },
+        {
+          "floor": 5,
+          "score": 0.2737
+        },
+        {
+          "floor": 6,
+          "score": 0.251
+        },
+        {
+          "floor": 7,
+          "score": 0.2788
+        },
+        {
+          "floor": 8,
+          "score": 0.2824
+        },
+        {
+          "floor": 9,
+          "score": 0.2489
+        }
+      ]
+    },
+    {
+      "wiki_map": "259",
+      "zone": 177,
+      "score": 0.52,
+      "floor_margin": 0.1891,
+      "image_margin": 0.189,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.0594
+        },
+        {
+          "floor": 2,
+          "score": 0.2613
+        },
+        {
+          "floor": 3,
+          "score": 0.3309
+        },
+        {
+          "floor": 4,
+          "score": 0.52
+        },
+        {
+          "floor": 5,
+          "score": 0.2847
+        },
+        {
+          "floor": 6,
+          "score": 0.2179
+        },
+        {
+          "floor": 7,
+          "score": 0.2701
+        },
+        {
+          "floor": 8,
+          "score": 0.2585
+        },
+        {
+          "floor": 9,
+          "score": 0.2386
+        }
+      ]
+    },
+    {
+      "wiki_map": "260",
+      "zone": 177,
+      "score": 0.5336,
+      "floor_margin": 0.1788,
+      "image_margin": 0.1723,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.0609
+        },
+        {
+          "floor": 2,
+          "score": 0.2973
+        },
+        {
+          "floor": 3,
+          "score": 0.2705
+        },
+        {
+          "floor": 4,
+          "score": 0.2792
+        },
+        {
+          "floor": 5,
+          "score": 0.5336
+        },
+        {
+          "floor": 6,
+          "score": 0.2746
+        },
+        {
+          "floor": 7,
+          "score": 0.3365
+        },
+        {
+          "floor": 8,
+          "score": 0.3548
+        },
+        {
+          "floor": 9,
+          "score": 0.3036
+        }
+      ]
+    },
+    {
+      "wiki_map": "261",
+      "zone": 177,
+      "score": 0.5432,
+      "floor_margin": 0.1797,
+      "image_margin": 0.1752,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.0548
+        },
+        {
+          "floor": 2,
+          "score": 0.2737
+        },
+        {
+          "floor": 3,
+          "score": 0.2569
+        },
+        {
+          "floor": 4,
+          "score": 0.2133
+        },
+        {
+          "floor": 5,
+          "score": 0.2699
+        },
+        {
+          "floor": 6,
+          "score": 0.5432
+        },
+        {
+          "floor": 7,
+          "score": 0.335
+        },
+        {
+          "floor": 8,
+          "score": 0.3042
+        },
+        {
+          "floor": 9,
+          "score": 0.3636
+        }
+      ]
+    },
+    {
+      "wiki_map": "263",
+      "zone": 177,
+      "score": 0.5596,
+      "floor_margin": 0.1,
+      "image_margin": 0.0874,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.0567
+        },
+        {
+          "floor": 2,
+          "score": 0.3296
+        },
+        {
+          "floor": 3,
+          "score": 0.2796
+        },
+        {
+          "floor": 4,
+          "score": 0.2634
+        },
+        {
+          "floor": 5,
+          "score": 0.3269
+        },
+        {
+          "floor": 6,
+          "score": 0.3386
+        },
+        {
+          "floor": 7,
+          "score": 0.5596
+        },
+        {
+          "floor": 8,
+          "score": 0.4596
+        },
+        {
+          "floor": 9,
+          "score": 0.3076
+        }
+      ]
+    },
+    {
+      "wiki_map": "264",
+      "zone": 177,
+      "score": 0.5484,
+      "floor_margin": 0.0761,
+      "image_margin": 0.0887,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.0568
+        },
+        {
+          "floor": 2,
+          "score": 0.2946
+        },
+        {
+          "floor": 3,
+          "score": 0.2858
+        },
+        {
+          "floor": 4,
+          "score": 0.2492
+        },
+        {
+          "floor": 5,
+          "score": 0.3613
+        },
+        {
+          "floor": 6,
+          "score": 0.3094
+        },
+        {
+          "floor": 7,
+          "score": 0.4723
+        },
+        {
+          "floor": 8,
+          "score": 0.5484
+        },
+        {
+          "floor": 9,
+          "score": 0.3002
+        }
+      ]
+    },
+    {
+      "wiki_map": "265",
+      "zone": 177,
+      "score": 0.5225,
+      "floor_margin": 0.1545,
+      "image_margin": 0.159,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.0571
+        },
+        {
+          "floor": 2,
+          "score": 0.2674
+        },
+        {
+          "floor": 3,
+          "score": 0.2405
+        },
+        {
+          "floor": 4,
+          "score": 0.228
+        },
+        {
+          "floor": 5,
+          "score": 0.2758
+        },
+        {
+          "floor": 6,
+          "score": 0.368
+        },
+        {
+          "floor": 7,
+          "score": 0.2965
+        },
+        {
+          "floor": 8,
+          "score": 0.2798
+        },
+        {
+          "floor": 9,
+          "score": 0.5225
+        }
+      ]
+    },
+    {
+      "wiki_map": "266",
+      "zone": 178,
+      "score": 0.5307,
+      "floor_margin": 0.2999,
+      "image_margin": 0.2651,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2181
+        },
+        {
+          "floor": 2,
+          "score": 0.2125
+        },
+        {
+          "floor": 3,
+          "score": 0.2046
+        },
+        {
+          "floor": 4,
+          "score": 0.2308
+        },
+        {
+          "floor": 5,
+          "score": 0.1899
+        },
+        {
+          "floor": 15,
+          "score": 0.5307
+        }
+      ]
+    },
+    {
+      "wiki_map": "267",
+      "zone": 178,
+      "score": 0.7615,
+      "floor_margin": 0.4284,
+      "image_margin": 0.4325,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.7615
+        },
+        {
+          "floor": 2,
+          "score": 0.2454
+        },
+        {
+          "floor": 3,
+          "score": 0.2498
+        },
+        {
+          "floor": 4,
+          "score": 0.333
+        },
+        {
+          "floor": 5,
+          "score": 0.2173
+        },
+        {
+          "floor": 15,
+          "score": 0.2585
+        }
+      ]
+    },
+    {
+      "wiki_map": "268",
+      "zone": 178,
+      "score": 0.7822,
+      "floor_margin": 0.5377,
+      "image_margin": 0.5368,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2445
+        },
+        {
+          "floor": 2,
+          "score": 0.7822
+        },
+        {
+          "floor": 3,
+          "score": 0.1801
+        },
+        {
+          "floor": 4,
+          "score": 0.1772
+        },
+        {
+          "floor": 5,
+          "score": 0.1422
+        },
+        {
+          "floor": 15,
+          "score": 0.1896
+        }
+      ]
+    },
+    {
+      "wiki_map": "269",
+      "zone": 178,
+      "score": 0.6215,
+      "floor_margin": 0.377,
+      "image_margin": 0.3717,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2445
+        },
+        {
+          "floor": 2,
+          "score": 0.1591
+        },
+        {
+          "floor": 3,
+          "score": 0.6215
+        },
+        {
+          "floor": 4,
+          "score": 0.2373
+        },
+        {
+          "floor": 5,
+          "score": 0.2257
+        },
+        {
+          "floor": 15,
+          "score": 0.2333
+        }
+      ]
+    },
+    {
+      "wiki_map": "270",
+      "zone": 178,
+      "score": 0.7234,
+      "floor_margin": 0.3945,
+      "image_margin": 0.3904,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.329
+        },
+        {
+          "floor": 2,
+          "score": 0.1723
+        },
+        {
+          "floor": 3,
+          "score": 0.2443
+        },
+        {
+          "floor": 4,
+          "score": 0.7234
+        },
+        {
+          "floor": 5,
+          "score": 0.2472
+        },
+        {
+          "floor": 15,
+          "score": 0.2656
+        }
+      ]
+    },
+    {
+      "wiki_map": "271",
+      "zone": 178,
+      "score": 0.6032,
+      "floor_margin": 0.3509,
+      "image_margin": 0.356,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1765
+        },
+        {
+          "floor": 2,
+          "score": 0.1169
+        },
+        {
+          "floor": 3,
+          "score": 0.2272
+        },
+        {
+          "floor": 4,
+          "score": 0.2524
+        },
+        {
+          "floor": 5,
+          "score": 0.6032
+        },
+        {
+          "floor": 15,
+          "score": 0.1915
+        }
+      ]
+    },
+    {
+      "wiki_map": "213",
+      "zone": 114,
+      "score": 0.83,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.83
+        }
+      ]
+    },
+    {
+      "wiki_map": "214",
+      "zone": 125,
+      "score": 0.8633,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.8633
+        }
+      ]
+    },
+    {
+      "wiki_map": "216",
+      "zone": 208,
+      "score": 0.6814,
+      "floor_margin": 0.4433,
+      "image_margin": 0.4473,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.6814
+        },
+        {
+          "floor": 2,
+          "score": 0.2381
+        },
+        {
+          "floor": 3,
+          "score": 0.2152
+        },
+        {
+          "floor": 4,
+          "score": 0.2186
+        },
+        {
+          "floor": 5,
+          "score": 0.2149
+        },
+        {
+          "floor": 6,
+          "score": 0.1939
+        },
+        {
+          "floor": 7,
+          "score": 0.1663
+        },
+        {
+          "floor": 8,
+          "score": 0.1935
+        }
+      ]
+    },
+    {
+      "wiki_map": "217",
+      "zone": 208,
+      "score": 0.6372,
+      "floor_margin": 0.4031,
+      "image_margin": 0.399,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2341
+        },
+        {
+          "floor": 2,
+          "score": 0.6372
+        },
+        {
+          "floor": 3,
+          "score": 0.2189
+        },
+        {
+          "floor": 4,
+          "score": 0.2196
+        },
+        {
+          "floor": 5,
+          "score": 0.2158
+        },
+        {
+          "floor": 6,
+          "score": 0.2178
+        },
+        {
+          "floor": 7,
+          "score": 0.2032
+        },
+        {
+          "floor": 8,
+          "score": 0.2102
+        }
+      ]
+    },
+    {
+      "wiki_map": "218",
+      "zone": 208,
+      "score": 0.6065,
+      "floor_margin": 0.3724,
+      "image_margin": 0.3876,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2105
+        },
+        {
+          "floor": 2,
+          "score": 0.1981
+        },
+        {
+          "floor": 3,
+          "score": 0.6065
+        },
+        {
+          "floor": 4,
+          "score": 0.1888
+        },
+        {
+          "floor": 5,
+          "score": 0.2341
+        },
+        {
+          "floor": 6,
+          "score": 0.1733
+        },
+        {
+          "floor": 7,
+          "score": 0.1501
+        },
+        {
+          "floor": 8,
+          "score": 0.1562
+        }
+      ]
+    },
+    {
+      "wiki_map": "219",
+      "zone": 208,
+      "score": 0.5063,
+      "floor_margin": 0.2299,
+      "image_margin": 0.2772,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2103
+        },
+        {
+          "floor": 2,
+          "score": 0.2107
+        },
+        {
+          "floor": 3,
+          "score": 0.1888
+        },
+        {
+          "floor": 4,
+          "score": 0.5063
+        },
+        {
+          "floor": 5,
+          "score": 0.2764
+        },
+        {
+          "floor": 6,
+          "score": 0.2183
+        },
+        {
+          "floor": 7,
+          "score": 0.1848
+        },
+        {
+          "floor": 8,
+          "score": 0.1971
+        }
+      ]
+    },
+    {
+      "wiki_map": "220",
+      "zone": 208,
+      "score": 0.6644,
+      "floor_margin": 0.4311,
+      "image_margin": 0.3881,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1883
+        },
+        {
+          "floor": 2,
+          "score": 0.1896
+        },
+        {
+          "floor": 3,
+          "score": 0.2181
+        },
+        {
+          "floor": 4,
+          "score": 0.2291
+        },
+        {
+          "floor": 5,
+          "score": 0.6644
+        },
+        {
+          "floor": 6,
+          "score": 0.2333
+        },
+        {
+          "floor": 7,
+          "score": 0.1956
+        },
+        {
+          "floor": 8,
+          "score": 0.1823
+        }
+      ]
+    },
+    {
+      "wiki_map": "221",
+      "zone": 208,
+      "score": 0.5451,
+      "floor_margin": 0.3109,
+      "image_margin": 0.3116,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2127
+        },
+        {
+          "floor": 2,
+          "score": 0.1942
+        },
+        {
+          "floor": 3,
+          "score": 0.1903
+        },
+        {
+          "floor": 4,
+          "score": 0.2089
+        },
+        {
+          "floor": 5,
+          "score": 0.2342
+        },
+        {
+          "floor": 6,
+          "score": 0.5451
+        },
+        {
+          "floor": 7,
+          "score": 0.2
+        },
+        {
+          "floor": 8,
+          "score": 0.2282
+        }
+      ]
+    },
+    {
+      "wiki_map": "222",
+      "zone": 208,
+      "score": 0.4481,
+      "floor_margin": 0.2152,
+      "image_margin": 0.2297,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1633
+        },
+        {
+          "floor": 2,
+          "score": 0.2043
+        },
+        {
+          "floor": 3,
+          "score": 0.1862
+        },
+        {
+          "floor": 4,
+          "score": 0.1974
+        },
+        {
+          "floor": 5,
+          "score": 0.2177
+        },
+        {
+          "floor": 6,
+          "score": 0.221
+        },
+        {
+          "floor": 7,
+          "score": 0.4481
+        },
+        {
+          "floor": 8,
+          "score": 0.2328
+        }
+      ]
+    },
+    {
+      "wiki_map": "223",
+      "zone": 208,
+      "score": 0.434,
+      "floor_margin": 0.2005,
+      "image_margin": 0.2012,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.215
+        },
+        {
+          "floor": 2,
+          "score": 0.1847
+        },
+        {
+          "floor": 3,
+          "score": 0.1799
+        },
+        {
+          "floor": 4,
+          "score": 0.2079
+        },
+        {
+          "floor": 5,
+          "score": 0.228
+        },
+        {
+          "floor": 6,
+          "score": 0.2335
+        },
+        {
+          "floor": 7,
+          "score": 0.2184
+        },
+        {
+          "floor": 8,
+          "score": 0.434
+        }
+      ]
+    },
+    {
+      "wiki_map": "215",
+      "zone": 247,
+      "score": 0.8946,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.8946
+        }
+      ]
+    },
+    {
+      "wiki_map": "211",
+      "zone": 123,
+      "score": 0.8145,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.8145
+        }
+      ]
+    },
+    {
+      "wiki_map": "156",
+      "zone": 176,
+      "score": 0.5366,
+      "floor_margin": 0.3654,
+      "image_margin": 0.3555,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.5366
+        },
+        {
+          "floor": 2,
+          "score": 0.1439
+        },
+        {
+          "floor": 3,
+          "score": 0.1533
+        },
+        {
+          "floor": 4,
+          "score": 0.1712
+        },
+        {
+          "floor": 5,
+          "score": 0.1195
+        }
+      ]
+    },
+    {
+      "wiki_map": "157",
+      "zone": 176,
+      "score": 0.3713,
+      "floor_margin": 0.1727,
+      "image_margin": 0.1632,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1551
+        },
+        {
+          "floor": 2,
+          "score": 0.3713
+        },
+        {
+          "floor": 3,
+          "score": 0.1809
+        },
+        {
+          "floor": 4,
+          "score": 0.1986
+        },
+        {
+          "floor": 5,
+          "score": 0.1772
+        }
+      ]
+    },
+    {
+      "wiki_map": "158",
+      "zone": 176,
+      "score": 0.526,
+      "floor_margin": 0.2525,
+      "image_margin": 0.2484,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1558
+        },
+        {
+          "floor": 2,
+          "score": 0.1852
+        },
+        {
+          "floor": 3,
+          "score": 0.526
+        },
+        {
+          "floor": 4,
+          "score": 0.2735
+        },
+        {
+          "floor": 5,
+          "score": 0.1758
+        }
+      ]
+    },
+    {
+      "wiki_map": "159",
+      "zone": 176,
+      "score": 0.5103,
+      "floor_margin": 0.2328,
+      "image_margin": 0.2368,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1811
+        },
+        {
+          "floor": 2,
+          "score": 0.2082
+        },
+        {
+          "floor": 3,
+          "score": 0.2776
+        },
+        {
+          "floor": 4,
+          "score": 0.5103
+        },
+        {
+          "floor": 5,
+          "score": 0.2009
+        }
+      ]
+    },
+    {
+      "wiki_map": "160",
+      "zone": 176,
+      "score": 0.3151,
+      "floor_margin": 0.1095,
+      "image_margin": 0.1142,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1215
+        },
+        {
+          "floor": 2,
+          "score": 0.1657
+        },
+        {
+          "floor": 3,
+          "score": 0.1938
+        },
+        {
+          "floor": 4,
+          "score": 0.2056
+        },
+        {
+          "floor": 5,
+          "score": 0.3151
+        }
+      ]
+    },
+    {
+      "wiki_map": "291",
+      "zone": 250,
+      "score": 0.9337,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.9337
+        }
+      ]
+    },
+    {
+      "wiki_map": "21",
+      "zone": 252,
+      "score": 0.6508,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.6508
+        }
+      ]
+    },
+    {
+      "wiki_map": "208",
+      "zone": 124,
+      "score": 0.7793,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7793
+        }
+      ]
+    },
+    {
+      "wiki_map": "190",
+      "zone": 159,
+      "score": 0.3815,
+      "floor_margin": 0.208,
+      "image_margin": 0.1882,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.3815
+        },
+        {
+          "floor": 2,
+          "score": 0.1735
+        },
+        {
+          "floor": 3,
+          "score": 0.1652
+        },
+        {
+          "floor": 4,
+          "score": 0.1409
+        }
+      ]
+    },
+    {
+      "wiki_map": "191",
+      "zone": 159,
+      "score": 0.3793,
+      "floor_margin": 0.1841,
+      "image_margin": 0.178,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1933
+        },
+        {
+          "floor": 2,
+          "score": 0.3793
+        },
+        {
+          "floor": 3,
+          "score": 0.188
+        },
+        {
+          "floor": 4,
+          "score": 0.1952
+        }
+      ]
+    },
+    {
+      "wiki_map": "192",
+      "zone": 159,
+      "score": 0.3326,
+      "floor_margin": 0.1435,
+      "image_margin": 0.1424,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1625
+        },
+        {
+          "floor": 2,
+          "score": 0.1891
+        },
+        {
+          "floor": 3,
+          "score": 0.3326
+        },
+        {
+          "floor": 4,
+          "score": 0.1665
+        }
+      ]
+    },
+    {
+      "wiki_map": "193",
+      "zone": 159,
+      "score": 0.4745,
+      "floor_margin": 0.2731,
+      "image_margin": 0.2792,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.121
+        },
+        {
+          "floor": 2,
+          "score": 0.2013
+        },
+        {
+          "floor": 3,
+          "score": 0.1902
+        },
+        {
+          "floor": 4,
+          "score": 0.4745
+        }
+      ]
+    },
+    {
+      "wiki_map": "272",
+      "zone": 160,
+      "score": 0.6904,
+      "floor_margin": 0.4833,
+      "image_margin": 0.4762,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.6904
+        },
+        {
+          "floor": 2,
+          "score": 0.207
+        },
+        {
+          "floor": 3,
+          "score": 0.1796
+        },
+        {
+          "floor": 4,
+          "score": 0.1767
+        },
+        {
+          "floor": 5,
+          "score": 0.1471
+        },
+        {
+          "floor": 6,
+          "score": 0.1577
+        },
+        {
+          "floor": 7,
+          "score": 0.2029
+        },
+        {
+          "floor": 8,
+          "score": 0.1496
+        },
+        {
+          "floor": 9,
+          "score": 0.197
+        }
+      ]
+    },
+    {
+      "wiki_map": "273",
+      "zone": 160,
+      "score": 0.5061,
+      "floor_margin": 0.3055,
+      "image_margin": 0.2991,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2006
+        },
+        {
+          "floor": 2,
+          "score": 0.5061
+        },
+        {
+          "floor": 3,
+          "score": 0.1427
+        },
+        {
+          "floor": 4,
+          "score": 0.1455
+        },
+        {
+          "floor": 5,
+          "score": 0.1347
+        },
+        {
+          "floor": 6,
+          "score": 0.1306
+        },
+        {
+          "floor": 7,
+          "score": 0.1464
+        },
+        {
+          "floor": 8,
+          "score": 0.1438
+        },
+        {
+          "floor": 9,
+          "score": 0.1378
+        }
+      ]
+    },
+    {
+      "wiki_map": "274",
+      "zone": 160,
+      "score": 0.4052,
+      "floor_margin": 0.1436,
+      "image_margin": 0.1972,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2142
+        },
+        {
+          "floor": 2,
+          "score": 0.1727
+        },
+        {
+          "floor": 3,
+          "score": 0.4052
+        },
+        {
+          "floor": 4,
+          "score": 0.2491
+        },
+        {
+          "floor": 5,
+          "score": 0.219
+        },
+        {
+          "floor": 6,
+          "score": 0.2099
+        },
+        {
+          "floor": 7,
+          "score": 0.2615
+        },
+        {
+          "floor": 8,
+          "score": 0.2206
+        },
+        {
+          "floor": 9,
+          "score": 0.2281
+        }
+      ]
+    },
+    {
+      "wiki_map": "275",
+      "zone": 160,
+      "score": 0.3777,
+      "floor_margin": 0.1579,
+      "image_margin": 0.1286,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1632
+        },
+        {
+          "floor": 2,
+          "score": 0.1523
+        },
+        {
+          "floor": 3,
+          "score": 0.2049
+        },
+        {
+          "floor": 4,
+          "score": 0.3777
+        },
+        {
+          "floor": 5,
+          "score": 0.1908
+        },
+        {
+          "floor": 6,
+          "score": 0.1774
+        },
+        {
+          "floor": 7,
+          "score": 0.2199
+        },
+        {
+          "floor": 8,
+          "score": 0.1976
+        },
+        {
+          "floor": 9,
+          "score": 0.2131
+        }
+      ]
+    },
+    {
+      "wiki_map": "276",
+      "zone": 160,
+      "score": 0.2941,
+      "floor_margin": 0.0708,
+      "image_margin": 0.0732,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1098
+        },
+        {
+          "floor": 2,
+          "score": 0.1199
+        },
+        {
+          "floor": 3,
+          "score": 0.1833
+        },
+        {
+          "floor": 4,
+          "score": 0.1894
+        },
+        {
+          "floor": 5,
+          "score": 0.2941
+        },
+        {
+          "floor": 6,
+          "score": 0.1705
+        },
+        {
+          "floor": 7,
+          "score": 0.2233
+        },
+        {
+          "floor": 8,
+          "score": 0.2094
+        },
+        {
+          "floor": 9,
+          "score": 0.1841
+        }
+      ]
+    },
+    {
+      "wiki_map": "277",
+      "zone": 160,
+      "score": 0.3216,
+      "floor_margin": 0.1113,
+      "image_margin": 0.1117,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1293
+        },
+        {
+          "floor": 2,
+          "score": 0.1461
+        },
+        {
+          "floor": 3,
+          "score": 0.2032
+        },
+        {
+          "floor": 4,
+          "score": 0.1742
+        },
+        {
+          "floor": 5,
+          "score": 0.2003
+        },
+        {
+          "floor": 6,
+          "score": 0.3216
+        },
+        {
+          "floor": 7,
+          "score": 0.2103
+        },
+        {
+          "floor": 8,
+          "score": 0.2064
+        },
+        {
+          "floor": 9,
+          "score": 0.1967
+        }
+      ]
+    },
+    {
+      "wiki_map": "278",
+      "zone": 160,
+      "score": 0.4789,
+      "floor_margin": 0.2432,
+      "image_margin": 0.2173,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1864
+        },
+        {
+          "floor": 2,
+          "score": 0.1399
+        },
+        {
+          "floor": 3,
+          "score": 0.208
+        },
+        {
+          "floor": 4,
+          "score": 0.2357
+        },
+        {
+          "floor": 5,
+          "score": 0.1984
+        },
+        {
+          "floor": 6,
+          "score": 0.1852
+        },
+        {
+          "floor": 7,
+          "score": 0.4789
+        },
+        {
+          "floor": 8,
+          "score": 0.2024
+        },
+        {
+          "floor": 9,
+          "score": 0.1911
+        }
+      ]
+    },
+    {
+      "wiki_map": "279",
+      "zone": 160,
+      "score": 0.3581,
+      "floor_margin": 0.1203,
+      "image_margin": 0.1374,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.144
+        },
+        {
+          "floor": 2,
+          "score": 0.165
+        },
+        {
+          "floor": 3,
+          "score": 0.2039
+        },
+        {
+          "floor": 4,
+          "score": 0.2091
+        },
+        {
+          "floor": 5,
+          "score": 0.2209
+        },
+        {
+          "floor": 6,
+          "score": 0.1954
+        },
+        {
+          "floor": 7,
+          "score": 0.2065
+        },
+        {
+          "floor": 8,
+          "score": 0.3581
+        },
+        {
+          "floor": 9,
+          "score": 0.2377
+        }
+      ]
+    },
+    {
+      "wiki_map": "280",
+      "zone": 160,
+      "score": 0.5063,
+      "floor_margin": 0.2873,
+      "image_margin": 0.2685,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.189
+        },
+        {
+          "floor": 2,
+          "score": 0.1552
+        },
+        {
+          "floor": 3,
+          "score": 0.1955
+        },
+        {
+          "floor": 4,
+          "score": 0.2024
+        },
+        {
+          "floor": 5,
+          "score": 0.1971
+        },
+        {
+          "floor": 6,
+          "score": 0.176
+        },
+        {
+          "floor": 7,
+          "score": 0.2014
+        },
+        {
+          "floor": 8,
+          "score": 0.219
+        },
+        {
+          "floor": 9,
+          "score": 0.5063
+        }
+      ]
+    },
+    {
+      "wiki_map": "283",
+      "zone": 205,
+      "score": 0.6401,
+      "floor_margin": 0.3157,
+      "image_margin": 0.3024,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.6401
+        },
+        {
+          "floor": 2,
+          "score": 0.3244
+        },
+        {
+          "floor": 3,
+          "score": 0.2328
+        },
+        {
+          "floor": 4,
+          "score": 0.3104
+        },
+        {
+          "floor": 5,
+          "score": 0.2547
+        },
+        {
+          "floor": 15,
+          "score": 0.2887
+        },
+        {
+          "floor": 16,
+          "score": 0.2932
+        },
+        {
+          "floor": 17,
+          "score": 0.2517
+        }
+      ]
+    },
+    {
+      "wiki_map": "284",
+      "zone": 205,
+      "score": 0.7,
+      "floor_margin": 0.3482,
+      "image_margin": 0.3482,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.3377
+        },
+        {
+          "floor": 2,
+          "score": 0.7
+        },
+        {
+          "floor": 3,
+          "score": 0.2816
+        },
+        {
+          "floor": 4,
+          "score": 0.298
+        },
+        {
+          "floor": 5,
+          "score": 0.2706
+        },
+        {
+          "floor": 15,
+          "score": 0.2805
+        },
+        {
+          "floor": 16,
+          "score": 0.3519
+        },
+        {
+          "floor": 17,
+          "score": 0.2246
+        }
+      ]
+    },
+    {
+      "wiki_map": "285",
+      "zone": 205,
+      "score": 0.5719,
+      "floor_margin": 0.2662,
+      "image_margin": 0.2758,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2224
+        },
+        {
+          "floor": 2,
+          "score": 0.2683
+        },
+        {
+          "floor": 3,
+          "score": 0.5719
+        },
+        {
+          "floor": 4,
+          "score": 0.2632
+        },
+        {
+          "floor": 5,
+          "score": 0.3058
+        },
+        {
+          "floor": 15,
+          "score": 0.281
+        },
+        {
+          "floor": 16,
+          "score": 0.2139
+        },
+        {
+          "floor": 17,
+          "score": 0.1573
+        }
+      ]
+    },
+    {
+      "wiki_map": "286",
+      "zone": 205,
+      "score": 0.604,
+      "floor_margin": 0.2898,
+      "image_margin": 0.2936,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.3143
+        },
+        {
+          "floor": 2,
+          "score": 0.2861
+        },
+        {
+          "floor": 3,
+          "score": 0.272
+        },
+        {
+          "floor": 4,
+          "score": 0.604
+        },
+        {
+          "floor": 5,
+          "score": 0.2721
+        },
+        {
+          "floor": 15,
+          "score": 0.2664
+        },
+        {
+          "floor": 16,
+          "score": 0.2476
+        },
+        {
+          "floor": 17,
+          "score": 0.1771
+        }
+      ]
+    },
+    {
+      "wiki_map": "287",
+      "zone": 205,
+      "score": 0.5235,
+      "floor_margin": 0.2273,
+      "image_margin": 0.2177,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2531
+        },
+        {
+          "floor": 2,
+          "score": 0.256
+        },
+        {
+          "floor": 3,
+          "score": 0.2961
+        },
+        {
+          "floor": 4,
+          "score": 0.2782
+        },
+        {
+          "floor": 5,
+          "score": 0.5235
+        },
+        {
+          "floor": 15,
+          "score": 0.2927
+        },
+        {
+          "floor": 16,
+          "score": 0.219
+        },
+        {
+          "floor": 17,
+          "score": 0.1465
+        }
+      ]
+    },
+    {
+      "wiki_map": "288",
+      "zone": 205,
+      "score": 0.4996,
+      "floor_margin": 0.2134,
+      "image_margin": 0.2069,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2843
+        },
+        {
+          "floor": 2,
+          "score": 0.2744
+        },
+        {
+          "floor": 3,
+          "score": 0.2731
+        },
+        {
+          "floor": 4,
+          "score": 0.2493
+        },
+        {
+          "floor": 5,
+          "score": 0.2862
+        },
+        {
+          "floor": 15,
+          "score": 0.4996
+        },
+        {
+          "floor": 16,
+          "score": 0.239
+        },
+        {
+          "floor": 17,
+          "score": 0.1553
+        }
+      ]
+    },
+    {
+      "wiki_map": "289",
+      "zone": 205,
+      "score": 0.6822,
+      "floor_margin": 0.3304,
+      "image_margin": 0.3303,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.3204
+        },
+        {
+          "floor": 2,
+          "score": 0.3518
+        },
+        {
+          "floor": 3,
+          "score": 0.2329
+        },
+        {
+          "floor": 4,
+          "score": 0.2498
+        },
+        {
+          "floor": 5,
+          "score": 0.2342
+        },
+        {
+          "floor": 15,
+          "score": 0.2626
+        },
+        {
+          "floor": 16,
+          "score": 0.6822
+        },
+        {
+          "floor": 17,
+          "score": 0.1989
+        }
+      ]
+    },
+    {
+      "wiki_map": "290",
+      "zone": 205,
+      "score": 0.6293,
+      "floor_margin": 0.3689,
+      "image_margin": 0.3777,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2604
+        },
+        {
+          "floor": 2,
+          "score": 0.2462
+        },
+        {
+          "floor": 3,
+          "score": 0.1835
+        },
+        {
+          "floor": 4,
+          "score": 0.2138
+        },
+        {
+          "floor": 5,
+          "score": 0.1818
+        },
+        {
+          "floor": 15,
+          "score": 0.1933
+        },
+        {
+          "floor": 16,
+          "score": 0.2093
+        },
+        {
+          "floor": 17,
+          "score": 0.6293
+        }
+      ]
+    },
+    {
+      "wiki_map": "139",
+      "zone": 24,
+      "score": 0.762,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.762
+        }
+      ]
+    },
+    {
+      "wiki_map": "141",
+      "zone": 25,
+      "score": 0.7526,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.7526
+        }
+      ]
+    },
+    {
+      "wiki_map": "53",
+      "zone": 26,
+      "score": 0.4224,
+      "floor_margin": 0.3211,
+      "image_margin": 0.3071,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.4224
+        },
+        {
+          "floor": 2,
+          "score": 0.1013
+        },
+        {
+          "floor": 3,
+          "score": 0.0646
+        }
+      ]
+    },
+    {
+      "wiki_map": "54",
+      "zone": 26,
+      "score": 0.5364,
+      "floor_margin": 0.4064,
+      "image_margin": 0.4116,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1153
+        },
+        {
+          "floor": 2,
+          "score": 0.5364
+        },
+        {
+          "floor": 3,
+          "score": 0.13
+        }
+      ]
+    },
+    {
+      "wiki_map": "55",
+      "zone": 26,
+      "score": 0.3068,
+      "floor_margin": 0.1819,
+      "image_margin": 0.1767,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.0535
+        },
+        {
+          "floor": 2,
+          "score": 0.1248
+        },
+        {
+          "floor": 3,
+          "score": 0.3068
+        }
+      ]
+    },
+    {
+      "wiki_map": "229",
+      "zone": 27,
+      "score": 0.4667,
+      "floor_margin": 0.3397,
+      "image_margin": 0.3244,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.4667
+        },
+        {
+          "floor": 2,
+          "score": 0.127
+        },
+        {
+          "floor": 3,
+          "score": 0.1016
+        }
+      ]
+    },
+    {
+      "wiki_map": "230",
+      "zone": 27,
+      "score": 0.6252,
+      "floor_margin": 0.4472,
+      "image_margin": 0.3768,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1423
+        },
+        {
+          "floor": 2,
+          "score": 0.6252
+        },
+        {
+          "floor": 3,
+          "score": 0.178
+        }
+      ]
+    },
+    {
+      "wiki_map": "231",
+      "zone": 27,
+      "score": 0.4238,
+      "floor_margin": 0.1755,
+      "image_margin": 0.2458,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1058
+        },
+        {
+          "floor": 2,
+          "score": 0.2484
+        },
+        {
+          "floor": 3,
+          "score": 0.4238
+        }
+      ]
+    },
+    {
+      "wiki_map": "224",
+      "zone": 28,
+      "score": 0.2302,
+      "floor_margin": 0.2023,
+      "image_margin": 0.2075,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2302
+        },
+        {
+          "floor": 2,
+          "score": 0.0278
+        }
+      ]
+    },
+    {
+      "wiki_map": "225",
+      "zone": 28,
+      "score": 0.5586,
+      "floor_margin": 0.536,
+      "image_margin": 0.5308,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.0226
+        },
+        {
+          "floor": 2,
+          "score": 0.5586
+        }
+      ]
+    },
+    {
+      "wiki_map": "206",
+      "zone": 29,
+      "score": 0.6747,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.6747
+        }
+      ]
+    },
+    {
+      "wiki_map": "153",
+      "zone": 30,
+      "score": 0.6899,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.6899
+        }
+      ]
+    },
+    {
+      "wiki_map": "228",
+      "zone": 32,
+      "score": 0.8887,
+      "floor_margin": 1,
+      "image_margin": 1,
+      "accepted": true,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.8887
+        }
+      ]
+    }
+  ],
+  "held": [
+    {
+      "wiki_map": "203",
+      "zone": 5,
+      "score": 0.673,
+      "floor_margin": 1,
+      "image_margin": 0.0723,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 0,
+          "score": 0.673
+        }
+      ],
+      "reason": "Ambiguous native-floor artwork match"
+    },
+    {
+      "wiki_map": "28",
+      "zone": 9,
+      "score": 0.2364,
+      "floor_margin": 0.0396,
+      "image_margin": 0.0791,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1887
+        },
+        {
+          "floor": 2,
+          "score": 0.2364
+        },
+        {
+          "floor": 3,
+          "score": 0.1426
+        },
+        {
+          "floor": 4,
+          "score": 0.1621
+        },
+        {
+          "floor": 5,
+          "score": 0.1724
+        },
+        {
+          "floor": 6,
+          "score": 0.168
+        },
+        {
+          "floor": 7,
+          "score": 0.1674
+        },
+        {
+          "floor": 8,
+          "score": 0.1968
+        },
+        {
+          "floor": 9,
+          "score": 0.1968
+        },
+        {
+          "floor": 10,
+          "score": 0.1968
+        },
+        {
+          "floor": 11,
+          "score": 0.1968
+        },
+        {
+          "floor": 12,
+          "score": 0.1644
+        },
+        {
+          "floor": 13,
+          "score": 0.1416
+        },
+        {
+          "floor": 14,
+          "score": 0.1395
+        },
+        {
+          "floor": 15,
+          "score": 0.1112
+        },
+        {
+          "floor": 16,
+          "score": 0.1968
+        }
+      ],
+      "reason": "Ambiguous native-floor artwork match"
+    },
+    {
+      "wiki_map": "30",
+      "zone": 9,
+      "score": 0.1917,
+      "floor_margin": 0.0041,
+      "image_margin": 0.0791,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1659
+        },
+        {
+          "floor": 2,
+          "score": 0.1917
+        },
+        {
+          "floor": 3,
+          "score": 0.1418
+        },
+        {
+          "floor": 4,
+          "score": 0.1611
+        },
+        {
+          "floor": 5,
+          "score": 0.1667
+        },
+        {
+          "floor": 6,
+          "score": 0.1683
+        },
+        {
+          "floor": 7,
+          "score": 0.1743
+        },
+        {
+          "floor": 8,
+          "score": 0.1876
+        },
+        {
+          "floor": 9,
+          "score": 0.1876
+        },
+        {
+          "floor": 10,
+          "score": 0.1876
+        },
+        {
+          "floor": 11,
+          "score": 0.1876
+        },
+        {
+          "floor": 12,
+          "score": 0.156
+        },
+        {
+          "floor": 13,
+          "score": 0.145
+        },
+        {
+          "floor": 14,
+          "score": 0.1134
+        },
+        {
+          "floor": 15,
+          "score": 0.0938
+        },
+        {
+          "floor": 16,
+          "score": 0.1876
+        }
+      ],
+      "reason": "Ambiguous native-floor artwork match"
+    },
+    {
+      "wiki_map": "32",
+      "zone": 9,
+      "score": 0.2687,
+      "floor_margin": 0.0218,
+      "image_margin": 0.0055,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2416
+        },
+        {
+          "floor": 2,
+          "score": 0.2445
+        },
+        {
+          "floor": 3,
+          "score": 0.2178
+        },
+        {
+          "floor": 4,
+          "score": 0.2687
+        },
+        {
+          "floor": 5,
+          "score": 0.2469
+        },
+        {
+          "floor": 6,
+          "score": 0.2313
+        },
+        {
+          "floor": 7,
+          "score": 0.2295
+        },
+        {
+          "floor": 8,
+          "score": 0.2223
+        },
+        {
+          "floor": 9,
+          "score": 0.2223
+        },
+        {
+          "floor": 10,
+          "score": 0.2223
+        },
+        {
+          "floor": 11,
+          "score": 0.2223
+        },
+        {
+          "floor": 12,
+          "score": 0.227
+        },
+        {
+          "floor": 13,
+          "score": 0.2007
+        },
+        {
+          "floor": 14,
+          "score": 0.1305
+        },
+        {
+          "floor": 15,
+          "score": 0.1251
+        },
+        {
+          "floor": 16,
+          "score": 0.2223
+        }
+      ],
+      "reason": "Ambiguous native-floor artwork match"
+    },
+    {
+      "wiki_map": "33",
+      "zone": 9,
+      "score": 0.2182,
+      "floor_margin": 0.0052,
+      "image_margin": 0.0791,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1796
+        },
+        {
+          "floor": 2,
+          "score": 0.2182
+        },
+        {
+          "floor": 3,
+          "score": 0.1461
+        },
+        {
+          "floor": 4,
+          "score": 0.1629
+        },
+        {
+          "floor": 5,
+          "score": 0.1853
+        },
+        {
+          "floor": 6,
+          "score": 0.2127
+        },
+        {
+          "floor": 7,
+          "score": 0.1982
+        },
+        {
+          "floor": 8,
+          "score": 0.2129
+        },
+        {
+          "floor": 9,
+          "score": 0.2129
+        },
+        {
+          "floor": 10,
+          "score": 0.2129
+        },
+        {
+          "floor": 11,
+          "score": 0.2129
+        },
+        {
+          "floor": 12,
+          "score": 0.1793
+        },
+        {
+          "floor": 13,
+          "score": 0.1459
+        },
+        {
+          "floor": 14,
+          "score": 0.1768
+        },
+        {
+          "floor": 15,
+          "score": 0.1191
+        },
+        {
+          "floor": 16,
+          "score": 0.2129
+        }
+      ],
+      "reason": "Ambiguous native-floor artwork match"
+    },
+    {
+      "wiki_map": "34",
+      "zone": 9,
+      "score": 0.304,
+      "floor_margin": 0.059,
+      "image_margin": 0.0294,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1824
+        },
+        {
+          "floor": 2,
+          "score": 0.2444
+        },
+        {
+          "floor": 3,
+          "score": 0.1661
+        },
+        {
+          "floor": 4,
+          "score": 0.2098
+        },
+        {
+          "floor": 5,
+          "score": 0.304
+        },
+        {
+          "floor": 6,
+          "score": 0.2449
+        },
+        {
+          "floor": 7,
+          "score": 0.2095
+        },
+        {
+          "floor": 8,
+          "score": 0.2365
+        },
+        {
+          "floor": 9,
+          "score": 0.2365
+        },
+        {
+          "floor": 10,
+          "score": 0.2365
+        },
+        {
+          "floor": 11,
+          "score": 0.2365
+        },
+        {
+          "floor": 12,
+          "score": 0.1884
+        },
+        {
+          "floor": 13,
+          "score": 0.1677
+        },
+        {
+          "floor": 14,
+          "score": 0.1619
+        },
+        {
+          "floor": 15,
+          "score": 0.1184
+        },
+        {
+          "floor": 16,
+          "score": 0.2365
+        }
+      ],
+      "reason": "Ambiguous native-floor artwork match"
+    },
+    {
+      "wiki_map": "37",
+      "zone": 9,
+      "score": 0.2296,
+      "floor_margin": 0.0263,
+      "image_margin": 0.0791,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2033
+        },
+        {
+          "floor": 2,
+          "score": 0.2296
+        },
+        {
+          "floor": 3,
+          "score": 0.1497
+        },
+        {
+          "floor": 4,
+          "score": 0.1662
+        },
+        {
+          "floor": 5,
+          "score": 0.1774
+        },
+        {
+          "floor": 6,
+          "score": 0.1655
+        },
+        {
+          "floor": 7,
+          "score": 0.1731
+        },
+        {
+          "floor": 8,
+          "score": 0.1984
+        },
+        {
+          "floor": 9,
+          "score": 0.1984
+        },
+        {
+          "floor": 10,
+          "score": 0.1984
+        },
+        {
+          "floor": 11,
+          "score": 0.1984
+        },
+        {
+          "floor": 12,
+          "score": 0.1661
+        },
+        {
+          "floor": 13,
+          "score": 0.1388
+        },
+        {
+          "floor": 14,
+          "score": 0.1321
+        },
+        {
+          "floor": 15,
+          "score": 0.1188
+        },
+        {
+          "floor": 16,
+          "score": 0.1984
+        }
+      ],
+      "reason": "Ambiguous native-floor artwork match"
+    },
+    {
+      "wiki_map": "42",
+      "zone": 9,
+      "score": 0.4364,
+      "floor_margin": 0.0,
+      "image_margin": 0.1218,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.2508
+        },
+        {
+          "floor": 2,
+          "score": 0.2988
+        },
+        {
+          "floor": 3,
+          "score": 0.229
+        },
+        {
+          "floor": 4,
+          "score": 0.242
+        },
+        {
+          "floor": 5,
+          "score": 0.2746
+        },
+        {
+          "floor": 6,
+          "score": 0.2967
+        },
+        {
+          "floor": 7,
+          "score": 0.2545
+        },
+        {
+          "floor": 8,
+          "score": 0.4364
+        },
+        {
+          "floor": 9,
+          "score": 0.4364
+        },
+        {
+          "floor": 10,
+          "score": 0.4364
+        },
+        {
+          "floor": 11,
+          "score": 0.4364
+        },
+        {
+          "floor": 12,
+          "score": 0.2395
+        },
+        {
+          "floor": 13,
+          "score": 0.2232
+        },
+        {
+          "floor": 14,
+          "score": 0.1822
+        },
+        {
+          "floor": 15,
+          "score": 0.1335
+        },
+        {
+          "floor": 16,
+          "score": 0.4364
+        }
+      ],
+      "reason": "Ambiguous native-floor artwork match"
+    },
+    {
+      "wiki_map": "43",
+      "zone": 9,
+      "score": 0.1684,
+      "floor_margin": 0.0,
+      "image_margin": 0.1218,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1546
+        },
+        {
+          "floor": 2,
+          "score": 0.1533
+        },
+        {
+          "floor": 3,
+          "score": 0.1149
+        },
+        {
+          "floor": 4,
+          "score": 0.1333
+        },
+        {
+          "floor": 5,
+          "score": 0.1269
+        },
+        {
+          "floor": 6,
+          "score": 0.1369
+        },
+        {
+          "floor": 7,
+          "score": 0.1343
+        },
+        {
+          "floor": 8,
+          "score": 0.1684
+        },
+        {
+          "floor": 9,
+          "score": 0.1684
+        },
+        {
+          "floor": 10,
+          "score": 0.1684
+        },
+        {
+          "floor": 11,
+          "score": 0.1684
+        },
+        {
+          "floor": 12,
+          "score": 0.152
+        },
+        {
+          "floor": 13,
+          "score": 0.1647
+        },
+        {
+          "floor": 14,
+          "score": 0.0694
+        },
+        {
+          "floor": 15,
+          "score": 0.0678
+        },
+        {
+          "floor": 16,
+          "score": 0.1684
+        }
+      ],
+      "reason": "Ambiguous native-floor artwork match"
+    },
+    {
+      "wiki_map": "44",
+      "zone": 9,
+      "score": 0.1684,
+      "floor_margin": 0.0,
+      "image_margin": 0.1218,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1546
+        },
+        {
+          "floor": 2,
+          "score": 0.1533
+        },
+        {
+          "floor": 3,
+          "score": 0.1149
+        },
+        {
+          "floor": 4,
+          "score": 0.1333
+        },
+        {
+          "floor": 5,
+          "score": 0.1269
+        },
+        {
+          "floor": 6,
+          "score": 0.1369
+        },
+        {
+          "floor": 7,
+          "score": 0.1343
+        },
+        {
+          "floor": 8,
+          "score": 0.1684
+        },
+        {
+          "floor": 9,
+          "score": 0.1684
+        },
+        {
+          "floor": 10,
+          "score": 0.1684
+        },
+        {
+          "floor": 11,
+          "score": 0.1684
+        },
+        {
+          "floor": 12,
+          "score": 0.152
+        },
+        {
+          "floor": 13,
+          "score": 0.1647
+        },
+        {
+          "floor": 14,
+          "score": 0.0694
+        },
+        {
+          "floor": 15,
+          "score": 0.0678
+        },
+        {
+          "floor": 16,
+          "score": 0.1684
+        }
+      ],
+      "reason": "Ambiguous native-floor artwork match"
+    },
+    {
+      "wiki_map": "45",
+      "zone": 9,
+      "score": 0.1956,
+      "floor_margin": 0.0,
+      "image_margin": 0.1218,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1744
+        },
+        {
+          "floor": 2,
+          "score": 0.1758
+        },
+        {
+          "floor": 3,
+          "score": 0.141
+        },
+        {
+          "floor": 4,
+          "score": 0.1637
+        },
+        {
+          "floor": 5,
+          "score": 0.1655
+        },
+        {
+          "floor": 6,
+          "score": 0.1758
+        },
+        {
+          "floor": 7,
+          "score": 0.1613
+        },
+        {
+          "floor": 8,
+          "score": 0.1956
+        },
+        {
+          "floor": 9,
+          "score": 0.1956
+        },
+        {
+          "floor": 10,
+          "score": 0.1956
+        },
+        {
+          "floor": 11,
+          "score": 0.1956
+        },
+        {
+          "floor": 12,
+          "score": 0.1626
+        },
+        {
+          "floor": 13,
+          "score": 0.1537
+        },
+        {
+          "floor": 14,
+          "score": 0.0898
+        },
+        {
+          "floor": 15,
+          "score": 0.0767
+        },
+        {
+          "floor": 16,
+          "score": 0.1956
+        }
+      ],
+      "reason": "Ambiguous native-floor artwork match"
+    },
+    {
+      "wiki_map": "46",
+      "zone": 9,
+      "score": 0.1978,
+      "floor_margin": 0.0072,
+      "image_margin": 0.0791,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1821
+        },
+        {
+          "floor": 2,
+          "score": 0.1978
+        },
+        {
+          "floor": 3,
+          "score": 0.1502
+        },
+        {
+          "floor": 4,
+          "score": 0.1758
+        },
+        {
+          "floor": 5,
+          "score": 0.1906
+        },
+        {
+          "floor": 6,
+          "score": 0.1803
+        },
+        {
+          "floor": 7,
+          "score": 0.1739
+        },
+        {
+          "floor": 8,
+          "score": 0.1848
+        },
+        {
+          "floor": 9,
+          "score": 0.1848
+        },
+        {
+          "floor": 10,
+          "score": 0.1848
+        },
+        {
+          "floor": 11,
+          "score": 0.1848
+        },
+        {
+          "floor": 12,
+          "score": 0.1847
+        },
+        {
+          "floor": 13,
+          "score": 0.1702
+        },
+        {
+          "floor": 14,
+          "score": 0.1146
+        },
+        {
+          "floor": 15,
+          "score": 0.0936
+        },
+        {
+          "floor": 16,
+          "score": 0.1848
+        }
+      ],
+      "reason": "Ambiguous native-floor artwork match"
+    },
+    {
+      "wiki_map": "60",
+      "zone": 158,
+      "score": 0.2208,
+      "floor_margin": 0.0049,
+      "image_margin": 0.0724,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.0493
+        },
+        {
+          "floor": 2,
+          "score": 0.043
+        },
+        {
+          "floor": 3,
+          "score": 0.0293
+        },
+        {
+          "floor": 4,
+          "score": 0.2159
+        },
+        {
+          "floor": 5,
+          "score": 0.2083
+        },
+        {
+          "floor": 6,
+          "score": 0.2208
+        }
+      ],
+      "reason": "Ambiguous native-floor artwork match"
+    },
+    {
+      "wiki_map": "61",
+      "zone": 158,
+      "score": 0.2204,
+      "floor_margin": 0.0056,
+      "image_margin": 0.0724,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.0501
+        },
+        {
+          "floor": 2,
+          "score": 0.0425
+        },
+        {
+          "floor": 3,
+          "score": 0.0289
+        },
+        {
+          "floor": 4,
+          "score": 0.2148
+        },
+        {
+          "floor": 5,
+          "score": 0.2076
+        },
+        {
+          "floor": 6,
+          "score": 0.2204
+        }
+      ],
+      "reason": "Ambiguous native-floor artwork match"
+    },
+    {
+      "wiki_map": "91",
+      "zone": 151,
+      "score": 0.2312,
+      "floor_margin": 0.0393,
+      "image_margin": 0.0606,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1421
+        },
+        {
+          "floor": 2,
+          "score": 0.1919
+        },
+        {
+          "floor": 3,
+          "score": 0.1044
+        },
+        {
+          "floor": 4,
+          "score": 0.2312
+        },
+        {
+          "floor": 5,
+          "score": 0.1668
+        },
+        {
+          "floor": 6,
+          "score": 0.1689
+        },
+        {
+          "floor": 15,
+          "score": 0.1899
+        }
+      ],
+      "reason": "Ambiguous native-floor artwork match"
+    },
+    {
+      "wiki_map": "93",
+      "zone": 151,
+      "score": 0.322,
+      "floor_margin": 0.0264,
+      "image_margin": 0.0324,
+      "accepted": false,
+      "candidate_scores": [
+        {
+          "floor": 1,
+          "score": 0.1668
+        },
+        {
+          "floor": 2,
+          "score": 0.2247
+        },
+        {
+          "floor": 3,
+          "score": 0.0667
+        },
+        {
+          "floor": 4,
+          "score": 0.2213
+        },
+        {
+          "floor": 5,
+          "score": 0.2956
+        },
+        {
+          "floor": 6,
+          "score": 0.322
+        },
+        {
+          "floor": 15,
+          "score": 0.159
+        }
+      ],
+      "reason": "Ambiguous native-floor artwork match"
+    }
+  ],
+  "aliases": {
+    "204": "west",
+    "108": "east",
+    "110": "fort",
+    "115": "outpost",
+    "116": "outpost2",
+    "209": "grotto1",
+    "210": "grotto2",
+    "244": "tomb1",
+    "245": "tomb2",
+    "22": "north",
+    "51": "south",
+    "25": "port",
+    "5": "chateau",
+    "84": "oubliette1",
+    "85": "oubliette2",
+    "86": "oubliette3",
+    "7": "latheine",
+    "234": "ranguemont",
+    "129": "jugner",
+    "226": "landing1",
+    "227": "landing2",
+    "3": "batallia",
+    "107": "davoi",
+    "63": "valkurm",
+    "6": "konschtat",
+    "161": "selbina",
+    "4": "beaucedine",
+    "142": "monastic",
+    "232": "feiyin1",
+    "233": "feiyin3",
+    "198": "eldieme2",
+    "199": "eldieme3",
+    "200": "eldieme4",
+    "235": "ordelle1",
+    "236": "ordelle4",
+    "237": "ordelle2",
+    "251": "oldton_movalpolos",
+    "292": "newton_movalpolos",
+    "143": "north_gustaberg",
+    "162": "south_gustaberg",
+    "144": "palborough_mines_f1",
+    "145": "palborough_mines_f2",
+    "146": "palborough_mines_f3",
+    "212": "zeruhn_mines",
+    "130": "korroloka_tunnel_f1",
+    "131": "korroloka_tunnel_f2",
+    "132": "korroloka_tunnel_f3",
+    "133": "korroloka_tunnel_f4",
+    "134": "korroloka_tunnel_f5",
+    "106": "dangruf_wadi",
+    "119": "gusgen_mines_f1",
+    "120": "gusgen_mines_f15",
+    "121": "gusgen_mines_f16",
+    "122": "gusgen_mines_f17",
+    "2": "bastok_mines",
+    "1": "bastok_markets",
+    "23": "port_bastok",
+    "13": "metalworks",
+    "147": "pashhow_marshlands",
+    "48": "rolanberry_fields",
+    "79": "beadeaux_f1",
+    "80": "beadeaux_f15",
+    "152": "qulun_dome",
+    "103": "crawlers_nest_f15",
+    "104": "crawlers_nest_f16",
+    "105": "crawlers_nest_f17",
+    "49": "ru_lude_gardens",
+    "62": "upper_jeuno",
+    "12": "lower_jeuno",
+    "24": "port_jeuno",
+    "202": "uleguerand_range_f0",
+    "27": "pso_xja_f1",
+    "29": "pso_xja_f2",
+    "31": "pso_xja_f3",
+    "35": "pso_xja_f6",
+    "36": "pso_xja_f7",
+    "38": "pso_xja_f12",
+    "39": "pso_xja_f13",
+    "40": "pso_xja_f14",
+    "41": "pso_xja_f15",
+    "207": "xarcabard",
+    "95": "castle_zvahl_baileys_f1",
+    "96": "castle_zvahl_baileys_f2",
+    "97": "castle_zvahl_baileys_f15",
+    "98": "castle_zvahl_baileys_f16",
+    "99": "castle_zvahl_keep_f1",
+    "100": "castle_zvahl_keep_f2",
+    "101": "castle_zvahl_keep_f3",
+    "102": "castle_zvahl_keep_f4",
+    "252": "cape_teriggan",
+    "293": "valley_of_sorrows",
+    "135": "kuftal_tunnel_f1",
+    "136": "kuftal_tunnel_f2",
+    "137": "kuftal_tunnel_f15",
+    "138": "kuftal_tunnel_f16",
+    "123": "gustav_tunnel_f1",
+    "124": "gustav_tunnel_f2",
+    "47": "qufim_island",
+    "81": "behemoth_s_dominion",
+    "15": "middle_delkfutt_s_tower_f4",
+    "16": "middle_delkfutt_s_tower_f5",
+    "17": "middle_delkfutt_s_tower_f6",
+    "18": "middle_delkfutt_s_tower_f7",
+    "19": "middle_delkfutt_s_tower_f8",
+    "20": "middle_delkfutt_s_tower_f9",
+    "56": "upper_delkfutt_s_tower_f1",
+    "57": "upper_delkfutt_s_tower_f2",
+    "58": "upper_delkfutt_s_tower_f3",
+    "59": "upper_delkfutt_s_tower_f6",
+    "8": "lower_delkfutt_s_tower_f1",
+    "9": "lower_delkfutt_s_tower_f2",
+    "10": "lower_delkfutt_s_tower_f3",
+    "11": "lower_delkfutt_s_tower_f15",
+    "140": "meriphataud_mountains",
+    "50": "sauromugue_champaign",
+    "88": "castle_oztroja_f1",
+    "89": "castle_oztroja_f2",
+    "90": "castle_oztroja_f3",
+    "92": "castle_oztroja_f5",
+    "94": "castle_oztroja_f15",
+    "69": "altar_room",
+    "111": "garlaige_citadel_f1",
+    "112": "garlaige_citadel_f2",
+    "113": "garlaige_citadel_f3",
+    "114": "garlaige_citadel_f16",
+    "82": "bibiki_bay_f1",
+    "83": "bibiki_bay_f2",
+    "78": "attohwa_chasm",
+    "52": "tahrongi_canyon",
+    "87": "buburimu_peninsula",
+    "238": "maze_of_shakhrami_f15",
+    "239": "maze_of_shakhrami_f16",
+    "243": "labyrinth_of_onzozo",
+    "14": "mhaura",
+    "205": "west_sarutabaruta",
+    "109": "east_sarutabaruta",
+    "117": "giddeus_f1",
+    "118": "giddeus_f15",
+    "253": "toraimarai_canal_f1",
+    "254": "toraimarai_canal_f2",
+    "125": "inner_horutoto_ruins_f1",
+    "126": "inner_horutoto_ruins_f2",
+    "127": "inner_horutoto_ruins_f3",
+    "128": "inner_horutoto_ruins_f4",
+    "246": "outer_horutoto_ruins_f1",
+    "247": "outer_horutoto_ruins_f2",
+    "248": "outer_horutoto_ruins_f3",
+    "249": "outer_horutoto_ruins_f4",
+    "250": "outer_horutoto_ruins_f5",
+    "65": "windurst_waters_f1",
+    "66": "windurst_waters_f2",
+    "64": "windurst_walls",
+    "26": "port_windurst",
+    "67": "windurst_woods",
+    "201": "the_sanctuary_of_zi_tah",
+    "282": "ro_maeve",
+    "194": "the_boyahda_tree_f1",
+    "195": "the_boyahda_tree_f2",
+    "196": "the_boyahda_tree_f3",
+    "197": "the_boyahda_tree_f4",
+    "281": "dragon_s_aery",
+    "255": "hall_of_the_gods",
+    "155": "ru_aun_gardens",
+    "256": "ve_lugannon_palace_f1",
+    "257": "ve_lugannon_palace_f2",
+    "258": "ve_lugannon_palace_f3",
+    "259": "ve_lugannon_palace_f4",
+    "260": "ve_lugannon_palace_f5",
+    "261": "ve_lugannon_palace_f6",
+    "263": "ve_lugannon_palace_f7",
+    "264": "ve_lugannon_palace_f8",
+    "265": "ve_lugannon_palace_f9",
+    "266": "the_shrine_of_ru_avitau_f15",
+    "267": "the_shrine_of_ru_avitau_f1",
+    "268": "the_shrine_of_ru_avitau_f2",
+    "269": "the_shrine_of_ru_avitau_f3",
+    "270": "the_shrine_of_ru_avitau_f4",
+    "271": "the_shrine_of_ru_avitau_f5",
+    "213": "eastern_altepa_desert",
+    "214": "western_altepa_desert",
+    "216": "quicksand_caves_f1",
+    "217": "quicksand_caves_f2",
+    "218": "quicksand_caves_f3",
+    "219": "quicksand_caves_f4",
+    "220": "quicksand_caves_f5",
+    "221": "quicksand_caves_f6",
+    "222": "quicksand_caves_f7",
+    "223": "quicksand_caves_f8",
+    "215": "rabao",
+    "211": "yuhtunga_jungle",
+    "156": "sea_serpent_grotto_f1",
+    "157": "sea_serpent_grotto_f2",
+    "158": "sea_serpent_grotto_f3",
+    "159": "sea_serpent_grotto_f4",
+    "160": "sea_serpent_grotto_f5",
+    "291": "kazham",
+    "21": "norg",
+    "208": "yhoator_jungle",
+    "190": "temple_of_uggalepih_f1",
+    "191": "temple_of_uggalepih_f2",
+    "192": "temple_of_uggalepih_f3",
+    "193": "temple_of_uggalepih_f4",
+    "272": "den_of_rancor_f1",
+    "273": "den_of_rancor_f2",
+    "274": "den_of_rancor_f3",
+    "275": "den_of_rancor_f4",
+    "276": "den_of_rancor_f5",
+    "277": "den_of_rancor_f6",
+    "278": "den_of_rancor_f7",
+    "279": "den_of_rancor_f8",
+    "280": "den_of_rancor_f9",
+    "283": "ifrit_s_cauldron_f1",
+    "284": "ifrit_s_cauldron_f2",
+    "285": "ifrit_s_cauldron_f3",
+    "286": "ifrit_s_cauldron_f4",
+    "287": "ifrit_s_cauldron_f5",
+    "288": "ifrit_s_cauldron_f15",
+    "289": "ifrit_s_cauldron_f16",
+    "290": "ifrit_s_cauldron_f17",
+    "139": "lufaise_meadows",
+    "141": "misareaux_coast",
+    "53": "tavnazian_safehold_f1",
+    "54": "tavnazian_safehold_f2",
+    "55": "tavnazian_safehold_f3",
+    "229": "phomiuna_aqueducts_f1",
+    "230": "phomiuna_aqueducts_f2",
+    "231": "phomiuna_aqueducts_f3",
+    "224": "sacrarium_f1",
+    "225": "sacrarium_f2",
+    "206": "riverne_site_b01",
+    "153": "riverne_site_a01",
+    "228": "sealion_s_den"
+  }
+}

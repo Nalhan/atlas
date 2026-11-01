@@ -1,0 +1,744 @@
+{
+  "schema_version": 1,
+  "maps": [
+    {
+      "key": "west",
+      "zone": 100,
+      "index": 0,
+      "dat": 5313,
+      "name": "West Ronfaure",
+      "x": 210,
+      "y": 305,
+      "floor": 0,
+      "tab": "West Ronfaure"
+    },
+    {
+      "key": "east",
+      "zone": 101,
+      "index": 1,
+      "dat": 5314,
+      "name": "East Ronfaure",
+      "x": 430,
+      "y": 305,
+      "floor": 0,
+      "tab": "East Ronfaure"
+    },
+    {
+      "key": "outpost",
+      "zone": 140,
+      "index": 21,
+      "dat": 5340,
+      "name": "Ghelsba Outpost",
+      "x": 95,
+      "y": 185,
+      "floor": 1,
+      "tab": "Outside"
+    },
+    {
+      "key": "outpost2",
+      "zone": 140,
+      "index": 22,
+      "dat": 5341,
+      "name": "Ghelsba Outpost / caves",
+      "x": 95,
+      "y": 185,
+      "floor": 15,
+      "tab": "Caves"
+    },
+    {
+      "key": "fort",
+      "zone": 141,
+      "index": 23,
+      "dat": 5342,
+      "name": "Fort Ghelsba",
+      "x": 95,
+      "y": 90,
+      "floor": 0,
+      "tab": "Fort Ghelsba"
+    },
+    {
+      "key": "grotto1",
+      "zone": 142,
+      "index": 24,
+      "dat": 5529,
+      "name": "Yughott Grotto / lower",
+      "x": 230,
+      "y": 90,
+      "floor": 1,
+      "tab": "Lower"
+    },
+    {
+      "key": "grotto2",
+      "zone": 142,
+      "index": 25,
+      "dat": 5530,
+      "name": "Yughott Grotto / upper",
+      "x": 365,
+      "y": 90,
+      "floor": 2,
+      "tab": "Upper"
+    },
+    {
+      "key": "tomb1",
+      "zone": 190,
+      "index": 77,
+      "dat": 5428,
+      "name": "King Ranperre's Tomb / 1",
+      "x": 430,
+      "y": 420,
+      "floor": 1,
+      "tab": "Map 1"
+    },
+    {
+      "key": "tomb2",
+      "zone": 190,
+      "index": 78,
+      "dat": 5429,
+      "name": "King Ranperre's Tomb / 2",
+      "x": 430,
+      "y": 490,
+      "floor": 2,
+      "tab": "Map 2"
+    },
+    {
+      "key": "south",
+      "zone": 230,
+      "index": 127,
+      "dat": 5476,
+      "name": "Southern San d'Oria",
+      "x": 320,
+      "y": 205,
+      "floor": 0,
+      "tab": "South",
+      "boundary": true
+    },
+    {
+      "key": "north",
+      "zone": 231,
+      "index": 140,
+      "dat": 5477,
+      "name": "Northern San d'Oria",
+      "x": 210,
+      "y": 205,
+      "floor": 0,
+      "tab": "North",
+      "boundary": true
+    },
+    {
+      "key": "port",
+      "zone": 232,
+      "index": 141,
+      "dat": 5478,
+      "name": "Port San d'Oria",
+      "x": 210,
+      "y": 205,
+      "floor": 0,
+      "tab": "Port",
+      "boundary": true
+    },
+    {
+      "key": "chateau",
+      "zone": 233,
+      "index": 142,
+      "dat": 5479,
+      "name": "Chateau d'Oraguille",
+      "x": 210,
+      "y": 205,
+      "floor": 0,
+      "tab": "Chateau",
+      "boundary": true
+    },
+    {
+      "key": "oubliette1",
+      "zone": 167,
+      "index": 66,
+      "dat": 5401,
+      "name": "Bostaunieux Oubliette / 1",
+      "x": 210,
+      "y": 205,
+      "floor": 15,
+      "tab": "Prison"
+    },
+    {
+      "key": "oubliette2",
+      "zone": 167,
+      "index": 67,
+      "dat": 5402,
+      "name": "Bostaunieux Oubliette / 2",
+      "x": 210,
+      "y": 205,
+      "floor": 16,
+      "tab": "Upper tunnels"
+    },
+    {
+      "key": "oubliette3",
+      "zone": 167,
+      "index": 68,
+      "dat": 5403,
+      "name": "Bostaunieux Oubliette / 3",
+      "x": 210,
+      "y": 205,
+      "floor": 17,
+      "tab": "Lower tunnels"
+    },
+    {
+      "key": "latheine",
+      "zone": 102,
+      "index": 2,
+      "dat": 5315,
+      "name": "La Theine Plateau",
+      "x": 210,
+      "y": 470,
+      "floor": 0,
+      "tab": "La Theine Plateau",
+      "boundary": true
+    },
+    {
+      "key": "ranguemont",
+      "zone": 166,
+      "index": 65,
+      "dat": 5400,
+      "name": "Ranguemont Pass",
+      "x": 565,
+      "y": 230,
+      "floor": 0,
+      "tab": "Ranguemont Pass",
+      "boundary": true
+    },
+    {
+      "key": "jugner",
+      "zone": 104,
+      "index": 4,
+      "dat": 5317,
+      "name": "Jugner Forest",
+      "x": 565,
+      "y": 470,
+      "floor": 0,
+      "tab": "Jugner Forest",
+      "boundary": true
+    },
+    {
+      "key": "horlais",
+      "zone": 139,
+      "name": "Horlais Peak",
+      "x": 505,
+      "y": 90,
+      "tab": "Horlais Peak"
+    }
+  ],
+  "passages": [
+    {
+      "id": "ronfaure-north",
+      "a": {
+        "x": 307,
+        "y": 221,
+        "map": "west",
+        "label": "North crossing"
+      },
+      "b": {
+        "x": 198,
+        "y": 221,
+        "map": "east",
+        "label": "North crossing"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "ronfaure-south",
+      "a": {
+        "x": 333,
+        "y": 287,
+        "map": "west",
+        "label": "South crossing"
+      },
+      "b": {
+        "x": 204,
+        "y": 290,
+        "map": "east",
+        "label": "South crossing"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "ghelsba-trail",
+      "a": {
+        "x": 170,
+        "y": 130,
+        "map": "west"
+      },
+      "b": {
+        "x": 310,
+        "y": 348,
+        "map": "outpost"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "outpost-fort",
+      "a": {
+        "x": 312,
+        "y": 263,
+        "map": "outpost"
+      },
+      "b": {
+        "x": 180,
+        "y": 250,
+        "map": "fort",
+        "code": "1"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "outpost-grotto",
+      "a": {
+        "x": 284,
+        "y": 357,
+        "map": "outpost"
+      },
+      "b": {
+        "x": 151,
+        "y": 289,
+        "map": "grotto1",
+        "code": "1"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "fort-grotto-south",
+      "a": {
+        "x": 255,
+        "y": 321,
+        "map": "fort",
+        "code": "2",
+        "label": "Lower / south"
+      },
+      "b": {
+        "x": 250,
+        "y": 241,
+        "map": "grotto1",
+        "code": "2",
+        "label": "Fort south entrance"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "fort-grotto-north",
+      "a": {
+        "x": 352,
+        "y": 210,
+        "map": "fort",
+        "code": "3",
+        "label": "Lower / north"
+      },
+      "b": {
+        "x": 339,
+        "y": 174,
+        "map": "grotto1",
+        "code": "3",
+        "label": "Fort north entrance"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "fort-grotto-upper",
+      "a": {
+        "x": 348,
+        "y": 253,
+        "map": "fort",
+        "code": "4",
+        "label": "Upper entrance"
+      },
+      "b": {
+        "x": 173,
+        "y": 215,
+        "map": "grotto2",
+        "code": "4"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "horlais",
+      "a": {
+        "x": 333,
+        "y": 199,
+        "map": "grotto2",
+        "label": "Main entrance"
+      },
+      "b": {
+        "x": 200,
+        "y": 250,
+        "map": "horlais"
+      },
+      "note": "No standard map is supplied by the client.",
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "horlais-springs",
+      "a": {
+        "x": 328,
+        "y": 288,
+        "map": "grotto2",
+        "label": "Hot springs"
+      },
+      "b": {
+        "x": 340,
+        "y": 250,
+        "map": "horlais"
+      },
+      "note": "Hot springs entrance; no standard map.",
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "west-south",
+      "a": {
+        "x": 298,
+        "y": 187,
+        "map": "west",
+        "code": "1",
+        "label": "South city gate"
+      },
+      "b": {
+        "x": 194,
+        "y": 323,
+        "map": "south",
+        "code": "1",
+        "label": "West Ronfaure gate"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "west-north",
+      "a": {
+        "x": 282,
+        "y": 171,
+        "map": "west",
+        "code": "2",
+        "label": "Ranperre Gate"
+      },
+      "b": {
+        "x": 89,
+        "y": 269,
+        "map": "north",
+        "code": "2",
+        "label": "Ranperre Gate"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "watchtower",
+      "a": {
+        "x": 282,
+        "y": 164,
+        "map": "west",
+        "code": "3",
+        "label": "Watchtower"
+      },
+      "b": {
+        "x": 111,
+        "y": 220,
+        "map": "north",
+        "code": "3",
+        "label": "Watchtower"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "east-south",
+      "a": {
+        "x": 219,
+        "y": 194,
+        "map": "east",
+        "label": "City gate"
+      },
+      "b": {
+        "x": 365,
+        "y": 325,
+        "map": "south",
+        "label": "East Ronfaure gate"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "latheine",
+      "a": {
+        "x": 201,
+        "y": 387,
+        "map": "west"
+      },
+      "b": {
+        "x": 146,
+        "y": 112,
+        "map": "latheine"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "ranguemont",
+      "a": {
+        "x": 360,
+        "y": 121,
+        "map": "east"
+      },
+      "b": {
+        "x": 216,
+        "y": 384,
+        "map": "ranguemont"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "tomb-entrance",
+      "a": {
+        "x": 246,
+        "y": 369,
+        "map": "east",
+        "label": "Main entrance"
+      },
+      "b": {
+        "x": 219,
+        "y": 159,
+        "map": "tomb1"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "tomb-depths",
+      "a": {
+        "x": 240,
+        "y": 314,
+        "map": "tomb1",
+        "code": "A",
+        "label": "Lower tomb"
+      },
+      "b": {
+        "x": 223,
+        "y": 85,
+        "map": "tomb2",
+        "code": "A",
+        "label": "Upper tomb"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "tomb-exit",
+      "a": {
+        "x": 296,
+        "y": 156,
+        "map": "tomb1",
+        "label": "One-way exit"
+      },
+      "b": {
+        "x": 334,
+        "y": 365,
+        "map": "east",
+        "label": "Tomb exit"
+      },
+      "note": "One-way exit. Cannot enter the tomb from here.",
+      "one_way": true,
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "outpost-cave-a",
+      "a": {
+        "x": 232,
+        "y": 234,
+        "map": "outpost",
+        "code": "A",
+        "label": "Cave A"
+      },
+      "b": {
+        "x": 232,
+        "y": 234,
+        "map": "outpost2",
+        "code": "A",
+        "label": "Cave A"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "outpost-cave-b",
+      "a": {
+        "x": 250,
+        "y": 198,
+        "map": "outpost",
+        "code": "B",
+        "label": "Cave B"
+      },
+      "b": {
+        "x": 250,
+        "y": 198,
+        "map": "outpost2",
+        "code": "B",
+        "label": "Cave B"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "outpost-cave-c",
+      "a": {
+        "x": 280,
+        "y": 216,
+        "map": "outpost",
+        "code": "C",
+        "label": "Cave C"
+      },
+      "b": {
+        "x": 280,
+        "y": 216,
+        "map": "outpost2",
+        "code": "C",
+        "label": "Cave C"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "city-north-south",
+      "a": {
+        "x": 288,
+        "y": 235,
+        "map": "south",
+        "label": "Victory Square"
+      },
+      "b": {
+        "x": 304,
+        "y": 340,
+        "map": "north",
+        "label": "Parade Ground"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "city-port",
+      "a": {
+        "x": 184,
+        "y": 83,
+        "map": "north"
+      },
+      "b": {
+        "x": 184,
+        "y": 317,
+        "map": "port"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "city-chateau",
+      "a": {
+        "x": 304,
+        "y": 201,
+        "map": "north",
+        "label": "Drawbridge"
+      },
+      "b": {
+        "x": 273,
+        "y": 302,
+        "map": "chateau",
+        "label": "Main gate"
+      },
+      "note": "Chateau access requires mission progress.",
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "chateau-oubliette",
+      "a": {
+        "x": 300,
+        "y": 270,
+        "map": "chateau",
+        "label": "Basement"
+      },
+      "b": {
+        "x": 254,
+        "y": 200,
+        "map": "oubliette1"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "oubliette-trapdoor",
+      "a": {
+        "x": 161,
+        "y": 240,
+        "map": "oubliette1",
+        "code": "A",
+        "label": "Trapdoor"
+      },
+      "b": {
+        "x": 280,
+        "y": 200,
+        "map": "oubliette2",
+        "code": "A",
+        "label": "Trapdoor landing"
+      },
+      "note": "One-way trapdoor. Speak to the guard to descend.",
+      "one_way": true,
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "oubliette-depths",
+      "a": {
+        "x": 216,
+        "y": 293,
+        "map": "oubliette2",
+        "code": "B",
+        "label": "Lower prison"
+      },
+      "b": {
+        "x": 216,
+        "y": 280,
+        "map": "oubliette3",
+        "code": "B",
+        "label": "Upper prison"
+      },
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "oubliette-ronfaure",
+      "a": {
+        "x": 156,
+        "y": 312,
+        "map": "oubliette2",
+        "label": "Exit only"
+      },
+      "b": {
+        "x": 175,
+        "y": 220,
+        "map": "west",
+        "label": "Cliff exit"
+      },
+      "note": "One-way cliff exit. Enter through Chateau d'Oraguille.",
+      "one_way": true,
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "tomb-jugner",
+      "a": {
+        "x": 352,
+        "y": 149,
+        "map": "tomb1",
+        "label": "Eastern tunnel"
+      },
+      "b": {
+        "x": 187,
+        "y": 176,
+        "map": "jugner",
+        "label": "Enclosed area"
+      },
+      "note": "This part of Jugner is enclosed; it does not connect to the main forest.",
+      "status": "legacy_unreviewed"
+    },
+    {
+      "id": "latheine-jugner",
+      "a": {
+        "x": 409,
+        "y": 251,
+        "map": "latheine"
+      },
+      "b": {
+        "x": 150,
+        "y": 339,
+        "map": "jugner"
+      },
+      "status": "legacy_unreviewed"
+    }
+  ]
+}

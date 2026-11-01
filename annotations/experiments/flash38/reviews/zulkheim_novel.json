@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "reviewer": "root-independent",
+  "candidate_sha256": "46e0f7736f6bb9dbd14aa54c32ecde0e43285cdf90037689fa0a9f91882cf69e",
+  "manifest_sha256": "aeec276f8e91293c6c636be52712854c687f0b8ee6db2f1893af0b111b3bfc43",
+  "packet_sha256": {
+    "packets/ordelle1-original.png": "4f4885d745ed984d52ad6c86cdc95dbc110ca898f6fed25fe1e653a968e2e0d6",
+    "packets/ordelle1.png": "246dbe0747be5729066680fcd63feb701dae7afe5be28087d9ff3572982bd52a",
+    "packets/ordelle2-original.png": "58d6977bf59f42a83028abee0eafaff0995b4563a22402b7bc6796db8124b177",
+    "packets/ordelle2.png": "401a78a00654dbb185e4bf1ac921d86e6f53d895f53f5d9b4b44b7942fdf2601",
+    "packets/ordelle4-original.png": "bb06c45964b272eb15dfbc560001f76c6ba2a0e720c7a99df759eb55213a083d",
+    "packets/ordelle4.png": "4a35ca897f07b16ed29b88b833d673d4a761bb6483b1d94bc469d1e0926abf73"
+  },
+  "scope": "Only unmatched Flash proposals; separate authoring review, not publication approval or a claim that the entire Flash inventory is complete.",
+  "decisions": [
+    {
+      "id": "ordelle1_ordelle4_A",
+      "decision": "accept",
+      "review_level": "artwork_reviewed",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle1.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle1-original.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle4.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle4-original.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            238,
+            133
+          ],
+          "arrival": [
+            238,
+            145
+          ],
+          "badge": {
+            "at": [
+              239,
+              137
+            ],
+            "code": "A",
+            "printed": true
+          }
+        },
+        "b": {
+          "exit": [
+            233,
+            128
+          ],
+          "arrival": [
+            235,
+            139
+          ],
+          "badge": {
+            "at": [
+              233,
+              119
+            ],
+            "code": "A",
+            "printed": true
+          }
+        }
+      },
+      "reason": "Matching stair letters occur on both native floors. Corrected terrain-mouth, printed-letter and arrival-focus positions separately; no live traversal measurement."
+    },
+    {
+      "id": "ordelle1_ordelle4_B",
+      "decision": "accept",
+      "review_level": "artwork_reviewed",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle1.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle1-original.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle4.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle4-original.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            298,
+            176
+          ],
+          "arrival": [
+            298,
+            166
+          ],
+          "badge": {
+            "at": [
+              298,
+              189
+            ],
+            "code": "B",
+            "printed": true
+          }
+        },
+        "b": {
+          "exit": [
+            300,
+            179
+          ],
+          "arrival": [
+            302,
+            188
+          ],
+          "badge": {
+            "at": [
+              301,
+              167
+            ],
+            "code": "B",
+            "printed": true
+          }
+        }
+      },
+      "reason": "Matching stair letters occur on both native floors. Corrected terrain-mouth, printed-letter and arrival-focus positions separately; no live traversal measurement."
+    },
+    {
+      "id": "ordelle1_ordelle4_C",
+      "decision": "accept",
+      "review_level": "artwork_reviewed",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle1.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle1-original.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle4.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle4-original.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            239,
+            201
+          ],
+          "arrival": [
+            239,
+            212
+          ],
+          "badge": {
+            "at": [
+              252,
+              202
+            ],
+            "code": "C",
+            "printed": true
+          }
+        },
+        "b": {
+          "exit": [
+            239,
+            201
+          ],
+          "arrival": [
+            250,
+            200
+          ],
+          "badge": {
+            "at": [
+              231,
+              200
+            ],
+            "code": "C",
+            "printed": true
+          }
+        }
+      },
+      "reason": "Matching stair letters occur on both native floors. Corrected terrain-mouth, printed-letter and arrival-focus positions separately; no live traversal measurement."
+    },
+    {
+      "id": "ordelle1_ordelle4_D",
+      "decision": "accept",
+      "review_level": "artwork_reviewed",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle1.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle1-original.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle4.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle4-original.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            266,
+            290
+          ],
+          "arrival": [
+            266,
+            300
+          ],
+          "badge": {
+            "at": [
+              266,
+              278
+            ],
+            "code": "D",
+            "printed": true
+          }
+        },
+        "b": {
+          "exit": [
+            266,
+            312
+          ],
+          "arrival": [
+            266,
+            325
+          ],
+          "badge": {
+            "at": [
+              266,
+              301
+            ],
+            "code": "D",
+            "printed": true
+          }
+        }
+      },
+      "reason": "Matching stair letters occur on both native floors. Corrected terrain-mouth, printed-letter and arrival-focus positions separately; no live traversal measurement."
+    },
+    {
+      "id": "ordelle2_ordelle4_E",
+      "decision": "accept",
+      "review_level": "artwork_reviewed",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle2.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle2-original.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle4.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle4-original.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            317,
+            250
+          ],
+          "arrival": [
+            328,
+            247
+          ],
+          "badge": {
+            "at": [
+              310,
+              250
+            ],
+            "code": "E",
+            "printed": true
+          }
+        },
+        "b": {
+          "exit": [
+            283,
+            374
+          ],
+          "arrival": [
+            274,
+            372
+          ],
+          "badge": {
+            "at": [
+              300,
+              362
+            ],
+            "code": "E",
+            "printed": true
+          }
+        }
+      },
+      "reason": "Matching stair letters occur on both native floors. Corrected terrain-mouth, printed-letter and arrival-focus positions separately; no live traversal measurement."
+    },
+    {
+      "id": "ordelle1_ordelle2_F",
+      "decision": "needs_work",
+      "review_level": "artwork_reviewed",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle1.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle1-original.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle2.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle2-original.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        }
+      ],
+      "reason": "Do not publish: arrival coordinates are transposed between endpoints (one exceeds the 96-pixel focus limit). The F arrow on floor 1 does not establish the proposed a_to_b drop direction; verify the drop source and landing on the correct native floor."
+    }
+  ],
+  "findings": [
+    "Runtime unchanged. Accepted records require explicit import into the main annotation pipeline with fresh publication fingerprints before build."
+  ]
+}

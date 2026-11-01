@@ -1,0 +1,1933 @@
+{
+  "schema_version": 1,
+  "reviewer": "independent-checker",
+  "independent_inventory": "reviews/independent_inventory.json",
+  "manifest_sha256": "aeec276f8e91293c6c636be52712854c687f0b8ee6db2f1893af0b111b3bfc43",
+  "independent_inventory_sha256": "4c54452631a694383836b9e7fb7bce57b7f105837ee986752163a23df1cbc8f4",
+  "packet_sha256": {
+    "packets/batallia-original.png": "60f53be08fd335cc464b7bd7f3a8084828ee2e4da5bd4324884830f07032461f",
+    "packets/batallia.png": "697d0e01b1704dba59ee12e551a380451b0be7b8e8c6adbe5578171a56946e76",
+    "packets/beaucedine-original.png": "74b20283b554fdccb494f5a6c2384dc7f412da950c3671973f6bb0507a24284b",
+    "packets/beaucedine.png": "e6ac67b6752f187419572b8b919d2aaea8ade79f1d8279160e8c83127f42d411",
+    "packets/davoi-original.png": "14d78a187a9fc8ef1a3f59266a62aec40288d279e0b67e532bcc550a0cfa3cb5",
+    "packets/davoi.png": "8f4c75119ce9cda867cc2a387e5d3ecbaaccadbd57d3a729ae6b587e09062dfe",
+    "packets/eldieme2-original.png": "6679e8f2a77d3910e2e91b6c52e96d6127a6db4459164b27fa71d2ca0fae2a3b",
+    "packets/eldieme2.png": "3c56a56e981d2dbecd622ad0e8cb9a2f96f1e67efa1048aa4826430231be84a6",
+    "packets/eldieme3-original.png": "ef02c1fd9b509bd6a0153b3922a5b6d14d65b5891ca05bac045334d3322a92d8",
+    "packets/eldieme3.png": "77732f91947f3a6d88a17d73a5cc4634f4fbc866cea73ca2d2b5e536ebbe56b9",
+    "packets/eldieme4-original.png": "7460e0e582cda14010b29c9fc8303e9f8faba5998e9f6ce602ea1c59ce4eced5",
+    "packets/eldieme4.png": "e15bb56fbc46ae7974318f0be6a9965c3ad5e025099e2bbce6e00b33f9e4043a",
+    "packets/feiyin1-original.png": "a8b7e383b376f09a9855aedeaef5455d8b7e1d9cc7d3793185b5fa1e1461f2aa",
+    "packets/feiyin1.png": "4d4fe7466988e203f20c0f3d032659a16746bc640b6a310b0594a2a884f853aa",
+    "packets/feiyin2-original.png": "1f6a1424b5d550dd5ddef08b4e9e9b3881a1938ac6f6beaeb21b6d11bf71c6dc",
+    "packets/feiyin3-original.png": "2228ea32331e75e2f66501e7b84c0a34235adf124d73bf3e53f129e6c268239d",
+    "packets/jugner-original.png": "ad0cd92fa88398972ced1ed357e6301eb1078ad5fa1ac13307983a003df80505",
+    "packets/jugner.png": "0a514c4750cedf0277e4af0e73cb5b6c7a08e7430cd21005f758ea01a2d37c27",
+    "packets/konschtat-original.png": "f085bce701169be60bbd15d07f26324f5fae2896c1bc7d66c0c1d5456eebc3fa",
+    "packets/konschtat.png": "ba4c28efcdcec0259f11b25de6fba575e6382555311e648c5592c9d4081ec6e8",
+    "packets/landing2-original.png": "d0cc05a22dcc07060d3eb56248bde84537bc8b7d7b7a1265dbaeb582ef4374d6",
+    "packets/landing2.png": "b652bac5b5ccfa22a04d5abc85a293c45d202ad10ab2a284cceb62878317b51b",
+    "packets/latheine-original.png": "fc0343a0c572c138a866a1c641a306ff3f887f2a78cb7a8f011828b7c8765503",
+    "packets/latheine.png": "97114c8a1c9592233c6093080d8c0ab32195455bfd86d5b99e24b3e7bc5a9280",
+    "packets/monastic-original.png": "45ef0a69174ca59478850082e50cc59aef1b2a418e4b2168b7d8f7f2f2bd0efb",
+    "packets/monastic.png": "0ff27b2f2b4e1f5446f3c4a63a66441588a5701fe01f6bb04adf394740ebaecd",
+    "packets/north-original.png": "c722d2f352faab5ce08ed7cfac334c8b3bfc7a650c36ad2a85ca1e366f621cf5",
+    "packets/north.png": "a1a15c0d90670cf2f4dac449cfae4fa4fefcf0b8a063a76df242f14db8827df4",
+    "packets/ordelle1-original.png": "4f4885d745ed984d52ad6c86cdc95dbc110ca898f6fed25fe1e653a968e2e0d6",
+    "packets/ordelle1.png": "246dbe0747be5729066680fcd63feb701dae7afe5be28087d9ff3572982bd52a",
+    "packets/ordelle2-original.png": "58d6977bf59f42a83028abee0eafaff0995b4563a22402b7bc6796db8124b177",
+    "packets/ordelle2.png": "401a78a00654dbb185e4bf1ac921d86e6f53d895f53f5d9b4b44b7942fdf2601",
+    "packets/ordelle3-original.png": "fdf1059af284d65f2663b679b2156b4da41d5feee0a22cda4a6e765106b7958b",
+    "packets/ordelle4-original.png": "bb06c45964b272eb15dfbc560001f76c6ba2a0e720c7a99df759eb55213a083d",
+    "packets/ordelle4.png": "4a35ca897f07b16ed29b88b833d673d4a761bb6483b1d94bc469d1e0926abf73",
+    "packets/ranguemont-original.png": "84ba870338141c46a97908e07697cd3e0303418438fdf9f7b18054bf851bfaf8",
+    "packets/ranguemont.png": "307eea211b46f8dbf40bfd7038dfe34c2f95ef802a920105c64bd414f8c1971e",
+    "packets/selbina-original.png": "1c82320405cf122e8e1379afd98139b3d1f1cbeb017a5382c41aaa284556c6dc",
+    "packets/selbina.png": "b58bfc0a89a8d2c18b658a84364ed326f7f24148fb30601c334ad52bfe524a66",
+    "packets/valkurm-original.png": "564e42f99a1e5deec19a19d7748a604b47ecb0e66df2685e881d794eaef160bc",
+    "packets/valkurm.png": "0ae967cf62ed62dd902dd052d4465b3d6cecedd6a22d05563cc883f25c6a333f"
+  },
+  "review_state": "artwork-reviewed",
+  "traversal_verified": false,
+  "candidate_sha256": {
+    "zulkheim": "d2b005d9d433525ad27cb4d66707df88b7219e73b041f291cb43b09811f26e07",
+    "north_east": "6de9acdf28d5d196f73e2ed8f15964ea51b8150f7424c36eab0b2fc06cc36330"
+  },
+  "decisions": [
+    {
+      "job_id": "zulkheim",
+      "id": "latheine-valkurm",
+      "decision": "accept",
+      "reason": "Reciprocal named road boundaries establish an ordinary two-way connection. Correct arrow-shaft endpoints to actual road mouths.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/latheine.png",
+          "detail": "La Theine southern road mouth is around [291,399], before destination arrow; Valkurm north road mouth is around [370,169], below arrowhead at candidate y143."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/latheine-original.png",
+          "detail": "La Theine southern road mouth is around [291,399], before destination arrow; Valkurm north road mouth is around [370,169], below arrowhead at candidate y143."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/valkurm.png",
+          "detail": "La Theine southern road mouth is around [291,399], before destination arrow; Valkurm north road mouth is around [370,169], below arrowhead at candidate y143."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/valkurm-original.png",
+          "detail": "La Theine southern road mouth is around [291,399], before destination arrow; Valkurm north road mouth is around [370,169], below arrowhead at candidate y143."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            291,
+            399
+          ],
+          "arrival": [
+            291,
+            389
+          ],
+          "badge": {
+            "at": [
+              291,
+              399
+            ],
+            "code": null,
+            "printed": false
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            370,
+            169
+          ],
+          "arrival": [
+            370,
+            181
+          ],
+          "badge": {
+            "at": [
+              370,
+              169
+            ],
+            "code": null,
+            "printed": false
+          },
+          "component": "main"
+        }
+      }
+    },
+    {
+      "job_id": "zulkheim",
+      "id": "latheine-ordelle1",
+      "decision": "accept",
+      "reason": "Printed1 and native floor1 cave geometry establish this pair. The candidate cave endpoint [276,73] was an arrowhead outside the passage.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/latheine.png",
+          "detail": "Native cave north tunnel curves to mouth around [244,74]. Leader continues east toward [276,73]. Printed circled1 is at [250,62], separate from mouth."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle1.png",
+          "detail": "Native cave north tunnel curves to mouth around [244,74]. Leader continues east toward [276,73]. Printed circled1 is at [250,62], separate from mouth."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle1-original.png",
+          "detail": "Native cave north tunnel curves to mouth around [244,74]. Leader continues east toward [276,73]. Printed circled1 is at [250,62], separate from mouth."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            244,
+            222
+          ],
+          "arrival": [
+            244,
+            232
+          ],
+          "badge": {
+            "at": [
+              244,
+              214
+            ],
+            "code": "1",
+            "printed": true
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            244,
+            74
+          ],
+          "arrival": [
+            237,
+            83
+          ],
+          "badge": {
+            "at": [
+              250,
+              62
+            ],
+            "code": "1",
+            "printed": true
+          },
+          "component": "main"
+        }
+      }
+    },
+    {
+      "job_id": "zulkheim",
+      "id": "latheine-ordelle4",
+      "decision": "accept",
+      "reason": "Printed2 pairs La Theine with actual native floor15 upper branches, not floor14 apparatus spur. Native original supports the corrected floor.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/latheine.png",
+          "detail": "Upper branches north throat [345,95] is visible in floor15 original. The replacement artwork prints circled2 at [330,87]; it is not an unprinted badge at throat."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle3-original.png",
+          "detail": "Upper branches north throat [345,95] is visible in floor15 original. The replacement artwork prints circled2 at [330,87]; it is not an unprinted badge at throat."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle4.png",
+          "detail": "Upper branches north throat [345,95] is visible in floor15 original. The replacement artwork prints circled2 at [330,87]; it is not an unprinted badge at throat."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle4-original.png",
+          "detail": "Upper branches north throat [345,95] is visible in floor15 original. The replacement artwork prints circled2 at [330,87]; it is not an unprinted badge at throat."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            204,
+            222
+          ],
+          "arrival": [
+            204,
+            232
+          ],
+          "badge": {
+            "at": [
+              204,
+              222
+            ],
+            "code": "2",
+            "printed": true
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            345,
+            95
+          ],
+          "arrival": [
+            342,
+            106
+          ],
+          "badge": {
+            "at": [
+              330,
+              87
+            ],
+            "code": "2",
+            "printed": true
+          },
+          "component": "main"
+        }
+      }
+    },
+    {
+      "job_id": "zulkheim",
+      "id": "latheine-ordelle2",
+      "decision": "accept",
+      "reason": "Printed3 and native floor2 southern corridor establish this pair. The entrance is separate from the leader and circled code.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/latheine.png",
+          "detail": "La Theine southern cave code3 at [270,316]; cave south neck [217,321] above leader arrow, printed circled3 [202,327] left of neck."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle2.png",
+          "detail": "La Theine southern cave code3 at [270,316]; cave south neck [217,321] above leader arrow, printed circled3 [202,327] left of neck."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ordelle2-original.png",
+          "detail": "La Theine southern cave code3 at [270,316]; cave south neck [217,321] above leader arrow, printed circled3 [202,327] left of neck."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            270,
+            316
+          ],
+          "arrival": [
+            275,
+            322
+          ],
+          "badge": {
+            "at": [
+              270,
+              316
+            ],
+            "code": "3",
+            "printed": true
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            217,
+            321
+          ],
+          "arrival": [
+            217,
+            312
+          ],
+          "badge": {
+            "at": [
+              202,
+              327
+            ],
+            "code": "3",
+            "printed": true
+          },
+          "component": "main"
+        }
+      }
+    },
+    {
+      "job_id": "zulkheim",
+      "id": "valkurm-selbina",
+      "decision": "accept",
+      "reason": "Reciprocal named direct land connection is supported. Candidate points fell in town/title or destination arrow; use gate approaches.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/valkurm.png",
+          "detail": "Valkurm town approach is narrow access near [226,274], north of Selbina label. Selbina north road starts around [271,191], south of arrow at y165."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/valkurm-original.png",
+          "detail": "Valkurm town approach is narrow access near [226,274], north of Selbina label. Selbina north road starts around [271,191], south of arrow at y165."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/selbina.png",
+          "detail": "Valkurm town approach is narrow access near [226,274], north of Selbina label. Selbina north road starts around [271,191], south of arrow at y165."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/selbina-original.png",
+          "detail": "Valkurm town approach is narrow access near [226,274], north of Selbina label. Selbina north road starts around [271,191], south of arrow at y165."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            226,
+            274
+          ],
+          "arrival": [
+            226,
+            265
+          ],
+          "badge": {
+            "at": [
+              226,
+              274
+            ],
+            "code": null,
+            "printed": false
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            271,
+            191
+          ],
+          "arrival": [
+            271,
+            203
+          ],
+          "badge": {
+            "at": [
+              271,
+              191
+            ],
+            "code": null,
+            "printed": false
+          },
+          "component": "main"
+        }
+      }
+    },
+    {
+      "job_id": "zulkheim",
+      "id": "valkurm-konschtat",
+      "decision": "accept",
+      "reason": "Reciprocal named boundary is supported. Candidate Valkurm point was on the long southeast leader beyond the drawn road.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/valkurm.png",
+          "detail": "Valkurm southeast road terminates around [402,351], before arrow to Konschtat. Konschtat northwest neck is [223,87]."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/valkurm-original.png",
+          "detail": "Valkurm southeast road terminates around [402,351], before arrow to Konschtat. Konschtat northwest neck is [223,87]."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/konschtat.png",
+          "detail": "Valkurm southeast road terminates around [402,351], before arrow to Konschtat. Konschtat northwest neck is [223,87]."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/konschtat-original.png",
+          "detail": "Valkurm southeast road terminates around [402,351], before arrow to Konschtat. Konschtat northwest neck is [223,87]."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            402,
+            351
+          ],
+          "arrival": [
+            401,
+            340
+          ],
+          "badge": {
+            "at": [
+              402,
+              351
+            ],
+            "code": null,
+            "printed": false
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            223,
+            87
+          ],
+          "arrival": [
+            218,
+            96
+          ],
+          "badge": {
+            "at": [
+              223,
+              87
+            ],
+            "code": null,
+            "printed": false
+          },
+          "component": "main"
+        }
+      }
+    },
+    {
+      "job_id": "north_east",
+      "id": "jugner-batallia",
+      "decision": "accept",
+      "reason": "Reciprocal named road boundaries match; accept with road-throat coordinates replacing arrowheads.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/jugner.png",
+          "detail": "Jugner east road ends near [391,145]; Batallia southwest road throat is near [185,284], while candidate positions were on destination arrows."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/jugner-original.png",
+          "detail": "Jugner east road ends near [391,145]; Batallia southwest road throat is near [185,284], while candidate positions were on destination arrows."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/batallia.png",
+          "detail": "Jugner east road ends near [391,145]; Batallia southwest road throat is near [185,284], while candidate positions were on destination arrows."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/batallia-original.png",
+          "detail": "Jugner east road ends near [391,145]; Batallia southwest road throat is near [185,284], while candidate positions were on destination arrows."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            391,
+            145
+          ],
+          "arrival": [
+            381,
+            145
+          ],
+          "badge": {
+            "at": [
+              391,
+              145
+            ],
+            "code": null,
+            "printed": false
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            185,
+            284
+          ],
+          "arrival": [
+            188,
+            276
+          ],
+          "badge": {
+            "at": [
+              185,
+              284
+            ],
+            "code": null,
+            "printed": false
+          },
+          "component": "main"
+        }
+      }
+    },
+    {
+      "job_id": "north_east",
+      "id": "batallia-beaucedine",
+      "decision": "accept",
+      "reason": "Named connection is supported; northwest Batallia arrival must remain isolated from main downs.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/batallia.png",
+          "detail": "Batallia northern neck [172,139] and Glacier southern neck [269,362]; candidate points were on arrows. Batallia northern neck leads the isolated upper shelf containing entrance7."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/batallia-original.png",
+          "detail": "Batallia northern neck [172,139] and Glacier southern neck [269,362]; candidate points were on arrows. Batallia northern neck leads the isolated upper shelf containing entrance7."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/beaucedine.png",
+          "detail": "Batallia northern neck [172,139] and Glacier southern neck [269,362]; candidate points were on arrows. Batallia northern neck leads the isolated upper shelf containing entrance7."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/beaucedine-original.png",
+          "detail": "Batallia northern neck [172,139] and Glacier southern neck [269,362]; candidate points were on arrows. Batallia northern neck leads the isolated upper shelf containing entrance7."
+        },
+        {
+          "kind": "horizon_wiki",
+          "source": "https://horizonffxi.wiki/Beaucedine_Glacier",
+          "detail": "Boundary connection to Batallia; topology independently agrees with isolated northwest approach."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            172,
+            139
+          ],
+          "arrival": [
+            172,
+            150
+          ],
+          "badge": {
+            "at": [
+              172,
+              139
+            ],
+            "code": null,
+            "printed": false
+          },
+          "component": "northwest"
+        },
+        "b": {
+          "exit": [
+            269,
+            362
+          ],
+          "arrival": [
+            269,
+            352
+          ],
+          "badge": {
+            "at": [
+              269,
+              362
+            ],
+            "code": null,
+            "printed": false
+          },
+          "component": "main"
+        }
+      }
+    },
+    {
+      "job_id": "north_east",
+      "id": "jugner-davoi",
+      "decision": "accept",
+      "reason": "Reciprocal labels and native road geometry establish a two-way zone connection; Davoi endpoint was far outside drawn geometry.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/jugner.png",
+          "detail": "Jugner southern neck at [215,394]; Davoi north road throat [328,204]. Candidate Davoi [328,426] is blank map below all roads."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/jugner-original.png",
+          "detail": "Jugner southern neck at [215,394]; Davoi north road throat [328,204]. Candidate Davoi [328,426] is blank map below all roads."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/davoi.png",
+          "detail": "Jugner southern neck at [215,394]; Davoi north road throat [328,204]. Candidate Davoi [328,426] is blank map below all roads."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/davoi-original.png",
+          "detail": "Jugner southern neck at [215,394]; Davoi north road throat [328,204]. Candidate Davoi [328,426] is blank map below all roads."
+        },
+        {
+          "kind": "horizon_wiki",
+          "source": "https://horizonffxi.wiki/Davoi",
+          "detail": "Lists Jugner as its zone connection."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            215,
+            394
+          ],
+          "arrival": [
+            215,
+            384
+          ],
+          "badge": {
+            "at": [
+              215,
+              394
+            ],
+            "code": null,
+            "printed": false
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            328,
+            204
+          ],
+          "arrival": [
+            328,
+            214
+          ],
+          "badge": {
+            "at": [
+              328,
+              204
+            ],
+            "code": null,
+            "printed": false
+          },
+          "component": "main"
+        }
+      }
+    },
+    {
+      "job_id": "north_east",
+      "id": "davoi-monastic-1",
+      "decision": "accept",
+      "reason": "Both inspected maps print the same local entrance code at corresponding cave mouths. Five reciprocal connections are supported by Horizon. Coordinate and disconnected-component corrections apply.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/davoi.png",
+          "detail": "Printed 1 is a local Davoi/Monastic entrance code. Monastic code1 belongs to northern loop, code5 to eastern loop, and codes2/3/4 to central network; glyph center and physical throat may differ."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/davoi-original.png",
+          "detail": "Printed 1 is a local Davoi/Monastic entrance code. Monastic code1 belongs to northern loop, code5 to eastern loop, and codes2/3/4 to central network; glyph center and physical throat may differ."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/monastic.png",
+          "detail": "Printed 1 is a local Davoi/Monastic entrance code. Monastic code1 belongs to northern loop, code5 to eastern loop, and codes2/3/4 to central network; glyph center and physical throat may differ."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/monastic-original.png",
+          "detail": "Printed 1 is a local Davoi/Monastic entrance code. Monastic code1 belongs to northern loop, code5 to eastern loop, and codes2/3/4 to central network; glyph center and physical throat may differ."
+        },
+        {
+          "kind": "horizon_wiki",
+          "source": "https://horizonffxi.wiki/Monastic_Cavern",
+          "detail": "Lists five Davoi connections separately, supporting ordinary reciprocal cave routes; Escape to Jugner is distinct spell transport."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            355,
+            215
+          ],
+          "arrival": [
+            363,
+            216
+          ],
+          "badge": {
+            "at": [
+              354,
+              215
+            ],
+            "code": "1",
+            "printed": true
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            351,
+            200
+          ],
+          "arrival": [
+            346,
+            193
+          ],
+          "badge": {
+            "at": [
+              358,
+              199
+            ],
+            "code": "1",
+            "printed": true
+          },
+          "component": "north"
+        }
+      }
+    },
+    {
+      "job_id": "north_east",
+      "id": "davoi-monastic-2",
+      "decision": "accept",
+      "reason": "Both inspected maps print the same local entrance code at corresponding cave mouths. Five reciprocal connections are supported by Horizon. Coordinate and disconnected-component corrections apply.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/davoi.png",
+          "detail": "Printed 2 is a local Davoi/Monastic entrance code. Monastic code1 belongs to northern loop, code5 to eastern loop, and codes2/3/4 to central network; glyph center and physical throat may differ."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/davoi-original.png",
+          "detail": "Printed 2 is a local Davoi/Monastic entrance code. Monastic code1 belongs to northern loop, code5 to eastern loop, and codes2/3/4 to central network; glyph center and physical throat may differ."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/monastic.png",
+          "detail": "Printed 2 is a local Davoi/Monastic entrance code. Monastic code1 belongs to northern loop, code5 to eastern loop, and codes2/3/4 to central network; glyph center and physical throat may differ."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/monastic-original.png",
+          "detail": "Printed 2 is a local Davoi/Monastic entrance code. Monastic code1 belongs to northern loop, code5 to eastern loop, and codes2/3/4 to central network; glyph center and physical throat may differ."
+        },
+        {
+          "kind": "horizon_wiki",
+          "source": "https://horizonffxi.wiki/Monastic_Cavern",
+          "detail": "Lists five Davoi connections separately, supporting ordinary reciprocal cave routes; Escape to Jugner is distinct spell transport."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            263,
+            352
+          ],
+          "arrival": [
+            263,
+            343
+          ],
+          "badge": {
+            "at": [
+              263,
+              354
+            ],
+            "code": "2",
+            "printed": true
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            265,
+            337
+          ],
+          "arrival": [
+            260,
+            342
+          ],
+          "badge": {
+            "at": [
+              264,
+              331
+            ],
+            "code": "2",
+            "printed": true
+          },
+          "component": "central"
+        }
+      }
+    },
+    {
+      "job_id": "north_east",
+      "id": "davoi-monastic-3",
+      "decision": "accept",
+      "reason": "Both inspected maps print the same local entrance code at corresponding cave mouths. Five reciprocal connections are supported by Horizon. Coordinate and disconnected-component corrections apply.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/davoi.png",
+          "detail": "Printed 3 is a local Davoi/Monastic entrance code. Monastic code1 belongs to northern loop, code5 to eastern loop, and codes2/3/4 to central network; glyph center and physical throat may differ."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/davoi-original.png",
+          "detail": "Printed 3 is a local Davoi/Monastic entrance code. Monastic code1 belongs to northern loop, code5 to eastern loop, and codes2/3/4 to central network; glyph center and physical throat may differ."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/monastic.png",
+          "detail": "Printed 3 is a local Davoi/Monastic entrance code. Monastic code1 belongs to northern loop, code5 to eastern loop, and codes2/3/4 to central network; glyph center and physical throat may differ."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/monastic-original.png",
+          "detail": "Printed 3 is a local Davoi/Monastic entrance code. Monastic code1 belongs to northern loop, code5 to eastern loop, and codes2/3/4 to central network; glyph center and physical throat may differ."
+        },
+        {
+          "kind": "horizon_wiki",
+          "source": "https://horizonffxi.wiki/Monastic_Cavern",
+          "detail": "Lists five Davoi connections separately, supporting ordinary reciprocal cave routes; Escape to Jugner is distinct spell transport."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            230,
+            239
+          ],
+          "arrival": [
+            230,
+            230
+          ],
+          "badge": {
+            "at": [
+              230,
+              239
+            ],
+            "code": "3",
+            "printed": true
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            233,
+            223
+          ],
+          "arrival": [
+            231,
+            230
+          ],
+          "badge": {
+            "at": [
+              232,
+              216
+            ],
+            "code": "3",
+            "printed": true
+          },
+          "component": "central"
+        }
+      }
+    },
+    {
+      "job_id": "north_east",
+      "id": "davoi-monastic-4",
+      "decision": "accept",
+      "reason": "Both inspected maps print the same local entrance code at corresponding cave mouths. Five reciprocal connections are supported by Horizon. Coordinate and disconnected-component corrections apply.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/davoi.png",
+          "detail": "Printed 4 is a local Davoi/Monastic entrance code. Monastic code1 belongs to northern loop, code5 to eastern loop, and codes2/3/4 to central network; glyph center and physical throat may differ."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/davoi-original.png",
+          "detail": "Printed 4 is a local Davoi/Monastic entrance code. Monastic code1 belongs to northern loop, code5 to eastern loop, and codes2/3/4 to central network; glyph center and physical throat may differ."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/monastic.png",
+          "detail": "Printed 4 is a local Davoi/Monastic entrance code. Monastic code1 belongs to northern loop, code5 to eastern loop, and codes2/3/4 to central network; glyph center and physical throat may differ."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/monastic-original.png",
+          "detail": "Printed 4 is a local Davoi/Monastic entrance code. Monastic code1 belongs to northern loop, code5 to eastern loop, and codes2/3/4 to central network; glyph center and physical throat may differ."
+        },
+        {
+          "kind": "horizon_wiki",
+          "source": "https://horizonffxi.wiki/Monastic_Cavern",
+          "detail": "Lists five Davoi connections separately, supporting ordinary reciprocal cave routes; Escape to Jugner is distinct spell transport."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            277,
+            271
+          ],
+          "arrival": [
+            277,
+            263
+          ],
+          "badge": {
+            "at": [
+              277,
+              271
+            ],
+            "code": "4",
+            "printed": true
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            280,
+            258
+          ],
+          "arrival": [
+            273,
+            258
+          ],
+          "badge": {
+            "at": [
+              281,
+              258
+            ],
+            "code": "4",
+            "printed": true
+          },
+          "component": "central"
+        }
+      }
+    },
+    {
+      "job_id": "north_east",
+      "id": "davoi-monastic-5",
+      "decision": "accept",
+      "reason": "Both inspected maps print the same local entrance code at corresponding cave mouths. Five reciprocal connections are supported by Horizon. Coordinate and disconnected-component corrections apply.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/davoi.png",
+          "detail": "Printed 5 is a local Davoi/Monastic entrance code. Monastic code1 belongs to northern loop, code5 to eastern loop, and codes2/3/4 to central network; glyph center and physical throat may differ."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/davoi-original.png",
+          "detail": "Printed 5 is a local Davoi/Monastic entrance code. Monastic code1 belongs to northern loop, code5 to eastern loop, and codes2/3/4 to central network; glyph center and physical throat may differ."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/monastic.png",
+          "detail": "Printed 5 is a local Davoi/Monastic entrance code. Monastic code1 belongs to northern loop, code5 to eastern loop, and codes2/3/4 to central network; glyph center and physical throat may differ."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/monastic-original.png",
+          "detail": "Printed 5 is a local Davoi/Monastic entrance code. Monastic code1 belongs to northern loop, code5 to eastern loop, and codes2/3/4 to central network; glyph center and physical throat may differ."
+        },
+        {
+          "kind": "horizon_wiki",
+          "source": "https://horizonffxi.wiki/Monastic_Cavern",
+          "detail": "Lists five Davoi connections separately, supporting ordinary reciprocal cave routes; Escape to Jugner is distinct spell transport."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            311,
+            302
+          ],
+          "arrival": [
+            311,
+            311
+          ],
+          "badge": {
+            "at": [
+              311,
+              302
+            ],
+            "code": "5",
+            "printed": true
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            314,
+            285
+          ],
+          "arrival": [
+            311,
+            292
+          ],
+          "badge": {
+            "at": [
+              314,
+              281
+            ],
+            "code": "5",
+            "printed": true
+          },
+          "component": "east"
+        }
+      }
+    },
+    {
+      "job_id": "north_east",
+      "id": "batallia-eldieme-1",
+      "decision": "accept",
+      "reason": "Printed1 pairs the Batallia main entrance with native floor15/printedMap1. Accept with focus moved inside the approach corridor.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/batallia.png",
+          "detail": "Batallia entrance1 [299,325] and Eldieme south passage with printed1 at [327,307]. Original native map confirms this is eldieme2 rather than the reused map2 textures."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/eldieme2.png",
+          "detail": "Batallia entrance1 [299,325] and Eldieme south passage with printed1 at [327,307]. Original native map confirms this is eldieme2 rather than the reused map2 textures."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/eldieme2-original.png",
+          "detail": "Batallia entrance1 [299,325] and Eldieme south passage with printed1 at [327,307]. Original native map confirms this is eldieme2 rather than the reused map2 textures."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            299,
+            325
+          ],
+          "arrival": [
+            299,
+            319
+          ],
+          "badge": {
+            "at": [
+              299,
+              325
+            ],
+            "code": "1",
+            "printed": true
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            327,
+            302
+          ],
+          "arrival": [
+            327,
+            291
+          ],
+          "badge": {
+            "at": [
+              327,
+              307
+            ],
+            "code": "1",
+            "printed": true
+          },
+          "component": "main"
+        }
+      }
+    },
+    {
+      "job_id": "north_east",
+      "id": "batallia-eldieme-6",
+      "decision": "accept",
+      "reason": "Printed6 pairs the offshore barrow with actual native floor17/printedMap3. Candidate Eldieme point was on destination arrow.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/batallia.png",
+          "detail": "Batallia6 is an island separate from the main downs. Native Map3 east throat ends near [329,299], not candidate [338,323]."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/batallia-original.png",
+          "detail": "Batallia6 is an island separate from the main downs. Native Map3 east throat ends near [329,299], not candidate [338,323]."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/eldieme4.png",
+          "detail": "Batallia6 is an island separate from the main downs. Native Map3 east throat ends near [329,299], not candidate [338,323]."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/eldieme4-original.png",
+          "detail": "Batallia6 is an island separate from the main downs. Native Map3 east throat ends near [329,299], not candidate [338,323]."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            305,
+            363
+          ],
+          "arrival": [
+            305,
+            357
+          ],
+          "badge": {
+            "at": [
+              305,
+              363
+            ],
+            "code": "6",
+            "printed": true
+          },
+          "component": "island"
+        },
+        "b": {
+          "exit": [
+            329,
+            299
+          ],
+          "arrival": [
+            319,
+            298
+          ],
+          "badge": {
+            "at": [
+              329,
+              299
+            ],
+            "code": "6",
+            "printed": true
+          },
+          "component": "main"
+        }
+      }
+    },
+    {
+      "job_id": "north_east",
+      "id": "north-carpenters-landing",
+      "decision": "accept",
+      "reason": "Reciprocal destination labels and native direct land approach support this two-way connection; candidate Landing point was in destination text.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/north.png",
+          "detail": "Northern San d'Oria red leader ends at door around [206,146]. Landing north approach is [224,222], well below text at candidate [226,146]."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/north-original.png",
+          "detail": "Northern San d'Oria red leader ends at door around [206,146]. Landing north approach is [224,222], well below text at candidate [226,146]."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/landing2.png",
+          "detail": "Northern San d'Oria red leader ends at door around [206,146]. Landing north approach is [224,222], well below text at candidate [226,146]."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/landing2-original.png",
+          "detail": "Northern San d'Oria red leader ends at door around [206,146]. Landing north approach is [224,222], well below text at candidate [226,146]."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            206,
+            146
+          ],
+          "arrival": [
+            201,
+            151
+          ],
+          "badge": {
+            "at": [
+              206,
+              146
+            ],
+            "code": null,
+            "printed": false
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            224,
+            222
+          ],
+          "arrival": [
+            224,
+            233
+          ],
+          "badge": {
+            "at": [
+              224,
+              222
+            ],
+            "code": null,
+            "printed": false
+          },
+          "component": "north_landing"
+        }
+      }
+    },
+    {
+      "job_id": "north_east",
+      "id": "batallia-eldieme3-2",
+      "decision": "accept",
+      "reason": "Matching printed entrance and native floor16 geometry establish the pair; isolated pieces stay distinct. Accept with throat, badge and focus corrections.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/batallia.png",
+          "detail": "Printed 2 on the map2 overlay corresponds to a real native floor16 passage. Native floor14 (eldieme1-original.png) has only the tiny apparatus spur and cannot supply this exit."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/eldieme3.png",
+          "detail": "Printed 2 on the map2 overlay corresponds to a real native floor16 passage. Native floor14 (eldieme1-original.png) has only the tiny apparatus spur and cannot supply this exit."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/eldieme3-original.png",
+          "detail": "Printed 2 on the map2 overlay corresponds to a real native floor16 passage. Native floor14 (eldieme1-original.png) has only the tiny apparatus spur and cannot supply this exit."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            284,
+            215
+          ],
+          "arrival": [
+            284,
+            222
+          ],
+          "badge": {
+            "at": [
+              284,
+              215
+            ],
+            "code": "2",
+            "printed": true
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            440,
+            214
+          ],
+          "arrival": [
+            440,
+            224
+          ],
+          "badge": {
+            "at": [
+              440,
+              210
+            ],
+            "code": "2",
+            "printed": true
+          },
+          "component": "main"
+        }
+      }
+    },
+    {
+      "job_id": "north_east",
+      "id": "batallia-eldieme3-3",
+      "decision": "accept",
+      "reason": "Matching printed entrance and native floor16 geometry establish the pair; isolated pieces stay distinct. Accept with throat, badge and focus corrections.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/batallia.png",
+          "detail": "Printed 3 on the map2 overlay corresponds to a real native floor16 passage. Native floor14 (eldieme1-original.png) has only the tiny apparatus spur and cannot supply this exit."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/eldieme3.png",
+          "detail": "Printed 3 on the map2 overlay corresponds to a real native floor16 passage. Native floor14 (eldieme1-original.png) has only the tiny apparatus spur and cannot supply this exit."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/eldieme3-original.png",
+          "detail": "Printed 3 on the map2 overlay corresponds to a real native floor16 passage. Native floor14 (eldieme1-original.png) has only the tiny apparatus spur and cannot supply this exit."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            249,
+            245
+          ],
+          "arrival": [
+            249,
+            252
+          ],
+          "badge": {
+            "at": [
+              249,
+              245
+            ],
+            "code": "3",
+            "printed": true
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            327,
+            275
+          ],
+          "arrival": [
+            321,
+            281
+          ],
+          "badge": {
+            "at": [
+              327,
+              270
+            ],
+            "code": "3",
+            "printed": true
+          },
+          "component": "main"
+        }
+      }
+    },
+    {
+      "job_id": "north_east",
+      "id": "batallia-eldieme3-4",
+      "decision": "accept",
+      "reason": "Matching printed entrance and native floor16 geometry establish the pair; isolated pieces stay distinct. Accept with throat, badge and focus corrections.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/batallia.png",
+          "detail": "Printed 4 on the map2 overlay corresponds to a real native floor16 passage. Native floor14 (eldieme1-original.png) has only the tiny apparatus spur and cannot supply this exit."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/eldieme3.png",
+          "detail": "Printed 4 on the map2 overlay corresponds to a real native floor16 passage. Native floor14 (eldieme1-original.png) has only the tiny apparatus spur and cannot supply this exit."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/eldieme3-original.png",
+          "detail": "Printed 4 on the map2 overlay corresponds to a real native floor16 passage. Native floor14 (eldieme1-original.png) has only the tiny apparatus spur and cannot supply this exit."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            226,
+            262
+          ],
+          "arrival": [
+            222,
+            268
+          ],
+          "badge": {
+            "at": [
+              226,
+              262
+            ],
+            "code": "4",
+            "printed": true
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            184,
+            300
+          ],
+          "arrival": [
+            184,
+            290
+          ],
+          "badge": {
+            "at": [
+              184,
+              288
+            ],
+            "code": "4",
+            "printed": true
+          },
+          "component": "southwest"
+        }
+      }
+    },
+    {
+      "job_id": "north_east",
+      "id": "batallia-eldieme3-5",
+      "decision": "accept",
+      "reason": "Matching printed entrance and native floor16 geometry establish the pair; isolated pieces stay distinct. Accept with throat, badge and focus corrections.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/batallia.png",
+          "detail": "Printed 5 on the map2 overlay corresponds to a real native floor16 passage. Native floor14 (eldieme1-original.png) has only the tiny apparatus spur and cannot supply this exit."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/eldieme3.png",
+          "detail": "Printed 5 on the map2 overlay corresponds to a real native floor16 passage. Native floor14 (eldieme1-original.png) has only the tiny apparatus spur and cannot supply this exit."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/eldieme3-original.png",
+          "detail": "Printed 5 on the map2 overlay corresponds to a real native floor16 passage. Native floor14 (eldieme1-original.png) has only the tiny apparatus spur and cannot supply this exit."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            231,
+            218
+          ],
+          "arrival": [
+            231,
+            225
+          ],
+          "badge": {
+            "at": [
+              231,
+              218
+            ],
+            "code": "5",
+            "printed": true
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            238,
+            233
+          ],
+          "arrival": [
+            248,
+            233
+          ],
+          "badge": {
+            "at": [
+              241,
+              233
+            ],
+            "code": "5",
+            "printed": true
+          },
+          "component": "main"
+        }
+      }
+    },
+    {
+      "job_id": "north_east",
+      "id": "batallia-eldieme3-7",
+      "decision": "accept",
+      "reason": "Matching printed entrance and native floor16 geometry establish the pair; isolated pieces stay distinct. Accept with throat, badge and focus corrections.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/batallia.png",
+          "detail": "Printed 7 on the map2 overlay corresponds to a real native floor16 passage. Native floor14 (eldieme1-original.png) has only the tiny apparatus spur and cannot supply this exit."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/eldieme3.png",
+          "detail": "Printed 7 on the map2 overlay corresponds to a real native floor16 passage. Native floor14 (eldieme1-original.png) has only the tiny apparatus spur and cannot supply this exit."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/eldieme3-original.png",
+          "detail": "Printed 7 on the map2 overlay corresponds to a real native floor16 passage. Native floor14 (eldieme1-original.png) has only the tiny apparatus spur and cannot supply this exit."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            184,
+            177
+          ],
+          "arrival": [
+            187,
+            168
+          ],
+          "badge": {
+            "at": [
+              184,
+              177
+            ],
+            "code": "7",
+            "printed": true
+          },
+          "component": "northwest"
+        },
+        "b": {
+          "exit": [
+            130,
+            120
+          ],
+          "arrival": [
+            122,
+            120
+          ],
+          "badge": {
+            "at": [
+              133,
+              120
+            ],
+            "code": "7",
+            "printed": true
+          },
+          "component": "northwest"
+        }
+      }
+    },
+    {
+      "job_id": "north_east",
+      "id": "batallia-eldieme3-8",
+      "decision": "accept",
+      "reason": "Matching printed entrance and native floor16 geometry establish the pair; isolated pieces stay distinct. Accept with throat, badge and focus corrections.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/batallia.png",
+          "detail": "Printed 8 on the map2 overlay corresponds to a real native floor16 passage. Native floor14 (eldieme1-original.png) has only the tiny apparatus spur and cannot supply this exit."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/eldieme3.png",
+          "detail": "Printed 8 on the map2 overlay corresponds to a real native floor16 passage. Native floor14 (eldieme1-original.png) has only the tiny apparatus spur and cannot supply this exit."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/eldieme3-original.png",
+          "detail": "Printed 8 on the map2 overlay corresponds to a real native floor16 passage. Native floor14 (eldieme1-original.png) has only the tiny apparatus spur and cannot supply this exit."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            139,
+            213
+          ],
+          "arrival": [
+            144,
+            220
+          ],
+          "badge": {
+            "at": [
+              139,
+              213
+            ],
+            "code": "8",
+            "printed": true
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            81,
+            297
+          ],
+          "arrival": [
+            72,
+            297
+          ],
+          "badge": {
+            "at": [
+              85,
+              297
+            ],
+            "code": "8",
+            "printed": true
+          },
+          "component": "west"
+        }
+      }
+    },
+    {
+      "job_id": "north_east",
+      "id": "ranguemont-beaucedine",
+      "decision": "accept",
+      "reason": "Reciprocal named zone boundaries establish this pair; corrected endpoints are tunnel/road throats rather than leader arrows.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/ranguemont.png",
+          "detail": "Ranguemont northeast tunnel terminates [385,137]; Glacier west road terminates [151,334]. Internal one-way doors in Ranguemont do not make this zone boundary one-way."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/ranguemont-original.png",
+          "detail": "Ranguemont northeast tunnel terminates [385,137]; Glacier west road terminates [151,334]. Internal one-way doors in Ranguemont do not make this zone boundary one-way."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/beaucedine.png",
+          "detail": "Ranguemont northeast tunnel terminates [385,137]; Glacier west road terminates [151,334]. Internal one-way doors in Ranguemont do not make this zone boundary one-way."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/beaucedine-original.png",
+          "detail": "Ranguemont northeast tunnel terminates [385,137]; Glacier west road terminates [151,334]. Internal one-way doors in Ranguemont do not make this zone boundary one-way."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            385,
+            137
+          ],
+          "arrival": [
+            375,
+            137
+          ],
+          "badge": {
+            "at": [
+              385,
+              137
+            ],
+            "code": null,
+            "printed": false
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            151,
+            334
+          ],
+          "arrival": [
+            163,
+            335
+          ],
+          "badge": {
+            "at": [
+              151,
+              334
+            ],
+            "code": null,
+            "printed": false
+          },
+          "component": "main"
+        }
+      }
+    },
+    {
+      "job_id": "north_east",
+      "id": "beaucedine-feiyin1",
+      "decision": "accept",
+      "reason": "Native Fei'Yin floor1 contains the south Beaucedine exit; special floor14 isolated spur and lower floor15 do not. Accept with actual approach coordinates.",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/beaucedine.png",
+          "detail": "Glacier northeast northbound road at [312,121] corresponds to floor1 southwest passage at [185,346]; candidate Glacier [317,96] is on destination arrow."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/beaucedine-original.png",
+          "detail": "Glacier northeast northbound road at [312,121] corresponds to floor1 southwest passage at [185,346]; candidate Glacier [317,96] is on destination arrow."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/feiyin1.png",
+          "detail": "Glacier northeast northbound road at [312,121] corresponds to floor1 southwest passage at [185,346]; candidate Glacier [317,96] is on destination arrow."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/feiyin1-original.png",
+          "detail": "Glacier northeast northbound road at [312,121] corresponds to floor1 southwest passage at [185,346]; candidate Glacier [317,96] is on destination arrow."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/feiyin2-original.png",
+          "detail": "Glacier northeast northbound road at [312,121] corresponds to floor1 southwest passage at [185,346]; candidate Glacier [317,96] is on destination arrow."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/feiyin3-original.png",
+          "detail": "Glacier northeast northbound road at [312,121] corresponds to floor1 southwest passage at [185,346]; candidate Glacier [317,96] is on destination arrow."
+        }
+      ],
+      "corrections": {
+        "a": {
+          "exit": [
+            312,
+            121
+          ],
+          "arrival": [
+            312,
+            132
+          ],
+          "badge": {
+            "at": [
+              312,
+              121
+            ],
+            "code": null,
+            "printed": false
+          },
+          "component": "main"
+        },
+        "b": {
+          "exit": [
+            185,
+            346
+          ],
+          "arrival": [
+            185,
+            336
+          ],
+          "badge": {
+            "at": [
+              185,
+              346
+            ],
+            "code": null,
+            "printed": false
+          },
+          "component": "main"
+        }
+      }
+    }
+  ],
+  "omissions": [
+    {
+      "job_id": "zulkheim",
+      "map": "ordelle1",
+      "label": "Individual internal transfers A,B,C,D,F",
+      "status": "unresolved",
+      "reason": "Final inventory reduced this map to the outside entrance. Preserve every visible letter/branch individually even when destination and direction remain unresolved; original independent inventory supplies approximate observations."
+    },
+    {
+      "job_id": "zulkheim",
+      "map": "ordelle2",
+      "label": "Individual internal transfers E,F",
+      "status": "unresolved",
+      "reason": "Visible internal endpoints omitted from final worker inventory; generic unresolved sentence does not enumerate them."
+    },
+    {
+      "job_id": "zulkheim",
+      "map": "ordelle4",
+      "label": "Individual internal transfers A-E and two southern holes",
+      "status": "unresolved",
+      "reason": "Letter markers and holes need individual inventory rows and one-way drop research. Do not create reversible matches solely from letters."
+    },
+    {
+      "job_id": "zulkheim",
+      "map": "ordelle3",
+      "label": "Native apparatus-spur access",
+      "status": "unresolved",
+      "reason": "Only tiny floor14 native branch belongs here; full overlay upper network belongs floor15/ordelle4."
+    },
+    {
+      "job_id": "north_east",
+      "map": "eldieme1",
+      "label": "Native apparatus-spur access",
+      "status": "unresolved",
+      "reason": "Tiny native floor14 spur has no established connection; large map2 overlay cannot assign its exits."
+    },
+    {
+      "job_id": "north_east",
+      "map": "eldieme2",
+      "label": "A-D pits and F stair",
+      "status": "unresolved",
+      "reason": "Final inventory uses one aggregate row; enumerate individual physical endpoints. Pit direction and floor landing cannot be inferred from letter alone."
+    },
+    {
+      "job_id": "north_east",
+      "map": "eldieme3",
+      "label": "A-D lower landings and E passage",
+      "status": "unresolved",
+      "reason": "Outside barrow candidates are now supported, but internal lettered endpoints are missing from individual inventory; keep unresolved pending floor/direction evidence."
+    },
+    {
+      "job_id": "north_east",
+      "map": "eldieme4",
+      "label": "E,F internal transfers",
+      "status": "unresolved",
+      "reason": "Both present but destination and direction remain unresolved. NativeMap3 supports existence, not pair or reversibility."
+    },
+    {
+      "job_id": "north_east",
+      "map": "feiyin1",
+      "label": "A,B floor transfers and Qu'Bia exit",
+      "status": "unresolved",
+      "reason": "A/B letter positions and explicitly exit-only Qu'Bia return are visible separately from Qu'Bia entrance. Inventory must retain them."
+    },
+    {
+      "job_id": "north_east",
+      "map": "feiyin2",
+      "label": "Native apparatus-spur access",
+      "status": "unresolved",
+      "reason": "Only tiny native floor14 spur; no other overlaid exits assigned here."
+    },
+    {
+      "job_id": "north_east",
+      "map": "feiyin3",
+      "label": "A,B transfers",
+      "status": "unresolved",
+      "reason": "Lower nativefloor15 shows corresponding letters but direction and exact pairing remain unreviewed."
+    },
+    {
+      "job_id": "north_east",
+      "map": "landing1",
+      "label": "Two Jugner approaches plus Central and South docks",
+      "status": "unresolved",
+      "reason": "Final worker correctly withdrew guessed pairs. Original map shows a southbound Jugner arrow around [188,337] and separate westbound Jugner arrow near [245,380]; neither pairs with NM-marker coordinates [243,310]/[294,309]. Two approaches and docks require distinct inventory and component records."
+    },
+    {
+      "job_id": "north_east",
+      "map": "landing2",
+      "label": "North Landing dock",
+      "status": "outside_pilot",
+      "reason": "Transport endpoint visible; landing1/landing2 are disconnected land/dock areas, not a presumed direct walking floor transfer."
+    },
+    {
+      "job_id": "north_east",
+      "map": "ranguemont",
+      "label": "Internal enter-only and exit-only doors",
+      "status": "unresolved",
+      "reason": "Artwork labels two directional internal doors; do not convert each into an undirected passage. They are same-floor constraints."
+    },
+    {
+      "job_id": "north_east",
+      "map": "jugner",
+      "label": "King Ranperre's Tomb enclosed arrival",
+      "status": "seed_review_required",
+      "reason": "Horizon explicitly identifies exit-only from Tomb into Jugner. Seed-backed deferral does not independently verify direction or enclosed component; keep tomb_access distinct."
+    },
+    {
+      "job_id": "north_east",
+      "map": "monastic",
+      "label": "Escape to Jugner",
+      "status": "transport_only",
+      "reason": "Horizon source means Escape spell destination, not a missing physical Monastic walking exit."
+    },
+    {
+      "job_id": "zulkheim",
+      "map": "latheine",
+      "label": "Holla portal symbols",
+      "status": "outside_pilot",
+      "reason": "Crag has apparent telepoint/portal symbols. If inventory includes transport and portals, retain as outside-pilot unresolved connections rather than silently treating icons as ordinary exits."
+    },
+    {
+      "job_id": "zulkheim",
+      "map": "konschtat",
+      "label": "Dem portal symbols",
+      "status": "outside_pilot",
+      "reason": "Crag telepoint/portal-like symbols need separate transport inventory if that is in scope; no walking pair inferred."
+    }
+  ],
+  "findings": [
+    {
+      "id": "review-scope",
+      "severity": "info",
+      "detail": "All23 current pilot maps inspected; initial20 independent inventory was completed before reading candidates. Added native/original packets resolved special-floor artwork reuse. Reviewed all25 final candidates, six Zulkheim plus19 north_east. Every acceptance requires its supplied corrections."
+    },
+    {
+      "id": "verification-level",
+      "severity": "info",
+      "detail": "Accept means endpoints/topology are supported by inspected artwork and cited Horizon-compatible connection evidence. No live game was running, no coordinates were traversal-tested, and traversal_verified remains false. Corrected coordinates are map-annotation focus estimates, not measured game trigger coordinates."
+    },
+    {
+      "id": "revision-loop-wrong-floors",
+      "severity": "high",
+      "detail": "Initial Zulkheim LaTheine2 -> ordelle3/floor14 was wrong because that native floor is the apparatus spur. Revised candidate retargets ordelle4/floor15, which original geometry corroborates. Eldieme floor14 and FeiYin floor14 likewise cannot inherit large replacement-overlay exits."
+    },
+    {
+      "id": "revision-loop-guessed-landing",
+      "severity": "high",
+      "detail": "Initial Jugner-to-Landing candidates used NM-overlay positions as destination mouths and assumed pairings not established by artwork. They were removed before final hash. Preserve the two routes as unresolved, not rejected physical exits."
+    },
+    {
+      "id": "revision-loop-west-duplicate",
+      "severity": "high",
+      "detail": "Initial latheine-west-ronfaure candidate duplicated an existing seed route and used suspicious endpoint locations. Worker removed it; deferred seed route remains outside this final candidate review."
+    },
+    {
+      "id": "coordinates-vs-printed",
+      "severity": "high",
+      "detail": "Many candidate coordinates pointed to destination title text, leader arrowheads or blank map. Final decisions move physical endpoints to road/tunnel mouths and preserve distinct visible glyph coordinates for printed codes."
+    },
+    {
+      "id": "inventory-stale",
+      "severity": "high",
+      "detail": "Worker inventory is not fully corrected by passage corrections: Zulkheim LaTheine Map2 still hints ordelle3 instead of ordelle4; north_east Batallia7 inventory is at [185,290] instead of actual [184,177]; many boundary inventory rows remain on arrows. Apply reviewed endpoint corrections to any displayed inventory or keep inventory audit-only."
+    },
+    {
+      "id": "disconnected-components",
+      "severity": "high",
+      "detail": "Acceptances preserve Monastic north/central/east, Eldieme3 main/northwest/west/southwest, Batallia main/northwest/island and Landing2 north_landing components. Do not collapse components merely because map keys match."
+    },
+    {
+      "id": "outside-pilot-boundaries",
+      "severity": "info",
+      "detail": "Worker unresolved entries retain Gustav, Lufaise, Pashhow, Gusgen, Gustaberg, ferry, Jeuno, Rolanberry, Xarcabard, PsoXja six entries, QuBia and Cloister. Outside-pilot status is not evidence that an exit is invalid."
+    }
+  ]
+}

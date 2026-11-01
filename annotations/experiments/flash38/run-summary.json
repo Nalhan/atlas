@@ -1,0 +1,17 @@
+[
+  {
+    "job": "north_east",
+    "exit_code": 0,
+    "status": "SUCCESS",
+    "elapsed_seconds": 102.94,
+    "structured_output": true,
+    "usage": {
+      "input_tokens": 138394,
+      "output_tokens": 35183,
+      "thinking_tokens": 24325,
+      "cache_read_tokens": 1827332,
+      "total_tokens": 173577
+    },
+    "error": null
+  }
+]

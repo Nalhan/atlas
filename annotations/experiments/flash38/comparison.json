@@ -1,0 +1,948 @@
+{
+  "model_requested": "gemini-3.8-flash-medium",
+  "reference": "artwork-reviewed estimates, not live measured ground truth",
+  "caveat": "Updated native-floor metadata and originals differ from earlier Luna inputs; not a controlled model-only comparison.",
+  "jobs": [
+    {
+      "job": "zulkheim",
+      "proposed": 12,
+      "reference_passages": 6,
+      "paired_map_matches": 6,
+      "both_exits_within_12px": 4,
+      "both_badges_within_12px": 4,
+      "direction_matches": 6,
+      "badge_code_matches": 6,
+      "mean_exit_error_pixels": 8.11,
+      "missing_reference": [],
+      "unmatched_proposals": [
+        "ordelle1_ordelle4_A",
+        "ordelle1_ordelle4_B",
+        "ordelle1_ordelle4_C",
+        "ordelle1_ordelle4_D",
+        "ordelle2_ordelle4_E",
+        "ordelle1_ordelle2_F"
+      ],
+      "invalid": [
+        {
+          "id": "ordelle1_ordelle2_F",
+          "error": "ordelle1_ordelle2_F/a: focus too far from exit"
+        }
+      ],
+      "inventory_maps": 8,
+      "unresolved": 7,
+      "limitations": [
+        "Ordelle's Caves apparatus map (ordelle3) replacement artwork reuses the full floor 15 layout, but native floor geometry (ordelle3-original.png) is strictly the isolated apparatus room; exits on ordelle3 were suppressed per native floor identity instructions.",
+        "Off-bundle connections to Gustav Tunnel, Lufaise Meadows, Pashhow Marshlands, North Gustaberg, Gusgen Mines, and the Selbina ferry were recorded under unresolved."
+      ],
+      "claimed_inspected_images": [
+        "packets/ordelle1.png",
+        "packets/ordelle1-original.png",
+        "packets/ordelle2.png",
+        "packets/ordelle2-original.png",
+        "packets/ordelle3.png",
+        "packets/ordelle3-original.png",
+        "packets/ordelle4.png",
+        "packets/ordelle4-original.png",
+        "packets/latheine.png",
+        "packets/latheine-original.png",
+        "packets/valkurm.png",
+        "packets/valkurm-original.png",
+        "packets/konschtat.png",
+        "packets/konschtat-original.png",
+        "packets/selbina.png",
+        "packets/selbina-original.png"
+      ],
+      "trace_image_tool_requests": 16,
+      "trace_tool_names": [
+        "read_file",
+        "run_command"
+      ],
+      "reference_access_flags": [],
+      "usage": {
+        "input_tokens": 80839,
+        "output_tokens": 14327,
+        "thinking_tokens": 8569,
+        "cache_read_tokens": 431865,
+        "total_tokens": 95166
+      },
+      "novel_review": {
+        "status": "reviewed",
+        "reviewer": "root-independent",
+        "path": "reviews/zulkheim_novel.json",
+        "accept": 5,
+        "reject": 0,
+        "needs_work": 1,
+        "corrected": 5,
+        "pending": 0,
+        "publication": "Separate trial review; requires explicit import and fresh main-pipeline review before publication."
+      }
+    },
+    {
+      "job": "north_east",
+      "proposed": 21,
+      "reference_passages": 19,
+      "paired_map_matches": 19,
+      "both_exits_within_12px": 16,
+      "both_badges_within_12px": 10,
+      "direction_matches": 19,
+      "badge_code_matches": 19,
+      "mean_exit_error_pixels": 6.63,
+      "missing_reference": [],
+      "unmatched_proposals": [
+        "jugner_landing1_1",
+        "jugner_landing1_2"
+      ],
+      "invalid": [],
+      "inventory_maps": 15,
+      "unresolved": 14,
+      "limitations": [
+        "Direct command execution was restricted by sandbox policy; all positions and annotations are determined through image inspection via read_file and normalized to 512x512 reference coordinates.",
+        "Apparatus maps eldieme1 and feiyin2 reuse full-map artwork overlays but contain no native exits based on original geometry."
+      ],
+      "claimed_inspected_images": [
+        "packets/jugner.png",
+        "packets/jugner-original.png",
+        "packets/batallia.png",
+        "packets/batallia-original.png",
+        "packets/davoi.png",
+        "packets/davoi-original.png",
+        "packets/monastic.png",
+        "packets/monastic-original.png",
+        "packets/eldieme1.png",
+        "packets/eldieme1-original.png",
+        "packets/eldieme2.png",
+        "packets/eldieme2-original.png",
+        "packets/eldieme3.png",
+        "packets/eldieme3-original.png",
+        "packets/eldieme4.png",
+        "packets/eldieme4-original.png",
+        "packets/landing1.png",
+        "packets/landing1-original.png",
+        "packets/landing2.png",
+        "packets/landing2-original.png",
+        "packets/ranguemont.png",
+        "packets/ranguemont-original.png",
+        "packets/beaucedine.png",
+        "packets/beaucedine-original.png",
+        "packets/feiyin1.png",
+        "packets/feiyin1-original.png",
+        "packets/feiyin2.png",
+        "packets/feiyin2-original.png",
+        "packets/feiyin3.png",
+        "packets/feiyin3-original.png",
+        "packets/north.png",
+        "packets/north-original.png",
+        "packets/east.png",
+        "packets/east-original.png",
+        "packets/tomb1.png",
+        "packets/tomb1-original.png",
+        "packets/latheine.png",
+        "packets/latheine-original.png",
+        "packets/west.png",
+        "packets/west-original.png"
+      ],
+      "trace_image_tool_requests": 40,
+      "trace_tool_names": [
+        "read_file",
+        "run_command"
+      ],
+      "reference_access_flags": [],
+      "usage": {
+        "input_tokens": 138394,
+        "output_tokens": 35183,
+        "thinking_tokens": 24325,
+        "cache_read_tokens": 1827332,
+        "total_tokens": 173577
+      },
+      "novel_review": {
+        "status": "reviewed",
+        "reviewer": "root-independent",
+        "path": "reviews/north_east_novel.json",
+        "accept": 0,
+        "reject": 0,
+        "needs_work": 2,
+        "corrected": 0,
+        "pending": 0,
+        "publication": "Separate trial review; requires explicit import and fresh main-pipeline review before publication."
+      }
+    }
+  ],
+  "matches": [
+    {
+      "job": "zulkheim",
+      "proposed_id": "latheine_valkurm",
+      "reference_id": "latheine-valkurm",
+      "exit_error_pixels": [
+        18.03,
+        8.94
+      ],
+      "badge_error_pixels": [
+        18.03,
+        8.94
+      ],
+      "focus_error_pixels": [
+        26.17,
+        7.21
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": false,
+      "both_badges_within_12px": false,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "main"
+        ],
+        "reference": [
+          "main",
+          "main"
+        ]
+      }
+    },
+    {
+      "job": "zulkheim",
+      "proposed_id": "valkurm_konschtat",
+      "reference_id": "valkurm-konschtat",
+      "exit_error_pixels": [
+        11.05,
+        5.0
+      ],
+      "badge_error_pixels": [
+        11.05,
+        5.0
+      ],
+      "focus_error_pixels": [
+        10.2,
+        6.08
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": true,
+      "both_badges_within_12px": true,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "main"
+        ],
+        "reference": [
+          "main",
+          "main"
+        ]
+      }
+    },
+    {
+      "job": "zulkheim",
+      "proposed_id": "valkurm_selbina",
+      "reference_id": "valkurm-selbina",
+      "exit_error_pixels": [
+        14.21,
+        9.06
+      ],
+      "badge_error_pixels": [
+        14.21,
+        9.06
+      ],
+      "focus_error_pixels": [
+        13.45,
+        8.06
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": false,
+      "both_badges_within_12px": false,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "main"
+        ],
+        "reference": [
+          "main",
+          "main"
+        ]
+      }
+    },
+    {
+      "job": "zulkheim",
+      "proposed_id": "latheine_ordelle1_entrance1",
+      "reference_id": "latheine-ordelle1",
+      "exit_error_pixels": [
+        11.05,
+        2.24
+      ],
+      "badge_error_pixels": [
+        5.0,
+        1.41
+      ],
+      "focus_error_pixels": [
+        17.03,
+        6.71
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": true,
+      "both_badges_within_12px": true,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "north_section"
+        ],
+        "reference": [
+          "main",
+          "main"
+        ]
+      }
+    },
+    {
+      "job": "zulkheim",
+      "proposed_id": "latheine_ordelle4_entrance2",
+      "reference_id": "latheine-ordelle4",
+      "exit_error_pixels": [
+        3.61,
+        8.06
+      ],
+      "badge_error_pixels": [
+        2.0,
+        2.24
+      ],
+      "focus_error_pixels": [
+        7.07,
+        9.22
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": true,
+      "both_badges_within_12px": true,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "upper_main"
+        ],
+        "reference": [
+          "main",
+          "main"
+        ]
+      }
+    },
+    {
+      "job": "zulkheim",
+      "proposed_id": "latheine_ordelle2_entrance3",
+      "reference_id": "latheine-ordelle2",
+      "exit_error_pixels": [
+        1.0,
+        5.1
+      ],
+      "badge_error_pixels": [
+        5.0,
+        1.41
+      ],
+      "focus_error_pixels": [
+        4.47,
+        6.4
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": true,
+      "both_badges_within_12px": true,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "southern_main"
+        ],
+        "reference": [
+          "main",
+          "main"
+        ]
+      }
+    },
+    {
+      "job": "north_east",
+      "proposed_id": "batallia_jugner",
+      "reference_id": "jugner-batallia",
+      "exit_error_pixels": [
+        1.41,
+        5.0
+      ],
+      "badge_error_pixels": [
+        29.02,
+        15.52
+      ],
+      "focus_error_pixels": [
+        1.41,
+        10.77
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": true,
+      "both_badges_within_12px": false,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "main"
+        ],
+        "reference": [
+          "main",
+          "main"
+        ]
+      }
+    },
+    {
+      "job": "north_east",
+      "proposed_id": "jugner_davoi",
+      "reference_id": "jugner-davoi",
+      "exit_error_pixels": [
+        6.08,
+        2.0
+      ],
+      "badge_error_pixels": [
+        26.02,
+        30.07
+      ],
+      "focus_error_pixels": [
+        6.08,
+        2.0
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": true,
+      "both_badges_within_12px": false,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "main"
+        ],
+        "reference": [
+          "main",
+          "main"
+        ]
+      }
+    },
+    {
+      "job": "north_east",
+      "proposed_id": "davoi_monastic_1",
+      "reference_id": "davoi-monastic-1",
+      "exit_error_pixels": [
+        1.41,
+        4.12
+      ],
+      "badge_error_pixels": [
+        1.0,
+        3.61
+      ],
+      "focus_error_pixels": [
+        19.0,
+        6.71
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": true,
+      "both_badges_within_12px": true,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "c1"
+        ],
+        "reference": [
+          "main",
+          "north"
+        ]
+      }
+    },
+    {
+      "job": "north_east",
+      "proposed_id": "davoi_monastic_2",
+      "reference_id": "davoi-monastic-2",
+      "exit_error_pixels": [
+        5.0,
+        5.1
+      ],
+      "badge_error_pixels": [
+        3.0,
+        6.4
+      ],
+      "focus_error_pixels": [
+        5.83,
+        16.0
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": true,
+      "both_badges_within_12px": true,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "c2"
+        ],
+        "reference": [
+          "main",
+          "central"
+        ]
+      }
+    },
+    {
+      "job": "north_east",
+      "proposed_id": "davoi_monastic_3",
+      "reference_id": "davoi-monastic-3",
+      "exit_error_pixels": [
+        1.0,
+        1.41
+      ],
+      "badge_error_pixels": [
+        1.0,
+        0.0
+      ],
+      "focus_error_pixels": [
+        18.0,
+        2.24
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": true,
+      "both_badges_within_12px": true,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "c3"
+        ],
+        "reference": [
+          "main",
+          "central"
+        ]
+      }
+    },
+    {
+      "job": "north_east",
+      "proposed_id": "davoi_monastic_4",
+      "reference_id": "davoi-monastic-4",
+      "exit_error_pixels": [
+        1.41,
+        2.83
+      ],
+      "badge_error_pixels": [
+        1.41,
+        2.24
+      ],
+      "focus_error_pixels": [
+        14.21,
+        5.39
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": true,
+      "both_badges_within_12px": true,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "c2"
+        ],
+        "reference": [
+          "main",
+          "central"
+        ]
+      }
+    },
+    {
+      "job": "north_east",
+      "proposed_id": "davoi_monastic_5",
+      "reference_id": "davoi-monastic-5",
+      "exit_error_pixels": [
+        4.12,
+        5.0
+      ],
+      "badge_error_pixels": [
+        4.12,
+        4.12
+      ],
+      "focus_error_pixels": [
+        23.02,
+        6.08
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": true,
+      "both_badges_within_12px": true,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "c4"
+        ],
+        "reference": [
+          "main",
+          "east"
+        ]
+      }
+    },
+    {
+      "job": "north_east",
+      "proposed_id": "batallia_eldieme_1",
+      "reference_id": "batallia-eldieme-1",
+      "exit_error_pixels": [
+        1.41,
+        3.61
+      ],
+      "badge_error_pixels": [
+        1.41,
+        4.24
+      ],
+      "focus_error_pixels": [
+        5.1,
+        4.24
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": true,
+      "both_badges_within_12px": true,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "main"
+        ],
+        "reference": [
+          "main",
+          "main"
+        ]
+      }
+    },
+    {
+      "job": "north_east",
+      "proposed_id": "batallia_eldieme_2",
+      "reference_id": "batallia-eldieme3-2",
+      "exit_error_pixels": [
+        3.0,
+        50.16
+      ],
+      "badge_error_pixels": [
+        3.0,
+        50.0
+      ],
+      "focus_error_pixels": [
+        14.0,
+        50.16
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": false,
+      "both_badges_within_12px": false,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "main"
+        ],
+        "reference": [
+          "main",
+          "main"
+        ]
+      }
+    },
+    {
+      "job": "north_east",
+      "proposed_id": "batallia_eldieme_3",
+      "reference_id": "batallia-eldieme3-3",
+      "exit_error_pixels": [
+        1.41,
+        11.4
+      ],
+      "badge_error_pixels": [
+        1.41,
+        14.32
+      ],
+      "focus_error_pixels": [
+        16.03,
+        7.62
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": true,
+      "both_badges_within_12px": false,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "main"
+        ],
+        "reference": [
+          "main",
+          "main"
+        ]
+      }
+    },
+    {
+      "job": "north_east",
+      "proposed_id": "batallia_eldieme_4",
+      "reference_id": "batallia-eldieme3-4",
+      "exit_error_pixels": [
+        2.83,
+        12.0
+      ],
+      "badge_error_pixels": [
+        2.83,
+        4.0
+      ],
+      "focus_error_pixels": [
+        18.11,
+        12.0
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": true,
+      "both_badges_within_12px": true,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "south_crypt"
+        ],
+        "reference": [
+          "main",
+          "southwest"
+        ]
+      }
+    },
+    {
+      "job": "north_east",
+      "proposed_id": "batallia_eldieme_5",
+      "reference_id": "batallia-eldieme3-5",
+      "exit_error_pixels": [
+        1.0,
+        10.05
+      ],
+      "badge_error_pixels": [
+        1.0,
+        3.16
+      ],
+      "focus_error_pixels": [
+        17.03,
+        10.05
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": true,
+      "both_badges_within_12px": true,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "main"
+        ],
+        "reference": [
+          "main",
+          "main"
+        ]
+      }
+    },
+    {
+      "job": "north_east",
+      "proposed_id": "batallia_eldieme_7",
+      "reference_id": "batallia-eldieme3-7",
+      "exit_error_pixels": [
+        3.0,
+        11.31
+      ],
+      "badge_error_pixels": [
+        3.0,
+        5.0
+      ],
+      "focus_error_pixels": [
+        3.61,
+        10.0
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": true,
+      "both_badges_within_12px": true,
+      "component_labels": {
+        "proposed": [
+          "north_mesa",
+          "north_crypt"
+        ],
+        "reference": [
+          "northwest",
+          "northwest"
+        ]
+      }
+    },
+    {
+      "job": "north_east",
+      "proposed_id": "batallia_eldieme_8",
+      "reference_id": "batallia-eldieme3-8",
+      "exit_error_pixels": [
+        3.16,
+        36.14
+      ],
+      "badge_error_pixels": [
+        3.16,
+        36.14
+      ],
+      "focus_error_pixels": [
+        6.32,
+        35.17
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": false,
+      "both_badges_within_12px": false,
+      "component_labels": {
+        "proposed": [
+          "west_mesa",
+          "west_crypt"
+        ],
+        "reference": [
+          "main",
+          "west"
+        ]
+      }
+    },
+    {
+      "job": "north_east",
+      "proposed_id": "batallia_eldieme_6",
+      "reference_id": "batallia-eldieme-6",
+      "exit_error_pixels": [
+        7.07,
+        5.1
+      ],
+      "badge_error_pixels": [
+        7.07,
+        1.41
+      ],
+      "focus_error_pixels": [
+        11.05,
+        11.18
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": true,
+      "both_badges_within_12px": true,
+      "component_labels": {
+        "proposed": [
+          "island",
+          "main"
+        ],
+        "reference": [
+          "island",
+          "main"
+        ]
+      }
+    },
+    {
+      "job": "north_east",
+      "proposed_id": "batallia_beaucedine",
+      "reference_id": "batallia-beaucedine",
+      "exit_error_pixels": [
+        1.0,
+        8.06
+      ],
+      "badge_error_pixels": [
+        19.0,
+        28.02
+      ],
+      "focus_error_pixels": [
+        0.0,
+        8.06
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": true,
+      "both_badges_within_12px": false,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "main"
+        ],
+        "reference": [
+          "northwest",
+          "main"
+        ]
+      }
+    },
+    {
+      "job": "north_east",
+      "proposed_id": "beaucedine_ranguemont",
+      "reference_id": "ranguemont-beaucedine",
+      "exit_error_pixels": [
+        5.1,
+        6.4
+      ],
+      "badge_error_pixels": [
+        19.65,
+        31.26
+      ],
+      "focus_error_pixels": [
+        5.1,
+        8.6
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": true,
+      "both_badges_within_12px": false,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "main"
+        ],
+        "reference": [
+          "main",
+          "main"
+        ]
+      }
+    },
+    {
+      "job": "north_east",
+      "proposed_id": "beaucedine_feiyin",
+      "reference_id": "beaucedine-feiyin1",
+      "exit_error_pixels": [
+        4.12,
+        14.04
+      ],
+      "badge_error_pixels": [
+        21.38,
+        34.01
+      ],
+      "focus_error_pixels": [
+        4.47,
+        14.04
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": false,
+      "both_badges_within_12px": false,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "main"
+        ],
+        "reference": [
+          "main",
+          "main"
+        ]
+      }
+    },
+    {
+      "job": "north_east",
+      "proposed_id": "landing2_north",
+      "reference_id": "north-carpenters-landing",
+      "exit_error_pixels": [
+        2.83,
+        2.0
+      ],
+      "badge_error_pixels": [
+        42.8,
+        32.0
+      ],
+      "focus_error_pixels": [
+        7.62,
+        3.0
+      ],
+      "direction_matches": true,
+      "badge_codes_match": true,
+      "both_exits_within_12px": true,
+      "both_badges_within_12px": false,
+      "component_labels": {
+        "proposed": [
+          "main",
+          "main"
+        ],
+        "reference": [
+          "main",
+          "north_landing"
+        ]
+      }
+    }
+  ],
+  "runtime_data_changed": false
+}

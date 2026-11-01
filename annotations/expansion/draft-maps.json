@@ -1,0 +1,3766 @@
+{
+  "maps": [
+    {
+      "key": "meriphataud_mountains",
+      "zone": 119,
+      "floor": 0,
+      "index": 17,
+      "dat": 5332,
+      "name": "Meriphataud Mountains",
+      "region": "aragoneu",
+      "transform": {
+        "scale": 1,
+        "offset_x": -224,
+        "offset_y": -256
+      },
+      "tab": "Meriphataud Mountains",
+      "artwork_sha256": "a6c935e62ae011e37064135171aac0f4dc349d9cd14b2d12c2e7e12058d8aa5a",
+      "wiki_map": 140,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "sauromugue_champaign",
+      "zone": 120,
+      "floor": 0,
+      "index": 18,
+      "dat": 5333,
+      "name": "Sauromugue Champaign",
+      "region": "aragoneu",
+      "transform": {
+        "scale": 1,
+        "offset_x": -264,
+        "offset_y": -256
+      },
+      "tab": "Sauromugue Champaign",
+      "artwork_sha256": "a916e24487af39d2b64393516910c9c269d9c9123504326ed5fb1b56a7a4d39a",
+      "wiki_map": 50,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "castle_oztroja_f1",
+      "zone": 151,
+      "floor": 1,
+      "index": 38,
+      "dat": 5358,
+      "name": "Castle Oztroja / Map 1",
+      "region": "aragoneu",
+      "transform": {
+        "scale": 2,
+        "offset_x": -288,
+        "offset_y": -256
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "2c57648cc8b9aa0eb22162ac5f4e3715d460a0533395ab7fb731ee9908346ffd",
+      "wiki_map": 88,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "castle_oztroja_f2",
+      "zone": 151,
+      "floor": 2,
+      "index": 39,
+      "dat": 5359,
+      "name": "Castle Oztroja / Map 2",
+      "region": "aragoneu",
+      "transform": {
+        "scale": 2,
+        "offset_x": -288,
+        "offset_y": -256
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "b5612ac8af0edc833d699272ed17ab3622a6d6c1617aef799a89b6b73c01902e",
+      "wiki_map": 89,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "castle_oztroja_f3",
+      "zone": 151,
+      "floor": 3,
+      "index": 40,
+      "dat": 5360,
+      "name": "Castle Oztroja / Map 3",
+      "region": "aragoneu",
+      "transform": {
+        "scale": 2,
+        "offset_x": -288,
+        "offset_y": -256
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "0ced0fd1d1c3276056ee0c732dfb3e0637950ce168a6ddb708dc936673666ac6",
+      "wiki_map": 90,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "castle_oztroja_f5",
+      "zone": 151,
+      "floor": 5,
+      "index": 42,
+      "dat": 5468,
+      "name": "Castle Oztroja / Map 5",
+      "region": "aragoneu",
+      "transform": {
+        "scale": 2,
+        "offset_x": -240,
+        "offset_y": -192
+      },
+      "tab": "Map 5",
+      "artwork_sha256": "fe5f2db69fc7d71a6cfc4f5a2c1140879c070d6756b268bbf34338fa46215008",
+      "wiki_map": 92,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "castle_oztroja_f15",
+      "zone": 151,
+      "floor": 15,
+      "index": 37,
+      "dat": 5357,
+      "name": "Castle Oztroja / Map 7",
+      "region": "aragoneu",
+      "transform": {
+        "scale": 2,
+        "offset_x": -288,
+        "offset_y": -256
+      },
+      "tab": "Map 7",
+      "artwork_sha256": "bb8f5c45b67cc3043fbc04b19ea8538d53f3c9183c5fb3d4f9fd204c84acf492",
+      "wiki_map": 94,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "altar_room",
+      "zone": 152,
+      "floor": 0,
+      "index": 44,
+      "dat": 5361,
+      "name": "Altar Room",
+      "region": "aragoneu",
+      "transform": {
+        "scale": 2,
+        "offset_x": -368,
+        "offset_y": -272
+      },
+      "tab": "Altar Room",
+      "artwork_sha256": "91032031a3fe91d7735c5652bb634a301f1272c52864e9513677cda97c3aa99e",
+      "wiki_map": 69,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "garlaige_citadel_f1",
+      "zone": 200,
+      "floor": 1,
+      "index": 112,
+      "dat": 5459,
+      "name": "Garlaige Citadel / Map 1",
+      "region": "aragoneu",
+      "transform": {
+        "scale": 2,
+        "offset_x": -368,
+        "offset_y": -368
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "70bebabd3df6b5a204270fa339d445689103bc513246a1282e31fa444b540080",
+      "wiki_map": 111,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "garlaige_citadel_f2",
+      "zone": 200,
+      "floor": 2,
+      "index": 113,
+      "dat": 5460,
+      "name": "Garlaige Citadel / Map 2",
+      "region": "aragoneu",
+      "transform": {
+        "scale": 2,
+        "offset_x": -288,
+        "offset_y": -336
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "2b46894e0d7daecd3fe3d9ce1e336c918f8d75f89b0ef38990b67babaf360150",
+      "wiki_map": 112,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "garlaige_citadel_f3",
+      "zone": 200,
+      "floor": 3,
+      "index": 114,
+      "dat": 5461,
+      "name": "Garlaige Citadel / Map 3",
+      "region": "aragoneu",
+      "transform": {
+        "scale": 2,
+        "offset_x": -240,
+        "offset_y": -272
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "6c8e9cc42f6b119dcf2a6766635cae829716ab92e10f788e38e9eb890b7cd00d",
+      "wiki_map": 113,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "garlaige_citadel_f16",
+      "zone": 200,
+      "floor": 16,
+      "index": 116,
+      "dat": 5451,
+      "name": "Garlaige Citadel / Map 4",
+      "region": "aragoneu",
+      "transform": {
+        "scale": 2,
+        "offset_x": -352,
+        "offset_y": -336
+      },
+      "tab": "Map 4",
+      "artwork_sha256": "107b96715f7d543b83df52825157e988a0892eccaf777a730567cf766339c0a0",
+      "wiki_map": 114,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "pashhow_marshlands",
+      "zone": 109,
+      "floor": 0,
+      "index": 9,
+      "dat": 5322,
+      "name": "Pashhow Marshlands",
+      "region": "derfland",
+      "transform": {
+        "scale": 1,
+        "offset_x": -256,
+        "offset_y": -264
+      },
+      "tab": "Pashhow Marshlands",
+      "artwork_sha256": "8070d9e20583f9aa79a89b417c3381b5130010b860de6940dfd886b5287dc2d1",
+      "wiki_map": 147,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "rolanberry_fields",
+      "zone": 110,
+      "floor": 0,
+      "index": 10,
+      "dat": 5323,
+      "name": "Rolanberry Fields",
+      "region": "derfland",
+      "transform": {
+        "scale": 1,
+        "offset_x": -280,
+        "offset_y": -264
+      },
+      "tab": "Rolanberry Fields",
+      "artwork_sha256": "fbc8845da30aa7e60cff98f04770b0b9ea1f8703d1ef758bd4066944224835eb",
+      "wiki_map": 48,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "beadeaux_f1",
+      "zone": 147,
+      "floor": 1,
+      "index": 31,
+      "dat": 5351,
+      "name": "Beadeaux / Map 1",
+      "region": "derfland",
+      "transform": {
+        "scale": 2,
+        "offset_x": -272,
+        "offset_y": -256
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "35860e6ab9a0277d061efcc653e637cf793dd001f871870261b5d4d864d89289",
+      "wiki_map": 79,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "beadeaux_f15",
+      "zone": 147,
+      "floor": 15,
+      "index": 32,
+      "dat": 5352,
+      "name": "Beadeaux / Map 2",
+      "region": "derfland",
+      "transform": {
+        "scale": 2,
+        "offset_x": -272,
+        "offset_y": -256
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "2b8cdf421e5615cf4ba7d4e7ac91562e20052b160ed1ac352048b862c9123150",
+      "wiki_map": 80,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "qulun_dome",
+      "zone": 148,
+      "floor": 0,
+      "index": 34,
+      "dat": 5354,
+      "name": "Qulun Dome",
+      "region": "derfland",
+      "transform": {
+        "scale": 2,
+        "offset_x": -192,
+        "offset_y": -240
+      },
+      "tab": "Qulun Dome",
+      "artwork_sha256": "41d921263e31b98b3e639d57ff5bcc6f3550af857cac1a7161b5946c917b7b66",
+      "wiki_map": 152,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "crawlers_nest_f15",
+      "zone": 197,
+      "floor": 15,
+      "index": 106,
+      "dat": 5447,
+      "name": "Crawlers' Nest / Map 1",
+      "region": "derfland",
+      "transform": {
+        "scale": 2,
+        "offset_x": -256,
+        "offset_y": -248
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "baf673c93c9c0c1e25b92823ed2036b16731d4ef9a3e9d3e47e5dee38d844d85",
+      "wiki_map": 103,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "crawlers_nest_f16",
+      "zone": 197,
+      "floor": 16,
+      "index": 107,
+      "dat": 5448,
+      "name": "Crawlers' Nest / Map 2",
+      "region": "derfland",
+      "transform": {
+        "scale": 2,
+        "offset_x": -256,
+        "offset_y": -336
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "67af27102176bc524f83d228bbe6a9c01194479b332ee48c73456b41e9cd738e",
+      "wiki_map": 104,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "crawlers_nest_f17",
+      "zone": 197,
+      "floor": 17,
+      "index": 108,
+      "dat": 5528,
+      "name": "Crawlers' Nest / Map 3",
+      "region": "derfland",
+      "transform": {
+        "scale": 2,
+        "offset_x": -256,
+        "offset_y": -128
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "8b988ac066d50e27c5afbe7a91563418e90e3997cda6b0592ecb97f107840f6d",
+      "wiki_map": 105,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "ru_lude_gardens",
+      "zone": 243,
+      "floor": 0,
+      "index": 152,
+      "dat": 5492,
+      "name": "Ru'Lude Gardens",
+      "region": "derfland",
+      "transform": {
+        "scale": 4,
+        "offset_x": -256,
+        "offset_y": -256
+      },
+      "tab": "Ru'Lude Gardens",
+      "artwork_sha256": "a003ccefb53f69467d19e1194789531de9fcd0f5501f41438782f48cdf5029c7",
+      "wiki_map": 49,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "upper_jeuno",
+      "zone": 244,
+      "floor": 0,
+      "index": 153,
+      "dat": 5493,
+      "name": "Upper Jeuno",
+      "region": "derfland",
+      "transform": {
+        "scale": 4,
+        "offset_x": -272,
+        "offset_y": -304
+      },
+      "tab": "Upper Jeuno",
+      "artwork_sha256": "5a4517f8b0e57b2ba8967946baa9e355ab30a14a39337eaf938e01f1d1c776bf",
+      "wiki_map": 62,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "lower_jeuno",
+      "zone": 245,
+      "floor": 0,
+      "index": 154,
+      "dat": 5494,
+      "name": "Lower Jeuno",
+      "region": "derfland",
+      "transform": {
+        "scale": 4,
+        "offset_x": -288,
+        "offset_y": -208
+      },
+      "tab": "Lower Jeuno",
+      "artwork_sha256": "551feaad9feabd48781392656495ea3b4fb5bd1c11e7e54cb5b3489e2fab8126",
+      "wiki_map": 12,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "port_jeuno",
+      "zone": 246,
+      "floor": 0,
+      "index": 155,
+      "dat": 5495,
+      "name": "Port Jeuno",
+      "region": "derfland",
+      "transform": {
+        "scale": 4,
+        "offset_x": -304,
+        "offset_y": -256
+      },
+      "tab": "Port Jeuno",
+      "artwork_sha256": "9da6c5bcae13a6e01d28665bbd37a4cc76c245bac3472d5a05363a3c9e89687a",
+      "wiki_map": 24,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "yuhtunga_jungle",
+      "zone": 123,
+      "floor": 0,
+      "index": 162,
+      "dat": 5610,
+      "name": "Yuhtunga Jungle",
+      "region": "elshimo_lowlands",
+      "transform": {
+        "scale": 1,
+        "offset_x": -272,
+        "offset_y": -272
+      },
+      "tab": "Yuhtunga Jungle",
+      "artwork_sha256": "b33085a7e8c1736b4ff8f1e124161e19b4d6b394249221f2c8a2e90c484261c9",
+      "wiki_map": 211,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "sea_serpent_grotto_f1",
+      "zone": 176,
+      "floor": 1,
+      "index": 194,
+      "dat": 5643,
+      "name": "Sea Serpent Grotto / Map 1",
+      "region": "elshimo_lowlands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -240,
+        "offset_y": -376
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "05cfa9c77e56c1f55d40ceedbecdecdae6183ef24716dddcd466f80219527951",
+      "wiki_map": 156,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "sea_serpent_grotto_f2",
+      "zone": 176,
+      "floor": 2,
+      "index": 195,
+      "dat": 5644,
+      "name": "Sea Serpent Grotto / Map 2",
+      "region": "elshimo_lowlands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -16,
+        "offset_y": -272
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "f05c2ec0457a4675b67986a6e98d559fa5f81d9839bb701619d5e3967c82d103",
+      "wiki_map": 157,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "sea_serpent_grotto_f3",
+      "zone": 176,
+      "floor": 3,
+      "index": 196,
+      "dat": 5645,
+      "name": "Sea Serpent Grotto / Map 3",
+      "region": "elshimo_lowlands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -376,
+        "offset_y": -240
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "21ccd0417b6c3546aafcee292f038eb20171760b608cd5d2ab828a82558505ca",
+      "wiki_map": 158,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "sea_serpent_grotto_f4",
+      "zone": 176,
+      "floor": 4,
+      "index": 197,
+      "dat": 5646,
+      "name": "Sea Serpent Grotto / Map 4",
+      "region": "elshimo_lowlands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -368,
+        "offset_y": -80
+      },
+      "tab": "Map 4",
+      "artwork_sha256": "85bc593b1c8ba61dbdc21f494b41fcd8b7ee2f85ab3331523b0c1c5781e0bee2",
+      "wiki_map": 159,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "sea_serpent_grotto_f5",
+      "zone": 176,
+      "floor": 5,
+      "index": 198,
+      "dat": 5647,
+      "name": "Sea Serpent Grotto / Map 5",
+      "region": "elshimo_lowlands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -176,
+        "offset_y": -96
+      },
+      "tab": "Map 5",
+      "artwork_sha256": "ddf6d8b0f60e0b6230c83d51a5a8af4390d59bffeb87dd814b6e11ab9415c99a",
+      "wiki_map": 160,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "kazham",
+      "zone": 250,
+      "floor": 0,
+      "index": 235,
+      "dat": 5682,
+      "name": "Kazham",
+      "region": "elshimo_lowlands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -240,
+        "offset_y": -208
+      },
+      "tab": "Kazham",
+      "artwork_sha256": "2b96dd658304e83d32f38df6139856794c057449ec890ecfd6c08b51c601afbf",
+      "wiki_map": 291,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "norg",
+      "zone": 252,
+      "floor": 0,
+      "index": 237,
+      "dat": 5684,
+      "name": "Norg",
+      "region": "elshimo_lowlands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -272,
+        "offset_y": -256
+      },
+      "tab": "Norg",
+      "artwork_sha256": "fdebeb72a82718c87327194719eae89e9e7356a5b55734ee228c76f5fb0447e9",
+      "wiki_map": 21,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "yhoator_jungle",
+      "zone": 124,
+      "floor": 0,
+      "index": 163,
+      "dat": 5611,
+      "name": "Yhoator Jungle",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 1,
+        "offset_x": -256,
+        "offset_y": -248
+      },
+      "tab": "Yhoator Jungle",
+      "artwork_sha256": "ea19dc3e954c69cbf68fe88301f34d5c55d376cef8e48c44e449dad7ae54a589",
+      "wiki_map": 208,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "temple_of_uggalepih_f1",
+      "zone": 159,
+      "floor": 1,
+      "index": 172,
+      "dat": 5620,
+      "name": "Temple of Uggalepih / Map 1",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -144,
+        "offset_y": -240
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "ae8217142493cf5321636caaea65b5ef466caea661c81607dcf873c0eefe4600",
+      "wiki_map": 190,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "temple_of_uggalepih_f2",
+      "zone": 159,
+      "floor": 2,
+      "index": 173,
+      "dat": 5621,
+      "name": "Temple of Uggalepih / Map 2",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -336,
+        "offset_y": -240
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "9f645b64d5f56e401283293d3917db6fa87bb132e32783cb232542068ffa327a",
+      "wiki_map": 191,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "temple_of_uggalepih_f3",
+      "zone": 159,
+      "floor": 3,
+      "index": 174,
+      "dat": 5622,
+      "name": "Temple of Uggalepih / Map 3",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -48,
+        "offset_y": -464
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "3ac3b0a77ec52e529175255a49c70472d04616e432b95672f09967b6f6e8e3e3",
+      "wiki_map": 192,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "temple_of_uggalepih_f4",
+      "zone": 159,
+      "floor": 4,
+      "index": 175,
+      "dat": 5623,
+      "name": "Temple of Uggalepih / Map 4",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -288,
+        "offset_y": -208
+      },
+      "tab": "Map 4",
+      "artwork_sha256": "ef9d07415e2ae6c12e3fbbeca1c349239e0328ebfb9c8ee3315a544314c7d5c5",
+      "wiki_map": 193,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "den_of_rancor_f1",
+      "zone": 160,
+      "floor": 1,
+      "index": 176,
+      "dat": 5624,
+      "name": "Den of Rancor / Map 1",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -208,
+        "offset_y": -160
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "1683b55917a19da7e3eea571fdde6923b69888a06f335d7fd7c8967ebce6234c",
+      "wiki_map": 272,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "den_of_rancor_f2",
+      "zone": 160,
+      "floor": 2,
+      "index": 177,
+      "dat": 5625,
+      "name": "Den of Rancor / Map 2",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -208,
+        "offset_y": -176
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "5e1258e4d12441028aaebd8fe9c07a9ca389c2a8e7528a6d75e476727a9cccc3",
+      "wiki_map": 273,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "den_of_rancor_f3",
+      "zone": 160,
+      "floor": 3,
+      "index": 178,
+      "dat": 5626,
+      "name": "Den of Rancor / Map 3",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -216,
+        "offset_y": 0
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "65e6039c2f33652a138210b66eebcae6a0b4201f821eee8e2ebef79a934246f3",
+      "wiki_map": 274,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "den_of_rancor_f4",
+      "zone": 160,
+      "floor": 4,
+      "index": 179,
+      "dat": 5627,
+      "name": "Den of Rancor / Map 4",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -320,
+        "offset_y": -64
+      },
+      "tab": "Map 4",
+      "artwork_sha256": "2e0ae89fed13c8ce328028ba24bab7c08a8bcb8fe5722980529866261a256091",
+      "wiki_map": 275,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "den_of_rancor_f5",
+      "zone": 160,
+      "floor": 5,
+      "index": 180,
+      "dat": 5628,
+      "name": "Den of Rancor / Map 5",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -384,
+        "offset_y": -160
+      },
+      "tab": "Map 5",
+      "artwork_sha256": "e47779d5658ae20f1eda34b809fdfef2e96e6203b3a34504a5c8c1628a8e2bab",
+      "wiki_map": 276,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "den_of_rancor_f6",
+      "zone": 160,
+      "floor": 6,
+      "index": 181,
+      "dat": 5629,
+      "name": "Den of Rancor / Map 6",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -128,
+        "offset_y": -192
+      },
+      "tab": "Map 6",
+      "artwork_sha256": "e53d0710f09df674679f117e1d2c9bf05ee1b1730f2fa868511af958b7b83138",
+      "wiki_map": 277,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "den_of_rancor_f7",
+      "zone": 160,
+      "floor": 7,
+      "index": 182,
+      "dat": 5630,
+      "name": "Den of Rancor / Map 7",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 4,
+        "offset_x": 32,
+        "offset_y": -480
+      },
+      "tab": "Map 7",
+      "artwork_sha256": "5a169c53f50e5335b041de9ef2bab3dc456f950de127d56213362b35ba0cf082",
+      "wiki_map": 278,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "den_of_rancor_f8",
+      "zone": 160,
+      "floor": 8,
+      "index": 183,
+      "dat": 5631,
+      "name": "Den of Rancor / Map 8",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 4,
+        "offset_x": 80,
+        "offset_y": -496
+      },
+      "tab": "Map 8",
+      "artwork_sha256": "fbe1610bddcf000d370e3eac825df4af6b4aba54b0b9de8d7542374089c1f46a",
+      "wiki_map": 279,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "den_of_rancor_f9",
+      "zone": 160,
+      "floor": 9,
+      "index": 184,
+      "dat": 5632,
+      "name": "Den of Rancor / Map 9",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -16,
+        "offset_y": -392
+      },
+      "tab": "Map 9",
+      "artwork_sha256": "fd8775447b6b0c0ef231acb3bf1cc0256b80b3728834b78871e69e7992844229",
+      "wiki_map": 280,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "ifrit_s_cauldron_f1",
+      "zone": 205,
+      "floor": 1,
+      "index": 214,
+      "dat": 5663,
+      "name": "Ifrit's Cauldron / Map 1",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -112,
+        "offset_y": -208
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "fa674c68b8e389501ecb7d90e0732a65506fce4c79d912a02788ea6a5a8f2249",
+      "wiki_map": 283,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "ifrit_s_cauldron_f2",
+      "zone": 205,
+      "floor": 2,
+      "index": 215,
+      "dat": 5664,
+      "name": "Ifrit's Cauldron / Map 2",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -272,
+        "offset_y": -240
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "d2fad876ce48bc9ebdac1654320d130597f7080428777b6d72b6872554f9bb85",
+      "wiki_map": 284,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "ifrit_s_cauldron_f3",
+      "zone": 205,
+      "floor": 3,
+      "index": 216,
+      "dat": 5665,
+      "name": "Ifrit's Cauldron / Map 3",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -288,
+        "offset_y": -416
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "cbdfca1835f9515f60a0bbc1348ae7b57c47ccf83d25f6f862f6e59d26c2a79d",
+      "wiki_map": 285,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "ifrit_s_cauldron_f4",
+      "zone": 205,
+      "floor": 4,
+      "index": 217,
+      "dat": 5666,
+      "name": "Ifrit's Cauldron / Map 4",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -272,
+        "offset_y": -64
+      },
+      "tab": "Map 4",
+      "artwork_sha256": "8ea0ff1acb1c51a22e23bc462620ed68077eff9c8becd5fe6cd31dc3ebf866f6",
+      "wiki_map": 286,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "ifrit_s_cauldron_f5",
+      "zone": 205,
+      "floor": 5,
+      "index": 218,
+      "dat": 5667,
+      "name": "Ifrit's Cauldron / Map 5",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -416,
+        "offset_y": -160
+      },
+      "tab": "Map 5",
+      "artwork_sha256": "3d225017369f5d80639e45271dc23647e9563bed51c3f19b2972620e141a5b9c",
+      "wiki_map": 287,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "ifrit_s_cauldron_f15",
+      "zone": 205,
+      "floor": 15,
+      "index": 219,
+      "dat": 5668,
+      "name": "Ifrit's Cauldron / Map 6",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -176,
+        "offset_y": -352
+      },
+      "tab": "Map 6",
+      "artwork_sha256": "b6ac56e45cd70286660531921081e61afe3e7c81c5d7dc0731f07b71bf128841",
+      "wiki_map": 288,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "ifrit_s_cauldron_f16",
+      "zone": 205,
+      "floor": 16,
+      "index": 220,
+      "dat": 5669,
+      "name": "Ifrit's Cauldron / Map 7",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -272,
+        "offset_y": -240
+      },
+      "tab": "Map 7",
+      "artwork_sha256": "9476d46e5e93e19bc2bdac9c06dcf064c01fc4faa271dd173ad3c470d94f09e4",
+      "wiki_map": 289,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "ifrit_s_cauldron_f17",
+      "zone": 205,
+      "floor": 17,
+      "index": 221,
+      "dat": 5670,
+      "name": "Ifrit's Cauldron / Map 8",
+      "region": "elshimo_uplands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -432,
+        "offset_y": -368
+      },
+      "tab": "Map 8",
+      "artwork_sha256": "d5b479a1ab31f9f16d5edeb2a6845c64998ccb5549359ad4b2e435afb48abc09",
+      "wiki_map": 290,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "oldton_movalpolos",
+      "zone": 11,
+      "floor": 0,
+      "index": 264,
+      "dat": 5710,
+      "name": "Oldton Movalpolos",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 2,
+        "offset_x": -288,
+        "offset_y": -304
+      },
+      "tab": "Oldton Movalpolos",
+      "artwork_sha256": "da9983cdaea4022692ef3688e2300160f5d3edd173046c97c8be5f29af0e3ce4",
+      "wiki_map": 251,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "newton_movalpolos",
+      "zone": 12,
+      "floor": 0,
+      "index": 265,
+      "dat": 5711,
+      "name": "Newton Movalpolos",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 2,
+        "offset_x": -248,
+        "offset_y": -272
+      },
+      "tab": "Newton Movalpolos",
+      "artwork_sha256": "ae36d1c1d544237ca77f4f230a4b7fb5dc50eaffec2c67a90aea0fb6190d4674",
+      "wiki_map": 292,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "north_gustaberg",
+      "zone": 106,
+      "floor": 0,
+      "index": 6,
+      "dat": 5319,
+      "name": "North Gustaberg",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 1,
+        "offset_x": -248,
+        "offset_y": -328
+      },
+      "tab": "North Gustaberg",
+      "artwork_sha256": "a62d0dfb9a13e1625d64b41f28b1c3319285ce60867d78efb9c90491c29fbc3b",
+      "wiki_map": 143,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "south_gustaberg",
+      "zone": 107,
+      "floor": 0,
+      "index": 7,
+      "dat": 5320,
+      "name": "South Gustaberg",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 1,
+        "offset_x": -256,
+        "offset_y": -184
+      },
+      "tab": "South Gustaberg",
+      "artwork_sha256": "07592bf8b993bd584e9352a40537756cc858b3a610e86ed31167376a4bf5ed63",
+      "wiki_map": 162,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "palborough_mines_f1",
+      "zone": 143,
+      "floor": 1,
+      "index": 26,
+      "dat": 5344,
+      "name": "Palborough Mines / Map 1",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 2,
+        "offset_x": -208,
+        "offset_y": -288
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "c91be343563aae5b98e63d8c09c6706570be87619b365059de5b45c92a7dc8be",
+      "wiki_map": 144,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "palborough_mines_f2",
+      "zone": 143,
+      "floor": 2,
+      "index": 27,
+      "dat": 5345,
+      "name": "Palborough Mines / Map 2",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 2,
+        "offset_x": -208,
+        "offset_y": -288
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "3b8d1168409a934f3926afc6b7222b7c3c33302a3be1ce2d6f948cbb000bfc7b",
+      "wiki_map": 145,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "palborough_mines_f3",
+      "zone": 143,
+      "floor": 3,
+      "index": 28,
+      "dat": 5346,
+      "name": "Palborough Mines / Map 3",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 2,
+        "offset_x": -208,
+        "offset_y": -272
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "235d11feffdb660a3f2aad033208875186bb954e2b21d2e9ce33632bfe83d29a",
+      "wiki_map": 146,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "zeruhn_mines",
+      "zone": 172,
+      "floor": 0,
+      "index": 72,
+      "dat": 5409,
+      "name": "Zeruhn Mines",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 2,
+        "offset_x": -288,
+        "offset_y": -224
+      },
+      "tab": "Zeruhn Mines",
+      "artwork_sha256": "2b2637b0eb50c432c10e54904132c30bef54269bc926a5c0a792f7b40d1a72fe",
+      "wiki_map": 212,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "korroloka_tunnel_f1",
+      "zone": 173,
+      "floor": 1,
+      "index": 185,
+      "dat": 5634,
+      "name": "Korroloka Tunnel / Map 1",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 4,
+        "offset_x": -96,
+        "offset_y": -336
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "5dd3d3e94c1edb1143107c7426f4b2c5b12689693e4bd982eaa894a43ed38554",
+      "wiki_map": 130,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "korroloka_tunnel_f2",
+      "zone": 173,
+      "floor": 2,
+      "index": 186,
+      "dat": 5635,
+      "name": "Korroloka Tunnel / Map 2",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 4,
+        "offset_x": -480,
+        "offset_y": -272
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "5f3a28b66efbe55f98a29a1977698f20edf8e4611e84d80216e592c6709850d6",
+      "wiki_map": 131,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "korroloka_tunnel_f3",
+      "zone": 173,
+      "floor": 3,
+      "index": 187,
+      "dat": 5636,
+      "name": "Korroloka Tunnel / Map 3",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 4,
+        "offset_x": -368,
+        "offset_y": -336
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "cb4443dfe2c5da82d09a925bf3b5ab5cbf7e78fc21794512d4bc17ca73cabe67",
+      "wiki_map": 132,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "korroloka_tunnel_f4",
+      "zone": 173,
+      "floor": 4,
+      "index": 188,
+      "dat": 5637,
+      "name": "Korroloka Tunnel / Map 4",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 4,
+        "offset_x": -304,
+        "offset_y": -208
+      },
+      "tab": "Map 4",
+      "artwork_sha256": "3410c1e51db260b406b75c5fd30e53dba20b88600cde53751ea6173a34148165",
+      "wiki_map": 133,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "korroloka_tunnel_f5",
+      "zone": 173,
+      "floor": 5,
+      "index": 189,
+      "dat": 5638,
+      "name": "Korroloka Tunnel / Map 5",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 4,
+        "offset_x": -536,
+        "offset_y": -400
+      },
+      "tab": "Map 5",
+      "artwork_sha256": "ffd0f04469a275c896007968a6c53ccea6f9bb200655e165578ea37c672e0312",
+      "wiki_map": 134,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "dangruf_wadi",
+      "zone": 191,
+      "floor": 14,
+      "index": 81,
+      "dat": 5427,
+      "name": "Dangruf Wadi",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 2,
+        "offset_x": -352,
+        "offset_y": -320
+      },
+      "tab": "Dangruf Wadi",
+      "artwork_sha256": "ccae6577351ee4b569a805983a5b4e44f938c73d9d79231035b4ba0e43237144",
+      "wiki_map": 106,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "gusgen_mines_f1",
+      "zone": 196,
+      "floor": 1,
+      "index": 100,
+      "dat": 5443,
+      "name": "Gusgen Mines / Map 1",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 2,
+        "offset_x": -240,
+        "offset_y": -192
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "0a002bd985004020bce28c6d514ad413b910526acb878881998c40f1378f1bde",
+      "wiki_map": 119,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "gusgen_mines_f15",
+      "zone": 196,
+      "floor": 15,
+      "index": 102,
+      "dat": 5444,
+      "name": "Gusgen Mines / Map 2",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 2,
+        "offset_x": -240,
+        "offset_y": -272
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "c9cf87701b2fb13059da91dd6fa005889d8188a03946640faa6b5636313842a9",
+      "wiki_map": 120,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "gusgen_mines_f16",
+      "zone": 196,
+      "floor": 16,
+      "index": 103,
+      "dat": 5445,
+      "name": "Gusgen Mines / Map 3",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 2,
+        "offset_x": -240,
+        "offset_y": -384
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "b070ff4bcc57cf483df1d5f1ea5a5d6326c60b23d2bb771724fa88772a4dee32",
+      "wiki_map": 121,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "gusgen_mines_f17",
+      "zone": 196,
+      "floor": 17,
+      "index": 104,
+      "dat": 5446,
+      "name": "Gusgen Mines / Map 4",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 2,
+        "offset_x": -304,
+        "offset_y": -368
+      },
+      "tab": "Map 4",
+      "artwork_sha256": "8764a85b3ce5dd0a76f3150bb768a999ff8a50b83cc68520f69e37210689319f",
+      "wiki_map": 122,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "bastok_mines",
+      "zone": 234,
+      "floor": 0,
+      "index": 143,
+      "dat": 5481,
+      "name": "Bastok Mines",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 4,
+        "offset_x": -272,
+        "offset_y": -208
+      },
+      "tab": "Bastok Mines",
+      "artwork_sha256": "d6766bf5ebd52db7a7c8179816dd92f8ac83af2d95e372799108d6e9d141df0d",
+      "wiki_map": 2,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "bastok_markets",
+      "zone": 235,
+      "floor": 0,
+      "index": 144,
+      "dat": 5482,
+      "name": "Bastok Markets",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 4,
+        "offset_x": -424,
+        "offset_y": -208
+      },
+      "tab": "Bastok Markets",
+      "artwork_sha256": "adf4443e594aa291d3909b8d561eb5df25c05b7fae043242eadd05370706093d",
+      "wiki_map": 1,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "port_bastok",
+      "zone": 236,
+      "floor": 0,
+      "index": 145,
+      "dat": 5483,
+      "name": "Port Bastok",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 4,
+        "offset_x": -272,
+        "offset_y": -208
+      },
+      "tab": "Port Bastok",
+      "artwork_sha256": "43ef51d319f61a5d8053cb5a67cc0c0c9426688fbe58d13634910e1681c54fe2",
+      "wiki_map": 23,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "metalworks",
+      "zone": 237,
+      "floor": 0,
+      "index": 146,
+      "dat": 5484,
+      "name": "Metalworks",
+      "region": "gustaberg",
+      "transform": {
+        "scale": 4,
+        "offset_x": -256,
+        "offset_y": -256
+      },
+      "tab": "Metalworks",
+      "artwork_sha256": "4364808039d5d00cfc02c8779c71be936bcd6c69e141fc9998d06d87e90e2faf",
+      "wiki_map": 13,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "bibiki_bay_f1",
+      "zone": 4,
+      "floor": 1,
+      "index": 244,
+      "dat": 5690,
+      "name": "Bibiki Bay / Map 1",
+      "region": "kolshushu",
+      "transform": {
+        "scale": 1,
+        "offset_x": -168,
+        "offset_y": -368
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "f9d190540f25ee67b0304fce7e512733e4889ba1f1fc6f4e9d7a9867a36da3a1",
+      "wiki_map": 82,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "bibiki_bay_f2",
+      "zone": 4,
+      "floor": 2,
+      "index": 245,
+      "dat": 5691,
+      "name": "Bibiki Bay / Map 2",
+      "region": "kolshushu",
+      "transform": {
+        "scale": 1,
+        "offset_x": -328,
+        "offset_y": -152
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "59238332541662b6bd7392c5831bc8e87133fcef2313505f2ad9c1ee4464c048",
+      "wiki_map": 83,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "attohwa_chasm",
+      "zone": 7,
+      "floor": 0,
+      "index": 247,
+      "dat": 5693,
+      "name": "Attohwa Chasm",
+      "region": "kolshushu",
+      "transform": {
+        "scale": 1,
+        "offset_x": -264,
+        "offset_y": -272
+      },
+      "tab": "Attohwa Chasm",
+      "artwork_sha256": "a705c0c3623bc120d7acb133cc8838cad200b8f8df058c95cdeda583aa5ee89f",
+      "wiki_map": 78,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "tahrongi_canyon",
+      "zone": 117,
+      "floor": 0,
+      "index": 15,
+      "dat": 5330,
+      "name": "Tahrongi Canyon",
+      "region": "kolshushu",
+      "transform": {
+        "scale": 1,
+        "offset_x": -256,
+        "offset_y": -248
+      },
+      "tab": "Tahrongi Canyon",
+      "artwork_sha256": "47cc9610fb609350b952387ccd40e78e9292d0da0dad9e234e603f78709ce207",
+      "wiki_map": 52,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "buburimu_peninsula",
+      "zone": 118,
+      "floor": 0,
+      "index": 16,
+      "dat": 5331,
+      "name": "Buburimu Peninsula",
+      "region": "kolshushu",
+      "transform": {
+        "scale": 1,
+        "offset_x": -256,
+        "offset_y": -240
+      },
+      "tab": "Buburimu Peninsula",
+      "artwork_sha256": "c1992ca0ca05fac9d9a40946424dd6c5e500df876c0ac40259edc3c800c8ff4c",
+      "wiki_map": 87,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "maze_of_shakhrami_f15",
+      "zone": 198,
+      "floor": 15,
+      "index": 110,
+      "dat": 5449,
+      "name": "Maze of Shakhrami / Map 1",
+      "region": "kolshushu",
+      "transform": {
+        "scale": 2,
+        "offset_x": -240,
+        "offset_y": -224
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "a2cf248bd9b92c3c714fae0a982f9e964f3acd48ab70bc06631fff7f60fa159a",
+      "wiki_map": 238,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "maze_of_shakhrami_f16",
+      "zone": 198,
+      "floor": 16,
+      "index": 111,
+      "dat": 5450,
+      "name": "Maze of Shakhrami / Map 2",
+      "region": "kolshushu",
+      "transform": {
+        "scale": 2,
+        "offset_x": -240,
+        "offset_y": -224
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "d3a9d6c2179ec29089e96bdbd1ccc4a22af1343aa869dba76211d9039586a787",
+      "wiki_map": 239,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "labyrinth_of_onzozo",
+      "zone": 213,
+      "floor": 0,
+      "index": 233,
+      "dat": 5679,
+      "name": "Labyrinth of Onzozo",
+      "region": "kolshushu",
+      "transform": {
+        "scale": 2,
+        "offset_x": -256,
+        "offset_y": -240
+      },
+      "tab": "Labyrinth of Onzozo",
+      "artwork_sha256": "133b870de8d169347890329b1e0d418d762c5da956e9f67fb5cdd58d0eeb4656",
+      "wiki_map": 243,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "mhaura",
+      "zone": 249,
+      "floor": 0,
+      "index": 157,
+      "dat": 5498,
+      "name": "Mhaura",
+      "region": "kolshushu",
+      "transform": {
+        "scale": 4,
+        "offset_x": -256,
+        "offset_y": -320
+      },
+      "tab": "Mhaura",
+      "artwork_sha256": "091c1f3a8f44ad9c9ed122d4bcd1dd818bb5e1805f6be803b0fe384f818d23a5",
+      "wiki_map": 14,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "eastern_altepa_desert",
+      "zone": 114,
+      "floor": 0,
+      "index": 159,
+      "dat": 5607,
+      "name": "Eastern Altepa Desert",
+      "region": "kuzotz",
+      "transform": {
+        "scale": 1,
+        "offset_x": -240,
+        "offset_y": -256
+      },
+      "tab": "Eastern Altepa Desert",
+      "artwork_sha256": "8eb6945c9d7cb9eb93ffb2ff170619215dd5fa35c07a297d52a49d0d9836c0fd",
+      "wiki_map": 213,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "western_altepa_desert",
+      "zone": 125,
+      "floor": 0,
+      "index": 164,
+      "dat": 5612,
+      "name": "Western Altepa Desert",
+      "region": "kuzotz",
+      "transform": {
+        "scale": 1,
+        "offset_x": -280,
+        "offset_y": -232
+      },
+      "tab": "Western Altepa Desert",
+      "artwork_sha256": "bf48aa416e45e6df0fd54ca37666087ebeb4129daa40df0989babc64fb398cd7",
+      "wiki_map": 214,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "quicksand_caves_f1",
+      "zone": 208,
+      "floor": 1,
+      "index": 223,
+      "dat": 5671,
+      "name": "Quicksand Caves / Map 1",
+      "region": "kuzotz",
+      "transform": {
+        "scale": 4,
+        "offset_x": 368,
+        "offset_y": 144
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "e0f9e5b024765c79e34897734e4ec568d022087164d18b8deaa9cd81f7d49664",
+      "wiki_map": 216,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "quicksand_caves_f2",
+      "zone": 208,
+      "floor": 2,
+      "index": 224,
+      "dat": 5672,
+      "name": "Quicksand Caves / Map 2",
+      "region": "kuzotz",
+      "transform": {
+        "scale": 4,
+        "offset_x": 240,
+        "offset_y": 304
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "e8b56affc47af7dde5bbb9e9c4241d6344a8c9ff621277ed5cef9b699d93a3e2",
+      "wiki_map": 217,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "quicksand_caves_f3",
+      "zone": 208,
+      "floor": 3,
+      "index": 225,
+      "dat": 5673,
+      "name": "Quicksand Caves / Map 3",
+      "region": "kuzotz",
+      "transform": {
+        "scale": 4,
+        "offset_x": -176,
+        "offset_y": -176
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "32c6623fe7796089fed194c408cbac5b1f425d9fdbb0ed22a2f60ceff4018a95",
+      "wiki_map": 218,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "quicksand_caves_f4",
+      "zone": 208,
+      "floor": 4,
+      "index": 226,
+      "dat": 5674,
+      "name": "Quicksand Caves / Map 4",
+      "region": "kuzotz",
+      "transform": {
+        "scale": 4,
+        "offset_x": -912,
+        "offset_y": 80
+      },
+      "tab": "Map 4",
+      "artwork_sha256": "08bc72ff59fcca917e94e2122bd3fe637e327ef46af1e8f1bad684455dc23cac",
+      "wiki_map": 219,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "quicksand_caves_f5",
+      "zone": 208,
+      "floor": 5,
+      "index": 227,
+      "dat": 5675,
+      "name": "Quicksand Caves / Map 5",
+      "region": "kuzotz",
+      "transform": {
+        "scale": 4,
+        "offset_x": -592,
+        "offset_y": -848
+      },
+      "tab": "Map 5",
+      "artwork_sha256": "fa1c4334591b910c20da24e4498705834d2c1b0e95a5c2cb32e6a2c56cb4c21c",
+      "wiki_map": 220,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "quicksand_caves_f6",
+      "zone": 208,
+      "floor": 6,
+      "index": 228,
+      "dat": 5676,
+      "name": "Quicksand Caves / Map 6",
+      "region": "kuzotz",
+      "transform": {
+        "scale": 4,
+        "offset_x": -400,
+        "offset_y": -560
+      },
+      "tab": "Map 6",
+      "artwork_sha256": "9c7eb413ef5e04ac429db14d46dc125dde5eed9491dd5cc36b9e526d089aa139",
+      "wiki_map": 221,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "quicksand_caves_f7",
+      "zone": 208,
+      "floor": 7,
+      "index": 229,
+      "dat": 5686,
+      "name": "Quicksand Caves / Map 7",
+      "region": "kuzotz",
+      "transform": {
+        "scale": 4,
+        "offset_x": -688,
+        "offset_y": 80
+      },
+      "tab": "Map 7",
+      "artwork_sha256": "6e1a3827c2688d1cd36497f8f6f69a3cded0d1f63c18a28004e10043bce1d691",
+      "wiki_map": 222,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "quicksand_caves_f8",
+      "zone": 208,
+      "floor": 8,
+      "index": 230,
+      "dat": 5687,
+      "name": "Quicksand Caves / Map 8",
+      "region": "kuzotz",
+      "transform": {
+        "scale": 4,
+        "offset_x": -336,
+        "offset_y": -80
+      },
+      "tab": "Map 8",
+      "artwork_sha256": "c5631a37d71652c620e540825f8d65e7db19677bf961900b5c0784390ab17885",
+      "wiki_map": 223,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "rabao",
+      "zone": 247,
+      "floor": 0,
+      "index": 234,
+      "dat": 5681,
+      "name": "Rabao",
+      "region": "kuzotz",
+      "transform": {
+        "scale": 4,
+        "offset_x": -224,
+        "offset_y": -272
+      },
+      "tab": "Rabao",
+      "artwork_sha256": "0cb4636555fb847d35a723680733e595e3111e1cdf16954ac70eac4e48a7bbd0",
+      "wiki_map": 215,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "the_sanctuary_of_zi_tah",
+      "zone": 121,
+      "floor": 0,
+      "index": 160,
+      "dat": 5608,
+      "name": "The Sanctuary of Zi'Tah",
+      "region": "litelor",
+      "transform": {
+        "scale": 1,
+        "offset_x": -248,
+        "offset_y": -272
+      },
+      "tab": "The Sanctuary of Zi'Tah",
+      "artwork_sha256": "9ed66c7b1989c16cb358cac17c4b7e9c61ddc30635d493406315eba4f4f1e58a",
+      "wiki_map": 201,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "ro_maeve",
+      "zone": 122,
+      "floor": 0,
+      "index": 161,
+      "dat": 5609,
+      "name": "Ro'Maeve",
+      "region": "litelor",
+      "transform": {
+        "scale": 4,
+        "offset_x": -256,
+        "offset_y": -248
+      },
+      "tab": "Ro'Maeve",
+      "artwork_sha256": "fdffb46ec7b16bc8674ebf470ad6e5a80c2d472b45a4a6165db63589aba00b88",
+      "wiki_map": 282,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "the_boyahda_tree_f1",
+      "zone": 153,
+      "floor": 1,
+      "index": 167,
+      "dat": 5615,
+      "name": "The Boyahda Tree / Map 1",
+      "region": "litelor",
+      "transform": {
+        "scale": 4,
+        "offset_x": -112,
+        "offset_y": -240
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "25daa362c4c498b3cec41631bf03ea1c67df1c9a99f42976ed27f1d0ac3c6e5a",
+      "wiki_map": 194,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "the_boyahda_tree_f2",
+      "zone": 153,
+      "floor": 2,
+      "index": 168,
+      "dat": 5616,
+      "name": "The Boyahda Tree / Map 2",
+      "region": "litelor",
+      "transform": {
+        "scale": 4,
+        "offset_x": -240,
+        "offset_y": -208
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "1c94d6355004f69bcb070b6aef2c0863018501533da0952e4b732ff0d2502d9f",
+      "wiki_map": 195,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "the_boyahda_tree_f3",
+      "zone": 153,
+      "floor": 3,
+      "index": 169,
+      "dat": 5617,
+      "name": "The Boyahda Tree / Map 3",
+      "region": "litelor",
+      "transform": {
+        "scale": 4,
+        "offset_x": -336,
+        "offset_y": -112
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "7885e110fec0c199091cabfc89f6f13b40bbcf157f7a69f58271cd1a3451624d",
+      "wiki_map": 196,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "the_boyahda_tree_f4",
+      "zone": 153,
+      "floor": 4,
+      "index": 170,
+      "dat": 5618,
+      "name": "The Boyahda Tree / Map 4",
+      "region": "litelor",
+      "transform": {
+        "scale": 4,
+        "offset_x": -400,
+        "offset_y": -336
+      },
+      "tab": "Map 4",
+      "artwork_sha256": "ca8f8a298699d36f37071486686d49d3dafc702ca1ad62cc5245de2d3d60ce2a",
+      "wiki_map": 197,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "dragon_s_aery",
+      "zone": 154,
+      "floor": 0,
+      "index": 171,
+      "dat": 5619,
+      "name": "Dragon's Aery",
+      "region": "litelor",
+      "transform": {
+        "scale": 4,
+        "offset_x": -240,
+        "offset_y": -272
+      },
+      "tab": "Dragon's Aery",
+      "artwork_sha256": "7b35aad51e08daa867962b6331be14122f487b1a958066498976626b29ed7cc0",
+      "wiki_map": 281,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "hall_of_the_gods",
+      "zone": 251,
+      "floor": 1,
+      "index": 236,
+      "dat": 5683,
+      "name": "Hall of the Gods",
+      "region": "litelor",
+      "transform": {
+        "scale": 4,
+        "offset_x": -256,
+        "offset_y": -248
+      },
+      "tab": "Hall of the Gods",
+      "artwork_sha256": "d1259f66abd10ae07b1881f29d9a9b5d093b413738fbc9156abfa4e1f3046d2f",
+      "wiki_map": 255,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "qufim_island",
+      "zone": 126,
+      "floor": 0,
+      "index": 19,
+      "dat": 5336,
+      "name": "Qufim Island",
+      "region": "qufim",
+      "transform": {
+        "scale": 1,
+        "offset_x": -256,
+        "offset_y": -256
+      },
+      "tab": "Qufim Island",
+      "artwork_sha256": "938cc1ad3ef99f404df8a14abd6f194f629e3f9494f60ceacb50a6d0d5021a24",
+      "wiki_map": 47,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "behemoth_s_dominion",
+      "zone": 127,
+      "floor": 0,
+      "index": 20,
+      "dat": 5337,
+      "name": "Behemoth's Dominion",
+      "region": "qufim",
+      "transform": {
+        "scale": 2,
+        "offset_x": -256,
+        "offset_y": -256
+      },
+      "tab": "Behemoth's Dominion",
+      "artwork_sha256": "a4ae380622f044b14d8e62a6b02886df559839ee6b6c72da5edbb5fb954fcf1c",
+      "wiki_map": 81,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "middle_delkfutt_s_tower_f4",
+      "zone": 157,
+      "floor": 4,
+      "index": 45,
+      "dat": 5376,
+      "name": "Middle Delkfutt's Tower / Map 1",
+      "region": "qufim",
+      "transform": {
+        "scale": 4,
+        "offset_x": -240,
+        "offset_y": -272
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "2f29946f51ca5e0bd9e9d11dcecc7d5a38462d45b037ceb19f42b6a5cff54904",
+      "wiki_map": 15,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "middle_delkfutt_s_tower_f5",
+      "zone": 157,
+      "floor": 5,
+      "index": 46,
+      "dat": 5377,
+      "name": "Middle Delkfutt's Tower / Map 2",
+      "region": "qufim",
+      "transform": {
+        "scale": 4,
+        "offset_x": -240,
+        "offset_y": -272
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "510b5e45d833ee9c7e9ce932f4fac7da6c4776db6ca8a17afb58aa5dbb7b79c3",
+      "wiki_map": 16,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "middle_delkfutt_s_tower_f6",
+      "zone": 157,
+      "floor": 6,
+      "index": 47,
+      "dat": 5378,
+      "name": "Middle Delkfutt's Tower / Map 3",
+      "region": "qufim",
+      "transform": {
+        "scale": 4,
+        "offset_x": -240,
+        "offset_y": -272
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "349aae466a1aa278561a88de1b1500fddf9b85912e0ae2fc8ca4a2b61a95d52e",
+      "wiki_map": 17,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "middle_delkfutt_s_tower_f7",
+      "zone": 157,
+      "floor": 7,
+      "index": 48,
+      "dat": 5379,
+      "name": "Middle Delkfutt's Tower / Map 4",
+      "region": "qufim",
+      "transform": {
+        "scale": 4,
+        "offset_x": -592,
+        "offset_y": -272
+      },
+      "tab": "Map 4",
+      "artwork_sha256": "19b44408a7fe805ffa3644c872d4ebd5db54bd95be6b2e01e1301435a85fc0da",
+      "wiki_map": 18,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "middle_delkfutt_s_tower_f8",
+      "zone": 157,
+      "floor": 8,
+      "index": 49,
+      "dat": 5380,
+      "name": "Middle Delkfutt's Tower / Map 5",
+      "region": "qufim",
+      "transform": {
+        "scale": 4,
+        "offset_x": -592,
+        "offset_y": -272
+      },
+      "tab": "Map 5",
+      "artwork_sha256": "3ea00436eb1acd2132b4063aad9f76d56572891d3c442a2426a11e95e6579243",
+      "wiki_map": 19,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "middle_delkfutt_s_tower_f9",
+      "zone": 157,
+      "floor": 9,
+      "index": 50,
+      "dat": 5381,
+      "name": "Middle Delkfutt's Tower / Map 6",
+      "region": "qufim",
+      "transform": {
+        "scale": 4,
+        "offset_x": -592,
+        "offset_y": -272
+      },
+      "tab": "Map 6",
+      "artwork_sha256": "328796244d1cd04baab1fdb90d5f3da029f603e197c1272028641caa3a61a913",
+      "wiki_map": 20,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "upper_delkfutt_s_tower_f1",
+      "zone": 158,
+      "floor": 1,
+      "index": 51,
+      "dat": 5382,
+      "name": "Upper Delkfutt's Tower / Map 1",
+      "region": "qufim",
+      "transform": {
+        "scale": 4,
+        "offset_x": -496,
+        "offset_y": -272
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "213d6437d4c5fae8bcaf9b3a758a56bbab27476176be706cfd0bfbfa5105b6d0",
+      "wiki_map": 56,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "upper_delkfutt_s_tower_f2",
+      "zone": 158,
+      "floor": 2,
+      "index": 52,
+      "dat": 5383,
+      "name": "Upper Delkfutt's Tower / Map 2",
+      "region": "qufim",
+      "transform": {
+        "scale": 4,
+        "offset_x": -496,
+        "offset_y": -272
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "51587d4983345529995e0766c9f08378ef9c817390f36f5da648fbc8261a46f1",
+      "wiki_map": 57,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "upper_delkfutt_s_tower_f3",
+      "zone": 158,
+      "floor": 3,
+      "index": 53,
+      "dat": 5384,
+      "name": "Upper Delkfutt's Tower / Map 3",
+      "region": "qufim",
+      "transform": {
+        "scale": 4,
+        "offset_x": -496,
+        "offset_y": -272
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "9db3824d8f251cdb9b4658fc7e1eb785568b40927f34a28da7068b8527411d0e",
+      "wiki_map": 58,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "upper_delkfutt_s_tower_f6",
+      "zone": 158,
+      "floor": 6,
+      "index": 56,
+      "dat": 5520,
+      "name": "Upper Delkfutt's Tower / Map 4",
+      "region": "qufim",
+      "transform": {
+        "scale": 4,
+        "offset_x": -48,
+        "offset_y": -272
+      },
+      "tab": "Map 4",
+      "artwork_sha256": "fd63544d02af19e6d63c671bb748177961f1296cbfbdcd5bf46f9c3a36bda2b1",
+      "wiki_map": 59,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "lower_delkfutt_s_tower_f1",
+      "zone": 184,
+      "floor": 1,
+      "index": 74,
+      "dat": 5373,
+      "name": "Lower Delkfutt's Tower / Map 1",
+      "region": "qufim",
+      "transform": {
+        "scale": 4,
+        "offset_x": 112,
+        "offset_y": -272
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "73bccc707d4373690a4bd857c1f10b46fcd63391e392428306ca0a73942af007",
+      "wiki_map": 8,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "lower_delkfutt_s_tower_f2",
+      "zone": 184,
+      "floor": 2,
+      "index": 75,
+      "dat": 5374,
+      "name": "Lower Delkfutt's Tower / Map 2",
+      "region": "qufim",
+      "transform": {
+        "scale": 4,
+        "offset_x": 112,
+        "offset_y": -272
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "36b16afb7ce3867f11c6914a3ae463bc90b83680e166294159e0e50670f8ffbd",
+      "wiki_map": 9,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "lower_delkfutt_s_tower_f3",
+      "zone": 184,
+      "floor": 3,
+      "index": 76,
+      "dat": 5375,
+      "name": "Lower Delkfutt's Tower / Map 3",
+      "region": "qufim",
+      "transform": {
+        "scale": 4,
+        "offset_x": 112,
+        "offset_y": -272
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "31b936ede9047ae1ef21878c912376d403d56fae9df91dce9c60b68bb1db2771",
+      "wiki_map": 10,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "lower_delkfutt_s_tower_f15",
+      "zone": 184,
+      "floor": 15,
+      "index": 73,
+      "dat": 5385,
+      "name": "Lower Delkfutt's Tower / Map 4",
+      "region": "qufim",
+      "transform": {
+        "scale": 4,
+        "offset_x": 112,
+        "offset_y": -272
+      },
+      "tab": "Map 4",
+      "artwork_sha256": "1bb48969d7ce16ef9e3a9957e1f3acce4c52b498420e0f1b1a55a73069075be9",
+      "wiki_map": 11,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "west_sarutabaruta",
+      "zone": 115,
+      "floor": 0,
+      "index": 13,
+      "dat": 5328,
+      "name": "West Sarutabaruta",
+      "region": "sarutabaruta",
+      "transform": {
+        "scale": 1,
+        "offset_x": -256,
+        "offset_y": -264
+      },
+      "tab": "West Sarutabaruta",
+      "artwork_sha256": "640b091cdec29609882fd6d517c03319c075268b5353d7391315279848da1f49",
+      "wiki_map": 205,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "east_sarutabaruta",
+      "zone": 116,
+      "floor": 0,
+      "index": 14,
+      "dat": 5329,
+      "name": "East Sarutabaruta",
+      "region": "sarutabaruta",
+      "transform": {
+        "scale": 1,
+        "offset_x": -256,
+        "offset_y": -256
+      },
+      "tab": "East Sarutabaruta",
+      "artwork_sha256": "cf90d0108bc1e8785d411c12e3377f50884f810f42be39f2d43c1123e406cb63",
+      "wiki_map": 109,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "giddeus_f1",
+      "zone": 145,
+      "floor": 1,
+      "index": 29,
+      "dat": 5348,
+      "name": "Giddeus / Map 1",
+      "region": "sarutabaruta",
+      "transform": {
+        "scale": 2,
+        "offset_x": -272,
+        "offset_y": -272
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "663810f153cc482977fb6e3a6f6a611100d92d66bb7e7b637e5c1b8c33d08c2b",
+      "wiki_map": 117,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "giddeus_f15",
+      "zone": 145,
+      "floor": 15,
+      "index": 30,
+      "dat": 5349,
+      "name": "Giddeus / Map 2",
+      "region": "sarutabaruta",
+      "transform": {
+        "scale": 2,
+        "offset_x": -272,
+        "offset_y": -272
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "127cba5a69d3623fd5010559019300275a9adcf6ac5e05b3afb0fac6fea1d7d4",
+      "wiki_map": 118,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "toraimarai_canal_f1",
+      "zone": 169,
+      "floor": 1,
+      "index": 69,
+      "dat": 5406,
+      "name": "Toraimarai Canal / Map 1",
+      "region": "sarutabaruta",
+      "transform": {
+        "scale": 2,
+        "offset_x": -320,
+        "offset_y": -272
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "5e2ff6bc0895e6ba837086fbce330fb5294a4df79307e2d225e684c2c5013153",
+      "wiki_map": 253,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "toraimarai_canal_f2",
+      "zone": 169,
+      "floor": 2,
+      "index": 70,
+      "dat": 5465,
+      "name": "Toraimarai Canal / Map 2",
+      "region": "sarutabaruta",
+      "transform": {
+        "scale": 2,
+        "offset_x": -192,
+        "offset_y": -240
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "eb5b68abe1c5162e82c6b8245452029b05f82c3e37248bc0016fb609c5f366eb",
+      "wiki_map": 254,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "inner_horutoto_ruins_f1",
+      "zone": 192,
+      "floor": 1,
+      "index": 82,
+      "dat": 5435,
+      "name": "Inner Horutoto Ruins / Map 1",
+      "region": "sarutabaruta",
+      "transform": {
+        "scale": 2,
+        "offset_x": -112,
+        "offset_y": -288
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "abb62cb893285ff45b82b760c4813a3758202fb0a9f337dab2f274b0704afcce",
+      "wiki_map": 125,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "inner_horutoto_ruins_f2",
+      "zone": 192,
+      "floor": 2,
+      "index": 83,
+      "dat": 5462,
+      "name": "Inner Horutoto Ruins / Map 2",
+      "region": "sarutabaruta",
+      "transform": {
+        "scale": 2,
+        "offset_x": -224,
+        "offset_y": -272
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "acc6f022060d7b2375e51235bb2a9b2d906324347914fed1c870cce717cecb60",
+      "wiki_map": 126,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "inner_horutoto_ruins_f3",
+      "zone": 192,
+      "floor": 3,
+      "index": 84,
+      "dat": 5463,
+      "name": "Inner Horutoto Ruins / Map 3",
+      "region": "sarutabaruta",
+      "transform": {
+        "scale": 2,
+        "offset_x": -368,
+        "offset_y": -272
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "e6e1e37eddca13ef007177d0b85789d1c3158cab11d295d9662370d0078b4de2",
+      "wiki_map": 127,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "inner_horutoto_ruins_f4",
+      "zone": 192,
+      "floor": 4,
+      "index": 85,
+      "dat": 5466,
+      "name": "Inner Horutoto Ruins / Map 4",
+      "region": "sarutabaruta",
+      "transform": {
+        "scale": 2,
+        "offset_x": -368,
+        "offset_y": -272
+      },
+      "tab": "Map 4",
+      "artwork_sha256": "32b3cd868cbc45cdfefa6a9caa34a8032c3205dd24bd50fd1d85695b2266ad06",
+      "wiki_map": 128,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "outer_horutoto_ruins_f1",
+      "zone": 194,
+      "floor": 1,
+      "index": 86,
+      "dat": 5432,
+      "name": "Outer Horutoto Ruins / Map 1",
+      "region": "sarutabaruta",
+      "transform": {
+        "scale": 2,
+        "offset_x": -384,
+        "offset_y": -496
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "1b559e5ebdf6cfd8fc454307077e311706093c4ba0ace1ca7532eef46f8db85c",
+      "wiki_map": 246,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "outer_horutoto_ruins_f2",
+      "zone": 194,
+      "floor": 2,
+      "index": 87,
+      "dat": 5433,
+      "name": "Outer Horutoto Ruins / Map 2",
+      "region": "sarutabaruta",
+      "transform": {
+        "scale": 2,
+        "offset_x": -96,
+        "offset_y": -496
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "0e01443c2623b5a9629111c98147e5a9e16f8d0f3c7c11d18c2cb2455b5645a6",
+      "wiki_map": 247,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "outer_horutoto_ruins_f3",
+      "zone": 194,
+      "floor": 3,
+      "index": 88,
+      "dat": 5434,
+      "name": "Outer Horutoto Ruins / Map 3",
+      "region": "sarutabaruta",
+      "transform": {
+        "scale": 2,
+        "offset_x": -64,
+        "offset_y": 0
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "4bb343a93a3224fb1c0e02244e5c73f9f686599dac881dbcbe6b8eafcc5b48c4",
+      "wiki_map": 248,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "outer_horutoto_ruins_f4",
+      "zone": 194,
+      "floor": 4,
+      "index": 89,
+      "dat": 5436,
+      "name": "Outer Horutoto Ruins / Map 4",
+      "region": "sarutabaruta",
+      "transform": {
+        "scale": 2,
+        "offset_x": -448,
+        "offset_y": 0
+      },
+      "tab": "Map 4",
+      "artwork_sha256": "d4928f37bcd2ced229c4396333f472d80f1cc697efe25fa7c4c757863098ece4",
+      "wiki_map": 249,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "outer_horutoto_ruins_f5",
+      "zone": 194,
+      "floor": 5,
+      "index": 90,
+      "dat": 5467,
+      "name": "Outer Horutoto Ruins / Map 5",
+      "region": "sarutabaruta",
+      "transform": {
+        "scale": 2,
+        "offset_x": -384,
+        "offset_y": -496
+      },
+      "tab": "Map 5",
+      "artwork_sha256": "44ef4cb006dc1451d88d4c5f8b5828b3aa483423b5a1d966b0d65828556b0558",
+      "wiki_map": 250,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "windurst_waters_f1",
+      "zone": 238,
+      "floor": 1,
+      "index": 147,
+      "dat": 5501,
+      "name": "Windurst Waters / North",
+      "region": "sarutabaruta",
+      "transform": {
+        "scale": 4,
+        "offset_x": -240,
+        "offset_y": -328
+      },
+      "tab": "Windurst Waters: North",
+      "artwork_sha256": "b6121993225638da2144eac027cb1ca3246e05d8fd98c8460f0c2e2a95212b7c",
+      "wiki_map": 65,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "windurst_waters_f2",
+      "zone": 238,
+      "floor": 2,
+      "index": 148,
+      "dat": 5502,
+      "name": "Windurst Waters / South",
+      "region": "sarutabaruta",
+      "transform": {
+        "scale": 4,
+        "offset_x": -304,
+        "offset_y": -120
+      },
+      "tab": "Windurst Waters: South",
+      "artwork_sha256": "c57dd195d8387a3448fa7b1f86f6f23a4429bc2eed64059a572b03c94ae50582",
+      "wiki_map": 66,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "windurst_walls",
+      "zone": 239,
+      "floor": 0,
+      "index": 149,
+      "dat": 5487,
+      "name": "Windurst Walls",
+      "region": "sarutabaruta",
+      "transform": {
+        "scale": 4,
+        "offset_x": -256,
+        "offset_y": -320
+      },
+      "tab": "Windurst Walls",
+      "artwork_sha256": "aeed0fea1b4cbad845cdfaae41d406aa3bc0df683fcf841abd7e1032278521ef",
+      "wiki_map": 64,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "port_windurst",
+      "zone": 240,
+      "floor": 0,
+      "index": 150,
+      "dat": 5488,
+      "name": "Port Windurst",
+      "region": "sarutabaruta",
+      "transform": {
+        "scale": 4,
+        "offset_x": -240,
+        "offset_y": -304
+      },
+      "tab": "Port Windurst",
+      "artwork_sha256": "5ae20628536e167cad70401a3e2a06a0748c6b08a3aa77c420195e4767edee44",
+      "wiki_map": 26,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "windurst_woods",
+      "zone": 241,
+      "floor": 0,
+      "index": 151,
+      "dat": 5489,
+      "name": "Windurst Woods",
+      "region": "sarutabaruta",
+      "transform": {
+        "scale": 4,
+        "offset_x": -256,
+        "offset_y": -288
+      },
+      "tab": "Windurst Woods",
+      "artwork_sha256": "f3a5f6e3768edccdcd6a05dcddf7f8a81debfafe272a1c32e4d7c70a4d371b38",
+      "wiki_map": 67,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "lufaise_meadows",
+      "zone": 24,
+      "floor": 0,
+      "index": 270,
+      "dat": 5719,
+      "name": "Lufaise Meadows",
+      "region": "tavnazian_archipelago",
+      "transform": {
+        "scale": 1,
+        "offset_x": -272,
+        "offset_y": -256
+      },
+      "tab": "Lufaise Meadows",
+      "artwork_sha256": "1cde400a223fe63ce727e86bb76eac828122f44bb96c812751aa18b1a23009c0",
+      "wiki_map": 139,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "misareaux_coast",
+      "zone": 25,
+      "floor": 0,
+      "index": 271,
+      "dat": 5720,
+      "name": "Misareaux Coast",
+      "region": "tavnazian_archipelago",
+      "transform": {
+        "scale": 1,
+        "offset_x": -232,
+        "offset_y": -272
+      },
+      "tab": "Misareaux Coast",
+      "artwork_sha256": "5b344aa287621b65bfd1b665f20c6e7c0d21358d4b4d5534f199aba08fded91e",
+      "wiki_map": 141,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "tavnazian_safehold_f1",
+      "zone": 26,
+      "floor": 1,
+      "index": 272,
+      "dat": 5721,
+      "name": "Tavnazian Safehold / Map 1",
+      "region": "tavnazian_archipelago",
+      "transform": {
+        "scale": 4,
+        "offset_x": -256,
+        "offset_y": -256
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "6ec5457cd2f340a6604bb3446c67dee28de419e70ef9b87d6ef6a585020a91c5",
+      "wiki_map": 53,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "tavnazian_safehold_f2",
+      "zone": 26,
+      "floor": 2,
+      "index": 273,
+      "dat": 5722,
+      "name": "Tavnazian Safehold / Map 2",
+      "region": "tavnazian_archipelago",
+      "transform": {
+        "scale": 4,
+        "offset_x": -272,
+        "offset_y": -288
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "c2e288a6b1996afa48cdbbf9245c9d21119033c70cc7b8741131df4d439951b4",
+      "wiki_map": 54,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "tavnazian_safehold_f3",
+      "zone": 26,
+      "floor": 3,
+      "index": 274,
+      "dat": 5723,
+      "name": "Tavnazian Safehold / Map 3",
+      "region": "tavnazian_archipelago",
+      "transform": {
+        "scale": 4,
+        "offset_x": -256,
+        "offset_y": -256
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "8833bbfdc5a35b436e150d8308fe504e29668cbea49e9b3ee60847dfc67a929c",
+      "wiki_map": 55,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "phomiuna_aqueducts_f1",
+      "zone": 27,
+      "floor": 1,
+      "index": 275,
+      "dat": 5724,
+      "name": "Phomiuna Aqueducts / Map 1",
+      "region": "tavnazian_archipelago",
+      "transform": {
+        "scale": 4,
+        "offset_x": -112,
+        "offset_y": -112
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "29ffef90f9e83d8556d64936d3a5e523be05cace03f95e9fabf6a3832886d009",
+      "wiki_map": 229,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "phomiuna_aqueducts_f2",
+      "zone": 27,
+      "floor": 2,
+      "index": 276,
+      "dat": 5725,
+      "name": "Phomiuna Aqueducts / Map 2",
+      "region": "tavnazian_archipelago",
+      "transform": {
+        "scale": 4,
+        "offset_x": -272,
+        "offset_y": -304
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "fb6904348b6364ed0c8ccb9ba792b24bed27c9f89a14d74aede3e0250737926a",
+      "wiki_map": 230,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "phomiuna_aqueducts_f3",
+      "zone": 27,
+      "floor": 3,
+      "index": 277,
+      "dat": 5739,
+      "name": "Phomiuna Aqueducts / Map 3",
+      "region": "tavnazian_archipelago",
+      "transform": {
+        "scale": 4,
+        "offset_x": -240,
+        "offset_y": -304
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "00bedf8b13d6453ff8f62dddfee49e3d7321666b08af394ee92901c1242377ca",
+      "wiki_map": 231,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "sacrarium_f1",
+      "zone": 28,
+      "floor": 1,
+      "index": 278,
+      "dat": 5726,
+      "name": "Sacrarium / Map 1",
+      "region": "tavnazian_archipelago",
+      "transform": {
+        "scale": 4,
+        "offset_x": -336,
+        "offset_y": -272
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "9c49c2a0ce0eceafe017af66b5d8c441be1262aa39b2c6923876a19c243d2156",
+      "wiki_map": 224,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "sacrarium_f2",
+      "zone": 28,
+      "floor": 2,
+      "index": 279,
+      "dat": 5727,
+      "name": "Sacrarium / Map 2",
+      "region": "tavnazian_archipelago",
+      "transform": {
+        "scale": 4,
+        "offset_x": -176,
+        "offset_y": -256
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "cb31290b98cd3008cdc352b89b132f2ea2f18582332dd2cfc35990c0267f58e6",
+      "wiki_map": 225,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "riverne_site_b01",
+      "zone": 29,
+      "floor": 1,
+      "index": 280,
+      "dat": 5728,
+      "name": "Riverne - Site #B01",
+      "region": "tavnazian_archipelago",
+      "transform": {
+        "scale": 1,
+        "offset_x": -248,
+        "offset_y": -160
+      },
+      "tab": "Riverne - Site #B01",
+      "artwork_sha256": "b94721f4194d693bda92e610520daa9a5555f39bd35711a90d584b12e3b41e1a",
+      "wiki_map": 206,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "riverne_site_a01",
+      "zone": 30,
+      "floor": 1,
+      "index": 282,
+      "dat": 5730,
+      "name": "Riverne - Site #A01",
+      "region": "tavnazian_archipelago",
+      "transform": {
+        "scale": 1,
+        "offset_x": -240,
+        "offset_y": -368
+      },
+      "tab": "Riverne - Site #A01",
+      "artwork_sha256": "e2e4dac369351e0678dd22757448e7faeaa0803d0fc9d75867a648c0b336ac75",
+      "wiki_map": 153,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "sealion_s_den",
+      "zone": 32,
+      "floor": 1,
+      "index": 284,
+      "dat": 5740,
+      "name": "Sealion's Den",
+      "region": "tavnazian_archipelago",
+      "transform": {
+        "scale": 4,
+        "offset_x": 240,
+        "offset_y": -816
+      },
+      "tab": "Sealion's Den",
+      "artwork_sha256": "4d64d8d7ce3135aafe53fb39e761eb504a13400560952c9a7195b95a9742f55c",
+      "wiki_map": 228,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "ru_aun_gardens",
+      "zone": 130,
+      "floor": 0,
+      "index": 166,
+      "dat": 5614,
+      "name": "Ru'Aun Gardens",
+      "region": "tulia",
+      "transform": {
+        "scale": 1,
+        "offset_x": -256,
+        "offset_y": -248
+      },
+      "tab": "Ru'Aun Gardens",
+      "artwork_sha256": "37476b3a19c2a42818f15ba3715a4c79c4358b6a18ae49b87e9450085c65925d",
+      "wiki_map": 155,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "ve_lugannon_palace_f1",
+      "zone": 177,
+      "floor": 1,
+      "index": 199,
+      "dat": 5648,
+      "name": "Ve'Lugannon Palace / Map 1",
+      "region": "tulia",
+      "transform": {
+        "scale": 2,
+        "offset_x": -256,
+        "offset_y": -272
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "82a0bd3f102f7d5308c15a6e21d020d502ef2977d65709e80cc807e96f289f4b",
+      "wiki_map": 256,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "ve_lugannon_palace_f2",
+      "zone": 177,
+      "floor": 2,
+      "index": 200,
+      "dat": 5649,
+      "name": "Ve'Lugannon Palace / Map 2",
+      "region": "tulia",
+      "transform": {
+        "scale": 4,
+        "offset_x": -528,
+        "offset_y": -528
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "d38de471b435618c6beea52f8835a4a394ec31eae4cf67023fe7662e7d825149",
+      "wiki_map": 257,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "ve_lugannon_palace_f3",
+      "zone": 177,
+      "floor": 3,
+      "index": 201,
+      "dat": 5650,
+      "name": "Ve'Lugannon Palace / Map 3",
+      "region": "tulia",
+      "transform": {
+        "scale": 4,
+        "offset_x": -400,
+        "offset_y": -592
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "b6fbb6ee0f7ca02e3b2cbaa2b645d3dd3c5d0441563145159b5e3d046f696507",
+      "wiki_map": 258,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "ve_lugannon_palace_f4",
+      "zone": 177,
+      "floor": 4,
+      "index": 202,
+      "dat": 5651,
+      "name": "Ve'Lugannon Palace / Map 4",
+      "region": "tulia",
+      "transform": {
+        "scale": 4,
+        "offset_x": -112,
+        "offset_y": -592
+      },
+      "tab": "Map 4",
+      "artwork_sha256": "fbdef11a191a42284be8bc11ce850c1c5d7dbc89193d39281c877d7463b4c2d8",
+      "wiki_map": 259,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "ve_lugannon_palace_f5",
+      "zone": 177,
+      "floor": 5,
+      "index": 203,
+      "dat": 5652,
+      "name": "Ve'Lugannon Palace / Map 5",
+      "region": "tulia",
+      "transform": {
+        "scale": 4,
+        "offset_x": 16,
+        "offset_y": -528
+      },
+      "tab": "Map 5",
+      "artwork_sha256": "edb123e5158ff80542954f2a45c8b09d2d8064144f92d2b06495e4ccdef6f67e",
+      "wiki_map": 260,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "ve_lugannon_palace_f6",
+      "zone": 177,
+      "floor": 6,
+      "index": 204,
+      "dat": 5653,
+      "name": "Ve'Lugannon Palace / Map 6",
+      "region": "tulia",
+      "transform": {
+        "scale": 4,
+        "offset_x": -592,
+        "offset_y": -240
+      },
+      "tab": "Map 6",
+      "artwork_sha256": "c00fc4f1b44738bb0e324dd900d7cf0d7032fb38f0d0dcbe2e5721fc3fdeaece",
+      "wiki_map": 261,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "ve_lugannon_palace_f7",
+      "zone": 177,
+      "floor": 7,
+      "index": 205,
+      "dat": 5654,
+      "name": "Ve'Lugannon Palace / Map 7",
+      "region": "tulia",
+      "transform": {
+        "scale": 4,
+        "offset_x": -560,
+        "offset_y": -80
+      },
+      "tab": "Map 7",
+      "artwork_sha256": "403ee8d97448820d00a2e0533f72959affc14d07c86c15eec0bafaf3f4dc622d",
+      "wiki_map": 263,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "ve_lugannon_palace_f8",
+      "zone": 177,
+      "floor": 8,
+      "index": 206,
+      "dat": 5655,
+      "name": "Ve'Lugannon Palace / Map 8",
+      "region": "tulia",
+      "transform": {
+        "scale": 4,
+        "offset_x": 48,
+        "offset_y": -80
+      },
+      "tab": "Map 8",
+      "artwork_sha256": "623c4da6585f2b1d861d80ba9a3d6fbb57d9a9c83971d3e429c0a9f3ec362634",
+      "wiki_map": 264,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "ve_lugannon_palace_f9",
+      "zone": 177,
+      "floor": 9,
+      "index": 207,
+      "dat": 5656,
+      "name": "Ve'Lugannon Palace / Map 9",
+      "region": "tulia",
+      "transform": {
+        "scale": 4,
+        "offset_x": 80,
+        "offset_y": -240
+      },
+      "tab": "Map 9",
+      "artwork_sha256": "974389c0a8bd8fdcd2a43b99e4b08787a66a59adb374feb2826ac0d43a0f24d7",
+      "wiki_map": 265,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "the_shrine_of_ru_avitau_f1",
+      "zone": 178,
+      "floor": 1,
+      "index": 209,
+      "dat": 5658,
+      "name": "The Shrine of Ru'Avitau / Map 2",
+      "region": "tulia",
+      "transform": {
+        "scale": 2,
+        "offset_x": -256,
+        "offset_y": -288
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "69e526c4f5d82e7e3b4235057da4d4427b62b27625f067d44afa259e4c3a408d",
+      "wiki_map": 267,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "the_shrine_of_ru_avitau_f2",
+      "zone": 178,
+      "floor": 2,
+      "index": 210,
+      "dat": 5659,
+      "name": "The Shrine of Ru'Avitau / Map 3",
+      "region": "tulia",
+      "transform": {
+        "scale": 4,
+        "offset_x": -256,
+        "offset_y": -240
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "e2b94f9c8032419f85c3ca5436844824326103d43e6bf273836eda9c40d57a7d",
+      "wiki_map": 268,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "the_shrine_of_ru_avitau_f3",
+      "zone": 178,
+      "floor": 3,
+      "index": 211,
+      "dat": 5660,
+      "name": "The Shrine of Ru'Avitau / Map 4",
+      "region": "tulia",
+      "transform": {
+        "scale": 4,
+        "offset_x": 384,
+        "offset_y": -736
+      },
+      "tab": "Map 4",
+      "artwork_sha256": "36458ee329636904705feddb156a94062e258d7c99a02b0dcd3aea2069534ee8",
+      "wiki_map": 269,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "the_shrine_of_ru_avitau_f4",
+      "zone": 178,
+      "floor": 4,
+      "index": 212,
+      "dat": 5661,
+      "name": "The Shrine of Ru'Avitau / Map 5",
+      "region": "tulia",
+      "transform": {
+        "scale": 4,
+        "offset_x": 384,
+        "offset_y": -272
+      },
+      "tab": "Map 5",
+      "artwork_sha256": "89d53f4ad7b9192c6f465d5870074ecc767bc32bb3874b7814bfefe236fa4485",
+      "wiki_map": 270,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "the_shrine_of_ru_avitau_f5",
+      "zone": 178,
+      "floor": 5,
+      "index": 213,
+      "dat": 5662,
+      "name": "The Shrine of Ru'Avitau / Map 6",
+      "region": "tulia",
+      "transform": {
+        "scale": 4,
+        "offset_x": 384,
+        "offset_y": 192
+      },
+      "tab": "Map 6",
+      "artwork_sha256": "91ea971444fa6423b822ee05a580805b4addc3b8f886b9e9dab932cbd4b454e7",
+      "wiki_map": 271,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "the_shrine_of_ru_avitau_f15",
+      "zone": 178,
+      "floor": 15,
+      "index": 208,
+      "dat": 5657,
+      "name": "The Shrine of Ru'Avitau / Map 1",
+      "region": "tulia",
+      "transform": {
+        "scale": 4,
+        "offset_x": -256,
+        "offset_y": -272
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "1346afbce6ea187e8ebf33226bb798933af9fa5560db423b79e389b5ebcb96a8",
+      "wiki_map": 266,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "uleguerand_range_f0",
+      "zone": 5,
+      "floor": 0,
+      "index": 246,
+      "dat": 5692,
+      "name": "Uleguerand Range / Map 1",
+      "region": "valdeaunia",
+      "transform": {
+        "scale": 1,
+        "offset_x": -256,
+        "offset_y": -264
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "e5a2c62fa723194538faf887c3749aafa949d88ec974b9086eae4027c85f7b72",
+      "wiki_map": 202,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "pso_xja_f1",
+      "zone": 9,
+      "floor": 1,
+      "index": 248,
+      "dat": 5694,
+      "name": "Pso'Xja / Map 1",
+      "region": "valdeaunia",
+      "transform": {
+        "scale": 4,
+        "offset_x": -16,
+        "offset_y": -208
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "a29b6fdb2980a2e2ac4f4e7373703aa83a6265b5c13054ddaedbebb8e383549e",
+      "wiki_map": 27,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "pso_xja_f2",
+      "zone": 9,
+      "floor": 2,
+      "index": 249,
+      "dat": 5695,
+      "name": "Pso'Xja / Map 3",
+      "region": "valdeaunia",
+      "transform": {
+        "scale": 4,
+        "offset_x": -144,
+        "offset_y": 16
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "25015e02b37163ef9c2402e202d7e2345b1fb29feb0e80610e2a7f4828c62e44",
+      "wiki_map": 29,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "pso_xja_f3",
+      "zone": 9,
+      "floor": 3,
+      "index": 250,
+      "dat": 5696,
+      "name": "Pso'Xja / Map 5",
+      "region": "valdeaunia",
+      "transform": {
+        "scale": 4,
+        "offset_x": -48,
+        "offset_y": -496
+      },
+      "tab": "Map 5",
+      "artwork_sha256": "1493a9bab722811730ced51d31bbee326d8f60033925bb377098b5aaa302351a",
+      "wiki_map": 31,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "pso_xja_f6",
+      "zone": 9,
+      "floor": 6,
+      "index": 253,
+      "dat": 5699,
+      "name": "Pso'Xja / Map 9",
+      "region": "valdeaunia",
+      "transform": {
+        "scale": 4,
+        "offset_x": -528,
+        "offset_y": -80
+      },
+      "tab": "Map 9",
+      "artwork_sha256": "3fe25d8ee1a89e69ea10b4d3819bd3fd09b9478715b2a11eb154efd1482c075a",
+      "wiki_map": 35,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "pso_xja_f7",
+      "zone": 9,
+      "floor": 7,
+      "index": 254,
+      "dat": 5700,
+      "name": "Pso'Xja / Map 10",
+      "region": "valdeaunia",
+      "transform": {
+        "scale": 4,
+        "offset_x": -528,
+        "offset_y": -80
+      },
+      "tab": "Map 10",
+      "artwork_sha256": "38a861a6c2aa1c5252c783f1d86d304e3ea405078dffd7c2fad7b15b336aaaab",
+      "wiki_map": 36,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "pso_xja_f12",
+      "zone": 9,
+      "floor": 12,
+      "index": 259,
+      "dat": 5705,
+      "name": "Pso'Xja / Map 12",
+      "region": "valdeaunia",
+      "transform": {
+        "scale": 4,
+        "offset_x": -512,
+        "offset_y": -496
+      },
+      "tab": "Map 12",
+      "artwork_sha256": "c1ec6d73e071a0b07fd7d3a8665955bcb8380c898ed6b262d16a8bbca61c1be0",
+      "wiki_map": 38,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "pso_xja_f13",
+      "zone": 9,
+      "floor": 13,
+      "index": 260,
+      "dat": 5706,
+      "name": "Pso'Xja / Map 13",
+      "region": "valdeaunia",
+      "transform": {
+        "scale": 4,
+        "offset_x": -512,
+        "offset_y": -496
+      },
+      "tab": "Map 13",
+      "artwork_sha256": "b7febc2d10d14f7ea4a0cd550bfe3e89404a6c5f1b318b0ffb3afa0834b790f9",
+      "wiki_map": 39,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "pso_xja_f14",
+      "zone": 9,
+      "floor": 14,
+      "index": 261,
+      "dat": 5707,
+      "name": "Pso'Xja / Map 14",
+      "region": "valdeaunia",
+      "transform": {
+        "scale": 4,
+        "offset_x": -512,
+        "offset_y": -496
+      },
+      "tab": "Map 14",
+      "artwork_sha256": "9ae9274a19ad4dbbcf5297923230fb7b5e91f02520890563a23947a55f58b24e",
+      "wiki_map": 40,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "pso_xja_f15",
+      "zone": 9,
+      "floor": 15,
+      "index": 262,
+      "dat": 5708,
+      "name": "Pso'Xja / Map 15",
+      "region": "valdeaunia",
+      "transform": {
+        "scale": 4,
+        "offset_x": -512,
+        "offset_y": -496
+      },
+      "tab": "Map 15",
+      "artwork_sha256": "9e5cbcd6c6244c7dc666057bb5b4a7085e6a0ea2235b6df170a85efc4c6630a9",
+      "wiki_map": 41,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "xarcabard",
+      "zone": 112,
+      "floor": 0,
+      "index": 12,
+      "dat": 5325,
+      "name": "Xarcabard",
+      "region": "valdeaunia",
+      "transform": {
+        "scale": 1,
+        "offset_x": -216,
+        "offset_y": -240
+      },
+      "tab": "Xarcabard",
+      "artwork_sha256": "35766de364b9bebe105a2cd88192a3c52d5d621b0844c50534323a1451851a6f",
+      "wiki_map": 207,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "castle_zvahl_baileys_f1",
+      "zone": 161,
+      "floor": 1,
+      "index": 57,
+      "dat": 5390,
+      "name": "Castle Zvahl Baileys / Map 1",
+      "region": "valdeaunia",
+      "transform": {
+        "scale": 2,
+        "offset_x": -160,
+        "offset_y": -256
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "52e8b3664f5c45c6ddde08bef0673ebb627cec1e289691c1221e055b81c5352d",
+      "wiki_map": 95,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "castle_zvahl_baileys_f2",
+      "zone": 161,
+      "floor": 2,
+      "index": 58,
+      "dat": 5515,
+      "name": "Castle Zvahl Baileys / Map 2",
+      "region": "valdeaunia",
+      "transform": {
+        "scale": 2,
+        "offset_x": -272,
+        "offset_y": -256
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "bd496eb559a10df67e8855c85f2c0fb9442a3b5d24fb6f1727d7f523d56eb398",
+      "wiki_map": 96,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "castle_zvahl_baileys_f15",
+      "zone": 161,
+      "floor": 15,
+      "index": 59,
+      "dat": 5516,
+      "name": "Castle Zvahl Baileys / Map 3",
+      "region": "valdeaunia",
+      "transform": {
+        "scale": 2,
+        "offset_x": -272,
+        "offset_y": -256
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "0fa7b4c32d999fadee3b78fc588248fa547194a4379e60359062c42eed36eee3",
+      "wiki_map": 97,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "castle_zvahl_baileys_f16",
+      "zone": 161,
+      "floor": 16,
+      "index": 60,
+      "dat": 5517,
+      "name": "Castle Zvahl Baileys / Map 4",
+      "region": "valdeaunia",
+      "transform": {
+        "scale": 2,
+        "offset_x": -272,
+        "offset_y": -256
+      },
+      "tab": "Map 4",
+      "artwork_sha256": "884cfa8e1688ac01c55d200eeee3a6d54872ad82af0c7613f1587315ae660261",
+      "wiki_map": 98,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "castle_zvahl_keep_f1",
+      "zone": 162,
+      "floor": 1,
+      "index": 61,
+      "dat": 5524,
+      "name": "Castle Zvahl Keep / Map 1",
+      "region": "valdeaunia",
+      "transform": {
+        "scale": 2,
+        "offset_x": -272,
+        "offset_y": -256
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "6dfab1c7f51bf71126c666018bda98c8c5656ddcbbd89961a156b0d15db2589f",
+      "wiki_map": 99,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "castle_zvahl_keep_f2",
+      "zone": 162,
+      "floor": 2,
+      "index": 62,
+      "dat": 5525,
+      "name": "Castle Zvahl Keep / Map 2",
+      "region": "valdeaunia",
+      "transform": {
+        "scale": 2,
+        "offset_x": -272,
+        "offset_y": -256
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "db4cd85242f58408cdd96c08620037b2ea60748dcd2490e0004ef9f9f8c786fe",
+      "wiki_map": 100,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "castle_zvahl_keep_f3",
+      "zone": 162,
+      "floor": 3,
+      "index": 63,
+      "dat": 5526,
+      "name": "Castle Zvahl Keep / Map 3",
+      "region": "valdeaunia",
+      "transform": {
+        "scale": 2,
+        "offset_x": -368,
+        "offset_y": -256
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "f5d705305870240096472b5ff4822d015e9d43051f0a46be0c4b398d73e15783",
+      "wiki_map": 101,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "castle_zvahl_keep_f4",
+      "zone": 162,
+      "floor": 4,
+      "index": 64,
+      "dat": 5527,
+      "name": "Castle Zvahl Keep / Map 4",
+      "region": "valdeaunia",
+      "transform": {
+        "scale": 2,
+        "offset_x": -448,
+        "offset_y": -256
+      },
+      "tab": "Map 4",
+      "artwork_sha256": "74f91822f7764390179ecfdfe66899458419f85c56dd69f13e6346741ef67106",
+      "wiki_map": 102,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "cape_teriggan",
+      "zone": 113,
+      "floor": 0,
+      "index": 158,
+      "dat": 5606,
+      "name": "Cape Teriggan",
+      "region": "vollbow",
+      "transform": {
+        "scale": 1,
+        "offset_x": -256,
+        "offset_y": -256
+      },
+      "tab": "Cape Teriggan",
+      "artwork_sha256": "66ef82dd6862bab3f636ffb598a64f3f749378a0a46cdeb1fee6ab41365b7ddd",
+      "wiki_map": 252,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "valley_of_sorrows",
+      "zone": 128,
+      "floor": 0,
+      "index": 165,
+      "dat": 5613,
+      "name": "Valley of Sorrows",
+      "region": "vollbow",
+      "transform": {
+        "scale": 2,
+        "offset_x": -256,
+        "offset_y": -256
+      },
+      "tab": "Valley of Sorrows",
+      "artwork_sha256": "6c8c82f7df4d1924a37186a135de442634a00e65303d8edc4ce13242f31b295f",
+      "wiki_map": 293,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "kuftal_tunnel_f1",
+      "zone": 174,
+      "floor": 1,
+      "index": 190,
+      "dat": 5639,
+      "name": "Kuftal Tunnel / Map 1",
+      "region": "vollbow",
+      "transform": {
+        "scale": 4,
+        "offset_x": -272,
+        "offset_y": -96
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "496040cad92f1e01ec5be47284427299865226f11074bb1d51a0b4bcdc506f77",
+      "wiki_map": 135,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "kuftal_tunnel_f2",
+      "zone": 174,
+      "floor": 2,
+      "index": 191,
+      "dat": 5640,
+      "name": "Kuftal Tunnel / Map 2",
+      "region": "vollbow",
+      "transform": {
+        "scale": 4,
+        "offset_x": -208,
+        "offset_y": -304
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "9446bc12e340caa71f08a108a1d9ea18887f8873fba01d49739a0972a2f5e757",
+      "wiki_map": 136,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "kuftal_tunnel_f15",
+      "zone": 174,
+      "floor": 15,
+      "index": 192,
+      "dat": 5641,
+      "name": "Kuftal Tunnel / Map 3",
+      "region": "vollbow",
+      "transform": {
+        "scale": 4,
+        "offset_x": -176,
+        "offset_y": -160
+      },
+      "tab": "Map 3",
+      "artwork_sha256": "284a2faa37946226a0febed55e5d618fdbea80bbfeb8ba42ef88bccffd15a155",
+      "wiki_map": 137,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "kuftal_tunnel_f16",
+      "zone": 174,
+      "floor": 16,
+      "index": 193,
+      "dat": 5642,
+      "name": "Kuftal Tunnel / Map 4",
+      "region": "vollbow",
+      "transform": {
+        "scale": 4,
+        "offset_x": -216,
+        "offset_y": -304
+      },
+      "tab": "Map 4",
+      "artwork_sha256": "18e0b5879c466b99a3ce56978de644e1fdd04215e7386b4d278d7f2d6ae1075f",
+      "wiki_map": 138,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "gustav_tunnel_f1",
+      "zone": 212,
+      "floor": 1,
+      "index": 231,
+      "dat": 5677,
+      "name": "Gustav Tunnel / Map 1",
+      "region": "vollbow",
+      "transform": {
+        "scale": 2,
+        "offset_x": -240,
+        "offset_y": -240
+      },
+      "tab": "Map 1",
+      "artwork_sha256": "8f8aeb3ec4bf6f7a531095a3d4aaffc9d049282b3f66758c470667fc7282ee98",
+      "wiki_map": 123,
+      "status": "deterministic_import"
+    },
+    {
+      "key": "gustav_tunnel_f2",
+      "zone": 212,
+      "floor": 2,
+      "index": 232,
+      "dat": 5678,
+      "name": "Gustav Tunnel / Map 2",
+      "region": "vollbow",
+      "transform": {
+        "scale": 2,
+        "offset_x": -280,
+        "offset_y": -280
+      },
+      "tab": "Map 2",
+      "artwork_sha256": "ee0b8aa82dcac6cd86b80f2ae91250240021cece5c66808581b17f375e736a67",
+      "wiki_map": 124,
+      "status": "deterministic_import"
+    }
+  ],
+  "aliases": {
+    "204": "west",
+    "108": "east",
+    "110": "fort",
+    "115": "outpost",
+    "116": "outpost2",
+    "209": "grotto1",
+    "210": "grotto2",
+    "244": "tomb1",
+    "245": "tomb2",
+    "22": "north",
+    "51": "south",
+    "25": "port",
+    "5": "chateau",
+    "84": "oubliette1",
+    "85": "oubliette2",
+    "86": "oubliette3",
+    "7": "latheine",
+    "234": "ranguemont",
+    "129": "jugner",
+    "226": "landing1",
+    "227": "landing2",
+    "3": "batallia",
+    "107": "davoi",
+    "63": "valkurm",
+    "6": "konschtat",
+    "161": "selbina",
+    "4": "beaucedine",
+    "142": "monastic",
+    "232": "feiyin1",
+    "233": "feiyin3",
+    "198": "eldieme2",
+    "199": "eldieme3",
+    "200": "eldieme4",
+    "235": "ordelle1",
+    "236": "ordelle4",
+    "237": "ordelle2",
+    "251": "oldton_movalpolos",
+    "292": "newton_movalpolos",
+    "143": "north_gustaberg",
+    "162": "south_gustaberg",
+    "144": "palborough_mines_f1",
+    "145": "palborough_mines_f2",
+    "146": "palborough_mines_f3",
+    "212": "zeruhn_mines",
+    "130": "korroloka_tunnel_f1",
+    "131": "korroloka_tunnel_f2",
+    "132": "korroloka_tunnel_f3",
+    "133": "korroloka_tunnel_f4",
+    "134": "korroloka_tunnel_f5",
+    "106": "dangruf_wadi",
+    "119": "gusgen_mines_f1",
+    "120": "gusgen_mines_f15",
+    "121": "gusgen_mines_f16",
+    "122": "gusgen_mines_f17",
+    "2": "bastok_mines",
+    "1": "bastok_markets",
+    "23": "port_bastok",
+    "13": "metalworks",
+    "147": "pashhow_marshlands",
+    "48": "rolanberry_fields",
+    "79": "beadeaux_f1",
+    "80": "beadeaux_f15",
+    "152": "qulun_dome",
+    "103": "crawlers_nest_f15",
+    "104": "crawlers_nest_f16",
+    "105": "crawlers_nest_f17",
+    "49": "ru_lude_gardens",
+    "62": "upper_jeuno",
+    "12": "lower_jeuno",
+    "24": "port_jeuno",
+    "202": "uleguerand_range_f0",
+    "27": "pso_xja_f1",
+    "29": "pso_xja_f2",
+    "31": "pso_xja_f3",
+    "35": "pso_xja_f6",
+    "36": "pso_xja_f7",
+    "38": "pso_xja_f12",
+    "39": "pso_xja_f13",
+    "40": "pso_xja_f14",
+    "41": "pso_xja_f15",
+    "207": "xarcabard",
+    "95": "castle_zvahl_baileys_f1",
+    "96": "castle_zvahl_baileys_f2",
+    "97": "castle_zvahl_baileys_f15",
+    "98": "castle_zvahl_baileys_f16",
+    "99": "castle_zvahl_keep_f1",
+    "100": "castle_zvahl_keep_f2",
+    "101": "castle_zvahl_keep_f3",
+    "102": "castle_zvahl_keep_f4",
+    "252": "cape_teriggan",
+    "293": "valley_of_sorrows",
+    "135": "kuftal_tunnel_f1",
+    "136": "kuftal_tunnel_f2",
+    "137": "kuftal_tunnel_f15",
+    "138": "kuftal_tunnel_f16",
+    "123": "gustav_tunnel_f1",
+    "124": "gustav_tunnel_f2",
+    "47": "qufim_island",
+    "81": "behemoth_s_dominion",
+    "15": "middle_delkfutt_s_tower_f4",
+    "16": "middle_delkfutt_s_tower_f5",
+    "17": "middle_delkfutt_s_tower_f6",
+    "18": "middle_delkfutt_s_tower_f7",
+    "19": "middle_delkfutt_s_tower_f8",
+    "20": "middle_delkfutt_s_tower_f9",
+    "56": "upper_delkfutt_s_tower_f1",
+    "57": "upper_delkfutt_s_tower_f2",
+    "58": "upper_delkfutt_s_tower_f3",
+    "59": "upper_delkfutt_s_tower_f6",
+    "8": "lower_delkfutt_s_tower_f1",
+    "9": "lower_delkfutt_s_tower_f2",
+    "10": "lower_delkfutt_s_tower_f3",
+    "11": "lower_delkfutt_s_tower_f15",
+    "140": "meriphataud_mountains",
+    "50": "sauromugue_champaign",
+    "88": "castle_oztroja_f1",
+    "89": "castle_oztroja_f2",
+    "90": "castle_oztroja_f3",
+    "92": "castle_oztroja_f5",
+    "94": "castle_oztroja_f15",
+    "69": "altar_room",
+    "111": "garlaige_citadel_f1",
+    "112": "garlaige_citadel_f2",
+    "113": "garlaige_citadel_f3",
+    "114": "garlaige_citadel_f16",
+    "82": "bibiki_bay_f1",
+    "83": "bibiki_bay_f2",
+    "78": "attohwa_chasm",
+    "52": "tahrongi_canyon",
+    "87": "buburimu_peninsula",
+    "238": "maze_of_shakhrami_f15",
+    "239": "maze_of_shakhrami_f16",
+    "243": "labyrinth_of_onzozo",
+    "14": "mhaura",
+    "205": "west_sarutabaruta",
+    "109": "east_sarutabaruta",
+    "117": "giddeus_f1",
+    "118": "giddeus_f15",
+    "253": "toraimarai_canal_f1",
+    "254": "toraimarai_canal_f2",
+    "125": "inner_horutoto_ruins_f1",
+    "126": "inner_horutoto_ruins_f2",
+    "127": "inner_horutoto_ruins_f3",
+    "128": "inner_horutoto_ruins_f4",
+    "246": "outer_horutoto_ruins_f1",
+    "247": "outer_horutoto_ruins_f2",
+    "248": "outer_horutoto_ruins_f3",
+    "249": "outer_horutoto_ruins_f4",
+    "250": "outer_horutoto_ruins_f5",
+    "65": "windurst_waters_f1",
+    "66": "windurst_waters_f2",
+    "64": "windurst_walls",
+    "26": "port_windurst",
+    "67": "windurst_woods",
+    "201": "the_sanctuary_of_zi_tah",
+    "282": "ro_maeve",
+    "194": "the_boyahda_tree_f1",
+    "195": "the_boyahda_tree_f2",
+    "196": "the_boyahda_tree_f3",
+    "197": "the_boyahda_tree_f4",
+    "281": "dragon_s_aery",
+    "255": "hall_of_the_gods",
+    "155": "ru_aun_gardens",
+    "256": "ve_lugannon_palace_f1",
+    "257": "ve_lugannon_palace_f2",
+    "258": "ve_lugannon_palace_f3",
+    "259": "ve_lugannon_palace_f4",
+    "260": "ve_lugannon_palace_f5",
+    "261": "ve_lugannon_palace_f6",
+    "263": "ve_lugannon_palace_f7",
+    "264": "ve_lugannon_palace_f8",
+    "265": "ve_lugannon_palace_f9",
+    "266": "the_shrine_of_ru_avitau_f15",
+    "267": "the_shrine_of_ru_avitau_f1",
+    "268": "the_shrine_of_ru_avitau_f2",
+    "269": "the_shrine_of_ru_avitau_f3",
+    "270": "the_shrine_of_ru_avitau_f4",
+    "271": "the_shrine_of_ru_avitau_f5",
+    "213": "eastern_altepa_desert",
+    "214": "western_altepa_desert",
+    "216": "quicksand_caves_f1",
+    "217": "quicksand_caves_f2",
+    "218": "quicksand_caves_f3",
+    "219": "quicksand_caves_f4",
+    "220": "quicksand_caves_f5",
+    "221": "quicksand_caves_f6",
+    "222": "quicksand_caves_f7",
+    "223": "quicksand_caves_f8",
+    "215": "rabao",
+    "211": "yuhtunga_jungle",
+    "156": "sea_serpent_grotto_f1",
+    "157": "sea_serpent_grotto_f2",
+    "158": "sea_serpent_grotto_f3",
+    "159": "sea_serpent_grotto_f4",
+    "160": "sea_serpent_grotto_f5",
+    "291": "kazham",
+    "21": "norg",
+    "208": "yhoator_jungle",
+    "190": "temple_of_uggalepih_f1",
+    "191": "temple_of_uggalepih_f2",
+    "192": "temple_of_uggalepih_f3",
+    "193": "temple_of_uggalepih_f4",
+    "272": "den_of_rancor_f1",
+    "273": "den_of_rancor_f2",
+    "274": "den_of_rancor_f3",
+    "275": "den_of_rancor_f4",
+    "276": "den_of_rancor_f5",
+    "277": "den_of_rancor_f6",
+    "278": "den_of_rancor_f7",
+    "279": "den_of_rancor_f8",
+    "280": "den_of_rancor_f9",
+    "283": "ifrit_s_cauldron_f1",
+    "284": "ifrit_s_cauldron_f2",
+    "285": "ifrit_s_cauldron_f3",
+    "286": "ifrit_s_cauldron_f4",
+    "287": "ifrit_s_cauldron_f5",
+    "288": "ifrit_s_cauldron_f15",
+    "289": "ifrit_s_cauldron_f16",
+    "290": "ifrit_s_cauldron_f17",
+    "139": "lufaise_meadows",
+    "141": "misareaux_coast",
+    "53": "tavnazian_safehold_f1",
+    "54": "tavnazian_safehold_f2",
+    "55": "tavnazian_safehold_f3",
+    "229": "phomiuna_aqueducts_f1",
+    "230": "phomiuna_aqueducts_f2",
+    "231": "phomiuna_aqueducts_f3",
+    "224": "sacrarium_f1",
+    "225": "sacrarium_f2",
+    "206": "riverne_site_b01",
+    "153": "riverne_site_a01",
+    "228": "sealion_s_den"
+  }
+}

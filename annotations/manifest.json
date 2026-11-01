@@ -1,0 +1,1047 @@
+{
+  "schema_version": 1,
+  "pilot_maps": [
+    "latheine",
+    "valkurm",
+    "konschtat",
+    "selbina",
+    "ordelle1",
+    "ordelle2",
+    "ordelle3",
+    "ordelle4",
+    "jugner",
+    "batallia",
+    "davoi",
+    "monastic",
+    "eldieme1",
+    "eldieme2",
+    "eldieme3",
+    "eldieme4",
+    "landing1",
+    "landing2",
+    "ranguemont",
+    "beaucedine",
+    "feiyin1",
+    "feiyin2",
+    "feiyin3"
+  ],
+  "maps": {
+    "west": {
+      "key": "west",
+      "zone": 100,
+      "index": 0,
+      "dat": 5313,
+      "name": "West Ronfaure",
+      "x": 210,
+      "y": 305,
+      "floor": 0,
+      "tab": "West Ronfaure",
+      "region": "ronfaure",
+      "artwork": {
+        "sha256": "84543ddec39661b9b71c1a9f5f3f85c2b52551d2db164837e87af480bb5a513e",
+        "pixel_sha256": "a6dfd42ae3e8c310ade3e698d12f871dc22f11448b5f1dcd230e3fc62e5e563e",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/17/24.DAT",
+        "image": "packets/west.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/west-original.png"
+      }
+    },
+    "east": {
+      "key": "east",
+      "zone": 101,
+      "index": 1,
+      "dat": 5314,
+      "name": "East Ronfaure",
+      "x": 430,
+      "y": 305,
+      "floor": 0,
+      "tab": "East Ronfaure",
+      "region": "ronfaure",
+      "artwork": {
+        "sha256": "780edb7e8f945706e2b12b7a4e28e0630383f7794cc94c84dfd9596c7072d767",
+        "pixel_sha256": "89c4ebc5e6398b90b52ef70cf412a06cae792be73731d5044d030db48ef93063",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/17/25.DAT",
+        "image": "packets/east.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/east-original.png"
+      }
+    },
+    "outpost": {
+      "key": "outpost",
+      "zone": 140,
+      "index": 21,
+      "dat": 5340,
+      "name": "Ghelsba Outpost",
+      "x": 95,
+      "y": 185,
+      "floor": 1,
+      "tab": "Outside",
+      "region": "ronfaure",
+      "artwork": {
+        "sha256": "976d8f8b51bb29d437a3de4eb7215dc65bdd24c6f9d9ce821d435610e3039810",
+        "pixel_sha256": "30ac45c898bcf8c19b6da32091b9449c9b0075d688a33584efc9f4fa633cd6bb",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/17/51.DAT",
+        "image": "packets/outpost.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/outpost-original.png"
+      }
+    },
+    "outpost2": {
+      "key": "outpost2",
+      "zone": 140,
+      "index": 22,
+      "dat": 5341,
+      "name": "Ghelsba Outpost / caves",
+      "x": 95,
+      "y": 185,
+      "floor": 15,
+      "tab": "Caves",
+      "region": "ronfaure",
+      "artwork": {
+        "sha256": "2a96301fc5a51e7053e2989bc41b9ee4b134135521f9f8211363949ad7bed091",
+        "pixel_sha256": "8f91778964a7a1f61e6f82d19f2f109f15c76108ea65710814c5fce536859b02",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/17/52.DAT",
+        "image": "packets/outpost2.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/outpost2-original.png"
+      }
+    },
+    "fort": {
+      "key": "fort",
+      "zone": 141,
+      "index": 23,
+      "dat": 5342,
+      "name": "Fort Ghelsba",
+      "x": 95,
+      "y": 90,
+      "floor": 0,
+      "tab": "Fort Ghelsba",
+      "region": "ronfaure",
+      "artwork": {
+        "sha256": "773b5c6366e2174d8300cce09c17eb3f5f4e7738ab38c847b31b76a500797b33",
+        "pixel_sha256": "65b394bc7be4e56f01a01a93f5f179edf4ce67c629d352fbbbd6dad2118a2e73",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/17/53.DAT",
+        "image": "packets/fort.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/fort-original.png"
+      }
+    },
+    "grotto1": {
+      "key": "grotto1",
+      "zone": 142,
+      "index": 24,
+      "dat": 5529,
+      "name": "Yughott Grotto / lower",
+      "x": 230,
+      "y": 90,
+      "floor": 1,
+      "tab": "Lower",
+      "region": "ronfaure",
+      "artwork": {
+        "sha256": "a6d43a7922146331c0d4ce16c97ff4f3acd451c9291ff8870bd7f39046c0b1c1",
+        "pixel_sha256": "e11a9eb4aa94836c27e3ec8222827b82602630d15e7f56a7873bb76ce299b54d",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/18/112.DAT",
+        "image": "packets/grotto1.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/grotto1-original.png"
+      }
+    },
+    "grotto2": {
+      "key": "grotto2",
+      "zone": 142,
+      "index": 25,
+      "dat": 5530,
+      "name": "Yughott Grotto / upper",
+      "x": 365,
+      "y": 90,
+      "floor": 2,
+      "tab": "Upper",
+      "region": "ronfaure",
+      "artwork": {
+        "sha256": "07fb6458207906d3e9ee9d2c3362a2129f0643b994762df09679760d281bb7d3",
+        "pixel_sha256": "377b18a877a2e7c49a3726987098c9b5cec676e9113a18833f1ae55ca9972330",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/18/113.DAT",
+        "image": "packets/grotto2.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/grotto2-original.png"
+      }
+    },
+    "tomb1": {
+      "key": "tomb1",
+      "zone": 190,
+      "index": 77,
+      "dat": 5428,
+      "name": "King Ranperre's Tomb / 1",
+      "x": 430,
+      "y": 420,
+      "floor": 1,
+      "tab": "Map 1",
+      "region": "ronfaure",
+      "artwork": {
+        "sha256": "c47ebc23aacc7f11017390f96cd71d6e35c1de68136529e866d8c8fcc83b963a",
+        "pixel_sha256": "ec2fc7b708c56c78d2407bad2ba3f9116b1787f573c4e47af57a47ced75a918f",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/18/11.DAT",
+        "image": "packets/tomb1.png",
+        "width": 2048,
+        "height": 2048,
+        "reference_size": 512,
+        "original_image": "packets/tomb1-original.png"
+      }
+    },
+    "tomb2": {
+      "key": "tomb2",
+      "zone": 190,
+      "index": 78,
+      "dat": 5429,
+      "name": "King Ranperre's Tomb / 2",
+      "x": 430,
+      "y": 490,
+      "floor": 2,
+      "tab": "Map 2",
+      "region": "ronfaure",
+      "artwork": {
+        "sha256": "152254b065460d5987d46bf7ae74b37d1ff8f60bf390be4bc756b364de40f6b6",
+        "pixel_sha256": "94e199a9f0a4b3965854b5dc61522a10f764ac132a04459eb717f7dd0c337da2",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/18/12.DAT",
+        "image": "packets/tomb2.png",
+        "width": 2048,
+        "height": 2048,
+        "reference_size": 512,
+        "original_image": "packets/tomb2-original.png"
+      }
+    },
+    "south": {
+      "key": "south",
+      "zone": 230,
+      "index": 127,
+      "dat": 5476,
+      "name": "Southern San d'Oria",
+      "x": 320,
+      "y": 205,
+      "floor": 0,
+      "tab": "South",
+      "boundary": true,
+      "region": "ronfaure",
+      "artwork": {
+        "sha256": "4462a0fa28db28b8ca2f6ba5e737b273c51430e39873fbe50123e54e1287f47f",
+        "pixel_sha256": "06129b402103c440fa7febd904374fac543cd3228a3353068fbb4d12d13fdb9f",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/18/59.DAT",
+        "image": "packets/south.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/south-original.png"
+      }
+    },
+    "north": {
+      "key": "north",
+      "zone": 231,
+      "index": 140,
+      "dat": 5477,
+      "name": "Northern San d'Oria",
+      "x": 210,
+      "y": 205,
+      "floor": 0,
+      "tab": "North",
+      "boundary": true,
+      "region": "ronfaure",
+      "artwork": {
+        "sha256": "af427f11a1d7c9251e02444d40088ff7a9aa2ebc32d19295e316b47187b2cfc7",
+        "pixel_sha256": "8d49c4cd173f51d9f92456bec631c8e67912d0bc25790af3680ec927e857d4d3",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/18/60.DAT",
+        "image": "packets/north.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/north-original.png"
+      }
+    },
+    "port": {
+      "key": "port",
+      "zone": 232,
+      "index": 141,
+      "dat": 5478,
+      "name": "Port San d'Oria",
+      "x": 210,
+      "y": 205,
+      "floor": 0,
+      "tab": "Port",
+      "boundary": true,
+      "region": "ronfaure",
+      "artwork": {
+        "sha256": "2650a6107b8919919d944788ce71be580358b38bce136cffae256738b2ca7f73",
+        "pixel_sha256": "cb779d7f8d672995fe1685e78ed29719ca6c28a8e3dd46f0b42c176ad8e89eaf",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/18/61.DAT",
+        "image": "packets/port.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/port-original.png"
+      }
+    },
+    "chateau": {
+      "key": "chateau",
+      "zone": 233,
+      "index": 142,
+      "dat": 5479,
+      "name": "Chateau d'Oraguille",
+      "x": 210,
+      "y": 205,
+      "floor": 0,
+      "tab": "Chateau",
+      "boundary": true,
+      "region": "ronfaure",
+      "artwork": {
+        "sha256": "e376de16708418c6e83e382ca53b1c9ba3466a668a3e29ab0bdd999a0e8f8dbe",
+        "pixel_sha256": "74f3b64dc2d49652ec4391c9fbf37b0f5818f34b3441bc5e756850edf418831f",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/18/62.DAT",
+        "image": "packets/chateau.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/chateau-original.png"
+      }
+    },
+    "oubliette1": {
+      "key": "oubliette1",
+      "zone": 167,
+      "index": 66,
+      "dat": 5401,
+      "name": "Bostaunieux Oubliette / 1",
+      "x": 210,
+      "y": 205,
+      "floor": 15,
+      "tab": "Prison",
+      "region": "ronfaure",
+      "artwork": {
+        "sha256": "689accc4ce8253de4fe629ab70c396467fc69d18fe35eba4a9c391a36a4294d1",
+        "pixel_sha256": "9e9da02de1072bebd06db6f53df3b01210a55a1d8e8b8668cabb53e9f261e9a7",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/17/112.DAT",
+        "image": "packets/oubliette1.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/oubliette1-original.png"
+      }
+    },
+    "oubliette2": {
+      "key": "oubliette2",
+      "zone": 167,
+      "index": 67,
+      "dat": 5402,
+      "name": "Bostaunieux Oubliette / 2",
+      "x": 210,
+      "y": 205,
+      "floor": 16,
+      "tab": "Upper tunnels",
+      "region": "ronfaure",
+      "artwork": {
+        "sha256": "cb48c4d4a91849e8be55478e7c3b88cfb889fb8d059837c2b780d62ab15415e5",
+        "pixel_sha256": "c328dffb54426418333bf060c2cf008d136100fbc4d57c262b6cdbc31dad06ff",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/17/113.DAT",
+        "image": "packets/oubliette2.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/oubliette2-original.png"
+      }
+    },
+    "oubliette3": {
+      "key": "oubliette3",
+      "zone": 167,
+      "index": 68,
+      "dat": 5403,
+      "name": "Bostaunieux Oubliette / 3",
+      "x": 210,
+      "y": 205,
+      "floor": 17,
+      "tab": "Lower tunnels",
+      "region": "ronfaure",
+      "artwork": {
+        "sha256": "677f50b32b681e36b4b2e28fc5b1927f53d982eb33e04d0699246ec08aa6d77f",
+        "pixel_sha256": "f27dc0f66de66a158e99f68ccc9a9a0f1ce7f146bc0f91f9d2856cad0c108858",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/17/114.DAT",
+        "image": "packets/oubliette3.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/oubliette3-original.png"
+      }
+    },
+    "latheine": {
+      "key": "latheine",
+      "zone": 102,
+      "index": 2,
+      "dat": 5315,
+      "name": "La Theine Plateau",
+      "x": 210,
+      "y": 470,
+      "floor": 0,
+      "tab": "La Theine Plateau",
+      "boundary": true,
+      "region": "zulkheim",
+      "transform": {
+        "scale": 1,
+        "offset_x": -256,
+        "offset_y": -248
+      },
+      "artwork": {
+        "sha256": "79293e9c0ed782f6c5731339d2be4938b8a41b383750584ef30ce913e278322a",
+        "pixel_sha256": "106e81a72265414109235736ecb3c15cdc2fb37eb2330ee96a4d1786d073d6cc",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/17/26.DAT",
+        "image": "packets/latheine.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/latheine-original.png"
+      }
+    },
+    "ranguemont": {
+      "key": "ranguemont",
+      "zone": 166,
+      "index": 65,
+      "dat": 5400,
+      "name": "Ranguemont Pass",
+      "x": 565,
+      "y": 230,
+      "floor": 0,
+      "tab": "Ranguemont Pass",
+      "boundary": true,
+      "region": "fauregandi",
+      "transform": {
+        "scale": 2,
+        "offset_x": -256,
+        "offset_y": -240
+      },
+      "artwork": {
+        "sha256": "5e9257cf88ab86ce133654f1eaafb4f4d3797fd6197cf69ce67faf2aa56b7941",
+        "pixel_sha256": "0a2e3e418c74d0862cfa14452a9cd8f9d34ee2205f9ab1fc511af59364c12e53",
+        "overlay": "ffxivision",
+        "path": "polplugins/DATs/ffxivision/ROM/17/111.DAT",
+        "image": "packets/ranguemont.png",
+        "width": 512,
+        "height": 512,
+        "reference_size": 512,
+        "original_image": "packets/ranguemont-original.png"
+      }
+    },
+    "jugner": {
+      "key": "jugner",
+      "zone": 104,
+      "index": 4,
+      "dat": 5317,
+      "name": "Jugner Forest",
+      "x": 565,
+      "y": 470,
+      "floor": 0,
+      "tab": "Jugner Forest",
+      "boundary": true,
+      "region": "norvallen",
+      "transform": {
+        "scale": 1,
+        "offset_x": -264,
+        "offset_y": -256
+      },
+      "artwork": {
+        "sha256": "1b965f8ec32266b1514272b9f2c80e84ec292b19f2505ee69bef149b78227aca",
+        "pixel_sha256": "16aa0c44e74a02f0f7d6089a31159b4bc28f0663f899ba845ac0afae46ef23d8",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/17/28.DAT",
+        "image": "packets/jugner.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/jugner-original.png"
+      }
+    },
+    "horlais": {
+      "key": "horlais",
+      "zone": 139,
+      "name": "Horlais Peak",
+      "x": 505,
+      "y": 90,
+      "tab": "Horlais Peak",
+      "region": "ronfaure"
+    },
+    "valkurm": {
+      "key": "valkurm",
+      "zone": 103,
+      "floor": 0,
+      "index": 3,
+      "dat": 5316,
+      "name": "Valkurm Dunes",
+      "region": "zulkheim",
+      "transform": {
+        "scale": 1,
+        "offset_x": -216,
+        "offset_y": -256
+      },
+      "tab": "Valkurm Dunes",
+      "artwork": {
+        "sha256": "bf2e0a427361f087ef07d83e1e660f3d2cb8c2a39a07e737d08025e4a471e40c",
+        "pixel_sha256": "43d6fcf9a67df0c0db4c92516d5f9da4b7385e006bd4961b545ab79acc130800",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/17/27.DAT",
+        "image": "packets/valkurm.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/valkurm-original.png"
+      }
+    },
+    "konschtat": {
+      "key": "konschtat",
+      "zone": 108,
+      "floor": 0,
+      "index": 8,
+      "dat": 5321,
+      "name": "Konschtat Highlands",
+      "region": "zulkheim",
+      "transform": {
+        "scale": 1,
+        "offset_x": -256,
+        "offset_y": -264
+      },
+      "tab": "Konschtat Highlands",
+      "artwork": {
+        "sha256": "92f9af8a611b1af2733d7a3e437d9b9b38bb034b98512cce15a1a675d1b5637e",
+        "pixel_sha256": "81f9eb7669338c92408404086ab6806a4adbcab3a30236389d64f6970e327a0c",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/17/32.DAT",
+        "image": "packets/konschtat.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/konschtat-original.png"
+      }
+    },
+    "selbina": {
+      "key": "selbina",
+      "zone": 248,
+      "floor": 0,
+      "index": 156,
+      "dat": 5497,
+      "name": "Selbina",
+      "region": "zulkheim",
+      "transform": {
+        "scale": 4,
+        "offset_x": -256,
+        "offset_y": -288
+      },
+      "tab": "Selbina",
+      "artwork": {
+        "sha256": "3b2cc5f4747586abe3909727a409bc2427e1bb5c514743e1ac2170d81ce5cde2",
+        "pixel_sha256": "1fc39a1e672fcd82d5acb0d572213aa2bfafc37eb61a6942443f4894f312e372",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/18/80.DAT",
+        "image": "packets/selbina.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/selbina-original.png"
+      }
+    },
+    "ordelle1": {
+      "key": "ordelle1",
+      "zone": 193,
+      "floor": 1,
+      "index": 92,
+      "dat": 5438,
+      "name": "Ordelle's Caves / 1",
+      "region": "zulkheim",
+      "transform": {
+        "scale": 2,
+        "offset_x": -272,
+        "offset_y": -336
+      },
+      "tab": "1",
+      "artwork": {
+        "sha256": "55de9c3ba2d07227e9cda3e6aac3b18b51092fe28e4ab91953a79cb8c97a8e78",
+        "pixel_sha256": "8ba2759d08d158ecdbef1cfe97f2043f1422d0161b649e611ac38bc4bc1f625e",
+        "overlay": "ffxivision",
+        "path": "polplugins/DATs/ffxivision/ROM/18/21.DAT",
+        "image": "packets/ordelle1.png",
+        "width": 512,
+        "height": 512,
+        "reference_size": 512,
+        "original_image": "packets/ordelle1-original.png"
+      }
+    },
+    "ordelle2": {
+      "key": "ordelle2",
+      "zone": 193,
+      "floor": 2,
+      "index": 93,
+      "dat": 5439,
+      "name": "Ordelle's Caves / southern galleries",
+      "region": "zulkheim",
+      "transform": {
+        "scale": 2,
+        "offset_x": -304,
+        "offset_y": -224
+      },
+      "tab": "southern galleries",
+      "artwork": {
+        "sha256": "011e9463b26de83dd2dc0f927e18ca9abc304c804f75a7644034373d6621cb44",
+        "pixel_sha256": "3410f92104df8cd2e2d3daaba2db4058f766eb0c807e3a95e57a5d0a1834f718",
+        "overlay": "ffxivision",
+        "path": "polplugins/DATs/ffxivision/ROM/18/22.DAT",
+        "image": "packets/ordelle2.png",
+        "width": 512,
+        "height": 512,
+        "reference_size": 512,
+        "original_image": "packets/ordelle2-original.png"
+      }
+    },
+    "ordelle3": {
+      "key": "ordelle3",
+      "zone": 193,
+      "floor": 14,
+      "index": 94,
+      "dat": 5531,
+      "name": "Ordelle's Caves / apparatus",
+      "region": "zulkheim",
+      "transform": {
+        "scale": 2,
+        "offset_x": -272,
+        "offset_y": -336
+      },
+      "tab": "apparatus",
+      "artwork": {
+        "sha256": "57eb7ea5d15603883f65e44dbaff5862546068a428e4f735316d3188dbfa41e8",
+        "pixel_sha256": "287cf40a709473b8412b8413d318cf7ed31ae65f80c82927bfce566910ad5ac0",
+        "overlay": "ffxivision",
+        "path": "polplugins/DATs/ffxivision/ROM/18/114.DAT",
+        "image": "packets/ordelle3.png",
+        "width": 512,
+        "height": 512,
+        "reference_size": 512,
+        "original_image": "packets/ordelle3-original.png"
+      }
+    },
+    "ordelle4": {
+      "key": "ordelle4",
+      "zone": 193,
+      "floor": 15,
+      "index": 95,
+      "dat": 5437,
+      "name": "Ordelle's Caves / upper",
+      "region": "zulkheim",
+      "transform": {
+        "scale": 2,
+        "offset_x": -272,
+        "offset_y": -336
+      },
+      "tab": "upper",
+      "artwork": {
+        "sha256": "c91d157822175e0ebc6a74208662b0daadb8b1725bc49673b5aebf91694444cd",
+        "pixel_sha256": "287cf40a709473b8412b8413d318cf7ed31ae65f80c82927bfce566910ad5ac0",
+        "overlay": "ffxivision",
+        "path": "polplugins/DATs/ffxivision/ROM/18/20.DAT",
+        "image": "packets/ordelle4.png",
+        "width": 512,
+        "height": 512,
+        "reference_size": 512,
+        "original_image": "packets/ordelle4-original.png"
+      }
+    },
+    "batallia": {
+      "key": "batallia",
+      "zone": 105,
+      "floor": 0,
+      "index": 5,
+      "dat": 5318,
+      "name": "Batallia Downs",
+      "region": "norvallen",
+      "transform": {
+        "scale": 1,
+        "offset_x": -272,
+        "offset_y": -240
+      },
+      "tab": "Batallia Downs",
+      "artwork": {
+        "sha256": "b0dfcff3f05192e47a0e5db835663d4cf3547d2b044207eff5dc38a243270b28",
+        "pixel_sha256": "67abe1bef2c53d8815abd9080c4082dee8dcb49b8839fc41c103d0c525d23777",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/17/29.DAT",
+        "image": "packets/batallia.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/batallia-original.png"
+      }
+    },
+    "davoi": {
+      "key": "davoi",
+      "zone": 149,
+      "floor": 0,
+      "index": 35,
+      "dat": 5355,
+      "name": "Davoi",
+      "region": "norvallen",
+      "transform": {
+        "scale": 2,
+        "offset_x": -240,
+        "offset_y": -208
+      },
+      "tab": "Davoi",
+      "artwork": {
+        "sha256": "b3c8d035ff095e0ccdb6174c35fd84b0776e4b5eace80457ee78b77b4f0ab9d3",
+        "pixel_sha256": "2d6e82dc239b0d924a83686c33c4c3ccd7023f88e5b117665879dadc82f1518b",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/17/66.DAT",
+        "image": "packets/davoi.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/davoi-original.png"
+      }
+    },
+    "monastic": {
+      "key": "monastic",
+      "zone": 150,
+      "floor": 0,
+      "index": 36,
+      "dat": 5356,
+      "name": "Monastic Cavern",
+      "region": "norvallen",
+      "transform": {
+        "scale": 2,
+        "offset_x": -240,
+        "offset_y": -192
+      },
+      "tab": "Monastic Cavern",
+      "artwork": {
+        "sha256": "917ec5a56d46c4bf18404fb67da7e9a3b22308aa693757db5708d6812d63ca7b",
+        "pixel_sha256": "9946faeb1a32147779abeba2ec76b2e5f9c011c81f97346f4ca65fba51675680",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/17/67.DAT",
+        "image": "packets/monastic.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/monastic-original.png"
+      }
+    },
+    "eldieme1": {
+      "key": "eldieme1",
+      "zone": 195,
+      "floor": 14,
+      "index": 96,
+      "dat": 5533,
+      "name": "The Eldieme Necropolis / apparatus",
+      "region": "norvallen",
+      "transform": {
+        "scale": 2,
+        "offset_x": -304,
+        "offset_y": -336
+      },
+      "tab": "apparatus",
+      "artwork": {
+        "sha256": "bf627a3def63334877cfb2a3f3cb6f9b5baed7bba36c3ce1076222f46e3d4e02",
+        "pixel_sha256": "6d9e4ce96b293fbeaa7685309df0f19ffe97d0ccf6b116f1a5a32c7e82a3717a",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/18/116.DAT",
+        "image": "packets/eldieme1.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/eldieme1-original.png"
+      }
+    },
+    "eldieme2": {
+      "key": "eldieme2",
+      "zone": 195,
+      "floor": 15,
+      "index": 97,
+      "dat": 5441,
+      "name": "The Eldieme Necropolis / entrance",
+      "region": "norvallen",
+      "transform": {
+        "scale": 2,
+        "offset_x": -160,
+        "offset_y": -256
+      },
+      "tab": "entrance",
+      "artwork": {
+        "sha256": "19338aecf0565a5e4ca0fa01314b691548698ff2b13e730b4a2acd2cc510c752",
+        "pixel_sha256": "55846488965a412ad19ee57e912e9029888fcdca7e0b637f6832685d70d6d18d",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/18/24.DAT",
+        "image": "packets/eldieme2.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/eldieme2-original.png"
+      }
+    },
+    "eldieme3": {
+      "key": "eldieme3",
+      "zone": 195,
+      "floor": 16,
+      "index": 98,
+      "dat": 5442,
+      "name": "The Eldieme Necropolis / crypts",
+      "region": "norvallen",
+      "transform": {
+        "scale": 2,
+        "offset_x": -304,
+        "offset_y": -336
+      },
+      "tab": "crypts",
+      "artwork": {
+        "sha256": "5cbdc0e7731d688b83284e87aaff2440741da285f19f157e2bff0f0ff8f5bb86",
+        "pixel_sha256": "6d9e4ce96b293fbeaa7685309df0f19ffe97d0ccf6b116f1a5a32c7e82a3717a",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/18/25.DAT",
+        "image": "packets/eldieme3.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/eldieme3-original.png"
+      }
+    },
+    "eldieme4": {
+      "key": "eldieme4",
+      "zone": 195,
+      "floor": 17,
+      "index": 99,
+      "dat": 5440,
+      "name": "The Eldieme Necropolis / lower",
+      "region": "norvallen",
+      "transform": {
+        "scale": 2,
+        "offset_x": -144,
+        "offset_y": -176
+      },
+      "tab": "lower",
+      "artwork": {
+        "sha256": "a215123de95a53d4bd5d6e5c0a3e46a69231bdb41ae5cfcd12ef2ab060644417",
+        "pixel_sha256": "17e3b123314c42cdb143f7eb590186d2893102d75088f1c216abb3c6c8a7e40b",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/18/23.DAT",
+        "image": "packets/eldieme4.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/eldieme4-original.png"
+      }
+    },
+    "landing1": {
+      "key": "landing1",
+      "zone": 2,
+      "floor": 1,
+      "index": 241,
+      "dat": 5742,
+      "name": "Carpenters' Landing / 1",
+      "region": "norvallen",
+      "transform": {
+        "scale": 1,
+        "offset_x": -272,
+        "offset_y": -216
+      },
+      "tab": "1",
+      "artwork": {
+        "sha256": "152d3ab516a612d89f64119f9a8b278492a7d3033209e229813878a7baff7a39",
+        "pixel_sha256": "cc042909a2ef8ed7463bbb598dafb1ce804a01b8c9d2276ab44d7bdc31909060",
+        "overlay": "ffxivision",
+        "path": "polplugins/DATs/ffxivision/ROM/284/0.DAT",
+        "image": "packets/landing1.png",
+        "width": 512,
+        "height": 512,
+        "reference_size": 512,
+        "original_image": "packets/landing1-original.png"
+      }
+    },
+    "landing2": {
+      "key": "landing2",
+      "zone": 2,
+      "floor": 2,
+      "index": 242,
+      "dat": 5743,
+      "name": "Carpenters' Landing / 2",
+      "region": "norvallen",
+      "transform": {
+        "scale": 1,
+        "offset_x": -320,
+        "offset_y": -360
+      },
+      "tab": "2",
+      "artwork": {
+        "sha256": "481b9288280d268185e242b095ae63075fd2670752e0e271b9f148fe3cc55b6a",
+        "pixel_sha256": "4ccd58114fbf13b3f680ef8a241baaeaa4bce243acf1dcec287987b52c76c0fc",
+        "overlay": "ffxivision",
+        "path": "polplugins/DATs/ffxivision/ROM/284/1.DAT",
+        "image": "packets/landing2.png",
+        "width": 512,
+        "height": 512,
+        "reference_size": 512,
+        "original_image": "packets/landing2-original.png"
+      }
+    },
+    "beaucedine": {
+      "key": "beaucedine",
+      "zone": 111,
+      "floor": 0,
+      "index": 11,
+      "dat": 5324,
+      "name": "Beaucedine Glacier",
+      "region": "fauregandi",
+      "transform": {
+        "scale": 1,
+        "offset_x": -256,
+        "offset_y": -256
+      },
+      "tab": "Beaucedine Glacier",
+      "artwork": {
+        "sha256": "babfd5ab2c0ecc3bf1ecc9facc8140bfaccea5372532a83fba37a78805b19852",
+        "pixel_sha256": "659a40e7ef29dc7c14c0c5319e4fca25c0098cae825542385e29b882e33da16c",
+        "overlay": "remapster",
+        "path": "polplugins/DATs/remapster/ROM/17/35.DAT",
+        "image": "packets/beaucedine.png",
+        "width": 1024,
+        "height": 1024,
+        "reference_size": 512,
+        "original_image": "packets/beaucedine-original.png"
+      }
+    },
+    "feiyin1": {
+      "key": "feiyin1",
+      "zone": 204,
+      "floor": 1,
+      "index": 117,
+      "dat": 5454,
+      "name": "Fei'Yin / upper",
+      "region": "fauregandi",
+      "transform": {
+        "scale": 2,
+        "offset_x": -256,
+        "offset_y": -272
+      },
+      "tab": "upper",
+      "artwork": {
+        "sha256": "0ce506382379477ab594caa68a20f7cdd9c57fa1c285b469df8b55b4ad94d994",
+        "pixel_sha256": "e32c54b13bdb01446daf27fa1c30b9a3725a87da41c989169b37c3c0713223e1",
+        "overlay": "ffxivision",
+        "path": "polplugins/DATs/ffxivision/ROM/18/37.DAT",
+        "image": "packets/feiyin1.png",
+        "width": 512,
+        "height": 512,
+        "reference_size": 512,
+        "original_image": "packets/feiyin1-original.png"
+      }
+    },
+    "feiyin2": {
+      "key": "feiyin2",
+      "zone": 204,
+      "floor": 14,
+      "index": 118,
+      "dat": 5538,
+      "name": "Fei'Yin / apparatus",
+      "region": "fauregandi",
+      "transform": {
+        "scale": 2,
+        "offset_x": -256,
+        "offset_y": -272
+      },
+      "tab": "apparatus",
+      "artwork": {
+        "sha256": "1b08c4e19da2e04295c663c34875b2e5c6aaca5e24f6065f14e2a19124529488",
+        "pixel_sha256": "e32c54b13bdb01446daf27fa1c30b9a3725a87da41c989169b37c3c0713223e1",
+        "overlay": "ffxivision",
+        "path": "polplugins/DATs/ffxivision/ROM/18/121.DAT",
+        "image": "packets/feiyin2.png",
+        "width": 512,
+        "height": 512,
+        "reference_size": 512,
+        "original_image": "packets/feiyin2-original.png"
+      }
+    },
+    "feiyin3": {
+      "key": "feiyin3",
+      "zone": 204,
+      "floor": 15,
+      "index": 119,
+      "dat": 5455,
+      "name": "Fei'Yin / lower",
+      "region": "fauregandi",
+      "transform": {
+        "scale": 2,
+        "offset_x": -256,
+        "offset_y": -272
+      },
+      "tab": "lower",
+      "artwork": {
+        "sha256": "0759c15c550e792bebc3ace2702191166bea12d494a5a90676a1fdf9fc1f4f25",
+        "pixel_sha256": "3a70ea148ade9161ecde05839cefeb678fbc7f8e288e496eb61a7a86abaf8b61",
+        "overlay": "ffxivision",
+        "path": "polplugins/DATs/ffxivision/ROM/18/38.DAT",
+        "image": "packets/feiyin3.png",
+        "width": 512,
+        "height": 512,
+        "reference_size": 512,
+        "original_image": "packets/feiyin3-original.png"
+      }
+    }
+  },
+  "jobs": {
+    "zulkheim": [
+      "latheine",
+      "valkurm",
+      "konschtat",
+      "selbina",
+      "ordelle1",
+      "ordelle2",
+      "ordelle3",
+      "ordelle4"
+    ],
+    "north_east": [
+      "jugner",
+      "batallia",
+      "davoi",
+      "monastic",
+      "eldieme1",
+      "eldieme2",
+      "eldieme3",
+      "eldieme4",
+      "landing1",
+      "landing2",
+      "ranguemont",
+      "beaucedine",
+      "feiyin1",
+      "feiyin2",
+      "feiyin3"
+    ]
+  }
+}

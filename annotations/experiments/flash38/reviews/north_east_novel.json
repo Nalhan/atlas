@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "reviewer": "root-independent",
+  "candidate_sha256": "275b53681e800fcb1e03143633a3c27ebf7b53e47485f6ec9bb8850e50dbdaf1",
+  "manifest_sha256": "aeec276f8e91293c6c636be52712854c687f0b8ee6db2f1893af0b111b3bfc43",
+  "packet_sha256": {
+    "packets/jugner-original.png": "ad0cd92fa88398972ced1ed357e6301eb1078ad5fa1ac13307983a003df80505",
+    "packets/jugner.png": "0a514c4750cedf0277e4af0e73cb5b6c7a08e7430cd21005f758ea01a2d37c27",
+    "packets/landing1-original.png": "b5fca836722254a28f5d0df10593a041d40a19fb272fc50565e3845257944474",
+    "packets/landing1.png": "948344027a535c55128ee8519d11dd21227b854b6404dc037f086d1346ba469d"
+  },
+  "scope": "Only unmatched Flash proposals; separate authoring review, not publication approval or a claim that the entire Flash inventory is complete.",
+  "decisions": [
+    {
+      "id": "jugner_landing1_1",
+      "decision": "needs_work",
+      "review_level": "artwork_reviewed",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/jugner.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/jugner-original.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/landing1.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/landing1-original.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "wiki",
+          "source": "https://pegasusxi.com/wiki/Carpenters%27_Landing",
+          "detail": "Lists two Jugner connections, with different arrival grid cells; supports existence, not exact pixel positions or the proposed pair assignment."
+        }
+      ],
+      "reason": "Jugner and native Landing artwork support two crossings, but the proposed Landing entrance and label placement need a paired entrance check. Landing has disconnected areas and no matching numbered badges; a map-pair match alone is insufficient."
+    },
+    {
+      "id": "jugner_landing1_2",
+      "decision": "needs_work",
+      "review_level": "artwork_reviewed",
+      "evidence": [
+        {
+          "kind": "artwork",
+          "source": "packets/jugner.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/jugner-original.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/landing1.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "artwork",
+          "source": "packets/landing1-original.png",
+          "detail": "Compared the native floor geometry with its labeled replacement; coordinates use the 512-pixel reference."
+        },
+        {
+          "kind": "wiki",
+          "source": "https://pegasusxi.com/wiki/Carpenters%27_Landing",
+          "detail": "Lists two Jugner connections, with different arrival grid cells; supports existence, not exact pixel positions or the proposed pair assignment."
+        }
+      ],
+      "reason": "Jugner and native Landing artwork support two crossings, but the proposed Landing entrance and label placement need a paired entrance check. Landing has disconnected areas and no matching numbered badges; a map-pair match alone is insufficient."
+    }
+  ],
+  "findings": [
+    "Runtime unchanged. Accepted records require explicit import into the main annotation pipeline with fresh publication fingerprints before build."
+  ]
+}

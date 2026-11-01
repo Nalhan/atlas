@@ -1,0 +1,25 @@
+{
+  "routes": 5,
+  "world_hubs": 7,
+  "boarding_points": 9,
+  "world_only": [
+    {
+      "id": "ferry-selbina-mhaura-mhaura",
+      "reason": "Zone is outside the current native map catalog; world location only."
+    }
+  ],
+  "wiki_module_sha256": "0f8d0ec7e08544a09915225f8bd62d42d6fbf622c6ff78ddbbbec60a67f3db86",
+  "seed_sha256": "194729393c01382238c4855ae8d2250b5c63cb77703fea3d041355988421f886",
+  "output_sha256": "61b7838769ef7cde76522f6f389ed81b7eecd67db5d1a7bfaa26fc07bca1d005",
+  "sources": [
+    "https://horizonffxi.wiki/Airship_pass_for_Kazham",
+    "https://horizonffxi.wiki/Mhaura",
+    "https://horizonffxi.wiki/Port_Jeuno",
+    "https://horizonffxi.wiki/San_d%27Oria-Jeuno_Airship"
+  ],
+  "notes": [
+    "Mapped boarding points use wiki game-world coordinates projected through the installed native map table.",
+    "World marker anchors are measured town/banner locations, not world-space boarding positions.",
+    "Transport routes are separate from walking passages. No live schedules or pass ownership are inferred."
+  ]
+}

@@ -1,0 +1,1419 @@
+{
+  "schema_version": 1,
+  "reviewer": "independent-checker",
+  "review_state": "artwork-reviewed",
+  "traversal_verified": false,
+  "inventory": [
+    {
+      "map": "latheine",
+      "exits": [
+        {
+          "label": "West Ronfaure",
+          "exit": [
+            145,
+            111
+          ],
+          "destination_hint": "west",
+          "notes": "Northwest road; text arrow above actual road throat."
+        },
+        {
+          "label": "Jugner Forest",
+          "exit": [
+            411,
+            251
+          ],
+          "destination_hint": "jugner",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Valkurm Dunes",
+          "exit": [
+            291,
+            399
+          ],
+          "destination_hint": "valkurm",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Ordelle's Caves printed 1",
+          "exit": [
+            244,
+            214
+          ],
+          "destination_hint": "ordelle1",
+          "notes": "Number 1 at cave mouth; line to Map #1 text is not passage."
+        },
+        {
+          "label": "Ordelle's Caves printed 2",
+          "exit": [
+            204,
+            222
+          ],
+          "destination_hint": "ordelle3",
+          "notes": "Packet ordelle3 bears La Theine 2. Do not equate key suffix with printed number."
+        },
+        {
+          "label": "Ordelle's Caves printed 3",
+          "exit": [
+            270,
+            315
+          ],
+          "destination_hint": "ordelle2",
+          "notes": "Packet ordelle2 bears La Theine 3. Do not equate key suffix with printed number."
+        }
+      ]
+    },
+    {
+      "map": "valkurm",
+      "exits": [
+        {
+          "label": "La Theine Plateau",
+          "exit": [
+            370,
+            177
+          ],
+          "destination_hint": "latheine",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Konschtat Highlands",
+          "exit": [
+            402,
+            351
+          ],
+          "destination_hint": "konschtat",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Selbina",
+          "exit": [
+            228,
+            273
+          ],
+          "destination_hint": "selbina",
+          "notes": "Narrow access at north side of Selbina coastal enclosure; printed town text farther south."
+        },
+        {
+          "label": "Gustav Tunnel",
+          "exit": [
+            82,
+            248
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Southwestern tunnel near Secret Sands; arrow/text beyond mouth."
+        },
+        {
+          "label": "Lufaise Meadows",
+          "exit": [
+            304,
+            286
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Dimensional maw/portal symbol; access may be conditional."
+        }
+      ]
+    },
+    {
+      "map": "konschtat",
+      "exits": [
+        {
+          "label": "Valkurm Dunes",
+          "exit": [
+            223,
+            85
+          ],
+          "destination_hint": "valkurm",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Pashhow Marshlands",
+          "exit": [
+            361,
+            114
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Gusgen Mines",
+          "exit": [
+            390,
+            222
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "North Gustaberg",
+          "exit": [
+            281,
+            396
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        }
+      ]
+    },
+    {
+      "map": "selbina",
+      "exits": [
+        {
+          "label": "Valkurm Dunes",
+          "exit": [
+            271,
+            191
+          ],
+          "destination_hint": "valkurm",
+          "notes": "North approach to main gate, not destination title at y154."
+        },
+        {
+          "label": "Sea Travel Agency / ferry",
+          "exit": [
+            302,
+            328
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Transport dock south of anchor; ferry route needs separate transport semantics."
+        }
+      ]
+    },
+    {
+      "map": "ordelle1",
+      "exits": [
+        {
+          "label": "La Theine Plateau printed 1",
+          "exit": [
+            240,
+            73
+          ],
+          "destination_hint": "latheine",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "A",
+          "exit": [
+            239,
+            139
+          ],
+          "destination_hint": "ordelle3",
+          "notes": "Letter near tunnel; exact floor-change trigger requires verification."
+        },
+        {
+          "label": "B",
+          "exit": [
+            296,
+            178
+          ],
+          "destination_hint": "ordelle3",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "C",
+          "exit": [
+            239,
+            203
+          ],
+          "destination_hint": "ordelle3",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "D",
+          "exit": [
+            255,
+            289
+          ],
+          "destination_hint": "ordelle3",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "F",
+          "exit": [
+            218,
+            261
+          ],
+          "destination_hint": "ordelle2",
+          "notes": "Red arrow marks vertical connection; do not infer reversibility from matching F alone."
+        }
+      ]
+    },
+    {
+      "map": "ordelle2",
+      "exits": [
+        {
+          "label": "La Theine Plateau printed 3",
+          "exit": [
+            217,
+            320
+          ],
+          "destination_hint": "latheine",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "F",
+          "exit": [
+            247,
+            150
+          ],
+          "destination_hint": "ordelle1",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "E",
+          "exit": [
+            304,
+            255
+          ],
+          "destination_hint": "ordelle3",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        }
+      ]
+    },
+    {
+      "map": "ordelle3",
+      "exits": [
+        {
+          "label": "La Theine Plateau printed 2",
+          "exit": [
+            345,
+            95
+          ],
+          "destination_hint": "latheine",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "A",
+          "exit": [
+            234,
+            125
+          ],
+          "destination_hint": "ordelle1",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "B",
+          "exit": [
+            304,
+            178
+          ],
+          "destination_hint": "ordelle1",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "C",
+          "exit": [
+            238,
+            199
+          ],
+          "destination_hint": "ordelle1",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "D",
+          "exit": [
+            267,
+            317
+          ],
+          "destination_hint": "ordelle1",
+          "notes": "Southern room hole/ledge; red arrows near south room imply asymmetric connections."
+        },
+        {
+          "label": "E",
+          "exit": [
+            291,
+            359
+          ],
+          "destination_hint": "ordelle2",
+          "notes": "Eastern south-room passage."
+        },
+        {
+          "label": "Southwest hole / Strange Apparatus branch",
+          "exit": [
+            215,
+            344
+          ],
+          "destination_hint": "ordelle1",
+          "notes": "Hole/ledge south of main corridor; Horizon description says southwest hole leads to Strange Apparatus area."
+        },
+        {
+          "label": "Southeast hole",
+          "exit": [
+            267,
+            344
+          ],
+          "destination_hint": "ordelle1",
+          "notes": "Horizon description says southeast hole leads to third La Theine exit; printed letter pairing needs checking."
+        }
+      ]
+    },
+    {
+      "map": "jugner",
+      "exits": [
+        {
+          "label": "La Theine Plateau",
+          "exit": [
+            137,
+            341
+          ],
+          "destination_hint": "latheine",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Batallia Downs",
+          "exit": [
+            391,
+            145
+          ],
+          "destination_hint": "batallia",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Davoi",
+          "exit": [
+            215,
+            394
+          ],
+          "destination_hint": "davoi",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Carpenters' Landing printed 1",
+          "exit": [
+            156,
+            187
+          ],
+          "destination_hint": "landing1",
+          "notes": "Northwest Maiden's Spring component; preserve isolation from main forest until traversal evidence."
+        },
+        {
+          "label": "Carpenters' Landing printed 2",
+          "exit": [
+            357,
+            255
+          ],
+          "destination_hint": "landing1",
+          "notes": "East connection; printed 2 is entrance code, not evidence for landing2 floor."
+        },
+        {
+          "label": "King Ranperre's Tomb",
+          "exit": [
+            202,
+            172
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Horizon explicitly calls this exit-only into Jugner; no reverse Jugner-to-Tomb route."
+        }
+      ]
+    },
+    {
+      "map": "batallia",
+      "exits": [
+        {
+          "label": "Jugner Forest",
+          "exit": [
+            186,
+            284
+          ],
+          "destination_hint": "jugner",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Beaucedine Glacier",
+          "exit": [
+            172,
+            137
+          ],
+          "destination_hint": "beaucedine",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Upper Jeuno",
+          "exit": [
+            395,
+            284
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Rolanberry Fields",
+          "exit": [
+            368,
+            324
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Eldieme printed 1",
+          "exit": [
+            299,
+            325
+          ],
+          "destination_hint": "eldieme2",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Eldieme printed 2",
+          "exit": [
+            284,
+            215
+          ],
+          "destination_hint": "eldieme1_or_eldieme3",
+          "notes": "Duplicate packets prevent exact floor discrimination."
+        },
+        {
+          "label": "Eldieme printed 3",
+          "exit": [
+            249,
+            245
+          ],
+          "destination_hint": "eldieme1_or_eldieme3",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Eldieme printed 4",
+          "exit": [
+            226,
+            262
+          ],
+          "destination_hint": "eldieme1_or_eldieme3",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Eldieme printed 5",
+          "exit": [
+            231,
+            218
+          ],
+          "destination_hint": "eldieme1_or_eldieme3",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Eldieme printed 6",
+          "exit": [
+            305,
+            363
+          ],
+          "destination_hint": "unknown_eldieme_floor",
+          "notes": "Island entrance; corresponding actual map absent because eldieme1 and3 packets duplicated."
+        },
+        {
+          "label": "Eldieme printed 7",
+          "exit": [
+            184,
+            177
+          ],
+          "destination_hint": "eldieme1_or_eldieme3",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Eldieme printed 8",
+          "exit": [
+            139,
+            213
+          ],
+          "destination_hint": "eldieme1_or_eldieme3",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        }
+      ]
+    },
+    {
+      "map": "davoi",
+      "exits": [
+        {
+          "label": "Jugner Forest",
+          "exit": [
+            328,
+            208
+          ],
+          "destination_hint": "jugner",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Monastic printed 1",
+          "exit": [
+            354,
+            215
+          ],
+          "destination_hint": "monastic",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Monastic printed 2",
+          "exit": [
+            263,
+            354
+          ],
+          "destination_hint": "monastic",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Monastic printed 3",
+          "exit": [
+            230,
+            239
+          ],
+          "destination_hint": "monastic",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Monastic printed 4",
+          "exit": [
+            277,
+            271
+          ],
+          "destination_hint": "monastic",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Monastic printed 5",
+          "exit": [
+            311,
+            302
+          ],
+          "destination_hint": "monastic",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        }
+      ]
+    },
+    {
+      "map": "monastic",
+      "exits": [
+        {
+          "label": "Davoi printed 1",
+          "exit": [
+            351,
+            201
+          ],
+          "destination_hint": "davoi",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Davoi printed 2",
+          "exit": [
+            266,
+            337
+          ],
+          "destination_hint": "davoi",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Davoi printed 3",
+          "exit": [
+            233,
+            224
+          ],
+          "destination_hint": "davoi",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Davoi printed 4",
+          "exit": [
+            280,
+            258
+          ],
+          "destination_hint": "davoi",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Davoi printed 5",
+          "exit": [
+            314,
+            285
+          ],
+          "destination_hint": "davoi",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        }
+      ]
+    },
+    {
+      "map": "eldieme1",
+      "exits": [
+        {
+          "label": "Batallia printed 2",
+          "exit": [
+            440,
+            220
+          ],
+          "destination_hint": "batallia",
+          "notes": " Packet is byte-identical to eldieme3 and prints Map #2; floor identity unresolved."
+        },
+        {
+          "label": "Batallia printed 3",
+          "exit": [
+            327,
+            280
+          ],
+          "destination_hint": "batallia",
+          "notes": " Packet is byte-identical to eldieme3 and prints Map #2; floor identity unresolved."
+        },
+        {
+          "label": "Batallia printed 4",
+          "exit": [
+            184,
+            295
+          ],
+          "destination_hint": "batallia",
+          "notes": " Packet is byte-identical to eldieme3 and prints Map #2; floor identity unresolved."
+        },
+        {
+          "label": "Batallia printed 5",
+          "exit": [
+            247,
+            233
+          ],
+          "destination_hint": "batallia",
+          "notes": " Packet is byte-identical to eldieme3 and prints Map #2; floor identity unresolved."
+        },
+        {
+          "label": "Batallia printed 7",
+          "exit": [
+            130,
+            120
+          ],
+          "destination_hint": "batallia",
+          "notes": " Packet is byte-identical to eldieme3 and prints Map #2; floor identity unresolved."
+        },
+        {
+          "label": "Batallia printed 8",
+          "exit": [
+            81,
+            297
+          ],
+          "destination_hint": "batallia",
+          "notes": " Packet is byte-identical to eldieme3 and prints Map #2; floor identity unresolved."
+        },
+        {
+          "label": "A",
+          "exit": [
+            376,
+            329
+          ],
+          "destination_hint": "eldieme2",
+          "notes": "Letter A at west end of east lower room; could be landing rather than reversible exit. Packet is byte-identical to eldieme3 and prints Map #2; floor identity unresolved."
+        },
+        {
+          "label": "B",
+          "exit": [
+            375,
+            281
+          ],
+          "destination_hint": "eldieme2",
+          "notes": " Packet is byte-identical to eldieme3 and prints Map #2; floor identity unresolved."
+        },
+        {
+          "label": "C",
+          "exit": [
+            328,
+            329
+          ],
+          "destination_hint": "eldieme2",
+          "notes": " Packet is byte-identical to eldieme3 and prints Map #2; floor identity unresolved."
+        },
+        {
+          "label": "D",
+          "exit": [
+            376,
+            377
+          ],
+          "destination_hint": "eldieme2",
+          "notes": " Packet is byte-identical to eldieme3 and prints Map #2; floor identity unresolved."
+        },
+        {
+          "label": "E",
+          "exit": [
+            388,
+            378
+          ],
+          "destination_hint": "unknown_eldieme_floor",
+          "notes": "Adjacent D/E labels need topology evidence. Packet is byte-identical to eldieme3 and prints Map #2; floor identity unresolved."
+        }
+      ]
+    },
+    {
+      "map": "eldieme2",
+      "exits": [
+        {
+          "label": "Batallia printed 1",
+          "exit": [
+            327,
+            307
+          ],
+          "destination_hint": "batallia",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "A pit",
+          "exit": [
+            232,
+            248
+          ],
+          "destination_hint": "eldieme1_or_eldieme3",
+          "notes": "Central pit; direction requires source/traversal evidence."
+        },
+        {
+          "label": "B pit",
+          "exit": [
+            232,
+            200
+          ],
+          "destination_hint": "eldieme1_or_eldieme3",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "C pit",
+          "exit": [
+            184,
+            248
+          ],
+          "destination_hint": "eldieme1_or_eldieme3",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "D pit",
+          "exit": [
+            232,
+            295
+          ],
+          "destination_hint": "eldieme1_or_eldieme3",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "F",
+          "exit": [
+            311,
+            295
+          ],
+          "destination_hint": "unknown_eldieme_floor",
+          "notes": "Southwest of entrance; counterpart not visible on duplicated map #2 packets."
+        }
+      ]
+    },
+    {
+      "map": "eldieme3",
+      "exits": [
+        {
+          "label": "Batallia printed 2",
+          "exit": [
+            440,
+            220
+          ],
+          "destination_hint": "batallia",
+          "notes": " Packet is byte-identical to eldieme1 and prints Map #2; do not approve as distinct floor."
+        },
+        {
+          "label": "Batallia printed 3",
+          "exit": [
+            327,
+            280
+          ],
+          "destination_hint": "batallia",
+          "notes": " Packet is byte-identical to eldieme1 and prints Map #2; do not approve as distinct floor."
+        },
+        {
+          "label": "Batallia printed 4",
+          "exit": [
+            184,
+            295
+          ],
+          "destination_hint": "batallia",
+          "notes": " Packet is byte-identical to eldieme1 and prints Map #2; do not approve as distinct floor."
+        },
+        {
+          "label": "Batallia printed 5",
+          "exit": [
+            247,
+            233
+          ],
+          "destination_hint": "batallia",
+          "notes": " Packet is byte-identical to eldieme1 and prints Map #2; do not approve as distinct floor."
+        },
+        {
+          "label": "Batallia printed 7",
+          "exit": [
+            130,
+            120
+          ],
+          "destination_hint": "batallia",
+          "notes": " Packet is byte-identical to eldieme1 and prints Map #2; do not approve as distinct floor."
+        },
+        {
+          "label": "Batallia printed 8",
+          "exit": [
+            81,
+            297
+          ],
+          "destination_hint": "batallia",
+          "notes": " Packet is byte-identical to eldieme1 and prints Map #2; do not approve as distinct floor."
+        },
+        {
+          "label": "A",
+          "exit": [
+            376,
+            329
+          ],
+          "destination_hint": "eldieme2",
+          "notes": "Letter A at west end of east lower room; could be landing rather than reversible exit. Packet is byte-identical to eldieme1 and prints Map #2; do not approve as distinct floor."
+        },
+        {
+          "label": "B",
+          "exit": [
+            375,
+            281
+          ],
+          "destination_hint": "eldieme2",
+          "notes": " Packet is byte-identical to eldieme1 and prints Map #2; do not approve as distinct floor."
+        },
+        {
+          "label": "C",
+          "exit": [
+            328,
+            329
+          ],
+          "destination_hint": "eldieme2",
+          "notes": " Packet is byte-identical to eldieme1 and prints Map #2; do not approve as distinct floor."
+        },
+        {
+          "label": "D",
+          "exit": [
+            376,
+            377
+          ],
+          "destination_hint": "eldieme2",
+          "notes": " Packet is byte-identical to eldieme1 and prints Map #2; do not approve as distinct floor."
+        },
+        {
+          "label": "E",
+          "exit": [
+            388,
+            378
+          ],
+          "destination_hint": "unknown_eldieme_floor",
+          "notes": "Adjacent D/E labels need topology evidence. Packet is byte-identical to eldieme1 and prints Map #2; do not approve as distinct floor."
+        }
+      ]
+    },
+    {
+      "map": "landing1",
+      "exits": [
+        {
+          "label": "Jugner Forest southwest",
+          "exit": [
+            188,
+            337
+          ],
+          "destination_hint": "jugner",
+          "notes": "Visible southern arrow on west land component."
+        },
+        {
+          "label": "Jugner Forest east (unlabelled in packet)",
+          "exit": [
+            367,
+            350
+          ],
+          "destination_hint": "jugner",
+          "notes": "Approximate outer southern/eastern branch; packet does not expose clear labelled mouth. Must remain uncertain until stronger endpoint evidence."
+        },
+        {
+          "label": "Central Landing dock",
+          "exit": [
+            239,
+            200
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Waterway transport; dock focus approximate."
+        },
+        {
+          "label": "South Landing dock",
+          "exit": [
+            293,
+            303
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Waterway transport; do not join disconnected land components with walking edge."
+        }
+      ]
+    },
+    {
+      "map": "landing2",
+      "exits": [
+        {
+          "label": "Northern San d'Oria",
+          "exit": [
+            224,
+            222
+          ],
+          "destination_hint": "north",
+          "notes": "North arrow labels direct land connection. No Jugner label on this artwork."
+        },
+        {
+          "label": "North Landing dock",
+          "exit": [
+            246,
+            264
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Waterway transport; no walking connection to landing1 shown."
+        }
+      ]
+    },
+    {
+      "map": "ranguemont",
+      "exits": [
+        {
+          "label": "East Ronfaure",
+          "exit": [
+            215,
+            381
+          ],
+          "destination_hint": "east",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Beaucedine Glacier",
+          "exit": [
+            368,
+            137
+          ],
+          "destination_hint": "beaucedine",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Exit-only internal door",
+          "exit": [
+            164,
+            307
+          ],
+          "destination_hint": "ranguemont",
+          "notes": "Internal one-way door at western route; not region/floor transition."
+        },
+        {
+          "label": "Enter-only internal door",
+          "exit": [
+            186,
+            307
+          ],
+          "destination_hint": "ranguemont",
+          "notes": "Internal one-way door; preserve direction if represented."
+        }
+      ]
+    },
+    {
+      "map": "beaucedine",
+      "exits": [
+        {
+          "label": "Ranguemont Pass",
+          "exit": [
+            155,
+            334
+          ],
+          "destination_hint": "ranguemont",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Batallia Downs",
+          "exit": [
+            269,
+            363
+          ],
+          "destination_hint": "batallia",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Fei'Yin",
+          "exit": [
+            312,
+            121
+          ],
+          "destination_hint": "feiyin1",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Xarcabard",
+          "exit": [
+            178,
+            200
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Pso'Xja printed 1",
+          "exit": [
+            309,
+            257
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Pso'Xja printed 2",
+          "exit": [
+            269,
+            323
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Pso'Xja printed 3",
+          "exit": [
+            277,
+            226
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Pso'Xja printed 4",
+          "exit": [
+            221,
+            299
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Pso'Xja printed 5",
+          "exit": [
+            189,
+            226
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        },
+        {
+          "label": "Pso'Xja printed 6",
+          "exit": [
+            253,
+            266
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Artwork observation only; coordinates approximate on 512 reference."
+        }
+      ]
+    },
+    {
+      "map": "feiyin1",
+      "exits": [
+        {
+          "label": "Beaucedine Glacier",
+          "exit": [
+            184,
+            340
+          ],
+          "destination_hint": "beaucedine",
+          "notes": " Packet duplicated with feiyin2; lower-floor artwork unavailable."
+        },
+        {
+          "label": "A",
+          "exit": [
+            220,
+            277
+          ],
+          "destination_hint": "unknown_feiyin_floor",
+          "notes": "A letter beside southwest stairs; counterpart absent from duplicated packets. Packet duplicated with feiyin2; lower-floor artwork unavailable."
+        },
+        {
+          "label": "B",
+          "exit": [
+            158,
+            218
+          ],
+          "destination_hint": "unknown_feiyin_floor",
+          "notes": "B letter at northwest stairs; counterpart absent from duplicated packets. Packet duplicated with feiyin2; lower-floor artwork unavailable."
+        },
+        {
+          "label": "Qu'Bia Arena",
+          "exit": [
+            343,
+            250
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": " Packet duplicated with feiyin2; lower-floor artwork unavailable."
+        },
+        {
+          "label": "Qu'Bia Arena Exit",
+          "exit": [
+            343,
+            291
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Explicit Exit label; do not assume reversible entrance at exit location. Packet duplicated with feiyin2; lower-floor artwork unavailable."
+        }
+      ]
+    },
+    {
+      "map": "feiyin2",
+      "exits": [
+        {
+          "label": "Beaucedine Glacier",
+          "exit": [
+            184,
+            340
+          ],
+          "destination_hint": "beaucedine",
+          "notes": " Packet duplicated with feiyin1; cannot assign these visible upper-floor exits to lower floor."
+        },
+        {
+          "label": "A",
+          "exit": [
+            220,
+            277
+          ],
+          "destination_hint": "unknown_feiyin_floor",
+          "notes": "A letter beside southwest stairs; counterpart absent from duplicated packets. Packet duplicated with feiyin1; cannot assign these visible upper-floor exits to lower floor."
+        },
+        {
+          "label": "B",
+          "exit": [
+            158,
+            218
+          ],
+          "destination_hint": "unknown_feiyin_floor",
+          "notes": "B letter at northwest stairs; counterpart absent from duplicated packets. Packet duplicated with feiyin1; cannot assign these visible upper-floor exits to lower floor."
+        },
+        {
+          "label": "Qu'Bia Arena",
+          "exit": [
+            343,
+            250
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": " Packet duplicated with feiyin1; cannot assign these visible upper-floor exits to lower floor."
+        },
+        {
+          "label": "Qu'Bia Arena Exit",
+          "exit": [
+            343,
+            291
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Explicit Exit label; do not assume reversible entrance at exit location. Packet duplicated with feiyin1; cannot assign these visible upper-floor exits to lower floor."
+        }
+      ]
+    },
+    {
+      "map": "ordelle4",
+      "exits": [
+        {
+          "label": "La Theine Plateau printed2",
+          "exit": [
+            345,
+            95
+          ],
+          "destination_hint": "latheine",
+          "notes": "Native floor15 original confirms upper branches; overlay code2 at [330,87]. This is the actual floor for original inventory ordelle3 apparent upper exits."
+        },
+        {
+          "label": "A",
+          "exit": [
+            234,
+            125
+          ],
+          "destination_hint": "ordelle1",
+          "notes": "Printed upper branch transfer. Direction and exact floor trigger unresolved."
+        },
+        {
+          "label": "B",
+          "exit": [
+            304,
+            178
+          ],
+          "destination_hint": "ordelle1",
+          "notes": "Printed upper branch transfer; unresolved."
+        },
+        {
+          "label": "C",
+          "exit": [
+            238,
+            199
+          ],
+          "destination_hint": "ordelle1",
+          "notes": "Printed upper branch transfer; unresolved."
+        },
+        {
+          "label": "D",
+          "exit": [
+            267,
+            317
+          ],
+          "destination_hint": "ordelle1",
+          "notes": "South room drop/hole region; do not infer reversibility."
+        },
+        {
+          "label": "E",
+          "exit": [
+            291,
+            359
+          ],
+          "destination_hint": "ordelle2",
+          "notes": "South room corridor; unresolved."
+        },
+        {
+          "label": "Southwest hole",
+          "exit": [
+            215,
+            344
+          ],
+          "destination_hint": "ordelle3",
+          "notes": "Native floor14 apparatus spur corresponds only to southwest branch. Exact drop landing remains unresolved."
+        },
+        {
+          "label": "Southeast hole",
+          "exit": [
+            267,
+            344
+          ],
+          "destination_hint": "ordelle2",
+          "notes": "Horizon description supports drop toward third La Theine exit; exact trigger/direction remains unreviewed."
+        }
+      ]
+    },
+    {
+      "map": "eldieme4",
+      "exits": [
+        {
+          "label": "Batallia printed6",
+          "exit": [
+            329,
+            299
+          ],
+          "destination_hint": "batallia",
+          "notes": "Native floor17/printedMap3. Printed6 at throat, not arrow farther southeast."
+        },
+        {
+          "label": "E",
+          "exit": [
+            218,
+            216
+          ],
+          "destination_hint": "eldieme3",
+          "notes": "West branch letter; destination pairing unresolved."
+        },
+        {
+          "label": "F",
+          "exit": [
+            302,
+            200
+          ],
+          "destination_hint": "eldieme2",
+          "notes": "North stair branch letter; destination pairing unresolved."
+        }
+      ]
+    },
+    {
+      "map": "feiyin3",
+      "exits": [
+        {
+          "label": "Cloister of Frost",
+          "exit": [
+            297,
+            156
+          ],
+          "destination_hint": "outside_pilot",
+          "notes": "Native lower floor15 northeastern branch; outside pilot."
+        },
+        {
+          "label": "A",
+          "exit": [
+            253,
+            281
+          ],
+          "destination_hint": "feiyin1",
+          "notes": "South floor transfer letter; direction unresolved."
+        },
+        {
+          "label": "B",
+          "exit": [
+            158,
+            218
+          ],
+          "destination_hint": "feiyin1",
+          "notes": "Northwest floor transfer letter; direction unresolved."
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "duplicate-eldieme-packets",
+      "severity": "blocking",
+      "maps": [
+        "eldieme1",
+        "eldieme3"
+      ],
+      "detail": "Both PNGs byte-identical SHA256 77732F91947F3A6D88A17D73A5CC4634F4FBC866CEA73CA2D2B5E536EBBE56B9 and print Map #2. Manifest DAT hashes differ. A distinct floor endpoint cannot be approved from these packets."
+    },
+    {
+      "id": "duplicate-feiyin-packets",
+      "severity": "blocking",
+      "maps": [
+        "feiyin1",
+        "feiyin2"
+      ],
+      "detail": "Both PNGs byte-identical SHA256 4D4FE7466988E203F20C0F3D032659A16746BC640B6A310B0594A2A884F853AA. They show the Beaucedine/Qu'Bia upper layout. Lower floor cannot be independently checked."
+    },
+    {
+      "id": "ordelle-key-number-mismatch",
+      "severity": "high",
+      "maps": [
+        "latheine",
+        "ordelle2",
+        "ordelle3"
+      ],
+      "detail": "La Theine printed entrance code 2 belongs to packet ordelle3, and code3 to ordelle2. Code numbers are not map key suffixes."
+    },
+    {
+      "id": "jugner-components",
+      "severity": "high",
+      "maps": [
+        "jugner",
+        "landing1",
+        "landing2"
+      ],
+      "detail": "Two Carpenters' Landing entrance codes do not imply two map floors. landing2 artwork labels Northern San d'Oria. Isolated northwest Jugner component must be retained; actual paired Landing endpoint still needs stronger evidence."
+    },
+    {
+      "id": "jugner-tomb-one-way",
+      "severity": "high",
+      "maps": [
+        "jugner"
+      ],
+      "detail": "King Ranperre's Tomb arrival is exit-only into Jugner according to Horizon Wiki. Inventory location is approximate artwork throat; no reverse traversal approval.",
+      "source": "https://horizonffxi.wiki/Jugner_Forest"
+    },
+    {
+      "id": "ordelle-drops",
+      "severity": "high",
+      "maps": [
+        "ordelle1",
+        "ordelle2",
+        "ordelle3"
+      ],
+      "detail": "Horizon description explicitly says southern areas require drops through southwest/southeast holes on Map2. Matching printed letters alone cannot establish reversible passage.",
+      "source": "https://horizonffxi.wiki/Ordelle%27s_Caves"
+    },
+    {
+      "id": "printed-vs-exit",
+      "severity": "info",
+      "detail": "Destination titles and leader arrows were excluded as exit locations. Glyph centers can differ from actual stair/tunnel throats; reviewer endpoint coordinates remain approximate unless corrected later."
+    },
+    {
+      "id": "scope-and-verification",
+      "severity": "info",
+      "detail": "All20 pilot PNGs inspected before opening any worker candidate outputs. No game running; no record traversal-verified. Inventory includes visible internal letter transitions and relevant transport docks but does not treat ordinary NPC or warp icons as walking exits."
+    },
+    {
+      "id": "native-floor-refinement",
+      "severity": "high",
+      "detail": "Original PNGs show special tiny apparatus spurs on Ordelle floor14 (ordelle3), Eldieme floor14 (eldieme1), FeiYin floor14 (feiyin2); replacement artwork reuses larger layouts. Native originals disambiguate: upper Ordelle is floor15/ordelle4; Eldieme printedMap2 is floor16/eldieme3; lower FeiYin is floor15/feiyin3. Duplicate replacement textures are not by themselves a decoding bug."
+    },
+    {
+      "id": "component-refinement",
+      "severity": "high",
+      "detail": "Initial northwest Jugner isolation note was precautionary. Required enclosed component is Tomb arrival/tomb_access; do not label Carpenters Landing printed1 itself isolated solely from the destination label. Monastic has north, central and east components. Eldieme floor16 has separate northwest, west and southwest branches; Batallia6 is island and7 northwest."
+    }
+  ],
+  "inventory_stage_note": "Original20 maps inventoried before candidate access. Three added maps inventoried from native/original and replacement artwork after parent expanded pilot. Original overlay observations preserved; native floor findings below supersede apparent duplicate-overlay assignments."
+}

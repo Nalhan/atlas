@@ -1,0 +1,1879 @@
+{
+  "schema_version": 1,
+  "job_id": "north_east",
+  "worker": "Codex",
+  "inventory": [
+    {
+      "map": "jugner",
+      "exits": [
+        {
+          "label": "King Ranperre's Tomb (enclosed access)",
+          "exit": [
+            168,
+            141
+          ],
+          "destination_hint": "tomb1",
+          "component": "tomb_access"
+        },
+        {
+          "label": "Carpenters' Landing entrance 1",
+          "exit": [
+            120,
+            184
+          ],
+          "destination_hint": "landing1",
+          "code": "1",
+          "component": "main"
+        },
+        {
+          "label": "Carpenters' Landing entrance 2",
+          "exit": [
+            360,
+            255
+          ],
+          "destination_hint": "landing1",
+          "code": "2",
+          "component": "main"
+        },
+        {
+          "label": "Batallia Downs",
+          "exit": [
+            416,
+            145
+          ],
+          "destination_hint": "batallia",
+          "component": "main"
+        },
+        {
+          "label": "La Theine Plateau",
+          "exit": [
+            108,
+            341
+          ],
+          "destination_hint": "latheine",
+          "component": "main"
+        },
+        {
+          "label": "Davoi",
+          "exit": [
+            216,
+            428
+          ],
+          "destination_hint": "davoi",
+          "component": "main"
+        }
+      ]
+    },
+    {
+      "map": "batallia",
+      "exits": [
+        {
+          "label": "Beaucedine Glacier",
+          "exit": [
+            171,
+            113
+          ],
+          "destination_hint": "beaucedine"
+        },
+        {
+          "label": "Jugner Forest",
+          "exit": [
+            155,
+            290
+          ],
+          "destination_hint": "jugner"
+        },
+        {
+          "label": "Eldieme Necropolis entrance 1",
+          "exit": [
+            299,
+            325
+          ],
+          "destination_hint": "eldieme2",
+          "code": "1"
+        },
+        {
+          "label": "Eldieme Necropolis entrance 2",
+          "exit": [
+            284,
+            214
+          ],
+          "destination_hint": "eldieme1 or eldieme3",
+          "code": "2"
+        },
+        {
+          "label": "Eldieme Necropolis entrance 3",
+          "exit": [
+            249,
+            244
+          ],
+          "destination_hint": "eldieme1 or eldieme3",
+          "code": "3"
+        },
+        {
+          "label": "Eldieme Necropolis entrance 4",
+          "exit": [
+            226,
+            262
+          ],
+          "destination_hint": "eldieme1 or eldieme3",
+          "code": "4"
+        },
+        {
+          "label": "Eldieme Necropolis entrance 5",
+          "exit": [
+            231,
+            214
+          ],
+          "destination_hint": "eldieme1 or eldieme3",
+          "code": "5"
+        },
+        {
+          "label": "Eldieme Necropolis entrance 6",
+          "exit": [
+            305,
+            364
+          ],
+          "destination_hint": "eldieme4",
+          "code": "6"
+        },
+        {
+          "label": "Eldieme Necropolis entrance 7",
+          "exit": [
+            185,
+            290
+          ],
+          "destination_hint": "eldieme1 or eldieme3",
+          "code": "7"
+        },
+        {
+          "label": "Eldieme Necropolis entrance 8",
+          "exit": [
+            139,
+            212
+          ],
+          "destination_hint": "eldieme1 or eldieme3",
+          "code": "8"
+        },
+        {
+          "label": "Upper Jeuno via Artisan Bridge",
+          "exit": [
+            440,
+            438
+          ],
+          "destination_hint": "Upper Jeuno"
+        },
+        {
+          "label": "Rolandberry Fields",
+          "exit": [
+            369,
+            500
+          ],
+          "destination_hint": "Rolandberry Fields"
+        }
+      ]
+    },
+    {
+      "map": "davoi",
+      "exits": [
+        {
+          "label": "Jugner Forest",
+          "exit": [
+            328,
+            426
+          ],
+          "destination_hint": "jugner"
+        },
+        {
+          "label": "Monastic Cavern entrance 1",
+          "exit": [
+            355,
+            215
+          ],
+          "destination_hint": "monastic",
+          "code": "1"
+        },
+        {
+          "label": "Monastic Cavern entrance 2",
+          "exit": [
+            263,
+            356
+          ],
+          "destination_hint": "monastic",
+          "code": "2"
+        },
+        {
+          "label": "Monastic Cavern entrance 3",
+          "exit": [
+            230,
+            238
+          ],
+          "destination_hint": "monastic",
+          "code": "3"
+        },
+        {
+          "label": "Monastic Cavern entrance 4",
+          "exit": [
+            276,
+            268
+          ],
+          "destination_hint": "monastic",
+          "code": "4"
+        },
+        {
+          "label": "Monastic Cavern entrance 5",
+          "exit": [
+            312,
+            301
+          ],
+          "destination_hint": "monastic",
+          "code": "5"
+        }
+      ]
+    },
+    {
+      "map": "monastic",
+      "exits": [
+        {
+          "label": "Davoi entrance 1",
+          "exit": [
+            355,
+            199
+          ],
+          "destination_hint": "davoi",
+          "code": "1"
+        },
+        {
+          "label": "Davoi entrance 2",
+          "exit": [
+            264,
+            353
+          ],
+          "destination_hint": "davoi",
+          "code": "2"
+        },
+        {
+          "label": "Davoi entrance 3",
+          "exit": [
+            231,
+            216
+          ],
+          "destination_hint": "davoi",
+          "code": "3"
+        },
+        {
+          "label": "Davoi entrance 4",
+          "exit": [
+            281,
+            258
+          ],
+          "destination_hint": "davoi",
+          "code": "4"
+        },
+        {
+          "label": "Davoi entrance 5",
+          "exit": [
+            313,
+            281
+          ],
+          "destination_hint": "davoi",
+          "code": "5"
+        }
+      ]
+    },
+    {
+      "map": "eldieme1",
+      "exits": [
+        {
+          "label": "Short native floor passage; overlay artwork also depicts Map 2",
+          "exit": [
+            174,
+            204
+          ],
+          "destination_hint": "unknown floor connection"
+        }
+      ]
+    },
+    {
+      "map": "eldieme2",
+      "exits": [
+        {
+          "label": "Batallia Downs exit 1 (printed map title: Map 1)",
+          "exit": [
+            327,
+            305
+          ],
+          "destination_hint": "batallia",
+          "code": "1"
+        },
+        {
+          "label": "Internal transfers A-D and four corner passages",
+          "exit": [
+            232,
+            250
+          ],
+          "destination_hint": "eldieme1 or eldieme3",
+          "component": "map1_network"
+        }
+      ]
+    },
+    {
+      "map": "eldieme3",
+      "exits": [
+        {
+          "label": "Batallia Downs entrance 2",
+          "exit": [
+            440,
+            210
+          ],
+          "destination_hint": "batallia",
+          "code": "2"
+        },
+        {
+          "label": "Batallia Downs entrance 3",
+          "exit": [
+            328,
+            270
+          ],
+          "destination_hint": "batallia",
+          "code": "3"
+        },
+        {
+          "label": "Batallia Downs entrance 4",
+          "exit": [
+            185,
+            269
+          ],
+          "destination_hint": "batallia",
+          "code": "4"
+        },
+        {
+          "label": "Batallia Downs entrance 5",
+          "exit": [
+            220,
+            231
+          ],
+          "destination_hint": "batallia",
+          "code": "5"
+        },
+        {
+          "label": "Batallia Downs entrance 7",
+          "exit": [
+            133,
+            120
+          ],
+          "destination_hint": "batallia",
+          "code": "7"
+        },
+        {
+          "label": "Batallia Downs entrance 8",
+          "exit": [
+            100,
+            296
+          ],
+          "destination_hint": "batallia",
+          "code": "8"
+        }
+      ]
+    },
+    {
+      "map": "eldieme4",
+      "exits": [
+        {
+          "label": "Batallia Downs",
+          "exit": [
+            338,
+            323
+          ],
+          "destination_hint": "batallia",
+          "code": "6"
+        },
+        {
+          "label": "Internal transfer E",
+          "exit": [
+            216,
+            216
+          ],
+          "destination_hint": "eldieme1/2/3",
+          "code": "E"
+        },
+        {
+          "label": "Internal transfer F",
+          "exit": [
+            304,
+            203
+          ],
+          "destination_hint": "eldieme1/2/3",
+          "code": "F"
+        }
+      ]
+    },
+    {
+      "map": "landing1",
+      "exits": [
+        {
+          "label": "Jugner Forest",
+          "exit": [
+            202,
+            361
+          ],
+          "destination_hint": "jugner"
+        },
+        {
+          "label": "Landing 2 transition (floor pairing unclear)",
+          "exit": [
+            243,
+            252
+          ],
+          "destination_hint": "landing2"
+        }
+      ]
+    },
+    {
+      "map": "landing2",
+      "exits": [
+        {
+          "label": "Northern San d'Oria",
+          "exit": [
+            226,
+            146
+          ],
+          "destination_hint": "north"
+        }
+      ]
+    },
+    {
+      "map": "ranguemont",
+      "exits": [
+        {
+          "label": "Beaucedine Glacier",
+          "exit": [
+            402,
+            133
+          ],
+          "destination_hint": "beaucedine"
+        },
+        {
+          "label": "East Ronfaure",
+          "exit": [
+            143,
+            373
+          ],
+          "destination_hint": "east"
+        }
+      ]
+    },
+    {
+      "map": "beaucedine",
+      "exits": [
+        {
+          "label": "Fei'Yin entrance",
+          "exit": [
+            317,
+            96
+          ],
+          "destination_hint": "feiyin1 or feiyin2"
+        },
+        {
+          "label": "Xarcabard",
+          "exit": [
+            171,
+            205
+          ],
+          "destination_hint": "Xarcabard"
+        },
+        {
+          "label": "Ranguemont Pass",
+          "exit": [
+            123,
+            331
+          ],
+          "destination_hint": "ranguemont"
+        },
+        {
+          "label": "Batallia Downs isolated northwest area",
+          "exit": [
+            269,
+            386
+          ],
+          "destination_hint": "batallia"
+        },
+        {
+          "label": "Pso'Xja entrance 1",
+          "exit": [
+            309,
+            261
+          ],
+          "destination_hint": "Pso'Xja",
+          "code": "1"
+        },
+        {
+          "label": "Pso'Xja entrance 2",
+          "exit": [
+            270,
+            372
+          ],
+          "destination_hint": "Pso'Xja",
+          "code": "2"
+        },
+        {
+          "label": "Pso'Xja entrance 3",
+          "exit": [
+            277,
+            230
+          ],
+          "destination_hint": "Pso'Xja",
+          "code": "3"
+        },
+        {
+          "label": "Pso'Xja entrance 4",
+          "exit": [
+            224,
+            321
+          ],
+          "destination_hint": "Pso'Xja",
+          "code": "4"
+        },
+        {
+          "label": "Pso'Xja entrance 5",
+          "exit": [
+            188,
+            360
+          ],
+          "destination_hint": "Pso'Xja",
+          "code": "5"
+        },
+        {
+          "label": "Pso'Xja entrance 6",
+          "exit": [
+            253,
+            287
+          ],
+          "destination_hint": "Pso'Xja",
+          "code": "6"
+        }
+      ]
+    },
+    {
+      "map": "feiyin1",
+      "exits": [
+        {
+          "label": "Beaucedine Glacier",
+          "exit": [
+            185,
+            356
+          ],
+          "destination_hint": "beaucedine"
+        },
+        {
+          "label": "Qu'Bia Arena",
+          "exit": [
+            342,
+            230
+          ],
+          "destination_hint": "Qu'Bia Arena"
+        }
+      ]
+    },
+    {
+      "map": "feiyin2",
+      "exits": [
+        {
+          "label": "Small isolated floor passage (native artwork only)",
+          "exit": [
+            344,
+            183
+          ],
+          "destination_hint": "unknown floor connection"
+        }
+      ]
+    },
+    {
+      "map": "feiyin3",
+      "exits": [
+        {
+          "label": "Cloister of Frost",
+          "exit": [
+            298,
+            148
+          ],
+          "destination_hint": "Cloister of Frost"
+        },
+        {
+          "label": "Beaucedine Glacier (overlay map label; native artwork lacks a matching edge)",
+          "exit": [
+            185,
+            356
+          ],
+          "destination_hint": "beaucedine"
+        }
+      ]
+    }
+  ],
+  "passages": [
+    {
+      "id": "jugner-batallia",
+      "a": {
+        "map": "jugner",
+        "exit": [
+          416,
+          145
+        ],
+        "arrival": [
+          406,
+          145
+        ],
+        "badge": {
+          "at": [
+            416,
+            145
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "batallia",
+        "exit": [
+          155,
+          290
+        ],
+        "arrival": [
+          155,
+          285
+        ],
+        "badge": {
+          "at": [
+            155,
+            290
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "detail": "Jugner east arrow and Batallia west arrow label each other",
+          "source": "packets/jugner.png",
+          "kind": "artwork"
+        },
+        {
+          "detail": "Jugner east arrow and Batallia west arrow label each other",
+          "source": "packets/batallia.png",
+          "kind": "artwork"
+        },
+        {
+          "kind": "source",
+          "source": "https://horizonffxi.wiki/Jugner_Forest",
+          "detail": "Connections lists Batallia at L-4"
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "batallia-beaucedine",
+      "a": {
+        "map": "batallia",
+        "exit": [
+          171,
+          113
+        ],
+        "arrival": [
+          171,
+          119
+        ],
+        "badge": {
+          "at": [
+            171,
+            113
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "beaucedine",
+        "exit": [
+          269,
+          386
+        ],
+        "arrival": [
+          269,
+          380
+        ],
+        "badge": {
+          "at": [
+            269,
+            386
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main"
+      },
+      "direction": "both",
+      "note": "Beaucedine reaches the isolated northwest area of Batallia; the connection does not arrive in the main downs area.",
+      "evidence": [
+        {
+          "detail": "Batallia north exit labels Beaucedine; Beaucedine south exit labels Batallia",
+          "source": "packets/batallia.png",
+          "kind": "artwork"
+        },
+        {
+          "detail": "Batallia north exit labels Beaucedine; Beaucedine south exit labels Batallia",
+          "source": "packets/beaucedine.png",
+          "kind": "artwork"
+        },
+        {
+          "kind": "source",
+          "source": "https://horizonffxi.wiki/Beaucedine_Glacier",
+          "detail": "Beaucedine lists Batallia at H-11, to the isolated northwest area"
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "jugner-davoi",
+      "a": {
+        "map": "jugner",
+        "exit": [
+          216,
+          428
+        ],
+        "arrival": [
+          216,
+          420
+        ],
+        "badge": {
+          "at": [
+            216,
+            428
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "davoi",
+        "exit": [
+          328,
+          426
+        ],
+        "arrival": [
+          328,
+          418
+        ],
+        "badge": {
+          "at": [
+            328,
+            426
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "detail": "Each map labels the connecting edge with the other zone",
+          "source": "packets/jugner.png",
+          "kind": "artwork"
+        },
+        {
+          "detail": "Each map labels the connecting edge with the other zone",
+          "source": "packets/davoi.png",
+          "kind": "artwork"
+        },
+        {
+          "kind": "source",
+          "source": "https://horizonffxi.wiki/Davoi",
+          "detail": "Davoi lists Jugner Forest at G-12"
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "davoi-monastic-1",
+      "a": {
+        "map": "davoi",
+        "exit": [
+          355,
+          215
+        ],
+        "arrival": [
+          355,
+          220
+        ],
+        "badge": {
+          "at": [
+            355,
+            215
+          ],
+          "code": "1",
+          "printed": true
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "monastic",
+        "exit": [
+          355,
+          199
+        ],
+        "arrival": [
+          355,
+          205
+        ],
+        "badge": {
+          "at": [
+            355,
+            199
+          ],
+          "code": "1",
+          "printed": true
+        },
+        "component": "main"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "detail": "Matching numbered entrance 1",
+          "source": "packets/davoi.png",
+          "kind": "artwork"
+        },
+        {
+          "detail": "Matching numbered entrance 1",
+          "source": "packets/monastic.png",
+          "kind": "artwork"
+        },
+        {
+          "kind": "source",
+          "source": "https://horizonffxi.wiki/Monastic_Cavern",
+          "detail": "Monastic Cavern lists Davoi connections"
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "davoi-monastic-2",
+      "a": {
+        "map": "davoi",
+        "exit": [
+          263,
+          356
+        ],
+        "arrival": [
+          263,
+          350
+        ],
+        "badge": {
+          "at": [
+            263,
+            356
+          ],
+          "code": "2",
+          "printed": true
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "monastic",
+        "exit": [
+          264,
+          353
+        ],
+        "arrival": [
+          264,
+          347
+        ],
+        "badge": {
+          "at": [
+            264,
+            353
+          ],
+          "code": "2",
+          "printed": true
+        },
+        "component": "main"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "detail": "Matching numbered entrance 2",
+          "source": "packets/davoi.png",
+          "kind": "artwork"
+        },
+        {
+          "detail": "Matching numbered entrance 2",
+          "source": "packets/monastic.png",
+          "kind": "artwork"
+        },
+        {
+          "kind": "source",
+          "source": "https://horizonffxi.wiki/Monastic_Cavern",
+          "detail": "Monastic Cavern lists five Davoi connections"
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "davoi-monastic-3",
+      "a": {
+        "map": "davoi",
+        "exit": [
+          230,
+          238
+        ],
+        "arrival": [
+          230,
+          244
+        ],
+        "badge": {
+          "at": [
+            230,
+            238
+          ],
+          "code": "3",
+          "printed": true
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "monastic",
+        "exit": [
+          231,
+          216
+        ],
+        "arrival": [
+          231,
+          222
+        ],
+        "badge": {
+          "at": [
+            231,
+            216
+          ],
+          "code": "3",
+          "printed": true
+        },
+        "component": "main"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "detail": "Matching numbered entrance 3",
+          "source": "packets/davoi.png",
+          "kind": "artwork"
+        },
+        {
+          "detail": "Matching numbered entrance 3",
+          "source": "packets/monastic.png",
+          "kind": "artwork"
+        },
+        {
+          "kind": "source",
+          "source": "https://horizonffxi.wiki/Davoi",
+          "detail": "Davoi lists Monastic Cavern entrances"
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "davoi-monastic-4",
+      "a": {
+        "map": "davoi",
+        "exit": [
+          276,
+          268
+        ],
+        "arrival": [
+          276,
+          262
+        ],
+        "badge": {
+          "at": [
+            276,
+            268
+          ],
+          "code": "4",
+          "printed": true
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "monastic",
+        "exit": [
+          281,
+          258
+        ],
+        "arrival": [
+          281,
+          264
+        ],
+        "badge": {
+          "at": [
+            281,
+            258
+          ],
+          "code": "4",
+          "printed": true
+        },
+        "component": "main"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "detail": "Matching numbered entrance 4",
+          "source": "packets/davoi.png",
+          "kind": "artwork"
+        },
+        {
+          "detail": "Matching numbered entrance 4",
+          "source": "packets/monastic.png",
+          "kind": "artwork"
+        },
+        {
+          "kind": "source",
+          "source": "https://horizonffxi.wiki/Davoi",
+          "detail": "Davoi lists Monastic Cavern entrances"
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "davoi-monastic-5",
+      "a": {
+        "map": "davoi",
+        "exit": [
+          312,
+          301
+        ],
+        "arrival": [
+          312,
+          295
+        ],
+        "badge": {
+          "at": [
+            312,
+            301
+          ],
+          "code": "5",
+          "printed": true
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "monastic",
+        "exit": [
+          313,
+          281
+        ],
+        "arrival": [
+          313,
+          287
+        ],
+        "badge": {
+          "at": [
+            313,
+            281
+          ],
+          "code": "5",
+          "printed": true
+        },
+        "component": "main"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "detail": "Matching numbered entrance 5",
+          "source": "packets/davoi.png",
+          "kind": "artwork"
+        },
+        {
+          "detail": "Matching numbered entrance 5",
+          "source": "packets/monastic.png",
+          "kind": "artwork"
+        },
+        {
+          "kind": "source",
+          "source": "https://horizonffxi.wiki/Monastic_Cavern",
+          "detail": "Monastic Cavern lists Davoi connections"
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "batallia-eldieme-1",
+      "a": {
+        "map": "batallia",
+        "exit": [
+          299,
+          325
+        ],
+        "arrival": [
+          299,
+          319
+        ],
+        "badge": {
+          "at": [
+            299,
+            325
+          ],
+          "code": "1",
+          "printed": true
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "eldieme2",
+        "exit": [
+          327,
+          305
+        ],
+        "arrival": [
+          327,
+          311
+        ],
+        "badge": {
+          "at": [
+            327,
+            305
+          ],
+          "code": "1",
+          "printed": true
+        },
+        "component": "main"
+      },
+      "direction": "both",
+      "note": "Map artwork titles this endpoint Map 1; the manifest key is eldieme2.",
+      "evidence": [
+        {
+          "detail": "Matching printed exit 1 and Batallia Downs label",
+          "source": "packets/batallia.png",
+          "kind": "artwork"
+        },
+        {
+          "detail": "Matching printed exit 1 and Batallia Downs label",
+          "source": "packets/eldieme2.png",
+          "kind": "artwork"
+        },
+        {
+          "kind": "source",
+          "source": "https://horizonffxi.wiki/In_Defiant_Challenge",
+          "detail": "Horizon route confirms an Eldieme map 2 connection to Batallia at F-5"
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "batallia-eldieme-6",
+      "a": {
+        "map": "batallia",
+        "exit": [
+          305,
+          364
+        ],
+        "arrival": [
+          305,
+          358
+        ],
+        "badge": {
+          "at": [
+            305,
+            364
+          ],
+          "code": "6",
+          "printed": true
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "eldieme4",
+        "exit": [
+          338,
+          323
+        ],
+        "arrival": [
+          338,
+          317
+        ],
+        "badge": {
+          "at": [
+            338,
+            323
+          ],
+          "code": "6",
+          "printed": true
+        },
+        "component": "map3"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "detail": "Matching printed 6 and Map 3 Batallia Downs arrow",
+          "source": "packets/batallia.png",
+          "kind": "artwork"
+        },
+        {
+          "detail": "Matching printed 6 and Map 3 Batallia Downs arrow",
+          "source": "packets/eldieme4.png",
+          "kind": "artwork"
+        },
+        {
+          "kind": "source",
+          "source": "https://horizonffxi.wiki/The_Eldieme_Necropolis/Maps",
+          "detail": "Horizon map archive distinguishes Map 3"
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "north-carpenters-landing",
+      "a": {
+        "map": "north",
+        "exit": [
+          206,
+          137
+        ],
+        "arrival": [
+          206,
+          143
+        ],
+        "badge": {
+          "at": [
+            206,
+            137
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "landing2",
+        "exit": [
+          226,
+          146
+        ],
+        "arrival": [
+          226,
+          152
+        ],
+        "badge": {
+          "at": [
+            226,
+            146
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "detail": "Northern San d'Oria map labels Carpenters' Landing; Landing map marks the Northern San d'Oria exit",
+          "source": "packets/north.png",
+          "kind": "artwork"
+        },
+        {
+          "detail": "Northern San d'Oria map labels Carpenters' Landing; Landing map marks the Northern San d'Oria exit",
+          "source": "packets/landing2.png",
+          "kind": "artwork"
+        },
+        {
+          "kind": "source",
+          "source": "https://horizonffxi.wiki/Carpenters'_Landing",
+          "detail": "Horizon lists Northern San d'Oria as a connection"
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "batallia-eldieme3-2",
+      "a": {
+        "map": "batallia",
+        "exit": [
+          284,
+          214
+        ],
+        "arrival": [
+          284,
+          220
+        ],
+        "badge": {
+          "at": [
+            284,
+            214
+          ],
+          "code": "2",
+          "printed": true
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "eldieme3",
+        "exit": [
+          440,
+          210
+        ],
+        "arrival": [
+          440,
+          216
+        ],
+        "badge": {
+          "at": [
+            440,
+            210
+          ],
+          "code": "2",
+          "printed": true
+        },
+        "component": "map2_network"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "detail": "Matching printed 2 on the Batallia entrance and native Map 2 layout",
+          "source": "packets/batallia.png",
+          "kind": "artwork"
+        },
+        {
+          "detail": "Matching printed 2 on the Batallia entrance and native Map 2 layout",
+          "source": "packets/eldieme3-original.png",
+          "kind": "artwork"
+        },
+        {
+          "kind": "source",
+          "source": "https://horizonffxi.wiki/The_Eldieme_Necropolis/Maps",
+          "detail": "Horizon archive identifies the native Map 2 layout"
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "batallia-eldieme3-3",
+      "a": {
+        "map": "batallia",
+        "exit": [
+          249,
+          244
+        ],
+        "arrival": [
+          249,
+          250
+        ],
+        "badge": {
+          "at": [
+            249,
+            244
+          ],
+          "code": "3",
+          "printed": true
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "eldieme3",
+        "exit": [
+          328,
+          270
+        ],
+        "arrival": [
+          328,
+          276
+        ],
+        "badge": {
+          "at": [
+            328,
+            270
+          ],
+          "code": "3",
+          "printed": true
+        },
+        "component": "map2_network"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "detail": "Matching printed 3 on the Batallia entrance and native Map 2 layout",
+          "source": "packets/batallia.png",
+          "kind": "artwork"
+        },
+        {
+          "detail": "Matching printed 3 on the Batallia entrance and native Map 2 layout",
+          "source": "packets/eldieme3-original.png",
+          "kind": "artwork"
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "batallia-eldieme3-4",
+      "a": {
+        "map": "batallia",
+        "exit": [
+          226,
+          262
+        ],
+        "arrival": [
+          226,
+          268
+        ],
+        "badge": {
+          "at": [
+            226,
+            262
+          ],
+          "code": "4",
+          "printed": true
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "eldieme3",
+        "exit": [
+          185,
+          269
+        ],
+        "arrival": [
+          185,
+          275
+        ],
+        "badge": {
+          "at": [
+            185,
+            269
+          ],
+          "code": "4",
+          "printed": true
+        },
+        "component": "map2_network"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "detail": "Matching printed 4 on the Batallia entrance and native Map 2 layout",
+          "source": "packets/batallia.png",
+          "kind": "artwork"
+        },
+        {
+          "detail": "Matching printed 4 on the Batallia entrance and native Map 2 layout",
+          "source": "packets/eldieme3-original.png",
+          "kind": "artwork"
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "batallia-eldieme3-5",
+      "a": {
+        "map": "batallia",
+        "exit": [
+          231,
+          214
+        ],
+        "arrival": [
+          231,
+          220
+        ],
+        "badge": {
+          "at": [
+            231,
+            214
+          ],
+          "code": "5",
+          "printed": true
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "eldieme3",
+        "exit": [
+          220,
+          231
+        ],
+        "arrival": [
+          220,
+          237
+        ],
+        "badge": {
+          "at": [
+            220,
+            231
+          ],
+          "code": "5",
+          "printed": true
+        },
+        "component": "map2_network"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "detail": "Matching printed 5 on the Batallia entrance and native Map 2 layout",
+          "source": "packets/batallia.png",
+          "kind": "artwork"
+        },
+        {
+          "detail": "Matching printed 5 on the Batallia entrance and native Map 2 layout",
+          "source": "packets/eldieme3-original.png",
+          "kind": "artwork"
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "batallia-eldieme3-7",
+      "a": {
+        "map": "batallia",
+        "exit": [
+          185,
+          290
+        ],
+        "arrival": [
+          185,
+          296
+        ],
+        "badge": {
+          "at": [
+            185,
+            290
+          ],
+          "code": "7",
+          "printed": true
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "eldieme3",
+        "exit": [
+          133,
+          120
+        ],
+        "arrival": [
+          133,
+          126
+        ],
+        "badge": {
+          "at": [
+            133,
+            120
+          ],
+          "code": "7",
+          "printed": true
+        },
+        "component": "map2_network"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "detail": "Matching printed 7 on the Batallia entrance and native Map 2 layout",
+          "source": "packets/batallia.png",
+          "kind": "artwork"
+        },
+        {
+          "detail": "Matching printed 7 on the Batallia entrance and native Map 2 layout",
+          "source": "packets/eldieme3-original.png",
+          "kind": "artwork"
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "batallia-eldieme3-8",
+      "a": {
+        "map": "batallia",
+        "exit": [
+          139,
+          212
+        ],
+        "arrival": [
+          139,
+          218
+        ],
+        "badge": {
+          "at": [
+            139,
+            212
+          ],
+          "code": "8",
+          "printed": true
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "eldieme3",
+        "exit": [
+          100,
+          296
+        ],
+        "arrival": [
+          100,
+          302
+        ],
+        "badge": {
+          "at": [
+            100,
+            296
+          ],
+          "code": "8",
+          "printed": true
+        },
+        "component": "map2_network"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "detail": "Matching printed 8 on the Batallia entrance and native Map 2 layout",
+          "source": "packets/batallia.png",
+          "kind": "artwork"
+        },
+        {
+          "detail": "Matching printed 8 on the Batallia entrance and native Map 2 layout",
+          "source": "packets/eldieme3-original.png",
+          "kind": "artwork"
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "ranguemont-beaucedine",
+      "a": {
+        "map": "ranguemont",
+        "exit": [
+          402,
+          133
+        ],
+        "arrival": [
+          402,
+          140
+        ],
+        "badge": {
+          "at": [
+            402,
+            133
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "beaucedine",
+        "exit": [
+          123,
+          331
+        ],
+        "arrival": [
+          123,
+          328
+        ],
+        "badge": {
+          "at": [
+            123,
+            331
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main"
+      },
+      "direction": "both",
+      "note": "",
+      "evidence": [
+        {
+          "detail": "Beaucedine and Ranguemont labels identify the boundary",
+          "source": "packets/ranguemont.png",
+          "kind": "artwork"
+        },
+        {
+          "detail": "Beaucedine and Ranguemont labels identify the boundary",
+          "source": "packets/beaucedine.png",
+          "kind": "artwork"
+        },
+        {
+          "kind": "source",
+          "source": "https://horizonffxi.wiki/Beaucedine_Glacier",
+          "detail": "Beaucedine lists Ranguemont Pass at E-11"
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "id": "beaucedine-feiyin1",
+      "a": {
+        "map": "beaucedine",
+        "exit": [
+          317,
+          96
+        ],
+        "arrival": [
+          317,
+          102
+        ],
+        "badge": {
+          "at": [
+            317,
+            96
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main"
+      },
+      "b": {
+        "map": "feiyin1",
+        "exit": [
+          185,
+          356
+        ],
+        "arrival": [
+          185,
+          350
+        ],
+        "badge": {
+          "at": [
+            185,
+            356
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main"
+      },
+      "direction": "both",
+      "note": "Native/original Fei'Yin floor 1 artwork shows the south Beaucedine passage; duplicate overlay artwork on floor 2/3 is not used for this pairing.",
+      "evidence": [
+        {
+          "detail": "Beaucedine northbound label and native Fei'Yin floor 1 south passage",
+          "source": "packets/beaucedine.png",
+          "kind": "artwork"
+        },
+        {
+          "detail": "Beaucedine northbound label and native Fei'Yin floor 1 south passage",
+          "source": "packets/feiyin1-original.png",
+          "kind": "artwork"
+        },
+        {
+          "kind": "source",
+          "source": "https://horizonffxi.wiki/Beaucedine_Glacier",
+          "detail": "Beaucedine lists Fei'Yin at J-4"
+        }
+      ],
+      "uncertainties": []
+    }
+  ],
+  "unresolved": [
+    {
+      "map": "jugner",
+      "label": "King Ranperre's Tomb",
+      "reason": "Already represented by the seed passage tomb-jugner; enclosed component is distinct from the main forest."
+    },
+    {
+      "map": "eldieme1",
+      "label": "Overlay Map 2 exits 1-8",
+      "reason": "Overlay repeats Map 2, but the native original image for floor 14 shows only a short isolated passage; do not associate the overlay exits with this floor."
+    },
+    {
+      "map": "eldieme2",
+      "label": "A-D and corner transfers",
+      "reason": "Artwork suggests internal drops/transfers, but the destination map floor cannot be established from the duplicated Map 2 packets."
+    },
+    {
+      "map": "eldieme1",
+      "label": "Native floor passage",
+      "reason": "Original artwork shows only a short isolated passage with no labeled destination; exact link is unresolved."
+    },
+    {
+      "map": "eldieme4",
+      "label": "Transfers E and F",
+      "reason": "The native Map 3 image marks E and F but their destination floors cannot be resolved from the inspected artwork."
+    },
+    {
+      "map": "landing1",
+      "label": "Transition to Landing 2",
+      "reason": "The packet images show separate Landing areas, but the direct floor transition and landing point are not explicitly labeled."
+    },
+    {
+      "map": "monastic",
+      "label": "Jugner Forest escape",
+      "reason": "Horizon lists a direct escape to Jugner, but the inspected Monastic Cavern map does not show which passage reaches it; leaving the endpoint and pairing unresolved."
+    },
+    {
+      "map": "jugner",
+      "label": "Carpenters' Landing entrances 1 and 2",
+      "reason": "Both Forest zone exits are confirmed, but the Landing packet has only one unlabeled Jugner connection marker, so distinct destination endpoints cannot be assigned without guessing."
+    },
+    {
+      "map": "batallia",
+      "label": "Upper Jeuno via Artisan Bridge",
+      "reason": "Destination map is outside this pilot."
+    },
+    {
+      "map": "batallia",
+      "label": "Rolandberry Fields",
+      "reason": "Destination map is outside this pilot."
+    },
+    {
+      "map": "feiyin2",
+      "label": "Overlay map exits to Beaucedine / Qu'Bia Arena",
+      "reason": "These marks are carried by the shared overlay image, but the native floor 2 image shows a small isolated passage without these exits."
+    },
+    {
+      "map": "feiyin3",
+      "label": "Overlay Beaucedine exit",
+      "reason": "Shared overlay shows the floor 1 map; native floor 3 image does not corroborate that route."
+    },
+    {
+      "map": "feiyin1",
+      "label": "Qu'Bia Arena",
+      "reason": "Destination map is outside this pilot."
+    },
+    {
+      "map": "feiyin3",
+      "label": "Cloister of Frost",
+      "reason": "Destination is outside this pilot; Horizon source confirms a Fei'Yin connection, and this floor association remains a candidate from the north exit shown on the overlay only."
+    },
+    {
+      "map": "beaucedine",
+      "label": "Xarcabard",
+      "reason": "Region-boundary destination is outside this pilot."
+    },
+    {
+      "map": "beaucedine",
+      "label": "Pso'Xja entrances 1-6",
+      "reason": "All six marked entrances lead to Pso'Xja, outside this pilot."
+    },
+    {
+      "map": "ranguemont",
+      "label": "East Ronfaure",
+      "reason": "Seed passage ranguemont already records the connection; no duplicate candidate passage."
+    },
+    {
+      "map": "jugner",
+      "label": "La Theine Plateau",
+      "reason": "Seed passage latheine-jugner already records the connection; no duplicate candidate passage."
+    }
+  ]
+}

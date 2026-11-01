@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "description": "First transport POIs: four Jeuno airship services and the Selbina-Mhaura ferry. World anchors mark transport towns, not precise boarding positions.",
+  "categories": [
+    {"id": "boat", "label": "Boats", "title": "Boat", "color": 4294034556},
+    {"id": "airship", "label": "Airships", "title": "Airship", "color": 4288469489}
+  ],
+  "hubs": {
+    "sandoria": {"title": "Port San d'Oria", "map": "port"},
+    "bastok": {"title": "Port Bastok", "map": "port_bastok"},
+    "jeuno": {"title": "Port Jeuno", "map": "port_jeuno"},
+    "selbina": {"title": "Selbina", "map": "selbina"},
+    "mhaura": {"title": "Mhaura", "world": [7060, 5000]},
+    "windurst": {"title": "Port Windurst", "map": "port_windurst"},
+    "kazham": {"title": "Kazham", "map": "kazham"}
+  },
+  "routes": [
+    {"id": "ferry-selbina-mhaura", "category": "boat", "a": "selbina", "b": "mhaura", "wiki_a": "161", "wiki_b": "14", "requirement": "Ferry ticket", "source": "https://horizonffxi.wiki/Mhaura"},
+    {"id": "airship-jeuno-sandoria", "category": "airship", "a": "jeuno", "b": "sandoria", "wiki_a": "24", "wiki_b": "25", "requirement": "Airship Pass", "source": "https://horizonffxi.wiki/San_d%27Oria-Jeuno_Airship"},
+    {"id": "airship-jeuno-bastok", "category": "airship", "a": "jeuno", "b": "bastok", "wiki_a": "24", "wiki_b": "23", "requirement": "Airship Pass", "source": "https://horizonffxi.wiki/Port_Jeuno"},
+    {"id": "airship-jeuno-windurst", "category": "airship", "a": "jeuno", "b": "windurst", "wiki_a": "24", "wiki_b": "26", "requirement": "Airship Pass", "source": "https://horizonffxi.wiki/Port_Jeuno"},
+    {"id": "airship-jeuno-kazham", "category": "airship", "a": "jeuno", "b": "kazham", "wiki_a": "24", "wiki_b": "291", "requirement": "Airship pass for Kazham", "source": "https://horizonffxi.wiki/Airship_pass_for_Kazham"}
+  ]
+}

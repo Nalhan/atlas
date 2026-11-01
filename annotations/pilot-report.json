@@ -1,0 +1,67 @@
+{
+  "jobs": 2,
+  "pilot_maps": 23,
+  "proposed": 25,
+  "accepted": 25,
+  "reject": 0,
+  "needs_work": 0,
+  "pending": 0,
+  "corrected": 25,
+  "unresolved": 31,
+  "mean_corrected_endpoint_shift": 18.96,
+  "max_corrected_endpoint_shift": 222.0,
+  "accepted_without_review_changes": 0,
+  "model_runs": {
+    "annotators": "gpt-6-luna (two independent regional jobs)",
+    "checker": "inherited primary model",
+    "provider_cost_usd": null,
+    "cost_note": "Subagent tools do not expose billable usage; no dollar savings claim measured."
+  },
+  "review_findings": [
+    {
+      "id": "review-scope",
+      "severity": "info",
+      "detail": "All23 current pilot maps inspected; initial20 independent inventory was completed before reading candidates. Added native/original packets resolved special-floor artwork reuse. Reviewed all25 final candidates, six Zulkheim plus19 north_east. Every acceptance requires its supplied corrections."
+    },
+    {
+      "id": "verification-level",
+      "severity": "info",
+      "detail": "Accept means endpoints/topology are supported by inspected artwork and cited Horizon-compatible connection evidence. No live game was running, no coordinates were traversal-tested, and traversal_verified remains false. Corrected coordinates are map-annotation focus estimates, not measured game trigger coordinates."
+    },
+    {
+      "id": "revision-loop-wrong-floors",
+      "severity": "high",
+      "detail": "Initial Zulkheim LaTheine2 -> ordelle3/floor14 was wrong because that native floor is the apparatus spur. Revised candidate retargets ordelle4/floor15, which original geometry corroborates. Eldieme floor14 and FeiYin floor14 likewise cannot inherit large replacement-overlay exits."
+    },
+    {
+      "id": "revision-loop-guessed-landing",
+      "severity": "high",
+      "detail": "Initial Jugner-to-Landing candidates used NM-overlay positions as destination mouths and assumed pairings not established by artwork. They were removed before final hash. Preserve the two routes as unresolved, not rejected physical exits."
+    },
+    {
+      "id": "revision-loop-west-duplicate",
+      "severity": "high",
+      "detail": "Initial latheine-west-ronfaure candidate duplicated an existing seed route and used suspicious endpoint locations. Worker removed it; deferred seed route remains outside this final candidate review."
+    },
+    {
+      "id": "coordinates-vs-printed",
+      "severity": "high",
+      "detail": "Many candidate coordinates pointed to destination title text, leader arrowheads or blank map. Final decisions move physical endpoints to road/tunnel mouths and preserve distinct visible glyph coordinates for printed codes."
+    },
+    {
+      "id": "inventory-stale",
+      "severity": "high",
+      "detail": "Worker inventory is not fully corrected by passage corrections: Zulkheim LaTheine Map2 still hints ordelle3 instead of ordelle4; north_east Batallia7 inventory is at [185,290] instead of actual [184,177]; many boundary inventory rows remain on arrows. Apply reviewed endpoint corrections to any displayed inventory or keep inventory audit-only."
+    },
+    {
+      "id": "disconnected-components",
+      "severity": "high",
+      "detail": "Acceptances preserve Monastic north/central/east, Eldieme3 main/northwest/west/southwest, Batallia main/northwest/island and Landing2 north_landing components. Do not collapse components merely because map keys match."
+    },
+    {
+      "id": "outside-pilot-boundaries",
+      "severity": "info",
+      "detail": "Worker unresolved entries retain Gustav, Lufaise, Pashhow, Gusgen, Gustaberg, ferry, Jeuno, Rolanberry, Xarcabard, PsoXja six entries, QuBia and Cloister. Outside-pilot status is not evidence that an exit is invalid."
+    }
+  ]
+}

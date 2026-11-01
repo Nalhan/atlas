@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "job_id": "north_east",
+  "maps": [
+    "jugner",
+    "batallia",
+    "davoi",
+    "monastic",
+    "eldieme1",
+    "eldieme2",
+    "eldieme3",
+    "eldieme4",
+    "landing1",
+    "landing2",
+    "ranguemont",
+    "beaucedine",
+    "feiyin1",
+    "feiyin2",
+    "feiyin3"
+  ],
+  "context": [
+    "west",
+    "east",
+    "tomb1",
+    "north",
+    "latheine",
+    "jugner",
+    "ranguemont"
+  ],
+  "contract": "CONTRACT.md",
+  "manifest": "../manifest.json"
+}

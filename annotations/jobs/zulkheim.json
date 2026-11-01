@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "job_id": "zulkheim",
+  "maps": [
+    "latheine",
+    "valkurm",
+    "konschtat",
+    "selbina",
+    "ordelle1",
+    "ordelle2",
+    "ordelle3",
+    "ordelle4"
+  ],
+  "context": [
+    "west",
+    "east",
+    "tomb1",
+    "north",
+    "latheine",
+    "jugner",
+    "ranguemont"
+  ],
+  "contract": "CONTRACT.md",
+  "manifest": "../manifest.json"
+}

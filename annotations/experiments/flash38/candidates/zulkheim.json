@@ -1,0 +1,1083 @@
+{
+  "inspected_images": [
+    "packets/ordelle1.png",
+    "packets/ordelle1-original.png",
+    "packets/ordelle2.png",
+    "packets/ordelle2-original.png",
+    "packets/ordelle3.png",
+    "packets/ordelle3-original.png",
+    "packets/ordelle4.png",
+    "packets/ordelle4-original.png",
+    "packets/latheine.png",
+    "packets/latheine-original.png",
+    "packets/valkurm.png",
+    "packets/valkurm-original.png",
+    "packets/konschtat.png",
+    "packets/konschtat-original.png",
+    "packets/selbina.png",
+    "packets/selbina-original.png"
+  ],
+  "inventory": [
+    {
+      "exits": [
+        {
+          "destination_hint": "West Ronfaure",
+          "exit": [
+            148,
+            116
+          ],
+          "label": "West Ronfaure"
+        },
+        {
+          "destination_hint": "Jugner Forest",
+          "exit": [
+            423,
+            258
+          ],
+          "label": "Jugner Forest"
+        },
+        {
+          "destination_hint": "Valkurm Dunes",
+          "exit": [
+            273,
+            398
+          ],
+          "label": "Valkurm Dunes"
+        },
+        {
+          "destination_hint": "Ordelle's Caves / 1",
+          "exit": [
+            243,
+            211
+          ],
+          "label": "Ordelle's Caves (Map #1)"
+        },
+        {
+          "destination_hint": "Ordelle's Caves / upper",
+          "exit": [
+            207,
+            220
+          ],
+          "label": "Ordelle's Caves (Map #2)"
+        },
+        {
+          "destination_hint": "Ordelle's Caves / southern galleries",
+          "exit": [
+            271,
+            316
+          ],
+          "label": "Ordelle's Caves (Map #3)"
+        }
+      ],
+      "map": "latheine"
+    },
+    {
+      "exits": [
+        {
+          "destination_hint": "La Theine Plateau",
+          "exit": [
+            374,
+            177
+          ],
+          "label": "La Theine Plateau"
+        },
+        {
+          "destination_hint": "Konschtat Highlands",
+          "exit": [
+            403,
+            340
+          ],
+          "label": "Konschtat Highlands"
+        },
+        {
+          "destination_hint": "Selbina",
+          "exit": [
+            235,
+            285
+          ],
+          "label": "Selbina"
+        },
+        {
+          "destination_hint": "Gustav Tunnel",
+          "exit": [
+            94,
+            270
+          ],
+          "label": "Gustav Tunnel"
+        },
+        {
+          "destination_hint": "Lufaise Meadows",
+          "exit": [
+            303,
+            287
+          ],
+          "label": "Lufaise Meadows"
+        }
+      ],
+      "map": "valkurm"
+    },
+    {
+      "exits": [
+        {
+          "destination_hint": "Valkurm Dunes",
+          "exit": [
+            219,
+            90
+          ],
+          "label": "Valkurm Dunes"
+        },
+        {
+          "destination_hint": "Pashhow Marshlands",
+          "exit": [
+            366,
+            118
+          ],
+          "label": "Pashhow Marshlands"
+        },
+        {
+          "destination_hint": "North Gustaberg",
+          "exit": [
+            278,
+            392
+          ],
+          "label": "North Gustaberg"
+        },
+        {
+          "destination_hint": "Gusgen Mines",
+          "exit": [
+            388,
+            232
+          ],
+          "label": "Gusgen Mines"
+        }
+      ],
+      "map": "konschtat"
+    },
+    {
+      "exits": [
+        {
+          "destination_hint": "Valkurm Dunes",
+          "exit": [
+            272,
+            182
+          ],
+          "label": "Valkurm Dunes"
+        },
+        {
+          "destination_hint": "Mhaura (Ferry)",
+          "exit": [
+            269,
+            332
+          ],
+          "label": "Sea Travel Agency"
+        }
+      ],
+      "map": "selbina"
+    },
+    {
+      "exits": [
+        {
+          "destination_hint": "La Theine Plateau",
+          "exit": [
+            243,
+            72
+          ],
+          "label": "La Theine Plateau (1)"
+        },
+        {
+          "destination_hint": "Ordelle's Caves / upper",
+          "exit": [
+            238,
+            137
+          ],
+          "label": "A"
+        },
+        {
+          "destination_hint": "Ordelle's Caves / upper",
+          "exit": [
+            298,
+            185
+          ],
+          "label": "B"
+        },
+        {
+          "destination_hint": "Ordelle's Caves / upper",
+          "exit": [
+            252,
+            203
+          ],
+          "label": "C"
+        },
+        {
+          "destination_hint": "Ordelle's Caves / upper",
+          "exit": [
+            266,
+            286
+          ],
+          "label": "D"
+        },
+        {
+          "destination_hint": "Ordelle's Caves / southern galleries",
+          "exit": [
+            216,
+            278
+          ],
+          "label": "F"
+        }
+      ],
+      "map": "ordelle1"
+    },
+    {
+      "exits": [
+        {
+          "destination_hint": "La Theine Plateau",
+          "exit": [
+            216,
+            316
+          ],
+          "label": "La Theine Plateau (3)"
+        },
+        {
+          "destination_hint": "Ordelle's Caves / 1",
+          "exit": [
+            248,
+            149
+          ],
+          "label": "F"
+        },
+        {
+          "destination_hint": "Ordelle's Caves / upper",
+          "exit": [
+            311,
+            252
+          ],
+          "label": "E"
+        }
+      ],
+      "map": "ordelle2"
+    },
+    {
+      "exits": [],
+      "map": "ordelle3"
+    },
+    {
+      "exits": [
+        {
+          "destination_hint": "La Theine Plateau",
+          "exit": [
+            344,
+            103
+          ],
+          "label": "La Theine Plateau (2)"
+        },
+        {
+          "destination_hint": "Ordelle's Caves / 1",
+          "exit": [
+            233,
+            126
+          ],
+          "label": "A"
+        },
+        {
+          "destination_hint": "Ordelle's Caves / 1",
+          "exit": [
+            299,
+            169
+          ],
+          "label": "B"
+        },
+        {
+          "destination_hint": "Ordelle's Caves / 1",
+          "exit": [
+            243,
+            201
+          ],
+          "label": "C"
+        },
+        {
+          "destination_hint": "Ordelle's Caves / 1",
+          "exit": [
+            266,
+            303
+          ],
+          "label": "D"
+        },
+        {
+          "destination_hint": "Ordelle's Caves / southern galleries",
+          "exit": [
+            300,
+            362
+          ],
+          "label": "E"
+        }
+      ],
+      "map": "ordelle4"
+    }
+  ],
+  "job_id": "zulkheim",
+  "limitations": [
+    "Ordelle's Caves apparatus map (ordelle3) replacement artwork reuses the full floor 15 layout, but native floor geometry (ordelle3-original.png) is strictly the isolated apparatus room; exits on ordelle3 were suppressed per native floor identity instructions.",
+    "Off-bundle connections to Gustav Tunnel, Lufaise Meadows, Pashhow Marshlands, North Gustaberg, Gusgen Mines, and the Selbina ferry were recorded under unresolved."
+  ],
+  "passages": [
+    {
+      "a": {
+        "arrival": [
+          273,
+          408
+        ],
+        "badge": {
+          "at": [
+            273,
+            398
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main",
+        "exit": [
+          273,
+          398
+        ],
+        "label": "Valkurm Dunes",
+        "map": "latheine"
+      },
+      "b": {
+        "arrival": [
+          374,
+          187
+        ],
+        "badge": {
+          "at": [
+            374,
+            177
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main",
+        "exit": [
+          374,
+          177
+        ],
+        "label": "La Theine Plateau",
+        "map": "valkurm"
+      },
+      "direction": "both",
+      "evidence": [
+        {
+          "detail": "Exit passage to Valkurm Dunes at I-13 on La Theine Plateau",
+          "kind": "label",
+          "source": "packets/latheine.png"
+        },
+        {
+          "detail": "Exit passage to La Theine Plateau at L-4/L-5 on Valkurm Dunes",
+          "kind": "label",
+          "source": "packets/valkurm.png"
+        }
+      ],
+      "id": "latheine_valkurm",
+      "note": "Zone transition between La Theine Plateau and Valkurm Dunes",
+      "uncertainties": []
+    },
+    {
+      "a": {
+        "arrival": [
+          403,
+          330
+        ],
+        "badge": {
+          "at": [
+            403,
+            340
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main",
+        "exit": [
+          403,
+          340
+        ],
+        "label": "Konschtat Highlands",
+        "map": "valkurm"
+      },
+      "b": {
+        "arrival": [
+          219,
+          102
+        ],
+        "badge": {
+          "at": [
+            219,
+            90
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main",
+        "exit": [
+          219,
+          90
+        ],
+        "label": "Valkurm Dunes",
+        "map": "konschtat"
+      },
+      "direction": "both",
+      "evidence": [
+        {
+          "detail": "Exit passage to Konschtat Highlands at M-11 on Valkurm Dunes",
+          "kind": "label",
+          "source": "packets/valkurm.png"
+        },
+        {
+          "detail": "Exit passage to Valkurm Dunes at G-2/G-3 on Konschtat Highlands",
+          "kind": "label",
+          "source": "packets/konschtat.png"
+        }
+      ],
+      "id": "valkurm_konschtat",
+      "note": "Zone transition between Valkurm Dunes and Konschtat Highlands",
+      "uncertainties": []
+    },
+    {
+      "a": {
+        "arrival": [
+          235,
+          275
+        ],
+        "badge": {
+          "at": [
+            235,
+            285
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main",
+        "exit": [
+          235,
+          285
+        ],
+        "label": "Selbina",
+        "map": "valkurm"
+      },
+      "b": {
+        "arrival": [
+          272,
+          195
+        ],
+        "badge": {
+          "at": [
+            272,
+            182
+          ],
+          "code": null,
+          "printed": false
+        },
+        "component": "main",
+        "exit": [
+          272,
+          182
+        ],
+        "label": "Valkurm Dunes",
+        "map": "selbina"
+      },
+      "direction": "both",
+      "evidence": [
+        {
+          "detail": "Entrance to town of Selbina at G-10/H-10 on Valkurm Dunes",
+          "kind": "label",
+          "source": "packets/valkurm.png"
+        },
+        {
+          "detail": "Main Gate exit to Valkurm Dunes at H-6/H-7 on Selbina map",
+          "kind": "label",
+          "source": "packets/selbina.png"
+        }
+      ],
+      "id": "valkurm_selbina",
+      "note": "Gate passage between Valkurm Dunes and Selbina",
+      "uncertainties": []
+    },
+    {
+      "a": {
+        "arrival": [
+          245,
+          215
+        ],
+        "badge": {
+          "at": [
+            247,
+            218
+          ],
+          "code": "1",
+          "printed": true
+        },
+        "component": "main",
+        "exit": [
+          243,
+          211
+        ],
+        "label": "Ordelle's Caves (Map #1)",
+        "map": "latheine"
+      },
+      "b": {
+        "arrival": [
+          243,
+          80
+        ],
+        "badge": {
+          "at": [
+            249,
+            61
+          ],
+          "code": "1",
+          "printed": true
+        },
+        "component": "north_section",
+        "exit": [
+          243,
+          72
+        ],
+        "label": "La Theine Plateau (1)",
+        "map": "ordelle1"
+      },
+      "direction": "both",
+      "evidence": [
+        {
+          "detail": "Entrance 1 to Ordelle's Caves at G-6/H-6 with badge 1 on La Theine",
+          "kind": "label",
+          "source": "packets/latheine.png"
+        },
+        {
+          "detail": "Exit 1 to La Theine Plateau at H-2/H-3 with badge 1 on Ordelle Map 1",
+          "kind": "label",
+          "source": "packets/ordelle1.png"
+        }
+      ],
+      "id": "latheine_ordelle1_entrance1",
+      "note": "Entrance 1 connection between La Theine Plateau and Ordelle's Caves floor 1",
+      "uncertainties": []
+    },
+    {
+      "a": {
+        "arrival": [
+          205,
+          225
+        ],
+        "badge": {
+          "at": [
+            202,
+            222
+          ],
+          "code": "2",
+          "printed": true
+        },
+        "component": "main",
+        "exit": [
+          207,
+          220
+        ],
+        "label": "Ordelle's Caves (Map #2)",
+        "map": "latheine"
+      },
+      "b": {
+        "arrival": [
+          344,
+          115
+        ],
+        "badge": {
+          "at": [
+            328,
+            88
+          ],
+          "code": "2",
+          "printed": true
+        },
+        "component": "upper_main",
+        "exit": [
+          344,
+          103
+        ],
+        "label": "La Theine Plateau (2)",
+        "map": "ordelle4"
+      },
+      "direction": "both",
+      "evidence": [
+        {
+          "detail": "Entrance 2 to Ordelle's Caves at F-7 with badge 2 on La Theine",
+          "kind": "label",
+          "source": "packets/latheine.png"
+        },
+        {
+          "detail": "Exit 2 to La Theine Plateau at K-3 with badge 2 on Ordelle Upper Caves",
+          "kind": "label",
+          "source": "packets/ordelle4.png"
+        }
+      ],
+      "id": "latheine_ordelle4_entrance2",
+      "note": "Entrance 2 connection between La Theine Plateau and Ordelle's Caves upper floor",
+      "uncertainties": []
+    },
+    {
+      "a": {
+        "arrival": [
+          271,
+          324
+        ],
+        "badge": {
+          "at": [
+            274,
+            313
+          ],
+          "code": "3",
+          "printed": true
+        },
+        "component": "main",
+        "exit": [
+          271,
+          316
+        ],
+        "label": "Ordelle's Caves (Map #3)",
+        "map": "latheine"
+      },
+      "b": {
+        "arrival": [
+          222,
+          316
+        ],
+        "badge": {
+          "at": [
+            201,
+            326
+          ],
+          "code": "3",
+          "printed": true
+        },
+        "component": "southern_main",
+        "exit": [
+          216,
+          316
+        ],
+        "label": "La Theine Plateau (3)",
+        "map": "ordelle2"
+      },
+      "direction": "both",
+      "evidence": [
+        {
+          "detail": "Entrance 3 to Ordelle's Caves at H-10 with badge 3 on La Theine",
+          "kind": "label",
+          "source": "packets/latheine.png"
+        },
+        {
+          "detail": "Exit 3 to La Theine Plateau at G-10/H-10 with badge 3 on Ordelle Southern Galleries",
+          "kind": "label",
+          "source": "packets/ordelle2.png"
+        }
+      ],
+      "id": "latheine_ordelle2_entrance3",
+      "note": "Entrance 3 connection between La Theine Plateau and Ordelle's Caves southern galleries",
+      "uncertainties": []
+    },
+    {
+      "a": {
+        "arrival": [
+          238,
+          142
+        ],
+        "badge": {
+          "at": [
+            238,
+            137
+          ],
+          "code": "A",
+          "printed": true
+        },
+        "component": "north_section",
+        "exit": [
+          238,
+          137
+        ],
+        "label": "A",
+        "map": "ordelle1"
+      },
+      "b": {
+        "arrival": [
+          233,
+          131
+        ],
+        "badge": {
+          "at": [
+            233,
+            126
+          ],
+          "code": "A",
+          "printed": true
+        },
+        "component": "upper_main",
+        "exit": [
+          233,
+          126
+        ],
+        "label": "A",
+        "map": "ordelle4"
+      },
+      "direction": "both",
+      "evidence": [
+        {
+          "detail": "Stairway/passage letter A on floor 1",
+          "kind": "label",
+          "source": "packets/ordelle1.png"
+        },
+        {
+          "detail": "Stairway/passage letter A on upper floor",
+          "kind": "label",
+          "source": "packets/ordelle4.png"
+        }
+      ],
+      "id": "ordelle1_ordelle4_A",
+      "note": "Stairway connection A between Ordelle floor 1 and upper floor",
+      "uncertainties": []
+    },
+    {
+      "a": {
+        "arrival": [
+          298,
+          180
+        ],
+        "badge": {
+          "at": [
+            298,
+            185
+          ],
+          "code": "B",
+          "printed": true
+        },
+        "component": "north_section",
+        "exit": [
+          298,
+          185
+        ],
+        "label": "B",
+        "map": "ordelle1"
+      },
+      "b": {
+        "arrival": [
+          299,
+          174
+        ],
+        "badge": {
+          "at": [
+            299,
+            169
+          ],
+          "code": "B",
+          "printed": true
+        },
+        "component": "upper_main",
+        "exit": [
+          299,
+          169
+        ],
+        "label": "B",
+        "map": "ordelle4"
+      },
+      "direction": "both",
+      "evidence": [
+        {
+          "detail": "Stairway/passage letter B on floor 1",
+          "kind": "label",
+          "source": "packets/ordelle1.png"
+        },
+        {
+          "detail": "Stairway/passage letter B on upper floor",
+          "kind": "label",
+          "source": "packets/ordelle4.png"
+        }
+      ],
+      "id": "ordelle1_ordelle4_B",
+      "note": "Stairway connection B between Ordelle floor 1 and upper floor",
+      "uncertainties": []
+    },
+    {
+      "a": {
+        "arrival": [
+          252,
+          208
+        ],
+        "badge": {
+          "at": [
+            252,
+            203
+          ],
+          "code": "C",
+          "printed": true
+        },
+        "component": "mid_section",
+        "exit": [
+          252,
+          203
+        ],
+        "label": "C",
+        "map": "ordelle1"
+      },
+      "b": {
+        "arrival": [
+          243,
+          206
+        ],
+        "badge": {
+          "at": [
+            243,
+            201
+          ],
+          "code": "C",
+          "printed": true
+        },
+        "component": "upper_main",
+        "exit": [
+          243,
+          201
+        ],
+        "label": "C",
+        "map": "ordelle4"
+      },
+      "direction": "both",
+      "evidence": [
+        {
+          "detail": "Stairway/passage letter C on floor 1",
+          "kind": "label",
+          "source": "packets/ordelle1.png"
+        },
+        {
+          "detail": "Stairway/passage letter C on upper floor",
+          "kind": "label",
+          "source": "packets/ordelle4.png"
+        }
+      ],
+      "id": "ordelle1_ordelle4_C",
+      "note": "Stairway connection C between Ordelle floor 1 and upper floor",
+      "uncertainties": []
+    },
+    {
+      "a": {
+        "arrival": [
+          266,
+          281
+        ],
+        "badge": {
+          "at": [
+            266,
+            286
+          ],
+          "code": "D",
+          "printed": true
+        },
+        "component": "south_section",
+        "exit": [
+          266,
+          286
+        ],
+        "label": "D",
+        "map": "ordelle1"
+      },
+      "b": {
+        "arrival": [
+          266,
+          298
+        ],
+        "badge": {
+          "at": [
+            266,
+            303
+          ],
+          "code": "D",
+          "printed": true
+        },
+        "component": "upper_main",
+        "exit": [
+          266,
+          303
+        ],
+        "label": "D",
+        "map": "ordelle4"
+      },
+      "direction": "both",
+      "evidence": [
+        {
+          "detail": "Stairway/passage letter D on floor 1",
+          "kind": "label",
+          "source": "packets/ordelle1.png"
+        },
+        {
+          "detail": "Stairway/passage letter D on upper floor",
+          "kind": "label",
+          "source": "packets/ordelle4.png"
+        }
+      ],
+      "id": "ordelle1_ordelle4_D",
+      "note": "Stairway connection D between Ordelle floor 1 and upper floor",
+      "uncertainties": []
+    },
+    {
+      "a": {
+        "arrival": [
+          311,
+          257
+        ],
+        "badge": {
+          "at": [
+            311,
+            252
+          ],
+          "code": "E",
+          "printed": true
+        },
+        "component": "southern_main",
+        "exit": [
+          311,
+          252
+        ],
+        "label": "E",
+        "map": "ordelle2"
+      },
+      "b": {
+        "arrival": [
+          300,
+          357
+        ],
+        "badge": {
+          "at": [
+            300,
+            362
+          ],
+          "code": "E",
+          "printed": true
+        },
+        "component": "upper_main",
+        "exit": [
+          300,
+          362
+        ],
+        "label": "E",
+        "map": "ordelle4"
+      },
+      "direction": "both",
+      "evidence": [
+        {
+          "detail": "Passage letter E on southern galleries floor",
+          "kind": "label",
+          "source": "packets/ordelle2.png"
+        },
+        {
+          "detail": "Passage letter E on upper floor",
+          "kind": "label",
+          "source": "packets/ordelle4.png"
+        }
+      ],
+      "id": "ordelle2_ordelle4_E",
+      "note": "Passage connection E between southern galleries and upper floor",
+      "uncertainties": []
+    },
+    {
+      "a": {
+        "arrival": [
+          248,
+          154
+        ],
+        "badge": {
+          "at": [
+            216,
+            278
+          ],
+          "code": "F",
+          "printed": true
+        },
+        "component": "mid_section",
+        "exit": [
+          216,
+          278
+        ],
+        "label": "F",
+        "map": "ordelle1"
+      },
+      "b": {
+        "arrival": [
+          216,
+          278
+        ],
+        "badge": {
+          "at": [
+            248,
+            149
+          ],
+          "code": "F",
+          "printed": true
+        },
+        "component": "southern_main",
+        "exit": [
+          248,
+          149
+        ],
+        "label": "F",
+        "map": "ordelle2"
+      },
+      "direction": "a_to_b",
+      "evidence": [
+        {
+          "detail": "Chasm drop F on floor 1",
+          "kind": "label",
+          "source": "packets/ordelle1.png"
+        },
+        {
+          "detail": "Landing point F on southern galleries floor",
+          "kind": "label",
+          "source": "packets/ordelle2.png"
+        }
+      ],
+      "id": "ordelle1_ordelle2_F",
+      "note": "One-way fall/drop from floor 1 to southern galleries",
+      "uncertainties": []
+    }
+  ],
+  "schema_version": 1,
+  "unresolved": [
+    {
+      "label": "Gustav Tunnel",
+      "map": "valkurm",
+      "reason": "Target zone Gustav Tunnel is absent from this bundle/job."
+    },
+    {
+      "label": "Lufaise Meadows",
+      "map": "valkurm",
+      "reason": "Target zone Lufaise Meadows is absent from this bundle/job."
+    },
+    {
+      "label": "Pashhow Marshlands",
+      "map": "konschtat",
+      "reason": "Target zone Pashhow Marshlands is absent from this bundle/job."
+    },
+    {
+      "label": "North Gustaberg",
+      "map": "konschtat",
+      "reason": "Target zone North Gustaberg is absent from this bundle/job."
+    },
+    {
+      "label": "Gusgen Mines",
+      "map": "konschtat",
+      "reason": "Target zone Gusgen Mines is absent from this bundle/job."
+    },
+    {
+      "label": "Sea Travel Agency",
+      "map": "selbina",
+      "reason": "Ferry sea transport service to Mhaura is an off-pilot transport route without a static zone edge in this bundle."
+    },
+    {
+      "label": "Ordelle's Caves / apparatus floor",
+      "map": "ordelle3",
+      "reason": "Native floor geometry (ordelle3-original.png) is strictly the isolated apparatus room; replacement image ordelle3.png reuses upper cave map artwork. No native exits exist on this apparatus floor."
+    }
+  ],
+  "worker": "Antigravity gemini-3.8-flash-medium"
+}

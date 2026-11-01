@@ -1,0 +1,2242 @@
+{
+  "server_commit": "1450874235d41341a2ced74c1dbbe9e4477611d2",
+  "wiki_module_sha256": "0f8d0ec7e08544a09915225f8bd62d42d6fbf622c6ff78ddbbbec60a67f3db86",
+  "zone_files": {
+    "2": "data/zones/carpenters_landing/zone.yaml",
+    "4": "data/zones/bibiki_bay/zone.yaml",
+    "5": "data/zones/uleguerand_range/zone.yaml",
+    "7": "data/zones/attohwa_chasm/zone.yaml",
+    "9": "data/zones/psoxja/zone.yaml",
+    "11": "data/zones/oldton_movalpolos/zone.yaml",
+    "12": "data/zones/newton_movalpolos/zone.yaml",
+    "24": "data/zones/lufaise_meadows/zone.yaml",
+    "25": "data/zones/misareaux_coast/zone.yaml",
+    "26": "data/zones/tavnazian_safehold/zone.yaml",
+    "27": "data/zones/phomiuna_aqueducts/zone.yaml",
+    "28": "data/zones/sacrarium/zone.yaml",
+    "29": "data/zones/riverne_site_b01/zone.yaml",
+    "30": "data/zones/riverne_site_a01/zone.yaml",
+    "32": "data/zones/sealions_den/zone.yaml",
+    "100": "data/zones/west_ronfaure/zone.yaml",
+    "101": "data/zones/east_ronfaure/zone.yaml",
+    "102": "data/zones/la_theine_plateau/zone.yaml",
+    "103": "data/zones/valkurm_dunes/zone.yaml",
+    "104": "data/zones/jugner_forest/zone.yaml",
+    "105": "data/zones/batallia_downs/zone.yaml",
+    "106": "data/zones/north_gustaberg/zone.yaml",
+    "107": "data/zones/south_gustaberg/zone.yaml",
+    "108": "data/zones/konschtat_highlands/zone.yaml",
+    "109": "data/zones/pashhow_marshlands/zone.yaml",
+    "110": "data/zones/rolanberry_fields/zone.yaml",
+    "111": "data/zones/beaucedine_glacier/zone.yaml",
+    "112": "data/zones/xarcabard/zone.yaml",
+    "113": "data/zones/cape_teriggan/zone.yaml",
+    "114": "data/zones/eastern_altepa_desert/zone.yaml",
+    "115": "data/zones/west_sarutabaruta/zone.yaml",
+    "116": "data/zones/east_sarutabaruta/zone.yaml",
+    "117": "data/zones/tahrongi_canyon/zone.yaml",
+    "118": "data/zones/buburimu_peninsula/zone.yaml",
+    "119": "data/zones/meriphataud_mountains/zone.yaml",
+    "120": "data/zones/sauromugue_champaign/zone.yaml",
+    "121": "data/zones/the_sanctuary_of_zitah/zone.yaml",
+    "122": "data/zones/romaeve/zone.yaml",
+    "123": "data/zones/yuhtunga_jungle/zone.yaml",
+    "124": "data/zones/yhoator_jungle/zone.yaml",
+    "125": "data/zones/western_altepa_desert/zone.yaml",
+    "126": "data/zones/qufim_island/zone.yaml",
+    "127": "data/zones/behemoths_dominion/zone.yaml",
+    "128": "data/zones/valley_of_sorrows/zone.yaml",
+    "130": "data/zones/ruaun_gardens/zone.yaml",
+    "139": "data/zones/horlais_peak/zone.yaml",
+    "140": "data/zones/ghelsba_outpost/zone.yaml",
+    "141": "data/zones/fort_ghelsba/zone.yaml",
+    "142": "data/zones/yughott_grotto/zone.yaml",
+    "143": "data/zones/palborough_mines/zone.yaml",
+    "145": "data/zones/giddeus/zone.yaml",
+    "147": "data/zones/beadeaux/zone.yaml",
+    "148": "data/zones/qulun_dome/zone.yaml",
+    "149": "data/zones/davoi/zone.yaml",
+    "150": "data/zones/monastic_cavern/zone.yaml",
+    "151": "data/zones/castle_oztroja/zone.yaml",
+    "152": "data/zones/altar_room/zone.yaml",
+    "153": "data/zones/the_boyahda_tree/zone.yaml",
+    "154": "data/zones/dragons_aery/zone.yaml",
+    "157": "data/zones/middle_delkfutts_tower/zone.yaml",
+    "158": "data/zones/upper_delkfutts_tower/zone.yaml",
+    "159": "data/zones/temple_of_uggalepih/zone.yaml",
+    "160": "data/zones/den_of_rancor/zone.yaml",
+    "161": "data/zones/castle_zvahl_baileys/zone.yaml",
+    "162": "data/zones/castle_zvahl_keep/zone.yaml",
+    "166": "data/zones/ranguemont_pass/zone.yaml",
+    "167": "data/zones/bostaunieux_oubliette/zone.yaml",
+    "169": "data/zones/toraimarai_canal/zone.yaml",
+    "172": "data/zones/zeruhn_mines/zone.yaml",
+    "173": "data/zones/korroloka_tunnel/zone.yaml",
+    "174": "data/zones/kuftal_tunnel/zone.yaml",
+    "176": "data/zones/sea_serpent_grotto/zone.yaml",
+    "177": "data/zones/velugannon_palace/zone.yaml",
+    "178": "data/zones/the_shrine_of_ruavitau/zone.yaml",
+    "184": "data/zones/lower_delkfutts_tower/zone.yaml",
+    "190": "data/zones/king_ranperres_tomb/zone.yaml",
+    "191": "data/zones/dangruf_wadi/zone.yaml",
+    "192": "data/zones/inner_horutoto_ruins/zone.yaml",
+    "193": "data/zones/ordelles_caves/zone.yaml",
+    "194": "data/zones/outer_horutoto_ruins/zone.yaml",
+    "195": "data/zones/the_eldieme_necropolis/zone.yaml",
+    "196": "data/zones/gusgen_mines/zone.yaml",
+    "197": "data/zones/crawlers_nest/zone.yaml",
+    "198": "data/zones/maze_of_shakhrami/zone.yaml",
+    "200": "data/zones/garlaige_citadel/zone.yaml",
+    "204": "data/zones/feiyin/zone.yaml",
+    "205": "data/zones/ifrits_cauldron/zone.yaml",
+    "208": "data/zones/quicksand_caves/zone.yaml",
+    "212": "data/zones/gustav_tunnel/zone.yaml",
+    "213": "data/zones/labyrinth_of_onzozo/zone.yaml",
+    "230": "data/zones/southern_san_doria/zone.yaml",
+    "231": "data/zones/northern_san_doria/zone.yaml",
+    "232": "data/zones/port_san_doria/zone.yaml",
+    "233": "data/zones/chateau_doraguille/zone.yaml",
+    "234": "data/zones/bastok_mines/zone.yaml",
+    "235": "data/zones/bastok_markets/zone.yaml",
+    "236": "data/zones/port_bastok/zone.yaml",
+    "237": "data/zones/metalworks/zone.yaml",
+    "238": "data/zones/windurst_waters/zone.yaml",
+    "239": "data/zones/windurst_walls/zone.yaml",
+    "240": "data/zones/port_windurst/zone.yaml",
+    "241": "data/zones/windurst_woods/zone.yaml",
+    "243": "data/zones/rulude_gardens/zone.yaml",
+    "244": "data/zones/upper_jeuno/zone.yaml",
+    "245": "data/zones/lower_jeuno/zone.yaml",
+    "246": "data/zones/port_jeuno/zone.yaml",
+    "247": "data/zones/rabao/zone.yaml",
+    "248": "data/zones/selbina/zone.yaml",
+    "249": "data/zones/mhaura/zone.yaml",
+    "250": "data/zones/kazham/zone.yaml",
+    "251": "data/zones/hall_of_the_gods/zone.yaml",
+    "252": "data/zones/norg/zone.yaml"
+  },
+  "wiki_ids": {
+    "4": [
+      "82",
+      "83"
+    ],
+    "5": [
+      "202",
+      "203"
+    ],
+    "7": [
+      "78"
+    ],
+    "9": [
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "11": [
+      "251"
+    ],
+    "12": [
+      "292"
+    ],
+    "24": [
+      "139"
+    ],
+    "25": [
+      "141"
+    ],
+    "26": [
+      "53",
+      "54",
+      "55"
+    ],
+    "27": [
+      "229",
+      "230",
+      "231"
+    ],
+    "28": [
+      "224",
+      "225"
+    ],
+    "29": [
+      "206"
+    ],
+    "30": [
+      "153"
+    ],
+    "32": [
+      "228"
+    ],
+    "106": [
+      "143"
+    ],
+    "107": [
+      "162"
+    ],
+    "109": [
+      "147"
+    ],
+    "110": [
+      "48"
+    ],
+    "112": [
+      "207"
+    ],
+    "113": [
+      "252"
+    ],
+    "114": [
+      "213"
+    ],
+    "115": [
+      "205"
+    ],
+    "116": [
+      "109"
+    ],
+    "117": [
+      "52"
+    ],
+    "118": [
+      "87"
+    ],
+    "119": [
+      "140"
+    ],
+    "120": [
+      "50"
+    ],
+    "121": [
+      "201"
+    ],
+    "122": [
+      "282"
+    ],
+    "123": [
+      "211"
+    ],
+    "124": [
+      "208"
+    ],
+    "125": [
+      "214"
+    ],
+    "126": [
+      "47"
+    ],
+    "127": [
+      "81"
+    ],
+    "128": [
+      "293"
+    ],
+    "130": [
+      "155"
+    ],
+    "143": [
+      "144",
+      "145",
+      "146"
+    ],
+    "145": [
+      "117",
+      "118"
+    ],
+    "147": [
+      "79",
+      "80"
+    ],
+    "148": [
+      "152"
+    ],
+    "151": [
+      "88",
+      "89",
+      "90",
+      "91",
+      "92",
+      "93",
+      "94"
+    ],
+    "152": [
+      "69"
+    ],
+    "153": [
+      "194",
+      "195",
+      "196",
+      "197"
+    ],
+    "154": [
+      "281"
+    ],
+    "157": [
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20"
+    ],
+    "158": [
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61"
+    ],
+    "159": [
+      "190",
+      "191",
+      "192",
+      "193"
+    ],
+    "160": [
+      "272",
+      "273",
+      "274",
+      "275",
+      "276",
+      "277",
+      "278",
+      "279",
+      "280"
+    ],
+    "161": [
+      "95",
+      "96",
+      "97",
+      "98"
+    ],
+    "162": [
+      "99",
+      "100",
+      "101",
+      "102"
+    ],
+    "169": [
+      "253",
+      "254"
+    ],
+    "172": [
+      "212"
+    ],
+    "173": [
+      "130",
+      "131",
+      "132",
+      "133",
+      "134"
+    ],
+    "174": [
+      "135",
+      "136",
+      "137",
+      "138"
+    ],
+    "176": [
+      "156",
+      "157",
+      "158",
+      "159",
+      "160"
+    ],
+    "177": [
+      "256",
+      "257",
+      "258",
+      "259",
+      "260",
+      "261",
+      "263",
+      "264",
+      "265"
+    ],
+    "178": [
+      "266",
+      "267",
+      "268",
+      "269",
+      "270",
+      "271"
+    ],
+    "184": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "191": [
+      "106"
+    ],
+    "192": [
+      "125",
+      "126",
+      "127",
+      "128"
+    ],
+    "194": [
+      "246",
+      "247",
+      "248",
+      "249",
+      "250"
+    ],
+    "196": [
+      "119",
+      "120",
+      "121",
+      "122"
+    ],
+    "197": [
+      "103",
+      "104",
+      "105"
+    ],
+    "198": [
+      "238",
+      "239"
+    ],
+    "200": [
+      "111",
+      "112",
+      "113",
+      "114"
+    ],
+    "205": [
+      "283",
+      "284",
+      "285",
+      "286",
+      "287",
+      "288",
+      "289",
+      "290"
+    ],
+    "208": [
+      "216",
+      "217",
+      "218",
+      "219",
+      "220",
+      "221",
+      "222",
+      "223"
+    ],
+    "212": [
+      "123",
+      "124"
+    ],
+    "213": [
+      "243"
+    ],
+    "234": [
+      "2"
+    ],
+    "235": [
+      "1"
+    ],
+    "236": [
+      "23"
+    ],
+    "237": [
+      "13"
+    ],
+    "238": [
+      "65",
+      "66"
+    ],
+    "239": [
+      "64"
+    ],
+    "240": [
+      "26"
+    ],
+    "241": [
+      "67"
+    ],
+    "243": [
+      "49"
+    ],
+    "244": [
+      "62"
+    ],
+    "245": [
+      "12"
+    ],
+    "246": [
+      "24"
+    ],
+    "247": [
+      "215"
+    ],
+    "249": [
+      "14"
+    ],
+    "250": [
+      "291"
+    ],
+    "251": [
+      "255"
+    ],
+    "252": [
+      "21"
+    ]
+  },
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/carpenters_landing/zone.yaml",
+      "path": "annotations/expansion/server/2.yaml",
+      "sha256": "976a0262f1b73b075cfc8dda9164a4bd042ef916bea7135f80359bd61a543238"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/bibiki_bay/zone.yaml",
+      "path": "annotations/expansion/server/4.yaml",
+      "sha256": "83e1ec8ac02f608000c2cda8f3d67d3b0c35047ed2a0b35224b8872457f49ccf"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/uleguerand_range/zone.yaml",
+      "path": "annotations/expansion/server/5.yaml",
+      "sha256": "08e8696f89cb043ba42b26c7fd1c7e7f033c538a0e4b1efbecb9ee1d345827de"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/attohwa_chasm/zone.yaml",
+      "path": "annotations/expansion/server/7.yaml",
+      "sha256": "e9cbd2aa9bdcd5de7978e4c5d7a0492f4933b8f0476cecec2371ddb31b4d818b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/psoxja/zone.yaml",
+      "path": "annotations/expansion/server/9.yaml",
+      "sha256": "9bec54c97be1407753520dabe988a51976eb7304dafab3c4415d4bfebbb572d3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/oldton_movalpolos/zone.yaml",
+      "path": "annotations/expansion/server/11.yaml",
+      "sha256": "770c081211977f13449bd59cae6d55b42703325738c6f6e43c4bd5ea937114f7"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/newton_movalpolos/zone.yaml",
+      "path": "annotations/expansion/server/12.yaml",
+      "sha256": "f034467ee27150f1a72e86ee337b05a89cff45ad1199084c76e646ad7b4b4159"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/lufaise_meadows/zone.yaml",
+      "path": "annotations/expansion/server/24.yaml",
+      "sha256": "5872a25ffb357a6619fade36c12a51ccf7882e5554905cf2c7160b189da54e9e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/misareaux_coast/zone.yaml",
+      "path": "annotations/expansion/server/25.yaml",
+      "sha256": "2a3dff73540332cc7c0abbe412d235554891dce5c42c05ed885662d006a0348a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/tavnazian_safehold/zone.yaml",
+      "path": "annotations/expansion/server/26.yaml",
+      "sha256": "ef822a69715fe8878eab80c6bc8c43525eb2cf0097ee6e63d8a5a55bf21fd9c6"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/phomiuna_aqueducts/zone.yaml",
+      "path": "annotations/expansion/server/27.yaml",
+      "sha256": "4848cff83373eed47f946977d0d02517aad144f1c22cf05e6c583c85faa1d14a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/sacrarium/zone.yaml",
+      "path": "annotations/expansion/server/28.yaml",
+      "sha256": "fd9041362965dedb84832b0530c62192c47f16d5d060937748645ff16a14acf7"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/riverne_site_b01/zone.yaml",
+      "path": "annotations/expansion/server/29.yaml",
+      "sha256": "8da59b866d23d9d0f9dea42057b3513f45d73383c38253365de939cccc7cbb98"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/riverne_site_a01/zone.yaml",
+      "path": "annotations/expansion/server/30.yaml",
+      "sha256": "8da59b866d23d9d0f9dea42057b3513f45d73383c38253365de939cccc7cbb98"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/sealions_den/zone.yaml",
+      "path": "annotations/expansion/server/32.yaml",
+      "sha256": "b2b9a209f134aa23c60e0a53a9fa4ec6e440f5428b11ef02a666cda2f2f40447"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/west_ronfaure/zone.yaml",
+      "path": "annotations/expansion/server/100.yaml",
+      "sha256": "728dbe3d2e29ee461aee5c3ddc59c14e598944a7b2b98ee4fb07c7b486c37d78"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/east_ronfaure/zone.yaml",
+      "path": "annotations/expansion/server/101.yaml",
+      "sha256": "b955c307e04487148d1531c2717b27fa51dca3d4245ad1f3615702e742a69005"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/la_theine_plateau/zone.yaml",
+      "path": "annotations/expansion/server/102.yaml",
+      "sha256": "d89753b7979e5098a34709927d5249da4f2841ca98577db2d93f81f09add2016"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/valkurm_dunes/zone.yaml",
+      "path": "annotations/expansion/server/103.yaml",
+      "sha256": "430f1befd661b2bb9dcdfa36e575cf9b99354d635f21d39f64b9b3ce6f7a81ab"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/jugner_forest/zone.yaml",
+      "path": "annotations/expansion/server/104.yaml",
+      "sha256": "6cf6aa7ec44994068097bcd53e0ddc49619f81308628e04aaac1a0bc7eb08666"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/batallia_downs/zone.yaml",
+      "path": "annotations/expansion/server/105.yaml",
+      "sha256": "dc11ab35a184ecda72716f690947f47aa6cc5c1bf293140c0b5f3e624b8d4559"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/north_gustaberg/zone.yaml",
+      "path": "annotations/expansion/server/106.yaml",
+      "sha256": "ee239ccd173081cebc68b62004ba2136628dcc79bd3917dde2ce4e6bf72cbf51"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/south_gustaberg/zone.yaml",
+      "path": "annotations/expansion/server/107.yaml",
+      "sha256": "3c54d039e5ce6d6a0e8554dd3ed4bcda51aebecf771e9f4bcb617a91e9ea6876"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/konschtat_highlands/zone.yaml",
+      "path": "annotations/expansion/server/108.yaml",
+      "sha256": "1d399c1ab68eec915cbb204fdfbbc603dfd0550bb86b8c351c3d213961a715f2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/pashhow_marshlands/zone.yaml",
+      "path": "annotations/expansion/server/109.yaml",
+      "sha256": "9b9cfdf4a796d96d7f0dc8a28f2ba09c47e4c4452410971c0b8c14cc04635af6"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/rolanberry_fields/zone.yaml",
+      "path": "annotations/expansion/server/110.yaml",
+      "sha256": "74f8472e983339c881400fa8e33c8ac1bb5bca229063bd2f931e8ee35b726dc3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/beaucedine_glacier/zone.yaml",
+      "path": "annotations/expansion/server/111.yaml",
+      "sha256": "daa958f30ef8b0d7f5096d29313349b070df90c36140db8c7017f254af6c859c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/xarcabard/zone.yaml",
+      "path": "annotations/expansion/server/112.yaml",
+      "sha256": "c639932e199f14ac7eae4df3b9d775d8a61fd1244026231af9aba129e15bc447"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/cape_teriggan/zone.yaml",
+      "path": "annotations/expansion/server/113.yaml",
+      "sha256": "178f251fc8e042173db2fefde26f1962241123a2423de60ad14ed32d22753294"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/eastern_altepa_desert/zone.yaml",
+      "path": "annotations/expansion/server/114.yaml",
+      "sha256": "ef5bdad8c6e1dfd9e159e57cc03936ede44d193fe23135cdd40b65146967038e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/west_sarutabaruta/zone.yaml",
+      "path": "annotations/expansion/server/115.yaml",
+      "sha256": "eafd3d1b1b2f2f3cc2f25fece07862fc3fcafdf8d25629e0646f9ad6066ca5df"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/east_sarutabaruta/zone.yaml",
+      "path": "annotations/expansion/server/116.yaml",
+      "sha256": "fa9d45b733efc094085d7b7bdc7885a91dc2cc422a0898a30da145ae87b7454a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/tahrongi_canyon/zone.yaml",
+      "path": "annotations/expansion/server/117.yaml",
+      "sha256": "d2d5417a11fc2c87595b69cf576c34b54471970cf8afe6e5225a9166b42c8cab"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/buburimu_peninsula/zone.yaml",
+      "path": "annotations/expansion/server/118.yaml",
+      "sha256": "f22f0a2a002a31c818f473a44cff6ff81ffd468f943eb6c7f82f985389fda358"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/meriphataud_mountains/zone.yaml",
+      "path": "annotations/expansion/server/119.yaml",
+      "sha256": "a1c0f92d5dd25d317fa3dc55a0754c1a4bbb18b3df77271ab7b22d406f251d69"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/sauromugue_champaign/zone.yaml",
+      "path": "annotations/expansion/server/120.yaml",
+      "sha256": "93c96bfda961a9042cc9bc24fe1348562d2f2bbdfc8c5c81fb8a8a2033cd326f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/the_sanctuary_of_zitah/zone.yaml",
+      "path": "annotations/expansion/server/121.yaml",
+      "sha256": "294d5add6eadc9f8e7ce19857d4b1f74f915b82e8f664b12d779a63d1fa05803"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/romaeve/zone.yaml",
+      "path": "annotations/expansion/server/122.yaml",
+      "sha256": "f66dce943be96d1bf40ad8d05eec1f8cd2c8ffbb7a3ebb07050e11529457f66e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/yuhtunga_jungle/zone.yaml",
+      "path": "annotations/expansion/server/123.yaml",
+      "sha256": "83620c8b83f02166bdb5098808f1853aa857ea91fb2fc9d3a08c72149ec60aaa"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/yhoator_jungle/zone.yaml",
+      "path": "annotations/expansion/server/124.yaml",
+      "sha256": "06123a755f6a52fe283f831e43c2d1d94521491f45e1f55220217c93ede9c8c6"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/western_altepa_desert/zone.yaml",
+      "path": "annotations/expansion/server/125.yaml",
+      "sha256": "32722da65271be07379dff181731876a4449bb05e2ef834ddb2a4132b8225c48"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/qufim_island/zone.yaml",
+      "path": "annotations/expansion/server/126.yaml",
+      "sha256": "80c3cac073d08d1d490dc8f7607855bf71659942e51c1d9df64bbd98c1e51d55"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/behemoths_dominion/zone.yaml",
+      "path": "annotations/expansion/server/127.yaml",
+      "sha256": "4b59759ce675c77d94d2b90f56440c9da9b9b07991111a9eb9ba214b4e084a27"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/valley_of_sorrows/zone.yaml",
+      "path": "annotations/expansion/server/128.yaml",
+      "sha256": "012a0bcec7ba9d72d635d07d1160bb1526d70d46c91d91e7221043d7b7101510"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/ruaun_gardens/zone.yaml",
+      "path": "annotations/expansion/server/130.yaml",
+      "sha256": "aa4295698bf5c13f6c70b04094fce5a5657d37dca5975bc054ec8b82194e9eac"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/horlais_peak/zone.yaml",
+      "path": "annotations/expansion/server/139.yaml",
+      "sha256": "89f4de40f78d5a8b02f50f220f3a6603dafcaa4685c4c2b4e76702a88a94529c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/ghelsba_outpost/zone.yaml",
+      "path": "annotations/expansion/server/140.yaml",
+      "sha256": "107a837ad73ca633e51d2e5296c67b065903c99527b4a139364e3a2958f36baf"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/fort_ghelsba/zone.yaml",
+      "path": "annotations/expansion/server/141.yaml",
+      "sha256": "b6f83d2cb9926abaa1b7cf2279f097510594c560040751318a4b88f55bb15d46"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/yughott_grotto/zone.yaml",
+      "path": "annotations/expansion/server/142.yaml",
+      "sha256": "23302bc474e985cca611f775c7202935a3b2504b866098935a3e0554cc6bd1f6"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/palborough_mines/zone.yaml",
+      "path": "annotations/expansion/server/143.yaml",
+      "sha256": "1196692d00c20a3c29132c593edca23b1184fcc627c76cc3ca2bc2f2c80b7ed5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/giddeus/zone.yaml",
+      "path": "annotations/expansion/server/145.yaml",
+      "sha256": "4c3b5d71cd59fa9f61b5e1c11f32cab899691c96ace302975fd5eaf107532e66"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/beadeaux/zone.yaml",
+      "path": "annotations/expansion/server/147.yaml",
+      "sha256": "562767fbacd8861e77aaf8245970d5c206397316be02137c0b71db0a29c80a69"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/qulun_dome/zone.yaml",
+      "path": "annotations/expansion/server/148.yaml",
+      "sha256": "15bed33970a63f5c635990047919637501eb87f5f5238c05ecb10ec18cbb133c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/davoi/zone.yaml",
+      "path": "annotations/expansion/server/149.yaml",
+      "sha256": "efb156e18e0cafb8e1489338cdbf135fb8f5aca57da504fa3e66abea40733ed9"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/monastic_cavern/zone.yaml",
+      "path": "annotations/expansion/server/150.yaml",
+      "sha256": "06c0d196639268648a574963cbf3ead7632dc28af5437b7b8044f174498c3094"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/castle_oztroja/zone.yaml",
+      "path": "annotations/expansion/server/151.yaml",
+      "sha256": "648dcd34f3634ee66d1eb8fa47bbba21d1aff583edc990669f5897934760fff3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/altar_room/zone.yaml",
+      "path": "annotations/expansion/server/152.yaml",
+      "sha256": "c76384e630d4e24ab32da618169356bc05439a9188006418ccef28e6c92f828d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/the_boyahda_tree/zone.yaml",
+      "path": "annotations/expansion/server/153.yaml",
+      "sha256": "6867fd21963ed005f28b33b1f95a2f927bc8abf2d04db727454a2e16b6871c45"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/dragons_aery/zone.yaml",
+      "path": "annotations/expansion/server/154.yaml",
+      "sha256": "6625f2d7361fd277d2337a75c6bb46ed096a49d96ec2129e2cc4aa3167d8677e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/middle_delkfutts_tower/zone.yaml",
+      "path": "annotations/expansion/server/157.yaml",
+      "sha256": "4c3f35e2e67de639653f77ead028cd797da19048c1b64c6b48855e754c23117e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/upper_delkfutts_tower/zone.yaml",
+      "path": "annotations/expansion/server/158.yaml",
+      "sha256": "3da9ec89082c12831bbdf4357abe36b4e1d90c7484e03289771b57259ac35555"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/temple_of_uggalepih/zone.yaml",
+      "path": "annotations/expansion/server/159.yaml",
+      "sha256": "9a2296af06e3eccdcf2ccc79a9e8fcc2d8f2633bfcf93fc859a1706113f26e09"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/den_of_rancor/zone.yaml",
+      "path": "annotations/expansion/server/160.yaml",
+      "sha256": "22e7d920f2e892bfdd5f853bb5edfc66c8427d4ef54b41d1886482993b883d22"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/castle_zvahl_baileys/zone.yaml",
+      "path": "annotations/expansion/server/161.yaml",
+      "sha256": "5310e8dc6ba6848fa03d30c4b67e89671d6ea2fd1e4d434531a134306469fb16"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/castle_zvahl_keep/zone.yaml",
+      "path": "annotations/expansion/server/162.yaml",
+      "sha256": "c4df8cc467e4020f5de5c4fce1b49dad5796d18cda01d56e59038287026246da"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/ranguemont_pass/zone.yaml",
+      "path": "annotations/expansion/server/166.yaml",
+      "sha256": "2ac6823dc91ee37a257604d14e8137c80f027aeb12ac69d690eb53db951de19e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/bostaunieux_oubliette/zone.yaml",
+      "path": "annotations/expansion/server/167.yaml",
+      "sha256": "88f5fe681d602710c40b249f8f23a3401c9f5611f3a49c70e22d9ef1aee13e2a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/toraimarai_canal/zone.yaml",
+      "path": "annotations/expansion/server/169.yaml",
+      "sha256": "3eba66b0beffbfc6baaf0a38c5937ddabe7aac7d3422d32a21699e0a6acb9ccc"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/zeruhn_mines/zone.yaml",
+      "path": "annotations/expansion/server/172.yaml",
+      "sha256": "1a08380ffc301d92f49b3bfa4920671aa02a7eddb3b9465845e8ad7566bed5a8"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/korroloka_tunnel/zone.yaml",
+      "path": "annotations/expansion/server/173.yaml",
+      "sha256": "803a2bdac6e42f66f71cae3e7fcdddddab37128600e3b37e2156dde4addf25d7"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/kuftal_tunnel/zone.yaml",
+      "path": "annotations/expansion/server/174.yaml",
+      "sha256": "2bc9fe0fa14623aebdcf1ca751ceeb2c43f41a84eec40db9037b78f3e2d0bb6e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/sea_serpent_grotto/zone.yaml",
+      "path": "annotations/expansion/server/176.yaml",
+      "sha256": "7d0ce0ffcd6ce0487eceed23d9db75e9c121270943cea7d76733a608856e075a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/velugannon_palace/zone.yaml",
+      "path": "annotations/expansion/server/177.yaml",
+      "sha256": "f55a6361052c1bfd7840333764ea2d7ba0a02cb2b9d556fbf1c446f439ef0ccd"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/the_shrine_of_ruavitau/zone.yaml",
+      "path": "annotations/expansion/server/178.yaml",
+      "sha256": "3460c52d5286f45686a35e2d24be2a5bcd08702d484b120309ca97f2030bbbf6"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/lower_delkfutts_tower/zone.yaml",
+      "path": "annotations/expansion/server/184.yaml",
+      "sha256": "18416e4eb1c4308bc26734de401f9129d1e2766cc2859dc4c37fb826e8dd789f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/king_ranperres_tomb/zone.yaml",
+      "path": "annotations/expansion/server/190.yaml",
+      "sha256": "2c2b70f32b0c4ee6c1f2edb58ce3d7823516c81c2bb03766d47da91c01be32f1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/dangruf_wadi/zone.yaml",
+      "path": "annotations/expansion/server/191.yaml",
+      "sha256": "c521b218b52994e291f2a7b45534d06ae8d279ec35e934688899a98a6e280f05"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/inner_horutoto_ruins/zone.yaml",
+      "path": "annotations/expansion/server/192.yaml",
+      "sha256": "8d84c242500eeb74c300fc7a0d4e71b17f5095025f056edb3847785e6807e5bf"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/ordelles_caves/zone.yaml",
+      "path": "annotations/expansion/server/193.yaml",
+      "sha256": "7dc4ee15d08f571cdc510abd78409c39df736578c9f58b371c1a4f1ee227375f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/outer_horutoto_ruins/zone.yaml",
+      "path": "annotations/expansion/server/194.yaml",
+      "sha256": "1af502e7e2080a8f32db3174c25c4b654a8a5213a058200fb89447a5ca741a1b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/the_eldieme_necropolis/zone.yaml",
+      "path": "annotations/expansion/server/195.yaml",
+      "sha256": "b52901d185b4edbb7e127b84cbb4b2a8c80e41eaa562182b46d7ea9d2a3babab"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/gusgen_mines/zone.yaml",
+      "path": "annotations/expansion/server/196.yaml",
+      "sha256": "a58528aefbc971990dc652270216ca10ea9e2ceebbfec3d97fd1b09bed43c7d9"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/crawlers_nest/zone.yaml",
+      "path": "annotations/expansion/server/197.yaml",
+      "sha256": "827ab23c000344557149b05eb1fa0653ee1d20d1815f5f04aa679600aeb40bfa"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/maze_of_shakhrami/zone.yaml",
+      "path": "annotations/expansion/server/198.yaml",
+      "sha256": "9c12b7fa91f890c5231ce8fd6e099943e5a3414f4d76bfabcfd8c02098725f85"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/garlaige_citadel/zone.yaml",
+      "path": "annotations/expansion/server/200.yaml",
+      "sha256": "9252e6c755214471d175bf595453fe8a9ae24a0aa0e8a71d2213d7d65f0aee26"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/feiyin/zone.yaml",
+      "path": "annotations/expansion/server/204.yaml",
+      "sha256": "072cb4c6a5a53d07487a32f8a942f85a05ace4d9392f2b288ebd716345e5de01"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/ifrits_cauldron/zone.yaml",
+      "path": "annotations/expansion/server/205.yaml",
+      "sha256": "2870bf20d003fca4fa18b5cf8668b3847d199cb2fabf5307c9a9fc98ae1aa91d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/quicksand_caves/zone.yaml",
+      "path": "annotations/expansion/server/208.yaml",
+      "sha256": "8416d836b5f5afbd8960656baa36ce0ba96beb6afc609a852de48914f7f182f0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/gustav_tunnel/zone.yaml",
+      "path": "annotations/expansion/server/212.yaml",
+      "sha256": "0ed3f8cd7439bb5a2d3b43fe9f80e08e8c9e1c49871fd33ebe6da1aad9142a3a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/labyrinth_of_onzozo/zone.yaml",
+      "path": "annotations/expansion/server/213.yaml",
+      "sha256": "f871d096b2eee637de37d1d0e45f794df9f4b1c328aae5cefe6db65ef5c3f486"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/southern_san_doria/zone.yaml",
+      "path": "annotations/expansion/server/230.yaml",
+      "sha256": "5fda75e3789ef0f55367949bc0542753d2c38e0888bbfc36efd92a369399e5b8"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/northern_san_doria/zone.yaml",
+      "path": "annotations/expansion/server/231.yaml",
+      "sha256": "81f71935980f392405ec714a2d1c572225d67c0d90c3073c9598d86f6d5b12e0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/port_san_doria/zone.yaml",
+      "path": "annotations/expansion/server/232.yaml",
+      "sha256": "93b52b05a2e6dc198f21e0e65fab30dc2455c9f7312669908f95d3bf2a34e8a0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/chateau_doraguille/zone.yaml",
+      "path": "annotations/expansion/server/233.yaml",
+      "sha256": "898536597619042d88d86e3a6a165f93483b48fd1bfd955a528512075eaca4b5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/bastok_mines/zone.yaml",
+      "path": "annotations/expansion/server/234.yaml",
+      "sha256": "24179b1def80860c0d17efba8c5acaba471f02e62bcccaa7b0cb39270ad7e262"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/bastok_markets/zone.yaml",
+      "path": "annotations/expansion/server/235.yaml",
+      "sha256": "45bc46cb1973fdbab88717c318b63ec9acaeb71a019c4de55197161e69423b81"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/port_bastok/zone.yaml",
+      "path": "annotations/expansion/server/236.yaml",
+      "sha256": "1c019fd9cbb216ff7d30b913ca2abb94f34c965fdd193b5e7310058ce749f956"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/metalworks/zone.yaml",
+      "path": "annotations/expansion/server/237.yaml",
+      "sha256": "7980a45dfcb066dbe580653cf9c1c79d13d5795b8ec289d973b2882f78ea66ea"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/windurst_waters/zone.yaml",
+      "path": "annotations/expansion/server/238.yaml",
+      "sha256": "303fe65d6d8fe99b302b7d42af7600da2434acc7f2b3ca95130af9c396e63d60"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/windurst_walls/zone.yaml",
+      "path": "annotations/expansion/server/239.yaml",
+      "sha256": "af2dcdb63b1008208d084c8905edf9f030929fad0a4f475365b9bf23fe2546cb"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/port_windurst/zone.yaml",
+      "path": "annotations/expansion/server/240.yaml",
+      "sha256": "3c5023838a30046fc2210372ddd2536446bfae19d508f62913cb54a28ca9db9d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/windurst_woods/zone.yaml",
+      "path": "annotations/expansion/server/241.yaml",
+      "sha256": "28d600f3c50c7a7ef38ee5d8752357c2cf6766b91d2ef3f37ed755fe124804f3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/rulude_gardens/zone.yaml",
+      "path": "annotations/expansion/server/243.yaml",
+      "sha256": "45568763c085ad803bb8512b0e6409328f1acbf508fa789f8bb3de912329a4ab"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/upper_jeuno/zone.yaml",
+      "path": "annotations/expansion/server/244.yaml",
+      "sha256": "0bd9bf0354e9a9f3648c3c1caa03cdb94655ed6b08bea5289ffb71598139a71f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/lower_jeuno/zone.yaml",
+      "path": "annotations/expansion/server/245.yaml",
+      "sha256": "73039f569b106751debd02c5f3775c65509845b2d98cfc72e30c774f8bdbd3d8"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/port_jeuno/zone.yaml",
+      "path": "annotations/expansion/server/246.yaml",
+      "sha256": "f4efe676bad4f58ae653485f870deda5a37def6463125d09463ebfa7f4963577"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/rabao/zone.yaml",
+      "path": "annotations/expansion/server/247.yaml",
+      "sha256": "072251632d60874b2c0553a82a6ccfbe7157b4e2bb044f3d3d577fdbb7dc2018"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/selbina/zone.yaml",
+      "path": "annotations/expansion/server/248.yaml",
+      "sha256": "37bbebe913bfbc5898a6cf18fa74253984f478cdbd62462cf6979edd9d2d30d5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/mhaura/zone.yaml",
+      "path": "annotations/expansion/server/249.yaml",
+      "sha256": "f154c7f2049559336b613002625895829b5eacafd6cf7bf676fc2ba837cf2edc"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/kazham/zone.yaml",
+      "path": "annotations/expansion/server/250.yaml",
+      "sha256": "2bf21b6cec52f9d57b23894cc5a07ed28e52df6e66ec2005489b99c0ed0ae94c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/hall_of_the_gods/zone.yaml",
+      "path": "annotations/expansion/server/251.yaml",
+      "sha256": "717deefce670c2b1154a4c844baf52306c2ef207d1ecfcde0bc9a9556b0e7e7b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/norg/zone.yaml",
+      "path": "annotations/expansion/server/252.yaml",
+      "sha256": "e343cef3668c583dc0e48de9d96bd6e9969d1355b36437f550a9848e39fb4c5e"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/bibiki_bay_1.png",
+      "path": "annotations/expansion/wiki-images/82-bibiki_bay_1.png",
+      "sha256": "d57d37166b0dd5b49254143bd10553d6f8c58bb2073e422cdcde7cd72c0ab52f"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/bibiki_bay_2.png",
+      "path": "annotations/expansion/wiki-images/83-bibiki_bay_2.png",
+      "sha256": "454479073f3630ff18aff6ad564e1994e9809596456acce8a641dd4436b2cd1d"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/uleguerand_range_1.png",
+      "path": "annotations/expansion/wiki-images/202-uleguerand_range_1.png",
+      "sha256": "3ecc7d24705188163b0de50f98500310eff7a816f2930376284bb370493ac709"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/uleguerand_range_2.png",
+      "path": "annotations/expansion/wiki-images/203-uleguerand_range_2.png",
+      "sha256": "9a6e99d166a5e9156a402751791ea51aff943ca69138846622f387e0d72da06d"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/attohwa_chasm.png",
+      "path": "annotations/expansion/wiki-images/78-attohwa_chasm.png",
+      "sha256": "0d6644bfa90cbadf47de7dc4fab1d452ed480ad19ea0a0dbaec71b3d0d4f57b4"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/psoxja_1.png",
+      "path": "annotations/expansion/wiki-images/27-psoxja_1.png",
+      "sha256": "0bc9906ec73b66dbada36b96a593d01fba2494e31a522a6c7888ef0e46011d24"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/psoxja_2.png",
+      "path": "annotations/expansion/wiki-images/28-psoxja_2.png",
+      "sha256": "b530a18fe776d1032f2b04aaac8b043f1cd395d69a9c7033d445fe7db915a6e1"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/psoxja_3.png",
+      "path": "annotations/expansion/wiki-images/29-psoxja_3.png",
+      "sha256": "f0d6f5abd10e85f74df3a2b55d8f079976a4abaa60661d7a77bd8c5c34d9e226"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/psoxja_4.png",
+      "path": "annotations/expansion/wiki-images/30-psoxja_4.png",
+      "sha256": "dfab70b34db80dfbf22d58b1b1c8a830fbe87f1c1785386733f2732d0ad7f636"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/psoxja_5.png",
+      "path": "annotations/expansion/wiki-images/31-psoxja_5.png",
+      "sha256": "d9621d850375e19ff21751fc69f5b6ed8ff128734dcea1695e5b00dd088410a4"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/psoxja_6.png",
+      "path": "annotations/expansion/wiki-images/32-psoxja_6.png",
+      "sha256": "d9938100a60943f7e7fcdfcd50a955edc13a597b190628a809107bc070ffb5db"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/psoxja_7.png",
+      "path": "annotations/expansion/wiki-images/33-psoxja_7.png",
+      "sha256": "cb8dd2246f7c2caa4068f00e5a5d6dcb44e63874320d50d608a4b37a83f6beaa"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/psoxja_8.png",
+      "path": "annotations/expansion/wiki-images/34-psoxja_8.png",
+      "sha256": "0e374e4ecc1bcb36c2e85c7add5ce648925a79303cbb0275a1700de0b0baa072"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/psoxja_9.png",
+      "path": "annotations/expansion/wiki-images/35-psoxja_9.png",
+      "sha256": "710d93f27fd6c4a0641e0119caeae5c1409b278dddf98014150ec77b758e7fff"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/psoxja_10.png",
+      "path": "annotations/expansion/wiki-images/36-psoxja_10.png",
+      "sha256": "2dce3030562eee59c4902c7a23aee212ee323e68cb9e7ccf36be043329ef14c9"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/psoxja_11.png",
+      "path": "annotations/expansion/wiki-images/37-psoxja_11.png",
+      "sha256": "3932dfe7df64e39b190a9daf1b57bdcf3d8330539676f145908701102a7b1fd5"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/psoxja_12.png",
+      "path": "annotations/expansion/wiki-images/38-psoxja_12.png",
+      "sha256": "ba7a0776c22f0d67954e2e73bb240ee793e2e10c95115fbb4a1075b6ac635eb1"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/psoxja_13.png",
+      "path": "annotations/expansion/wiki-images/39-psoxja_13.png",
+      "sha256": "c5a57f47ab537ddc63577361e95ffac0ffea00cd03802a470d72e7ce3b229815"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/psoxja_14.png",
+      "path": "annotations/expansion/wiki-images/40-psoxja_14.png",
+      "sha256": "dc56d11ca69c6a9c796c4e561098e8d667454bbdaeb978f892ad8d8b2af7836e"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/psoxja_15.png",
+      "path": "annotations/expansion/wiki-images/41-psoxja_15.png",
+      "sha256": "f6d6718ee09e94ba9a5975b7d9b62f6d13d658f3b911e610e6059f230877e1d4"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/psoxja_16.png",
+      "path": "annotations/expansion/wiki-images/42-psoxja_16.png",
+      "sha256": "80675ef69d16338571606d4a67da682a798580e32e62eb78d2cbc4c04a40b0f7"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/psoxja_17.png",
+      "path": "annotations/expansion/wiki-images/43-psoxja_17.png",
+      "sha256": "592f7c0de5c3e864ca048ee56d7a6507f979f28bf51ebf649068a96dae2e740d"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/psoxja_18.png",
+      "path": "annotations/expansion/wiki-images/44-psoxja_18.png",
+      "sha256": "aae5a2aded81a274bb47e8f69558f104555893a6655ba5156b5e1e7fe60acc2d"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/psoxja_19.png",
+      "path": "annotations/expansion/wiki-images/45-psoxja_19.png",
+      "sha256": "c786438a9923244996680ecfa58c2718023855d922c25edb205043f65f3b6094"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/psoxja_20.png",
+      "path": "annotations/expansion/wiki-images/46-psoxja_20.png",
+      "sha256": "2c4b0165da1b3dbe5b240c57d4e3776b790a5b7d4d1d98027bdf92cfe31f1f30"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/movalpolos-oldton.jpg",
+      "path": "annotations/expansion/wiki-images/251-movalpolos-oldton.jpg",
+      "sha256": "05e88352960f9cce517bf474ef7701219ae49061733f3792d36c5b879710d9bc"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/movalpolos-newton.jpg",
+      "path": "annotations/expansion/wiki-images/292-movalpolos-newton.jpg",
+      "sha256": "1ade02167c3cde11c5a7ad764dcb588368d908f452483f6ad8c99ea1f1da898e"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/lufaise_meadows.png",
+      "path": "annotations/expansion/wiki-images/139-lufaise_meadows.png",
+      "sha256": "eefbf411c31c2bec5d02e8eee7892799dfc845879d66da628f64b3535ab267e6"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/misareaux_coast.png",
+      "path": "annotations/expansion/wiki-images/141-misareaux_coast.png",
+      "sha256": "47803a5f4c7fa57ee0219215f8c961c535f246749a089a6c5140e54a56dab15a"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/tavnazian_safehold_1.png",
+      "path": "annotations/expansion/wiki-images/53-tavnazian_safehold_1.png",
+      "sha256": "b9fea9893e37f6b80854f00b50dfa478b4f3da8609350dacf8122720ceaa35f4"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/tavnazian_safehold_2.png",
+      "path": "annotations/expansion/wiki-images/54-tavnazian_safehold_2.png",
+      "sha256": "76e31d3bc70f9fb49c3e1d076cde332c14b4da8e241519313812be0ad51f991f"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/tavnazian_safehold_3.png",
+      "path": "annotations/expansion/wiki-images/55-tavnazian_safehold_3.png",
+      "sha256": "b4d7bf51ba6478a9313567332ee5e1b1e8f452f05f93548f0f9bb3b46e64d732"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/phomiuna-aqueducts_1.jpg",
+      "path": "annotations/expansion/wiki-images/229-phomiuna-aqueducts_1.jpg",
+      "sha256": "0ff17ec1b78db29d09bc74db618f4cdbff9bd2469f316c8fd68a2c58c06d7ec2"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/phomiuna-aqueducts_2.jpg",
+      "path": "annotations/expansion/wiki-images/230-phomiuna-aqueducts_2.jpg",
+      "sha256": "319a07c6711e98ca39524212fafe92397e9d4a1f9936bc63157e09d0264e6183"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/phomiuna-aqueducts_3.jpg",
+      "path": "annotations/expansion/wiki-images/231-phomiuna-aqueducts_3.jpg",
+      "sha256": "f0b619f9c58d8fe0bf6fb48824b86f2958255a716c0836542744cada7f286d47"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/sacrarium_1.jpg",
+      "path": "annotations/expansion/wiki-images/224-sacrarium_1.jpg",
+      "sha256": "9cebf5449d38c9e91b6fbc3a29fa78caba067d2b2f0ef3ccd829fb4f399dfc14"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/sacrarium_2.jpg",
+      "path": "annotations/expansion/wiki-images/225-sacrarium_2.jpg",
+      "sha256": "bee85193ee8aca9273f03f5afbb58f50e72725c8f7dec3e44a2f6f8593418bd6"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/riverne_site_b01.png",
+      "path": "annotations/expansion/wiki-images/206-riverne_site_b01.png",
+      "sha256": "563e7473dbfd45c262645114a97070ac3df6f2b664d54decefe70274b77edc46"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/riverne_site_a01.png",
+      "path": "annotations/expansion/wiki-images/153-riverne_site_a01.png",
+      "sha256": "b8e4a3bb4efa645cb25de5a6962d67cba07f9965d287fc7f47db78024411a9c4"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/sealions-den.jpg",
+      "path": "annotations/expansion/wiki-images/228-sealions-den.jpg",
+      "sha256": "eb46bfe2da0ec95625a774c8db619298b6720024b67185752bdb195d497bad79"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/north_gustaberg.png",
+      "path": "annotations/expansion/wiki-images/143-north_gustaberg.png",
+      "sha256": "1c702ac4adb4bded2b776e184379258b44fa441130a55e08a213ac0049868276"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/south_gustaberg.png",
+      "path": "annotations/expansion/wiki-images/162-south_gustaberg.png",
+      "sha256": "cba05980f4e7805c5d335882146acbdcd661b0e7fd9b9c1a2bed8126189a253a"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/pashhow_marshlands.png",
+      "path": "annotations/expansion/wiki-images/147-pashhow_marshlands.png",
+      "sha256": "5ee3130101a53a46404a3d016493debe5f8ea7983a7abb13de7c15c08dbd0178"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/rolanberry_fields.png",
+      "path": "annotations/expansion/wiki-images/48-rolanberry_fields.png",
+      "sha256": "7ed44a44e0a86a29fd280729dde0df1956c9b71784b7789c8e66535734193b11"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/xarcabard.png",
+      "path": "annotations/expansion/wiki-images/207-xarcabard.png",
+      "sha256": "5e93507e87004e77aa96bfa53d9acaba4ed13946520baa81e5fc648313f8bb77"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/cape-teriggan.jpg",
+      "path": "annotations/expansion/wiki-images/252-cape-teriggan.jpg",
+      "sha256": "4cad3303281532fadee4231e90c6c2218e95f14fa3384badca801386832d8cac"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/altepa-desert-east.jpg",
+      "path": "annotations/expansion/wiki-images/213-altepa-desert-east.jpg",
+      "sha256": "34070898786cb38827543327f740b70f27d5b7757b02fbeb2fa5e95ed9cc8ba9"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/west_sarutabaruta.png",
+      "path": "annotations/expansion/wiki-images/205-west_sarutabaruta.png",
+      "sha256": "5cd5ee05d044ac7d74f005aa42dc40aa34f80d480a027fa7bf26db01b96fc3e9"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/east_sarutabaruta.png",
+      "path": "annotations/expansion/wiki-images/109-east_sarutabaruta.png",
+      "sha256": "78a9b045b32a8e430f7778f5d2583dcf75118135b8c39bbe57441cf0a68e4681"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/tahrongi_canyon.png",
+      "path": "annotations/expansion/wiki-images/52-tahrongi_canyon.png",
+      "sha256": "215bb02e1969fbb0d5f1fec1a5895cffb289147691311ddbfd6641ea6dc36689"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/buburimu_peninsula.png",
+      "path": "annotations/expansion/wiki-images/87-buburimu_peninsula.png",
+      "sha256": "396e6a4216a807363037ade218c2689c200234b433ab2fc17e72e7d4403e9f61"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/meriphataud_mountains.png",
+      "path": "annotations/expansion/wiki-images/140-meriphataud_mountains.png",
+      "sha256": "e5d7f493bb79b4d4aa2e5305fc7100809d19d8c20926da96c00a9cd2c03b3fcd"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/sauromugue_champaign.png",
+      "path": "annotations/expansion/wiki-images/50-sauromugue_champaign.png",
+      "sha256": "1249e9846a76deee9268449eaef49dd16bbb93e165991de97d0ba54ba32f0e68"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/the_sanctuary_of_zitah.png",
+      "path": "annotations/expansion/wiki-images/201-the_sanctuary_of_zitah.png",
+      "sha256": "4ddca255cede80da96403eebc6e75319ff36195c3a9205b8a13c719137384003"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/romaeve.jpg",
+      "path": "annotations/expansion/wiki-images/282-romaeve.jpg",
+      "sha256": "1df1eda8cebea0e171f36a7e6c1fb67b48c35586e75a6a20e9da29879a3da652"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/yuhtunga_jungle.png",
+      "path": "annotations/expansion/wiki-images/211-yuhtunga_jungle.png",
+      "sha256": "785e0b1d2f4e06ca53416fff2851f84ac36ea1c73293cde67de61a2bf111eb56"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/yhoator_jungle.png",
+      "path": "annotations/expansion/wiki-images/208-yhoator_jungle.png",
+      "sha256": "d8b4149fafc5d4126070cc3c5c788cba1abed87d3c6aa6be105cf6a635899d5f"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/altepa-desert-west.jpg",
+      "path": "annotations/expansion/wiki-images/214-altepa-desert-west.jpg",
+      "sha256": "1ee92fd205f3f1a2baa378cc079a064791ad3c56dc1db5da249368d7193ae298"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/qufim_island.png",
+      "path": "annotations/expansion/wiki-images/47-qufim_island.png",
+      "sha256": "59f8cf4b01f8f39334e6cba1dea5474bda4a18ea49aa1b5af01e6c8c736d90f6"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/behemoths_dominion.png",
+      "path": "annotations/expansion/wiki-images/81-behemoths_dominion.png",
+      "sha256": "e6b64a0cd22e59424b8ae6ca8c7ed1b65231d64a6c19ee078a0435d2eb2f0cae"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/sorrow-valley.jpg",
+      "path": "annotations/expansion/wiki-images/293-sorrow-valley.jpg",
+      "sha256": "d5fadd193a67042a9579cef2d87fed4dd234ff05dd020108754ae2611ec0fc1a"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ruaun_gardens.png",
+      "path": "annotations/expansion/wiki-images/155-ruaun_gardens.png",
+      "sha256": "f9299e2c9fa57bba1bf0aa72e7fa7d8492cfec8db1fcd86c4a5c700e927d1d2b"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/palborough_mines_1.png",
+      "path": "annotations/expansion/wiki-images/144-palborough_mines_1.png",
+      "sha256": "20359695039c01b7d56443d12b7b4ebb5d4f57b45646008b1499c28d26b4d41a"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/palborough_mines_2.png",
+      "path": "annotations/expansion/wiki-images/145-palborough_mines_2.png",
+      "sha256": "d3ec760b5c7d8d2fcc5ac448efc1e51de34ef6adbeb04fd9979d6a2b64cdddc2"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/palborough_mines_3.png",
+      "path": "annotations/expansion/wiki-images/146-palborough_mines_3.png",
+      "sha256": "4f191f930bba0aff04830f44142984207a715f7812df2b1078004c18f99a49b2"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/giddeus_1.png",
+      "path": "annotations/expansion/wiki-images/117-giddeus_1.png",
+      "sha256": "b62cf773928fe18ddf505d6425b889c1c3042ed49bd94a41f367b2a2858930be"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/giddeus_2.png",
+      "path": "annotations/expansion/wiki-images/118-giddeus_2.png",
+      "sha256": "e50424beb4e19ff6c89938a5dbec9a615831b582df00605a9269d4f9c9003804"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/beadeaux_1.png",
+      "path": "annotations/expansion/wiki-images/79-beadeaux_1.png",
+      "sha256": "cda6756a370f8bc0ad115f2acb6a02be31593b54d28bef45dfc9c8cd95bd37ee"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/beadeaux_2.png",
+      "path": "annotations/expansion/wiki-images/80-beadeaux_2.png",
+      "sha256": "e049579617c08a3ec0265a6706c070faf23c24f900f35aa87d286e9bfffa1752"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/qulun_dome.png",
+      "path": "annotations/expansion/wiki-images/152-qulun_dome.png",
+      "sha256": "430596f17bbd596f8ea416e0c5c58c6b85ef2c08204668017e10b65b74b95ced"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/castle_oztroja_1.png",
+      "path": "annotations/expansion/wiki-images/88-castle_oztroja_1.png",
+      "sha256": "e3309e84a717e8f5729aee4fd9e8e271976cb5396681f756a8d3754b0c26d83a"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/castle_oztroja_2.png",
+      "path": "annotations/expansion/wiki-images/89-castle_oztroja_2.png",
+      "sha256": "828548416130a7d3985546e0123deb634441d07871179293dabfe7a8ea9f928c"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/castle_oztroja_3.png",
+      "path": "annotations/expansion/wiki-images/90-castle_oztroja_3.png",
+      "sha256": "18d7c72229c4a16d1728e31020871b928ed162548aea0d688dd13c66dad18c0a"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/castle_oztroja_4.png",
+      "path": "annotations/expansion/wiki-images/91-castle_oztroja_4.png",
+      "sha256": "12a1216499266f91d20694b343107e4cea53275cb07492a702df667d88063f99"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/castle_oztroja_5.png",
+      "path": "annotations/expansion/wiki-images/92-castle_oztroja_5.png",
+      "sha256": "b3d6fcf3017dc478da9373f477fe4e5c8214cd9b3b7ecc832f0f5b7322bd6ea2"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/castle_oztroja_6.png",
+      "path": "annotations/expansion/wiki-images/93-castle_oztroja_6.png",
+      "sha256": "01ed74fdab0d127b622a11847a1a0d177521a8f45fc844c1fb92add9f842df8d"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/castle_oztroja_7.png",
+      "path": "annotations/expansion/wiki-images/94-castle_oztroja_7.png",
+      "sha256": "fc0515bb48dfc325b9174620aa0f933ee4ef7994089d84c128c019cf1224873c"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/altar_room.png",
+      "path": "annotations/expansion/wiki-images/69-altar_room.png",
+      "sha256": "e307cd78e39a1173c12fb42629b07a2c491c2090f4c6b5d08238f8c036b17dd1"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/the_boyahda_tree_1.png",
+      "path": "annotations/expansion/wiki-images/194-the_boyahda_tree_1.png",
+      "sha256": "3bb1ad38bd89d2ad2f5ec8d6fd791aa4deacca01d720292cb363427cbed246bf"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/the_boyahda_tree_2.png",
+      "path": "annotations/expansion/wiki-images/195-the_boyahda_tree_2.png",
+      "sha256": "f3d675e81e2faa142202d1e056c57c7a8e027bce5fd5cc2c888f844c277c67a3"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/the_boyahda_tree_3.png",
+      "path": "annotations/expansion/wiki-images/196-the_boyahda_tree_3.png",
+      "sha256": "b7eeff1beb2e425731732c30eb7064fcf6dcbaf4a6f0cb16567c91294bfaf52e"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/the_boyahda_tree_4.png",
+      "path": "annotations/expansion/wiki-images/197-the_boyahda_tree_4.png",
+      "sha256": "2c57566b142a136932f1a64ba85f1d1f4b6066ce8e142669956bd239923a1e55"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/dragons-aery.jpg",
+      "path": "annotations/expansion/wiki-images/281-dragons-aery.jpg",
+      "sha256": "46d0258077ac07dc890e5f0e26accb7e287d57bdcdc441eb971a305bd56cfda2"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/middle_delkfutts_tower_1.png",
+      "path": "annotations/expansion/wiki-images/15-middle_delkfutts_tower_1.png",
+      "sha256": "eec0ddc7f29cd7e2212514c68908aafde72f3ee7a39dded6f62b873e281a3875"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/middle_delkfutts_tower_2.png",
+      "path": "annotations/expansion/wiki-images/16-middle_delkfutts_tower_2.png",
+      "sha256": "3b14123cf89d84ee2084caf20eb806fdf585bcd87dc05c6304b88dbd9632eee5"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/middle_delkfutts_tower_3.png",
+      "path": "annotations/expansion/wiki-images/17-middle_delkfutts_tower_3.png",
+      "sha256": "9ddc3eb6a7b58fa98cbf41ae0b488ad7b6a377421a359be283c68dd53186b0fd"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/middle_delkfutts_tower_4.png",
+      "path": "annotations/expansion/wiki-images/18-middle_delkfutts_tower_4.png",
+      "sha256": "9e0bff3442f1a519b693e993ab2189d20886fa4a9518f06954e440a4885070e2"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/middle_delkfutts_tower_5.png",
+      "path": "annotations/expansion/wiki-images/19-middle_delkfutts_tower_5.png",
+      "sha256": "fbb8e866efb8d57e03bf105166af2dc8e2b66d341e912a6d4a1d28d50a2125ea"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/middle_delkfutts_tower_6.png",
+      "path": "annotations/expansion/wiki-images/20-middle_delkfutts_tower_6.png",
+      "sha256": "722ca445d80fbc00caf5a2db07a14ecca10db5b4dc10429c271715e2d57b42bd"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/upper_delkfutts_tower_1.png",
+      "path": "annotations/expansion/wiki-images/56-upper_delkfutts_tower_1.png",
+      "sha256": "0cbdb8157af1ac1ecd9e5042e8d91be84927e5fe04ea7601ba75beb2611e790f"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/upper_delkfutts_tower_2.png",
+      "path": "annotations/expansion/wiki-images/57-upper_delkfutts_tower_2.png",
+      "sha256": "a5f90c5758c7a3cefdde87af531554f463ab46dcd4e41914a393ead131f09019"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/upper_delkfutts_tower_3.png",
+      "path": "annotations/expansion/wiki-images/58-upper_delkfutts_tower_3.png",
+      "sha256": "32b52b738432b0dca32dc2bc4650a71efe640f15a2216d7b9efe38a058950fa5"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/upper_delkfutts_tower_4.png",
+      "path": "annotations/expansion/wiki-images/59-upper_delkfutts_tower_4.png",
+      "sha256": "79e97d1154188dff230f61e5d2d6285d9c991f112c98965f0804c26429ec8368"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/upper_delkfutts_tower_5.png",
+      "path": "annotations/expansion/wiki-images/60-upper_delkfutts_tower_5.png",
+      "sha256": "ab80acb388b704e0d7710f209929ea34f3af69b74d8c2d04ef16db997e3a6b82"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/upper_delkfutts_tower_6.png",
+      "path": "annotations/expansion/wiki-images/61-upper_delkfutts_tower_6.png",
+      "sha256": "141e01902d5a5a1c6aed52ae1c6a52e519cbaa2dc1f0676d5746c0e8e41d8e09"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/temple_of_uggalepih_1.png",
+      "path": "annotations/expansion/wiki-images/190-temple_of_uggalepih_1.png",
+      "sha256": "87336abccbd2b5c3c65abb213db0256b703226d0b3f343ae57ff6856f86868d3"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/temple_of_uggalepih_2.png",
+      "path": "annotations/expansion/wiki-images/191-temple_of_uggalepih_2.png",
+      "sha256": "8623e49cf046934c8cb4826bc1cb8f76d9da06af17312011de0d804e78a87e18"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/temple_of_uggalepih_3.png",
+      "path": "annotations/expansion/wiki-images/192-temple_of_uggalepih_3.png",
+      "sha256": "c86a5a4fbf90f515d626eabeeeea09ce08608a5fab6b360e97e821dbcf6f8c22"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/temple_of_uggalepih_4.png",
+      "path": "annotations/expansion/wiki-images/193-temple_of_uggalepih_4.png",
+      "sha256": "ad4789e9d5ccc3931967fa8ba12f7ac96ad949d8f54a1e6d0352d082515df136"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/rancor-den_1.jpg",
+      "path": "annotations/expansion/wiki-images/272-rancor-den_1.jpg",
+      "sha256": "46819cbd26e568a6f0c7a9efb44863151a2e4bf4aa23f183a5118fba06d2cc38"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/rancor-den_2.jpg",
+      "path": "annotations/expansion/wiki-images/273-rancor-den_2.jpg",
+      "sha256": "825337582fbba57091ea085ac1dc39b43b95b5c6b87f59a7aeca563f7d3e63f5"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/rancor-den_3.jpg",
+      "path": "annotations/expansion/wiki-images/274-rancor-den_3.jpg",
+      "sha256": "494dbf7487523124d3012a7688253a6d16d44c41bbb5953c1f29fb558c6205da"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/rancor-den_4.jpg",
+      "path": "annotations/expansion/wiki-images/275-rancor-den_4.jpg",
+      "sha256": "4c15238e475a4bb6c2157d59a75c476737fb81b7c4806ea08a10ee25ee0b668e"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/rancor-den_5.jpg",
+      "path": "annotations/expansion/wiki-images/276-rancor-den_5.jpg",
+      "sha256": "b32a3afc3ca4c9a4aebaed841f45c5e1b36c0a62e8f32e4e40ec8efaa4030566"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/rancor-den_6.jpg",
+      "path": "annotations/expansion/wiki-images/277-rancor-den_6.jpg",
+      "sha256": "385880bb3b60df44cdb1d49fdd8565e07fcd3b7d5fb5953784c4a7b4906afb1e"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/rancor-den_7.jpg",
+      "path": "annotations/expansion/wiki-images/278-rancor-den_7.jpg",
+      "sha256": "65111d962181641ce5d5f5f201acd987c68163bf011c3be9750e1c50cd5b60ae"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/rancor-den_8.jpg",
+      "path": "annotations/expansion/wiki-images/279-rancor-den_8.jpg",
+      "sha256": "e46413c3ce887e96c2cf1a5536396f1ffdbdfd95cd5302433e768c9a7f9da568"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/rancor-den_9.jpg",
+      "path": "annotations/expansion/wiki-images/280-rancor-den_9.jpg",
+      "sha256": "995d3df3be0416ca5f018aecedfaf2204ed4416ee41dd83fab39c3a65c7b312d"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/castle_zvahl_baileys_1.png",
+      "path": "annotations/expansion/wiki-images/95-castle_zvahl_baileys_1.png",
+      "sha256": "a3edf2707e7312be84975f6ee067a0139eb9aab07a4472982643d09bdc55ce21"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/castle_zvahl_baileys_2.png",
+      "path": "annotations/expansion/wiki-images/96-castle_zvahl_baileys_2.png",
+      "sha256": "e48aad4e904a244b69eb4b15548dba846f07e502a4da8fb2b3a99769e2be4c8b"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/castle_zvahl_baileys_3.png",
+      "path": "annotations/expansion/wiki-images/97-castle_zvahl_baileys_3.png",
+      "sha256": "b3e1cb6697c2cf14ce1e22b734ef7e686507930d0f9397cee6829d74417e05d9"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/castle_zvahl_baileys_4.png",
+      "path": "annotations/expansion/wiki-images/98-castle_zvahl_baileys_4.png",
+      "sha256": "5a4887719f15f8f8088ccc15a73cfc5be677e6491ada31595361c9a857587b86"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/castle_zvahl_keep_1.png",
+      "path": "annotations/expansion/wiki-images/99-castle_zvahl_keep_1.png",
+      "sha256": "0f7ad820542f0d315ec8d4c9a792a3e35aeda458119240cd0dad6b3b1103eed6"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/castle_zvahl_keep_2.png",
+      "path": "annotations/expansion/wiki-images/100-castle_zvahl_keep_2.png",
+      "sha256": "32ac6c0e9947a6d63fb38b1395d80dda4be398db504f88c39e2485755538c42f"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/castle_zvahl_keep_3.png",
+      "path": "annotations/expansion/wiki-images/101-castle_zvahl_keep_3.png",
+      "sha256": "c85213f88d4252626d9403e9c622cf8ac94f14d56687bdd51d6e9ee8ebe9e60d"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/castle_zvahl_keep_4.png",
+      "path": "annotations/expansion/wiki-images/102-castle_zvahl_keep_4.png",
+      "sha256": "524f95452758011e57f594017cf974877dc6325fabc2b2c358fd72ccdda28dfc"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/toraimaral-canal_1.jpg",
+      "path": "annotations/expansion/wiki-images/253-toraimaral-canal_1.jpg",
+      "sha256": "25bd5e3b926f907a35246bebd3813dd7f1cc0f636b621baa8c7f884563f4aaff"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/toraimaral-canal_2.jpg",
+      "path": "annotations/expansion/wiki-images/254-toraimaral-canal_2.jpg",
+      "sha256": "a4a963f2555f4934312726cd1c8e257385fa27f4f7d52d52eedad450632c1f47"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/zeruhn_mines.png",
+      "path": "annotations/expansion/wiki-images/212-zeruhn_mines.png",
+      "sha256": "17092286ce34186fdc1e774b78aadf1a584314b3bd8265291b0e440e445aa011"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/korroloka_tunnel_1.png",
+      "path": "annotations/expansion/wiki-images/130-korroloka_tunnel_1.png",
+      "sha256": "8487bdf4fec6fa384fa2458ed5867c331746b68c90bc186676b6fedb66a93d88"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/korroloka_tunnel_2.png",
+      "path": "annotations/expansion/wiki-images/131-korroloka_tunnel_2.png",
+      "sha256": "a5c4158c45c28863cf875b4b4c53c33e5d506a6faef9a2f91882260765b85123"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/korroloka_tunnel_3.png",
+      "path": "annotations/expansion/wiki-images/132-korroloka_tunnel_3.png",
+      "sha256": "4aeb80d5fe9f99defd3c177c4a0edb027effdcceca3a4cdfdb9fdc5113c7ad91"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/korroloka_tunnel_4.png",
+      "path": "annotations/expansion/wiki-images/133-korroloka_tunnel_4.png",
+      "sha256": "2c87b9693ddf899b0aedf4671cf906d4b11300fd8065aa71c5ec8bee85ff174b"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/korroloka_tunnel_5.png",
+      "path": "annotations/expansion/wiki-images/134-korroloka_tunnel_5.png",
+      "sha256": "d041501e259d5b75d6a0e6e22c02d95392c1574d07c8650a6ab5a7f10b189b68"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/kuftal_tunnel_1.png",
+      "path": "annotations/expansion/wiki-images/135-kuftal_tunnel_1.png",
+      "sha256": "806538da4156ef444229e5d89e761914b9ae756add07e60a3ef40313799dcc2f"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/kuftal_tunnel_2.png",
+      "path": "annotations/expansion/wiki-images/136-kuftal_tunnel_2.png",
+      "sha256": "07c7e0800088d92d61d5abb272048d78801055fccb2a5277e335d65706b3c805"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/kuftal_tunnel_3.png",
+      "path": "annotations/expansion/wiki-images/137-kuftal_tunnel_3.png",
+      "sha256": "e08f57bc4f6a810d7b5dd1b47ac886d28ba110e95b9c9d7ee8fcafa18edf4069"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/kuftal_tunnel_4.png",
+      "path": "annotations/expansion/wiki-images/138-kuftal_tunnel_4.png",
+      "sha256": "d3a5ea3e34393da86c113d595681c9aa5f16ca260231443aa787bacda89f5cff"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/sea_serpent_grotto_1.png",
+      "path": "annotations/expansion/wiki-images/156-sea_serpent_grotto_1.png",
+      "sha256": "550e81a22416fcb189bca34b3f4c77e934cb1a1df3c2d09c204f2fcc569ce1e5"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/sea_serpent_grotto_2.png",
+      "path": "annotations/expansion/wiki-images/157-sea_serpent_grotto_2.png",
+      "sha256": "8b8eef57f7647dd5a38783258502c5ba238167d756933f956f381936769a2550"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/sea_serpent_grotto_3.png",
+      "path": "annotations/expansion/wiki-images/158-sea_serpent_grotto_3.png",
+      "sha256": "cf9ff1c26ebfacfd4bd42e65d26470327c0b16b6f02354568d6f6b7d046094ff"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/sea_serpent_grotto_4.png",
+      "path": "annotations/expansion/wiki-images/159-sea_serpent_grotto_4.png",
+      "sha256": "d910257ee4b55c97809b438bdd885b5f073b397cc7893eb427bb208b276231b7"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/sea_serpent_grotto_5.png",
+      "path": "annotations/expansion/wiki-images/160-sea_serpent_grotto_5.png",
+      "sha256": "c9f20946c037199cae3b2f9c8727b53be69a00a252c4047ae1726e15bf1f253f"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/velugannon-palace_1.jpg",
+      "path": "annotations/expansion/wiki-images/256-velugannon-palace_1.jpg",
+      "sha256": "c33dc19e6df9e0b778788f2f778d4a94dcd5c2ffdaa766868aa3d078e40bdcdd"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/velugannon-palace_2.jpg",
+      "path": "annotations/expansion/wiki-images/257-velugannon-palace_2.jpg",
+      "sha256": "7f8cf17febb41a74a39a826bbe4bd1f5648db1157ca66d92a7e79fbc5fa80008"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/velugannon-palace_3.jpg",
+      "path": "annotations/expansion/wiki-images/258-velugannon-palace_3.jpg",
+      "sha256": "fa067f9763af1214e8b355ab00bda108605df5d8b9921927c23083d8afcb651f"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/velugannon-palace_4.jpg",
+      "path": "annotations/expansion/wiki-images/259-velugannon-palace_4.jpg",
+      "sha256": "b15aa8decf046ba402859e0f8992cf6ac6407dc4f59b72cbf549b7809bd4c628"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/velugannon-palace_5.jpg",
+      "path": "annotations/expansion/wiki-images/260-velugannon-palace_5.jpg",
+      "sha256": "5dcf88d0bf66f474203a9af0762b2d01c7810d447ad80efe79d716a2c312a3c2"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/velugannon-palace_6.jpg",
+      "path": "annotations/expansion/wiki-images/261-velugannon-palace_6.jpg",
+      "sha256": "88a3575e0438fa84a40effcf242f0c4175ab735c3bae8db3c184551cadbd8e53"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/velugannon-palace_7.jpg",
+      "path": "annotations/expansion/wiki-images/263-velugannon-palace_7.jpg",
+      "sha256": "424e49e4b36245e70d5d534f15fff37444815ec37473f78c1115090fa2fd3a02"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/velugannon-palace_8.jpg",
+      "path": "annotations/expansion/wiki-images/264-velugannon-palace_8.jpg",
+      "sha256": "070b0ebab8a058cbd81b0a44d3dd057363f67f6599b33c8c0f9072e883a7091d"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/velugannon-palace_9.jpg",
+      "path": "annotations/expansion/wiki-images/265-velugannon-palace_9.jpg",
+      "sha256": "6d1d498ec7c2b813eee4b76ae72c4e3c8a20dcfe66547d066b8fbc1da2fcead7"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ruavitau-shrine_1.jpg",
+      "path": "annotations/expansion/wiki-images/266-ruavitau-shrine_1.jpg",
+      "sha256": "3faa42e14b36d9c3e1e499f219e1f7a5518b851e7328209dcb2ba2f12f2e6e48"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ruavitau-shrine_2.jpg",
+      "path": "annotations/expansion/wiki-images/267-ruavitau-shrine_2.jpg",
+      "sha256": "f76f013dca6cfd5a8d834b2c60476c6087ddccae449dc0f129a53dc4d85b13a6"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ruavitau-shrine_3.jpg",
+      "path": "annotations/expansion/wiki-images/268-ruavitau-shrine_3.jpg",
+      "sha256": "d1dfaf244caaec332cdf3178190aee7a42522dc32b429a82423b166264499925"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ruavitau-shrine_4.jpg",
+      "path": "annotations/expansion/wiki-images/269-ruavitau-shrine_4.jpg",
+      "sha256": "7e145cfd9bfd238a7b5a794266dd795b2e06ab4dd60a04b608d1d4bb7d07c170"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ruavitau-shrine_5.jpg",
+      "path": "annotations/expansion/wiki-images/270-ruavitau-shrine_5.jpg",
+      "sha256": "47bcf2a7c7782281e61baf8f8c8edc7ba8d98a6b31cf061b20ac2e82e12d2c40"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ruavitau-shrine_6.jpg",
+      "path": "annotations/expansion/wiki-images/271-ruavitau-shrine_6.jpg",
+      "sha256": "d67fe76196dcb061ca1da109052ebe612d0419062f2565e290ef716b9d75a81f"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/lower_delkfutts_tower_1.png",
+      "path": "annotations/expansion/wiki-images/8-lower_delkfutts_tower_1.png",
+      "sha256": "c4ec812ea9bb5d05b71c5442be529033ba2e79df93de6585ca1c116b2a446d84"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/lower_delkfutts_tower_2.png",
+      "path": "annotations/expansion/wiki-images/9-lower_delkfutts_tower_2.png",
+      "sha256": "1c145eacc2654d00445b0d1b64af4f03f9e618ff711f94e6a76ee7cef3837f52"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/lower_delkfutts_tower_3.png",
+      "path": "annotations/expansion/wiki-images/10-lower_delkfutts_tower_3.png",
+      "sha256": "e03416c357f52a9922b1a3000c629d65e2aa4ac2c2e56c6f96e7aa0bfe9e297d"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/lower_delkfutts_tower_4.png",
+      "path": "annotations/expansion/wiki-images/11-lower_delkfutts_tower_4.png",
+      "sha256": "032df55b4a302f764c1dae28aabec44e30f894d91e468bad4a50b3d89c066773"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/dangruf_wadi.png",
+      "path": "annotations/expansion/wiki-images/106-dangruf_wadi.png",
+      "sha256": "1cef5746e0989c79a28829451f77f094cad8843a89b53f55478671b11cbed113"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/inner_horutoto_ruins_1.png",
+      "path": "annotations/expansion/wiki-images/125-inner_horutoto_ruins_1.png",
+      "sha256": "11ecac853df82a912e3e3f69e53257971b0c6a67837d7e69ce10584dfb6b24e5"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/inner_horutoto_ruins_2.png",
+      "path": "annotations/expansion/wiki-images/126-inner_horutoto_ruins_2.png",
+      "sha256": "3dc903de9846393b625402e3d7051c5e8cea9d88f21b49e869b46d0fa364e5d8"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/inner_horutoto_ruins_3.png",
+      "path": "annotations/expansion/wiki-images/127-inner_horutoto_ruins_3.png",
+      "sha256": "cd300177013ac01bd4e1e784bbec2ffc37c25ee04cb404496e598090f1472240"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/inner_horutoto_ruins_4.png",
+      "path": "annotations/expansion/wiki-images/128-inner_horutoto_ruins_4.png",
+      "sha256": "27ad19369cdc506a3b8c9520d8a2a349708c5e35983e9f1fcd7b55d139153ef8"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/horutoto-ruins-outer_1.jpg",
+      "path": "annotations/expansion/wiki-images/246-horutoto-ruins-outer_1.jpg",
+      "sha256": "adfbf45bd9d634f200b15f98b2e5e5c206b8cf36e9a15bcc57494018fbc4fa11"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/horutoto-ruins-outer_2.jpg",
+      "path": "annotations/expansion/wiki-images/247-horutoto-ruins-outer_2.jpg",
+      "sha256": "b0d3556b769d08ebde00786774d58123d895654fbf337bc02f1974f9fe1f789d"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/horutoto-ruins-outer_3.jpg",
+      "path": "annotations/expansion/wiki-images/248-horutoto-ruins-outer_3.jpg",
+      "sha256": "280c9fd2be84ffe5552c1378124b2fb4895a9a4bd8937b08ea6c512fb479cede"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/horutoto-ruins-outer_4.jpg",
+      "path": "annotations/expansion/wiki-images/249-horutoto-ruins-outer_4.jpg",
+      "sha256": "cd91943b40625ef853db2ba6361cb8240d9bc50eed912ae50e6ac7dad42c6bc3"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/horutoto-ruins-outer_5.jpg",
+      "path": "annotations/expansion/wiki-images/250-horutoto-ruins-outer_5.jpg",
+      "sha256": "bf2a6c5a1c4d04f0fb49dab679acea81230c326e28dc4acd8ef34c3fdc33f465"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/gusgen_mines_1.png",
+      "path": "annotations/expansion/wiki-images/119-gusgen_mines_1.png",
+      "sha256": "235ce21a56caf27b60a3b0cdc6883f0cdc1038efe86fb824892c34def04f6c10"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/gusgen_mines_2.png",
+      "path": "annotations/expansion/wiki-images/120-gusgen_mines_2.png",
+      "sha256": "7c444eb2ba730db4bbdf2b37ff89c2a237dc6fc51ec3c5c90cb2253a043ae5b6"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/gusgen_mines_3.png",
+      "path": "annotations/expansion/wiki-images/121-gusgen_mines_3.png",
+      "sha256": "a62a581c8db7ec5f22a7ba12892884260e137a7365bc0b77c27d8df2764342ab"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/gusgen_mines_4.png",
+      "path": "annotations/expansion/wiki-images/122-gusgen_mines_4.png",
+      "sha256": "44cc1a8f6db4272220c6ac7a31a8e068a9a222355f43dc4c0d2895f8bf79700d"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/crawlers_nest_1.png",
+      "path": "annotations/expansion/wiki-images/103-crawlers_nest_1.png",
+      "sha256": "5771d1d042e4c21eeece46bcdf9f3c89911015000d6825527abe9e09ab55f062"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/crawlers_nest_2.png",
+      "path": "annotations/expansion/wiki-images/104-crawlers_nest_2.png",
+      "sha256": "17d1535891882f12486e18fa6bfbd302c059074e02f519435af4ea913fc26efc"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/crawlers_nest_3.png",
+      "path": "annotations/expansion/wiki-images/105-crawlers_nest_3.png",
+      "sha256": "301c71f35d123a385f25eaa38db10136314c8baabefdb6bc7b708971a744bee0"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/shakhrami-maze_1.jpg",
+      "path": "annotations/expansion/wiki-images/238-shakhrami-maze_1.jpg",
+      "sha256": "f04a0dd4aaef2c60505517142d915ed977a079d8f0fa4cdc4da30bad903dffca"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/shakhrami-maze_2.jpg",
+      "path": "annotations/expansion/wiki-images/239-shakhrami-maze_2.jpg",
+      "sha256": "5d07a540e4ac7fe1300116f31e4bbff530977a373023fe93bd1b54906b9cae05"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/garlaige_citadel_1.png",
+      "path": "annotations/expansion/wiki-images/111-garlaige_citadel_1.png",
+      "sha256": "769208b492f4cb9c3a6b1849eed0346e927c601e8f18a23dd81b4476e1a5dbc7"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/garlaige_citadel_2.png",
+      "path": "annotations/expansion/wiki-images/112-garlaige_citadel_2.png",
+      "sha256": "47317906fac02345799519774aefd67694e52b0063e165ef6759ef0644ec588c"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/garlaige_citadel_3.png",
+      "path": "annotations/expansion/wiki-images/113-garlaige_citadel_3.png",
+      "sha256": "e1a7e0c81dbaf9fa92056c57cc0b3b93416facfe376402831a47a528e2609dd4"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/garlaige_citadel_4.png",
+      "path": "annotations/expansion/wiki-images/114-garlaige_citadel_4.png",
+      "sha256": "a1af243e1b91f9887c6c13f5ed2313d1bd203be7fb5e08a3f0d04abc560411cd"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ifrits-cauldron_1.jpg",
+      "path": "annotations/expansion/wiki-images/283-ifrits-cauldron_1.jpg",
+      "sha256": "5c1528d5de27696894e1782f41b82814a357b06a2f60b8851f60001aa90c1e99"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ifrits-cauldron_2.jpg",
+      "path": "annotations/expansion/wiki-images/284-ifrits-cauldron_2.jpg",
+      "sha256": "ff855a824bf9daebbe4909f4ce27f3a6e9f1a5446434ad1fbf565c34e7cb9c39"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ifrits-cauldron_3.jpg",
+      "path": "annotations/expansion/wiki-images/285-ifrits-cauldron_3.jpg",
+      "sha256": "22cedab06e5181c2ea5550169f7831fd629e0d66a04a3c79d24b65d8dbcc55e1"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ifrits-cauldron_4.jpg",
+      "path": "annotations/expansion/wiki-images/286-ifrits-cauldron_4.jpg",
+      "sha256": "04620d14ed420831cf83a12fa3b4cb9013e581abbab687ac635b77e0d2db2d31"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ifrits-cauldron_5.jpg",
+      "path": "annotations/expansion/wiki-images/287-ifrits-cauldron_5.jpg",
+      "sha256": "7533e1dac5e24a65c868e6b713040752d13d453d3fe8afb7331a26e1cf2b87fc"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ifrits-cauldron_6.jpg",
+      "path": "annotations/expansion/wiki-images/288-ifrits-cauldron_6.jpg",
+      "sha256": "370c3542d124119345f0f1cba3655052dc94dd565b0c46c3ac7b0430bc8e220e"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ifrits-cauldron_7.jpg",
+      "path": "annotations/expansion/wiki-images/289-ifrits-cauldron_7.jpg",
+      "sha256": "c82b1923b1d76639911690b82ff326aecb15f191daaeed60cf0049b94bd66330"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ifrits-cauldron_8.jpg",
+      "path": "annotations/expansion/wiki-images/290-ifrits-cauldron_8.jpg",
+      "sha256": "b5a904624f364a2855093713b409b68268d8ae785cc4324ee9a67e724936d9a9"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/quicksand-caves_1.jpg",
+      "path": "annotations/expansion/wiki-images/216-quicksand-caves_1.jpg",
+      "sha256": "18d655fdcc630d843108f26074b974e9ad1a9ac20fcc60358516bcb2fbb4022d"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/quicksand-caves_2.jpg",
+      "path": "annotations/expansion/wiki-images/217-quicksand-caves_2.jpg",
+      "sha256": "04e4a21e0393fda5310ac17df84df851b706e3ef9cf371d0b3693b22efe2269e"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/quicksand-caves_3.jpg",
+      "path": "annotations/expansion/wiki-images/218-quicksand-caves_3.jpg",
+      "sha256": "bb325b340569423593d1e392e9bdf9949d7d3bb9781e03a5c204395bff44cdb1"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/quicksand-caves_4.jpg",
+      "path": "annotations/expansion/wiki-images/219-quicksand-caves_4.jpg",
+      "sha256": "c1ceec931f2289a8bf601386d99437178c8de64d978f720de91fd7ad7906a19f"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/quicksand-caves_5.jpg",
+      "path": "annotations/expansion/wiki-images/220-quicksand-caves_5.jpg",
+      "sha256": "9d0edfa47e8624eeea713a76da396026abf0df148d475e23ddd6eeff378ef79f"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/quicksand-caves_6.jpg",
+      "path": "annotations/expansion/wiki-images/221-quicksand-caves_6.jpg",
+      "sha256": "f0eb899c64231a297296831fa1cf2d4d1c0ad1428fca1fa3f3a82d0330e8f567"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/quicksand-caves_7.jpg",
+      "path": "annotations/expansion/wiki-images/222-quicksand-caves_7.jpg",
+      "sha256": "2aca10b5b936dbb2c4d786f6fbde7dcadc0ce9c5324c6d084a5efc065af0a0d6"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/quicksand-caves_8.jpg",
+      "path": "annotations/expansion/wiki-images/223-quicksand-caves_8.jpg",
+      "sha256": "fcd53e22303ecd92358007c557b3c47c22ab2e24209bc6851771bf285fd9d6a2"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/gustav_tunnel_1.png",
+      "path": "annotations/expansion/wiki-images/123-gustav_tunnel_1.png",
+      "sha256": "1db742a38a4f30b30a0352238feaa50f39e4c94a4ce394c3c9ac8e1c5cf2e524"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/gustav_tunnel_2.png",
+      "path": "annotations/expansion/wiki-images/124-gustav_tunnel_2.png",
+      "sha256": "623ccab3f6211544b78bb4c2d2ad2cd46ffb84d4a97daed96595cce800d23f4d"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/onzozo-labyrinth.jpg",
+      "path": "annotations/expansion/wiki-images/243-onzozo-labyrinth.jpg",
+      "sha256": "b19545abeed069d46f8ec20843e365d6b0d8bb0362b5f980961d28232b7af50a"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/bastok_mines.png",
+      "path": "annotations/expansion/wiki-images/2-bastok_mines.png",
+      "sha256": "4a2377d27f6ed4ebd220e782079811a12e82ff555e8ded177175199fe417e1d6"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/bastok_markets.png",
+      "path": "annotations/expansion/wiki-images/1-bastok_markets.png",
+      "sha256": "c6329c8d984dcf21112d4713c3634bc29547e7cdde8791d821648838a150e14d"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/port_bastok.png",
+      "path": "annotations/expansion/wiki-images/23-port_bastok.png",
+      "sha256": "49c34197132b53e60c2ae8d7f2dc22e2ffdb3977098110ff387f97bc1e894809"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/metalworks.png",
+      "path": "annotations/expansion/wiki-images/13-metalworks.png",
+      "sha256": "16b86d40289274b56e5cf7d1e6507331ffa208bfdfe10b2598ba55890fa1e423"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/windurst_waters_1.png",
+      "path": "annotations/expansion/wiki-images/65-windurst_waters_1.png",
+      "sha256": "1ac4387dde057a59a1f5ae3d090c1888fcd3ea77ddc632b974ffad0262c354a7"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/windurst_waters_2.png",
+      "path": "annotations/expansion/wiki-images/66-windurst_waters_2.png",
+      "sha256": "c2adbdf305bcbf29810cdec2123ee02e0c8302e8bf0b1fa588fb1cd6acd147bd"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/windurst_walls.png",
+      "path": "annotations/expansion/wiki-images/64-windurst_walls.png",
+      "sha256": "ed6dadf803f51350d373db1b587c07dd6aa6b04b49fde74f1aff365b6e7483dc"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/port_windurst.png",
+      "path": "annotations/expansion/wiki-images/26-port_windurst.png",
+      "sha256": "01b28de18d49b96c91f638aec606ce96469a0d9e4e788a91bf1fe13f7230bf5d"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/windurst_woods.png",
+      "path": "annotations/expansion/wiki-images/67-windurst_woods.png",
+      "sha256": "cd489306d430f0b219fc76725c868fe7f3415f003a97812ab15d25fddcb50e33"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/rulude_gardens.png",
+      "path": "annotations/expansion/wiki-images/49-rulude_gardens.png",
+      "sha256": "30ea0d34081f8ef12666ad7b1315ada111eae57de7e6068d221e3ec389b3a8af"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/upper_jeuno.png",
+      "path": "annotations/expansion/wiki-images/62-upper_jeuno.png",
+      "sha256": "0d292e749bd11ddad830e82d8309ad9abb49ba634953c2f9c94658cd54147bde"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/lower_jeuno.png",
+      "path": "annotations/expansion/wiki-images/12-lower_jeuno.png",
+      "sha256": "ee7323c538462cac6145ab33d24ef52c3eb6becdc136b377714f56d5bf2a373b"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/port_jeuno.png",
+      "path": "annotations/expansion/wiki-images/24-port_jeuno.png",
+      "sha256": "0b51862fe6bfe4235025c6e110aba574abf83e9a357b8f99940e61c2c9a02c42"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/rabao.jpg",
+      "path": "annotations/expansion/wiki-images/215-rabao.jpg",
+      "sha256": "9369b779056db835118c82891762ff78cce65731d78cedde18e7bae667f8cce2"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/mhaura.png",
+      "path": "annotations/expansion/wiki-images/14-mhaura.png",
+      "sha256": "482b5534b86c4afda6bdf1b1b7800aaf0363643af24f5d8a1b41c8832ba7b0d5"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/kazham.jpg",
+      "path": "annotations/expansion/wiki-images/291-kazham.jpg",
+      "sha256": "312edab898830006e52aa584c4c3114f2df4d5650fbe18926c6417bdfa3db27a"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/hall-of-gods.jpg",
+      "path": "annotations/expansion/wiki-images/255-hall-of-gods.jpg",
+      "sha256": "d07067997fe460d030d5d02f4a7d521e00e1fc7e9c8e4db146877744fb64adab"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/norg.png",
+      "path": "annotations/expansion/wiki-images/21-norg.png",
+      "sha256": "1afc0b513742c2890a7a161a192f78f48b8ba163af97a9388c88e8a0b68d9dbb"
+    }
+  ],
+  "regions": {
+    "gustaberg": [
+      11,
+      12,
+      106,
+      107,
+      143,
+      172,
+      173,
+      191,
+      196,
+      234,
+      235,
+      236,
+      237
+    ],
+    "derfland": [
+      109,
+      110,
+      147,
+      148,
+      197,
+      243,
+      244,
+      245,
+      246
+    ],
+    "valdeaunia": [
+      5,
+      9,
+      112,
+      161,
+      162
+    ],
+    "vollbow": [
+      113,
+      128,
+      174,
+      212
+    ],
+    "qufim": [
+      126,
+      127,
+      157,
+      158,
+      184
+    ],
+    "aragoneu": [
+      119,
+      120,
+      151,
+      152,
+      200
+    ],
+    "kolshushu": [
+      4,
+      7,
+      117,
+      118,
+      198,
+      213,
+      249
+    ],
+    "sarutabaruta": [
+      115,
+      116,
+      145,
+      169,
+      192,
+      194,
+      238,
+      239,
+      240,
+      241
+    ],
+    "litelor": [
+      121,
+      122,
+      153,
+      154,
+      251
+    ],
+    "tulia": [
+      130,
+      177,
+      178
+    ],
+    "kuzotz": [
+      114,
+      125,
+      208,
+      247
+    ],
+    "elshimo_lowlands": [
+      123,
+      176,
+      250,
+      252
+    ],
+    "elshimo_uplands": [
+      124,
+      159,
+      160,
+      205
+    ],
+    "tavnazian_archipelago": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      32
+    ]
+  }
+}
