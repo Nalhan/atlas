@@ -1,0 +1,223 @@
+{
+  "description": "Besieged overview using the installed menu map. Zone labels are overview anchors grouped by region, not georeferenced zone-map outlines. Coordinates are in the native 512-square Besieged image.",
+  "dat": 53416,
+  "identity": "m_ex3_rg",
+  "native_path": "ROM/161/34.DAT",
+  "placement": [
+    8512,
+    2304,
+    4096,
+    4096
+  ],
+  "world_width": 12928,
+  "regions": {
+    "western_aradjiah": {
+      "title": "WESTERN ARADJIAH",
+      "bounds": [
+        40,
+        275,
+        180,
+        455
+      ],
+      "label": [
+        105,
+        435
+      ]
+    },
+    "west_aht_urhgan": {
+      "title": "WEST AHT URHGAN",
+      "bounds": [
+        280,
+        285,
+        440,
+        360
+      ],
+      "label": [
+        380,
+        295
+      ]
+    },
+    "mamool_ja_savagelands": {
+      "title": "MAMOOL JA SAVAGELANDS",
+      "bounds": [
+        145,
+        325,
+        345,
+        455
+      ],
+      "label": [
+        215,
+        445
+      ]
+    },
+    "halvung_territory": {
+      "title": "HALVUNG TERRITORY",
+      "bounds": [
+        140,
+        75,
+        325,
+        215
+      ],
+      "label": [
+        225,
+        80
+      ]
+    },
+    "arrapago_islands": {
+      "title": "ARRAPAGO ISLANDS",
+      "bounds": [
+        140,
+        200,
+        375,
+        320
+      ],
+      "label": [
+        250,
+        210
+      ]
+    },
+    "ruins_of_alzadaal": {
+      "title": "RUINS OF ALZADAAL",
+      "bounds": [
+        330,
+        340,
+        490,
+        480
+      ],
+      "label": [
+        410,
+        475
+      ]
+    }
+  },
+  "zones": {
+    "46": [
+      70,
+      364
+    ],
+    "47": [
+      70,
+      396
+    ],
+    "58": [
+      70,
+      300
+    ],
+    "59": [
+      70,
+      332
+    ],
+    "48": [
+      320,
+      337
+    ],
+    "50": [
+      388,
+      337
+    ],
+    "51": [
+      270,
+      360
+    ],
+    "52": [
+      315,
+      315
+    ],
+    "53": [
+      245,
+      290
+    ],
+    "54": [
+      295,
+      245
+    ],
+    "55": [
+      338,
+      225
+    ],
+    "56": [
+      170,
+      285
+    ],
+    "57": [
+      215,
+      245
+    ],
+    "60": [
+      165,
+      225
+    ],
+    "61": [
+      205,
+      115
+    ],
+    "62": [
+      260,
+      145
+    ],
+    "63": [
+      270,
+      115
+    ],
+    "64": [
+      205,
+      177
+    ],
+    "65": [
+      215,
+      405
+    ],
+    "66": [
+      175,
+      380
+    ],
+    "67": [
+      285,
+      405
+    ],
+    "68": [
+      215,
+      335
+    ],
+    "69": [
+      320,
+      270
+    ],
+    "71": [
+      410,
+      365
+    ],
+    "72": [
+      355,
+      385
+    ],
+    "73": [
+      363,
+      420
+    ],
+    "74": [
+      435,
+      420
+    ],
+    "75": [
+      375,
+      450
+    ],
+    "76": [
+      447,
+      450
+    ],
+    "77": [
+      430,
+      390
+    ],
+    "78": [
+      170,
+      310
+    ],
+    "79": [
+      270,
+      267
+    ]
+  }
+}

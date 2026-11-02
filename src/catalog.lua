@@ -3,7 +3,7 @@ local data=require('data.catalog')
 local extra=require('data.expansion')
 local C={maps={},order={},passages={}}
 local ids={}
-for _,source in ipairs({data,extra}) do
+for _,source in ipairs({data,extra,require('data.aht_urhgan')}) do
     for _,def in ipairs(source.maps) do
         assert(not C.maps[def.key],'Duplicate map key: '..def.key)
         C.maps[def.key]=def;C.order[#C.order+1]=def.key
@@ -51,7 +51,7 @@ end
 function C.find_player_map(zone, floor)
     for _, key in ipairs(C.order) do
         local m = C.maps[key]
-        if m.zone == zone and (m.floor == floor or m.floor==nil) then return key end
+        if not m.reference_only and m.zone == zone and (m.floor == floor or m.floor==nil) then return key end
     end
 end
 return C

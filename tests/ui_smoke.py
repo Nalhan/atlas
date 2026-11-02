@@ -14,6 +14,15 @@ ADDON=ROOT/'addons/atlas'
 lua=LuaRuntime(unpack_returned_tuples=True)
 lua.execute("package.path = ... .. '/?.lua;' .. package.path",ADDON.as_posix())
 lua.execute("package.path = ... .. '/?.lua;' .. package.path",(ROOT/'addons/libs').as_posix())
+label_preview_fonts={}
+def label_preview_font(size):
+    size=int(size)
+    if size not in label_preview_fonts:label_preview_fonts[size]=ImageFont.truetype('C:/Windows/Fonts/georgiab.ttf',size)
+    return label_preview_fonts[size]
+def measure_label(value,size):
+    font=label_preview_font(size);lines=value.split('\n')
+    return max(font.getlength(line) for line in lines),len(lines)*size
+lua.globals().measure_label=measure_label
 lua.execute(r"""
 addon={};ImGuiCond_FirstUseEver=0;ImGuiWindowFlags_NoScrollbar=0
 T=function(value) return value end
@@ -27,24 +36,30 @@ mouse_down=false
 ashita={events={register=function(event,_,fn) callbacks[event]=fn end}}
 package.loaded.common=true
 local draw=setmetatable({}, {__index=function(_,name)
-    return function(_,...) calls[#calls+1]={name,...} end
+    return function(_,...) local call={name,...};call.font_size=font_size;call.font_family=font_family;calls[#calls+1]=call end
 end})
 local I={}
 I.Begin=function() return window_open end;I.End=function() end
 I.BeginChild=function() return true end;I.EndChild=function() end
 I.BeginTooltip=function() end;I.EndTooltip=function() end
 I.SetNextWindowSize=function() end;I.SetNextWindowSizeConstraints=function() end
+I.SetNextWindowFocus=function() focus_requests=(focus_requests or 0)+1 end
 I.TextUnformatted=function() end;I.Separator=function() end;I.SameLine=function() end
 I.BeginDisabled=function(value) disabled=value end;I.EndDisabled=function() disabled=false end
 I.Button=function(label) return not disabled and label==click_button end
 I.Selectable=function(label) return label==select_label end
 I.SetNextItemWidth=function() end;I.InputTextWithHint=function() return false end
+font_size=14;font_family='default';font_stack={}
+I.AddFontFromFileTTF=function(path,size) font_loads=(font_loads or 0)+1;return path end
+I.GetFont=function() return 'default' end
+I.PushFont=function(family,size) font_stack[#font_stack+1]={font_size,font_family};font_size=size;font_family=family end
+I.PopFont=function() local old=table.remove(font_stack);font_size=old[1];font_family=old[2] end
 I.BeginCombo=function() return combo_open or false end;I.EndCombo=function() end
 I.OpenPopup=function(id) opened_popup=id end
 I.BeginPopup=function(id) return opened_popup==id end
 I.EndPopup=function() end;I.CloseCurrentPopup=function() opened_popup=nil end
 I.Checkbox=function() return false end;I.PushStyleColor=function() end;I.PopStyleColor=function() end
-I.SetMouseCursor=function() end
+I.SetMouseCursor=function() end;I.SetClipboardText=function(value) clipboard=value end
 I.IsItemHovered=function() return hover end;I.IsItemActive=function() return dragging end
 I.IsMouseReleased=function(b) return b==0 and release end
 I.IsMouseClicked=function(b) return b==0 and mouse_clicked end
@@ -58,8 +73,9 @@ I.GetIO=function() return {MouseWheel=wheel or 0} end
 I.InvisibleButton=function() return false end
 I.GetWindowDrawList=function() return draw end
 I.CalcTextSize=function(t)
-    local width,n=0,0;for line in (t..'\n'):gmatch('(.-)\n') do width=math.max(width,#line*7);n=n+1 end
-    return width,n*14
+    if font_family~='default' then return measure_label(t,font_size) end
+    local width,n=0,0;for line in (t..'\n'):gmatch('(.-)\n') do width=math.max(width,#line*font_size*.5);n=n+1 end
+    return width,n*font_size
 end
 package.loaded.imgui=I
 function restore_people()
@@ -96,6 +112,7 @@ package.loaded['src.client']={
         if p and p.x~=nil and def.zone==p.zone and def.floor==p.floor then return p.mapx,p.mapy end
     end,
     texture=function(def)
+        if def.asset then return {id=def.asset,width=512,height=512} end
         if not def.dat then return nil,'No standard map' end
         if missing_texture then return {error='Test missing texture'} end
         return {id=def.dat,width=512,height=512,remapster=not plain_texture and (preview_flags==nil or preview_flags[def.dat])}
@@ -114,7 +131,11 @@ lua.execute(r"""
 local U=require('src.ui');local N=require('src.navigation');local C=require('src.catalog')
 test_state=U.state
 callbacks.load();callbacks.d3d_present()
+assert(not U.visible[1] and #calls==0 and test_state.current.level=='world')
+command('');callbacks.d3d_present()
 assert(test_state.current.level=='zone' and test_state.current.key=='west')
+assert(focus_requests==1,'Atlas did not rise when opened')
+callbacks.d3d_present();assert(focus_requests==1,'Atlas repeatedly stole focus from other menus')
 assert(test_state.current.cx==250 and test_state.current.cy==260)
 -- Reopening follows the player's new floor; it does not keep the last browsed map.
 command('hide');test_player.zone=C.maps.oubliette1.zone;test_player.floor=C.maps.oubliette1.floor
@@ -262,7 +283,7 @@ print(f'PASS: current-map startup/reopen, zoning deferral, explicit destinations
 lua.execute(r"""
 local U=require('src.ui');local N=require('src.navigation');local C=require('src.catalog')
 local data={};local count=0
-for _,source in ipairs({'data.wiki_hotspots','data.expanded_hotspots'}) do
+for _,source in ipairs({'data.wiki_hotspots','data.expanded_hotspots','data.aht_hotspots'}) do
     for map,entries in pairs(require(source)) do
         data[map]=data[map] or {};for id,record in pairs(entries) do data[map][id]=record end
     end
@@ -286,6 +307,25 @@ end end
 opened_popup=nil;hover=false
 -- Region names are artwork; closer zoom opens native zones.
 local W=require('src.world').data
+for _,filter in pairs(U.poi_filters) do filter[1]=false end
+-- Location pips attach to zone labels only; no marker floats by a region title.
+restore_people();N.go(test_state,'world');local view=test_state.current
+view.initialized=true;view.world_legacy=nil;view.zoom=1;calls={};callbacks.d3d_present()
+for _,call in ipairs(calls) do
+    assert(not (call[1]=='AddCircleFilled' and call[4]==0xFF9DE6A5),'Player pip on region overview')
+end
+local S=require('src.world_selectors');local L=require('src.map_labels')
+local node=S.node('zone-100');view.zoom=6;view.cx=(node.bounds[1]+node.bounds[3])/2
+view.cy=(node.bounds[2]+node.bounds[4])/2;calls={};callbacks.d3d_present()
+local ox,oy,scale=N.transform(view,0,0,viewport_w,viewport_h,W.width,W.height)
+local bounds=S.bounds(node,scale,L.measure);local found=false
+for _,call in ipairs(calls) do if call[1]=='AddCircleFilled' and call[4]==0xFF9DE6A5 then
+    local pt=call[2]
+    if math.abs(pt[1]-(ox+bounds[1]*scale-5))<.001 and
+        math.abs(pt[2]-(oy+(bounds[2]+bounds[4])/2*scale))<.001 then found=true end
+end end
+assert(found,'Player pip missing from corrected zone label')
+test_player=nil;test_members={}
 for id,bounds in pairs(W.hotspots) do
     command('world');click_button='Fit';callbacks.d3d_present();click_button=nil
     local ox,oy,s=N.transform(test_state.current,0,0,viewport_w,viewport_h,W.width,W.height)
@@ -301,6 +341,7 @@ for _,node in ipairs(W.zones) do
     assert(test_state.current.level=='zone' and test_state.current.key==node.maps[1],node.title)
     callbacks.d3d_present();assert(#active_assets==0)
 end
+for _,filter in pairs(U.poi_filters) do filter[1]=true end
 asset_cache={};missing_art=true;command('world');click_button='Fit';callbacks.d3d_present();click_button=nil
 assert(test_state.current.world_legacy and test_state.current.zoom_max==5 and #active_assets==0)
 missing_art=false;select_label='Reload maps';opened_popup='##atlas-options';callbacks.d3d_present();select_label=nil;opened_popup=nil
@@ -389,15 +430,22 @@ for id,stop in pairs(P.stops) do if stop.map then
     P.visit(test_state,id);callbacks.d3d_present()
     click_at(viewport_w/2,viewport_h/2)
     assert(opened_popup=='##atlas-poi',id)
-    local target=P.links[id][1].target
-    select_label='To '..target.area..'##poi-to-'..target.id
-    callbacks.d3d_present();select_label=nil;assert(not opened_popup)
-    callbacks.d3d_present()
-    if target.map then
-        assert(test_state.current.key==target.map and test_state.current.arrival.poi==target.id,id)
+    if #P.links[id]>0 then
+        local target=P.links[id][1].target
+        select_label='To '..target.area..'##poi-to-'..target.id
+        callbacks.d3d_present();select_label=nil;assert(not opened_popup)
+        callbacks.d3d_present()
+        if target.map then
+            assert(test_state.current.key==target.map and test_state.current.arrival.poi==target.id,id)
+        else
+            local w=P.hubs[target.hub].world
+            assert(test_state.current.level=='world' and test_state.current.cx==w[1] and test_state.current.cy==w[2],id)
+        end
     else
-        local w=P.hubs[target.hub].world
-        assert(test_state.current.level=='world' and test_state.current.cx==w[1] and test_state.current.cy==w[2],id)
+        select_label='World map##poi-world-'..id
+        callbacks.d3d_present();select_label=nil;assert(not opened_popup)
+        callbacks.d3d_present()
+        assert(test_state.current.level=='world',id)
     end
     count=count+1
 end end
@@ -409,6 +457,170 @@ for _,filter in pairs(U.poi_filters) do filter[1]=true end
 opened_popup=nil;hover=false;restore_people();poi_routes_tested=count
 """)
 print(f'PASS: all transport hubs, {lua.globals().poi_routes_tested} native boarding clicks, destination browsing and category filters')
+
+lua.execute(r"""
+local Q=require('src.conquest');local N=require('src.navigation');local U=require('src.ui')
+assert(Q.owner('outpost-ronfaure').name=='Unknown')
+local packet=string.rep('\0',0x66)
+for region,raw in pairs({[1]=1,[2]=2,[3]=3,[4]=4,[15]=2,[16]=3,[19]=1}) do
+    local index=0x1D+(region-1)*4+1
+    packet=packet:sub(1,index-1)..string.char(raw)..packet:sub(index+1)
+end
+callbacks.packet_in({id=0x05E,data=packet})
+assert(Q.owner('outpost-ronfaure').name=="San d'Oria")
+assert(Q.owner('outpost-zulkheim').name=='Bastok')
+assert(Q.owner('outpost-norvallen').name=='Windurst')
+assert(Q.owner('outpost-gustaberg').name=='Beastmen')
+assert(Q.owner('outpost-tavnazia').name=="San d'Oria")
+assert(Q.owner('outpost-tulia').name=='Unknown')
+local red=Q.nations[0].color
+local r,g,b=bit.band(red,255),bit.band(bit.rshift(red,8),255),bit.band(bit.rshift(red,16),255)
+assert(r>g*1.8 and r>b*1.8,'San d\'Oria flag is not a saturated red in ImGui ABGR')
+assert(not Q.ingest('short') and Q.owner('outpost-ronfaure').name=="San d'Oria")
+N.go(test_state,'world');test_state.current.zoom=6;U.pending_locate=false;test_player=nil
+calls={};hover=false;callbacks.d3d_present()
+local seen={}
+for _,call in ipairs(calls) do if call[1]=='AddTriangleFilled' then seen[call[5]]=true end end
+for _,nation in pairs(Q.nations) do assert(seen[nation.color],'Missing nation-colored outpost flag') end
+local sent,scheduled={},{}
+AshitaCore={GetPacketManager=function() return {AddOutgoingPacket=function(_,id,bytes) sent[#sent+1]={id,bytes} end} end}
+ashita.tasks={once=function(seconds,fn) scheduled[#scheduled+1]={seconds,fn} end}
+Q.start();assert(Q.owner('outpost-ronfaure').name=='Unknown' and scheduled[1][1]==1)
+scheduled[1][2]();assert(sent[1][1]==0x05A and #sent[1][2]==4 and sent[1][2][1]==0)
+Q.zoned();assert(Q.owner('outpost-ronfaure').name=='Unknown' and scheduled[2][1]==3)
+scheduled[2][2]();assert(sent[2][1]==0x05A)
+AshitaCore=nil;ashita.tasks=nil
+restore_people()
+""")
+print('PASS: live Conquest owner decoding, nation-colored outpost flags and neutral fallback')
+
+
+with tempfile.TemporaryDirectory(prefix='_poi_ui_tmp_',dir=ADDON/'tests') as temp:
+    lua.globals().poi_save_path=(Path(temp)/'poi-corrections.json').as_posix()
+    lua.execute(r"""
+    local P=require('src.pois');local U=require('src.ui');local N=require('src.navigation')
+    local D=require('src.poi_edits');local E=U.poi_editor;local W=require('src.world').data
+    U.load_pois(poi_save_path);U.pending_locate=false;test_player=nil;test_members={}
+    local marker=P.markers({level='zone',key='mhaura'},P.filters())[1]
+    local id=marker.stops[1].id;P.visit(test_state,id);command('poi');callbacks.d3d_present()
+    assert(E.active and not U.editor.active)
+    local ox,oy,scale=N.transform(test_state.current,0,0,viewport_w,viewport_h,512,512)
+    local cx,cy=test_state.current.cx,test_state.current.cy
+    hover=true;mouse_x=ox+marker.x*scale;mouse_y=oy+marker.y*scale;mouse_clicked=true;mouse_down=true
+    callbacks.d3d_present();mouse_clicked=false
+    mouse_x=mouse_x+25*scale;mouse_y=mouse_y+15*scale;dragging=true;drag_dx=25*scale;drag_dy=15*scale
+    callbacks.d3d_present();assert(test_state.current.cx==cx and test_state.current.cy==cy)
+    dragging=false;mouse_down=false;release=true;callbacks.d3d_present();release=false;hover=false
+    assert(test_state.current.key=='mhaura' and not opened_popup and P.edits.dirty)
+    for _,stop in ipairs(marker.stops) do assert(math.abs(P.stops[stop.id].x-marker.x-25)<.001) end
+    click_button='Undo POI';callbacks.d3d_present();click_button=nil;assert(not P.edits.dirty)
+    E.selected='outpost-ronfaure'
+    click_button='View world';callbacks.d3d_present();click_button=nil;callbacks.d3d_present()
+    click_button='Place on map';callbacks.d3d_present();click_button=nil;assert(E.tool=='place')
+    local wx,wy=4000,3000
+    ox,oy,scale=N.transform(test_state.current,0,0,viewport_w,viewport_h,W.width,W.height)
+    hover=true;mouse_x=ox+wx*scale;mouse_y=oy+wy*scale;mouse_clicked=true;mouse_down=true
+    callbacks.d3d_present();mouse_clicked=false;mouse_down=false;release=true;callbacks.d3d_present();release=false;hover=false
+    assert(test_state.current.level=='world' and P.hubs['outpost-ronfaure'].world[1]==wx)
+    click_button='Hide POI';callbacks.d3d_present();click_button=nil;assert(P.stops['outpost-ronfaure'].hidden)
+    click_button='Show POI';callbacks.d3d_present();click_button=nil;assert(not P.stops['outpost-ronfaure'].hidden)
+    click_button='Copy corrections';callbacks.d3d_present();click_button=nil
+    assert(not P.edits.dirty and require('json').decode(clipboard).changes.world['outpost-ronfaure'].x==wx)
+    P.edits=D.new();U.load_pois(poi_save_path);assert(P.hubs['outpost-ronfaure'].world[1]==wx)
+    click_button='Done editing POIs';callbacks.d3d_present();click_button=nil;assert(not E.active)
+    P.edits=D.new();P.refresh();E.cancel();U.message=nil;restore_people()
+    """)
+print('PASS: POI editor gestures, shared docks, world placement, pan/travel isolation, hide/show, copy and reload')
+
+
+with tempfile.TemporaryDirectory(prefix='_selector_ui_tmp_',dir=ADDON/'tests') as temp:
+    lua.globals().selector_save_path=(Path(temp)/'world-selectors.json').as_posix()
+    lua.execute(r"""
+    local U=require('src.ui');local N=require('src.navigation');local S=require('src.world_selectors')
+    local E=U.selector_editor;local W=require('src.world').data
+    U.load_selectors(selector_save_path);U.pending_locate=false;test_player=nil;test_members={}
+    N.go(test_state,'zone','west');command('selectors');callbacks.d3d_present()
+    assert(E.active and not U.poi_editor.active and not U.editor.active and test_state.current.level=='world')
+    assert(E.selected=='zone-100')
+    -- Draw well away from the original printed banner to prove real hit testing uses the override.
+    click_button='Fit';callbacks.d3d_present();click_button=nil
+    click_button='Draw selector';callbacks.d3d_present();click_button=nil;assert(E.tool=='draw')
+    local v=test_state.current;local cx,cy=v.cx,v.cy
+    local ox,oy,scale=N.transform(v,0,0,viewport_w,viewport_h,W.width,W.height)
+    hover=true;mouse_x=ox+7500*scale;mouse_y=oy+7200*scale;mouse_clicked=true;mouse_down=true
+    callbacks.d3d_present();mouse_clicked=false
+    mouse_x=ox+7900*scale;mouse_y=oy+7400*scale;dragging=true;drag_dx=400*scale;drag_dy=200*scale
+    callbacks.d3d_present();assert(v.cx==cx and v.cy==cy)
+    dragging=false;mouse_down=false;release=true;callbacks.d3d_present();release=false;hover=false
+    assert(test_state.current==v and not opened_popup and S.store.dirty)
+    assert(S.node('zone-100').bounds[1]==7500 and S.node('zone-100').bounds[4]==7400)
+    -- Normal blank-space panning still works in selector mode.
+    hover=true;mouse_x=ox+9000*scale;mouse_y=oy+7000*scale;mouse_clicked=true;mouse_down=true
+    callbacks.d3d_present();mouse_clicked=false;dragging=true;drag_dx=20;drag_dy=10
+    callbacks.d3d_present();assert(v.cx~=cx and v.cy~=cy)
+    dragging=false;mouse_down=false;release=true;callbacks.d3d_present();release=false;hover=false
+    click_button='Copy selectors';callbacks.d3d_present();click_button=nil
+    assert(not S.store.dirty and require('json').decode(clipboard).selectors['zone-100'][1]==7500)
+    S.set('zone-100',nil);assert(S.load(selector_save_path));assert(S.node('zone-100').bounds[1]==7500)
+    click_button='Done with selectors';callbacks.d3d_present();click_button=nil;assert(not E.active)
+    v.zoom=6;v.cx=7700;v.cy=7300
+    hover=true;mouse_x=viewport_w/2;mouse_y=viewport_h/2;mouse_clicked=true
+    callbacks.d3d_present();mouse_clicked=false
+    click_at(viewport_w/2,viewport_h/2)
+    assert(test_state.current.level=='zone' and test_state.current.key=='west')
+    S.store={changes={},saved={},undo={},dirty=false};S.refresh();E.cancel();U.message=nil;restore_people()
+    """)
+print('PASS: world selector UI, drawing/pan isolation, copied/reloaded bounds and corrected zone navigation')
+
+
+lua.execute(r"""
+local U=require('src.ui');local N=require('src.navigation');local S=require('src.world_selectors')
+local P=require('src.pois');local L=require('src.map_labels');local W=require('src.world').data
+U.pending_locate=false;test_player=nil;test_members={}
+for _,f in pairs(U.poi_filters) do f[1]=false end
+-- Larger type, wrapping and the measured click area agree.
+L.set_scale(L.reference_scale)
+local w,h=L.measure('Navukgo Execution Chamber');assert(w<=L.max_width and h>=L.size)
+local previous=0;local measured={}
+for _,zoom in ipairs({2.5,4,6,12,32}) do
+    N.go(test_state,'world');local v=test_state.current;local node=S.node('zone-50');local b=node.bounds
+    v.initialized=true;v.layout='world';v.world_legacy=nil;v.zoom=zoom;v.cx=(b[1]+b[3])/2;v.cy=(b[2]+b[4])/2
+    callbacks.d3d_present()
+    assert(L.pixel_size>=previous and L.pixel_size>=L.min_size and L.pixel_size<=L.max_size)
+    previous=L.pixel_size;measured[#measured+1]=L.pixel_size
+    local ox,oy,scale=N.transform(v,0,0,viewport_w,viewport_h,W.width,W.height)
+    local r=S.bounds(node,scale,L.measure);local tw,th=L.measure(node.title)
+    assert(math.abs((r[3]-r[1])*scale-tw-12)<.001 and math.abs((r[4]-r[2])*scale-th-8)<.001)
+    mouse_x=ox+r[3]*scale-2;mouse_y=viewport_h/2;hover=true;mouse_clicked=true
+    callbacks.d3d_present();mouse_clicked=false;click_at(mouse_x,mouse_y)
+    assert(test_state.current.key==node.maps[1],'Scaled label edge was not clickable')
+end
+assert(measured[1]<measured[2] and measured[2]<measured[3] and measured[4]==measured[5])
+assert(measured[1]==L.min_size and measured[5]==L.max_size)
+local buckets=0;for _ in pairs(L.cache) do buckets=buckets+1 end;assert(buckets<=8)
+assert(font_loads==1 and #font_stack==0,'Font atlas mutated during drawing or font stack leaked')
+-- Independent printed-artwork reproductions from the Gemini review now work.
+for _,sample in ipairs({{7060,4205,'the_boyahda_tree'},{5600,1845,'the_shrine_of_ru_avitau'},{5430,5145,'outer_horutoto_ruins_f1'}}) do
+    N.go(test_state,'world');local view=test_state.current
+    view.world_legacy=nil;view.initialized=true;view.layout='world';view.zoom=6;view.cx=sample[1];view.cy=sample[2]
+    mouse_clicked=true;hover=true;mouse_x=viewport_w/2;mouse_y=viewport_h/2;callbacks.d3d_present();mouse_clicked=false
+    click_at(viewport_w/2,viewport_h/2)
+    assert(test_state.current.level=='zone',sample[3])
+    local target=require('src.catalog').maps[test_state.current.key]
+    local expected=sample[3]=='the_boyahda_tree' and 153 or sample[3]=='the_shrine_of_ru_avitau' and 178 or 194
+    assert(target.zone==expected,sample[3])
+end
+-- Purgonorgo has its own world banner and a bidirectional Manaclipper connection.
+N.go(test_state,'world');local v=test_state.current;v.world_legacy=nil;v.initialized=true;v.layout='world';v.zoom=6;v.cx=6850;v.cy=5304
+mouse_clicked=true;hover=true;mouse_x=viewport_w/2;mouse_y=viewport_h/2;callbacks.d3d_present();mouse_clicked=false
+click_at(viewport_w/2,viewport_h/2);assert(test_state.current.key=='bibiki_bay_f2')
+local marker=P.markers({level='zone',key='bibiki_bay_f2'},P.filters())[1]
+local link=P.links[marker.stops[1].id][1]
+assert(link.target.map=='bibiki_bay_f1' and link.route.id=='manaclipper-bibiki-purgonorgo')
+for _,f in pairs(U.poi_filters) do f[1]=true end
+restore_people();hover=false;opened_popup=nil
+""")
+print('PASS: zoom-scaled measured serif labels, one-time font load, user banner corrections and Purgonorgo world/boat links')
 
 parser=argparse.ArgumentParser();parser.add_argument('--preview-dir',type=Path)
 output=parser.parse_args().preview_dir
@@ -443,6 +655,15 @@ if output:
     lua.globals().preview_flags=lua.table_from(flags)
     for name,setup in [
         ('conquest',"command('world');click_button='Fit';callbacks.d3d_present();click_button=nil"),
+        ('outpost-colors',"require('src.conquest').owners={[1]=0,[2]=1,[3]=2,[4]=3};for _,filter in pairs(require('src.ui').poi_filters) do filter[1]=false end;require('src.ui').poi_filters.outpost[1]=true;command('world');callbacks.d3d_present();test_state.current.zoom=2.5;test_state.current.cx=3600;test_state.current.cy=4300"),
+        ('besieged',"for _,filter in pairs(require('src.ui').poi_filters) do filter[1]=true end;command('besieged')"),
+        ('besieged-labels-wide',"command('besieged');callbacks.d3d_present();test_state.current.zoom=2.5"),
+        ('besieged-labels-close',"command('besieged');callbacks.d3d_present();test_state.current.zoom=6"),
+        ('besieged-detail',"command('besieged');callbacks.d3d_present();test_state.current.zoom=4"),
+        ('bibiki',"require('src.navigation').go(test_state,'zone','bibiki_bay_f1')"),
+        ('purgonorgo',"require('src.navigation').go(test_state,'zone','bibiki_bay_f2')"),
+        ('whitegate',"require('src.navigation').go(test_state,'zone','aht_urhgan_whitegate_f0')"),
+        ('talacca',"require('src.navigation').go(test_state,'zone','talacca_cove')"),
         ('ronfaure',"command('ronfaure')"),
         ('zulkheim',"command('zulkheim')"),
         ('norvallen',"command('norvallen')"),
@@ -485,7 +706,7 @@ if output:
                 if op=='AddCircle':d.ellipse(bounds,outline=color(c[4]),width=max(1,round(float(c[6] or 1))))
                 else:d.ellipse(bounds,fill=color(c[4]))
             elif op=='AddTriangleFilled':d.polygon([point(c[i]) for i in (2,3,4)],fill=color(c[5]))
-            elif op=='AddText':d.multiline_text(point(c[2]),c[4],font=font,fill=color(c[3]),spacing=0)
+            elif op=='AddText':d.multiline_text(point(c[2]),c[4],font=label_preview_font(c['font_size']) if c['font_family']!='default' else font,fill=color(c[3]),spacing=0)
             elif op=='AddImage':
                 x,y=point(c[3]);x2,y2=point(c[4]);im=get_texture(c[2]);u1,v1=point(c[5]);u2,v2=point(c[6])
                 im=im.crop((u1*im.width,v1*im.height,u2*im.width,v2*im.height)).resize((max(1,round(x2)-round(x)),max(1,round(y2)-round(y))),Image.Resampling.LANCZOS)
@@ -493,6 +714,6 @@ if output:
             box=tuple(round(v) for v in clips[-1])
             if box[2]>box[0] and box[3]>box[1]:canvas.alpha_composite(layer.crop(box),box[:2])
         d=ImageDraw.Draw(canvas);d.rectangle([0,741,1100,760],fill=(12,22,17,255))
-        d.text((8,742),'ATLAS 0.7.0 / Offline canvas preview - live client validation pending',font=font,fill='#b1c2b4')
+        d.text((8,742),'ATLAS 0.8.7 / Offline canvas preview - live client validation pending',font=font,fill='#b1c2b4')
         canvas.convert('RGB').save(output/f'atlas-{name}.png')
     print(f'Canvas previews: {output}')

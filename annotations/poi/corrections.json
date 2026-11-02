@@ -1,0 +1,130 @@
+{
+  "changes": {
+    "stops": {
+      "outpost-tulia": {
+        "map": "ru_aun_gardens",
+        "x": 256.17,
+        "y": 371.284
+      }
+    },
+    "world": {
+      "bastok": {
+        "x": 3934.977,
+        "y": 5824.218
+      },
+      "bibiki_bay": {
+        "x": 6523.64,
+        "y": 5039.1
+      },
+      "kazham": {
+        "x": 7053.007,
+        "y": 5872.471
+      },
+      "mhaura": {
+        "x": 7018.319,
+        "y": 5051.967
+      },
+      "outpost-aragoneu": {
+        "x": 5749.535,
+        "y": 3898.854
+      },
+      "outpost-derfland": {
+        "x": 4010.391,
+        "y": 4350.77
+      },
+      "outpost-elshimo-lowlands": {
+        "x": 6912.822,
+        "y": 6493.858
+      },
+      "outpost-fauregandi": {
+        "x": 4104.863,
+        "y": 2469.579
+      },
+      "outpost-gustaberg": {
+        "x": 3427.967,
+        "y": 5680.204
+      },
+      "outpost-kolshushu": {
+        "x": 6692.416,
+        "y": 4861.976
+      },
+      "outpost-kuzotz": {
+        "x": 1596.733,
+        "y": 6247.784
+      },
+      "outpost-litelor": {
+        "x": 6677.972,
+        "y": 3653.111
+      },
+      "outpost-norvallen": {
+        "x": 3844.741,
+        "y": 3552.573
+      },
+      "outpost-qufim": {
+        "x": 5042.418,
+        "y": 2824.7
+      },
+      "outpost-ronfaure": {
+        "x": 2862.977,
+        "y": 3044.81
+      },
+      "outpost-sarutabaruta": {
+        "x": 5433.644,
+        "y": 5277.975
+      },
+      "outpost-tavnazia": {
+        "x": 986.932,
+        "y": 3699.488
+      },
+      "outpost-tulia": {
+        "x": 5591.79,
+        "y": 2234.498
+      },
+      "outpost-valdeaunia": {
+        "x": 3449.284,
+        "y": 2249.762
+      },
+      "outpost-vollbow": {
+        "x": 1709.61,
+        "y": 4693.615
+      },
+      "outpost-zulkheim": {
+        "x": 2647.189,
+        "y": 4266.192
+      },
+      "purgonorgo_isle": {
+        "x": 6845.926,
+        "y": 5320.943
+      },
+      "sandoria": {
+        "x": 3089.433,
+        "y": 2481.352
+      },
+      "selbina": {
+        "x": 2602.949,
+        "y": 4437.222
+      },
+      "teleport-holla": {
+        "x": 3249.564,
+        "y": 3747.265
+      },
+      "teleport-mea": {
+        "x": 6015.137,
+        "y": 4592.846
+      },
+      "teleport-vahzl": {
+        "x": 3414.268,
+        "y": 2138.599
+      },
+      "teleport-yhoat": {
+        "x": 7322.901,
+        "y": 6426.382
+      },
+      "windurst": {
+        "x": 5621.731,
+        "y": 5693.909
+      }
+    }
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,1233 @@
+{
+  "server_commit": "1450874235d41341a2ced74c1dbbe9e4477611d2",
+  "wiki_module_sha256": "0f8d0ec7e08544a09915225f8bd62d42d6fbf622c6ff78ddbbbec60a67f3db86",
+  "zone_files": {
+    "2": "data/zones/carpenters_landing/zone.yaml",
+    "46": "data/zones/open_sea_route_to_al_zahbi/zone.yaml",
+    "47": "data/zones/open_sea_route_to_mhaura/zone.yaml",
+    "48": "data/zones/al_zahbi/zone.yaml",
+    "50": "data/zones/aht_urhgan_whitegate/zone.yaml",
+    "51": "data/zones/wajaom_woodlands/zone.yaml",
+    "52": "data/zones/bhaflau_thickets/zone.yaml",
+    "53": "data/zones/nashmau/zone.yaml",
+    "54": "data/zones/arrapago_reef/zone.yaml",
+    "55": "data/zones/ilrusi_atoll/zone.yaml",
+    "56": "data/zones/periqia/zone.yaml",
+    "57": "data/zones/talacca_cove/zone.yaml",
+    "58": "data/zones/silver_sea_route_to_nashmau/zone.yaml",
+    "59": "data/zones/silver_sea_route_to_al_zahbi/zone.yaml",
+    "60": "data/zones/the_ashu_talif/zone.yaml",
+    "61": "data/zones/mount_zhayolm/zone.yaml",
+    "62": "data/zones/halvung/zone.yaml",
+    "63": "data/zones/lebros_cavern/zone.yaml",
+    "64": "data/zones/navukgo_execution_chamber/zone.yaml",
+    "65": "data/zones/mamook/zone.yaml",
+    "66": "data/zones/mamool_ja_training_grounds/zone.yaml",
+    "67": "data/zones/jade_sepulcher/zone.yaml",
+    "68": "data/zones/aydeewa_subterrane/zone.yaml",
+    "69": "data/zones/leujaoam_sanctum/zone.yaml",
+    "71": "data/zones/the_colosseum/zone.yaml",
+    "72": "data/zones/alzadaal_undersea_ruins/zone.yaml",
+    "73": "data/zones/zhayolm_remnants/zone.yaml",
+    "74": "data/zones/arrapago_remnants/zone.yaml",
+    "75": "data/zones/bhaflau_remnants/zone.yaml",
+    "76": "data/zones/silver_sea_remnants/zone.yaml",
+    "77": "data/zones/nyzul_isle/zone.yaml",
+    "78": "data/zones/hazhalm_testing_grounds/zone.yaml",
+    "79": "data/zones/caedarva_mire/zone.yaml",
+    "100": "data/zones/west_ronfaure/zone.yaml",
+    "101": "data/zones/east_ronfaure/zone.yaml",
+    "102": "data/zones/la_theine_plateau/zone.yaml",
+    "103": "data/zones/valkurm_dunes/zone.yaml",
+    "104": "data/zones/jugner_forest/zone.yaml",
+    "105": "data/zones/batallia_downs/zone.yaml",
+    "108": "data/zones/konschtat_highlands/zone.yaml",
+    "111": "data/zones/beaucedine_glacier/zone.yaml",
+    "139": "data/zones/horlais_peak/zone.yaml",
+    "140": "data/zones/ghelsba_outpost/zone.yaml",
+    "141": "data/zones/fort_ghelsba/zone.yaml",
+    "142": "data/zones/yughott_grotto/zone.yaml",
+    "149": "data/zones/davoi/zone.yaml",
+    "150": "data/zones/monastic_cavern/zone.yaml",
+    "166": "data/zones/ranguemont_pass/zone.yaml",
+    "167": "data/zones/bostaunieux_oubliette/zone.yaml",
+    "190": "data/zones/king_ranperres_tomb/zone.yaml",
+    "193": "data/zones/ordelles_caves/zone.yaml",
+    "195": "data/zones/the_eldieme_necropolis/zone.yaml",
+    "204": "data/zones/feiyin/zone.yaml",
+    "230": "data/zones/southern_san_doria/zone.yaml",
+    "231": "data/zones/northern_san_doria/zone.yaml",
+    "232": "data/zones/port_san_doria/zone.yaml",
+    "233": "data/zones/chateau_doraguille/zone.yaml",
+    "248": "data/zones/selbina/zone.yaml"
+  },
+  "wiki_ids": {
+    "46": [],
+    "47": [],
+    "48": [
+      "294"
+    ],
+    "50": [
+      "295"
+    ],
+    "51": [
+      "298"
+    ],
+    "52": [
+      "296",
+      "297"
+    ],
+    "53": [
+      "328"
+    ],
+    "54": [
+      "333",
+      "334",
+      "335",
+      "336",
+      "337",
+      "338",
+      "339",
+      "340",
+      "341",
+      "342",
+      "343"
+    ],
+    "55": [
+      "408",
+      "409",
+      "410",
+      "411",
+      "412",
+      "413",
+      "414",
+      "415",
+      "416",
+      "417"
+    ],
+    "56": [
+      "388",
+      "389",
+      "390",
+      "391",
+      "392",
+      "393",
+      "394",
+      "395",
+      "396",
+      "397"
+    ],
+    "57": [
+      "354"
+    ],
+    "58": [],
+    "59": [],
+    "60": [],
+    "61": [
+      "327"
+    ],
+    "62": [
+      "384",
+      "385",
+      "386",
+      "387"
+    ],
+    "63": [
+      "374",
+      "375",
+      "376",
+      "377",
+      "378",
+      "379",
+      "380",
+      "381",
+      "382",
+      "383"
+    ],
+    "64": [],
+    "65": [
+      "306",
+      "307",
+      "308"
+    ],
+    "66": [
+      "344",
+      "345",
+      "346",
+      "347",
+      "348",
+      "349",
+      "350",
+      "351",
+      "352",
+      "353"
+    ],
+    "67": [],
+    "68": [
+      "299",
+      "300",
+      "301",
+      "302",
+      "303",
+      "304",
+      "305"
+    ],
+    "69": [
+      "398",
+      "399",
+      "400",
+      "401",
+      "402",
+      "403",
+      "404",
+      "405",
+      "406",
+      "407"
+    ],
+    "71": [],
+    "72": [
+      "309",
+      "310",
+      "311",
+      "312",
+      "313",
+      "314",
+      "315",
+      "316",
+      "317",
+      "318"
+    ],
+    "73": [
+      "367",
+      "368",
+      "369",
+      "370",
+      "371",
+      "372",
+      "373"
+    ],
+    "74": [
+      "360",
+      "361",
+      "362",
+      "363",
+      "364",
+      "365",
+      "366"
+    ],
+    "75": [
+      "418",
+      "419",
+      "420",
+      "421",
+      "422"
+    ],
+    "76": [
+      "355",
+      "356",
+      "357",
+      "358",
+      "359"
+    ],
+    "77": [
+      "319",
+      "320",
+      "321",
+      "322",
+      "323",
+      "324",
+      "325",
+      "326"
+    ],
+    "78": [],
+    "79": [
+      "329",
+      "330",
+      "331",
+      "332"
+    ]
+  },
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/carpenters_landing/zone.yaml",
+      "path": "annotations/aht-urhgan/server/2.yaml",
+      "sha256": "976a0262f1b73b075cfc8dda9164a4bd042ef916bea7135f80359bd61a543238"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/open_sea_route_to_al_zahbi/zone.yaml",
+      "path": "annotations/aht-urhgan/server/46.yaml",
+      "sha256": "2f0246f3b8eeb7f2c4dd2f986ef37937bb145c9aa51c5c3d958b07911eaedffd"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/open_sea_route_to_mhaura/zone.yaml",
+      "path": "annotations/aht-urhgan/server/47.yaml",
+      "sha256": "2f0246f3b8eeb7f2c4dd2f986ef37937bb145c9aa51c5c3d958b07911eaedffd"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/al_zahbi/zone.yaml",
+      "path": "annotations/aht-urhgan/server/48.yaml",
+      "sha256": "5005d0fc354f13fbab20e121d8975822e964a3b6d53cec11a3b6f44b54cf1ffb"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/aht_urhgan_whitegate/zone.yaml",
+      "path": "annotations/aht-urhgan/server/50.yaml",
+      "sha256": "010e82d19177f6bf3111c8710cb7d43f436a916bb0a94303dd8335dee118323b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/wajaom_woodlands/zone.yaml",
+      "path": "annotations/aht-urhgan/server/51.yaml",
+      "sha256": "a4177f0ec17b5a7b5aa12ad9eaa51d32c0bfe325991d4aa68ffaf5235826b280"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/bhaflau_thickets/zone.yaml",
+      "path": "annotations/aht-urhgan/server/52.yaml",
+      "sha256": "a4c77b8cff1a72fd12a69f329c2c64afa288a20903a90bed1bae884a863ada5d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/nashmau/zone.yaml",
+      "path": "annotations/aht-urhgan/server/53.yaml",
+      "sha256": "7bc9a7220b0e5d67b8cb5be1035d14e74ce8bd19aaf67f1c6541ab781b4fd4b2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/arrapago_reef/zone.yaml",
+      "path": "annotations/aht-urhgan/server/54.yaml",
+      "sha256": "e417e4927f82dfe563333984ad21dc792544401779eb56a7e098ec6fd098dadd"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/ilrusi_atoll/zone.yaml",
+      "path": "annotations/aht-urhgan/server/55.yaml",
+      "sha256": "f63bf739d9b69899f2aef3f61ce5341e00198cfbbc2b88b4b1933749d7551c73"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/periqia/zone.yaml",
+      "path": "annotations/aht-urhgan/server/56.yaml",
+      "sha256": "f63bf739d9b69899f2aef3f61ce5341e00198cfbbc2b88b4b1933749d7551c73"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/talacca_cove/zone.yaml",
+      "path": "annotations/aht-urhgan/server/57.yaml",
+      "sha256": "7668e355dcf8a0673040381ac2a3df4e5089248c850848af2e478f38d0026267"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/silver_sea_route_to_nashmau/zone.yaml",
+      "path": "annotations/aht-urhgan/server/58.yaml",
+      "sha256": "2f0246f3b8eeb7f2c4dd2f986ef37937bb145c9aa51c5c3d958b07911eaedffd"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/silver_sea_route_to_al_zahbi/zone.yaml",
+      "path": "annotations/aht-urhgan/server/59.yaml",
+      "sha256": "2f0246f3b8eeb7f2c4dd2f986ef37937bb145c9aa51c5c3d958b07911eaedffd"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/the_ashu_talif/zone.yaml",
+      "path": "annotations/aht-urhgan/server/60.yaml",
+      "sha256": "62834bb2d9bd227780d5d327691fb10100c5d7e799370882640db656c8681b1b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/mount_zhayolm/zone.yaml",
+      "path": "annotations/aht-urhgan/server/61.yaml",
+      "sha256": "1fc4636e3c0279d0345d26287bea7828fe93c2023b0c55065f31f0f15ad86c26"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/halvung/zone.yaml",
+      "path": "annotations/aht-urhgan/server/62.yaml",
+      "sha256": "d87371f6837d4774c89fbb705a9023df7e969f583726517d54c75ece7f5774da"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/lebros_cavern/zone.yaml",
+      "path": "annotations/aht-urhgan/server/63.yaml",
+      "sha256": "f63bf739d9b69899f2aef3f61ce5341e00198cfbbc2b88b4b1933749d7551c73"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/navukgo_execution_chamber/zone.yaml",
+      "path": "annotations/aht-urhgan/server/64.yaml",
+      "sha256": "2d0ba447a421dee772d9d768010d976811b87e593e615c0d8da70a5b91be1845"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/mamook/zone.yaml",
+      "path": "annotations/aht-urhgan/server/65.yaml",
+      "sha256": "4467e91bc759bad3c6dc1a3aaa29ad52d54680c81fd677e5489491926809a4af"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/mamool_ja_training_grounds/zone.yaml",
+      "path": "annotations/aht-urhgan/server/66.yaml",
+      "sha256": "f63bf739d9b69899f2aef3f61ce5341e00198cfbbc2b88b4b1933749d7551c73"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/jade_sepulcher/zone.yaml",
+      "path": "annotations/aht-urhgan/server/67.yaml",
+      "sha256": "71e966582d093451541de7f790ec90bcd9b859b5eb1f6b085e97d59455fa64aa"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/aydeewa_subterrane/zone.yaml",
+      "path": "annotations/aht-urhgan/server/68.yaml",
+      "sha256": "9b60ffaeaf43a6364a8827efefede0a0a7377652b010720b34ac4a495585aa32"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/leujaoam_sanctum/zone.yaml",
+      "path": "annotations/aht-urhgan/server/69.yaml",
+      "sha256": "f63bf739d9b69899f2aef3f61ce5341e00198cfbbc2b88b4b1933749d7551c73"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/the_colosseum/zone.yaml",
+      "path": "annotations/aht-urhgan/server/71.yaml",
+      "sha256": "acd9fa63bce504853490bb5b30c3a93baaaffbf94c3ba6ec845c29458d4d05b7"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/alzadaal_undersea_ruins/zone.yaml",
+      "path": "annotations/aht-urhgan/server/72.yaml",
+      "sha256": "c6fa4e6b1da42c2b4b9ae15f687acae0666eb0a5f922ee301d4067b68b2a84e2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/zhayolm_remnants/zone.yaml",
+      "path": "annotations/aht-urhgan/server/73.yaml",
+      "sha256": "f58410a3832c92f7894d38cf0ab9cd6d7bdb7bcd53f77f274a64919ace8d2d6a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/arrapago_remnants/zone.yaml",
+      "path": "annotations/aht-urhgan/server/74.yaml",
+      "sha256": "f58410a3832c92f7894d38cf0ab9cd6d7bdb7bcd53f77f274a64919ace8d2d6a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/bhaflau_remnants/zone.yaml",
+      "path": "annotations/aht-urhgan/server/75.yaml",
+      "sha256": "f58410a3832c92f7894d38cf0ab9cd6d7bdb7bcd53f77f274a64919ace8d2d6a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/silver_sea_remnants/zone.yaml",
+      "path": "annotations/aht-urhgan/server/76.yaml",
+      "sha256": "f58410a3832c92f7894d38cf0ab9cd6d7bdb7bcd53f77f274a64919ace8d2d6a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/nyzul_isle/zone.yaml",
+      "path": "annotations/aht-urhgan/server/77.yaml",
+      "sha256": "af384a23663d2ab7fcb1d5a7af49f3462405afdb3e938db055ea9c120f02855a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/hazhalm_testing_grounds/zone.yaml",
+      "path": "annotations/aht-urhgan/server/78.yaml",
+      "sha256": "551932bfc5ddad246e481f94330c977c27e604ae6e3a995ddd755a2aa555b858"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/caedarva_mire/zone.yaml",
+      "path": "annotations/aht-urhgan/server/79.yaml",
+      "sha256": "1a84eb4bd73f2c6eb112754855e8c38a67b97ced2012ba6af58c80fa37363801"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/west_ronfaure/zone.yaml",
+      "path": "annotations/aht-urhgan/server/100.yaml",
+      "sha256": "728dbe3d2e29ee461aee5c3ddc59c14e598944a7b2b98ee4fb07c7b486c37d78"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/east_ronfaure/zone.yaml",
+      "path": "annotations/aht-urhgan/server/101.yaml",
+      "sha256": "b955c307e04487148d1531c2717b27fa51dca3d4245ad1f3615702e742a69005"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/la_theine_plateau/zone.yaml",
+      "path": "annotations/aht-urhgan/server/102.yaml",
+      "sha256": "d89753b7979e5098a34709927d5249da4f2841ca98577db2d93f81f09add2016"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/valkurm_dunes/zone.yaml",
+      "path": "annotations/aht-urhgan/server/103.yaml",
+      "sha256": "430f1befd661b2bb9dcdfa36e575cf9b99354d635f21d39f64b9b3ce6f7a81ab"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/jugner_forest/zone.yaml",
+      "path": "annotations/aht-urhgan/server/104.yaml",
+      "sha256": "6cf6aa7ec44994068097bcd53e0ddc49619f81308628e04aaac1a0bc7eb08666"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/batallia_downs/zone.yaml",
+      "path": "annotations/aht-urhgan/server/105.yaml",
+      "sha256": "dc11ab35a184ecda72716f690947f47aa6cc5c1bf293140c0b5f3e624b8d4559"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/konschtat_highlands/zone.yaml",
+      "path": "annotations/aht-urhgan/server/108.yaml",
+      "sha256": "1d399c1ab68eec915cbb204fdfbbc603dfd0550bb86b8c351c3d213961a715f2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/beaucedine_glacier/zone.yaml",
+      "path": "annotations/aht-urhgan/server/111.yaml",
+      "sha256": "daa958f30ef8b0d7f5096d29313349b070df90c36140db8c7017f254af6c859c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/horlais_peak/zone.yaml",
+      "path": "annotations/aht-urhgan/server/139.yaml",
+      "sha256": "89f4de40f78d5a8b02f50f220f3a6603dafcaa4685c4c2b4e76702a88a94529c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/ghelsba_outpost/zone.yaml",
+      "path": "annotations/aht-urhgan/server/140.yaml",
+      "sha256": "107a837ad73ca633e51d2e5296c67b065903c99527b4a139364e3a2958f36baf"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/fort_ghelsba/zone.yaml",
+      "path": "annotations/aht-urhgan/server/141.yaml",
+      "sha256": "b6f83d2cb9926abaa1b7cf2279f097510594c560040751318a4b88f55bb15d46"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/yughott_grotto/zone.yaml",
+      "path": "annotations/aht-urhgan/server/142.yaml",
+      "sha256": "23302bc474e985cca611f775c7202935a3b2504b866098935a3e0554cc6bd1f6"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/davoi/zone.yaml",
+      "path": "annotations/aht-urhgan/server/149.yaml",
+      "sha256": "efb156e18e0cafb8e1489338cdbf135fb8f5aca57da504fa3e66abea40733ed9"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/monastic_cavern/zone.yaml",
+      "path": "annotations/aht-urhgan/server/150.yaml",
+      "sha256": "06c0d196639268648a574963cbf3ead7632dc28af5437b7b8044f174498c3094"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/ranguemont_pass/zone.yaml",
+      "path": "annotations/aht-urhgan/server/166.yaml",
+      "sha256": "2ac6823dc91ee37a257604d14e8137c80f027aeb12ac69d690eb53db951de19e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/bostaunieux_oubliette/zone.yaml",
+      "path": "annotations/aht-urhgan/server/167.yaml",
+      "sha256": "88f5fe681d602710c40b249f8f23a3401c9f5611f3a49c70e22d9ef1aee13e2a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/king_ranperres_tomb/zone.yaml",
+      "path": "annotations/aht-urhgan/server/190.yaml",
+      "sha256": "2c2b70f32b0c4ee6c1f2edb58ce3d7823516c81c2bb03766d47da91c01be32f1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/ordelles_caves/zone.yaml",
+      "path": "annotations/aht-urhgan/server/193.yaml",
+      "sha256": "7dc4ee15d08f571cdc510abd78409c39df736578c9f58b371c1a4f1ee227375f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/the_eldieme_necropolis/zone.yaml",
+      "path": "annotations/aht-urhgan/server/195.yaml",
+      "sha256": "b52901d185b4edbb7e127b84cbb4b2a8c80e41eaa562182b46d7ea9d2a3babab"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/feiyin/zone.yaml",
+      "path": "annotations/aht-urhgan/server/204.yaml",
+      "sha256": "072cb4c6a5a53d07487a32f8a942f85a05ace4d9392f2b288ebd716345e5de01"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/southern_san_doria/zone.yaml",
+      "path": "annotations/aht-urhgan/server/230.yaml",
+      "sha256": "5fda75e3789ef0f55367949bc0542753d2c38e0888bbfc36efd92a369399e5b8"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/northern_san_doria/zone.yaml",
+      "path": "annotations/aht-urhgan/server/231.yaml",
+      "sha256": "81f71935980f392405ec714a2d1c572225d67c0d90c3073c9598d86f6d5b12e0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/port_san_doria/zone.yaml",
+      "path": "annotations/aht-urhgan/server/232.yaml",
+      "sha256": "93b52b05a2e6dc198f21e0e65fab30dc2455c9f7312669908f95d3bf2a34e8a0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/chateau_doraguille/zone.yaml",
+      "path": "annotations/aht-urhgan/server/233.yaml",
+      "sha256": "898536597619042d88d86e3a6a165f93483b48fd1bfd955a528512075eaca4b5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LandSandBoat/server/1450874235d41341a2ced74c1dbbe9e4477611d2/data/zones/selbina/zone.yaml",
+      "path": "annotations/aht-urhgan/server/248.yaml",
+      "sha256": "37bbebe913bfbc5898a6cf18fa74253984f478cdbd62462cf6979edd9d2d30d5"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/al_zahbi.png",
+      "path": "annotations/aht-urhgan/wiki-images/294-al_zahbi.png",
+      "sha256": "8d6bbd931ace805011e5e8d390b66da4908426b1e2c14aea281ab807a3359026"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/aht_urhgan_whitegate.png",
+      "path": "annotations/aht-urhgan/wiki-images/295-aht_urhgan_whitegate.png",
+      "sha256": "a1919c697f44fb01973454332bb3a0ccbec83628da62ad57091b1c2fee897d26"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/wajaom_woodlands.png",
+      "path": "annotations/aht-urhgan/wiki-images/298-wajaom_woodlands.png",
+      "sha256": "2d5333ec400e2e12621ae1c3caf576180b0838a40401bda33f76791ac4bd5ae7"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/bhaflau_thickets_1.png",
+      "path": "annotations/aht-urhgan/wiki-images/296-bhaflau_thickets_1.png",
+      "sha256": "d0ca66cd0bcb514f9c895e80b6c55a9633b2ab72fa0a1fed1ef719484d216906"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/bhaflau_thickets_2.png",
+      "path": "annotations/aht-urhgan/wiki-images/297-bhaflau_thickets_2.png",
+      "sha256": "247b08bb4f45b9cc9897fe795bd70a2fe8f2bebb0f83ed51af201957d6232d31"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/nashmau.png",
+      "path": "annotations/aht-urhgan/wiki-images/328-nashmau.png",
+      "sha256": "b8ea5e288d3664ab239f3d7ff5a50be025c62bd8d33f7e6492e19ae55dd03ca5"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/arrapago_reef_1.png",
+      "path": "annotations/aht-urhgan/wiki-images/333-arrapago_reef_1.png",
+      "sha256": "18f0ab825c07ed9eb0821ed50ac0de3a2f1c5b0e936d2a619d3de35b3409053d"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/arrapago_reef_2.png",
+      "path": "annotations/aht-urhgan/wiki-images/334-arrapago_reef_2.png",
+      "sha256": "31fb6906f605ca2ddda97e287db7e98219dde65a3f0597da1f25bfdd50c29847"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/arrapago_reef_3.png",
+      "path": "annotations/aht-urhgan/wiki-images/335-arrapago_reef_3.png",
+      "sha256": "e14a97ea9b28536ae1989108488347084308dc774a34545145de2999e7fbaff9"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/arrapago_reef_4.png",
+      "path": "annotations/aht-urhgan/wiki-images/336-arrapago_reef_4.png",
+      "sha256": "aa779d69d0aaa6cab02e621b4ab3c2c62a944952c444312c9ccd0c835c91c3a8"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/arrapago_reef_5.png",
+      "path": "annotations/aht-urhgan/wiki-images/337-arrapago_reef_5.png",
+      "sha256": "a58b03651174e2b0fa37c137f45e22683060f7c2c278acba8f9506f0a8c16db5"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/arrapago_reef_5.png",
+      "path": "annotations/aht-urhgan/wiki-images/338-arrapago_reef_5.png",
+      "sha256": "a58b03651174e2b0fa37c137f45e22683060f7c2c278acba8f9506f0a8c16db5"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/arrapago_reef_7.png",
+      "path": "annotations/aht-urhgan/wiki-images/339-arrapago_reef_7.png",
+      "sha256": "919ce8b2801e095383a7ed7a3f65a3d5f68163e18a190d84b9f9f222f365862d"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/arrapago_reef_8.png",
+      "path": "annotations/aht-urhgan/wiki-images/340-arrapago_reef_8.png",
+      "sha256": "e9e6703f5873311c520c4d864268353177471877614ab729f460f77cb4f3d553"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/arrapago_reef_9.png",
+      "path": "annotations/aht-urhgan/wiki-images/341-arrapago_reef_9.png",
+      "sha256": "8f5b43c9d148e82ad686cdbec2964195ca7492029644b3b86db8a33470a835e8"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/arrapago_reef_10.png",
+      "path": "annotations/aht-urhgan/wiki-images/342-arrapago_reef_10.png",
+      "sha256": "12e6bc089f179f65099b4b5d0b2e86ed035a8efee7044840e115f2f1c2a71831"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/arrapago_reef_11.png",
+      "path": "annotations/aht-urhgan/wiki-images/343-arrapago_reef_11.png",
+      "sha256": "d3450c3cc06d9aef476001797c691cb816091a543449b3803410ca8cbbc79c15"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ilrusi-atoll_1.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/408-ilrusi-atoll_1.jpg",
+      "sha256": "26572775018dce8b1eabaae6147c371e6ea24badce4cbd31d40b07bb74bc336b"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ilrusi-atoll_2.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/409-ilrusi-atoll_2.jpg",
+      "sha256": "b5939a0d512bfe50bcfa52a73a54faeb69acf55597704660eac5872d3da0fb3c"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ilrusi-atoll_3.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/410-ilrusi-atoll_3.jpg",
+      "sha256": "108e2b263a563af77ede9f309f08557e5ef9d09e6467e7872c6f00829d702338"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ilrusi-atoll_4.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/411-ilrusi-atoll_4.jpg",
+      "sha256": "f767f53a8dc3172db0daee700263d0876e80e76a0bd2ac0ebab82199a91fd45a"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ilrusi-atoll_5.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/412-ilrusi-atoll_5.jpg",
+      "sha256": "e76145c1465a4136bd867a2524541c2d43efddd49958ed4d3e6887f19de7bed5"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ilrusi-atoll_6.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/413-ilrusi-atoll_6.jpg",
+      "sha256": "2d0bbfdd42ba5ccd46bc7ecdd68c0ec7ce81984c59f18687e9926bf9f26c1bf8"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ilrusi-atoll_7.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/414-ilrusi-atoll_7.jpg",
+      "sha256": "30987c31a357e23d523c2a5a78e0bb6ae2f893afcbeab137d2d3fa9e338556da"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ilrusi-atoll_8.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/415-ilrusi-atoll_8.jpg",
+      "sha256": "fa5073b1bb029e15e259aad2517f3506205d205c356d67f216a0bf8b362bb321"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ilrusi-atoll_9.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/416-ilrusi-atoll_9.jpg",
+      "sha256": "a8b6950903eac77981dea632714d71264ad6f9f6b8d3ba95dd4d348becff9c10"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/ilrusi-atoll_10.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/417-ilrusi-atoll_10.jpg",
+      "sha256": "d953bbb2f1a4c65f39248a249080587075da2176781f0651cdcd204227af796a"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/periqia_1.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/388-periqia_1.jpg",
+      "sha256": "26e67d5bd72d42a03cbd335d62dafddde5308b18de6a9b2bc5ff5e49aa131f00"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/periqia_2.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/389-periqia_2.jpg",
+      "sha256": "5165542840f9b9a8d8d069a353b7f0e3df59f4d5f10d545322223e149b0bfae2"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/periqia_3.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/390-periqia_3.jpg",
+      "sha256": "e3cb5450f95be1992a3399d87ea67819dbe33658bf374bd04e994b7fdf6ffbf3"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/periqia_4.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/391-periqia_4.jpg",
+      "sha256": "86632b38910afe04ed9d238fa7c8d9001c3f79241a70a9ab44bddfc91055e3b7"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/periqia_5.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/392-periqia_5.jpg",
+      "sha256": "5ac9491922d1393c51e70a1d82c274bbbe28f67893834dfdcd661f2cce19af97"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/periqia_6.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/393-periqia_6.jpg",
+      "sha256": "e3bf01b152c9382cee4bf5c3ad157dbb451769be4da22fb1c7923e7b978dff2a"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/periqia_7.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/394-periqia_7.jpg",
+      "sha256": "90a22e00d51024ee5f457a0bfe06b6864a50f4fbf2d76aeff6477b9aaf120a6d"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/periqia_8.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/395-periqia_8.jpg",
+      "sha256": "8b9cb17609ac8570ff042f1223bb26ca6404bb05c3a65d5e41467e58567aa279"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/periqia_9.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/396-periqia_9.jpg",
+      "sha256": "f11b42b56f90c9c7121441031bf2204aa102fc41a15f4314d9ae6692a279cc37"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/periqia_10.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/397-periqia_10.jpg",
+      "sha256": "b0483480547c4176755ecfec13825a20843a36651c748748b977d1b75f67feb1"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/talacca_cove.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/354-talacca_cove.jpg",
+      "sha256": "51fc385af00894b40de839c7e29235a48dee260ded2ae3c57b6eb2f33f8ce5e0"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/mount_zhayolm.png",
+      "path": "annotations/aht-urhgan/wiki-images/327-mount_zhayolm.png",
+      "sha256": "37ff4d61c9b4d7118ce4a1f56379050385ed3e90674491d416c3dd6f23d55713"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/halvung_1.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/384-halvung_1.jpg",
+      "sha256": "1816ba26e5fc593e453abb13ebd831362f8f7b6ab53b80388d70326324162b4e"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/halvung_2.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/385-halvung_2.jpg",
+      "sha256": "9823469d9abdec4188087c312dd800c4e09d2357af98cd2cdf5c529bfce09c25"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/halvung_3.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/386-halvung_3.jpg",
+      "sha256": "f30aa999022ebf5477e4baee75529405da902c9710940b425508a19d08ccc7fb"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/halvung_4.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/387-halvung_4.jpg",
+      "sha256": "ed44d99a6f26b9840ffaf5b653f8a1177065446f7a97e1be6f9075e5b3cf5b23"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/lebros-cavern_1.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/374-lebros-cavern_1.jpg",
+      "sha256": "a4693a681efe0b0a1884d00801fb358bca08bc6f428090c642b73258934a1d96"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/lebros-cavern_2.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/375-lebros-cavern_2.jpg",
+      "sha256": "189b39b977cda278c3cf2a1629bd5436365c456ae8542e03ac30e3280f51922b"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/lebros-cavern_3.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/376-lebros-cavern_3.jpg",
+      "sha256": "29c08ec39bd661e5ca28dfb76ad5c293a013f9848ab70224703d22ec6c319dc8"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/lebros-cavern_4.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/377-lebros-cavern_4.jpg",
+      "sha256": "8aa8a7f119cdf801085c55d492772c01b97a486b5b27a245cc89696af88b0bd3"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/lebros-cavern_5.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/378-lebros-cavern_5.jpg",
+      "sha256": "a9be84321af0ba6d327b24b90ff9cf57c594396304bad3587335c6fb8f09fc68"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/lebros-cavern_6.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/379-lebros-cavern_6.jpg",
+      "sha256": "c3d58a652937b08c72c6375ee24de0960daa2347d0f86bffd59ce17511676a36"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/lebros-cavern_7.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/380-lebros-cavern_7.jpg",
+      "sha256": "662bc82010c8c441ba9aa5acbaaf3a91dab674b629259e6a72e8726ea9dfaaca"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/lebros-cavern_8.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/381-lebros-cavern_8.jpg",
+      "sha256": "3c58ec0bc081629bc65426ae6c9d3cf5e94aa377717c68b8a27daf332dd6c7a2"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/lebros-cavern_9.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/382-lebros-cavern_9.jpg",
+      "sha256": "480570236a624f66bb82777dd1f382ee27f43b365a51301adc71c4c5f1d2bb9b"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/lebros-cavern_10.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/383-lebros-cavern_10.jpg",
+      "sha256": "e7598ce012d68936c32be685a45ec639b7b89fec4b44106b50c3789038467bde"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/mamook_1.png",
+      "path": "annotations/aht-urhgan/wiki-images/306-mamook_1.png",
+      "sha256": "707f09cae4ab84dc65f0b260a6d2f6a3de5e0923a1e40b305281389908140e37"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/mamook_2.png",
+      "path": "annotations/aht-urhgan/wiki-images/307-mamook_2.png",
+      "sha256": "e184f5da5cb549b2ed81bcce7001e297d22a92c6868d6b1a5f073bcef75ea36e"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/mamook_3.png",
+      "path": "annotations/aht-urhgan/wiki-images/308-mamook_3.png",
+      "sha256": "dc55590496e7ad3528782d97d8a3035d2a16541dfe22969a0f8e02395f89032f"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/mamool-ja-training-grounds_1.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/344-mamool-ja-training-grounds_1.jpg",
+      "sha256": "e9da509aba074294b72e676292f0577d525c0b979efca44c6963a6b78971d67f"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/mamool-ja-training-grounds_2.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/345-mamool-ja-training-grounds_2.jpg",
+      "sha256": "001f10dbab173d403d6eb000bd9d24de45e674b6ccd2712b05616ac95fe2392f"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/mamool-ja-training-grounds_3.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/346-mamool-ja-training-grounds_3.jpg",
+      "sha256": "27c87b1ce7dbdf9fb98497d4589ba3f4aafc0f0af875f4d3c7ecd341624b56d0"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/mamool-ja-training-grounds_4.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/347-mamool-ja-training-grounds_4.jpg",
+      "sha256": "18a7fb2a1212f81bd299ac0f25250cb9aeca5171d35b1daccbb3034ba7549925"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/mamool-ja-training-grounds_5.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/348-mamool-ja-training-grounds_5.jpg",
+      "sha256": "8e02c79dbb39c1443b9c87d403dd87883e8a0758c937dc63f0111c81841417b6"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/mamool-ja-training-grounds_6.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/349-mamool-ja-training-grounds_6.jpg",
+      "sha256": "270ab462b3b92627360fe3f440ab095e546c8d7a30a4d3f3007de44e7e7fff95"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/mamool-ja-training-grounds_7.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/350-mamool-ja-training-grounds_7.jpg",
+      "sha256": "7762ec222aef265dd369a6c7c7c87a627538d03c34dc2bd9dd62577564ba56b5"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/mamool-ja-training-grounds_8.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/351-mamool-ja-training-grounds_8.jpg",
+      "sha256": "2ceb3d8624d67ec0148a5b49d28845778b0aa6ffc34a2cb0efc8c3726f041842"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/mamool-ja-training-grounds_9.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/352-mamool-ja-training-grounds_9.jpg",
+      "sha256": "78784728c6d372021479553a7bd567d87b8faa6578b7c643372efc0c628edb54"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/mamool-ja-training-grounds_10.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/353-mamool-ja-training-grounds_10.jpg",
+      "sha256": "ca40e34083e5a312fb439e07777b9e64876ed3f2acf71607eb1979443063ec7b"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/aydeewa_subterrane_1.png",
+      "path": "annotations/aht-urhgan/wiki-images/299-aydeewa_subterrane_1.png",
+      "sha256": "534e32b5746ebc243332a6512451cf62dd678e99ec5f87f9724bbbca1894933e"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/aydeewa_subterrane_2.png",
+      "path": "annotations/aht-urhgan/wiki-images/300-aydeewa_subterrane_2.png",
+      "sha256": "6c0642b3616cf75096652e1221e5c3dae496822f7a47bd9e70cd6243d75efc12"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/aydeewa_subterrane_3.png",
+      "path": "annotations/aht-urhgan/wiki-images/301-aydeewa_subterrane_3.png",
+      "sha256": "39779b660189102505e70991f15ebc333a7142040724265dd534ea09710cae2b"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/aydeewa_subterrane_4.png",
+      "path": "annotations/aht-urhgan/wiki-images/302-aydeewa_subterrane_4.png",
+      "sha256": "54f7bb7ca8ab41a6508ebc9adaa288858734333bdf40f20bbf29a07e49a492fa"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/aydeewa_subterrane_5.png",
+      "path": "annotations/aht-urhgan/wiki-images/303-aydeewa_subterrane_5.png",
+      "sha256": "3f8160cdb41047cdf577c0d2f19c59333024ef9b529010cba0e1884b421d26e8"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/aydeewa_subterrane_6.png",
+      "path": "annotations/aht-urhgan/wiki-images/304-aydeewa_subterrane_6.png",
+      "sha256": "63529ab066053b5cf141cbbd8323fea9eb109c97a53221b287b71bae3a91a640"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/aydeewa_subterrane_7.png",
+      "path": "annotations/aht-urhgan/wiki-images/305-aydeewa_subterrane_7.png",
+      "sha256": "f62a16fb83f723eb531067925d9bf026618a477b2ff07f1bb19da0b2b663f7cb"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/leujaoam-sanctum_1.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/398-leujaoam-sanctum_1.jpg",
+      "sha256": "9423455fbc9275d29063c366bff2ea57721a252974909f810b4263ae56fe1ed3"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/leujaoam-sanctum_2.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/399-leujaoam-sanctum_2.jpg",
+      "sha256": "77223544750cce4e169bd4ce25957ca617df259969a6e07f38a75d7a0548adbc"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/leujaoam-sanctum_3.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/400-leujaoam-sanctum_3.jpg",
+      "sha256": "b7e34b4b3e81edaad8a4120ec54bbd74da40b66c62f3ce92b0a310022791a706"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/leujaoam-sanctum_4.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/401-leujaoam-sanctum_4.jpg",
+      "sha256": "e5cd9a177d00e8a1e6ef4bdfb07c5fe2f53db23ec212847f43452f5eb4d84778"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/leujaoam-sanctum_5.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/402-leujaoam-sanctum_5.jpg",
+      "sha256": "e66a8b1b94d99512a6d000ca8d85a56cf01299b721b4f75e0f3025606be90f66"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/leujaoam-sanctum_6.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/403-leujaoam-sanctum_6.jpg",
+      "sha256": "188aada39ec95e4347219878366cf8b25e78ab13fbcf46a4caccca191394e641"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/leujaoam-sanctum_7.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/404-leujaoam-sanctum_7.jpg",
+      "sha256": "604fa91f736a3166d9bcfd2b54dfded105bdbc769244e6e299bae838644695f9"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/leujaoam-sanctum_8.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/405-leujaoam-sanctum_8.jpg",
+      "sha256": "220e8d3e29057d5de529d4ba16620fe3b0301762fc8c039888ce414429d9f480"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/leujaoam-sanctum_9.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/406-leujaoam-sanctum_9.jpg",
+      "sha256": "f41041bbf249c5ee901ae783674e9dba91b7bbeffcee6f6219dc15de0703c2a1"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/leujaoam-sanctum_10.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/407-leujaoam-sanctum_10.jpg",
+      "sha256": "5e8804d14ae8d6deeb8197c4168b97f9ca19294dd31a1742b50235eaeba00ff6"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/alzadaal_undersea_ruins_1.png",
+      "path": "annotations/aht-urhgan/wiki-images/309-alzadaal_undersea_ruins_1.png",
+      "sha256": "b80e74c5b83391edb2f3c16a898ce66743760c034674896cba05b6846088c9f3"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/alzadaal_undersea_ruins_2.png",
+      "path": "annotations/aht-urhgan/wiki-images/310-alzadaal_undersea_ruins_2.png",
+      "sha256": "d11ea96a4c032425ae6efc960e391508625d48d8181ff99f869077909d651a31"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/alzadaal_undersea_ruins_3.png",
+      "path": "annotations/aht-urhgan/wiki-images/311-alzadaal_undersea_ruins_3.png",
+      "sha256": "4656b7bf8c03d9f0428bf08706fee3b933dae40ab69b07c24e4452aee103a9b5"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/alzadaal_undersea_ruins_4.png",
+      "path": "annotations/aht-urhgan/wiki-images/312-alzadaal_undersea_ruins_4.png",
+      "sha256": "5c7cb14eab558293502540112e0ffcbc260ef975dc746c551e49a3432691a8f5"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/alzadaal_undersea_ruins_5.png",
+      "path": "annotations/aht-urhgan/wiki-images/313-alzadaal_undersea_ruins_5.png",
+      "sha256": "0ee574f6ae9e4255d6651aa76a5ab036f40a0ccc1c398431b26a6272380ff14f"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/alzadaal_undersea_ruins_6.png",
+      "path": "annotations/aht-urhgan/wiki-images/314-alzadaal_undersea_ruins_6.png",
+      "sha256": "9d844cfab89b9de836477dbd3c8a2b1b34ba72e711c482a2eff0ed646814ef82"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/alzadaal_undersea_ruins_7.png",
+      "path": "annotations/aht-urhgan/wiki-images/315-alzadaal_undersea_ruins_7.png",
+      "sha256": "6c56a0bb83850da419c3c63d716de9d4b14ef119362dde09223e663b7973550d"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/alzadaal_undersea_ruins_8.png",
+      "path": "annotations/aht-urhgan/wiki-images/316-alzadaal_undersea_ruins_8.png",
+      "sha256": "e0f92a5f2cf9746712b5f98a788fd4f1aef40b1e344234c934fa7a273c29e34a"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/alzadaal_undersea_ruins_9.png",
+      "path": "annotations/aht-urhgan/wiki-images/317-alzadaal_undersea_ruins_9.png",
+      "sha256": "29c32c9c385d8ee5d40a78eee65fcb542e0938876b3529908e98181503a48be6"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/alzadaal_undersea_ruins_10.png",
+      "path": "annotations/aht-urhgan/wiki-images/318-alzadaal_undersea_ruins_10.png",
+      "sha256": "13e896f3f2e24c080b77ec32113ffd9772d430b044518ff63b8cc2792767d692"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/zhayolm-remnants_1.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/367-zhayolm-remnants_1.jpg",
+      "sha256": "3e33e80bb441375ceaa2ed150e44450ab9a6e37b43f6109a908acc9a70181b0e"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/zhayolm-remnants_2.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/368-zhayolm-remnants_2.jpg",
+      "sha256": "84ce22d45879cbda4ea9243f273351c2844e61cc58f67f5014a28a8d94a41b55"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/zhayolm-remnants_3.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/369-zhayolm-remnants_3.jpg",
+      "sha256": "240e6a8eeaee67e98936e3a566ec3a41b434a6863af2ad1ddeee6f2c661e20d1"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/zhayolm-remnants_4.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/370-zhayolm-remnants_4.jpg",
+      "sha256": "8133217080f3aada0784de6dc3757f1b8f5cb35212fcc557cee1d215b8baa624"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/zhayolm-remnants_5.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/371-zhayolm-remnants_5.jpg",
+      "sha256": "4abaa387f9e7e8a24c155b3c087b8ac8bfb706a2c928e3b25a1334b856890846"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/zhayolm-remnants_6.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/372-zhayolm-remnants_6.jpg",
+      "sha256": "1fb9bbb57fb2729e69e23719562f1a6482dbf831748cddbcb6a596354b2f00b8"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/zhayolm-remnants_7.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/373-zhayolm-remnants_7.jpg",
+      "sha256": "ad278281de257ec6f9ea1978d8aa3afbb5ac2cd2a3159a6057e077a0bdab4320"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/arrapago-remnants_1.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/360-arrapago-remnants_1.jpg",
+      "sha256": "9e322dcbcfcbbe7560961b6a9ed518ae2b121a112f580a2330cca21eb74bdffd"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/arrapago-remnants_2.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/361-arrapago-remnants_2.jpg",
+      "sha256": "ec21d9f9f752c8996e8565df47e718c72791b0d1ff8964ca52c515eb25a94f14"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/arrapago-remnants_3.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/362-arrapago-remnants_3.jpg",
+      "sha256": "00e8ee1a75b24cee10e08faa9f80a80de47b4a0a5b2907ed53fe8017d5c9f700"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/arrapago-remnants_4.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/363-arrapago-remnants_4.jpg",
+      "sha256": "9eab1831a0e2453e017d7a39445b79c35619a807b41a71920c613242b0282a63"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/arrapago-remnants_5.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/364-arrapago-remnants_5.jpg",
+      "sha256": "dccfb654cc9ef6897d2d24e5f544e864cd0afe4581ce81dbddad52ccbf12fadf"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/arrapago-remnants_6.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/365-arrapago-remnants_6.jpg",
+      "sha256": "6ff4e01f1124aa6a04edcca1af9a0bb981974dcd9b4c9a60557e94f7daa50d9c"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/arrapago-remnants_7.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/366-arrapago-remnants_7.jpg",
+      "sha256": "98038ae835bba2466a4c8cc265b703d605f0a7129bf0044e8fa64700d4421714"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/bhaflau_remnants_1.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/418-bhaflau_remnants_1.jpg",
+      "sha256": "5bf48470c24a0ae230bd2e586623dc20135bea2fc281842d6f847fe0fb43fdc2"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/bhaflau_remnants_2.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/419-bhaflau_remnants_2.jpg",
+      "sha256": "5f9ebb442ed7a21c5364c694aaf933e031d54efadea1cdd160c1747ed57e72f3"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/bhaflau_remnants_3.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/420-bhaflau_remnants_3.jpg",
+      "sha256": "fe663d2dd7e237b5087cce5e18933e8578fe1a3f84a4f2517daeb96e726c7d22"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/bhaflau_remnants_4.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/421-bhaflau_remnants_4.jpg",
+      "sha256": "1dc9b9eb6822812fda5a568e2041ef0788ec1c27047eaff229ed4a3bb3d85a13"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/bhaflau_remnants_5.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/422-bhaflau_remnants_5.jpg",
+      "sha256": "265a1ee61ef167963b0a3a2fa21598ae1ce25adced1b0faaa3758be115b24ad9"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/silver-sea-remnants_1.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/355-silver-sea-remnants_1.jpg",
+      "sha256": "f7f79d41bcec8862f5f78ca0efbda36204bd70e903de89087fe59a5a49d07708"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/silver-sea-remnants_2.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/356-silver-sea-remnants_2.jpg",
+      "sha256": "af19ade15e0bb9c75e0d619393eff940825ec2dd418d67e17384c9e18a39d647"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/silver-sea-remnants_3.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/357-silver-sea-remnants_3.jpg",
+      "sha256": "0adf31fe800896ca1548035702f9358a000280213f28fba1e0160a57508d8de1"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/silver-sea-remnants_4.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/358-silver-sea-remnants_4.jpg",
+      "sha256": "ef7438e956e5a36eb3fa6363d229f60b2d343624fc2d5c11569d86cde83658a5"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/silver-sea-remnants_5.jpg",
+      "path": "annotations/aht-urhgan/wiki-images/359-silver-sea-remnants_5.jpg",
+      "sha256": "3e87a0e4c4e6be1adc2dc4f93685769758d9b8ed110343b751f89ace36c72564"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/nyzul_isle_1.png",
+      "path": "annotations/aht-urhgan/wiki-images/319-nyzul_isle_1.png",
+      "sha256": "d5a02e73dbabee111aa7c9953572f72d9053e4abf316f33f722cd78bd7d24061"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/nyzul_isle_2.png",
+      "path": "annotations/aht-urhgan/wiki-images/320-nyzul_isle_2.png",
+      "sha256": "65037de4343852399b01aa07068672372fb1cff835a2b96963b69a18558ccf7d"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/nyzul_isle_3.png",
+      "path": "annotations/aht-urhgan/wiki-images/321-nyzul_isle_3.png",
+      "sha256": "ebaf26b05473fbfa9b0ff35fd7c4cac37b77e1eb7f5bdd7bc74e94b5bb37d0e9"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/nyzul_isle_4.png",
+      "path": "annotations/aht-urhgan/wiki-images/322-nyzul_isle_4.png",
+      "sha256": "6b302e46cdbe23f3ede25fd38ffa73b428f3ef53d18ab0fa5a5d51180f41ec68"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/nyzul_isle_5.png",
+      "path": "annotations/aht-urhgan/wiki-images/323-nyzul_isle_5.png",
+      "sha256": "861726978a1e29c0e31297f3c4c762251e09a7f84f7409f0052621e8eb53d686"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/nyzul_isle_6.png",
+      "path": "annotations/aht-urhgan/wiki-images/324-nyzul_isle_6.png",
+      "sha256": "b81ebaf6f5c8d48576282705eb8a32199a3fdc55e2bd6f593bfd15efaf3faa5a"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/nyzul_isle_7.png",
+      "path": "annotations/aht-urhgan/wiki-images/325-nyzul_isle_7.png",
+      "sha256": "62c89acd47c9002e2b4c180a4adfb5faf1821a60c293e3601f2e168ecd08b686"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/nyzul_isle_8.png",
+      "path": "annotations/aht-urhgan/wiki-images/326-nyzul_isle_8.png",
+      "sha256": "141a7a92e5b37592a9b260c4d8f1866e4cda0b1f184116c635c72ef0eb6e8a47"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/caedarva_mire_1.png",
+      "path": "annotations/aht-urhgan/wiki-images/329-caedarva_mire_1.png",
+      "sha256": "0cb5bf6b7ed2b9d6f71312e515e00a65572981f722a9844fe2ac61d730560671"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/caedarva_mire_2.png",
+      "path": "annotations/aht-urhgan/wiki-images/330-caedarva_mire_2.png",
+      "sha256": "fc068241b0e160656353143adf58de6ce1e242af6864e45cd67915911aa3addb"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/caedarva_mire_3.png",
+      "path": "annotations/aht-urhgan/wiki-images/331-caedarva_mire_3.png",
+      "sha256": "4351b3d4204c425d210e97463458e5db0154828b3d9f7478f804d00bc243e7b6"
+    },
+    {
+      "url": "https://horizonffxi.wiki/w/extensions/FFXIMap/maps/zones/caedarva_mire_4.png",
+      "path": "annotations/aht-urhgan/wiki-images/332-caedarva_mire_4.png",
+      "sha256": "a8cf219623991d6ca4e39abba9da8267007483070cebfc1c79f5b3c1736f7f8e"
+    }
+  ],
+  "regions": {
+    "western_aradjiah": [
+      46,
+      47,
+      58,
+      59
+    ],
+    "west_aht_urhgan": [
+      48,
+      50,
+      52,
+      71
+    ],
+    "mamool_ja_savagelands": [
+      51,
+      65,
+      66,
+      67,
+      68,
+      69
+    ],
+    "halvung_territory": [
+      61,
+      62,
+      63,
+      64
+    ],
+    "arrapago_islands": [
+      53,
+      54,
+      55,
+      56,
+      57,
+      60,
+      78,
+      79
+    ],
+    "ruins_of_alzadaal": [
+      72,
+      73,
+      74,
+      75,
+      76,
+      77
+    ]
+  }
+}

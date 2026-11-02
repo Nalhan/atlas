@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "nodes": [
+    {
+      "id": "zone-4-purgonorgo",
+      "title": "Purgonorgo Isle",
+      "bounds": [6740, 5278, 6960, 5330],
+      "maps": ["bibiki_bay_f2"],
+      "supplementary": false,
+      "split_from": "zone-4",
+      "source": "https://horizonffxi.wiki/Bibiki_Bay_-_Purgonorgo_Isle",
+      "evidence": "Printed banner measured on the native connected-world artwork. Map 2 is the island, within native zone 4."
+    }
+  ]
+}

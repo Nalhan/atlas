@@ -6,9 +6,16 @@ local H=require('src.hotspots')
 local editor=require('src.exit_editor')
 local World=require('src.world')
 local POI=require('src.pois')
-local U={state=N.new(),visible={true},pending_locate=true,party={true},alliance={true},names={false},search={''}}
+local PE=require('src.poi_editor')
+local PoiEdits=require('src.poi_edits')
+local Selectors=require('src.world_selectors')
+local SE=require('src.world_selector_editor')
+local Labels=require('src.map_labels')
+local Conquest=require('src.conquest')
+local U={state=N.new(),visible={false},pending_locate=true,party={true},alliance={true},names={false},search={''}}
 U.areas=H.new();U.editor=editor
-U.poi_filters=POI.filters()
+U.poi_filters=POI.filters();U.poi_editor=PE;U.poi_search={''}
+U.selector_editor=SE;U.selector_search={''}
 local palette={gold=0xFF8EC6E3,ink=0xFF14231C,cream=0xFFE7EBD9,muted=0xFF9BADA1,
     party=0xFFF1C47C,alliance=0xFFD4A8E4,you=0xFF9DE6A5,arrival=0xFFF2BC73}
 local world={dat=5312}
@@ -46,6 +53,28 @@ function U.save_areas()
     local ok,err=H.save(U.areas,U.area_path,C)
     toast(ok and 'Exit areas saved' or err);return ok
 end
+function U.load_pois(path)
+    U.poi_path=path or (AshitaCore and AshitaCore:GetInstallPath()..'config/addons/atlas/poi-corrections.json')
+    local ok,err=PoiEdits.load(POI.edits,U.poi_path,POI.base,C,World.data)
+    POI.refresh();if not ok then toast(err) end
+end
+function U.save_pois()
+    if not POI.edits.dirty then return true end
+    local ok,err=PoiEdits.save(POI.edits,U.poi_path,POI.base,C,World.data)
+    toast(ok and 'POI corrections saved — ready to share' or err);return ok
+end
+function U.edit_pois()
+    if SE.active and not U.save_selectors() then return end
+    SE.active=false;SE.cancel()
+    if PE.active then
+        if U.save_pois() then PE.active=false;PE.cancel() end
+        return
+    end
+    if editor.active and not U.save_areas() then return end
+    editor.active=false;editor.cancel()
+    if not U.visible[1] then U.raise=true end
+    U.visible[1]=true;U.pending_locate=false;PE.active=true;PE.cancel();PE.view=U.state.current
+end
 local function locate(p,quiet)
     if not p then if not quiet then toast('Position unavailable') end;return false end
     local key=C.find_player_map(p.zone,p.floor)
@@ -61,18 +90,61 @@ function U.locate()
     return locate(client.player(),false)
 end
 function U.open(level,key)
-    U.visible[1]=true;U.message=nil
+    U.visible[1]=true;U.raise=true;U.message=nil
     U.pending_locate=level==nil
     if level then N.go(U.state,level,key) end
 end
 function U.edit_exits()
+    if SE.active and not U.save_selectors() then return end
+    SE.active=false;SE.cancel()
+    if PE.active and not U.save_pois() then return end
+    PE.active=false;PE.cancel()
     if editor.active then
         if U.save_areas() then editor.active=false;editor.cancel() end
         return
     end
+    if not U.visible[1] then U.raise=true end
     U.visible[1]=true;U.pending_locate=false
     if U.state.current.level~='zone' and not U.locate() then return end
     editor.active=true;editor.cancel()
+end
+function U.load_selectors(path)
+    U.selector_path=path or (AshitaCore and AshitaCore:GetInstallPath()..'config/addons/atlas/world-selectors.json')
+    local ok,err=Selectors.load(U.selector_path);if not ok then toast(err) end
+end
+function U.save_selectors()
+    if not Selectors.store.dirty then return true end
+    local ok,err=Selectors.save(U.selector_path);toast(ok and 'World selectors saved' or err);return ok
+end
+local function focus_selector()
+    local b=SE.selected_node().bounds
+    N.go(U.state,'world');local v=U.state.current
+    v.world_legacy=nil;v.initialized=false;v.return_zoom=nil
+    v.focus={b[1]-800,b[2]-600,b[3]+800,b[4]+600}
+end
+function U.edit_selectors()
+    if SE.active then
+        if U.save_selectors() then SE.active=false;SE.cancel() end
+        return
+    end
+    if PE.active and not U.save_pois() then return end
+    if editor.active and not U.save_areas() then return end
+    PE.active=false;PE.cancel();editor.active=false;editor.cancel()
+    if not U.visible[1] then U.raise=true end
+    U.visible[1]=true;U.pending_locate=false;SE.active=true;SE.cancel()
+    local v=U.state.current
+    if v.level=='zone' then
+        for _,node in ipairs(Selectors.data.zones) do
+            for _,key in ipairs(node.maps) do if key==v.key then SE.selected=Selectors.id(node) end end
+        end
+        focus_selector()
+    else
+        local best
+        for _,node in ipairs(Selectors.data.zones) do
+            local b=node.bounds;local d=((b[1]+b[3])/2-v.cx)^2+((b[2]+b[4])/2-v.cy)^2
+            if not best or d<best then SE.selected=Selectors.id(node);best=d end
+        end
+    end
 end
 local function go(level,key) N.go(U.state,level,key) end
 local function control(label,action,hint,disabled)
@@ -138,6 +210,7 @@ local function poi_popup()
     if imgui.BeginPopup('##atlas-poi') then
         local marker=U.poi_selection
         imgui.TextUnformatted(marker.title);imgui.Separator()
+        if marker.category=='outpost' then imgui.TextUnformatted('Conquest: '..Conquest.owner(marker.stops[1].id).name) end
         for _,stop in ipairs(marker.stops) do
             for _,link in ipairs(POI.links[stop.id]) do
                 local destination=link.target
@@ -147,12 +220,19 @@ local function poi_popup()
                 hot_tip(link.route.requirement..(destination.map and '' or '\nWorld map location'))
                 imgui.TextUnformatted(link.route.requirement)
             end
+            if #POI.links[stop.id]==0 then
+                if stop.requirement then imgui.TextUnformatted(stop.requirement) end
+                if imgui.Selectable('World map##poi-world-'..stop.id,false) then
+                    N.up(U.state);imgui.CloseCurrentPopup()
+                end
+            end
         end
         imgui.EndPopup()
     end
 end
-local function poi_icon(draw,x,y,kind,hot)
-    local color=POI.types[kind].color
+local function poi_icon(draw,x,y,marker,hot)
+    local kind=marker.category or marker.stops[1].category
+    local color=kind=='outpost' and Conquest.owner(marker.stops[1].id).color or POI.types[kind].color
     draw:AddCircleFilled({x,y},12,0xEE14231C)
     draw:AddCircle({x,y},10,hot and palette.cream or color,24,hot and 2 or 1.5)
     if kind=='boat' then
@@ -167,19 +247,27 @@ local function poi_icon(draw,x,y,kind,hot)
         draw:AddLine({x-3,y+2},{x-2,y+5},color,1.3)
         draw:AddLine({x+3,y+2},{x+2,y+5},color,1.3)
         draw:AddLine({x-3,y+5},{x+3,y+5},color,2)
+    elseif kind=='outpost' then
+        draw:AddLine({x-4,y-6},{x-4,y+6},color,1.8)
+        draw:AddTriangleFilled({x-3,y-6},{x+6,y-2},{x-3,y+2},color)
+        draw:AddLine({x-6,y+6},{x-1,y+6},color,1.8)
+    elseif kind=='teleport' then
+        draw:AddTriangleFilled({x,y-7},{x+5,y},{x-5,y},color)
+        draw:AddTriangleFilled({x-5,y},{x+5,y},{x,y+7},color)
     else
         draw:AddCircleFilled({x,y},3,color)
     end
 end
 local function poi_layer(draw,ox,oy,s,hover,mx,my,click)
-    if editor.active then return false end
-    local view=U.state.current;local markers=POI.markers(view,U.poi_filters)
+    if editor.active or SE.active then return false end
+    local view=U.state.current;local markers=POI.markers(view,U.poi_filters,PE.active)
     local hot,nearest
     for _,marker in ipairs(markers) do
-        local d=(mx-ox-marker.x*s)^2+(my-oy-marker.y*s)^2
+        local px,py=PE.position(marker)
+        local d=(mx-ox-px*s)^2+(my-oy-py*s)^2
         if hover and d<=14^2 and (not nearest or d<nearest) then hot=marker;nearest=d end
     end
-    if hot and view.level=='world' then
+    if hot and view.level=='world' and not PE.active then
         for _,stop in ipairs(hot.stops) do for _,link in ipairs(POI.links[stop.id]) do
             local hub=POI.hubs[link.target.hub];local ax,ay=ox+hot.x*s,oy+hot.y*s
             local bx,by=ox+hub.world[1]*s,oy+hub.world[2]*s
@@ -189,22 +277,40 @@ local function poi_layer(draw,ox,oy,s,hover,mx,my,click)
         end end
     end
     for _,marker in ipairs(markers) do
-        local x,y=ox+marker.x*s,oy+marker.y*s
+        local px,py=PE.position(marker);local x,y=ox+px*s,oy+py*s
+        if PE.active then
+            for _,stop in ipairs(marker.stops) do
+                if stop.id==PE.selected then draw:AddCircle({x,y},17,palette.gold,24,2) end
+                if stop.hidden then draw:AddLine({x-10,y+10},{x+10,y-10},palette.cream,2) end
+            end
+        end
         if view.poi_focus then for _,stop in ipairs(marker.stops) do
             if stop.id==view.poi_focus then draw:AddCircle({x,y},15,palette.arrival,24,1.5);break end
         end end
-        poi_icon(draw,x,y,marker.category,marker==hot)
+        poi_icon(draw,x,y,marker,marker==hot)
         if #marker.stops>1 then
             draw:AddCircleFilled({x+9,y-9},6,0xFF14231C)
             text(draw,x+9,y-9,tostring(#marker.stops),palette.cream,true)
         end
     end
+    if PE.active then
+        local d=PE.drag
+        if d and d.place then poi_icon(draw,ox+d.x*s,oy+d.y*s,d.marker,true) end
+        if hot then hand();tip(hot.title..' / drag to move') end
+        return true
+    end
     if not hot then return false end
     hand()
     local lines={hot.title}
-    for _,stop in ipairs(hot.stops) do for _,link in ipairs(POI.links[stop.id]) do
-        lines[#lines+1]='To '..link.target.area..' / '..link.route.requirement
-    end end
+    if hot.category=='outpost' then lines[#lines+1]='Conquest: '..Conquest.owner(hot.stops[1].id).name end
+    for _,stop in ipairs(hot.stops) do
+        for _,link in ipairs(POI.links[stop.id]) do
+            lines[#lines+1]='To '..link.target.area..' / '..link.route.requirement
+        end
+        if #POI.links[stop.id]==0 and stop.requirement then
+            lines[#lines+1]=stop.area..' / '..stop.requirement
+        end
+    end
     tip(table.concat(lines,'\n'))
     if click then
         local stop=hot.stops[1]
@@ -224,17 +330,32 @@ local function world_map(draw,ox,oy,s,hover,mx,my,click,player,members)
             local page=tile.page
             draw:AddImage(tile.id,{ox+page.x*s,oy+page.y*s},{ox+(page.x+page.w)*s,oy+(page.y+page.h)*s},{0,0},{1,1},0xFFFFFFFF)
         end
+        local sheet=World.data.besieged
+        if sheet then
+            local texture=client.texture(sheet)
+            if texture and texture.id then
+                draw:AddRectFilled({ox+sheet.x*s,oy+sheet.y*s},
+                    {ox+(sheet.x+sheet.w)*s,oy+(sheet.y+sheet.h)*s},0xFFE1EDF7)
+                draw:AddImage(texture.id,{ox+sheet.x*s,oy+sheet.y*s},
+                    {ox+(sheet.x+sheet.w)*s,oy+(sheet.y+sheet.h)*s},{0,0},{1,1},0xFFFFFFFF)
+            end
+        end
+        for _,label in ipairs(World.data.labels or {}) do
+            if label.kind=='sheet' or view.zoom>=1.6 then
+                text(draw,ox+label.x*s,oy+label.y*s,label.title,0xFF2A4158,true)
+            end
+        end
     end
-    if not legacy and view.zoom>=2.5 then
+    if not legacy and (view.zoom>=2.5 or SE.active) then
         for _,node in ipairs(World.data.zones) do
             if node.supplementary then
                 local b=node.bounds;local x,y=ox+(b[1]+b[3])/2*s,oy+(b[2]+b[4])/2*s
-                text(draw,x+1,y+1,node.title,0xFF14231C,true)
-                text(draw,x,y,node.title,palette.cream,true)
+                Labels.draw(draw,x,y,node.title,node.overview=='besieged')
             end
         end
         for _,node in ipairs(World.data.zones) do
-            local b=node.bounds;local l,r=ox+b[1]*s,ox+b[3]*s;local y=oy+(b[2]+b[4])/2*s
+            local b=Selectors.bounds(node,s,Labels.measure)
+            local l,r=ox+b[1]*s,ox+b[3]*s;local y=oy+(b[2]+b[4])/2*s
             local counts={party=0,alliance=0}
             for _,key in ipairs(node.maps) do
                 if player and C.maps[key].zone==player.zone then draw:AddCircleFilled({l-5,y},4,palette.you);break end
@@ -250,9 +371,11 @@ local function world_map(draw,ox,oy,s,hover,mx,my,click,player,members)
                 end
             end
         end
+        if SE.active then SE.draw(draw,ox,oy,s,Labels.measure);return end
         if poi_layer(draw,ox,oy,s,hover,mx,my,click) then return end
         for _,node in ipairs(World.data.zones) do
-            local b=node.bounds;local x1,y1,x2,y2=ox+b[1]*s,oy+b[2]*s,ox+b[3]*s,oy+b[4]*s
+            local b=Selectors.bounds(node,s,Labels.measure)
+            local x1,y1,x2,y2=ox+b[1]*s,oy+b[2]*s,ox+b[3]*s,oy+b[4]*s
             if hover and mx>=x1 and mx<=x2 and my>=y1 and my<=y2 then
                 draw:AddRect({x1,y1},{x2,y2},palette.gold,3,0,1.5);hand()
                 local lines={node.title}
@@ -274,13 +397,6 @@ local function world_map(draw,ox,oy,s,hover,mx,my,click,player,members)
         end
     end
     if view.zoom<2.5 then poi_layer(draw,ox,oy,s,hover,mx,my,click) end
-    if not legacy then
-        if player and view.zoom<2.5 then
-            local key=C.find_player_map(player.zone,player.floor)
-            local b=key and World.data.hotspots[C.maps[key].region]
-            if b then draw:AddCircleFilled({ox+(b[1]+b[3])/2*s,oy+b[4]*s-5},4,palette.you) end
-        end
-    end
 end
 
 local function zone_map(draw,ox,oy,s,hover,mx,my,click,player,members)
@@ -328,7 +444,7 @@ local function zone_map(draw,ox,oy,s,hover,mx,my,click,player,members)
         if U.names[1] then pill(draw,x,y-20,player.name,palette.you) end
         if hover and (mx-x)^2+(my-y)^2<12^2 then hovered_actor={name=player.name,group='You'} end
     end
-    if editor.active or poi_hot then return end
+    if editor.active or PE.active or poi_hot then return end
     if hovered_actor then tip(hovered_actor.name..' / '..hovered_actor.group) end
     if nearest then
         local exit=nearest
@@ -370,18 +486,25 @@ local function canvas(player,members)
     if imgui.IsMouseClicked(0) then dragged=false;U.drag_dx=0;U.drag_dy=0 end
     if imgui.IsMouseDragging(0) then dragged=true end
     local click=hover and imgui.IsMouseReleased(0) and not dragged
-    if hover and not editor.drag and imgui.GetIO().MouseWheel~=0 then
+    if hover and not editor.drag and not PE.drag and not SE.drag and imgui.GetIO().MouseWheel~=0 then
         local factor=1.2^imgui.GetIO().MouseWheel
-        if v.level=='zone' and not editor.active and v.zoom*factor<1 then N.up(U.state);return end
+        if v.level=='zone' and not editor.active and not PE.active and v.zoom*factor<1 then N.up(U.state);return end
         N.zoom_at(v,factor,mx,my,x,y,w,h,rw,rh)
     end
     if v.level=='world' and hover and (imgui.GetIO().MouseWheel~=0 or imgui.IsMouseDragging(0)) then
         U.world_busy_until=os.clock()+0.12
     end
     local ox,oy,s=N.transform(v,x,y,w,h,rw,rh)
+    if v.level=='world' and not v.world_legacy then Labels.set_scale(s) end
     local editing=editor.active and v.level=='zone'
     local consumed=editing and editor.pointer(U.areas,v.key,C.exits(v.key),(mx-ox)/s,(my-oy)/s,s,
         hover,imgui.IsMouseClicked(0),imgui.IsMouseDown(0),imgui.IsMouseReleased(0))
+    if PE.active then
+        consumed=PE.pointer(v,(mx-ox)/s,(my-oy)/s,s,hover,imgui.IsMouseClicked(0),imgui.IsMouseDown(0),imgui.IsMouseReleased(0)) or consumed
+    end
+    if SE.active and v.level=='world' and not v.world_legacy then
+        consumed=SE.pointer((mx-ox)/s,(my-oy)/s,s,Labels.measure,hover,imgui.IsMouseClicked(0),imgui.IsMouseDown(0),imgui.IsMouseReleased(0)) or consumed
+    end
     if not consumed and imgui.IsItemActive() and imgui.IsMouseDragging(0) then
         local dx,dy=imgui.GetMouseDragDelta(0)
         v.cx=v.cx-(dx-(U.drag_dx or 0))/s;v.cy=v.cy-(dy-(U.drag_dy or 0))/s
@@ -404,7 +527,9 @@ local function canvas(player,members)
     if U.message and os.clock()-(U.message_at or 0)<4 then pill(draw,x+w/2,y+22,U.message,palette.gold) end
     draw:PopClipRect()
     if hover and imgui.IsMouseReleased(1) then
-        if editing then editor.cancel()
+        if SE.active then SE.cancel()
+        elseif PE.active then PE.cancel()
+        elseif editing then editor.cancel()
         elseif v.level=='world' then
             if v.zoom<=1 then reset_view() else N.zoom_at(v,.5,mx,my,x,y,w,h,rw,rh) end
         else N.up(U.state) end
@@ -442,7 +567,14 @@ local function toolbar()
     if imgui.BeginPopup('##atlas-options') then
         imgui.Checkbox('Names',U.names)
         imgui.TextUnformatted('Points of interest')
-        for _,category in ipairs(POI.categories) do imgui.Checkbox(category.label,U.poi_filters[category.id]) end
+        for _,category in ipairs(POI.categories) do
+            imgui.Checkbox(category.label,U.poi_filters[category.id])
+            if category.id=='outpost' then
+                hot_tip("Conquest colors: San d'Oria red, Bastok blue, Windurst green, Beastmen amber; gray means unknown.")
+            end
+        end
+        if imgui.Selectable('Edit world zone selectors',SE.active) then U.edit_selectors();imgui.CloseCurrentPopup() end
+        if imgui.Selectable('Edit points of interest',PE.active) then U.edit_pois();imgui.CloseCurrentPopup() end
         if imgui.Selectable('Edit exit areas',editor.active) then U.edit_exits();imgui.CloseCurrentPopup() end
         if imgui.Selectable('Reload maps',false) then
             client.clear();client.init()
@@ -453,6 +585,9 @@ local function toolbar()
     end
     v=U.state.current
     if v.level=='zone' then
+        if C.maps[v.key].reference_only then
+            imgui.TextUnformatted('Reference map');hot_tip('Native floor and precise positions are unavailable.');imgui.SameLine()
+        end
         local siblings=C.siblings(v.key)
         if #siblings>1 then
             for i,key in ipairs(siblings) do
@@ -466,6 +601,76 @@ local function toolbar()
         end
     end
     imgui.Checkbox('Party',U.party);imgui.SameLine();imgui.Checkbox('Alliance',U.alliance)
+    if PE.active then
+        if PE.view~=v then PE.cancel();PE.view=v end
+        local stop=PE.selected_stop();PE.selected=stop.id
+        imgui.Separator();imgui.TextUnformatted('Edit POIs');imgui.SameLine()
+        imgui.SetNextItemWidth(370)
+        if imgui.BeginCombo('##atlas-edit-poi',stop.title..(stop.hidden and ' (hidden)' or '')) then
+            imgui.InputTextWithHint('##atlas-find-poi','Find a point of interest',U.poi_search,128)
+            local query=U.poi_search[1]:lower()
+            for _,source in ipairs(POI.base.stops) do
+                local item=POI.stops[source.id];local label=item.title..' / '..item.area
+                if query=='' or label:lower():find(query,1,true) then
+                    if imgui.Selectable(label..'##edit-poi-'..item.id,item.id==stop.id) then PE.selected=item.id;PE.cancel() end
+                end
+            end
+            imgui.EndCombo()
+        end
+        imgui.SameLine();control('View zone',function() PE.cancel();POI.visit(U.state,PE.selected) end,nil,not stop.map)
+        imgui.SameLine();control('View world',function()
+            PE.cancel();local w=POI.hubs[stop.hub].world;N.go(U.state,'world')
+            U.state.current.focus={w[1]-900,w[2]-700,w[1]+900,w[2]+700};U.state.current.initialized=false
+        end)
+        imgui.SameLine();control('Zone selectors',U.edit_selectors,'Edit the world map zone click areas')
+        local def=v.level=='zone' and C.maps[v.key]
+        local charted=not v.world_legacy and (v.level=='world' or def.dat or def.asset)
+        control('Place on map',function() PE.cancel();PE.tool='place' end,'Click the corrected position on this map',not charted)
+        imgui.SameLine();control('Use my position',function()
+            local px,py=client.position(def,client.player())
+            if px and px>=0 and px<=512 and py>=0 and py<=512 then PE.place(v,{stop},px,py) else toast('Your position is unavailable on this map') end
+        end,'Move the selected POI to you on this zone map',not def or not charted)
+        imgui.SameLine();control('Undo POI',function() PE.cancel();PoiEdits.undo(POI.edits);POI.refresh() end,nil,#POI.edits.undo==0)
+        imgui.SameLine();control('Reset POI',function() PE.reset(v) end,'Restore the selected world anchor or zone position to the shipped default')
+        imgui.SameLine();control(stop.hidden and 'Show POI' or 'Hide POI',PE.hide,'Hide this entry on both maps; it remains available in the editor')
+        imgui.SameLine();control('Save POIs',U.save_pois,U.poi_path or 'Corrections file',not POI.edits.dirty)
+        imgui.SameLine();control('Copy corrections',function()
+            if U.save_pois() then imgui.SetClipboardText(require('json').encode(PoiEdits.document(POI.edits)));toast('POI corrections copied — paste them into chat') end
+        end,'Save and copy the corrections to hand back for shipping')
+        imgui.SameLine();control('Done editing POIs',U.edit_pois,'Save corrections and leave the editor')
+        imgui.TextUnformatted((PE.tool=='place' and 'Click to place. Right click cancels.' or 'Drag a marker to move it; drag empty space to pan.')
+            ..(POI.edits.dirty and '   Unsaved' or '   Saved corrections can be shared.'))
+        if v.level=='world' then hot_tip('World anchors are shared by services in the same town. Zone positions are edited separately.') end
+    end
+    if SE.active then
+        local selected=SE.selected_node();local charted=v.level=='world' and not v.world_legacy
+        imgui.Separator();imgui.TextUnformatted('Edit zone selectors');imgui.SameLine()
+        imgui.SetNextItemWidth(330)
+        if imgui.BeginCombo('##atlas-selector',selected.title) then
+            imgui.InputTextWithHint('##atlas-find-selector','Find a zone',U.selector_search,128)
+            local query=U.selector_search[1]:lower()
+            for _,node in ipairs(Selectors.data.zones) do
+                local id=Selectors.id(node)
+                if query=='' or node.title:lower():find(query,1,true) then
+                    if imgui.Selectable(node.title..'##selector-'..id,id==SE.selected) then SE.selected=id;SE.cancel();focus_selector() end
+                end
+            end
+            imgui.EndCombo()
+        end
+        imgui.SameLine();control('Find selector',focus_selector,'Center the world on the selected zone')
+        imgui.SameLine();control('POIs',U.edit_pois,'Save selectors and switch to POI editing')
+        control('Draw selector',function() SE.cancel();SE.tool='draw' end,'Drag a box around the printed zone name',not charted)
+        imgui.SameLine();control('Undo selector',function() SE.cancel();Selectors.undo() end,nil,#Selectors.store.undo==0)
+        imgui.SameLine();control('Reset selector',function() SE.cancel();Selectors.set(SE.selected,nil) end,'Restore this zone selector to its shipped bounds',not Selectors.store.changes[SE.selected])
+        imgui.SameLine();control('Save selectors',U.save_selectors,U.selector_path or 'World selector corrections file',not Selectors.store.dirty)
+        imgui.SameLine();control('Copy selectors',function()
+            if U.save_selectors() then imgui.SetClipboardText(require('json').encode(Selectors.document()));toast('World selectors copied - paste them into chat') end
+        end,'Save and copy these corrections for shipping')
+        imgui.SameLine();control('Done with selectors',U.edit_selectors,'Save changes and leave the editor')
+        imgui.TextUnformatted(not charted and 'Find selector opens the world artwork.' or
+            (SE.tool=='draw' and 'Drag a box around the zone name. Right click cancels.' or 'Drag a box to move; drag a corner to resize. Empty space pans.')
+            ..(Selectors.store.dirty and '   Unsaved' or ''))
+    end
     if editor.active and v.level=='zone' then
         local exits=C.exits(v.key);local selected=editor.prepare(v.key,exits)
         imgui.Separator();imgui.TextUnformatted('Edit exits');imgui.SameLine()
@@ -505,6 +710,9 @@ function U.draw()
     end
     imgui.SetNextWindowSize({1150,850},ImGuiCond_FirstUseEver)
     imgui.SetNextWindowSizeConstraints({960,680},{2400,1800})
+    -- Bring Atlas above ordinary addon windows when opened. Leave later dialogs
+    -- in front, so configuration menus keep focus while the map stays visible.
+    if U.raise then imgui.SetNextWindowFocus();U.raise=false end
     local flags=bit.bor(ImGuiWindowFlags_NoScrollbar,ImGuiWindowFlags_NoScrollWithMouse)
     imgui.PushStyleColor(ImGuiCol_WindowBg,0xFF292C21)
     imgui.PushStyleColor(ImGuiCol_Button,0xFF3A4B36)

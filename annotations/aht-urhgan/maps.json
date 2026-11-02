@@ -1,0 +1,2706 @@
+{
+  "maps": [
+    {
+      "key": "open_sea_route_to_al_zahbi",
+      "zone": 46,
+      "floor": 0,
+      "index": 428,
+      "dat": 53295,
+      "name": "Open sea route to Al Zahbi",
+      "region": "western_aradjiah",
+      "transform": {
+        "scale": 2,
+        "offset_x": 0,
+        "offset_y": 0
+      },
+      "tab": "Open sea route to Al Zahbi",
+      "pixel_sha256": "808ecedee97675e6bb55181fae5a56deb2ee227d79f2919e3cdb76208fea335a",
+      "artwork_sha256": "f7c20a284be369156f918b383c8fb5a52437c74bda1ece164b98862fb86f81fa",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "open_sea_route_to_mhaura",
+      "zone": 47,
+      "floor": 0,
+      "index": 429,
+      "dat": 53296,
+      "name": "Open sea route to Mhaura",
+      "region": "western_aradjiah",
+      "transform": {
+        "scale": 2,
+        "offset_x": 0,
+        "offset_y": 0
+      },
+      "tab": "Open sea route to Mhaura",
+      "pixel_sha256": "808ecedee97675e6bb55181fae5a56deb2ee227d79f2919e3cdb76208fea335a",
+      "artwork_sha256": "94b15d7d250abb3a41edf5ff030e05718a6367485eb276fac20e120e74bedb6e",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "silver_sea_route_to_nashmau",
+      "zone": 58,
+      "floor": 0,
+      "index": 430,
+      "dat": 53326,
+      "name": "Silver Sea route to Nashmau",
+      "region": "western_aradjiah",
+      "transform": {
+        "scale": 2,
+        "offset_x": 0,
+        "offset_y": 0
+      },
+      "tab": "Silver Sea route to Nashmau",
+      "pixel_sha256": "c047aff1b8ce732c7e09894a9944b329fed6e55ddd62df92673c6d27d3576f58",
+      "artwork_sha256": "20fe2984113231a5aaffb9757361f6a4a8ade4fb47e5b3b2ad707b7bddfaf80e",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "silver_sea_route_to_al_zahbi",
+      "zone": 59,
+      "floor": 0,
+      "index": 431,
+      "dat": 53327,
+      "name": "Silver Sea route to Al Zahbi",
+      "region": "western_aradjiah",
+      "transform": {
+        "scale": 2,
+        "offset_x": 0,
+        "offset_y": 0
+      },
+      "tab": "Silver Sea route to Al Zahbi",
+      "pixel_sha256": "9dbb2fde38b7fda6b32919c35cc655473a750d951c75882ed837538e5e09eead",
+      "artwork_sha256": "f1e0ca6862624d98ccc2853215738ffcab06f16bc9379c2cc8d29b2d43f7e379",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "al_zahbi",
+      "zone": 48,
+      "floor": 0,
+      "index": 296,
+      "dat": 53297,
+      "name": "Al Zahbi",
+      "region": "west_aht_urhgan",
+      "transform": {
+        "scale": 4,
+        "offset_x": -272,
+        "offset_y": -272
+      },
+      "tab": "Al Zahbi",
+      "pixel_sha256": "9a28944a901ef9a1f8c4d94d2ffee1e1b7e0049aabcf814a7f87320b9fae42ae",
+      "artwork_sha256": "e7342ddf7af5134be96fc0b7566b76dcf24c0968b9f17a977a01eb49b9017fae",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 294
+    },
+    {
+      "key": "aht_urhgan_whitegate_f0",
+      "zone": 50,
+      "floor": 0,
+      "index": 297,
+      "dat": 53298,
+      "name": "Aht Urhgan Whitegate",
+      "region": "west_aht_urhgan",
+      "transform": {
+        "scale": 4,
+        "offset_x": -272,
+        "offset_y": -272
+      },
+      "tab": "Aht Urhgan Whitegate",
+      "pixel_sha256": "7081c6560e53042d5eb1490f9e434e7d7a221c3bbafa8cb34de1f9502e307d63",
+      "artwork_sha256": "9c8aedb5dd721f6f736ebcb34cc9a61cc5272608391a2375322a995fabb94583",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 295
+    },
+    {
+      "key": "aht_urhgan_whitegate_f1",
+      "zone": 50,
+      "floor": 1,
+      "index": 298,
+      "dat": 53441,
+      "name": "Aht Urhgan Whitegate / Map 1",
+      "region": "west_aht_urhgan",
+      "transform": {
+        "scale": 4,
+        "offset_x": -232,
+        "offset_y": -272
+      },
+      "tab": "Map 1",
+      "pixel_sha256": "7081c6560e53042d5eb1490f9e434e7d7a221c3bbafa8cb34de1f9502e307d63",
+      "artwork_sha256": "26a60937f81a5d628a10198faebc55f00e80fb8bd08a605aca597e36e2798869",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "bhaflau_thickets_f1",
+      "zone": 52,
+      "floor": 1,
+      "index": 300,
+      "dat": 53300,
+      "name": "Bhaflau Thickets / Map 1",
+      "region": "west_aht_urhgan",
+      "transform": {
+        "scale": 1,
+        "offset_x": -200,
+        "offset_y": -312
+      },
+      "tab": "Map 1",
+      "pixel_sha256": "63f6cc864d4795ed524c6736cc24ad6ec0de01db62c21ababe3508726ab547ab",
+      "artwork_sha256": "fd9e03ce8de801b98f58b6142e4b5b492c3174507e27ca750f4b63237a90ee30",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 296
+    },
+    {
+      "key": "bhaflau_thickets_f2",
+      "zone": 52,
+      "floor": 2,
+      "index": 301,
+      "dat": 53301,
+      "name": "Bhaflau Thickets / Map 2",
+      "region": "west_aht_urhgan",
+      "transform": {
+        "scale": 1,
+        "offset_x": -296,
+        "offset_y": -176
+      },
+      "tab": "Map 2",
+      "pixel_sha256": "1d935b8d6b5b7b32c51bee00a54b09148a311819dff3a78b81a0a1938e03d5a0",
+      "artwork_sha256": "80d05218111c57d526a46c421f2574ea4711ea5bf9a025ed5a89f70059b678b7",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 297
+    },
+    {
+      "key": "the_colosseum_f1",
+      "zone": 71,
+      "floor": 1,
+      "index": 386,
+      "dat": 53377,
+      "name": "The Colosseum / Map 1",
+      "region": "west_aht_urhgan",
+      "transform": {
+        "scale": 4,
+        "offset_x": -256,
+        "offset_y": -256
+      },
+      "tab": "Map 1",
+      "pixel_sha256": "bb96ae1a62bb8ef879b9052ae7aabf16e6189e72ee2914c0344c4f19a01b6276",
+      "artwork_sha256": "9b086233c55227931b5dab24e06b93fe272081598c8dfa64662140f96b67e7f7",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "the_colosseum_f2",
+      "zone": 71,
+      "floor": 2,
+      "index": 387,
+      "dat": 53378,
+      "name": "The Colosseum / Map 2",
+      "region": "west_aht_urhgan",
+      "transform": {
+        "scale": 4,
+        "offset_x": -680,
+        "offset_y": -256
+      },
+      "tab": "Map 2",
+      "pixel_sha256": "320835c7761828f3c134bf45ca2987e961b286dee3e16c7e540146ac6462e068",
+      "artwork_sha256": "4097a61c00427189063d64da19ef531cab4cc3546b5704ee0362ae30374e1d12",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "wajaom_woodlands",
+      "zone": 51,
+      "floor": 0,
+      "index": 299,
+      "dat": 53299,
+      "name": "Wajaom Woodlands",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 1,
+        "offset_x": -264,
+        "offset_y": -280
+      },
+      "tab": "Wajaom Woodlands",
+      "pixel_sha256": "0e80dee4ccd8d3697d652ca8bc06531f6d00984827b7ec768d4760b4549c9c12",
+      "artwork_sha256": "b4ae693371c5677579e4e63ec21765e676d265d67568c41343882a26fb58b620",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 298
+    },
+    {
+      "key": "mamook_f1",
+      "zone": 65,
+      "floor": 1,
+      "index": 349,
+      "dat": 53341,
+      "name": "Mamook / Map 1",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -248,
+        "offset_y": -192
+      },
+      "tab": "Map 1",
+      "pixel_sha256": "3c8fb343f87cb6d1fcd018d020d74452af931d4c6a67159b8071e449f7d83ecb",
+      "artwork_sha256": "34cbf6583117affedf190ad177935419cda76980adff17a7aa9e2687d10fc9ec",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 306
+    },
+    {
+      "key": "mamook_f2",
+      "zone": 65,
+      "floor": 2,
+      "index": 350,
+      "dat": 53342,
+      "name": "Mamook / Map 2",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -128,
+        "offset_y": -384
+      },
+      "tab": "Map 2",
+      "pixel_sha256": "e3a505ded3b670e4dbc068da438a226c51452cb48148c6506b8b4f6f723ec936",
+      "artwork_sha256": "577109316cf23460ee78cea5836e288247937caebb90644011597a65411f6991",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 307
+    },
+    {
+      "key": "mamook_f3",
+      "zone": 65,
+      "floor": 3,
+      "index": 351,
+      "dat": 53406,
+      "name": "Mamook / Map 3",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -280,
+        "offset_y": -96
+      },
+      "tab": "Map 3",
+      "pixel_sha256": "8c15a002a88c1904287b9705b037d2f85301971ddf51be1d133867bf8a88e3b2",
+      "artwork_sha256": "989bfc028e360af96503187421fd32a5752128883b77736b574bea909510e2ee",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 308
+    },
+    {
+      "key": "mamool_ja_training_grounds_f1",
+      "zone": 66,
+      "floor": 1,
+      "index": 352,
+      "dat": 53343,
+      "name": "Mamool Ja Training Grounds / Map 1",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -368,
+        "offset_y": -112
+      },
+      "tab": "Map 1",
+      "pixel_sha256": "036f79766b1ef7d40341640ca0dee8b795d27f5d920330b441c01a0c5aed6bd0",
+      "artwork_sha256": "eb26c58da48ac8b5aeb0bdd0f6afee6ea4aa9559f4ae6659bc74fb6a67b165cd",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 344
+    },
+    {
+      "key": "mamool_ja_training_grounds_f2",
+      "zone": 66,
+      "floor": 2,
+      "index": 353,
+      "dat": 53344,
+      "name": "Mamool Ja Training Grounds / Map 2",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -224,
+        "offset_y": -64
+      },
+      "tab": "Map 2",
+      "pixel_sha256": "badd77149de10df2bc6d7857f97e449554056841d201c841d74f56decd40ef63",
+      "artwork_sha256": "c130338bcccdd922f6971d450fc12b9d7c2dc12d1271146ab23a04d5fb625944",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 345
+    },
+    {
+      "key": "mamool_ja_training_grounds_f3",
+      "zone": 66,
+      "floor": 3,
+      "index": 354,
+      "dat": 53345,
+      "name": "Mamool Ja Training Grounds / Map 3",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -320,
+        "offset_y": -192
+      },
+      "tab": "Map 3",
+      "pixel_sha256": "434add6b095544629d6146e1258ac77a128ad73e1b526f4b90210fcd12aa926d",
+      "artwork_sha256": "96f0d97c53f217baeff9d0a50941c428ee46488bd1903ebdeb88785d64989b5d",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 346
+    },
+    {
+      "key": "mamool_ja_training_grounds_f4",
+      "zone": 66,
+      "floor": 4,
+      "index": 355,
+      "dat": 53346,
+      "name": "Mamool Ja Training Grounds / Map 4",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -256,
+        "offset_y": -144
+      },
+      "tab": "Map 4",
+      "pixel_sha256": "d8f125cc09d72663fe68dfd23f3b50383ca32588a372a618006b486949ce7015",
+      "artwork_sha256": "250bf727c30fe3b7860cf5b4528f98036fa59f9a7c998e949a5182aa5521bd56",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 347
+    },
+    {
+      "key": "mamool_ja_training_grounds_f5",
+      "zone": 66,
+      "floor": 5,
+      "index": 356,
+      "dat": 53347,
+      "name": "Mamool Ja Training Grounds / Map 5",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -144,
+        "offset_y": -144
+      },
+      "tab": "Map 5",
+      "pixel_sha256": "034a61d09d429ce378872204d6b4155b7178d27c05f74994522f9a8e6ea4804e",
+      "artwork_sha256": "86e8a540db8c531f12b66d0c26a64cf2aa969f275930ead4d312a36aa9a2d379",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 348
+    },
+    {
+      "key": "mamool_ja_training_grounds_f6",
+      "zone": 66,
+      "floor": 6,
+      "index": 357,
+      "dat": 53348,
+      "name": "Mamool Ja Training Grounds / Map 6",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -208,
+        "offset_y": -256
+      },
+      "tab": "Map 6",
+      "pixel_sha256": "042f155cf405ec77bb2dcbcd5d2f46fa8712d288b938a6b7c284357c1e675c75",
+      "artwork_sha256": "6ad22ce4f2aaac1c95be17d58a38d7590ce7df32697ad3ad23efb7c29f8e390a",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 349
+    },
+    {
+      "key": "mamool_ja_training_grounds_f7",
+      "zone": 66,
+      "floor": 7,
+      "index": 358,
+      "dat": 53349,
+      "name": "Mamool Ja Training Grounds / Map 7",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -416,
+        "offset_y": -352
+      },
+      "tab": "Map 7",
+      "pixel_sha256": "d181550f8492f2988b641069b86e628b2a18f683d939e6a286d7cc1d0134d9be",
+      "artwork_sha256": "8114bd54b5564c49518ef67001f7e6e89c077c75276cae296a596a825a88f365",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 350
+    },
+    {
+      "key": "mamool_ja_training_grounds_f8",
+      "zone": 66,
+      "floor": 8,
+      "index": 359,
+      "dat": 53350,
+      "name": "Mamool Ja Training Grounds / Map 8",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -328,
+        "offset_y": -328
+      },
+      "tab": "Map 8",
+      "pixel_sha256": "b9609a2f1848b9d6e46a17a0730096bdc51118a94cc8095a8635c177ac21fae4",
+      "artwork_sha256": "0853bec4469f0dbc27a1f3afa437023076d7f92ca52299b33e84c53fe203f1ba",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 351
+    },
+    {
+      "key": "mamool_ja_training_grounds_f9",
+      "zone": 66,
+      "floor": 9,
+      "index": 360,
+      "dat": 53351,
+      "name": "Mamool Ja Training Grounds / Map 9",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -240,
+        "offset_y": -384
+      },
+      "tab": "Map 9",
+      "pixel_sha256": "2c8d0d6a8e50864f7a2ec573e0c8894d9b1cb7a54a761b5511435543b4516ae2",
+      "artwork_sha256": "1937ad609ade123e70f5c7d26e2f7ed390c5c14f2eec234d2ef908b06be39950",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 352
+    },
+    {
+      "key": "mamool_ja_training_grounds_f10",
+      "zone": 66,
+      "floor": 10,
+      "index": 361,
+      "dat": 53352,
+      "name": "Mamool Ja Training Grounds / Map 10",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -144,
+        "offset_y": -352
+      },
+      "tab": "Map 10",
+      "pixel_sha256": "c79ac5187cabccd3a19c7268c650aa86720c106bcd826abb80dfe01b558f0af2",
+      "artwork_sha256": "980f118b5fc49b7d4b252dca02527fc7f771bb88e95a6735f4097c6b825fc24c",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 353
+    },
+    {
+      "key": "jade_sepulcher",
+      "zone": 67,
+      "name": "Jade Sepulcher",
+      "tab": "Jade Sepulcher",
+      "region": "mamool_ja_savagelands",
+      "status": "uncharted",
+      "overview": "besieged"
+    },
+    {
+      "key": "aydeewa_subterrane_f1",
+      "zone": 68,
+      "floor": 1,
+      "index": 362,
+      "dat": 53353,
+      "name": "Aydeewa Subterrane / Map 1",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -112,
+        "offset_y": -416
+      },
+      "tab": "Map 1",
+      "pixel_sha256": "41f26ca399894c95ee72d04f4d655b59a350e9b3cfd5c6721565d83a6caddcb6",
+      "artwork_sha256": "3ccb91b7a34e8d751965a963b8b5647fd50cc4df047d2f758238a43d8659eadd",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 299
+    },
+    {
+      "key": "aydeewa_subterrane_f2",
+      "zone": 68,
+      "floor": 2,
+      "index": 363,
+      "dat": 53354,
+      "name": "Aydeewa Subterrane / Map 2",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -256,
+        "offset_y": -272
+      },
+      "tab": "Map 2",
+      "pixel_sha256": "84801e0ee682da48f6a5471861a0fb8f95bc81ebca12c4bb5566294e5d533669",
+      "artwork_sha256": "1060a910cc092f738a2ee930fbeafbfa8e2b2be88303180b22f767284b45ce6b",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 300
+    },
+    {
+      "key": "aydeewa_subterrane_f3",
+      "zone": 68,
+      "floor": 3,
+      "index": 364,
+      "dat": 53355,
+      "name": "Aydeewa Subterrane / Map 3",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -384,
+        "offset_y": -144
+      },
+      "tab": "Map 3",
+      "pixel_sha256": "0fe08638c2c5a4b249625f8c67b93d2739eaf39b986fdc6a9298ef071b65a643",
+      "artwork_sha256": "f52ce4dc96363be672e585d7a6a1937fa6e0ced266d4e09c92c731dd60ff3efc",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 301
+    },
+    {
+      "key": "aydeewa_subterrane_f4",
+      "zone": 68,
+      "floor": 4,
+      "index": 365,
+      "dat": 53356,
+      "name": "Aydeewa Subterrane / Map 4",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -304,
+        "offset_y": -192
+      },
+      "tab": "Map 4",
+      "pixel_sha256": "5dc5734953126950d8c2ab2914349466adc363f2695fef8e16146301d792a631",
+      "artwork_sha256": "57f8ff31157075907197b823a753e1d5b573b556d5ab7bc4c49b23cb3078000b",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 302
+    },
+    {
+      "key": "aydeewa_subterrane_f5",
+      "zone": 68,
+      "floor": 5,
+      "index": 366,
+      "dat": 53357,
+      "name": "Aydeewa Subterrane / Map 5",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -328,
+        "offset_y": -240
+      },
+      "tab": "Map 5",
+      "pixel_sha256": "b4379028c24bc3a3002bb15aed470e2c1ad4ecfb61cbb964ae3de21b8a033394",
+      "artwork_sha256": "b8b0dc2445e24fa7d98194674bef7e8c4c2b7bce1d1cc34474a060e3375295fd",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 303
+    },
+    {
+      "key": "aydeewa_subterrane_f6",
+      "zone": 68,
+      "floor": 6,
+      "index": 367,
+      "dat": 53358,
+      "name": "Aydeewa Subterrane / Map 6",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -112,
+        "offset_y": -216
+      },
+      "tab": "Map 6",
+      "pixel_sha256": "d2a6cd67a69750ed751793710093195d5bfae933dc0dc82d8cf8d017262eb8f9",
+      "artwork_sha256": "f9f10ecc1f9a4770e94e2ae954d851d4f010a7b3514472558bfc740d6230965f",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 304
+    },
+    {
+      "key": "aydeewa_subterrane_f7",
+      "zone": 68,
+      "floor": 7,
+      "index": 368,
+      "dat": 53359,
+      "name": "Aydeewa Subterrane / Map 7",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -256,
+        "offset_y": -152
+      },
+      "tab": "Map 7",
+      "pixel_sha256": "9449d60fed18195b9daee563ce63a3a082873be4fcd23ca1ab1520c661dfd6f6",
+      "artwork_sha256": "dd06167f77ef4bf69d81fd3271efbaa8f64138e38b9988efccc14b64257b03b9",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 305
+    },
+    {
+      "key": "leujaoam_sanctum_f1",
+      "zone": 69,
+      "floor": 1,
+      "index": 369,
+      "dat": 53360,
+      "name": "Leujaoam Sanctum / Map 1",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -368,
+        "offset_y": -144
+      },
+      "tab": "Map 1",
+      "pixel_sha256": "ed52234df54e34a642eae77f13a8be8fefd7c50b45bc000bfb97fe30040352dc",
+      "artwork_sha256": "d6f651b97414c49e807b51494277e77108f1bc2dfdde367f485b3b96b8ec475d",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 398
+    },
+    {
+      "key": "leujaoam_sanctum_f2",
+      "zone": 69,
+      "floor": 2,
+      "index": 370,
+      "dat": 53361,
+      "name": "Leujaoam Sanctum / Map 2",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -272,
+        "offset_y": -160
+      },
+      "tab": "Map 2",
+      "pixel_sha256": "f8f59d71923c7b079938f8525bb1f668f265d29221a54cd435f54eddcefc2a20",
+      "artwork_sha256": "cdf343d4839d6275b1a4233e5b38961d33d98fef83bf774c2032f4f710fd2a53",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 399
+    },
+    {
+      "key": "leujaoam_sanctum_f3",
+      "zone": 69,
+      "floor": 3,
+      "index": 371,
+      "dat": 53362,
+      "name": "Leujaoam Sanctum / Map 3",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -224,
+        "offset_y": -128
+      },
+      "tab": "Map 3",
+      "pixel_sha256": "a10511862167f75b9d75e91dfb478ad77dab772cc4e64f66837677c28cb2805b",
+      "artwork_sha256": "08446443f702d59b8e8a8bca5e86698bc7314393cd60d8fb6754fbb441c38fea",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 400
+    },
+    {
+      "key": "leujaoam_sanctum_f4",
+      "zone": 69,
+      "floor": 4,
+      "index": 372,
+      "dat": 53363,
+      "name": "Leujaoam Sanctum / Map 4",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -176,
+        "offset_y": -192
+      },
+      "tab": "Map 4",
+      "pixel_sha256": "c169fe7fcf4aa52f40d5ae1850836f5da7d2c421185f7b96d55e9b4bdd7dbc21",
+      "artwork_sha256": "5c19ebba4cb74dc0afb3929e67887c950fd5f16792761080dce01f29ccf151bd",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 401
+    },
+    {
+      "key": "leujaoam_sanctum_f5",
+      "zone": 69,
+      "floor": 5,
+      "index": 373,
+      "dat": 53364,
+      "name": "Leujaoam Sanctum / Map 5",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -368,
+        "offset_y": -256
+      },
+      "tab": "Map 5",
+      "pixel_sha256": "90f70eeed5d29471cb70226d63ac62a58d3c022a233b34afb1695c376180ceb7",
+      "artwork_sha256": "d05d88a9f46e5b030db291e1d38b221d6dcc0072c528cab8879a9bfdc9a330b7",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 402
+    },
+    {
+      "key": "leujaoam_sanctum_f6",
+      "zone": 69,
+      "floor": 6,
+      "index": 374,
+      "dat": 53365,
+      "name": "Leujaoam Sanctum / Map 6",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -256,
+        "offset_y": -288
+      },
+      "tab": "Map 6",
+      "pixel_sha256": "4ca0f51bfb1d018c909d9d981b240892e8538b34f3b39204c43ddfb626ca716f",
+      "artwork_sha256": "cc3c1e868e0d157f92120f91c821e7dc05d48b0e657bb44d4fc3d36f3349fbdb",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 403
+    },
+    {
+      "key": "leujaoam_sanctum_f7",
+      "zone": 69,
+      "floor": 7,
+      "index": 375,
+      "dat": 53366,
+      "name": "Leujaoam Sanctum / Map 7",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -96,
+        "offset_y": -272
+      },
+      "tab": "Map 7",
+      "pixel_sha256": "48dcfadfcde3966693b04f036d324f4f1554daad74599a976ddcb8acd05f3242",
+      "artwork_sha256": "aeea696b9fbc72eff84cc9946dbcf65e2a407919f5797e51fbe4681f0535c9c9",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 404
+    },
+    {
+      "key": "leujaoam_sanctum_f8",
+      "zone": 69,
+      "floor": 8,
+      "index": 376,
+      "dat": 53367,
+      "name": "Leujaoam Sanctum / Map 8",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -432,
+        "offset_y": -336
+      },
+      "tab": "Map 8",
+      "pixel_sha256": "0265363a1037867254a159cc7a15d0232d02b22fa3f6bfe49d2318fa4ffeb472",
+      "artwork_sha256": "84022e64d270ae861462839061c5a95186be4a5eb41082e85325b70d5fefd936",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 405
+    },
+    {
+      "key": "leujaoam_sanctum_f9",
+      "zone": 69,
+      "floor": 9,
+      "index": 377,
+      "dat": 53368,
+      "name": "Leujaoam Sanctum / Map 9",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -296,
+        "offset_y": -368
+      },
+      "tab": "Map 9",
+      "pixel_sha256": "440a90efb94411f7793d8817953094b7b416651bdc44af633180d8f7b514980e",
+      "artwork_sha256": "33b12683856c89d71d6b91fc69dccda54435223ff8c73a74a374df536fc9fe56",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 406
+    },
+    {
+      "key": "leujaoam_sanctum_f10",
+      "zone": 69,
+      "floor": 10,
+      "index": 378,
+      "dat": 53369,
+      "name": "Leujaoam Sanctum / Map 10",
+      "region": "mamool_ja_savagelands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -200,
+        "offset_y": -368
+      },
+      "tab": "Map 10",
+      "pixel_sha256": "c5ef17ed2016c04ff873f7cf4e0e0c102fd4852e19d225cbff332d0c87acbc3a",
+      "artwork_sha256": "8f2f6e27abe9141406879b464bf7dfa14f71eade29b28367fb8f5e9300ca3dab",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 407
+    },
+    {
+      "key": "mount_zhayolm",
+      "zone": 61,
+      "floor": 0,
+      "index": 334,
+      "dat": 53328,
+      "name": "Mount Zhayolm",
+      "region": "halvung_territory",
+      "transform": {
+        "scale": 1,
+        "offset_x": -224,
+        "offset_y": -256
+      },
+      "tab": "Mount Zhayolm",
+      "pixel_sha256": "2e9ea4473518406f2e16d206243872edd997d2e1e28ca079c7be070dd0616b17",
+      "artwork_sha256": "80b4c23dfeb4659450807a03dfc69b8df37442376dd4bda49321456feb0b2156",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 327
+    },
+    {
+      "key": "halvung_f1",
+      "zone": 62,
+      "floor": 1,
+      "index": 335,
+      "dat": 53329,
+      "name": "Halvung / Map 1",
+      "region": "halvung_territory",
+      "transform": {
+        "scale": 2,
+        "offset_x": -248,
+        "offset_y": -272
+      },
+      "tab": "Map 1",
+      "pixel_sha256": "dfbcd57000741a88d732291e9eda2a4ae8ddad6bc411a3bc5ca662fa75ccf765",
+      "artwork_sha256": "be541bd50ca4d0c045c703b6b5569f6df2ad0e823acec4f3d94f3ccfdfcfc492",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 384
+    },
+    {
+      "key": "halvung_f2",
+      "zone": 62,
+      "floor": 2,
+      "index": 336,
+      "dat": 53330,
+      "name": "Halvung / Map 2",
+      "region": "halvung_territory",
+      "transform": {
+        "scale": 2,
+        "offset_x": -368,
+        "offset_y": -368
+      },
+      "tab": "Map 2",
+      "pixel_sha256": "88b8fb73c5e7ca681736d60811c77b166fcde1502a33bf1e19301e5706471ad7",
+      "artwork_sha256": "ee2bd571b3774e4414409dd5d2b2048630efe5cdb26b547030738cb5f5221071",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 385
+    },
+    {
+      "key": "halvung_f3",
+      "zone": 62,
+      "floor": 3,
+      "index": 337,
+      "dat": 53407,
+      "name": "Halvung / Map 3",
+      "region": "halvung_territory",
+      "transform": {
+        "scale": 2,
+        "offset_x": -88,
+        "offset_y": -216
+      },
+      "tab": "Map 3",
+      "pixel_sha256": "887e6c0672ce37a77fbdaa71c19e5a5be237822934eb9eb260b6c1977f7405de",
+      "artwork_sha256": "695db375c3cbdb1abc94dc456a9f055d99d9358e03956d79c3d70e1ffdb02ab1",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 386
+    },
+    {
+      "key": "halvung_f4",
+      "zone": 62,
+      "floor": 4,
+      "index": 338,
+      "dat": 53415,
+      "name": "Halvung / Map 4",
+      "region": "halvung_territory",
+      "transform": {
+        "scale": 2,
+        "offset_x": -448,
+        "offset_y": -240
+      },
+      "tab": "Map 4",
+      "pixel_sha256": "fe9295e1476fd44b793d924c2554dc74c14040d592d0bc7231d9616d53ca522c",
+      "artwork_sha256": "f87a2e3a6afada64bb2486a339441611e532446f5739d7d9f39601efbcc0eaa4",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 387
+    },
+    {
+      "key": "lebros_cavern_f1",
+      "zone": 63,
+      "floor": 1,
+      "index": 339,
+      "dat": 53331,
+      "name": "Lebros Cavern / Map 1",
+      "region": "halvung_territory",
+      "transform": {
+        "scale": 2,
+        "offset_x": -336,
+        "offset_y": -432
+      },
+      "tab": "Map 1",
+      "pixel_sha256": "950d34df4678e86d85cb7ac726d0d4660e79037e05a1d1634752f2a21ad6689f",
+      "artwork_sha256": "37c869609ab35d0030e3f4834198434b4580e35d83d1ea7e36c1127e0679b933",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 374
+    },
+    {
+      "key": "lebros_cavern_f2",
+      "zone": 63,
+      "floor": 2,
+      "index": 340,
+      "dat": 53332,
+      "name": "Lebros Cavern / Map 2",
+      "region": "halvung_territory",
+      "transform": {
+        "scale": 2,
+        "offset_x": -400,
+        "offset_y": -320
+      },
+      "tab": "Map 2",
+      "pixel_sha256": "f8f7e75272ad26ec001c814057100369195c402079c2f71639985f5077ad271c",
+      "artwork_sha256": "cfd6ffc8b2f95738ec866aac9ef7e898bca79aec39f5d024030e86a6290c4dde",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 375
+    },
+    {
+      "key": "lebros_cavern_f3",
+      "zone": 63,
+      "floor": 3,
+      "index": 341,
+      "dat": 53333,
+      "name": "Lebros Cavern / Map 3",
+      "region": "halvung_territory",
+      "transform": {
+        "scale": 2,
+        "offset_x": -256,
+        "offset_y": -368
+      },
+      "tab": "Map 3",
+      "pixel_sha256": "97f272776269e0249c8261b5962d693d99f3608610cad47372bbf14a56897d4c",
+      "artwork_sha256": "73d71f1eb0655eb4f7cb374c19e7d44cae5376f13b21629cff47201ebaecbd03",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 376
+    },
+    {
+      "key": "lebros_cavern_f4",
+      "zone": 63,
+      "floor": 4,
+      "index": 342,
+      "dat": 53334,
+      "name": "Lebros Cavern / Map 4",
+      "region": "halvung_territory",
+      "transform": {
+        "scale": 2,
+        "offset_x": -160,
+        "offset_y": -352
+      },
+      "tab": "Map 4",
+      "pixel_sha256": "e704872e5a3ed1c19e8b501d20870f6e9ff7c6b89604c7966939b5ec97b92f94",
+      "artwork_sha256": "3d2e8922d2695378239b9d307cb569b39a937b44e5615b559415734e497e6ef1",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 377
+    },
+    {
+      "key": "lebros_cavern_f5",
+      "zone": 63,
+      "floor": 5,
+      "index": 343,
+      "dat": 53335,
+      "name": "Lebros Cavern / Map 5",
+      "region": "halvung_territory",
+      "transform": {
+        "scale": 2,
+        "offset_x": -80,
+        "offset_y": -384
+      },
+      "tab": "Map 5",
+      "pixel_sha256": "c9f35d39c51302808f932e6a1738b61db5dbfca3d13302cb3c96b008c721cc03",
+      "artwork_sha256": "fbf6255bf4f30f08a043dc22d16e658f789554ddee30914a02c4c8b136a0678b",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 378
+    },
+    {
+      "key": "lebros_cavern_f6",
+      "zone": 63,
+      "floor": 6,
+      "index": 344,
+      "dat": 53336,
+      "name": "Lebros Cavern / Map 6",
+      "region": "halvung_territory",
+      "transform": {
+        "scale": 2,
+        "offset_x": -384,
+        "offset_y": -160
+      },
+      "tab": "Map 6",
+      "pixel_sha256": "43104a36d0aeb906a161d78b062dcc7ce1b013abae3b0ff677fec8bdf7de8afd",
+      "artwork_sha256": "5fb0a3b66e40f13fa7e16226f1a8a38f75313ffcdb36bc8e9ab08ea4439aae30",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 379
+    },
+    {
+      "key": "lebros_cavern_f7",
+      "zone": 63,
+      "floor": 7,
+      "index": 345,
+      "dat": 53337,
+      "name": "Lebros Cavern / Map 7",
+      "region": "halvung_territory",
+      "transform": {
+        "scale": 2,
+        "offset_x": -304,
+        "offset_y": -256
+      },
+      "tab": "Map 7",
+      "pixel_sha256": "f97d023809239a35f65ae32d10f7c0ccd9df92802465ddca9cee7e807353b4ba",
+      "artwork_sha256": "5747fd757afcf32756b2dde1a3155f0ffce897cfbbfcae3119c39cd4ea345087",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 380
+    },
+    {
+      "key": "lebros_cavern_f8",
+      "zone": 63,
+      "floor": 8,
+      "index": 346,
+      "dat": 53338,
+      "name": "Lebros Cavern / Map 8",
+      "region": "halvung_territory",
+      "transform": {
+        "scale": 2,
+        "offset_x": -232,
+        "offset_y": -176
+      },
+      "tab": "Map 8",
+      "pixel_sha256": "d38e11ff973cd67484f8bb816a9c6865a3ea0436cd6873deff5215014ad3c753",
+      "artwork_sha256": "d02ec3905ac216d75849b213fec9c61b436e856173bbe3d52f994834e19d136d",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 381
+    },
+    {
+      "key": "lebros_cavern_f9",
+      "zone": 63,
+      "floor": 9,
+      "index": 347,
+      "dat": 53339,
+      "name": "Lebros Cavern / Map 9",
+      "region": "halvung_territory",
+      "transform": {
+        "scale": 2,
+        "offset_x": -128,
+        "offset_y": -240
+      },
+      "tab": "Map 9",
+      "pixel_sha256": "d50930643e9135d1c9cc34ce5a74dbf5f4c1c82bfa28e80af77799b5482b70bd",
+      "artwork_sha256": "52469d21222c8e13c507559486d4457e82db2870dfb57530fc2fa3ecbb0ca7da",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 382
+    },
+    {
+      "key": "lebros_cavern_f10",
+      "zone": 63,
+      "floor": 10,
+      "index": 348,
+      "dat": 53340,
+      "name": "Lebros Cavern / Map 10",
+      "region": "halvung_territory",
+      "transform": {
+        "scale": 2,
+        "offset_x": -224,
+        "offset_y": -96
+      },
+      "tab": "Map 10",
+      "pixel_sha256": "c2b63a8c67ff66c16cb7490a7fc9dfb6b3686b25b08194eaf31808d9e4d927d7",
+      "artwork_sha256": "60f90c2ee997397cf7519f34d98246462304ca650aa8c0fa615233e4835c3ad0",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 383
+    },
+    {
+      "key": "navukgo_execution_chamber",
+      "zone": 64,
+      "name": "Navukgo Execution Chamber",
+      "tab": "Navukgo Execution Chamber",
+      "region": "halvung_territory",
+      "status": "uncharted",
+      "overview": "besieged"
+    },
+    {
+      "key": "nashmau",
+      "zone": 53,
+      "floor": 0,
+      "index": 302,
+      "dat": 53302,
+      "name": "Nashmau",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 4,
+        "offset_x": -240,
+        "offset_y": -240
+      },
+      "tab": "Nashmau",
+      "pixel_sha256": "5489114e911e741d16082555ecac58a16003a5f826870108c98eae90c71178f6",
+      "artwork_sha256": "57ad4daa406215a562f521c82e81cbc5329fae349ff1a4e7237c5e9176d50586",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 328
+    },
+    {
+      "key": "arrapago_reef_f1",
+      "zone": 54,
+      "floor": 1,
+      "index": 303,
+      "dat": 53303,
+      "name": "Arrapago Reef / Map 1",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -80,
+        "offset_y": -352
+      },
+      "tab": "Map 1",
+      "pixel_sha256": "7dbb7d0209400071f581e5b8828bcb827e594c2f2474bc1b0b3ce18cd4714a3f",
+      "artwork_sha256": "82f15b8dea21e6fd1a04a46deb658231610745248ec7ccb0e0f530d602520445",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 333
+    },
+    {
+      "key": "arrapago_reef_f2",
+      "zone": 54,
+      "floor": 2,
+      "index": 304,
+      "dat": 53304,
+      "name": "Arrapago Reef / Map 4",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -288,
+        "offset_y": -120
+      },
+      "tab": "Map 4",
+      "pixel_sha256": "206046a3999a7d93d2ccb7de26eda64ee6e26f5e2af27cade56f784aeef25098",
+      "artwork_sha256": "5528549c55c908b2ae6f7268383639ff76c8c874cc60a1aaa7a8f502f36a1f81",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 336
+    },
+    {
+      "key": "arrapago_reef_f3",
+      "zone": 54,
+      "floor": 3,
+      "index": 305,
+      "dat": 53305,
+      "name": "Arrapago Reef / Map 3",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -424,
+        "offset_y": -88
+      },
+      "tab": "Map 3",
+      "pixel_sha256": "9f0c642d7c84e9a962d8a221e9b2dfb24ae719fb220288da5c0f64c2cdf10c96",
+      "artwork_sha256": "5bdb8d6dd009cbb68b5f6488e116cc4954459705959232b57a24dc039dd57111",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "arrapago_reef_f4",
+      "zone": 54,
+      "floor": 4,
+      "index": 306,
+      "dat": 53398,
+      "name": "Arrapago Reef / Map 4",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -32,
+        "offset_y": -336
+      },
+      "tab": "Map 4",
+      "pixel_sha256": "17b6c5e9ad8c731432848d8a9d117d1044078d8a0a22a69bba2bd29a325fe350",
+      "artwork_sha256": "d2594a936e393b1f123b3d7cbfcf178156e4ecbe2eec280bac40b9d704d69453",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "arrapago_reef_f5",
+      "zone": 54,
+      "floor": 5,
+      "index": 307,
+      "dat": 53399,
+      "name": "Arrapago Reef / Map 7",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -272,
+        "offset_y": -288
+      },
+      "tab": "Map 7",
+      "pixel_sha256": "ad3c52fe69edaa83f6b7a8c38864f915c9bf761cdd39ce8363bbee2306bc2f45",
+      "artwork_sha256": "e3735e6a91ee1d5a169ee41387de207d1acb8d1ea17262e3d25aeb91fd0d8d79",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 339
+    },
+    {
+      "key": "arrapago_reef_f6",
+      "zone": 54,
+      "floor": 6,
+      "index": 308,
+      "dat": 53400,
+      "name": "Arrapago Reef / Map 8",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -240,
+        "offset_y": -240
+      },
+      "tab": "Map 8",
+      "pixel_sha256": "b8e4af55e5ee4c4e1950a06c087c89b3b61b9f67c677bbdef7066a815fff659c",
+      "artwork_sha256": "0005ec528a8f04eb0997ca7355953eacf702a99a928dd447d75db42c7732b5a4",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 340
+    },
+    {
+      "key": "arrapago_reef_f7",
+      "zone": 54,
+      "floor": 7,
+      "index": 309,
+      "dat": 53401,
+      "name": "Arrapago Reef / Map 7",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -400,
+        "offset_y": -256
+      },
+      "tab": "Map 7",
+      "pixel_sha256": "4fb0f2c26b9aed76808953f858fe4a2f2cc6cff4ae43adbe0209d95c76005e6b",
+      "artwork_sha256": "a86bc268be34f4a981ca74440319fbbcf711f68eb4b5fd059d573bae188b2b5b",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "arrapago_reef_f8",
+      "zone": 54,
+      "floor": 8,
+      "index": 310,
+      "dat": 53402,
+      "name": "Arrapago Reef / Map 8",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -496,
+        "offset_y": -336
+      },
+      "tab": "Map 8",
+      "pixel_sha256": "4adc555052a676c09a0cf190f2b2a4cb2681697d0ec04ec30b838b2164d7662c",
+      "artwork_sha256": "09177e163578b5bbb993e233029e66e3ed7b1894b728151ab32229f73c4ba923",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "arrapago_reef_f9",
+      "zone": 54,
+      "floor": 9,
+      "index": 311,
+      "dat": 53403,
+      "name": "Arrapago Reef / Map 9",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -392,
+        "offset_y": -104
+      },
+      "tab": "Map 9",
+      "pixel_sha256": "396f754f5d8a2787119fdbe6a5f9fdb89787b3ae0139f2bb32506db0ccb238f7",
+      "artwork_sha256": "8a0111c7a372cb6e4bfa5e373c211c700052b6ef3de82bbf5cb8fedf531ce39c",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "arrapago_reef_f10",
+      "zone": 54,
+      "floor": 10,
+      "index": 312,
+      "dat": 53404,
+      "name": "Arrapago Reef / Map 2",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -224,
+        "offset_y": -384
+      },
+      "tab": "Map 2",
+      "pixel_sha256": "2e4dab3a525611275c60b8c1610b3ed1be71be50c976586ea1b8772aaa97fa37",
+      "artwork_sha256": "172343d55b9e39df07a12ebc751333bc79138fe1ea9b8e11a7340185036134e0",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 334
+    },
+    {
+      "key": "arrapago_reef_f11",
+      "zone": 54,
+      "floor": 11,
+      "index": 313,
+      "dat": 53405,
+      "name": "Arrapago Reef / Map 3",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -416,
+        "offset_y": -336
+      },
+      "tab": "Map 3",
+      "pixel_sha256": "4b0d0813bd780e6574f03384d5fdc6f12fc4ee05f447e18073f771ba6b178b97",
+      "artwork_sha256": "e5b725e83d6bf264cf3d9dd852cc936921c5c4a8ec4763d9cd178734b78c7dbf",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 335
+    },
+    {
+      "key": "ilrusi_atoll_f1",
+      "zone": 55,
+      "floor": 1,
+      "index": 314,
+      "dat": 53306,
+      "name": "Ilrusi Atoll / Map 1",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -448,
+        "offset_y": -160
+      },
+      "tab": "Map 1",
+      "pixel_sha256": "8be5a459d6aa48470196a3a5dc6b6a4702e51f0c5ac88dfc1f4ffc38f3dc42a4",
+      "artwork_sha256": "c7841731384f4cf2123dd47467a9fe24557b4a9f4e5d2416deadd4ce49494a9d",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 408
+    },
+    {
+      "key": "ilrusi_atoll_f2",
+      "zone": 55,
+      "floor": 2,
+      "index": 315,
+      "dat": 53307,
+      "name": "Ilrusi Atoll / Map 2",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -352,
+        "offset_y": -144
+      },
+      "tab": "Map 2",
+      "pixel_sha256": "e9c2aed4fd870480abf669ccbc49260a42213fbbf16cb71947e15537a1b4e268",
+      "artwork_sha256": "0b659de615db27c4cfa5a43a532bd8906a60d31bef27cf71231a40716c4ecb8f",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 409
+    },
+    {
+      "key": "ilrusi_atoll_f3",
+      "zone": 55,
+      "floor": 3,
+      "index": 316,
+      "dat": 53308,
+      "name": "Ilrusi Atoll / Map 3",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -192,
+        "offset_y": -64
+      },
+      "tab": "Map 3",
+      "pixel_sha256": "1f4da615d33f081918bfd08f56570ed5913d87252ef02af78fdd63284852cfa7",
+      "artwork_sha256": "347deb378c1855ea8660bdc4c78e0ed8f01e2ea863eaafd111adac4e13f89820",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 410
+    },
+    {
+      "key": "ilrusi_atoll_f4",
+      "zone": 55,
+      "floor": 4,
+      "index": 317,
+      "dat": 53309,
+      "name": "Ilrusi Atoll / Map 4",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -112,
+        "offset_y": -128
+      },
+      "tab": "Map 4",
+      "pixel_sha256": "cca3adf6147d996d52013749da3d6a879e0cf596ab5b2861344cc3791d611b4b",
+      "artwork_sha256": "cf7e9858b1258fe264f02f3666271772eb7a1c6a187f357a10f05cfa188845c9",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 411
+    },
+    {
+      "key": "ilrusi_atoll_f5",
+      "zone": 55,
+      "floor": 5,
+      "index": 318,
+      "dat": 53310,
+      "name": "Ilrusi Atoll / Map 5",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -240,
+        "offset_y": -192
+      },
+      "tab": "Map 5",
+      "pixel_sha256": "690980d51eb79bb699e723d4a70132569b4b1251e4697080735a3995211f9d48",
+      "artwork_sha256": "f860916ce12d8bcdf45624047fa0c71b9865253a03a8124e1ba0d0bf9f3775d7",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 412
+    },
+    {
+      "key": "ilrusi_atoll_f6",
+      "zone": 55,
+      "floor": 6,
+      "index": 319,
+      "dat": 53311,
+      "name": "Ilrusi Atoll / Map 6",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -288,
+        "offset_y": -272
+      },
+      "tab": "Map 6",
+      "pixel_sha256": "67a4be34e5501651474543b41a342878694401f57cd2e281a476fcde0f8cd12e",
+      "artwork_sha256": "56b73652836bb10f42f05a0f1cc12fe4d2204e910ef4b94d8a36fa52bf4f1e69",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 413
+    },
+    {
+      "key": "ilrusi_atoll_f7",
+      "zone": 55,
+      "floor": 7,
+      "index": 320,
+      "dat": 53312,
+      "name": "Ilrusi Atoll / Map 7",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -144,
+        "offset_y": -320
+      },
+      "tab": "Map 7",
+      "pixel_sha256": "8534271f1196aa02e09d16f15c1e8d4aea242c6d51a79a14052bcc96d2468d49",
+      "artwork_sha256": "531c13ab661551edec8b5a932fc34ceb773c6e3b769794fccf0ed17e1bbdcda4",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 414
+    },
+    {
+      "key": "ilrusi_atoll_f8",
+      "zone": 55,
+      "floor": 8,
+      "index": 321,
+      "dat": 53313,
+      "name": "Ilrusi Atoll / Map 8",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -96,
+        "offset_y": -256
+      },
+      "tab": "Map 8",
+      "pixel_sha256": "34ed3641c68c34c9fa596a822a5aaafada1d5f3670fc150551297351cc4ba5d1",
+      "artwork_sha256": "4a8f89c26ef443ed796f76b6ebe2d0d2c6be92e984411b6353c6307fed3fa1d5",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 415
+    },
+    {
+      "key": "ilrusi_atoll_f9",
+      "zone": 55,
+      "floor": 9,
+      "index": 322,
+      "dat": 53314,
+      "name": "Ilrusi Atoll / Map 9",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -384,
+        "offset_y": -320
+      },
+      "tab": "Map 9",
+      "pixel_sha256": "90c7130fbd1e1f65bb7d729b96bedba8b8044676d7e9fa5e8db740dd91f57629",
+      "artwork_sha256": "af83b31bd451ea4be82a2f0c8d7ee84c2f7a49af9df187738be9047c78ff79f7",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 416
+    },
+    {
+      "key": "ilrusi_atoll_f10",
+      "zone": 55,
+      "floor": 10,
+      "index": 323,
+      "dat": 53315,
+      "name": "Ilrusi Atoll / Map 10",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -240,
+        "offset_y": -384
+      },
+      "tab": "Map 10",
+      "pixel_sha256": "76688250fce62b517887f9e552d49e6ba2ade18b813968fb8813344c140b7a86",
+      "artwork_sha256": "4e6aba2f7a8a713219b8c1c5fd4587cc939c1095289c1e512a0e8a7e33cdbd5a",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 417
+    },
+    {
+      "key": "periqia_f1",
+      "zone": 56,
+      "floor": 1,
+      "index": 324,
+      "dat": 53316,
+      "name": "Periqia / Map 7",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -280,
+        "offset_y": -432
+      },
+      "tab": "Map 7",
+      "pixel_sha256": "d930cafc292483dbc8e4c9037b04638523a4aaa2d111c3ba546c918cb5f0f7f1",
+      "artwork_sha256": "a1c06ba7ea77834fda2d6017fdc4275bea396246c0c81218efa2136134d0bdd0",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 394
+    },
+    {
+      "key": "periqia_f2",
+      "zone": 56,
+      "floor": 2,
+      "index": 325,
+      "dat": 53317,
+      "name": "Periqia / Map 8",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -400,
+        "offset_y": -336
+      },
+      "tab": "Map 8",
+      "pixel_sha256": "aeab49b0896cf647518eb8449ce695acadaeb3e23a216f662cca9b1045f8a6d4",
+      "artwork_sha256": "c89c90037be9e9dd2e44fef2766ca7f0a0423eb6f378647341d3b4bf3e4b0af7",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 395
+    },
+    {
+      "key": "periqia_f3",
+      "zone": 56,
+      "floor": 3,
+      "index": 326,
+      "dat": 53318,
+      "name": "Periqia / Map 9",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -288,
+        "offset_y": -336
+      },
+      "tab": "Map 9",
+      "pixel_sha256": "2bb7c8366f00adcfd3f3c550565c06119727fc373eccd888b6d1f86f7b1d23e4",
+      "artwork_sha256": "3ab32a88d54de13c5c62c8ef45c8393a871fa1b2b2ad3710bc18c7afb77ae0f4",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 396
+    },
+    {
+      "key": "periqia_f4",
+      "zone": 56,
+      "floor": 4,
+      "index": 327,
+      "dat": 53319,
+      "name": "Periqia / Map 10",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -208,
+        "offset_y": -336
+      },
+      "tab": "Map 10",
+      "pixel_sha256": "b8e808a51544831dbc8a3df6b728c6a93afe52f71f1762a7b5189a51420e279e",
+      "artwork_sha256": "36bc0dfe3d06200c9efbd07f3eac6c47bd3875ed5beb00191105a4d20b4e0229",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 397
+    },
+    {
+      "key": "periqia_f5",
+      "zone": 56,
+      "floor": 5,
+      "index": 328,
+      "dat": 53320,
+      "name": "Periqia / Map 1",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -352,
+        "offset_y": -240
+      },
+      "tab": "Map 1",
+      "pixel_sha256": "570cac22258ad195920829737c3a40736cba8fcca01335dd6c7e75d944f09789",
+      "artwork_sha256": "914029223d06d50ef959e670ecc3c1699eb2653fb0d9bc8c1c8972dc245ace77",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 388
+    },
+    {
+      "key": "periqia_f6",
+      "zone": 56,
+      "floor": 6,
+      "index": 329,
+      "dat": 53321,
+      "name": "Periqia / Map 2",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -400,
+        "offset_y": -160
+      },
+      "tab": "Map 2",
+      "pixel_sha256": "8a3418bd41bf7cbf8a2f570232d0a1b08d8b7d864e5b4f83ba0dff153a0c4e5c",
+      "artwork_sha256": "c87e1af14b817f283163a68573d054b5625418d61c85fb7f4089468aaed549a9",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 389
+    },
+    {
+      "key": "periqia_f7",
+      "zone": 56,
+      "floor": 7,
+      "index": 330,
+      "dat": 53322,
+      "name": "Periqia / Map 3",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -302,
+        "offset_y": -192
+      },
+      "tab": "Map 3",
+      "pixel_sha256": "723ba9b94a5ddeea5bdd3fb14403d9076d00a7d8f0f21ab87decac3378fed035",
+      "artwork_sha256": "45b20ecae85c3656596472be5882456ffbbf6509ad7622ff3ef46a26a13cc92e",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 390
+    },
+    {
+      "key": "periqia_f8",
+      "zone": 56,
+      "floor": 8,
+      "index": 331,
+      "dat": 53323,
+      "name": "Periqia / Map 4",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -128,
+        "offset_y": -208
+      },
+      "tab": "Map 4",
+      "pixel_sha256": "d4832ebe357aeb38a444b60c5042e790554a01fcf4765fc2bb3ebd10c3511d17",
+      "artwork_sha256": "d4c23d3dc04d45568bafd95130126ed43992cf2766d9743fdd0188a282bc5125",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 391
+    },
+    {
+      "key": "periqia_f9",
+      "zone": 56,
+      "floor": 9,
+      "index": 332,
+      "dat": 53324,
+      "name": "Periqia / Map 5",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -304,
+        "offset_y": -80
+      },
+      "tab": "Map 5",
+      "pixel_sha256": "4baf02b46ae1337a01d3bdc742dc64e5db47cd5239b07f3a3b61eab47f7e0cc6",
+      "artwork_sha256": "9d783bb9f12735b1cc5834107e9ae9dd5f1bc89b49fe19a8afda77aa64d61aa8",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 392
+    },
+    {
+      "key": "periqia_f10",
+      "zone": 56,
+      "floor": 10,
+      "index": 333,
+      "dat": 53325,
+      "name": "Periqia / Map 6",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 2,
+        "offset_x": -176,
+        "offset_y": -160
+      },
+      "tab": "Map 6",
+      "pixel_sha256": "001825638d6ee55dcc4ee1da5e4d812db178399a89bd6e3b510eaeb085323512",
+      "artwork_sha256": "e129f4d33324c0d2126324d6effa4596814994ac0fbb16ae8bda8fb1ea619587",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 393
+    },
+    {
+      "key": "talacca_cove",
+      "zone": 57,
+      "floor": -1,
+      "name": "Talacca Cove",
+      "tab": "Talacca Cove",
+      "region": "arrapago_islands",
+      "status": "reference_only",
+      "reference_only": true,
+      "asset": "assets/references/aht-354.png",
+      "overview": "besieged",
+      "wiki_map": 354
+    },
+    {
+      "key": "the_ashu_talif",
+      "zone": 60,
+      "name": "The Ashu Talif",
+      "tab": "The Ashu Talif",
+      "region": "arrapago_islands",
+      "status": "uncharted",
+      "overview": "besieged"
+    },
+    {
+      "key": "hazhalm_testing_grounds",
+      "zone": 78,
+      "name": "Hazhalm Testing Grounds",
+      "tab": "Hazhalm Testing Grounds",
+      "region": "arrapago_islands",
+      "status": "uncharted",
+      "overview": "besieged"
+    },
+    {
+      "key": "caedarva_mire_f1",
+      "zone": 79,
+      "floor": 1,
+      "index": 424,
+      "dat": 53394,
+      "name": "Caedarva Mire / Map 1",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 1,
+        "offset_x": -248,
+        "offset_y": -192
+      },
+      "tab": "Map 1",
+      "pixel_sha256": "e25aab46a8f2971ab20913a05e157d266851a9c6f674ce04ac2fc815b04016d3",
+      "artwork_sha256": "3febcc5a60237c9dd8f5466612ad8bd57c7357870bcb760347f248be75f36ce7",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 329
+    },
+    {
+      "key": "caedarva_mire_f2",
+      "zone": 79,
+      "floor": 2,
+      "index": 425,
+      "dat": 53395,
+      "name": "Caedarva Mire / Map 2",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 1,
+        "offset_x": -352,
+        "offset_y": -272
+      },
+      "tab": "Map 2",
+      "pixel_sha256": "b5282e9a89f41bc5c4211332ab97f1136ddd5bb97554a721e4f00cc31deb423a",
+      "artwork_sha256": "fb3d99db5c727ab0a9b07a946ec9e44205186adb5841d9c3da898c7670e841db",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 330
+    },
+    {
+      "key": "caedarva_mire_f3",
+      "zone": 79,
+      "floor": 3,
+      "index": 426,
+      "dat": 53396,
+      "name": "Caedarva Mire / Map 3",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 1,
+        "offset_x": -408,
+        "offset_y": -384
+      },
+      "tab": "Map 3",
+      "pixel_sha256": "81334bf759dd1c251a876330794f6e6db8f58eec59137920afbe011255729ec7",
+      "artwork_sha256": "bdb2ebf9869556f0ddb27e1534c628c01b56e75df7fb00c559e4965d13e1582c",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 331
+    },
+    {
+      "key": "caedarva_mire_f4",
+      "zone": 79,
+      "floor": 4,
+      "index": 427,
+      "dat": 53397,
+      "name": "Caedarva Mire / Map 4",
+      "region": "arrapago_islands",
+      "transform": {
+        "scale": 1,
+        "offset_x": -120,
+        "offset_y": -320
+      },
+      "tab": "Map 4",
+      "pixel_sha256": "97767fc45161679f115b4ce8bdf2b8be9fe99b75999de4f0000cfab44e8bf101",
+      "artwork_sha256": "2d889a4dd4a1f356db730fbb5eb4c011f96005f5c2ac3253cee60e96488c6d0a",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 332
+    },
+    {
+      "key": "alzadaal_undersea_ruins_f1",
+      "zone": 72,
+      "floor": 1,
+      "index": 388,
+      "dat": 53379,
+      "name": "Alzadaal Undersea Ruins / Map 1",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -488,
+        "offset_y": -80
+      },
+      "tab": "Map 1",
+      "pixel_sha256": "6e3b22befd522ffd1e0c9f1f3bcab8d37251ce637f007f6e076a2377d75dc818",
+      "artwork_sha256": "01a652aa959a982b2dbd3ee8cfe4d5849cec3b3e7ddc537e8a334d460f2285a3",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "alzadaal_undersea_ruins_f2",
+      "zone": 72,
+      "floor": 2,
+      "index": 389,
+      "dat": 53380,
+      "name": "Alzadaal Undersea Ruins / Map 2",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -488,
+        "offset_y": -208
+      },
+      "tab": "Map 2",
+      "pixel_sha256": "afb808d9a740e8547fadb2d1fefa9b1437b98302df3d465ff853992680f98232",
+      "artwork_sha256": "b78dedc89f6c638734f455288aeab2eb3946b631fd982674ce5bc7a9279006b7",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "alzadaal_undersea_ruins_f3",
+      "zone": 72,
+      "floor": 3,
+      "index": 390,
+      "dat": 53381,
+      "name": "Alzadaal Undersea Ruins / Map 3",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -8,
+        "offset_y": -160
+      },
+      "tab": "Map 3",
+      "pixel_sha256": "14de73b1a36d3847b2533ae5377b646273118f80b28ac3002ed2fad2f722c72a",
+      "artwork_sha256": "a917f4e294dd0ffd9178969ee74d1d9f02d460ddb299ad89fe6c080d0b9f6e06",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "alzadaal_undersea_ruins_f4",
+      "zone": 72,
+      "floor": 4,
+      "index": 391,
+      "dat": 53382,
+      "name": "Alzadaal Undersea Ruins / Map 4",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -24,
+        "offset_y": -448
+      },
+      "tab": "Map 4",
+      "pixel_sha256": "24da11a35803ce4cde96b218ec4820a4e2cf8303d0f24313ecc95838d2488474",
+      "artwork_sha256": "22cf739ab0710e6a00d80ef0ee70fc2d346f63baa2a7ca5f1f01d86fb06b22ca",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "alzadaal_undersea_ruins_f5",
+      "zone": 72,
+      "floor": 5,
+      "index": 392,
+      "dat": 53383,
+      "name": "Alzadaal Undersea Ruins / Map 5",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -248,
+        "offset_y": -280
+      },
+      "tab": "Map 5",
+      "pixel_sha256": "fcced24d3b99429bde44064accaf7aff4586027a827d202e1684c758e381e870",
+      "artwork_sha256": "0d8c4bae99ba409c993d4fc3ab390ef27ff55b4a51e7f0683c69d807b3bbdc16",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 313
+    },
+    {
+      "key": "alzadaal_undersea_ruins_f6",
+      "zone": 72,
+      "floor": 6,
+      "index": 393,
+      "dat": 53408,
+      "name": "Alzadaal Undersea Ruins / Map 6",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -328,
+        "offset_y": -24
+      },
+      "tab": "Map 6",
+      "pixel_sha256": "538f5dc4778c4554c17577264013fb229f12616b0fd43d2c9df4be61f05d3932",
+      "artwork_sha256": "fc05ffd73e4c25f0fcb6af97126d75d017f8f50ec36f015f19d0fdbe61092455",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 314
+    },
+    {
+      "key": "alzadaal_undersea_ruins_f7",
+      "zone": 72,
+      "floor": 7,
+      "index": 394,
+      "dat": 53409,
+      "name": "Alzadaal Undersea Ruins / Map 7",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -376,
+        "offset_y": -328
+      },
+      "tab": "Map 7",
+      "pixel_sha256": "f3daed47746290c652c4105380e0770eeee995cceb4534d4fe0eb184102cbd53",
+      "artwork_sha256": "433bc8aa30ab0f340c91e0db2e0e4e27c80715ff23f6861d076ad7d7cbd778cd",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 315
+    },
+    {
+      "key": "alzadaal_undersea_ruins_f8",
+      "zone": 72,
+      "floor": 8,
+      "index": 395,
+      "dat": 53410,
+      "name": "Alzadaal Undersea Ruins / Map 8",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -88,
+        "offset_y": -24
+      },
+      "tab": "Map 8",
+      "pixel_sha256": "ce5ec83378ffa286149e2c36c882327f53056ef03c680d5830518b9aa5ce6b81",
+      "artwork_sha256": "6de620fe9e85baa52c2e8f7256ed3bb67109c0d1ce2be285f276f85a8db88d37",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 316
+    },
+    {
+      "key": "alzadaal_undersea_ruins_f9",
+      "zone": 72,
+      "floor": 9,
+      "index": 396,
+      "dat": 53411,
+      "name": "Alzadaal Undersea Ruins / Map 9",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -136,
+        "offset_y": -504
+      },
+      "tab": "Map 9",
+      "pixel_sha256": "7c85a1bd2f337ca4302e0e9725b27e6f1fe2c5184546a7dfa78c37d8ab405659",
+      "artwork_sha256": "075571949e79aaf60222062acc4b145f281c0acbc5eb98b364f67f15afe239c2",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 317
+    },
+    {
+      "key": "alzadaal_undersea_ruins_f10",
+      "zone": 72,
+      "floor": 10,
+      "index": 397,
+      "dat": 53412,
+      "name": "Alzadaal Undersea Ruins / Map 10",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -232,
+        "offset_y": -568
+      },
+      "tab": "Map 10",
+      "pixel_sha256": "f87be4eaa793281eacbb27d9aebcd7bbadd3a53dbac9ea91186f08e08bd202e6",
+      "artwork_sha256": "d1c390d86a8da93a75079e11124f215262330cdc39ab9b49f3185dc41b58c187",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 318
+    },
+    {
+      "key": "alzadaal_undersea_ruins_f11",
+      "zone": 72,
+      "floor": 11,
+      "index": 398,
+      "dat": 53413,
+      "name": "Alzadaal Undersea Ruins / Map 11",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -200,
+        "offset_y": -24
+      },
+      "tab": "Map 11",
+      "pixel_sha256": "aa35eb57f63cc894e679b5b8eaf95e0cccf86e9af2098a1a8e0932a24c3ef80a",
+      "artwork_sha256": "52be331cc2a35319e70b3cebe1ccd3cccdb14716106f641a4d44b93f27979bba",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "alzadaal_undersea_ruins_f12",
+      "zone": 72,
+      "floor": 12,
+      "index": 399,
+      "dat": 53414,
+      "name": "Alzadaal Undersea Ruins / Map 12",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -424,
+        "offset_y": -472
+      },
+      "tab": "Map 12",
+      "pixel_sha256": "79702578adcb6237f56bee4130f8e751810e8dcb431ffc0a258c8d328da8e56c",
+      "artwork_sha256": "8949f0cf885ca99b896b1fcfc2178e48d530510d119df6b9a923bcaf88059e75",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "zhayolm_remnants_f1",
+      "zone": 73,
+      "floor": 1,
+      "index": 400,
+      "dat": 53417,
+      "name": "Zhayolm Remnants / Map 1",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -104,
+        "offset_y": -104
+      },
+      "tab": "Map 1",
+      "pixel_sha256": "5586de809ce6445916cd60847f77eeca454fc16cec5d579582c17723aa6c77c3",
+      "artwork_sha256": "5f16de4f3b0c9b1ed10e913b1dec6566d79f23a430940d28c02581ce33b75b08",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 367
+    },
+    {
+      "key": "zhayolm_remnants_f2",
+      "zone": 73,
+      "floor": 2,
+      "index": 401,
+      "dat": 53418,
+      "name": "Zhayolm Remnants / Map 2",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -120,
+        "offset_y": -232
+      },
+      "tab": "Map 2",
+      "pixel_sha256": "a7947898ce9e56bea513e1491df0b855005bc8517cc7ae3721d86c2cdc40dac3",
+      "artwork_sha256": "7cce09974c2d68ec2352ae5377a12e8419024e969cab7075e1ba366236421aaf",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "zhayolm_remnants_f3",
+      "zone": 73,
+      "floor": 3,
+      "index": 402,
+      "dat": 53419,
+      "name": "Zhayolm Remnants / Map 3",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -104,
+        "offset_y": -456
+      },
+      "tab": "Map 3",
+      "pixel_sha256": "99f8f3297ec316d29637f662e100cb744a4bf40f160d07784e286d721302175e",
+      "artwork_sha256": "97ae01bf4b01247e0d9291929aad92e3b3859487ec8a5f3174b78055bf80a919",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 369
+    },
+    {
+      "key": "zhayolm_remnants_f4",
+      "zone": 73,
+      "floor": 4,
+      "index": 403,
+      "dat": 53420,
+      "name": "Zhayolm Remnants / Map 4",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -392,
+        "offset_y": -40
+      },
+      "tab": "Map 4",
+      "pixel_sha256": "0bc43d3a972b38515fb17f26e5cc1724991393fc9ef231fd47fb347c1c019712",
+      "artwork_sha256": "2f7ff6a8b7fa9463116b0b31577e554a8d9f51964863a0b80f1b3d79c0d82041",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "zhayolm_remnants_f5",
+      "zone": 73,
+      "floor": 5,
+      "index": 404,
+      "dat": 53421,
+      "name": "Zhayolm Remnants / Map 5",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -392,
+        "offset_y": -216
+      },
+      "tab": "Map 5",
+      "pixel_sha256": "1967331999840b954285f224cd3154ff69131fc1d6ad17256622c81b4f1d3cfd",
+      "artwork_sha256": "87543ff9f3b281ad591cf5635f3700e53c47c4cda557dd8975386973139000dd",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "zhayolm_remnants_f6",
+      "zone": 73,
+      "floor": 6,
+      "index": 405,
+      "dat": 53422,
+      "name": "Zhayolm Remnants / Map 6",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -392,
+        "offset_y": -336
+      },
+      "tab": "Map 6",
+      "pixel_sha256": "aa5bd2d967fc49f6c4a576accc71881a1bbaf211dfd71466beedb45e39961e23",
+      "artwork_sha256": "529aa931f376d7b5ae58ede056a0e92d910af133defed0ab3a661b2fb9ff8b03",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "zhayolm_remnants_f7",
+      "zone": 73,
+      "floor": 7,
+      "index": 406,
+      "dat": 53423,
+      "name": "Zhayolm Remnants / Map 7",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -392,
+        "offset_y": -448
+      },
+      "tab": "Map 7",
+      "pixel_sha256": "f0c272f9ab11f4fdf6078cf15bb47d9828159925f935a514adecc7af4db5705e",
+      "artwork_sha256": "582be39129acf00214064651ada6cfb922b1affb6c2e83100b60bb0ec37cff73",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 373
+    },
+    {
+      "key": "arrapago_remnants_f1",
+      "zone": 74,
+      "floor": 1,
+      "index": 407,
+      "dat": 53424,
+      "name": "Arrapago Remnants / Map 1",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -104,
+        "offset_y": -104
+      },
+      "tab": "Map 1",
+      "pixel_sha256": "13c4b57a8808acbbfdf5af9abd9f757dedfbc08d9ad4f0174a1ab9faf20e3fc4",
+      "artwork_sha256": "4e10bd26bf876982f3e8b1c70f238026029f10384151935142f36d2a58f54dba",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 360
+    },
+    {
+      "key": "arrapago_remnants_f2",
+      "zone": 74,
+      "floor": 2,
+      "index": 408,
+      "dat": 53425,
+      "name": "Arrapago Remnants / Map 2",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -120,
+        "offset_y": -296
+      },
+      "tab": "Map 2",
+      "pixel_sha256": "f072283c77cb1ee0a52dcd86708b414d4ff37c426b36fd18b5aa4ee2ecfdfeec",
+      "artwork_sha256": "7f687333d22af5526831bbb027d093530ffb7a944cc0bf05a2b36fe946e7536f",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "arrapago_remnants_f3",
+      "zone": 74,
+      "floor": 3,
+      "index": 409,
+      "dat": 53426,
+      "name": "Arrapago Remnants / Map 3",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -104,
+        "offset_y": -456
+      },
+      "tab": "Map 3",
+      "pixel_sha256": "d18eb4847c64fb0aedd4e3deb2982db61bc0caac8844d3cb0074d5f1cc6562ba",
+      "artwork_sha256": "836607d7883a158424c64204d3529a628654b746f5093d3386cbf53a28ef53bd",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "arrapago_remnants_f4",
+      "zone": 74,
+      "floor": 4,
+      "index": 410,
+      "dat": 53427,
+      "name": "Arrapago Remnants / Map 4",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -392,
+        "offset_y": -40
+      },
+      "tab": "Map 4",
+      "pixel_sha256": "8d43e9d68e04b0966a4b362a81f670b448d1ce4a764d357c558d4ebc2d89a4f8",
+      "artwork_sha256": "d7aa45b3e573c19cc8dc0ac50fc476bbaec852487a7da9e4ea4f41957abc9693",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "arrapago_remnants_f5",
+      "zone": 74,
+      "floor": 5,
+      "index": 411,
+      "dat": 53428,
+      "name": "Arrapago Remnants / Map 5",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -392,
+        "offset_y": -216
+      },
+      "tab": "Map 5",
+      "pixel_sha256": "e96eef93aa95c20ec66009924b0a670c2b71133ac9c8ad8566f5493c833b4415",
+      "artwork_sha256": "9f13ce469747996f1900625ebce6d23a5f5b45ca27c4173f563c9ac9c5eb6966",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "arrapago_remnants_f6",
+      "zone": 74,
+      "floor": 6,
+      "index": 412,
+      "dat": 53429,
+      "name": "Arrapago Remnants / Map 6",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -392,
+        "offset_y": -320
+      },
+      "tab": "Map 6",
+      "pixel_sha256": "688e25bd1f9f09528a78dd2dba5fd60ebda4296d9728fb8324ba967cc57d48cd",
+      "artwork_sha256": "f140a1b0a0b6268d991d34f430e206cb701a277fcf9570520c99c66a75a0270d",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "arrapago_remnants_f7",
+      "zone": 74,
+      "floor": 7,
+      "index": 413,
+      "dat": 53430,
+      "name": "Arrapago Remnants / Map 7",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -392,
+        "offset_y": -464
+      },
+      "tab": "Map 7",
+      "pixel_sha256": "1057a705c1a48007a02d3f32f551796e18b34636436bf2355b29e693a124e118",
+      "artwork_sha256": "a52279344de8e37c35be5582ce1de60be023b5ce9b30774a5588f92c693c918b",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "bhaflau_remnants_f1",
+      "zone": 75,
+      "floor": 1,
+      "index": 414,
+      "dat": 53431,
+      "name": "Bhaflau Remnants / Map 1",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -120,
+        "offset_y": -136
+      },
+      "tab": "Map 1",
+      "pixel_sha256": "e3387414837647e9f6c1fd564ff7f8409c95e70ff581914a0f9fb901f9b8fd93",
+      "artwork_sha256": "9e072ec933b7d1efa1370bb12e8bebaedfbae0cecdf0e7739e480e536674950e",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 418
+    },
+    {
+      "key": "bhaflau_remnants_f2",
+      "zone": 75,
+      "floor": 2,
+      "index": 415,
+      "dat": 53432,
+      "name": "Bhaflau Remnants / Map 2",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -120,
+        "offset_y": -376
+      },
+      "tab": "Map 2",
+      "pixel_sha256": "45caa4cb8ce0ee5982cccebee615930fd67f41c9f95444c16b28fce56c2eca7c",
+      "artwork_sha256": "e901853771f984d601af523a5a3e413a7bf4904c160a67398da34519fd5117eb",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 419
+    },
+    {
+      "key": "bhaflau_remnants_f3",
+      "zone": 75,
+      "floor": 3,
+      "index": 416,
+      "dat": 53433,
+      "name": "Bhaflau Remnants / Map 3",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -392,
+        "offset_y": -88
+      },
+      "tab": "Map 3",
+      "pixel_sha256": "b3ca6e721726b2a2b264fa1cc7ac71eac14b541c64a67f21c550136563398df0",
+      "artwork_sha256": "91f2c070fa1135915e2530b00a7df884b13b868a5014bb229904a4f84cd9b330",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 420
+    },
+    {
+      "key": "bhaflau_remnants_f4",
+      "zone": 75,
+      "floor": 4,
+      "index": 417,
+      "dat": 53434,
+      "name": "Bhaflau Remnants / Map 4",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -392,
+        "offset_y": -288
+      },
+      "tab": "Map 4",
+      "pixel_sha256": "e248f3d4d45b872dfb69fe1adbe649ba9a35b545f5b4887614c36995c65c1a0b",
+      "artwork_sha256": "72aa2d7ce00fd7a989c3c63bceed81ff74a3ece82274a1e53abcc931e9c1b19f",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "bhaflau_remnants_f5",
+      "zone": 75,
+      "floor": 5,
+      "index": 418,
+      "dat": 53435,
+      "name": "Bhaflau Remnants / Map 5",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -392,
+        "offset_y": -432
+      },
+      "tab": "Map 5",
+      "pixel_sha256": "47dcf83f4fa2df7c8334a65f3d99e3b19086c6ce9c494aafd53a953266ba7704",
+      "artwork_sha256": "23a5d45fedf93e2e2bcacf21eb75709a0a89025548414cf62eb6d42a5745ff2c",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 422
+    },
+    {
+      "key": "silver_sea_remnants_f1",
+      "zone": 76,
+      "floor": 1,
+      "index": 419,
+      "dat": 53436,
+      "name": "Silver Sea Remnants / Map 1",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -120,
+        "offset_y": -120
+      },
+      "tab": "Map 1",
+      "pixel_sha256": "d7a63966e3393f8610d487a14d8459605cc4ef294820cb91222199807d522d00",
+      "artwork_sha256": "f2ce4e0bf8b3a40ed2b85c2808b73447c6ca460e0f3032596a037a76d68092d6",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 355
+    },
+    {
+      "key": "silver_sea_remnants_f2",
+      "zone": 76,
+      "floor": 2,
+      "index": 420,
+      "dat": 53437,
+      "name": "Silver Sea Remnants / Map 2",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -120,
+        "offset_y": -440
+      },
+      "tab": "Map 2",
+      "pixel_sha256": "64eb4ff0f268967dda9a9c5a11f2955de5e6360c001539a9a2e8834564841ce5",
+      "artwork_sha256": "746276ffb0ab042df258058dec0f140d7b215b9177b0ae1795bf1c4b59e7a3bf",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 356
+    },
+    {
+      "key": "silver_sea_remnants_f3",
+      "zone": 76,
+      "floor": 3,
+      "index": 421,
+      "dat": 53438,
+      "name": "Silver Sea Remnants / Map 3",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -392,
+        "offset_y": -104
+      },
+      "tab": "Map 3",
+      "pixel_sha256": "b78a9de5523774696317f63d1e3f449d386ec540de47ea7201618ff17a55692a",
+      "artwork_sha256": "cd8911ca2130f8c0bcf50780028e434058ccc39f11d0796b624b20284a60ddeb",
+      "status": "native_verified",
+      "overview": "besieged",
+      "wiki_map": 357
+    },
+    {
+      "key": "silver_sea_remnants_f4",
+      "zone": 76,
+      "floor": 4,
+      "index": 422,
+      "dat": 53439,
+      "name": "Silver Sea Remnants / Map 4",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -392,
+        "offset_y": -304
+      },
+      "tab": "Map 4",
+      "pixel_sha256": "c6ad06da92e8657eba0c4bdd8b53e3c64deb5ef646a659c1d78ad29eec375260",
+      "artwork_sha256": "c06acb933d8fe163b23c905dde8d9fc215eec4138b729477da58ce7caa4f22ea",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "silver_sea_remnants_f5",
+      "zone": 76,
+      "floor": 5,
+      "index": 423,
+      "dat": 53440,
+      "name": "Silver Sea Remnants / Map 5",
+      "region": "ruins_of_alzadaal",
+      "transform": {
+        "scale": 2,
+        "offset_x": -392,
+        "offset_y": -512
+      },
+      "tab": "Map 5",
+      "pixel_sha256": "a4d30d7390a025577665bef64ff0e419d20810384ba9c132edc809eb31f50e59",
+      "artwork_sha256": "a8df9b50e534cb1e5275019fdb474e32169155a8f3d26edd09199319f1b35121",
+      "status": "native_verified",
+      "overview": "besieged"
+    },
+    {
+      "key": "nyzul_isle_reference_1",
+      "zone": 77,
+      "floor": -1,
+      "name": "Nyzul Isle / Map 1",
+      "tab": "Map 1",
+      "region": "ruins_of_alzadaal",
+      "status": "reference_only",
+      "reference_only": true,
+      "asset": "assets/references/aht-319.png",
+      "overview": "besieged",
+      "wiki_map": 319
+    },
+    {
+      "key": "nyzul_isle_reference_2",
+      "zone": 77,
+      "floor": -2,
+      "name": "Nyzul Isle / Map 2",
+      "tab": "Map 2",
+      "region": "ruins_of_alzadaal",
+      "status": "reference_only",
+      "reference_only": true,
+      "asset": "assets/references/aht-320.png",
+      "overview": "besieged",
+      "wiki_map": 320
+    },
+    {
+      "key": "nyzul_isle_reference_3",
+      "zone": 77,
+      "floor": -3,
+      "name": "Nyzul Isle / Map 3",
+      "tab": "Map 3",
+      "region": "ruins_of_alzadaal",
+      "status": "reference_only",
+      "reference_only": true,
+      "asset": "assets/references/aht-321.png",
+      "overview": "besieged",
+      "wiki_map": 321
+    },
+    {
+      "key": "nyzul_isle_reference_4",
+      "zone": 77,
+      "floor": -4,
+      "name": "Nyzul Isle / Map 4",
+      "tab": "Map 4",
+      "region": "ruins_of_alzadaal",
+      "status": "reference_only",
+      "reference_only": true,
+      "asset": "assets/references/aht-322.png",
+      "overview": "besieged",
+      "wiki_map": 322
+    },
+    {
+      "key": "nyzul_isle_reference_5",
+      "zone": 77,
+      "floor": -5,
+      "name": "Nyzul Isle / Map 5",
+      "tab": "Map 5",
+      "region": "ruins_of_alzadaal",
+      "status": "reference_only",
+      "reference_only": true,
+      "asset": "assets/references/aht-323.png",
+      "overview": "besieged",
+      "wiki_map": 323
+    },
+    {
+      "key": "nyzul_isle_reference_6",
+      "zone": 77,
+      "floor": -6,
+      "name": "Nyzul Isle / Map 6",
+      "tab": "Map 6",
+      "region": "ruins_of_alzadaal",
+      "status": "reference_only",
+      "reference_only": true,
+      "asset": "assets/references/aht-324.png",
+      "overview": "besieged",
+      "wiki_map": 324
+    },
+    {
+      "key": "nyzul_isle_reference_7",
+      "zone": 77,
+      "floor": -7,
+      "name": "Nyzul Isle / Map 7",
+      "tab": "Map 7",
+      "region": "ruins_of_alzadaal",
+      "status": "reference_only",
+      "reference_only": true,
+      "asset": "assets/references/aht-325.png",
+      "overview": "besieged",
+      "wiki_map": 325
+    },
+    {
+      "key": "nyzul_isle_reference_8",
+      "zone": 77,
+      "floor": -8,
+      "name": "Nyzul Isle / Map 8",
+      "tab": "Map 8",
+      "region": "ruins_of_alzadaal",
+      "status": "reference_only",
+      "reference_only": true,
+      "asset": "assets/references/aht-326.png",
+      "overview": "besieged",
+      "wiki_map": 326
+    }
+  ]
+}

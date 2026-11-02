@@ -1,4 +1,4 @@
-# Atlas 0.7.0: Connected world and 18-region deterministic map catalog
+# Atlas 0.8.7: Connected world and Aht Urhgan
 
 For continuation context, current limitations and build/check instructions, see
 [HANDOFF.md](HANDOFF.md).
@@ -9,9 +9,11 @@ Boussole does not need to be loaded. No startup scripts or other addons are chan
 ## Open it
 
 Run `/addon load atlas`, or `/addon reload atlas` if an older version is loaded.
-Atlas opens to your current zone and floor, centered on you, on load and whenever
-you reopen it with `/atlas` or `/atlas show`. Areas outside this prototype fall
+Atlas starts hidden when loaded or reloaded. Open it with `/atlas` or `/atlas show`
+to see your current zone and floor, centered on you. Areas outside this prototype fall
 back to the world map. Area-name commands focus that part of the world canvas.
+Opening Atlas brings it in front of ordinary addon windows. Menus opened afterward
+can stay in front until you return to the map.
 
 - Zoom and pan the world map, then click a supported zone banner to open its map.
   Region names are part of the artwork; there is no separate region screen.
@@ -33,32 +35,90 @@ back to the world map. Area-name commands focus that part of the world canvas.
   Right-clicking the world zooms out around the pointer.
   Extra mouse buttons go Back/Forward. Locate centers on you; Fit restores the full view.
 - Party / Alliance toggles are always available. Names and Reload maps are under `...`.
+  On the world map, location pips sit beside zone labels at close zoom; region
+  titles never carry a player or party marker.
 
 ## Points of interest
 
-Boats and airships have distinct map icons. Toggle **Boats** and **Airships**
-independently under **... → Points of interest**. Region names remain passive.
+Boats, airships, outposts and teleports have distinct map icons. Toggle each
+category independently under **... → Points of interest**. Region names remain passive.
+Gemini's outpost and six teleport markers are included on the world and native
+zone maps; click one for its requirements and location. The declared Tu'Lia outpost
+is unsupported and remains an open review finding.
+Outpost flags use live Conquest ownership: red for San d'Oria, blue for Bastok,
+green for Windurst, amber for Beastmen, and gray until ownership is known. Hover
+an outpost to see the owner. Atlas requests Conquest data on load and after zoning;
+it does not infer control from geography.
 
-- The first routes are **Selbina ↔ Mhaura** and **Jeuno ↔ San d'Oria / Bastok /
-  Windurst / Kazham**. Seven world transport hubs represent ten route endpoints.
+- Routes include **Selbina ↔ Mhaura ↔ Whitegate ↔ Nashmau** and **Jeuno ↔ San
+  d'Oria / Bastok / Windurst / Kazham**, plus **Bibiki Bay ↔ Purgonorgo Isle**
+  by Manaclipper: eight routes across eleven hubs.
 - Hover a world icon to see its destinations and highlight its transport links.
   Click it to open the port map; Jeuno's four services share one world icon.
-- Nine boarding points are shown on the supported zone maps (including Port Windurst
-  and Kazham). Click a dock icon to choose its destination; the destination map opens
-  centered on its dock.
-- Mhaura's ferry dock currently has a world location only because the wiki's Mhaura
-  map record (`14.json`) omits a boarding pulse for Selbina (`161`). Choosing Mhaura
-  from Selbina centers the world map on Mhaura and highlights its transport marker,
-  while clicking Mhaura's world hub opens the Mhaura zone map.
+- Fifteen distinct dock icons represent sixteen route endpoints. Click a dock
+  to choose its destination; the destination map opens centered on its dock.
+  Mhaura's shared boarding point offers both Selbina and Whitegate.
 - Route details show the ticket/pass requirement. They do not report character
   pass ownership, fares or live departures. Map clicks only browse locations.
+
+### Correct POI locations
+
+Open `/atlas poi` or **... → Edit points of interest**. Drag a marker to move it;
+drag empty space to pan. The world overview and zone-map positions are independent.
+Shared docks move all their services together; world anchors are shared by town.
+
+- Select any POI in the searchable editor list. **View zone** / **View world**
+  finds it, including hidden markers.
+- **Place on map** lets you click a new position on the current map. To correct a
+  floor or zone, choose that map in Areas first, then place the selected POI there.
+- **Use my position** places it at your character on the currently displayed zone
+  map, when a matching position is available.
+- **Hide POI** removes an incorrect entry from normal browsing; the editor retains
+  it with a slash so you can show it again. **Undo POI** reverses a change.
+  **Reset POI** restores the selected world anchor or zone entry to its shipped value.
+- **Save POIs** saves your changes. **Done editing POIs** saves and leaves the editor.
+  **Copy corrections** saves and copies the corrections; paste them into chat to
+  hand them back for review and inclusion in the addon.
+
+Corrections reload automatically and also save on addon unload. The portable file is
+`config/addons/atlas/poi-corrections.json` under the Game folder, with a `.bak` of
+the preceding valid save. Generated source data and manual exit areas are separate.
+Unsaved changes are marked in the editor. Right click cancels a placement or drag.
+
+### Correct world zone selectors
+
+The latest 60 saved selector corrections are included as shipped defaults.
+Purgonorgo Isle has its own banner selector, opening Bibiki Bay Map 2.
+Generated zone names use Georgia Bold lettering that scales with the map zoom
+(10–24 px), with wrapped long names and matching measured hit areas. Labels shrink
+on wider views and cap their size at close zoom to leave room around nearby features. The Windows font is loaded once when Atlas loads;
+if unavailable, enlarged default lettering is used.
+
+Open `/atlas selectors`, **... → Edit world zone selectors**, or **Zone selectors**
+from the POI editor. Search for a zone in the selector list; choosing it centers
+the world on its click area. This works for both the main world and Besieged.
+
+- Drag a box to move its click area, or drag a corner to resize it.
+- **Draw selector** lets you draw a replacement box around the printed zone name.
+  Drag empty space to pan; wheel zooms; right click cancels a drag/draw.
+- **Undo selector** reverses a change. **Reset selector** restores the shipped box.
+- **Copy selectors** saves and copies the corrections; paste them into chat to
+  hand them back. **Done with selectors** saves and returns to normal browsing.
+- **POIs** switches back to POI editing. POI icons are hidden while editing zone
+  selectors so they cannot intercept clicks. Region names remain passive.
+
+Changes apply immediately to zone selection and the world return camera. The
+existing printed map artwork stays in place; supplementary Besieged labels follow
+their selector centers. The separate save is
+`config/addons/atlas/world-selectors.json`, with a `.bak` of the last valid save.
+The addon loads it automatically and saves pending changes on unload.
 
 `src/pois.lua` indexes categories, locations and links independently of walking
 exits. Additions are declared in `annotations/poi/transport.json`; the offline
 `tools/build_pois.py` projects cached wiki boarding pulses through the installed
 native map transforms into `data/pois.lua`. World anchors identify towns and are
 measured on the connected artwork. `annotations/poi/build.json` retains source
-links, fingerprints and the remaining world-only dock fallback. No new textures or runtime
+links and fingerprints. No additional POI textures or runtime
 network requests are needed. Run:
 
 ```text
@@ -76,19 +136,64 @@ Commands: `/atlas`, `/atlas show`, `/atlas hide`, `/atlas world`,
 `/atlas gustaberg`, `/atlas derfland`, `/atlas valdeaunia`, `/atlas vollbow`,
 `/atlas qufim`, `/atlas aragoneu`, `/atlas kolshushu`, `/atlas sarutabaruta`,
 `/atlas litelor`, `/atlas tulia`, `/atlas kuzotz`, `/atlas elshimo_lowlands`,
-`/atlas elshimo_uplands`, `/atlas tavnazian_archipelago`,
-`/atlas here`, `/atlas edit`. Unload with `/addon unload atlas`.
+`/atlas elshimo_uplands`, `/atlas tavnazian_archipelago`, `/atlas besieged`,
+`/atlas here`, `/atlas edit`, `/atlas poi`, `/atlas selectors`. Unload with `/addon unload atlas`.
 
 ## Multi-region deterministic expansion
 
 Fourteen expansion regions (**Gustaberg, Derfland, Valdeaunia, Vollbow, Qufim,
 Aragoneu, Kolshushu, Sarutabaruta, Li'Telor, Tu'Lia, Kuzotz, Elshimo Lowlands,
 Elshimo Uplands, and Tavnazian Archipelago**) add **196 native maps and 338 passage
-pairs**, including Bastok, Jeuno, Windurst, and Kazham districts. The complete catalog
-now has **236 maps and 394 passages** across all **18 regions**, with **596 published
+pairs**, including Bastok, Jeuno, Windurst, and Kazham districts. This Middle Lands set
+has **236 map entries and 394 passages** across **18 regions**, with **596 published
 polygon click areas** in `data/expanded_hotspots.lua` (plus **117** in
 `data/wiki_hotspots.lua`). Their zone banners are clickable on the continuous world
 map. Existing reviewed passages and manual click-area adjustments retain their behavior.
+
+## Aht Urhgan / Besieged
+
+The installed game's **Besieged** menu map (`ROM/161/34.DAT`, file ID 53416) is
+displayed beside the existing world artwork. `/atlas besieged` centers that sheet;
+zoom in to see clickable zone labels. Region names remain passive. Labels are
+overview anchors grouped by region, not a geographic stitch of the zone maps.
+
+The expansion adds all **129 validated native maps** in the original Treasures
+map block, **9 reference charts** (Talacca Cove and eight Nyzul Isle layouts), and
+four explicitly uncharted locations (Jade Sepulcher, Navukgo Execution Chamber,
+The Ashu Talif and Hazhalm Testing Grounds). Its six groups are West Aht Urhgan,
+Mamool Ja Savagelands, Halvung Territory, Arrapago Islands, Ruins of Alzadaal and
+Western Aradjiah's sea routes. There are **70 accepted zone connections**, including
+explicitly labeled runic-portal and reference-map links.
+
+The combined browser now contains **378 entries**: 364 native maps, 9 reference
+charts and 5 uncharted areas, with **464 zone connections**. Reference charts do
+not claim native floor identification or precise player positions. Instanced and
+uncharted areas with no supported entrance evidence remain without guessed links.
+
+Sources and held cases are in `annotations/aht-urhgan/`. The native inventory is
+independent of wiki alias matching: uncertain aliases hold connection tagging,
+not access to installed maps. Whitegate's identical-art native variants are
+disambiguated by the installed transforms and the pinned Al Zahbi zone line.
+Mhaura's previously missed dock is explicitly supplied by the wiki's shared
+`multiple.links` ferry record. Source correlation is not live Horizon verification.
+
+```text
+python addons/atlas/tools/expand_aht_urhgan.py fetch
+python addons/atlas/tools/expand_aht_urhgan.py build
+python addons/atlas/tools/build_world_art.py
+python addons/atlas/tools/build_pois.py
+python addons/atlas/tests/test_aht_urhgan.py
+```
+
+`fetch` caches public inputs; subsequent builds run offline. Reference image
+fingerprints/credits are in `assets/references/SOURCES.json`. The Besieged base is
+read from the installed game at runtime, preserving normal DAT redirection.
+
+The review of Gemini's preceding definitions is recorded in
+[`GEMINI_REVIEW.md`](annotations/reviews/GEMINI_REVIEW.md). Its Middle Lands banner
+placement finding is resolved by the user's selector handback. Delkfutt connectivity
+and the unsupported Tu'Lia outpost remain open; the Aht Urhgan expansion does
+not claim to fix them.
 
 The expansion uses cached wiki entrance data and pinned LandSandBoat zone-line
 records, without agents or model calls. Native floor aliases require validated

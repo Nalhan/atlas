@@ -1,7 +1,7 @@
 -- User-authored click areas stay separate from generated passage coordinates.
 local H={}
 local imported={}
-for _,source in ipairs({require('data.wiki_hotspots'),require('data.expanded_hotspots')}) do
+for _,source in ipairs({require('data.wiki_hotspots'),require('data.expanded_hotspots'),require('data.aht_hotspots')}) do
     for map,entries in pairs(source) do
         imported[map]=imported[map] or {}
         for id,entry in pairs(entries) do imported[map][id]=entry end

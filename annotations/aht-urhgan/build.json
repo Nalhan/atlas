@@ -1,0 +1,19 @@
+{
+  "regions": [
+    "western_aradjiah",
+    "west_aht_urhgan",
+    "mamool_ja_savagelands",
+    "halvung_territory",
+    "arrapago_islands",
+    "ruins_of_alzadaal"
+  ],
+  "native_maps": 129,
+  "uncharted_zones": 4,
+  "reference_maps": 9,
+  "passages": 70,
+  "held_aliases": 22,
+  "held_connections": 74,
+  "sources_sha256": "cdc395c53ffca2a36dd140ceaf5501dc2be98db7b944596ed321e960dad37c21",
+  "output_sha256": "cf2245f0fc4ae72511ef5ef9478fbb1fbbfa2bd6984a4508f45ce6d19f6b1fc7",
+  "traversal_verified": false
+}

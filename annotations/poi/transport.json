@@ -1,24 +1,59 @@
 {
   "schema_version": 1,
-  "description": "First transport POIs: four Jeuno airship services and the Selbina-Mhaura ferry. World anchors mark transport towns, not precise boarding positions.",
+  "description": "Transport POIs, Conquest Outposts, and Crag Telepoints across the world and native zone maps.",
   "categories": [
     {"id": "boat", "label": "Boats", "title": "Boat", "color": 4294034556},
-    {"id": "airship", "label": "Airships", "title": "Airship", "color": 4288469489}
+    {"id": "airship", "label": "Airships", "title": "Airship", "color": 4288469489},
+    {"id": "outpost", "label": "Outposts", "title": "Outpost", "color": 4287158430},
+    {"id": "teleport", "label": "Teleports", "title": "Teleport", "color": 4293469400}
   ],
   "hubs": {
     "sandoria": {"title": "Port San d'Oria", "map": "port"},
     "bastok": {"title": "Port Bastok", "map": "port_bastok"},
     "jeuno": {"title": "Port Jeuno", "map": "port_jeuno"},
     "selbina": {"title": "Selbina", "map": "selbina"},
-    "mhaura": {"title": "Mhaura", "world": [7060, 5000]},
+    "mhaura": {"title": "Mhaura", "map": "mhaura"},
     "windurst": {"title": "Port Windurst", "map": "port_windurst"},
-    "kazham": {"title": "Kazham", "map": "kazham"}
+    "kazham": {"title": "Kazham", "map": "kazham"},
+    "whitegate": {"title": "Aht Urhgan Whitegate", "map": "aht_urhgan_whitegate_f0"},
+    "nashmau": {"title": "Nashmau", "map": "nashmau"},
+    "bibiki_bay": {"title": "Bibiki Bay - Sunset Docks", "map": "bibiki_bay_f1"},
+    "purgonorgo_isle": {"title": "Purgonorgo Isle", "map": "bibiki_bay_f2"}
   },
   "routes": [
+    {"id": "manaclipper-bibiki-purgonorgo", "category": "boat", "a": "bibiki_bay", "b": "purgonorgo_isle", "wiki_a": "82", "wiki_b": "83", "service": "Manaclipper", "requirement": "Manaclipper Ticket or Multi-ticket (Purgonorgo Isle sailing)", "source": "https://horizonffxi.wiki/Manaclipper"},
     {"id": "ferry-selbina-mhaura", "category": "boat", "a": "selbina", "b": "mhaura", "wiki_a": "161", "wiki_b": "14", "requirement": "Ferry ticket", "source": "https://horizonffxi.wiki/Mhaura"},
     {"id": "airship-jeuno-sandoria", "category": "airship", "a": "jeuno", "b": "sandoria", "wiki_a": "24", "wiki_b": "25", "requirement": "Airship Pass", "source": "https://horizonffxi.wiki/San_d%27Oria-Jeuno_Airship"},
     {"id": "airship-jeuno-bastok", "category": "airship", "a": "jeuno", "b": "bastok", "wiki_a": "24", "wiki_b": "23", "requirement": "Airship Pass", "source": "https://horizonffxi.wiki/Port_Jeuno"},
     {"id": "airship-jeuno-windurst", "category": "airship", "a": "jeuno", "b": "windurst", "wiki_a": "24", "wiki_b": "26", "requirement": "Airship Pass", "source": "https://horizonffxi.wiki/Port_Jeuno"},
-    {"id": "airship-jeuno-kazham", "category": "airship", "a": "jeuno", "b": "kazham", "wiki_a": "24", "wiki_b": "291", "requirement": "Airship pass for Kazham", "source": "https://horizonffxi.wiki/Airship_pass_for_Kazham"}
+    {"id": "airship-jeuno-kazham", "category": "airship", "a": "jeuno", "b": "kazham", "wiki_a": "24", "wiki_b": "291", "requirement": "Airship pass for Kazham", "source": "https://horizonffxi.wiki/Airship_pass_for_Kazham"},
+    {"id": "ferry-mhaura-whitegate", "category": "boat", "a": "mhaura", "b": "whitegate", "wiki_a": "14", "wiki_b": "295", "requirement": "Boarding Permit", "source": "https://horizonffxi.wiki/The_Road_to_Aht_Urhgan"},
+    {"id": "ferry-whitegate-nashmau", "category": "boat", "a": "whitegate", "b": "nashmau", "wiki_a": "295", "wiki_b": "328", "requirement": "Ferry ticket", "source": "https://horizonffxi.wiki/Aht_Urhgan_Whitegate"}
+  ],
+  "points": [
+    {"id": "teleport-holla", "category": "teleport", "title": "Crag of Holla", "area": "La Theine Plateau", "map": "latheine", "wiki_map": "7", "entity": "Telepoint", "world": [3228, 3718], "requirement": "Teleport-Holla (WHM 36)", "source": "https://horizonffxi.wiki/Teleport-Holla"},
+    {"id": "teleport-dem", "category": "teleport", "title": "Crag of Dem", "area": "Konschtat Highlands", "map": "konschtat", "wiki_map": "6", "entity": "Telepoint", "world": [3258, 4966], "requirement": "Teleport-Dem (WHM 36)", "source": "https://horizonffxi.wiki/Teleport-Dem"},
+    {"id": "teleport-mea", "category": "teleport", "title": "Crag of Mea", "area": "Tahrongi Canyon", "map": "tahrongi_canyon", "wiki_map": "52", "entity": "Telepoint", "world": [5972, 4580], "requirement": "Teleport-Mea (WHM 36)", "source": "https://horizonffxi.wiki/Teleport-Mea"},
+    {"id": "teleport-altep", "category": "teleport", "title": "Crag of Altep", "area": "Eastern Altepa Desert", "map": "eastern_altepa_desert", "wiki_map": "213", "entity": "Telepoint", "world": [1716, 6006], "requirement": "Teleport-Altep (WHM 38)", "source": "https://horizonffxi.wiki/Teleport-Altep"},
+    {"id": "teleport-yhoat", "category": "teleport", "title": "Crag of Yhoat", "area": "Yhoator Jungle", "map": "yhoator_jungle", "wiki_map": "208", "entity": "Telepoint", "world": [7274, 6440], "requirement": "Teleport-Yhoat (WHM 38)", "source": "https://horizonffxi.wiki/Teleport-Yhoat"},
+    {"id": "teleport-vahzl", "category": "teleport", "title": "Crag of Vahzl", "area": "Xarcabard", "map": "xarcabard", "wiki_map": "207", "entity": "Telepoint", "world": [3404, 2240], "requirement": "Teleport-Vahzl (WHM 42)", "source": "https://horizonffxi.wiki/Teleport-Vahzl"},
+    {"id": "outpost-ronfaure", "category": "outpost", "title": "Ronfaure Outpost", "area": "West Ronfaure", "map": "west", "wiki_map": "204", "entity": "Harvetour", "world": [2938, 3180], "requirement": "Outpost teleport (Ronfaure)", "source": "https://horizonffxi.wiki/Outpost_Teleportation"},
+    {"id": "outpost-zulkheim", "category": "outpost", "title": "Zulkheim Outpost", "area": "Valkurm Dunes", "map": "valkurm", "wiki_map": "63", "entity": "Medicine Axe", "world": [2628, 4286], "requirement": "Outpost teleport (Zulkheim)", "source": "https://horizonffxi.wiki/Outpost_Teleportation"},
+    {"id": "outpost-norvallen", "category": "outpost", "title": "Norvallen Outpost", "area": "Jugner Forest", "map": "jugner", "wiki_map": "129", "entity": "Perevie", "world": [3818, 3298], "requirement": "Outpost teleport (Norvallen)", "source": "https://horizonffxi.wiki/Outpost_Teleportation"},
+    {"id": "outpost-gustaberg", "category": "outpost", "title": "Gustaberg Outpost", "area": "North Gustaberg", "map": "north_gustaberg", "wiki_map": "143", "entity": "Kuleo", "world": [3238, 5376], "requirement": "Outpost teleport (Gustaberg)", "source": "https://horizonffxi.wiki/Outpost_Teleportation"},
+    {"id": "outpost-derfland", "category": "outpost", "title": "Derfland Outpost", "area": "Pashhow Marshlands", "map": "pashhow_marshlands", "wiki_map": "147", "entity": "Outpost Gate", "world": [3568, 4326], "requirement": "Outpost teleport (Derfland)", "source": "https://horizonffxi.wiki/Outpost_Teleportation"},
+    {"id": "outpost-sarutabaruta", "category": "outpost", "title": "Sarutabaruta Outpost", "area": "West Sarutabaruta", "map": "west_sarutabaruta", "wiki_map": "205", "entity": "Mahien-Uhien", "world": [5175, 5260], "requirement": "Outpost teleport (Sarutabaruta)", "source": "https://horizonffxi.wiki/Outpost_Teleportation"},
+    {"id": "outpost-kolshushu", "category": "outpost", "title": "Kolshushu Outpost", "area": "Buburimu Peninsula", "map": "buburimu_peninsula", "wiki_map": "87", "entity": "Lobho Ukipturi", "world": [6600, 4882], "requirement": "Outpost teleport (Kolshushu)", "source": "https://horizonffxi.wiki/Outpost_Teleportation"},
+    {"id": "outpost-aragoneu", "category": "outpost", "title": "Aragoneu Outpost", "area": "Meriphataud Mountains", "map": "meriphataud_mountains", "wiki_map": "140", "entity": "Muzeze", "world": [5650, 3858], "requirement": "Outpost teleport (Aragoneu)", "source": "https://horizonffxi.wiki/Outpost_Teleportation"},
+    {"id": "outpost-fauregandi", "category": "outpost", "title": "Fauregandi Outpost", "area": "Beaucedine Glacier", "map": "beaucedine", "wiki_map": "4", "entity": "Gueriette", "world": [3938, 2304], "requirement": "Outpost teleport (Fauregandi)", "source": "https://horizonffxi.wiki/Outpost_Teleportation"},
+    {"id": "outpost-valdeaunia", "category": "outpost", "title": "Valdeaunia Outpost", "area": "Xarcabard", "map": "xarcabard", "wiki_map": "207", "entity": "Pelogrant", "world": [3448, 2278], "requirement": "Outpost teleport (Valdeaunia)", "source": "https://horizonffxi.wiki/Outpost_Teleportation"},
+    {"id": "outpost-qufim", "category": "outpost", "title": "Qufim Outpost", "area": "Qufim Island", "map": "qufim_island", "wiki_map": "47", "world_xy": [-210.0, 280.0], "world": [4966, 2778], "requirement": "Outpost teleport (Qufim)", "source": "https://horizonffxi.wiki/Outpost_Teleportation"},
+    {"id": "outpost-litelor", "category": "outpost", "title": "Li'Telor Outpost", "area": "The Sanctuary of Zi'Tah", "map": "the_sanctuary_of_zi_tah", "wiki_map": "201", "world_xy": [-40.0, -120.0], "world": [6435, 3445], "requirement": "Outpost teleport (Li'Telor)", "source": "https://horizonffxi.wiki/Outpost_Teleportation"},
+    {"id": "outpost-kuzotz", "category": "outpost", "title": "Kuzotz Outpost", "area": "Eastern Altepa Desert", "map": "eastern_altepa_desert", "wiki_map": "213", "entity": "Sowande", "world": [1650, 6204], "requirement": "Outpost teleport (Kuzotz)", "source": "https://horizonffxi.wiki/Outpost_Teleportation"},
+    {"id": "outpost-vollbow", "category": "outpost", "title": "Vollbow Outpost", "area": "Cape Teriggan", "map": "cape_teriggan", "wiki_map": "252", "world_xy": [-190.0, -80.0], "world": [1690, 4592], "requirement": "Outpost teleport (Vollbow)", "source": "https://horizonffxi.wiki/Outpost_Teleportation"},
+    {"id": "outpost-elshimo-lowlands", "category": "outpost", "title": "Elshimo Lowlands Outpost", "area": "Yuhtunga Jungle", "map": "yuhtunga_jungle", "wiki_map": "211", "entity": "Robino-Mobino", "world": [6830, 6260], "requirement": "Outpost teleport (Elshimo Lowlands)", "source": "https://horizonffxi.wiki/Outpost_Teleportation"},
+    {"id": "outpost-elshimo-uplands", "category": "outpost", "title": "Elshimo Uplands Outpost", "area": "Yhoator Jungle", "map": "yhoator_jungle", "wiki_map": "208", "entity": "Mugha Dovajaiho", "world": [7514, 6420], "requirement": "Outpost teleport (Elshimo Uplands)", "source": "https://horizonffxi.wiki/Outpost_Teleportation"},
+    {"id": "outpost-tulia", "category": "outpost", "title": "Tu'Lia Outpost", "area": "Ru'Aun Gardens", "map": "ru_aun_gardens", "wiki_map": "155", "world_xy": [0.0, -540.0], "world": [5560, 2240], "requirement": "Outpost teleport (Tu'Lia)", "source": "https://horizonffxi.wiki/Outpost_Teleportation"},
+    {"id": "outpost-tavnazia", "category": "outpost", "title": "Tavnazian Archipelago Outpost", "area": "Lufaise Meadows", "map": "lufaise_meadows", "wiki_map": "139", "world_xy": [-510.0, -45.0], "world": [1060, 3784], "requirement": "Outpost teleport (Tavnazian Archipelago)", "source": "https://horizonffxi.wiki/Outpost_Teleportation"}
   ]
 }

@@ -103,7 +103,7 @@ def original(definition,wrap):
     if not image:raise ValueError('Native DAT could not be decoded')
     return Image.open(io.BytesIO(image)).convert('RGB'),sha(path)
 
-def connections(maps,aliases,baseline,source,meta):
+def connections(maps,aliases,baseline,source,meta,exclude_pairs=()):
     by_key={m['key']:m for m in maps};by_zone={}
     for key in set(aliases.values()):by_zone.setdefault(by_key[key]['zone'],[]).append(key)
     wiki_for={key:wid for wid,key in aliases.items()}
@@ -143,6 +143,8 @@ def connections(maps,aliases,baseline,source,meta):
                 if x['map']==a and y['map']==b and math.dist([x['x'],x['y']],pa)<28 and math.dist([y['x'],y['y']],pb)<40:return 'covered'
         return None
     for row in raw_rows:
+        if frozenset((row['zone'],row['target_zone'])) in exclude_pairs:
+            held.append({'id':row['id'],'reason':'Transport route; kept outside walking connections'});continue
         a,pa=resolve(row['zone'],row['from'],row['target_zone'])
         b,pb=resolve(row['target_zone'],row['at'],row['zone'],True)
         if not a or not b:
@@ -162,6 +164,8 @@ def connections(maps,aliases,baseline,source,meta):
         for target,record in info.get('connections',{}).items():
             b=aliases.get(target)
             if not b or a==b:continue
+            if frozenset((by_key[a]['zone'],by_key[b]['zone'])) in exclude_pairs:
+                held.append({'id':f'wiki-{wid}-{target}','reason':'Transport route; kept outside walking connections'});continue
             def city(zone):
                 if 230<=zone<=233:return 'sandoria'
                 if 234<=zone<=237:return 'bastok'

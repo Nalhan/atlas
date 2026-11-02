@@ -1,25 +1,38 @@
 {
-  "routes": 5,
-  "world_hubs": 7,
-  "boarding_points": 9,
-  "world_only": [
-    {
-      "id": "ferry-selbina-mhaura-mhaura",
-      "reason": "Zone is outside the current native map catalog; world location only."
-    }
-  ],
+  "routes": 8,
+  "points": 24,
+  "world_hubs": 35,
+  "boarding_points": 40,
+  "boarding_markers": 39,
+  "world_only": [],
   "wiki_module_sha256": "0f8d0ec7e08544a09915225f8bd62d42d6fbf622c6ff78ddbbbec60a67f3db86",
-  "seed_sha256": "194729393c01382238c4855ae8d2250b5c63cb77703fea3d041355988421f886",
-  "output_sha256": "61b7838769ef7cde76522f6f389ed81b7eecd67db5d1a7bfaa26fc07bca1d005",
+  "seed_sha256": "7874125d8521e23f69c57240cf37fd4e7ddbdcb34fe2b322eb503a1dbd159732",
+  "output_sha256": "d00ef6a192dfcc91dff14fc82fa9e7408aaf9fc8ae17256622a94c6969ed60f5",
   "sources": [
+    "https://horizonffxi.wiki/Aht_Urhgan_Whitegate",
     "https://horizonffxi.wiki/Airship_pass_for_Kazham",
+    "https://horizonffxi.wiki/Manaclipper",
     "https://horizonffxi.wiki/Mhaura",
+    "https://horizonffxi.wiki/Outpost_Teleportation",
     "https://horizonffxi.wiki/Port_Jeuno",
-    "https://horizonffxi.wiki/San_d%27Oria-Jeuno_Airship"
+    "https://horizonffxi.wiki/San_d%27Oria-Jeuno_Airship",
+    "https://horizonffxi.wiki/Teleport-Altep",
+    "https://horizonffxi.wiki/Teleport-Dem",
+    "https://horizonffxi.wiki/Teleport-Holla",
+    "https://horizonffxi.wiki/Teleport-Mea",
+    "https://horizonffxi.wiki/Teleport-Vahzl",
+    "https://horizonffxi.wiki/Teleport-Yhoat",
+    "https://horizonffxi.wiki/The_Road_to_Aht_Urhgan"
   ],
   "notes": [
     "Mapped boarding points use wiki game-world coordinates projected through the installed native map table.",
     "World marker anchors are measured town/banner locations, not world-space boarding positions.",
-    "Transport routes are separate from walking passages. No live schedules or pass ownership are inferred."
-  ]
+    "Transport routes are separate from walking passages. No live schedules or pass ownership are inferred.",
+    "Reviewed user corrections override projected/seed positions; source coordinates are retained as provenance."
+  ],
+  "corrections_sha256": "54231b7392e87ecfd2a2d53e848486aa6fd83021a1ce7eba418d7b2c6f0edca8",
+  "corrections": {
+    "world": 29,
+    "stops": 1
+  }
 }

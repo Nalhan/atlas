@@ -1,0 +1,4595 @@
+{
+  "published": [
+    {
+      "id": "aht-auto-z1c0",
+      "a": {
+        "map": "al_zahbi",
+        "x": 175.848,
+        "y": 217.615,
+        "arrival_x": 177.48,
+        "arrival_y": 217.603,
+        "badge_x": 175.848,
+        "badge_y": 217.615,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "wajaom_woodlands",
+        "x": 386.875,
+        "y": 208.743,
+        "arrival_x": 386.108,
+        "arrival_y": 208.751,
+        "badge_x": 386.875,
+        "badge_y": 208.743,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1c0",
+        "z1fk"
+      ]
+    },
+    {
+      "id": "aht-auto-z1c2",
+      "a": {
+        "map": "al_zahbi",
+        "x": 217.594,
+        "y": 175.993,
+        "arrival_x": 217.609,
+        "arrival_y": 177.479,
+        "badge_x": 217.594,
+        "badge_y": 175.993,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "bhaflau_thickets_f1",
+        "x": 287.594,
+        "y": 320.001,
+        "arrival_x": 286.597,
+        "arrival_y": 320.008,
+        "badge_x": 287.594,
+        "badge_y": 320.001,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1c2",
+        "z1g6"
+      ]
+    },
+    {
+      "id": "aht-auto-z1c4",
+      "a": {
+        "map": "al_zahbi",
+        "x": 369.687,
+        "y": 239.996,
+        "arrival_x": 368.287,
+        "arrival_y": 239.997,
+        "badge_x": 369.687,
+        "badge_y": 239.996,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aht_urhgan_whitegate_f0",
+        "x": 145.518,
+        "y": 271.996,
+        "arrival_x": 147.317,
+        "arrival_y": 272.003,
+        "badge_x": 145.518,
+        "badge_y": 271.996,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1c4",
+        "z1e0"
+      ]
+    },
+    {
+      "id": "aht-auto-z1f0",
+      "a": {
+        "map": "wajaom_woodlands",
+        "x": 352.006,
+        "y": 300.008,
+        "arrival_x": 352.899,
+        "arrival_y": 299.995,
+        "badge_x": 352.006,
+        "badge_y": 300.008,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f6",
+        "x": 255.984,
+        "y": 287.999,
+        "arrival_x": 254.601,
+        "arrival_y": 287.843,
+        "badge_x": 255.984,
+        "badge_y": 287.999,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1f0",
+        "z1w0"
+      ]
+    },
+    {
+      "id": "aht-auto-z1f2",
+      "a": {
+        "map": "wajaom_woodlands",
+        "x": 283.886,
+        "y": 309.31,
+        "arrival_x": 283.81,
+        "arrival_y": 310.191,
+        "badge_x": 283.886,
+        "badge_y": 309.31,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f2",
+        "x": 264.006,
+        "y": 320.007,
+        "arrival_x": 264.003,
+        "arrival_y": 318.606,
+        "badge_x": 264.006,
+        "badge_y": 320.007,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1f2",
+        "z1w2"
+      ]
+    },
+    {
+      "id": "aht-auto-z1f4",
+      "a": {
+        "map": "wajaom_woodlands",
+        "x": 229.294,
+        "y": 332.114,
+        "arrival_x": 230.294,
+        "arrival_y": 332.161,
+        "badge_x": 229.294,
+        "badge_y": 332.114,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f4",
+        "x": 284.457,
+        "y": 281.462,
+        "arrival_x": 283.29,
+        "arrival_y": 282.212,
+        "badge_x": 284.457,
+        "badge_y": 281.462,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1f4",
+        "z1w4"
+      ]
+    },
+    {
+      "id": "aht-auto-z1f6",
+      "a": {
+        "map": "wajaom_woodlands",
+        "x": 197.119,
+        "y": 355.999,
+        "arrival_x": 198.301,
+        "arrival_y": 355.879,
+        "badge_x": 197.119,
+        "badge_y": 355.999,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f7",
+        "x": 178.368,
+        "y": 320.373,
+        "arrival_x": 177.27,
+        "arrival_y": 320.226,
+        "badge_x": 178.368,
+        "badge_y": 320.373,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1f6",
+        "z1w6"
+      ]
+    },
+    {
+      "id": "aht-auto-z1f8",
+      "a": {
+        "map": "wajaom_woodlands",
+        "x": 276.003,
+        "y": 200.001,
+        "arrival_x": 275.995,
+        "arrival_y": 199.106,
+        "badge_x": 276.003,
+        "badge_y": 200.001,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f2",
+        "x": 296.43,
+        "y": 210.004,
+        "arrival_x": 296.571,
+        "arrival_y": 211.38,
+        "badge_x": 296.43,
+        "badge_y": 210.004,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1f8",
+        "z1w8"
+      ]
+    },
+    {
+      "id": "aht-auto-z1fa",
+      "a": {
+        "map": "wajaom_woodlands",
+        "x": 212.113,
+        "y": 218.7,
+        "arrival_x": 212.2,
+        "arrival_y": 217.692,
+        "badge_x": 212.113,
+        "badge_y": 218.7,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f2",
+        "x": 200.0,
+        "y": 223.199,
+        "arrival_x": 199.999,
+        "arrival_y": 224.599,
+        "badge_x": 200.0,
+        "badge_y": 223.199,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1fa",
+        "z1wa"
+      ]
+    },
+    {
+      "id": "aht-auto-z1fc",
+      "a": {
+        "map": "wajaom_woodlands",
+        "x": 128.006,
+        "y": 284.001,
+        "arrival_x": 128.901,
+        "arrival_y": 283.931,
+        "badge_x": 128.006,
+        "badge_y": 284.001,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f3",
+        "x": 221.976,
+        "y": 200.016,
+        "arrival_x": 220.61,
+        "arrival_y": 199.993,
+        "badge_x": 221.976,
+        "badge_y": 200.016,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1fc",
+        "z1wc"
+      ]
+    },
+    {
+      "id": "aht-auto-z1fe",
+      "a": {
+        "map": "wajaom_woodlands",
+        "x": 179.996,
+        "y": 296.003,
+        "arrival_x": 180.141,
+        "arrival_y": 296.895,
+        "badge_x": 179.996,
+        "badge_y": 296.003,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f4",
+        "x": 216.029,
+        "y": 253.205,
+        "arrival_x": 215.686,
+        "arrival_y": 251.87,
+        "badge_x": 216.029,
+        "badge_y": 253.205,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1fe",
+        "z1we"
+      ]
+    },
+    {
+      "id": "aht-auto-z1fg",
+      "a": {
+        "map": "wajaom_woodlands",
+        "x": 197.302,
+        "y": 316.177,
+        "arrival_x": 198.293,
+        "arrival_y": 316.164,
+        "badge_x": 197.302,
+        "badge_y": 316.177,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f3",
+        "x": 303.672,
+        "y": 248.02,
+        "arrival_x": 302.07,
+        "arrival_y": 247.957,
+        "badge_x": 303.672,
+        "badge_y": 248.02,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1fg",
+        "z1wg"
+      ]
+    },
+    {
+      "id": "aht-auto-z1fi",
+      "a": {
+        "map": "wajaom_woodlands",
+        "x": 153.899,
+        "y": 324.291,
+        "arrival_x": 152.897,
+        "arrival_y": 324.04,
+        "badge_x": 153.899,
+        "badge_y": 324.291,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f3",
+        "x": 240.4,
+        "y": 247.988,
+        "arrival_x": 242.013,
+        "arrival_y": 248.004,
+        "badge_x": 240.4,
+        "badge_y": 247.988,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1fi",
+        "z1wi"
+      ]
+    },
+    {
+      "id": "aht-auto-z1fm",
+      "a": {
+        "map": "wajaom_woodlands",
+        "x": 340.259,
+        "y": 191.841,
+        "arrival_x": 340.006,
+        "arrival_y": 192.898,
+        "badge_x": 340.259,
+        "badge_y": 191.841,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "bhaflau_thickets_f1",
+        "x": 260.003,
+        "y": 318.438,
+        "arrival_x": 259.999,
+        "arrival_y": 317.6,
+        "badge_x": 260.003,
+        "badge_y": 318.438,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1fm",
+        "z1g0"
+      ]
+    },
+    {
+      "id": "aht-auto-z1fo",
+      "a": {
+        "map": "wajaom_woodlands",
+        "x": 93.302,
+        "y": 260.002,
+        "arrival_x": 94.299,
+        "arrival_y": 259.883,
+        "badge_x": 93.302,
+        "badge_y": 260.002,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "halvung_f1",
+        "x": 296.83,
+        "y": 423.997,
+        "arrival_x": 295.806,
+        "arrival_y": 423.995,
+        "badge_x": 296.83,
+        "badge_y": 423.997,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1fo",
+        "z1q0"
+      ]
+    },
+    {
+      "id": "aht-auto-z1fq",
+      "a": {
+        "map": "wajaom_woodlands",
+        "x": 167.909,
+        "y": 387.998,
+        "arrival_x": 168.91,
+        "arrival_y": 387.992,
+        "badge_x": 167.909,
+        "badge_y": 387.998,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "mamook_f1",
+        "x": 408.001,
+        "y": 280.002,
+        "arrival_x": 406.989,
+        "arrival_y": 280.0,
+        "badge_x": 408.001,
+        "badge_y": 280.002,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1fq",
+        "z1t0"
+      ]
+    },
+    {
+      "id": "aht-auto-z1fs",
+      "a": {
+        "map": "wajaom_woodlands",
+        "x": 116.187,
+        "y": 393.911,
+        "arrival_x": 116.09,
+        "arrival_y": 393.029,
+        "badge_x": 116.187,
+        "badge_y": 393.911,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "mamook_f1",
+        "x": 336.001,
+        "y": 223.596,
+        "arrival_x": 336.0,
+        "arrival_y": 224.598,
+        "badge_x": 336.001,
+        "badge_y": 223.596,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1fs",
+        "z1t2"
+      ]
+    },
+    {
+      "id": "aht-auto-z1fu",
+      "a": {
+        "map": "wajaom_woodlands",
+        "x": 149.896,
+        "y": 436.211,
+        "arrival_x": 150.897,
+        "arrival_y": 436.119,
+        "badge_x": 149.896,
+        "badge_y": 436.211,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "mamook_f1",
+        "x": 375.99,
+        "y": 328.006,
+        "arrival_x": 375.002,
+        "arrival_y": 327.998,
+        "badge_x": 375.99,
+        "badge_y": 328.006,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1fu",
+        "z1t4"
+      ]
+    },
+    {
+      "id": "aht-auto-z1g2",
+      "a": {
+        "map": "bhaflau_thickets_f1",
+        "x": 287.997,
+        "y": 228.005,
+        "arrival_x": 288.553,
+        "arrival_y": 228.0,
+        "badge_x": 287.997,
+        "badge_y": 228.005,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f1",
+        "x": 319.974,
+        "y": 232.039,
+        "arrival_x": 318.639,
+        "arrival_y": 232.044,
+        "badge_x": 319.974,
+        "badge_y": 232.039,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1g2",
+        "z1wk"
+      ]
+    },
+    {
+      "id": "aht-auto-z1g4",
+      "a": {
+        "map": "bhaflau_thickets_f1",
+        "x": 224.197,
+        "y": 227.999,
+        "arrival_x": 223.732,
+        "arrival_y": 228.0,
+        "badge_x": 224.197,
+        "badge_y": 227.999,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f1",
+        "x": 208.98,
+        "y": 215.98,
+        "arrival_x": 210.201,
+        "arrival_y": 216.026,
+        "badge_x": 208.98,
+        "badge_y": 215.98,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1g4",
+        "z1wm"
+      ]
+    },
+    {
+      "id": "aht-auto-z1g8",
+      "a": {
+        "map": "bhaflau_thickets_f2",
+        "x": 289.79,
+        "y": 299.812,
+        "arrival_x": 289.297,
+        "arrival_y": 299.853,
+        "badge_x": 289.79,
+        "badge_y": 299.812,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "mamook_f1",
+        "x": 200.005,
+        "y": 311.988,
+        "arrival_x": 201.004,
+        "arrival_y": 311.999,
+        "badge_x": 200.005,
+        "badge_y": 311.988,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1g8",
+        "z1t6"
+      ]
+    },
+    {
+      "id": "aht-auto-z1ga",
+      "a": {
+        "map": "bhaflau_thickets_f2",
+        "x": 227.997,
+        "y": 200.61,
+        "arrival_x": 227.997,
+        "arrival_y": 199.999,
+        "badge_x": 227.997,
+        "badge_y": 200.61,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "mamook_f1",
+        "x": 63.99,
+        "y": 111.997,
+        "arrival_x": 64.002,
+        "arrival_y": 112.992,
+        "badge_x": 63.99,
+        "badge_y": 111.997,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1ga",
+        "z1t8"
+      ]
+    },
+    {
+      "id": "aht-auto-z1gc",
+      "a": {
+        "map": "bhaflau_thickets_f1",
+        "x": 191.789,
+        "y": 251.998,
+        "arrival_x": 192.339,
+        "arrival_y": 251.996,
+        "badge_x": 191.789,
+        "badge_y": 251.998,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "halvung_f1",
+        "x": 456.816,
+        "y": 167.996,
+        "arrival_x": 455.794,
+        "arrival_y": 167.997,
+        "badge_x": 456.816,
+        "badge_y": 167.996,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1gc",
+        "z1q4"
+      ]
+    },
+    {
+      "id": "aht-auto-z1ge",
+      "a": {
+        "map": "bhaflau_thickets_f2",
+        "x": 184.61,
+        "y": 156.002,
+        "arrival_x": 184.112,
+        "arrival_y": 155.995,
+        "badge_x": 184.61,
+        "badge_y": 156.002,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "halvung_f4",
+        "x": 218.032,
+        "y": 282.806,
+        "arrival_x": 219.019,
+        "arrival_y": 281.817,
+        "badge_x": 218.032,
+        "badge_y": 282.806,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1ge",
+        "z1q6"
+      ]
+    },
+    {
+      "id": "aht-auto-z1gg",
+      "a": {
+        "map": "bhaflau_thickets_f1",
+        "x": 216.6,
+        "y": 187.996,
+        "arrival_x": 215.999,
+        "arrival_y": 188.005,
+        "badge_x": 216.6,
+        "badge_y": 187.996,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "alzadaal_undersea_ruins_f8",
+        "x": 216.0,
+        "y": 272.0,
+        "arrival_x": 218.0,
+        "arrival_y": 272.0,
+        "badge_x": 216.0,
+        "badge_y": 272.0,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1gg",
+        "z20a"
+      ]
+    },
+    {
+      "id": "aht-auto-z1h0",
+      "a": {
+        "map": "nashmau",
+        "x": 274.328,
+        "y": 259.205,
+        "arrival_x": 272.526,
+        "arrival_y": 259.201,
+        "badge_x": 274.328,
+        "badge_y": 259.205,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "caedarva_mire_f1",
+        "x": 252.488,
+        "y": 332.016,
+        "arrival_x": 253.193,
+        "arrival_y": 332.002,
+        "badge_x": 252.488,
+        "badge_y": 332.016,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1h0",
+        "z270"
+      ]
+    },
+    {
+      "id": "aht-auto-z1h2",
+      "a": {
+        "map": "nashmau",
+        "x": 252.8,
+        "y": 173.684,
+        "arrival_x": 252.799,
+        "arrival_y": 175.469,
+        "badge_x": 252.8,
+        "badge_y": 173.684,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "caedarva_mire_f1",
+        "x": 250.108,
+        "y": 282.979,
+        "arrival_x": 250.786,
+        "arrival_y": 282.767,
+        "badge_x": 250.108,
+        "badge_y": 282.979,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1h2",
+        "z272"
+      ]
+    },
+    {
+      "id": "aht-auto-z1h4",
+      "a": {
+        "map": "nashmau",
+        "x": 205.671,
+        "y": 220.802,
+        "arrival_x": 207.506,
+        "arrival_y": 220.8,
+        "badge_x": 205.671,
+        "badge_y": 220.802,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "caedarva_mire_f1",
+        "x": 196.485,
+        "y": 331.999,
+        "arrival_x": 195.808,
+        "arrival_y": 331.997,
+        "badge_x": 196.485,
+        "badge_y": 331.999,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1h4",
+        "z274"
+      ]
+    },
+    {
+      "id": "aht-auto-z1i0",
+      "a": {
+        "map": "arrapago_reef_f1",
+        "x": 279.999,
+        "y": 369.401,
+        "arrival_x": 280.008,
+        "arrival_y": 368.01,
+        "badge_x": 279.999,
+        "badge_y": 369.401,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "caedarva_mire_f1",
+        "x": 276.015,
+        "y": 199.494,
+        "arrival_x": 276.001,
+        "arrival_y": 200.147,
+        "badge_x": 276.015,
+        "badge_y": 199.494,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1i0",
+        "z276"
+      ]
+    },
+    {
+      "id": "aht-auto-z1i2",
+      "a": {
+        "map": "arrapago_reef_f1",
+        "x": 321.591,
+        "y": 200.0,
+        "arrival_x": 320.001,
+        "arrival_y": 200.001,
+        "badge_x": 321.591,
+        "badge_y": 200.0,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "caedarva_mire_f1",
+        "x": 342.909,
+        "y": 163.99,
+        "arrival_x": 343.543,
+        "arrival_y": 164.002,
+        "badge_x": 342.909,
+        "badge_y": 163.99,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1i2",
+        "z278"
+      ]
+    },
+    {
+      "id": "aht-auto-z1i4",
+      "a": {
+        "map": "arrapago_reef_f11",
+        "x": 248.0,
+        "y": 369.417,
+        "arrival_x": 247.998,
+        "arrival_y": 367.999,
+        "badge_x": 248.0,
+        "badge_y": 369.417,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "caedarva_mire_f2",
+        "x": 252.004,
+        "y": 247.697,
+        "arrival_x": 252.0,
+        "arrival_y": 248.335,
+        "badge_x": 252.004,
+        "badge_y": 247.697,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1i4",
+        "z27a"
+      ]
+    },
+    {
+      "id": "aht-auto-z1ia",
+      "a": {
+        "map": "arrapago_reef_f11",
+        "x": 190.593,
+        "y": 184.012,
+        "arrival_x": 192.002,
+        "arrival_y": 183.999,
+        "badge_x": 190.593,
+        "badge_y": 184.012,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "caedarva_mire_f2",
+        "x": 224.521,
+        "y": 204.005,
+        "arrival_x": 223.848,
+        "arrival_y": 204.009,
+        "badge_x": 224.521,
+        "badge_y": 204.005,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1ia",
+        "z27g"
+      ]
+    },
+    {
+      "id": "aht-auto-z1p0",
+      "a": {
+        "map": "mount_zhayolm",
+        "x": 404.256,
+        "y": 219.565,
+        "arrival_x": 403.598,
+        "arrival_y": 219.485,
+        "badge_x": 404.256,
+        "badge_y": 219.565,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "halvung_f1",
+        "x": 311.19,
+        "y": 215.981,
+        "arrival_x": 312.216,
+        "arrival_y": 216.005,
+        "badge_x": 311.19,
+        "badge_y": 215.981,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1p0",
+        "z1q8"
+      ]
+    },
+    {
+      "id": "aht-auto-z1p2",
+      "a": {
+        "map": "mount_zhayolm",
+        "x": 355.961,
+        "y": 253.851,
+        "arrival_x": 355.59,
+        "arrival_y": 253.177,
+        "badge_x": 355.961,
+        "badge_y": 253.851,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "halvung_f1",
+        "x": 271.99,
+        "y": 223.586,
+        "arrival_x": 272.021,
+        "arrival_y": 224.607,
+        "badge_x": 271.99,
+        "badge_y": 223.586,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1p2",
+        "z1qa"
+      ]
+    },
+    {
+      "id": "aht-auto-z1p4",
+      "a": {
+        "map": "mount_zhayolm",
+        "x": 292.178,
+        "y": 277.036,
+        "arrival_x": 292.322,
+        "arrival_y": 276.395,
+        "badge_x": 292.178,
+        "badge_y": 277.036,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "halvung_f1",
+        "x": 208.01,
+        "y": 287.212,
+        "arrival_x": 207.988,
+        "arrival_y": 288.216,
+        "badge_x": 208.01,
+        "badge_y": 287.212,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1p4",
+        "z1qc"
+      ]
+    },
+    {
+      "id": "aht-auto-z1p6",
+      "a": {
+        "map": "mount_zhayolm",
+        "x": 250.719,
+        "y": 236.032,
+        "arrival_x": 251.397,
+        "arrival_y": 235.717,
+        "badge_x": 250.719,
+        "badge_y": 236.032,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "halvung_f1",
+        "x": 168.806,
+        "y": 232.008,
+        "arrival_x": 167.773,
+        "arrival_y": 232.0,
+        "badge_x": 168.806,
+        "badge_y": 232.008,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1p6",
+        "z1qe"
+      ]
+    },
+    {
+      "id": "aht-auto-z1pa",
+      "a": {
+        "map": "mount_zhayolm",
+        "x": 212.035,
+        "y": 197.336,
+        "arrival_x": 212.256,
+        "arrival_y": 198.21,
+        "badge_x": 212.035,
+        "badge_y": 197.336,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "halvung_f2",
+        "x": 203.538,
+        "y": 214.739,
+        "arrival_x": 202.79,
+        "arrival_y": 213.748,
+        "badge_x": 203.538,
+        "badge_y": 214.739,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1pa",
+        "z1qi"
+      ]
+    },
+    {
+      "id": "aht-auto-z1pc",
+      "a": {
+        "map": "mount_zhayolm",
+        "x": 147.912,
+        "y": 195.06,
+        "arrival_x": 147.639,
+        "arrival_y": 195.787,
+        "badge_x": 147.912,
+        "badge_y": 195.06,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "halvung_f2",
+        "x": 152.004,
+        "y": 208.776,
+        "arrival_x": 152.001,
+        "arrival_y": 207.78,
+        "badge_x": 152.004,
+        "badge_y": 208.776,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1pc",
+        "z1qk"
+      ]
+    },
+    {
+      "id": "aht-auto-z1pe",
+      "a": {
+        "map": "mount_zhayolm",
+        "x": 149.446,
+        "y": 291.706,
+        "arrival_x": 148.709,
+        "arrival_y": 291.522,
+        "badge_x": 149.446,
+        "badge_y": 291.706,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "halvung_f2",
+        "x": 127.217,
+        "y": 296.021,
+        "arrival_x": 128.231,
+        "arrival_y": 296.012,
+        "badge_x": 127.217,
+        "badge_y": 296.021,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1pe",
+        "z1qm"
+      ]
+    },
+    {
+      "id": "aht-auto-z1pg",
+      "a": {
+        "map": "mount_zhayolm",
+        "x": 131.783,
+        "y": 309.85,
+        "arrival_x": 131.586,
+        "arrival_y": 309.194,
+        "badge_x": 131.783,
+        "badge_y": 309.85,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "halvung_f4",
+        "x": 232.021,
+        "y": 207.203,
+        "arrival_x": 232.009,
+        "arrival_y": 208.187,
+        "badge_x": 232.021,
+        "badge_y": 207.203,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1pg",
+        "z1qo"
+      ]
+    },
+    {
+      "id": "aht-auto-z1q2",
+      "a": {
+        "map": "halvung_f1",
+        "x": 240.002,
+        "y": 448.808,
+        "arrival_x": 239.997,
+        "arrival_y": 447.806,
+        "badge_x": 240.002,
+        "badge_y": 448.808,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f3",
+        "x": 168.0,
+        "y": 208.036,
+        "arrival_x": 168.173,
+        "arrival_y": 209.555,
+        "badge_x": 168.0,
+        "badge_y": 208.036,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z1q2",
+        "z1wo"
+      ]
+    },
+    {
+      "id": "aht-auto-z200",
+      "a": {
+        "map": "alzadaal_undersea_ruins_f10",
+        "x": 224.0,
+        "y": 232.0,
+        "arrival_x": 224.0,
+        "arrival_y": 234.0,
+        "badge_x": 224.0,
+        "badge_y": 232.0,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "caedarva_mire_f1",
+        "x": 316.001,
+        "y": 336.805,
+        "arrival_x": 315.999,
+        "arrival_y": 336.257,
+        "badge_x": 316.001,
+        "badge_y": 336.805,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z200",
+        "z27k"
+      ]
+    },
+    {
+      "id": "aht-auto-z202",
+      "a": {
+        "map": "alzadaal_undersea_ruins_f9",
+        "x": 264.0,
+        "y": 223.974,
+        "arrival_x": 262.0,
+        "arrival_y": 224.0,
+        "badge_x": 264.0,
+        "badge_y": 223.974,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "caedarva_mire_f4",
+        "x": 248.316,
+        "y": 275.991,
+        "arrival_x": 248.944,
+        "arrival_y": 276.002,
+        "badge_x": 248.316,
+        "badge_y": 275.991,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z202",
+        "z27m"
+      ]
+    },
+    {
+      "id": "aht-auto-z208",
+      "a": {
+        "map": "alzadaal_undersea_ruins_f7",
+        "x": 280.0,
+        "y": 240.0,
+        "arrival_x": 282.0,
+        "arrival_y": 240.0,
+        "badge_x": 280.0,
+        "badge_y": 240.0,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "caedarva_mire_f2",
+        "x": 232.502,
+        "y": 323.995,
+        "arrival_x": 231.852,
+        "arrival_y": 324.001,
+        "badge_x": 232.502,
+        "badge_y": 323.995,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "server_wiki_correlated",
+      "source_ids": [
+        "z208",
+        "z27s"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-295-296-0",
+      "a": {
+        "map": "aht_urhgan_whitegate_f0",
+        "x": 241.573,
+        "y": 228.903,
+        "arrival_x": 241.573,
+        "arrival_y": 228.903,
+        "badge_x": 241.573,
+        "badge_y": 228.903,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "bhaflau_thickets_f1",
+        "x": 321.573,
+        "y": 282.622,
+        "arrival_x": 321.573,
+        "arrival_y": 282.622,
+        "badge_x": 321.573,
+        "badge_y": 282.622,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "Runic portal; staging-point access required.",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-295-296-0",
+        "wiki-296-295-0"
+      ],
+      "kind": "runic_portal"
+    },
+    {
+      "id": "aht-auto-wiki-300-303-0",
+      "a": {
+        "map": "aydeewa_subterrane_f2",
+        "x": 136.32,
+        "y": 255.536,
+        "arrival_x": 136.32,
+        "arrival_y": 255.536,
+        "badge_x": 136.32,
+        "badge_y": 255.536,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f5",
+        "x": 205.004,
+        "y": 229.807,
+        "arrival_x": 205.004,
+        "arrival_y": 229.807,
+        "badge_x": 205.004,
+        "badge_y": 229.807,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-300-303-0",
+        "wiki-303-300-0"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-300-303-1",
+      "a": {
+        "map": "aydeewa_subterrane_f2",
+        "x": 158.41,
+        "y": 296.018,
+        "arrival_x": 158.41,
+        "arrival_y": 296.018,
+        "badge_x": 158.41,
+        "badge_y": 296.018,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f5",
+        "x": 231.473,
+        "y": 263.338,
+        "arrival_x": 231.473,
+        "arrival_y": 263.338,
+        "badge_x": 231.473,
+        "badge_y": 263.338,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-300-303-1",
+        "wiki-303-300-1"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-300-303-2",
+      "a": {
+        "map": "aydeewa_subterrane_f2",
+        "x": 194.035,
+        "y": 296.424,
+        "arrival_x": 194.035,
+        "arrival_y": 296.424,
+        "badge_x": 194.035,
+        "badge_y": 296.424,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f5",
+        "x": 264.348,
+        "y": 264.12,
+        "arrival_x": 264.348,
+        "arrival_y": 264.12,
+        "badge_x": 264.348,
+        "badge_y": 264.12,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-300-303-2",
+        "wiki-303-300-2"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-300-303-3",
+      "a": {
+        "map": "aydeewa_subterrane_f2",
+        "x": 246.758,
+        "y": 283.161,
+        "arrival_x": 246.758,
+        "arrival_y": 283.161,
+        "badge_x": 246.758,
+        "badge_y": 283.161,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f5",
+        "x": 319.66,
+        "y": 247.932,
+        "arrival_x": 319.66,
+        "arrival_y": 247.932,
+        "badge_x": 319.66,
+        "badge_y": 247.932,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-300-303-3",
+        "wiki-303-300-3"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-300-305-0",
+      "a": {
+        "map": "aydeewa_subterrane_f2",
+        "x": 295.758,
+        "y": 327.973,
+        "arrival_x": 295.758,
+        "arrival_y": 327.973,
+        "badge_x": 295.758,
+        "badge_y": 327.973,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f7",
+        "x": 297.191,
+        "y": 193.424,
+        "arrival_x": 297.191,
+        "arrival_y": 193.424,
+        "badge_x": 297.191,
+        "badge_y": 193.424,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-300-305-0",
+        "wiki-305-300-0"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-301-303-0",
+      "a": {
+        "map": "aydeewa_subterrane_f3",
+        "x": 242.258,
+        "y": 168.161,
+        "arrival_x": 242.258,
+        "arrival_y": 168.161,
+        "badge_x": 242.258,
+        "badge_y": 168.161,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f5",
+        "x": 184.285,
+        "y": 265.182,
+        "arrival_x": 184.285,
+        "arrival_y": 265.182,
+        "badge_x": 184.285,
+        "badge_y": 265.182,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-301-303-0",
+        "wiki-303-301-0"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-301-303-1",
+      "a": {
+        "map": "aydeewa_subterrane_f3",
+        "x": 266.57,
+        "y": 181.973,
+        "arrival_x": 266.57,
+        "arrival_y": 181.973,
+        "badge_x": 266.57,
+        "badge_y": 181.973,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f5",
+        "x": 210.285,
+        "y": 280.526,
+        "arrival_x": 210.285,
+        "arrival_y": 280.526,
+        "badge_x": 210.285,
+        "badge_y": 280.526,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-301-303-1",
+        "wiki-303-301-1"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-301-305-0",
+      "a": {
+        "map": "aydeewa_subterrane_f3",
+        "x": 355.445,
+        "y": 264.723,
+        "arrival_x": 355.445,
+        "arrival_y": 264.723,
+        "badge_x": 355.445,
+        "badge_y": 264.723,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f7",
+        "x": 235.316,
+        "y": 270.862,
+        "arrival_x": 235.316,
+        "arrival_y": 270.862,
+        "badge_x": 235.316,
+        "badge_y": 270.862,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-301-305-0",
+        "wiki-305-301-0"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-302-303-0",
+      "a": {
+        "map": "aydeewa_subterrane_f4",
+        "x": 261.504,
+        "y": 247.495,
+        "arrival_x": 261.504,
+        "arrival_y": 247.495,
+        "badge_x": 261.504,
+        "badge_y": 247.495,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f5",
+        "x": 289.004,
+        "y": 282.182,
+        "arrival_x": 289.004,
+        "arrival_y": 282.182,
+        "badge_x": 289.004,
+        "badge_y": 282.182,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-302-303-0",
+        "wiki-303-302-0"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-304-305-0",
+      "a": {
+        "map": "aydeewa_subterrane_f6",
+        "x": 233.254,
+        "y": 241.33,
+        "arrival_x": 233.254,
+        "arrival_y": 241.33,
+        "badge_x": 233.254,
+        "badge_y": 241.33,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "aydeewa_subterrane_f7",
+        "x": 379.175,
+        "y": 177.741,
+        "arrival_x": 379.175,
+        "arrival_y": 177.741,
+        "badge_x": 379.175,
+        "badge_y": 177.741,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-304-305-0",
+        "wiki-305-304-0"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-306-308-0",
+      "a": {
+        "map": "mamook_f1",
+        "x": 321.956,
+        "y": 382.379,
+        "arrival_x": 321.956,
+        "arrival_y": 382.379,
+        "badge_x": 321.956,
+        "badge_y": 382.379,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "mamook_f3",
+        "x": 352.956,
+        "y": 283.066,
+        "arrival_x": 352.956,
+        "arrival_y": 283.066,
+        "badge_x": 352.956,
+        "badge_y": 283.066,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-306-308-0",
+        "wiki-308-306-1"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-306-308-2",
+      "a": {
+        "map": "mamook_f1",
+        "x": 146.238,
+        "y": 295.691,
+        "arrival_x": 146.238,
+        "arrival_y": 295.691,
+        "badge_x": 146.238,
+        "badge_y": 295.691,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "mamook_f3",
+        "x": 175.894,
+        "y": 198.816,
+        "arrival_x": 175.894,
+        "arrival_y": 198.816,
+        "badge_x": 175.894,
+        "badge_y": 198.816,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-306-308-2",
+        "wiki-308-306-0"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-333-334-0",
+      "a": {
+        "map": "arrapago_reef_f1",
+        "x": 199.641,
+        "y": 320.133,
+        "arrival_x": 199.641,
+        "arrival_y": 320.133,
+        "badge_x": 199.641,
+        "badge_y": 320.133,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "arrapago_reef_f10",
+        "x": 351.116,
+        "y": 363.232,
+        "arrival_x": 351.116,
+        "arrival_y": 363.232,
+        "badge_x": 351.116,
+        "badge_y": 363.232,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-333-334-0",
+        "wiki-334-333-0"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-333-334-1",
+      "a": {
+        "map": "arrapago_reef_f1",
+        "x": 149.906,
+        "y": 240.641,
+        "arrival_x": 149.906,
+        "arrival_y": 240.641,
+        "badge_x": 149.906,
+        "badge_y": 240.641,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "arrapago_reef_f10",
+        "x": 310.178,
+        "y": 271.545,
+        "arrival_x": 310.178,
+        "arrival_y": 271.545,
+        "badge_x": 310.178,
+        "badge_y": 271.545,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-333-334-1",
+        "wiki-334-333-1"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-334-339-0",
+      "a": {
+        "map": "arrapago_reef_f10",
+        "x": 175.147,
+        "y": 345.92,
+        "arrival_x": 175.147,
+        "arrival_y": 345.92,
+        "badge_x": 175.147,
+        "badge_y": 345.92,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "arrapago_reef_f5",
+        "x": 226.741,
+        "y": 247.701,
+        "arrival_x": 226.741,
+        "arrival_y": 247.701,
+        "badge_x": 226.741,
+        "badge_y": 247.701,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-334-339-0",
+        "wiki-339-334-3"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-334-339-1",
+      "a": {
+        "map": "arrapago_reef_f10",
+        "x": 208.584,
+        "y": 313.795,
+        "arrival_x": 208.584,
+        "arrival_y": 313.795,
+        "badge_x": 208.584,
+        "badge_y": 313.795,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "arrapago_reef_f5",
+        "x": 257.334,
+        "y": 215.982,
+        "arrival_x": 257.334,
+        "arrival_y": 215.982,
+        "badge_x": 257.334,
+        "badge_y": 215.982,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-334-339-1",
+        "wiki-339-334-2"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-334-339-2",
+      "a": {
+        "map": "arrapago_reef_f10",
+        "x": 238.272,
+        "y": 329.326,
+        "arrival_x": 238.272,
+        "arrival_y": 329.326,
+        "badge_x": 238.272,
+        "badge_y": 329.326,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "arrapago_reef_f5",
+        "x": 295.709,
+        "y": 226.514,
+        "arrival_x": 295.709,
+        "arrival_y": 226.514,
+        "badge_x": 295.709,
+        "badge_y": 226.514,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-334-339-2",
+        "wiki-339-334-0"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-334-339-3",
+      "a": {
+        "map": "arrapago_reef_f10",
+        "x": 249.272,
+        "y": 356.107,
+        "arrival_x": 249.272,
+        "arrival_y": 356.107,
+        "badge_x": 249.272,
+        "badge_y": 356.107,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "arrapago_reef_f5",
+        "x": 298.366,
+        "y": 255.045,
+        "arrival_x": 298.366,
+        "arrival_y": 255.045,
+        "badge_x": 298.366,
+        "badge_y": 255.045,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-334-339-3",
+        "wiki-339-334-1"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-334-340-0",
+      "a": {
+        "map": "arrapago_reef_f10",
+        "x": 280.241,
+        "y": 352.639,
+        "arrival_x": 280.241,
+        "arrival_y": 352.639,
+        "badge_x": 280.241,
+        "badge_y": 352.639,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "arrapago_reef_f6",
+        "x": 297.803,
+        "y": 207.732,
+        "arrival_x": 297.803,
+        "arrival_y": 207.732,
+        "badge_x": 297.803,
+        "badge_y": 207.732,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-334-340-0",
+        "wiki-340-334-0"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-336-340-0",
+      "a": {
+        "map": "arrapago_reef_f2",
+        "x": 264.366,
+        "y": 164.92,
+        "arrival_x": 264.366,
+        "arrival_y": 164.92,
+        "badge_x": 264.366,
+        "badge_y": 164.92,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "arrapago_reef_f6",
+        "x": 216.928,
+        "y": 290.982,
+        "arrival_x": 216.928,
+        "arrival_y": 290.982,
+        "badge_x": 216.928,
+        "badge_y": 290.982,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-336-340-0",
+        "wiki-340-336-0"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-384-385-0",
+      "a": {
+        "map": "halvung_f1",
+        "x": 160.266,
+        "y": 210.593,
+        "arrival_x": 160.266,
+        "arrival_y": 210.593,
+        "badge_x": 160.266,
+        "badge_y": 210.593,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "halvung_f2",
+        "x": 297.172,
+        "y": 318.655,
+        "arrival_x": 297.172,
+        "arrival_y": 318.655,
+        "badge_x": 297.172,
+        "badge_y": 318.655,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-384-385-0",
+        "wiki-385-384-1"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-384-385-1",
+      "a": {
+        "map": "halvung_f1",
+        "x": 61.828,
+        "y": 214.249,
+        "arrival_x": 61.828,
+        "arrival_y": 214.249,
+        "badge_x": 61.828,
+        "badge_y": 214.249,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "halvung_f2",
+        "x": 177.203,
+        "y": 314.155,
+        "arrival_x": 177.203,
+        "arrival_y": 314.155,
+        "badge_x": 177.203,
+        "badge_y": 314.155,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-384-385-1",
+        "wiki-385-384-0"
+      ]
+    },
+    {
+      "id": "aht-auto-wiki-384-385-2",
+      "a": {
+        "map": "halvung_f1",
+        "x": 229.328,
+        "y": 105.28,
+        "arrival_x": 229.328,
+        "arrival_y": 105.28,
+        "badge_x": 229.328,
+        "badge_y": 105.28,
+        "printed": false,
+        "component": "main"
+      },
+      "b": {
+        "map": "halvung_f2",
+        "x": 343.828,
+        "y": 201.78,
+        "arrival_x": 343.828,
+        "arrival_y": 201.78,
+        "badge_x": 343.828,
+        "badge_y": 201.78,
+        "printed": false,
+        "component": "main"
+      },
+      "note": "",
+      "status": "source_correlated",
+      "source_method": "wiki_reciprocal",
+      "source_ids": [
+        "wiki-384-385-2",
+        "wiki-385-384-3"
+      ]
+    },
+    {
+      "id": "aht-reference-354-329",
+      "a": {
+        "map": "talacca_cove",
+        "x": 208.578,
+        "y": 314.78,
+        "arrival_x": 208.578,
+        "arrival_y": 314.78
+      },
+      "b": {
+        "map": "caedarva_mire_f1",
+        "x": 156.391,
+        "y": 291.445,
+        "arrival_x": 156.391,
+        "arrival_y": 291.445
+      },
+      "status": "source_correlated",
+      "source_method": "wiki_reference_reciprocal",
+      "note": "Reference map; precise player positions unavailable here."
+    },
+    {
+      "id": "aht-reference-354-336",
+      "a": {
+        "map": "talacca_cove",
+        "x": 333.172,
+        "y": 220.062,
+        "arrival_x": 333.172,
+        "arrival_y": 220.062
+      },
+      "b": {
+        "map": "arrapago_reef_f2",
+        "x": 213.647,
+        "y": 351.701,
+        "arrival_x": 213.647,
+        "arrival_y": 351.701
+      },
+      "status": "source_correlated",
+      "source_method": "wiki_reference_reciprocal",
+      "note": "Reference map; precise player positions unavailable here."
+    }
+  ],
+  "held": [
+    {
+      "id": "zmrw",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "zmry",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z1gi",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z1gk",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z1i6",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z1i8",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z1ic",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z1l0",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z1l2",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z1p8",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z1pi",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z1pk",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z1pm",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z1qg",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z1s0",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z1s2",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z1s4",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z1s6",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z1s8",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z1v0",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z204",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z206",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z20c",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z20e",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z260",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z27c",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z27e",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z27i",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z27o",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z27q",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z27u",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z2sa",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z2se",
+      "reason": "existing_one_way_protected"
+    },
+    {
+      "id": "z2t8",
+      "reason": "existing_one_way_protected"
+    },
+    {
+      "id": "z2v6",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z2x2",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z2x4",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z300",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z302",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z306",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z332",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z338",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z33a",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z33c",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z33e",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z33g",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z33i",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z3v0",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z3v2",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z3y8",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z3ya",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z5o2",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z5o4",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z5o6",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z5o8",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "zmr0",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "zmr2",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z6f8",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "z6fa",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "zmr4",
+      "source": "server",
+      "reason": "Unknown target or ambiguous native floor / wiki entrance"
+    },
+    {
+      "id": "wiki-161-14",
+      "reason": "Remote-city transport; excluded from walking connections"
+    },
+    {
+      "id": "wiki-23-24",
+      "reason": "Remote-city transport; excluded from walking connections"
+    },
+    {
+      "id": "wiki-24-23",
+      "reason": "Remote-city transport; excluded from walking connections"
+    },
+    {
+      "id": "wiki-24-25",
+      "reason": "Remote-city transport; excluded from walking connections"
+    },
+    {
+      "id": "wiki-24-26",
+      "reason": "Remote-city transport; excluded from walking connections"
+    },
+    {
+      "id": "wiki-24-291",
+      "reason": "Remote-city transport; excluded from walking connections"
+    },
+    {
+      "id": "wiki-25-24",
+      "reason": "Remote-city transport; excluded from walking connections"
+    },
+    {
+      "id": "wiki-26-24",
+      "reason": "Remote-city transport; excluded from walking connections"
+    },
+    {
+      "id": "wiki-291-24",
+      "reason": "Remote-city transport; excluded from walking connections"
+    },
+    {
+      "id": "wiki-295-14",
+      "reason": "Transport route; kept outside walking connections"
+    },
+    {
+      "id": "wiki-295-328",
+      "reason": "Transport route; kept outside walking connections"
+    },
+    {
+      "id": "wiki-328-295",
+      "reason": "Transport route; kept outside walking connections"
+    },
+    {
+      "id": "wiki-113-112-1",
+      "reason": "Reciprocal passage pairing ambiguous"
+    },
+    {
+      "id": "wiki-115-110-0",
+      "reason": "Reciprocal passage pairing ambiguous"
+    }
+  ],
+  "directed_candidates": [
+    {
+      "id": "z1c0",
+      "a": "al_zahbi",
+      "b": "wajaom_woodlands",
+      "exit": [
+        175.848,
+        217.615
+      ],
+      "arrival": [
+        386.108,
+        208.751
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1c2",
+      "a": "al_zahbi",
+      "b": "bhaflau_thickets_f1",
+      "exit": [
+        217.594,
+        175.993
+      ],
+      "arrival": [
+        286.597,
+        320.008
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1c4",
+      "a": "al_zahbi",
+      "b": "aht_urhgan_whitegate_f0",
+      "exit": [
+        369.687,
+        239.996
+      ],
+      "arrival": [
+        147.317,
+        272.003
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1e0",
+      "a": "aht_urhgan_whitegate_f0",
+      "b": "al_zahbi",
+      "exit": [
+        145.518,
+        271.996
+      ],
+      "arrival": [
+        368.287,
+        239.997
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1f0",
+      "a": "wajaom_woodlands",
+      "b": "aydeewa_subterrane_f6",
+      "exit": [
+        352.006,
+        300.008
+      ],
+      "arrival": [
+        254.601,
+        287.843
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1f2",
+      "a": "wajaom_woodlands",
+      "b": "aydeewa_subterrane_f2",
+      "exit": [
+        283.886,
+        309.31
+      ],
+      "arrival": [
+        264.003,
+        318.606
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1f4",
+      "a": "wajaom_woodlands",
+      "b": "aydeewa_subterrane_f4",
+      "exit": [
+        229.294,
+        332.114
+      ],
+      "arrival": [
+        283.29,
+        282.212
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1f6",
+      "a": "wajaom_woodlands",
+      "b": "aydeewa_subterrane_f7",
+      "exit": [
+        197.119,
+        355.999
+      ],
+      "arrival": [
+        177.27,
+        320.226
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1f8",
+      "a": "wajaom_woodlands",
+      "b": "aydeewa_subterrane_f2",
+      "exit": [
+        276.003,
+        200.001
+      ],
+      "arrival": [
+        296.571,
+        211.38
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1fa",
+      "a": "wajaom_woodlands",
+      "b": "aydeewa_subterrane_f2",
+      "exit": [
+        212.113,
+        218.7
+      ],
+      "arrival": [
+        199.999,
+        224.599
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1fc",
+      "a": "wajaom_woodlands",
+      "b": "aydeewa_subterrane_f3",
+      "exit": [
+        128.006,
+        284.001
+      ],
+      "arrival": [
+        220.61,
+        199.993
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1fe",
+      "a": "wajaom_woodlands",
+      "b": "aydeewa_subterrane_f4",
+      "exit": [
+        179.996,
+        296.003
+      ],
+      "arrival": [
+        215.686,
+        251.87
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1fg",
+      "a": "wajaom_woodlands",
+      "b": "aydeewa_subterrane_f3",
+      "exit": [
+        197.302,
+        316.177
+      ],
+      "arrival": [
+        302.07,
+        247.957
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1fi",
+      "a": "wajaom_woodlands",
+      "b": "aydeewa_subterrane_f3",
+      "exit": [
+        153.899,
+        324.291
+      ],
+      "arrival": [
+        242.013,
+        248.004
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1fk",
+      "a": "wajaom_woodlands",
+      "b": "al_zahbi",
+      "exit": [
+        386.875,
+        208.743
+      ],
+      "arrival": [
+        177.48,
+        217.603
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1fm",
+      "a": "wajaom_woodlands",
+      "b": "bhaflau_thickets_f1",
+      "exit": [
+        340.259,
+        191.841
+      ],
+      "arrival": [
+        259.999,
+        317.6
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1fo",
+      "a": "wajaom_woodlands",
+      "b": "halvung_f1",
+      "exit": [
+        93.302,
+        260.002
+      ],
+      "arrival": [
+        295.806,
+        423.995
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1fq",
+      "a": "wajaom_woodlands",
+      "b": "mamook_f1",
+      "exit": [
+        167.909,
+        387.998
+      ],
+      "arrival": [
+        406.989,
+        280.0
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1fs",
+      "a": "wajaom_woodlands",
+      "b": "mamook_f1",
+      "exit": [
+        116.187,
+        393.911
+      ],
+      "arrival": [
+        336.0,
+        224.598
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1fu",
+      "a": "wajaom_woodlands",
+      "b": "mamook_f1",
+      "exit": [
+        149.896,
+        436.211
+      ],
+      "arrival": [
+        375.002,
+        327.998
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1g0",
+      "a": "bhaflau_thickets_f1",
+      "b": "wajaom_woodlands",
+      "exit": [
+        260.003,
+        318.438
+      ],
+      "arrival": [
+        340.006,
+        192.898
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1g2",
+      "a": "bhaflau_thickets_f1",
+      "b": "aydeewa_subterrane_f1",
+      "exit": [
+        287.997,
+        228.005
+      ],
+      "arrival": [
+        318.639,
+        232.044
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1g4",
+      "a": "bhaflau_thickets_f1",
+      "b": "aydeewa_subterrane_f1",
+      "exit": [
+        224.197,
+        227.999
+      ],
+      "arrival": [
+        210.201,
+        216.026
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1g6",
+      "a": "bhaflau_thickets_f1",
+      "b": "al_zahbi",
+      "exit": [
+        287.594,
+        320.001
+      ],
+      "arrival": [
+        217.609,
+        177.479
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1g8",
+      "a": "bhaflau_thickets_f2",
+      "b": "mamook_f1",
+      "exit": [
+        289.79,
+        299.812
+      ],
+      "arrival": [
+        201.004,
+        311.999
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1ga",
+      "a": "bhaflau_thickets_f2",
+      "b": "mamook_f1",
+      "exit": [
+        227.997,
+        200.61
+      ],
+      "arrival": [
+        64.002,
+        112.992
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1gc",
+      "a": "bhaflau_thickets_f1",
+      "b": "halvung_f1",
+      "exit": [
+        191.789,
+        251.998
+      ],
+      "arrival": [
+        455.794,
+        167.997
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1ge",
+      "a": "bhaflau_thickets_f2",
+      "b": "halvung_f4",
+      "exit": [
+        184.61,
+        156.002
+      ],
+      "arrival": [
+        219.019,
+        281.817
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1gg",
+      "a": "bhaflau_thickets_f1",
+      "b": "alzadaal_undersea_ruins_f8",
+      "exit": [
+        216.6,
+        187.996
+      ],
+      "arrival": [
+        218.0,
+        272.0
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1h0",
+      "a": "nashmau",
+      "b": "caedarva_mire_f1",
+      "exit": [
+        274.328,
+        259.205
+      ],
+      "arrival": [
+        253.193,
+        332.002
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1h2",
+      "a": "nashmau",
+      "b": "caedarva_mire_f1",
+      "exit": [
+        252.8,
+        173.684
+      ],
+      "arrival": [
+        250.786,
+        282.767
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1h4",
+      "a": "nashmau",
+      "b": "caedarva_mire_f1",
+      "exit": [
+        205.671,
+        220.802
+      ],
+      "arrival": [
+        195.808,
+        331.997
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1i0",
+      "a": "arrapago_reef_f1",
+      "b": "caedarva_mire_f1",
+      "exit": [
+        279.999,
+        369.401
+      ],
+      "arrival": [
+        276.001,
+        200.147
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1i2",
+      "a": "arrapago_reef_f1",
+      "b": "caedarva_mire_f1",
+      "exit": [
+        321.591,
+        200.0
+      ],
+      "arrival": [
+        343.543,
+        164.002
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1i4",
+      "a": "arrapago_reef_f11",
+      "b": "caedarva_mire_f2",
+      "exit": [
+        248.0,
+        369.417
+      ],
+      "arrival": [
+        252.0,
+        248.335
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1ia",
+      "a": "arrapago_reef_f11",
+      "b": "caedarva_mire_f2",
+      "exit": [
+        190.593,
+        184.012
+      ],
+      "arrival": [
+        223.848,
+        204.009
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1p0",
+      "a": "mount_zhayolm",
+      "b": "halvung_f1",
+      "exit": [
+        404.256,
+        219.565
+      ],
+      "arrival": [
+        312.216,
+        216.005
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1p2",
+      "a": "mount_zhayolm",
+      "b": "halvung_f1",
+      "exit": [
+        355.961,
+        253.851
+      ],
+      "arrival": [
+        272.021,
+        224.607
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1p4",
+      "a": "mount_zhayolm",
+      "b": "halvung_f1",
+      "exit": [
+        292.178,
+        277.036
+      ],
+      "arrival": [
+        207.988,
+        288.216
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1p6",
+      "a": "mount_zhayolm",
+      "b": "halvung_f1",
+      "exit": [
+        250.719,
+        236.032
+      ],
+      "arrival": [
+        167.773,
+        232.0
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1pa",
+      "a": "mount_zhayolm",
+      "b": "halvung_f2",
+      "exit": [
+        212.035,
+        197.336
+      ],
+      "arrival": [
+        202.79,
+        213.748
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1pc",
+      "a": "mount_zhayolm",
+      "b": "halvung_f2",
+      "exit": [
+        147.912,
+        195.06
+      ],
+      "arrival": [
+        152.001,
+        207.78
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1pe",
+      "a": "mount_zhayolm",
+      "b": "halvung_f2",
+      "exit": [
+        149.446,
+        291.706
+      ],
+      "arrival": [
+        128.231,
+        296.012
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1pg",
+      "a": "mount_zhayolm",
+      "b": "halvung_f4",
+      "exit": [
+        131.783,
+        309.85
+      ],
+      "arrival": [
+        232.009,
+        208.187
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1q0",
+      "a": "halvung_f1",
+      "b": "wajaom_woodlands",
+      "exit": [
+        296.83,
+        423.997
+      ],
+      "arrival": [
+        94.299,
+        259.883
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1q2",
+      "a": "halvung_f1",
+      "b": "aydeewa_subterrane_f3",
+      "exit": [
+        240.002,
+        448.808
+      ],
+      "arrival": [
+        168.173,
+        209.555
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1q4",
+      "a": "halvung_f1",
+      "b": "bhaflau_thickets_f1",
+      "exit": [
+        456.816,
+        167.996
+      ],
+      "arrival": [
+        192.339,
+        251.996
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1q6",
+      "a": "halvung_f4",
+      "b": "bhaflau_thickets_f2",
+      "exit": [
+        218.032,
+        282.806
+      ],
+      "arrival": [
+        184.112,
+        155.995
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1q8",
+      "a": "halvung_f1",
+      "b": "mount_zhayolm",
+      "exit": [
+        311.19,
+        215.981
+      ],
+      "arrival": [
+        403.598,
+        219.485
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1qa",
+      "a": "halvung_f1",
+      "b": "mount_zhayolm",
+      "exit": [
+        271.99,
+        223.586
+      ],
+      "arrival": [
+        355.59,
+        253.177
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1qc",
+      "a": "halvung_f1",
+      "b": "mount_zhayolm",
+      "exit": [
+        208.01,
+        287.212
+      ],
+      "arrival": [
+        292.322,
+        276.395
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1qe",
+      "a": "halvung_f1",
+      "b": "mount_zhayolm",
+      "exit": [
+        168.806,
+        232.008
+      ],
+      "arrival": [
+        251.397,
+        235.717
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1qi",
+      "a": "halvung_f2",
+      "b": "mount_zhayolm",
+      "exit": [
+        203.538,
+        214.739
+      ],
+      "arrival": [
+        212.256,
+        198.21
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1qk",
+      "a": "halvung_f2",
+      "b": "mount_zhayolm",
+      "exit": [
+        152.004,
+        208.776
+      ],
+      "arrival": [
+        147.639,
+        195.787
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1qm",
+      "a": "halvung_f2",
+      "b": "mount_zhayolm",
+      "exit": [
+        127.217,
+        296.021
+      ],
+      "arrival": [
+        148.709,
+        291.522
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1qo",
+      "a": "halvung_f4",
+      "b": "mount_zhayolm",
+      "exit": [
+        232.021,
+        207.203
+      ],
+      "arrival": [
+        131.586,
+        309.194
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1t0",
+      "a": "mamook_f1",
+      "b": "wajaom_woodlands",
+      "exit": [
+        408.001,
+        280.002
+      ],
+      "arrival": [
+        168.91,
+        387.992
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1t2",
+      "a": "mamook_f1",
+      "b": "wajaom_woodlands",
+      "exit": [
+        336.001,
+        223.596
+      ],
+      "arrival": [
+        116.09,
+        393.029
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1t4",
+      "a": "mamook_f1",
+      "b": "wajaom_woodlands",
+      "exit": [
+        375.99,
+        328.006
+      ],
+      "arrival": [
+        150.897,
+        436.119
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1t6",
+      "a": "mamook_f1",
+      "b": "bhaflau_thickets_f2",
+      "exit": [
+        200.005,
+        311.988
+      ],
+      "arrival": [
+        289.297,
+        299.853
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1t8",
+      "a": "mamook_f1",
+      "b": "bhaflau_thickets_f2",
+      "exit": [
+        63.99,
+        111.997
+      ],
+      "arrival": [
+        227.997,
+        199.999
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1w0",
+      "a": "aydeewa_subterrane_f6",
+      "b": "wajaom_woodlands",
+      "exit": [
+        255.984,
+        287.999
+      ],
+      "arrival": [
+        352.899,
+        299.995
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1w2",
+      "a": "aydeewa_subterrane_f2",
+      "b": "wajaom_woodlands",
+      "exit": [
+        264.006,
+        320.007
+      ],
+      "arrival": [
+        283.81,
+        310.191
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1w4",
+      "a": "aydeewa_subterrane_f4",
+      "b": "wajaom_woodlands",
+      "exit": [
+        284.457,
+        281.462
+      ],
+      "arrival": [
+        230.294,
+        332.161
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1w6",
+      "a": "aydeewa_subterrane_f7",
+      "b": "wajaom_woodlands",
+      "exit": [
+        178.368,
+        320.373
+      ],
+      "arrival": [
+        198.301,
+        355.879
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1w8",
+      "a": "aydeewa_subterrane_f2",
+      "b": "wajaom_woodlands",
+      "exit": [
+        296.43,
+        210.004
+      ],
+      "arrival": [
+        275.995,
+        199.106
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1wa",
+      "a": "aydeewa_subterrane_f2",
+      "b": "wajaom_woodlands",
+      "exit": [
+        200.0,
+        223.199
+      ],
+      "arrival": [
+        212.2,
+        217.692
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1wc",
+      "a": "aydeewa_subterrane_f3",
+      "b": "wajaom_woodlands",
+      "exit": [
+        221.976,
+        200.016
+      ],
+      "arrival": [
+        128.901,
+        283.931
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1we",
+      "a": "aydeewa_subterrane_f4",
+      "b": "wajaom_woodlands",
+      "exit": [
+        216.029,
+        253.205
+      ],
+      "arrival": [
+        180.141,
+        296.895
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1wg",
+      "a": "aydeewa_subterrane_f3",
+      "b": "wajaom_woodlands",
+      "exit": [
+        303.672,
+        248.02
+      ],
+      "arrival": [
+        198.293,
+        316.164
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1wi",
+      "a": "aydeewa_subterrane_f3",
+      "b": "wajaom_woodlands",
+      "exit": [
+        240.4,
+        247.988
+      ],
+      "arrival": [
+        152.897,
+        324.04
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1wk",
+      "a": "aydeewa_subterrane_f1",
+      "b": "bhaflau_thickets_f1",
+      "exit": [
+        319.974,
+        232.039
+      ],
+      "arrival": [
+        288.553,
+        228.0
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1wm",
+      "a": "aydeewa_subterrane_f1",
+      "b": "bhaflau_thickets_f1",
+      "exit": [
+        208.98,
+        215.98
+      ],
+      "arrival": [
+        223.732,
+        228.0
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z1wo",
+      "a": "aydeewa_subterrane_f3",
+      "b": "halvung_f1",
+      "exit": [
+        168.0,
+        208.036
+      ],
+      "arrival": [
+        239.997,
+        447.806
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z200",
+      "a": "alzadaal_undersea_ruins_f10",
+      "b": "caedarva_mire_f1",
+      "exit": [
+        224.0,
+        232.0
+      ],
+      "arrival": [
+        315.999,
+        336.257
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z202",
+      "a": "alzadaal_undersea_ruins_f9",
+      "b": "caedarva_mire_f4",
+      "exit": [
+        264.0,
+        223.974
+      ],
+      "arrival": [
+        248.944,
+        276.002
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z208",
+      "a": "alzadaal_undersea_ruins_f7",
+      "b": "caedarva_mire_f2",
+      "exit": [
+        280.0,
+        240.0
+      ],
+      "arrival": [
+        231.852,
+        324.001
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z20a",
+      "a": "alzadaal_undersea_ruins_f8",
+      "b": "bhaflau_thickets_f1",
+      "exit": [
+        216.0,
+        272.0
+      ],
+      "arrival": [
+        215.999,
+        188.005
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z270",
+      "a": "caedarva_mire_f1",
+      "b": "nashmau",
+      "exit": [
+        252.488,
+        332.016
+      ],
+      "arrival": [
+        272.526,
+        259.201
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z272",
+      "a": "caedarva_mire_f1",
+      "b": "nashmau",
+      "exit": [
+        250.108,
+        282.979
+      ],
+      "arrival": [
+        252.799,
+        175.469
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z274",
+      "a": "caedarva_mire_f1",
+      "b": "nashmau",
+      "exit": [
+        196.485,
+        331.999
+      ],
+      "arrival": [
+        207.506,
+        220.8
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z276",
+      "a": "caedarva_mire_f1",
+      "b": "arrapago_reef_f1",
+      "exit": [
+        276.015,
+        199.494
+      ],
+      "arrival": [
+        280.008,
+        368.01
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z278",
+      "a": "caedarva_mire_f1",
+      "b": "arrapago_reef_f1",
+      "exit": [
+        342.909,
+        163.99
+      ],
+      "arrival": [
+        320.001,
+        200.001
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z27a",
+      "a": "caedarva_mire_f2",
+      "b": "arrapago_reef_f11",
+      "exit": [
+        252.004,
+        247.697
+      ],
+      "arrival": [
+        247.998,
+        367.999
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z27g",
+      "a": "caedarva_mire_f2",
+      "b": "arrapago_reef_f11",
+      "exit": [
+        224.521,
+        204.005
+      ],
+      "arrival": [
+        192.002,
+        183.999
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z27k",
+      "a": "caedarva_mire_f1",
+      "b": "alzadaal_undersea_ruins_f10",
+      "exit": [
+        316.001,
+        336.805
+      ],
+      "arrival": [
+        224.0,
+        234.0
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z27m",
+      "a": "caedarva_mire_f4",
+      "b": "alzadaal_undersea_ruins_f9",
+      "exit": [
+        248.316,
+        275.991
+      ],
+      "arrival": [
+        262.0,
+        224.0
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "z27s",
+      "a": "caedarva_mire_f2",
+      "b": "alzadaal_undersea_ruins_f7",
+      "exit": [
+        232.502,
+        323.995
+      ],
+      "arrival": [
+        282.0,
+        240.0
+      ],
+      "source": "server_wiki_correlated"
+    },
+    {
+      "id": "wiki-113-112-1",
+      "a": "garlaige_citadel_f3",
+      "b": "garlaige_citadel_f2",
+      "exit": [
+        168.375,
+        237.377
+      ],
+      "arrival": [
+        225.062,
+        312.939
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-115-110-0",
+      "a": "outpost",
+      "b": "fort",
+      "exit": [
+        346.125,
+        262.004
+      ],
+      "arrival": [
+        165.0,
+        251.69
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-294-296-0",
+      "a": "al_zahbi",
+      "b": "bhaflau_thickets_f1",
+      "exit": [
+        217.425,
+        183.687
+      ],
+      "arrival": [
+        312.823,
+        321.528
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-294-298-0",
+      "a": "al_zahbi",
+      "b": "wajaom_woodlands",
+      "exit": [
+        182.268,
+        217.843
+      ],
+      "arrival": [
+        411.896,
+        208.993
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-295-296-0",
+      "a": "aht_urhgan_whitegate_f0",
+      "b": "bhaflau_thickets_f1",
+      "exit": [
+        241.573,
+        228.903
+      ],
+      "arrival": [
+        321.573,
+        282.622
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-296-294-0",
+      "a": "bhaflau_thickets_f1",
+      "b": "al_zahbi",
+      "exit": [
+        312.823,
+        321.528
+      ],
+      "arrival": [
+        217.425,
+        183.687
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-296-295-0",
+      "a": "bhaflau_thickets_f1",
+      "b": "aht_urhgan_whitegate_f0",
+      "exit": [
+        321.573,
+        282.622
+      ],
+      "arrival": [
+        241.573,
+        228.903
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-296-298-0",
+      "a": "bhaflau_thickets_f1",
+      "b": "wajaom_woodlands",
+      "exit": [
+        260.698,
+        341.372
+      ],
+      "arrival": [
+        332.146,
+        168.743
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-298-296-0",
+      "a": "wajaom_woodlands",
+      "b": "bhaflau_thickets_f1",
+      "exit": [
+        332.146,
+        168.743
+      ],
+      "arrival": [
+        260.698,
+        341.372
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-298-294-0",
+      "a": "wajaom_woodlands",
+      "b": "al_zahbi",
+      "exit": [
+        411.896,
+        208.993
+      ],
+      "arrival": [
+        182.268,
+        217.843
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-300-303-0",
+      "a": "aydeewa_subterrane_f2",
+      "b": "aydeewa_subterrane_f5",
+      "exit": [
+        136.32,
+        255.536
+      ],
+      "arrival": [
+        205.004,
+        229.807
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-300-303-1",
+      "a": "aydeewa_subterrane_f2",
+      "b": "aydeewa_subterrane_f5",
+      "exit": [
+        158.41,
+        296.018
+      ],
+      "arrival": [
+        231.473,
+        263.338
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-300-303-2",
+      "a": "aydeewa_subterrane_f2",
+      "b": "aydeewa_subterrane_f5",
+      "exit": [
+        194.035,
+        296.424
+      ],
+      "arrival": [
+        264.348,
+        264.12
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-300-303-3",
+      "a": "aydeewa_subterrane_f2",
+      "b": "aydeewa_subterrane_f5",
+      "exit": [
+        246.758,
+        283.161
+      ],
+      "arrival": [
+        319.66,
+        247.932
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-300-305-0",
+      "a": "aydeewa_subterrane_f2",
+      "b": "aydeewa_subterrane_f7",
+      "exit": [
+        295.758,
+        327.973
+      ],
+      "arrival": [
+        297.191,
+        193.424
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-301-303-0",
+      "a": "aydeewa_subterrane_f3",
+      "b": "aydeewa_subterrane_f5",
+      "exit": [
+        242.258,
+        168.161
+      ],
+      "arrival": [
+        184.285,
+        265.182
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-301-303-1",
+      "a": "aydeewa_subterrane_f3",
+      "b": "aydeewa_subterrane_f5",
+      "exit": [
+        266.57,
+        181.973
+      ],
+      "arrival": [
+        210.285,
+        280.526
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-301-305-0",
+      "a": "aydeewa_subterrane_f3",
+      "b": "aydeewa_subterrane_f7",
+      "exit": [
+        355.445,
+        264.723
+      ],
+      "arrival": [
+        235.316,
+        270.862
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-302-303-0",
+      "a": "aydeewa_subterrane_f4",
+      "b": "aydeewa_subterrane_f5",
+      "exit": [
+        261.504,
+        247.495
+      ],
+      "arrival": [
+        289.004,
+        282.182
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-303-300-0",
+      "a": "aydeewa_subterrane_f5",
+      "b": "aydeewa_subterrane_f2",
+      "exit": [
+        205.004,
+        229.807
+      ],
+      "arrival": [
+        136.32,
+        255.536
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-303-300-1",
+      "a": "aydeewa_subterrane_f5",
+      "b": "aydeewa_subterrane_f2",
+      "exit": [
+        231.473,
+        263.338
+      ],
+      "arrival": [
+        158.41,
+        296.018
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-303-300-2",
+      "a": "aydeewa_subterrane_f5",
+      "b": "aydeewa_subterrane_f2",
+      "exit": [
+        264.348,
+        264.12
+      ],
+      "arrival": [
+        194.035,
+        296.424
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-303-300-3",
+      "a": "aydeewa_subterrane_f5",
+      "b": "aydeewa_subterrane_f2",
+      "exit": [
+        319.66,
+        247.932
+      ],
+      "arrival": [
+        246.758,
+        283.161
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-303-301-0",
+      "a": "aydeewa_subterrane_f5",
+      "b": "aydeewa_subterrane_f3",
+      "exit": [
+        184.285,
+        265.182
+      ],
+      "arrival": [
+        242.258,
+        168.161
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-303-301-1",
+      "a": "aydeewa_subterrane_f5",
+      "b": "aydeewa_subterrane_f3",
+      "exit": [
+        210.285,
+        280.526
+      ],
+      "arrival": [
+        266.57,
+        181.973
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-303-302-0",
+      "a": "aydeewa_subterrane_f5",
+      "b": "aydeewa_subterrane_f4",
+      "exit": [
+        289.004,
+        282.182
+      ],
+      "arrival": [
+        261.504,
+        247.495
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-304-305-0",
+      "a": "aydeewa_subterrane_f6",
+      "b": "aydeewa_subterrane_f7",
+      "exit": [
+        233.254,
+        241.33
+      ],
+      "arrival": [
+        379.175,
+        177.741
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-305-300-0",
+      "a": "aydeewa_subterrane_f7",
+      "b": "aydeewa_subterrane_f2",
+      "exit": [
+        297.191,
+        193.424
+      ],
+      "arrival": [
+        295.758,
+        327.973
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-305-301-0",
+      "a": "aydeewa_subterrane_f7",
+      "b": "aydeewa_subterrane_f3",
+      "exit": [
+        235.316,
+        270.862
+      ],
+      "arrival": [
+        355.445,
+        264.723
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-305-304-0",
+      "a": "aydeewa_subterrane_f7",
+      "b": "aydeewa_subterrane_f6",
+      "exit": [
+        379.175,
+        177.741
+      ],
+      "arrival": [
+        233.254,
+        241.33
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-306-308-0",
+      "a": "mamook_f1",
+      "b": "mamook_f3",
+      "exit": [
+        321.956,
+        382.379
+      ],
+      "arrival": [
+        352.956,
+        283.066
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-306-308-2",
+      "a": "mamook_f1",
+      "b": "mamook_f3",
+      "exit": [
+        146.238,
+        295.691
+      ],
+      "arrival": [
+        175.894,
+        198.816
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-308-306-0",
+      "a": "mamook_f3",
+      "b": "mamook_f1",
+      "exit": [
+        175.894,
+        198.816
+      ],
+      "arrival": [
+        146.238,
+        295.691
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-308-306-1",
+      "a": "mamook_f3",
+      "b": "mamook_f1",
+      "exit": [
+        352.956,
+        283.066
+      ],
+      "arrival": [
+        321.956,
+        382.379
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-333-334-0",
+      "a": "arrapago_reef_f1",
+      "b": "arrapago_reef_f10",
+      "exit": [
+        199.641,
+        320.133
+      ],
+      "arrival": [
+        351.116,
+        363.232
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-333-334-1",
+      "a": "arrapago_reef_f1",
+      "b": "arrapago_reef_f10",
+      "exit": [
+        149.906,
+        240.641
+      ],
+      "arrival": [
+        310.178,
+        271.545
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-334-333-0",
+      "a": "arrapago_reef_f10",
+      "b": "arrapago_reef_f1",
+      "exit": [
+        351.116,
+        363.232
+      ],
+      "arrival": [
+        199.641,
+        320.133
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-334-333-1",
+      "a": "arrapago_reef_f10",
+      "b": "arrapago_reef_f1",
+      "exit": [
+        310.178,
+        271.545
+      ],
+      "arrival": [
+        149.906,
+        240.641
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-334-339-0",
+      "a": "arrapago_reef_f10",
+      "b": "arrapago_reef_f5",
+      "exit": [
+        175.147,
+        345.92
+      ],
+      "arrival": [
+        226.741,
+        247.701
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-334-339-1",
+      "a": "arrapago_reef_f10",
+      "b": "arrapago_reef_f5",
+      "exit": [
+        208.584,
+        313.795
+      ],
+      "arrival": [
+        257.334,
+        215.982
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-334-339-2",
+      "a": "arrapago_reef_f10",
+      "b": "arrapago_reef_f5",
+      "exit": [
+        238.272,
+        329.326
+      ],
+      "arrival": [
+        295.709,
+        226.514
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-334-339-3",
+      "a": "arrapago_reef_f10",
+      "b": "arrapago_reef_f5",
+      "exit": [
+        249.272,
+        356.107
+      ],
+      "arrival": [
+        298.366,
+        255.045
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-334-340-0",
+      "a": "arrapago_reef_f10",
+      "b": "arrapago_reef_f6",
+      "exit": [
+        280.241,
+        352.639
+      ],
+      "arrival": [
+        297.803,
+        207.732
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-336-340-0",
+      "a": "arrapago_reef_f2",
+      "b": "arrapago_reef_f6",
+      "exit": [
+        264.366,
+        164.92
+      ],
+      "arrival": [
+        216.928,
+        290.982
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-339-334-0",
+      "a": "arrapago_reef_f5",
+      "b": "arrapago_reef_f10",
+      "exit": [
+        295.709,
+        226.514
+      ],
+      "arrival": [
+        238.272,
+        329.326
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-339-334-1",
+      "a": "arrapago_reef_f5",
+      "b": "arrapago_reef_f10",
+      "exit": [
+        298.366,
+        255.045
+      ],
+      "arrival": [
+        249.272,
+        356.107
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-339-334-2",
+      "a": "arrapago_reef_f5",
+      "b": "arrapago_reef_f10",
+      "exit": [
+        257.334,
+        215.982
+      ],
+      "arrival": [
+        208.584,
+        313.795
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-339-334-3",
+      "a": "arrapago_reef_f5",
+      "b": "arrapago_reef_f10",
+      "exit": [
+        226.741,
+        247.701
+      ],
+      "arrival": [
+        175.147,
+        345.92
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-340-334-0",
+      "a": "arrapago_reef_f6",
+      "b": "arrapago_reef_f10",
+      "exit": [
+        297.803,
+        207.732
+      ],
+      "arrival": [
+        280.241,
+        352.639
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-340-336-0",
+      "a": "arrapago_reef_f6",
+      "b": "arrapago_reef_f2",
+      "exit": [
+        216.928,
+        290.982
+      ],
+      "arrival": [
+        264.366,
+        164.92
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-384-385-0",
+      "a": "halvung_f1",
+      "b": "halvung_f2",
+      "exit": [
+        160.266,
+        210.593
+      ],
+      "arrival": [
+        297.172,
+        318.655
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-384-385-1",
+      "a": "halvung_f1",
+      "b": "halvung_f2",
+      "exit": [
+        61.828,
+        214.249
+      ],
+      "arrival": [
+        177.203,
+        314.155
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-384-385-2",
+      "a": "halvung_f1",
+      "b": "halvung_f2",
+      "exit": [
+        229.328,
+        105.28
+      ],
+      "arrival": [
+        343.828,
+        201.78
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-385-384-0",
+      "a": "halvung_f2",
+      "b": "halvung_f1",
+      "exit": [
+        177.203,
+        314.155
+      ],
+      "arrival": [
+        61.828,
+        214.249
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-385-384-1",
+      "a": "halvung_f2",
+      "b": "halvung_f1",
+      "exit": [
+        297.172,
+        318.655
+      ],
+      "arrival": [
+        160.266,
+        210.593
+      ],
+      "source": "wiki_reciprocal"
+    },
+    {
+      "id": "wiki-385-384-3",
+      "a": "halvung_f2",
+      "b": "halvung_f1",
+      "exit": [
+        343.828,
+        201.78
+      ],
+      "arrival": [
+        229.328,
+        105.28
+      ],
+      "source": "wiki_reciprocal"
+    }
+  ]
+}

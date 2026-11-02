@@ -1,0 +1,16 @@
+{
+  "source": "https://horizonffxi.wiki/Interactive_Map",
+  "assets": {
+    "assets/references/aht-354.png": "fa72e703dc4878bf38814556ad0ef5f0c5b681f12c918bfa433a764ea177e79b",
+    "assets/references/aht-319.png": "1738c1419db3061a1cbc7ddc05e9aef5383d10a601708294dac88c2d3f068cb2",
+    "assets/references/aht-320.png": "191741434a5bf0eadf906a52ea2bf68a388456516982d25593979b23e25f839f",
+    "assets/references/aht-321.png": "abfd94d9a00dda863571b5c9fcc865527dfd7a79e7c3d208ee27f4bc6328756c",
+    "assets/references/aht-322.png": "8bea7735f04bd534d0882c468138362569fe5fe4751d46dced307a891e8df0b3",
+    "assets/references/aht-323.png": "9f478d77c9205df57618a846ffa234eb05597de8132064201505d7a3d343b2a1",
+    "assets/references/aht-324.png": "75143f6f9a7c9e7264ba3ecdfb5fea9ba66668361accc22f6a6ed3456e5804d8",
+    "assets/references/aht-325.png": "1affd9fa85286d69a24f76bc88f4fe0ffdb99c5f241d60c8c7289507dedde5dc",
+    "assets/references/aht-326.png": "44be65664ab0797d76b7d05e5d12c85762df6a1d57828670a40a191893466a45"
+  },
+  "attribution": "HorizonXI Wiki / FFXI Atlas / Square Enix",
+  "policy": "Reference artwork normalized to 512 pixels. Native floors and precise entity positions are not inferred."
+}

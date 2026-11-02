@@ -65,6 +65,7 @@ local function remapster_art(data,path)
     return candidate==data
 end
 function M.texture(def)
+    if def.asset then return M.asset(def.asset) end
     local key=def.key or 'world'
     if M.cache[key] then return M.cache[key] end
     if not def.dat then return nil,'This area has no standard client map.' end

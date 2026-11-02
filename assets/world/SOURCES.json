@@ -90,5 +90,24 @@
     "assets/world/connected-lod5-7-7.png": "01c3d96f8dcae371878961b2e2710109042a7845b94e5b79e926f88d1e68ef02"
   },
   "attribution": "HorizonXI Wiki interactive map; Remapster, Square Enix, FFXI Atlas",
+  "besieged": {
+    "path": "ROM/161/34.DAT",
+    "dat": 53416,
+    "identity": "m_ex3_rg",
+    "sha256": "86dc6483601bde88d5ebe7c5d88038fb5237402137e357a39dda1c04c28a17de",
+    "native_dimensions": [
+      512,
+      512
+    ],
+    "placement": [
+      8512,
+      2304,
+      4096,
+      4096
+    ],
+    "layout_sha256": "7bdb7a4a766f405a38515c8110030db7e314058497e5b7440769069bbcd9fadb"
+  },
+  "world_selectors_sha256": "0a2df4840c2f03d128cef515bba140d3d37a47d5a4807a08f1dceb506cd756eb",
+  "world_selector_additions_sha256": "88f58d4de6d0a14007da16f4ae279888fe0c676dc14e25aba7399557763eead5",
   "pixel_policy": "LOD 5 preserves native pixels; lower LODs downsample the same connected artwork, preserving identical layout."
 }

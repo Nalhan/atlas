@@ -120,8 +120,8 @@ other:
         lua.execute('package.path=... .. "/?.lua;" .. package.path',ADDON.as_posix())
         lua.execute('''
         local R=require('src.regions');local C=require('src.catalog')
-        for _,id in ipairs(R.order) do
-            local b=R.get(id);assert(b.artwork.zoom_level==5)
+        for id,b in pairs(require('data.regional_art')) do
+            assert(R.get(id)==b and b.artwork.zoom_level==5)
             assert(b.artwork.source_bounds[3]-b.artwork.source_bounds[1]==b.width)
             assert(b.artwork.source_bounds[4]-b.artwork.source_bounds[2]==b.height)
             for _,key in ipairs(b.order) do

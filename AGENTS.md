@@ -1,7 +1,7 @@
 # Atlas agent entry point
 
 Read [HANDOFF.md](HANDOFF.md) before continuing work. It records the current
-0.7.0 state, superseded UI decisions, build dependencies, known gaps and checks.
+0.8.7 state, superseded UI decisions, build dependencies, known gaps and checks.
 
 Keep work scoped to Atlas unless the user requests otherwise. Preserve manual
 exit-area saves and generated-data provenance. Prefer the cached deterministic

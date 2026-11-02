@@ -1,4 +1,4 @@
-local W={data=require('data.world_art')}
+local W={data=require('src.world_selectors').data}
 function W.zone_bounds(key)
     local region=W.data.regions[require('src.catalog').maps[key].region]
     for _,node in ipairs(W.data.zones) do
